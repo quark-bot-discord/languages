@@ -1,0 +1,38 @@
+{
+    "messageDeleted": {
+        "title": "Message Deleted",
+        "author": "Message author",
+        "channel": "Channel",
+        "deletedBy": "Deleted by",
+        "jumpToContext": "Jump to context",
+        "warning": "WARNING!",
+        "linksToEmojis": "Links to emojis",
+        "linksToFiles": "Links to files",
+        "inviteDetected": "Server invite detected",
+        "file": "file",
+        "files": "files",
+        "fileExpired": "file too large or expired",
+        "filesExpired": "files too large or expired"
+    },
+    "messagesBulkDeleted": {
+        "title": "Multiple Messages Deleted",
+        "deletedBy": "Deleted by",
+        "channel": "Channel",
+        "more": " more...",
+        "uncachedUser": "uncached user",
+        "uncachedChannel": "uncached channel",
+        "uncachedMessage": "uncached message",
+        "embed": "embed",
+        "errorFile": "There was an issue with recovering the files. If this happens persistently, please make us aware in our support server.\n",
+        "errorText": "There was an issue with creating a text file. Some messages may be lost. If this happens persistently, please make us aware in our support server.\n"
+    },
+    "messageEdited": {
+        "title": "Message Edited",
+        "author": "Message author",
+        "channel": "Channel",
+        "jumpToMessage": "Jump to message",
+        "afterEdit": "After edit",
+        "diff": "Diff",
+        "cannotRetrieveOriginal": "*[Cannot retrieve original message]*"
+    }
+}
