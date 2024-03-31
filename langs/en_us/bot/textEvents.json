@@ -26,13 +26,25 @@
         "errorFile": "There was an issue with recovering the files. If this happens persistently, please make us aware in our support server.\n",
         "errorText": "There was an issue with creating a text file. Some messages may be lost. If this happens persistently, please make us aware in our support server.\n"
     },
-    "messageEdited": {
+    "messageUpdate": {
         "title": "Message Edited",
         "author": "Message author",
         "channel": "Channel",
         "jumpToMessage": "Jump to message",
         "afterEdit": "After edit",
         "diff": "Diff",
-        "cannotRetrieveOriginal": "*[Cannot retrieve original message]*"
+        "cannotRetrieveOriginal": "*[Cannot retrieve original message]*",
+        "noContent": "[No content]"
+    },
+    "attachmentDeleted": {
+        "title": "Attachment Deleted"
+    },
+    "messagePin": {
+        "title": "Message Pinned",
+        "description": "A message was pinned by {executor}"
+    },
+    "messageUnpin": {
+        "title": "Message Unpinned",
+        "description": "A message was unpinned by {executor}"
     }
 }
