@@ -46,5 +46,18 @@
     "messageUnpin": {
         "title": "Message Unpinned",
         "description": "A message was unpinned by {executor}"
+    },
+    "threadCreate": {
+        "thread": "Thread",
+        "channel": "Channel",
+        "jumpToContext": "Jump to context",
+        "title": "Thread Created",
+        "description": "{member} created a new thread {thread}"
+    },
+    "threadDelete": {
+        "thread": "Thread",
+        "channel": "Channel",
+        "title": "Thread Deleted",
+        "description": "{executor} deleted a thread {thread}"
     }
 }
