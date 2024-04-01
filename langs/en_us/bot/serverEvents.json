@@ -1,0 +1,37 @@
+{
+    "members": "Members",
+    "userJoined": {
+        "title": "User Joined",
+        "description": "{user} joined the server",
+        "noAvatar": "Account has no avatar",
+        "newAccount": "Account is new",
+        "noBadges": "Account has no badges",
+        "warning": "WARNING!",
+        "accountCreated": "Account created",
+        "invite": "Invite",
+        "createdBy": "created by {user}",
+        "ban": "Ban"
+    },
+    "userLeft": {
+        "title": "User Left",
+        "description": "{user} left the server",
+        "joined": "Joined"
+    },
+    "botAdded": {
+        "title": "Bot Added",
+        "description": "{bot} was added to the server by {executor}",
+        "descriptionne": "{bot} was added to the server"
+    },
+    "botRemoved": {
+        "title": "Bot Removed",
+        "description": "{bot} was removed from the server by {executor}",
+        "descriptionne": "{bot} was removed from the server"
+    },
+    "nicknameUpdate": {
+        "title": "Nickname Updated",
+        "description": "{user}'s nickname was changed from {oldNickname} to {newNickname}",
+        "setNick": "{user}'s nickname was set to **{newNickname}**",
+        "nickRemoved": "{user}'s nickname of **{oldNickname}** was removed",
+        "changedBy": "Changed by"
+    }
+}
