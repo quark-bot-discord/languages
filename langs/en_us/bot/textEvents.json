@@ -12,7 +12,10 @@
         "file": "file",
         "files": "files",
         "fileExpired": "file too large or expired",
-        "filesExpired": "files too large or expired"
+        "filesExpired": "files too large or expired",
+        "sticker": "[sticker]",
+        "noContent": "[no content]",
+        "thread": "Thread"
     },
     "messagesBulkDeleted": {
         "title": "Multiple Messages Deleted",
@@ -34,7 +37,8 @@
         "afterEdit": "After edit",
         "diff": "Diff",
         "cannotRetrieveOriginal": "*[Cannot retrieve original message]*",
-        "noContent": "[No content]"
+        "noContent": "[no content]",
+        "thread": "Thread"
     },
     "attachmentDeleted": {
         "title": "Attachment Deleted"
