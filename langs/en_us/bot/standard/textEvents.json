@@ -1,4 +1,17 @@
 {
+    "polls":{
+        "poll": "Poll",
+        "status": "Poll has {status}.",
+        "ended": "ended",
+        "notEnded": "not ended",
+        "multiselect": "Multiselect is {status}.",
+        "enabled": "enabled",
+        "disabled": "disabled",
+        "ends": "Poll ends {time}.",
+        "noResults": "No results available.",
+        "votes": "{number} votes",
+        "notApplicable": "N/A"
+    },
     "messageDeleted": {
         "title": "Message Deleted",
         "author": "Message author",
