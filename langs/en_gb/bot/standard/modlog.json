@@ -1,0 +1,16 @@
+{
+    "moderator": "Moderator",
+    "user": "User",
+    "reason": "Reason",
+    "case": "Case",
+    "noReason": "Moderator: please run {command}",
+    "noReasonBrief": "Run {command}",
+
+    "ban": "Ban",
+    "unban": "Unban",
+    "kick": "Kick",
+    "mute": "Mute",
+    "unmute": "Unmute",
+
+    "timeoutEnds": "Timeout ends {time}"
+}

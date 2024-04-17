@@ -1,0 +1,60 @@
+{
+    "streamStart": {
+        "title": "Stream Started",
+        "description": "{user} started streaming in the {channel} voice channel"
+    },
+    "streamStop": {
+        "title": "Stream Ended",
+        "description": "{user} stopped streaming in the {channel} voice channel"
+    },
+    "videoStart": {
+        "title": "Video Started",
+        "description": "{user} started their video in the {channel} voice channel"
+    },
+    "videoStop": {
+        "title": "Video Stopped",
+        "description": "{user} stopped their video in the {channel} voice channel"
+    },
+    "voiceChange": {
+        "title": "Changed Channel",
+        "description_switched": "{user} moved from the {channel_old} voice channel to the {channel_new} voice channel",
+        "description_moved": "{user} was moved from the {channel_old} voice channel to the {channel_new} voice channel",
+        "movedBy": "Moved by"
+    },
+    "voiceJoin": {
+        "title": "Joined Channel",
+        "description": "{user} joined the {channel} voice channel"
+    },
+    "voiceLeave": {
+        "title": "Left Channel",
+        "description": "{user} left the {channel} voice channel",
+        "disconnected_description": "{user} was disconnected",
+        "disconnected_title": "Disconnected",
+        "disconnectedBy": "Disconnected by",
+        "voiceChannel": "Voice channel"
+    },
+    "serverDeafen": {
+        "title": "Deafened",
+        "description": "{user} was deafened",
+        "deafenedBy": "Deafened by",
+        "voiceChannel": "Voice channel"
+    },
+    "serverMute": {
+        "title": "Muted",
+        "description": "{user} was muted",
+        "mutedBy": "Muted by",
+        "voiceChannel": "Voice channel"
+    },
+    "serverUndeafen": {
+        "title": "Undeafened",
+        "description": "{user} was undeafened",
+        "undeafenedBy": "Undeafened by",
+        "voiceChannel": "Voice channel"
+    },
+    "serverUnmute": {
+        "title": "Unmuted",
+        "description": "{user} was unmuted",
+        "unmutedBy": "Unmuted by",
+        "voiceChannel": "Voice channel"
+    }
+}
