@@ -69,8 +69,8 @@
                 "en-GB": "reason"
             },
             "description": {
-                "en-US": "The reason for kicking the user",
-                "en-GB": "The reason for kicking the user"
+                "en-US": "The reason for muting the user",
+                "en-GB": "The reason for muting the user"
             }
         }
     }

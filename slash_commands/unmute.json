@@ -26,8 +26,8 @@
                 "en-GB": "reason"
             },
             "description": {
-                "en-US": "The reason for unmutening the user",
-                "en-GB": "The reason for unmutening the user"
+                "en-US": "The reason for unmuting the user",
+                "en-GB": "The reason for unmuting the user"
             }
         }
     }
