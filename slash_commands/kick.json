@@ -1,0 +1,34 @@
+{
+    "name": {
+        "en-US": "kick",
+        "en-GB": "kick"
+    },
+    "description": {
+        "en-US": "Kick a user",
+        "en-GB": "Kick a user"
+    },
+
+    "commandOptions": {
+        "userOption": {
+            "name": {
+                "en-US": "user",
+                "en-GB": "user"
+            },
+            "description": {
+                "en-US": "The user to kick",
+                "en-GB": "The user to kick"
+            }
+        },
+
+        "reasonOption": {
+            "name": {
+                "en-US": "reason",
+                "en-GB": "reason"
+            },
+            "description": {
+                "en-US": "The reason for kicking the user",
+                "en-GB": "The reason for kicking the user"
+            }
+        }
+    }
+}

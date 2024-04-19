@@ -1,0 +1,34 @@
+{
+    "name": {
+        "en-US": "reason",
+        "en-GB": "reason"
+    },
+    "description": {
+        "en-US": "Modify the reason on a modlog",
+        "en-GB": "Modify the reason on a modlog"
+    },
+
+    "commandOptions": {
+        "caseOption": {
+            "name": {
+                "en-US": "case",
+                "en-GB": "case"
+            },
+            "description": {
+                "en-US": "Message ID of the modlog to modify",
+                "en-GB": "Message ID of the modlog to modify"
+            }
+        },
+
+        "reasonOption": {
+            "name": {
+                "en-US": "reason",
+                "en-GB": "reason"
+            },
+            "description": {
+                "en-US": "The new reason to update the modlog case with",
+                "en-GB": "The new reason to update the modlog case with"
+            }
+        }
+    }
+}

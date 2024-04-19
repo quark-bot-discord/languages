@@ -1,0 +1,34 @@
+{
+    "name": {
+        "en-US": "unban",
+        "en-GB": "unban"
+    },
+    "description": {
+        "en-US": "Unban a user",
+        "en-GB": "Unban a user"
+    },
+
+    "commandOptions": {
+        "userOption": {
+            "name": {
+                "en-US": "user-id",
+                "en-GB": "user-id"
+            },
+            "description": {
+                "en-US": "The ID of the user to unban",
+                "en-GB": "The ID of the user to unban"
+            }
+        },
+
+        "reasonOption": {
+            "name": {
+                "en-US": "reason",
+                "en-GB": "reason"
+            },
+            "description": {
+                "en-US": "The reason for unbanning the user",
+                "en-GB": "The reason for unbanning the user"
+            }
+        }
+    }
+}

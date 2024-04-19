@@ -1,0 +1,10 @@
+{
+    "name": {
+        "en-US": "commands",
+        "en-GB": "commands"
+    },
+    "description": {
+        "en-US": "See a list of Quark's commands",
+        "en-GB": "See a list of Quark's commands"
+    }
+}

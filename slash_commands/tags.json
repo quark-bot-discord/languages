@@ -1,0 +1,176 @@
+{
+    "name": {
+        "en-US": "tags",
+        "en-GB": "tags"
+    },
+    "description": {
+        "en-US": "Tags",
+        "en-GB": "Tags"
+    },
+    "commandOptions": {
+        "sendOptionTag": {
+            "name": {
+                "en-US": "tag",
+                "en-GB": "tag"
+            },
+            "description": {
+                "en-US": "Name of tag to send",
+                "en-GB": "Name of tag to send"
+            }
+        },
+
+        "sendOptionUser": {
+            "name": {
+                "en-US": "user",
+                "en-GB": "user"
+            },
+            "description": {
+                "en-US": "Mentions a user for better visibility",
+                "en-GB": "Mentions a user for better visibility"
+            }
+        },
+
+        "sendOption": {
+            "name": {
+                "en-US": "send",
+                "en-GB": "send"
+            },
+            "description": {
+                "en-US": "Send a tag",
+                "en-GB": "Send a tag"
+            }
+        },
+
+        "editOptionTag": {
+            "name": {
+                "en-US": "tag",
+                "en-GB": "tag"
+            },
+            "description": {
+                "en-US": "Name of tag to edit",
+                "en-GB": "Name of tag to edit"
+            }
+        },
+
+        "editOptionText": {
+            "name": {
+                "en-US": "text",
+                "en-GB": "text"
+            },
+            "description": {
+                "en-US": "Text to display on the tag",
+                "en-GB": "Text to display on the tag"
+            }
+        },
+
+        "editOptionColour": {
+            "name": {
+                "en-US": "colour",
+                "en-GB": "colour"
+            },
+            "description": {
+                "en-US": "The hex colour code for the tag",
+                "en-GB": "The hex colour code for the tag"
+            }
+        },
+
+        "editOptionImage": {
+            "name": {
+                "en-US": "image",
+                "en-GB": "image"
+            },
+            "description": {
+                "en-US": "A URL for an image to be displayed on the tag",
+                "en-GB": "A URL for an image to be displayed on the tag"
+            }
+        },
+
+        "editOption": {
+            "name": {
+                "en-US": "edit",
+                "en-GB": "edit"
+            },
+            "description": {
+                "en-US": "Edit a tag",
+                "en-GB": "Edit a tag"
+            }
+        },
+
+        "createOptionTag": {
+            "name": {
+                "en-US": "tag",
+                "en-GB": "tag"
+            },
+            "description": {
+                "en-US": "Name of tag to create",
+                "en-GB": "Name of tag to create"
+            }
+        },
+
+        "createOptionText": {
+            "name": {
+                "en-US": "text",
+                "en-GB": "text"
+            },
+            "description": {
+                "en-US": "Text to display on the tag",
+                "en-GB": "Text to display on the tag"
+            }
+        },
+
+        "createOption": {
+            "name": {
+                "en-US": "create",
+                "en-GB": "create"
+            },
+            "description": {
+                "en-US": "Create a tag",
+                "en-GB": "Create a tag"
+            }
+        },
+
+        "deleteOptionTag": {
+            "name": {
+                "en-US": "tag",
+                "en-GB": "tag"
+            },
+            "description": {
+                "en-US": "Name of tag to delete",
+                "en-GB": "Name of tag to delete"
+            }
+        },
+
+        "deleteOption": {
+            "name": {
+                "en-US": "delete",
+                "en-GB": "delete"
+            },
+            "description": {
+                "en-US": "Delete a tag",
+                "en-GB": "Delete a tag"
+            }
+        },
+
+        "listOption": {
+            "name": {
+                "en-US": "list",
+                "en-GB": "list"
+            },
+            "description": {
+                "en-US": "List all tags",
+                "en-GB": "List all tags"
+            }
+        },
+        
+        "helpOption": {
+            "name": {
+                "en-US": "help",
+                "en-GB": "help"
+            },
+            "description": {
+                "en-US": "Get help with tags",
+                "en-GB": "Get help with tags"
+            }
+        }
+    }
+}

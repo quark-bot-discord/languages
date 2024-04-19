@@ -1,0 +1,77 @@
+{
+    "name": {
+        "en-US": "mute",
+        "en-GB": "mute"
+    },
+    "description": {
+        "en-US": "Mute a user",
+        "en-GB": "Mute a user"
+    },
+
+    "commandOptions": {
+        "userOption": {
+            "name": {
+                "en-US": "user",
+                "en-GB": "user"
+            },
+            "description": {
+                "en-US": "The user to mute",
+                "en-GB": "The user to mute"
+            }
+        },
+
+        "timeOption": {
+            "name": {
+                "en-US": "time",
+                "en-GB": "time"
+            },
+            "description": {
+                "en-US": "Period of time to timeout the user for. Default unit is days",
+                "en-GB": "Period of time to timeout the user for. Default unit is days"
+            }
+        },
+
+        "typeOption": {
+            "name": {
+                "en-US": "type",
+                "en-GB": "type"
+            },
+            "description": {
+                "en-US": "Units for the \"time\" field. Defaults to days",
+                "en-GB": "Units for the \"time\" field. Defaults to days"
+            },
+
+            "choices": {
+                "minutes": {
+                    "name": {
+                        "en-US": "minutes",
+                        "en-GB": "minutes"
+                    }
+                },
+                "hours": {
+                    "name": {
+                        "en-US": "hours",
+                        "en-GB": "hours"
+                    }
+                },
+                "days": {
+                    "name": {
+                        "en-US": "days",
+                        "en-GB": "days"
+                    }
+                }
+            }
+        },
+
+        "reasonOption": {
+            "name": {
+                "en-US": "reason",
+                "en-GB": "reason"
+            },
+            "description": {
+                "en-US": "The reason for kicking the user",
+                "en-GB": "The reason for kicking the user"
+            }
+        }
+    }
+}

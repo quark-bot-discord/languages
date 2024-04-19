@@ -1,0 +1,45 @@
+{
+    "name": {
+        "en-US": "ban",
+        "en-GB": "ban"
+    },
+    "description": {
+        "en-US": "Ban a user",
+        "en-GB": "Ban a user"
+    },
+    
+    "commandOptions": {
+        "userOption": {
+            "name": {
+                "en-US": "user",
+                "en-GB": "user"
+            },
+            "description": {
+                "en-US": "The user to ban",
+                "en-GB": "The user to ban"
+            }
+        },
+
+        "reasonOption": {
+            "name": {
+                "en-US": "reason",
+                "en-GB": "reason"
+            },
+            "description": {
+                "en-US": "The reason for banning the user",
+                "en-GB": "The reason for banning the user"
+            }
+        },
+
+        "deleteMessageDaysOption": {
+            "name": {
+                "en-US": "delete",
+                "en-GB": "delete"
+            },
+            "description": {
+                "en-US": "Number of days of user messages to delete",
+                "en-GB": "Number of days of user messages to delete"
+            }
+        }
+    }
+}
