@@ -21,7 +21,7 @@
     },
     "voiceMove": {
         "title": "Moved",
-        "description_moved": "{user} was moved from the {channel_old} voice channel to the {channel_new} voice channel",
+        "description": "{user} was moved from the {channel_old} voice channel to the {channel_new} voice channel",
         "movedBy": "Moved by"
     },
     "voiceJoin": {

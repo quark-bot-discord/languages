@@ -21,7 +21,7 @@
     },
     "voiceMove": {
         "title": "Ordered T' Move",
-        "description_moved": "{user} was ordered t' move from th' {channel_old} cabin to the {channel_new} cabin",
+        "description": "{user} was ordered t' move from th' {channel_old} cabin to the {channel_new} cabin",
         "movedBy": "Ordered by"
     },
     "voiceJoin": {

@@ -21,7 +21,7 @@
     },
     "voiceMove": {
         "title": "Taşındı",
-        "description_moved": "{user}, {channel_old} ses kanalından {channel_new} ses kanalına taşındı",
+        "description": "{user}, {channel_old} ses kanalından {channel_new} ses kanalına taşındı",
         "movedBy": "Taşıyan"
     },
     "voiceJoin": {
