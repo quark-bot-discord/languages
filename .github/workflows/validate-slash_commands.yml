@@ -10,4 +10,4 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Validate JSON files
-      run: bash ./scripts/validate-slash_commands.sh ./slash-commands/
+      run: bash ./scripts/validate-slash_commands.sh ./slash-commands
