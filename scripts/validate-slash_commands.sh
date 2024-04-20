@@ -1,4 +1,5 @@
 #!/bin/bash
+ls
 
 # Directory containing JSON files
 directory=$1
