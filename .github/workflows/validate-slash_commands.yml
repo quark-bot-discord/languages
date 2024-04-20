@@ -1,6 +1,6 @@
 name: Slash command validation
 
-on: [push, pull_request]
+on: [push, pull_request, workflow_dispatch]
 
 jobs:
   validate-json:
@@ -8,9 +8,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-
-    - name: Install jq
-      run: sudo apt-get install jq
 
     - name: Validate JSON files
       run: bash ./scripts/validate-slash_commands.sh ./slash-commands
