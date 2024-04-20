@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const baseDirectory = './langs'; // Adjust if your base directory differs
+const baseDirectory = './langs';
 const conversionFile = './languages-conversion.json';
 
 let foundErrors = false;
