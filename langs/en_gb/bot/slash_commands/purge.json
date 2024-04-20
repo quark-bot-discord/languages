@@ -1,0 +1,10 @@
+{
+    "name": "purge",
+    "description": "Purge channel messages",
+    "commandOptions": {
+        "countOption": {
+            "name": "count",
+            "description": "Number of messages to delete (2-100)"
+        }
+    }
+}

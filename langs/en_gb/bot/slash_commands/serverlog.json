@@ -1,0 +1,71 @@
+{
+    "name": "serverlog",
+    "description": "Serverlog",
+
+    "commandOptions": {
+        "channelOptionAllChannel": {
+            "name": "channel",
+            "description": "Select the logging channel"
+        },
+
+        "channelOptionAll": {
+            "name": "all",
+            "description": "Toggle channel from logging all log types"
+        },
+
+        "channelOption": {
+            "name": "channel",
+            "description": "Set the serverlog channel"
+        },
+
+        "targetUserOption": {
+            "name": "user",
+            "description": "Select a target"
+        },
+
+        "ignoreOptionTarget": {
+            "name": "target",
+            "description": "Targets are people who are doing the action"
+        },
+
+        "messageContentOption": {
+            "name": "content",
+            "description": "Add or remove a message from the ignore list"
+        },
+
+        "ignoreOptionMessage": {
+            "name": "message",
+            "description": "Messages with this exact content are not recorded to the serverlog"
+        },
+
+        "executorUserOption": {
+            "name": "user",
+            "description": "Select an executor"
+        },
+
+        "ignoreOptionExecutor": {
+            "name": "executor",
+            "description": "Executors are people carrying out the action"
+        },
+
+        "ignoreOptionsChannelChannel": {
+            "name": "channel",
+            "description": "Add or remove a channel from the ignore list"
+        },
+
+        "ignoreOptionChannel": {
+            "name": "channel",
+            "description": "Messages in this channel are not recorded to the serverlog"
+        },
+
+        "ignoreOption": {
+            "name": "ignore",
+            "description": "Ignore options"
+        },
+
+        "spoilersOption": {
+            "name": "spoilers",
+            "description": "Spoiler all media sent to the serverlog"
+        }
+    }
+}

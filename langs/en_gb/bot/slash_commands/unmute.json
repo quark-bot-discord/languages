@@ -1,0 +1,14 @@
+{
+    "name": "unmute",
+    "description": "Unmute a user",
+    "commandOptions": {
+        "userOption": {
+            "name": "user",
+            "description": "The user to unmute"
+        },
+        "reasonOption": {
+            "name": "reason",
+            "description": "The reason for unmuting the user"
+        }
+    }
+}

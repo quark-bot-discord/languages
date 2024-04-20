@@ -1,0 +1,38 @@
+{
+    "name": "mute",
+    "description": "Mute a user",
+
+    "commandOptions": {
+        "userOption": {
+            "name": "user",
+            "description": "The user to mute"
+        },
+
+        "timeOption": {
+            "name": "time",
+            "description": "Period of time to timeout the user for. Default unit is days"
+        },
+
+        "typeOption": {
+            "name": "type",
+            "description": "Units for the \"time\" field. Defaults to days",
+
+            "choices": {
+                "minutes": {
+                    "name": "minutes"
+                },
+                "hours": {
+                    "name": "hours"
+                },
+                "days": {
+                    "name": "days"
+                }
+            }
+        },
+
+        "reasonOption": {
+            "name": "reason",
+            "description": "The reason for muting the user"
+        }
+    }
+}

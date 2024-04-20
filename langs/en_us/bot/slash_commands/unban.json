@@ -1,0 +1,14 @@
+{
+    "name": "unban",
+    "description": "Unban a user",
+    "commandOptions": {
+        "userOption": {
+            "name": "user-id",
+            "description": "The ID of the user to unban"
+        },
+        "reasonOption": {
+            "name": "reason",
+            "description": "The reason for unbanning the user"
+        }
+    }
+}

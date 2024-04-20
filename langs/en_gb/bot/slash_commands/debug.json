@@ -1,0 +1,10 @@
+{
+    "name": "debug",
+    "description": "Generate a debug report for this server",
+    "commandOptions": {
+        "shareOption": {
+            "name": "share",
+            "description": "Choose whether to share this debug report with the developers"
+        }
+    }
+}
