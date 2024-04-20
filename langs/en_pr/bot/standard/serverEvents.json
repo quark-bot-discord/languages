@@ -1,0 +1,37 @@
+{
+    "members": "Crewmates",
+    "userJoined": {
+        "title": "New Crew Member",
+        "description": "{user} joined our crew",
+        "noAvatar": "Account be without a face",
+        "newAccount": "Account be new",
+        "noBadges": "Account be without any medals",
+        "warning": "WARNIN'!",
+        "accountCreated": "Account made",
+        "invite": "Invitation",
+        "createdBy": "recruited by {user}",
+        "ban": "Banish"
+    },
+    "userLeft": {
+        "title": "Crew Member Overboard",
+        "description": "{user} deserted the crew",
+        "joined": "Joined the crew"
+    },
+    "botAdded": {
+        "title": "Robot Added",
+        "description": "{bot} was added to the ship by {executor}",
+        "descriptionne": "{user} was added to the ship"
+    },
+    "botRemoved": {
+        "title": "Robot Removed",
+        "description": "{bot} was thrown overboard by {executor}",
+        "descriptionne": "{bot} was thrown overboard"
+    },
+    "nicknameUpdate": {
+        "title": "Nickname Updated",
+        "description": "{user}'s nickname was changed from {oldNickname} to {newNickname}",
+        "setNick": "{user}'s nickname was set to **{newNickname}**",
+        "nickRemoved": "{user}'s nickname of **{oldNickname}** was removed",
+        "changedBy": "Changed by"
+    }
+}
