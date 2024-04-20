@@ -11,7 +11,7 @@
     "commandOptions": {
         "userOption": {
             "name": {
-                "en-US": "user abc",
+                "en-US": "user",
                 "en-GB": "user"
             },
             "description": {
