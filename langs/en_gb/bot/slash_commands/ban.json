@@ -4,7 +4,7 @@
     
     "commandOptions": {
         "userOption": {
-            "name": "user abc",
+            "name": "user",
             "description": "The user to ban"
         },
 
