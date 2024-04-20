@@ -15,9 +15,12 @@
         "title": "Video Stopped",
         "description": "{user} stopped their video in the {channel} voice channel"
     },
-    "voiceChange": {
+    "voiceSwitch": {
         "title": "Changed Channel",
-        "description_switched": "{user} moved from the {channel_old} voice channel to the {channel_new} voice channel",
+        "description": "{user} moved from the {channel_old} voice channel to the {channel_new} voice channel"
+    },
+    "voiceMove": {
+        "title": "Moved",
         "description_moved": "{user} was moved from the {channel_old} voice channel to the {channel_new} voice channel",
         "movedBy": "Moved by"
     },
@@ -27,9 +30,11 @@
     },
     "voiceLeave": {
         "title": "Left Channel",
-        "description": "{user} left the {channel} voice channel",
-        "disconnected_description": "{user} was disconnected",
-        "disconnected_title": "Disconnected",
+        "description": "{user} left the {channel} voice channel"
+    },
+    "voiceDisconnect": {
+        "title": "Disconnected",
+        "description": "{user} was disconnected",
         "disconnectedBy": "Disconnected by",
         "voiceChannel": "Voice channel"
     },

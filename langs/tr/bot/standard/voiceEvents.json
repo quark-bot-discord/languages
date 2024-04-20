@@ -1,0 +1,65 @@
+{
+    "streamStart": {
+        "title": "Yayın Başladı",
+        "description": "{user}, {channel} ses kanalında video başlattı"
+    },
+    "streamStop": {
+        "title": "Yayın Bitti",
+        "description": "{user}, {channel} ses kanalında videoyu durdurdu"
+    },
+    "videoStart": {
+        "title": "Video Başladı",
+        "description": "{user}, {channel} ses kanalında video başlattı"
+    },
+    "videoStop": {
+        "title": "Video Bitti",
+        "description": "{user}, {channel} ses kanalında videoyu durdurdu"
+    },
+    "voiceSwitch": {
+        "title": "Kanal Değiştirildi",
+        "description": "{user}, {channel_old} ses kanalından {channel_new} ses kanalına geçti"
+    },
+    "voiceMove": {
+        "title": "Taşındı",
+        "description_moved": "{user}, {channel_old} ses kanalından {channel_new} ses kanalına taşındı",
+        "movedBy": "Taşıyan"
+    },
+    "voiceJoin": {
+        "title": "Kanala Katıldı",
+        "description": "{user}, {channel} ses kanalına katıldı"
+    },
+    "voiceLeave": {
+        "title": "Kanaldan Ayrıldı",
+        "description": "{user}, {channel} ses kanalından ayrıldı"
+    },
+    "voiceDisconnect": {
+        "title": "Bağlantı kesildi",
+        "description": "{user} bağlantısı kesildi",
+        "disconnectedBy": "Bağlantıyı kesen",
+        "voiceChannel": "Ses kanalı"
+    },
+    "serverDeafen": {
+        "title": "Sağırlaştırıldı",
+        "description": "{user} sağırlaştırıldı",
+        "deafenedBy": "Sağırlaştıran",
+        "voiceChannel": "Ses kanalı"
+    },
+    "serverMute": {
+        "title": "Susuturuldu",
+        "description": "{user} susuturuldu",
+        "mutedBy": "Susturan",
+        "voiceChannel": "Ses kanalı"
+    },
+    "serverUndeafen": {
+        "title": "Sağırlaştırmayı kaldıran",
+        "description": "{user} sağırlaştırılması açıldı",
+        "undeafenedBy": "Sağırlaştıran",
+        "voiceChannel": "Ses kanalı"
+    },
+    "serverUnmute": {
+        "title": "Susturması açıldı",
+        "description": "{user} susuturması açıldı",
+        "unmutedBy": "Susturmayı açan",
+        "voiceChannel": "Ses kanalı"
+    }
+}

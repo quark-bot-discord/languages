@@ -1,0 +1,31 @@
+{
+    "inviteCreate": {
+        "title": "Invite Created",
+        "description_withInviter": "{inviter} created an invite {invite} for {channel}",
+        "description_withoutInviter": "An invite {invite} was created for {channel}",
+        "expires": "Expires",
+        "never": "Never",
+        "maxUses": "Max Uses"
+    },
+    "inviteDelete": {
+        "title": "Invite Deleted",
+        "description_withExecutor": "{executor} deleted an invite {invite} for {channel}",
+        "description_withoutExecutor": "An invite {invite} was deleted for {channel}",
+        "used": "Used",
+        "created": "Created by",
+        "none": "none"
+    },
+    "emojiCreated": {
+        "title": "Emoji Created",
+        "description": "{emoji} was added by {executor}"
+    },
+    "emojiDeleted": {
+        "title": "Emoji Deleted",
+        "description": "{emoji} was deleted by {executor}",
+        "emoji": "Emoji"
+    },
+    "emojiUpdated": {
+        "title": "Emoji Edited",
+        "description": "{emoji} was edited by {executor}"
+    }
+}

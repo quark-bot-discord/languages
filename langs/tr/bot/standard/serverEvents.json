@@ -1,0 +1,37 @@
+{
+    "members": "Members",
+    "userJoined": {
+        "title": "Kullanıcı Katıldı",
+        "description": "{user} sunucuya katıldı",
+        "noAvatar": "Hesapta avatar yok",
+        "newAccount": "Yeni hesap",
+        "noBadges": "Hesapta rozet yok",
+        "warning": "UYARI!",
+        "accountCreated": "Hesap oluşturuldu",
+        "invite": "Invite",
+        "createdBy": "created by {user}",
+        "ban": "Ban"
+    },
+    "userLeft": {
+        "title": "Kullanıcı Ayrıldı",
+        "description": "{user} sunucudan ayrıldı",
+        "joined": "Katıldı"
+    },
+    "botAdded": {
+        "title": "Bot Eklendi",
+        "description": "{bot}, sunucuya {executor} tarafından eklendi",
+        "descriptionne": "{bot} sunucuya eklendi"
+    },
+    "botRemoved": {
+        "title": "Bot Kaldırıldı",
+        "description": "{bot}, {executor} tarafından sunucudan kaldırıldı",
+        "descriptionne": "{bot} sunucudan kaldırıldı"
+    },
+    "nicknameUpdate": {
+        "title": "Nickname Updated",
+        "description": "{user}'s nickname was changed from {oldNickname} to {newNickname}",
+        "setNick": "{user}'s nickname was set to **{newNickname}**",
+        "nickRemoved": "{user}'s nickname of **{oldNickname}** was removed",
+        "changedBy": "Changed by"
+    }
+}

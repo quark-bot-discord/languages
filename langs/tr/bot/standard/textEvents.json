@@ -1,0 +1,80 @@
+{
+    "polls":{
+        "poll": "Poll",
+        "pollDescriptor":"[poll]",
+        "status": "Poll has status.",
+        "ended": "ended",
+        "notEnded": "not ended",
+        "multiselect": "Multiselect",
+        "enabled": "enabled",
+        "disabled": "disabled",
+        "ends": "Poll ends {time}.",
+        "votes": "{number} votes",
+        "notApplicable": "N/A"
+    },
+    "messageDeleted": {
+        "title": "Mesaj Silindi",
+        "author": "Mesaj göndereni",
+        "channel": "Kanal",
+        "deletedBy": "Tarafından silindi",
+        "jumpToContext": "Bağlama atla",
+        "warning": "UYARI!",
+        "linksToEmojis": "Emojilere bağlantılar",
+        "linksToFiles": "Dosyalara bağlantılar",
+        "inviteDetected": "Sunucu daveti algılandı",
+        "file": "dosya",
+        "files": "dosyalar",
+        "fileExpired": "dosya çok büyük veya süresi dolmuş",
+        "filesExpired": "dosya çok büyük veya süresi dolmuş",
+        "sticker": "sticker",
+        "noContent": "no content",
+        "thread": "Thread"
+    },
+    "messagesBulkDeleted": {
+        "title": "Birden Fazla Mesaj Silindi",
+        "deletedBy": "Tarafından silindi",
+        "channel": "Kanal",
+        "more": "daha",
+        "uncachedUser": "önbelleğe alınmamış kullanıcı",
+        "uncachedChannel": "önbelleğe alınmamış kanal",
+        "uncachedMessage": "önbelleğe alınmamış mesaj",
+        "embed": "gömülü mesaj",
+        "errorFile": "Dosyaları kurtarırken bir sorun oluştu. Bu sürekli olarak olursa, lütfen bizi destek sunucumuzda bilgilendirin.",
+        "errorText": "Bir metin dosyası oluştururken bir sorun oluştu. Bazı mesajlar kaybolabilir. Bu sürekli olarak olursa, lütfen bizi destek sunucumuzda bilgilendirin."
+    },
+    "messageUpdate": {
+        "title": "Mesaj Düzenlendi",
+        "author": "Mesaj göndereni",
+        "channel": "Kanal",
+        "jumpToMessage": "Mesaja atla",
+        "afterEdit": "Düzenlemeden sonra",
+        "diff": "Diff",
+        "cannotRetrieveOriginal": "Orijinal mesaj alınamıyore",
+        "noContent": "no content",
+        "thread": "Thread"
+    },
+    "attachmentDeleted": {
+        "title": "Attachment Deleted"
+    },
+    "messagePin": {
+        "title": "Message Pinned",
+        "description": "A message was pinned by {executor}"
+    },
+    "messageUnpin": {
+        "title": "Message Unpinned",
+        "description": "A message was unpinned by {executor}"
+    },
+    "threadCreate": {
+        "thread": "Thread",
+        "channel": "Kanal",
+        "jumpToContext": "Bağlama atla",
+        "title": "Thread Created",
+        "description": "{member} created a new thread {thread}"
+    },
+    "threadDelete": {
+        "thread": "Thread",
+        "channel": "Kanal",
+        "title": "Thread Deleted",
+        "description": "{executor} deleted a thread {thread}"
+    }
+}

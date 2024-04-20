@@ -26,21 +26,21 @@
         "files": "files",
         "fileExpired": "file too large or expired",
         "filesExpired": "files too large or expired",
-        "sticker": "[sticker]",
-        "noContent": "[no content]",
+        "sticker": "sticker",
+        "noContent": "no content",
         "thread": "Thread"
     },
     "messagesBulkDeleted": {
         "title": "Multiple Messages Deleted",
         "deletedBy": "Deleted by",
         "channel": "Channel",
-        "more": " more...",
+        "more": "more",
         "uncachedUser": "uncached user",
         "uncachedChannel": "uncached channel",
         "uncachedMessage": "uncached message",
         "embed": "embed",
-        "errorFile": "There was an issue with recovering the files. If this happens persistently, please make us aware in our support server.\n",
-        "errorText": "There was an issue with creating a text file. Some messages may be lost. If this happens persistently, please make us aware in our support server.\n"
+        "errorFile": "There was an issue with recovering the files. If this happens persistently, please make us aware in our support server.",
+        "errorText": "There was an issue with creating a text file. Some messages may be lost. If this happens persistently, please make us aware in our support server."
     },
     "messageUpdate": {
         "title": "Message Edited",
@@ -49,8 +49,8 @@
         "jumpToMessage": "Jump to message",
         "afterEdit": "After edit",
         "diff": "Diff",
-        "cannotRetrieveOriginal": "*[Cannot retrieve original message]*",
-        "noContent": "[no content]",
+        "cannotRetrieveOriginal": "Cannot retrieve original message",
+        "noContent": "no content",
         "thread": "Thread"
     },
     "attachmentDeleted": {
