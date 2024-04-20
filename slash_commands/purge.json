@@ -15,7 +15,7 @@
                 "en-GB": "count"
             },
             "description": {
-                "en-US": "Number of messages to delete (2-100)",
+                "en-US": "Number of messages to delete (2-100), but a description that is way too long and should hopefully be errored...",
                 "en-GB": "Number of messages to delete (2-100)"
             }
         }
