@@ -57,6 +57,14 @@ try {
 
                 checkFields(jsonData);
 
+                if (jsonData.name && jsonData.name.includes(' ')) {
+                    console.error(`Validation error: ${directory}/${file}: Name contains space at 'name'`);
+                    foundErrors = true;
+                } else if (jsonData.description && jsonData.description.length > 100) {
+                    console.error(`Validation error: ${directory}/${file}: Description exceeds 100 characters at 'description'`);
+                    foundErrors = true;
+                }
+
             } catch (err) {
                 console.error(`Error processing ${file}:`, err);
                 foundErrors = true;
