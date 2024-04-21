@@ -1,0 +1,14 @@
+{
+    "name": "bỏ_cấm",
+    "description": "Bỏ cấm người dùng",
+    "commandOptions": {
+        "userOption": {
+            "name": "id_người_dùng",
+            "description": "ID của người dùng cần bỏ cấm"
+        },
+        "reasonOption": {
+            "name": "lý_do",
+            "description": "Lý do bỏ cấm người dùng"
+        }
+    }
+}

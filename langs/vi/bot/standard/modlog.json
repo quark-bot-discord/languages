@@ -1,0 +1,16 @@
+{
+    "moderator": "Quản trị viên",
+    "user": "Người dùng",
+    "reason": "Lý do",
+    "case": "Trường hợp",
+    "noReason": "Quản trị viên: vui lòng chạy {command}",
+    "noReasonBrief": "Chạy {command}",
+
+    "ban": "Cấm",
+    "unban": "Bỏ cấm",
+    "kick": "Đuổi",
+    "mute": "Tắt âm",
+    "unmute": "Bật âm",
+
+    "timeoutEnds": "Hết thời gian chờ {time}"
+}

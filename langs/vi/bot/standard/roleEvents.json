@@ -1,0 +1,15 @@
+{
+    "roleCreated": {
+        "title":"Vai trò đã được tạo",
+        "description": "{role} đã được tạo bởi {executor}"
+    },
+    "roleDeleted": {
+        "title":"Vai trò đã bị xóa",
+        "description": "{role} đã bị xóa bởi {executor}",
+        "role": "Vai trò"
+    },
+    "roleUpdated": {
+        "title":"Vai trò đã được sửa đổi",
+        "description": "{role} đã được sửa đổi bởi {executor}"
+    }
+}

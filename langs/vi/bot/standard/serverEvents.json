@@ -1,0 +1,37 @@
+{
+    "members": "Thành viên",
+    "userJoined": {
+        "title": "Người dùng đã tham gia",
+        "description": "{user} đã tham gia vào máy chủ",
+        "noAvatar": "Tài khoản không có hình đại diện",
+        "newAccount": "Tài khoản mới",
+        "noBadges": "Tài khoản không có huy hiệu",
+        "warning": "CẢNH BÁO!",
+        "accountCreated": "Tài khoản đã được tạo",
+        "invite": "Mời",
+        "createdBy": "được tạo bởi {user}",
+        "ban": "Cấm"
+    },
+    "userLeft": {
+        "title": "Người dùng đã rời đi",
+        "description": "{user} đã rời khỏi máy chủ",
+        "joined": "Tham gia"
+    },
+    "botAdded": {
+        "title": "Bot đã được thêm",
+        "description": "{bot} đã được thêm vào máy chủ bởi {executor}",
+        "descriptionne": "{bot} đã được thêm vào máy chủ"
+    },
+    "botRemoved": {
+        "title": "Bot đã được gỡ bỏ",
+        "description": "{bot} đã bị gỡ bỏ khỏi máy chủ bởi {executor}",
+        "descriptionne": "{bot} đã bị gỡ bỏ khỏi máy chủ"
+    },
+    "nicknameUpdate": {
+        "title": "Cập nhật biệt danh",
+        "description": "Biệt danh của {user} đã được thay đổi từ {oldNickname} thành {newNickname}",
+        "setNick": "Biệt danh của {user} đã được đặt thành **{newNickname}**",
+        "nickRemoved": "Biệt danh **{oldNickname}** của {user} đã bị xóa",
+        "changedBy": "Được thay đổi bởi"
+    }
+}

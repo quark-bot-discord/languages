@@ -1,0 +1,10 @@
+{
+    "name": "xóa_tin",
+    "description": "Xóa tin nhắn trong kênh",
+    "commandOptions": {
+        "countOption": {
+            "name": "so_luong",
+            "description": "Số lượng tin nhắn cần xóa (2-100)"
+        }
+    }
+}

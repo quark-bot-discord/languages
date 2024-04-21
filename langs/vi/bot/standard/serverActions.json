@@ -1,0 +1,31 @@
+{
+    "inviteCreate": {
+        "title": "Tạo Lời Mời",
+        "description_withInviter": "{inviter} đã tạo một lời mời {invite} cho {channel}",
+        "description_withoutInviter": "Một lời mời {invite} đã được tạo cho {channel}",
+        "expires": "Hết hạn",
+        "never": "Không bao giờ",
+        "maxUses": "Số lần tối đa"
+    },
+    "inviteDelete": {
+        "title": "Xóa Lời Mời",
+        "description_withExecutor": "{executor} đã xóa một lời mời {invite} cho {channel}",
+        "description_withoutExecutor": "Một lời mời {invite} đã bị xóa cho {channel}",
+        "used": "Đã sử dụng",
+        "created": "Được tạo bởi",
+        "none": "không có"
+    },
+    "emojiCreated": {
+        "title": "Tạo Emoji",
+        "description": "{emoji} đã được thêm bởi {executor}"
+    },
+    "emojiDeleted": {
+        "title": "Xóa Emoji",
+        "description": "{emoji} đã bị xóa bởi {executor}",
+        "emoji": "Emoji"
+    },
+    "emojiUpdated": {
+        "title": "Sửa Emoji",
+        "description": "{emoji} đã được chỉnh sửa bởi {executor}"
+    }
+}

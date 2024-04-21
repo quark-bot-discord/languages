@@ -1,0 +1,16 @@
+{
+    "name": "đuổi",
+    "description": "Đuổi một người dùng",
+
+    "commandOptions": {
+        "userOption": {
+            "name": "người_dùng",
+            "description": "Người dùng cần bị đuổi"
+        },
+
+        "reasonOption": {
+            "name": "lý_do",
+            "description": "Lý do đuổi người dùng"
+        }
+    }
+}

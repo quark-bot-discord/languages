@@ -1,0 +1,16 @@
+{
+    "channelCreated": {
+        "title": "Kênh Đã Được Tạo",
+        "description": "{channel} đã được tạo bởi {executor}",
+        "description_with_category": "{channel} đã được tạo bởi {executor} dưới danh mục {category}."
+    },
+    "channelDeleted": {
+        "title": "Kênh Đã Được Xóa",
+        "description": "{channel} đã bị xóa bởi {executor}",
+        "channel": "Kênh"
+    },
+    "channelUpdated": {
+        "title": "Kênh Đã Được Sửa Đổi",
+        "description": "{channel} đã được sửa đổi bởi {executor}"
+    }
+}
