@@ -1,13 +1,12 @@
 const fs = require('fs');
 const path = require('path');
-const langs = require("./languages-conversion.json");
 const fallbackLanguage = "en_us";
 
 const baseDirectory = "langs";
 const baseDirectoryActive = "active/langs";
 
 function activate() {
-    Object.entries(langs).forEach(([key, value]) => {
+    Object.entries(["en_gb", "en_pr", "en_us", "tr"]).forEach(([key, value]) => {
 
         const directory = path.join(process.cwd(), "languages", baseDirectory, value, "bot", "standard");
 
