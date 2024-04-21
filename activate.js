@@ -4,9 +4,10 @@ const fallbackLanguage = "en_us";
 
 const baseDirectory = "langs";
 const baseDirectoryActive = "active/langs";
+const languages = require('./languages.json');
 
 function activate() {
-    Object.entries(["en_gb", "en_pr", "en_us", "tr"]).forEach(([key, value]) => {
+    Object.entries(languages).forEach(([key, value]) => {
 
         const directory = path.join(process.cwd(), "languages", baseDirectory, value, "bot", "standard");
 
