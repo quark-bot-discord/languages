@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const baseDirectory = './langs';
-const conversionFile = './languages-conversion.json';
+const baseDirectory = 'langs';
+const conversionFile = '../../languages-conversion.json';
 
 let foundErrors = false;
 
@@ -11,7 +11,8 @@ try {
     const languageMap = JSON.parse(conversionData);
 
     Object.entries(languageMap).forEach(([key, value]) => {
-        const directory = path.join(baseDirectory, value, 'bot', 'slash_commands');
+        const directory = path.resolve(`../../${baseDirectory}/${value}/bot/slash_commands`);
+        console.log(directory);
         if (!fs.existsSync(directory)) {
             console.log(`Skipping non-existent directory: ${directory} for language code ${key}`);
             return;
