@@ -9,7 +9,7 @@ const baseDirectoryActive = "active/langs";
 function activate() {
     Object.entries(langs).forEach(([key, value]) => {
 
-        const directory = path.join(baseDirectory, value, "bot", "standard");
+        const directory = path.join(process.cwd(), "languages", baseDirectory, value, "bot", "standard");
 
         if (!fs.existsSync(directory)) {
             console.log(`Skipping non-existent directory: ${directory} for language code ${key}`);
@@ -22,17 +22,17 @@ function activate() {
             return;
         }
 
-        const activeLanguageDirectory = path.join(baseDirectoryActive, value);
+        const activeLanguageDirectory = path.join(process.cwd(), "languages", baseDirectoryActive, value);
 
         if (!fs.existsSync(activeLanguageDirectory))
             fs.mkdirSync(activeLanguageDirectory);
 
-        const activeLanguageBotDirectory = path.join(baseDirectoryActive, value, "bot");
+        const activeLanguageBotDirectory = path.join(process.cwd(), "languages", baseDirectoryActive, value, "bot");
 
         if (!fs.existsSync(activeLanguageBotDirectory))
             fs.mkdirSync(activeLanguageBotDirectory);
 
-        const activeLanguageBotStandardDirectory = path.join(baseDirectoryActive, value, "bot", "standard");
+        const activeLanguageBotStandardDirectory = path.join(process.cwd(), "languages", baseDirectoryActive, value, "bot", "standard");
 
         if (!fs.existsSync(activeLanguageBotStandardDirectory))
             fs.mkdirSync(activeLanguageBotStandardDirectory);
@@ -69,7 +69,7 @@ function activate() {
 
                 checkFields(jsonData);
 
-                const activeDirectory = path.join(baseDirectoryActive, value, "bot", "standard");
+                const activeDirectory = path.join(process.cwd(), "languages", baseDirectoryActive, value, "bot", "standard");
 
                 if (!fs.existsSync(activeDirectory))
                     fs.mkdirSync(activeDirectory);
