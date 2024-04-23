@@ -5,7 +5,7 @@
     },
     "roleDeleted": {
         "title":"Vai trò đã bị xóa",
-        "description": "{role} đã bị xóa bởi {executor}",
+        "description": "{role_name} đã bị xóa bởi {executor}",
         "role": "Vai trò"
     },
     "roleUpdated": {

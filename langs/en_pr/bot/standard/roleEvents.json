@@ -5,7 +5,7 @@
     },
     "roleDeleted": {
         "title":"Role Deleted",
-        "description": "{role} was deleted by {executor}",
+        "description": "{role_name} was deleted by {executor}",
         "role": "Role"
     },
     "roleUpdated": {

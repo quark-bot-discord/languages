@@ -6,7 +6,7 @@
     },
     "channelDeleted": {
         "title": "Kênh Đã Được Xóa",
-        "description": "{channel} đã bị xóa bởi {executor}",
+        "description": "{channel_name} đã bị xóa bởi {executor}",
         "channel": "Kênh"
     },
     "channelUpdated": {

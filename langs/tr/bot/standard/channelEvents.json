@@ -6,7 +6,7 @@
     },
     "channelDeleted": {
         "title": "Channel Deleted",
-        "description": "{channel} was deleted by {executor}",
+        "description": "{channel_name} was deleted by {executor}",
         "channel": "Channel"
     },
     "channelUpdated": {
