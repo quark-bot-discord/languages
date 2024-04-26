@@ -33,5 +33,15 @@
         "setNick": "{user}'s nickname was set to **{newNickname}**",
         "nickRemoved": "{user}'s nickname of **{oldNickname}** was removed",
         "changedBy": "Changed by"
+    },
+    "memberRoleAdd": {
+        "title": "Promoted",
+        "description": "{user} was promoted to the {role} rank",
+        "givenBy": "Promoted by"
+    },
+    "memberRoleRemove": {
+        "title": "Demoted",
+        "description": "{user} was demoted from the {role} rank",
+        "removedBy": "Demoted by"
     }
 }
