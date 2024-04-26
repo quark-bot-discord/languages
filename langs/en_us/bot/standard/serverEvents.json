@@ -43,5 +43,9 @@
         "title": "Role Taken",
         "description": "The {role} role was removed from {user}",
         "removedBy": "Removed by"
+    },
+    "memberPrune": {
+        "title": "Members Pruned",
+        "description": "{count} members with at least {time} days of inactivity were pruned by {executor}"
     }
 }

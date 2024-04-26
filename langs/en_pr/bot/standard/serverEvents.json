@@ -43,5 +43,9 @@
         "title": "Demoted",
         "description": "{user} was demoted from the {role} rank",
         "removedBy": "Demoted by"
+    },
+    "memberPrune": {
+        "title": "Members Overboard",
+        "description": "{count} members with at least {time} days of inactivity were pruned by {executor}"
     }
 }
