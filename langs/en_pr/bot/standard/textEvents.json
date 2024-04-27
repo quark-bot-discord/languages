@@ -28,6 +28,7 @@
         "filesExpired": "files too large or expired",
         "sticker": "sticker",
         "noContent": "nothin' t' see",
+        "embed": "embed",
         "thread": "Thread"
     },
     "messagesBulkDeleted": {
