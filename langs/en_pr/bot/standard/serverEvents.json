@@ -36,13 +36,19 @@
     },
     "memberRoleAdd": {
         "title": "Promoted",
+        "title_multiple": "Promoted",
         "description": "{user} was promoted to the {role} rank",
-        "givenBy": "Promoted by"
+        "description_multiple": "{user} was given multiple promotions",
+        "givenBy": "Promoted by",
+        "roles": "Ranks"
     },
     "memberRoleRemove": {
         "title": "Demoted",
+        "title_multiple": "Demoted",
         "description": "{user} was demoted from the {role} rank",
-        "removedBy": "Demoted by"
+        "description_multiple": "{user} was stripped of multiple ranks",
+        "removedBy": "Demoted by",
+        "roles": "Ranks"
     },
     "memberPrune": {
         "title": "Members Overboard",

@@ -36,13 +36,19 @@
     },
     "memberRoleAdd": {
         "title": "Role Given",
+        "title_multiple": "Roles Given",
         "description": "{user} was given the {role} role",
-        "givenBy": "Given by"
+        "description_multiple": "{user} was given multiple roles",
+        "givenBy": "Given by",
+        "roles": "Roles"
     },
     "memberRoleRemove": {
         "title": "Role Taken",
+        "title_multiple": "Roles Taken",
         "description": "The {role} role was removed from {user}",
-        "removedBy": "Removed by"
+        "description_multiple": "Multiple roles were removed from {user}",
+        "removedBy": "Removed by",
+        "roles": "Roles"
     },
     "memberPrune": {
         "title": "Members Pruned",
