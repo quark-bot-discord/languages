@@ -1,0 +1,37 @@
+{
+    "channelModificationTypes": {
+        "name": "Name",
+        "type": "Type",
+        "position": "Position",
+        "topic": "Topic",
+        "rate_limit_per_user": "Slowmode",
+        "parent_id": "Category",
+        "bitrate": "Bitrate",
+        "user_limit": "User Limit",
+        "rtc_region": "Region",
+        "nsfw": "NSFW"
+    },
+    "roleModificationTypes": {
+        "name": "Name",
+        "color": "Colour",
+        "hoist": "Hoisted",
+        "managed": "Managed",
+        "mentionable": "Mentionable",
+        "unicode_emoji": "Emoji"
+    },
+    "emojiModificationTypes": {
+        "name": "Name"
+    },
+    "guildModificationTypes": {
+        "name": "Name",
+        "description": "Description",
+        "system_channel_id": "System Channel",
+        "rules_channel_id": "Rule Channel",
+        "mfa_level": "MFA Required",
+        "verification_level": "Verification Level",
+        "default_message_notifications": "Default Notifications",
+        "explicit_content_filter": "Explicit Content Filter",
+        "nsfw_level": "NSFW Level",
+        "premium_progress_bar_enabled": "Progress Bar"
+    }
+}
