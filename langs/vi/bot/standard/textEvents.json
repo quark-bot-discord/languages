@@ -8,9 +8,10 @@
         "multiselect": "Chọn nhiều",
         "enabled": "đã bật",
         "disabled": "đã tắt",
-        "ends": "Bình chọn kết thúc vào {time}.",
-        "votes": "{number} phiếu",
-        "notApplicable": "Không áp dụng"
+        "ends": "Kết thúc",
+        "votes": "phiếu",
+        "vote": "phiếu",
+        "noResponses": "Không có phản hồi"
     },
     "messageDeleted": {
         "title": "Tin nhắn đã bị xóa",

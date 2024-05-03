@@ -8,9 +8,10 @@
         "multiselect": "Multiselect",
         "enabled": "enabled",
         "disabled": "disabled",
-        "ends": "Poll ends {time}.",
-        "votes": "{number} votes",
-        "notApplicable": "N/A"
+        "ends": "Ends",
+        "vote": "vote",
+        "votes": "votes",
+        "noResponses": "No responses"
     },
     "messageDeleted": {
         "title": "Message Scrubbed",
