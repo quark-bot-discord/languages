@@ -78,5 +78,12 @@
         "channel": "Channel",
         "title": "Thread Deleted",
         "description": "{executor} deleted a thread {thread}"
+    },
+    "messageReactionRemove": {
+        "title": "Reaction Removed",
+        "description": "{executor} removed a reaction from a message",
+        "emoji": "Emoji",
+        "linkToEmoji": "Link to emoji",
+        "jumpToMessage": "Jump to message"
     }
 }
