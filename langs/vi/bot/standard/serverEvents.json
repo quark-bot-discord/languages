@@ -10,7 +10,9 @@
         "accountCreated": "Tài khoản đã được tạo",
         "invite": "Mời",
         "createdBy": "được tạo bởi {user}",
-        "ban": "Cấm"
+        "ban": "Cấm",
+        "info": "Thông tin",
+        "rejoined": "Tài khoản đã tham gia lại"
     },
     "userLeft": {
         "title": "Người dùng đã rời đi",

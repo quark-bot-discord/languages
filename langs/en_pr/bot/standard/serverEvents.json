@@ -10,7 +10,9 @@
         "accountCreated": "Account made",
         "invite": "Invitation",
         "createdBy": "recruited by {user}",
-        "ban": "Banish"
+        "ban": "Banish",
+        "info": "Info",
+        "rejoined": "Account rejoined"
     },
     "userLeft": {
         "title": "Crew Member Overboard",

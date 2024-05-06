@@ -10,7 +10,9 @@
         "accountCreated": "Account created",
         "invite": "Invite",
         "createdBy": "created by {user}",
-        "ban": "Ban"
+        "ban": "Ban",
+        "info": "Info",
+        "rejoined": "Account rejoined"
     },
     "userLeft": {
         "title": "User Left",

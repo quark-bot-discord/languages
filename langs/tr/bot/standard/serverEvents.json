@@ -10,7 +10,9 @@
         "accountCreated": "Hesap oluşturuldu",
         "invite": "Invite",
         "createdBy": "created by {user}",
-        "ban": "Ban"
+        "ban": "Ban",
+        "info": "Info",
+        "rejoined": "Account rejoined"
     },
     "userLeft": {
         "title": "Kullanıcı Ayrıldı",
