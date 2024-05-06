@@ -2,7 +2,7 @@
     "channelCreated": {
         "title": "Kênh Đã Được Tạo",
         "description": "{channel} đã được tạo bởi {executor}",
-        "description_with_category": "{channel} đã được tạo bởi {executor} dưới danh mục {category}."
+        "descriptionWithCategory": "{channel} đã được tạo bởi {executor} dưới danh mục {category}."
     },
     "channelDeleted": {
         "title": "Kênh Đã Được Xóa",

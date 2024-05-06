@@ -2,7 +2,7 @@
     "channelCreated": {
         "title": "Channel Created",
         "description": "{channel} was created by {executor}",
-        "description_with_category": "{channel} was created by {executor} under the {category} category."
+        "descriptionWithCategory": "{channel} was created by {executor} under the {category} category."
     },
     "channelDeleted": {
         "title": "Channel Deleted",
