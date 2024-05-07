@@ -50,6 +50,7 @@
         "jumpToMessage": "Chuyển đến tin nhắn",
         "afterEdit": "Sau khi chỉnh sửa",
         "diff": "Khác biệt",
+        "diffError": "Unable to calculate edits.",
         "cannotRetrieveOriginal": "Không thể lấy lại tin nhắn gốc",
         "noContent": "không có nội dung",
         "thread": "Chủ đề"

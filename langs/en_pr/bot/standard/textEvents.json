@@ -50,7 +50,8 @@
         "channel": "Deck",
         "jumpToMessage": "Jump t' th' message",
         "afterEdit": "After rewrite",
-        "diff": "Diff",
+        "diff": "Edits",
+        "diffError": "Unable to calculate edits.",
         "cannotRetrieveOriginal": "Cannot retrieve original message",
         "noContent": "nothin' t' see",
         "thread": "Thread"

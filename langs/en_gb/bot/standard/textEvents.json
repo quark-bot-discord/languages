@@ -50,7 +50,8 @@
         "channel": "Channel",
         "jumpToMessage": "Jump to message",
         "afterEdit": "After edit",
-        "diff": "Diff",
+        "diff": "Edits",
+        "diffError": "Unable to calculate edits.",
         "cannotRetrieveOriginal": "Cannot retrieve original message",
         "noContent": "no content",
         "thread": "Thread"
