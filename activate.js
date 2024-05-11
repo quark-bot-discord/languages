@@ -4,7 +4,7 @@ const fallbackLanguage = "en_us";
 
 const baseDirectory = "bot";
 const baseDirectoryActive = "active/bot";
-const languages = require('./languages.json');
+const languages = require('./bot/languages.json');
 
 function activate() {
     Object.entries(languages).forEach(([key, value]) => {

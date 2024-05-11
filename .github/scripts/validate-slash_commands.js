@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const baseDirectory = './bot';
-const conversionFile = './languages.json';
+const conversionFile = './bot/languages.json';
 
 let foundErrors = false;
 
