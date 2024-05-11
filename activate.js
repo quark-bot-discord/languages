@@ -8,7 +8,6 @@ const languages = require('./languages.json');
 
 function activate() {
     Object.entries(languages).forEach(([key, value]) => {
-
         const directory = path.join(process.cwd(), "languages", baseDirectory, value, "standard");
 
         if (!fs.existsSync(directory)) {
@@ -22,20 +21,10 @@ function activate() {
             return;
         }
 
-        const activeLanguageDirectory = path.join(process.cwd(), "languages", baseDirectoryActive, value);
-
-        if (!fs.existsSync(activeLanguageDirectory))
-            fs.mkdirSync(activeLanguageDirectory);
-
-        const activeLanguageBotDirectory = path.join(process.cwd(), "languages", baseDirectoryActive, value);
-
-        if (!fs.existsSync(activeLanguageBotDirectory))
-            fs.mkdirSync(activeLanguageBotDirectory);
-
         const activeLanguageBotStandardDirectory = path.join(process.cwd(), "languages", baseDirectoryActive, value, "standard");
 
         if (!fs.existsSync(activeLanguageBotStandardDirectory))
-            fs.mkdirSync(activeLanguageBotStandardDirectory);
+            fs.mkdirSync(activeLanguageBotStandardDirectory, { recursive: true });
 
         files.forEach(file => {
             if (!file.endsWith('.json')) {
@@ -49,7 +38,6 @@ function activate() {
                 const data = fs.readFileSync(filePath, 'utf8');
                 const jsonData = JSON.parse(data);
                 const fallbackLanguageData = require(`./${baseDirectory}/${fallbackLanguage}/standard/${file}`);
-                // console.log(jsonData);
                 function checkFields(obj, path = '') {
                     Object.keys(obj).forEach(key => {
                         const value = obj[key];
@@ -58,8 +46,9 @@ function activate() {
                         if (typeof value === 'string') {
                             let pointer = fallbackLanguageData;
                             const structPath = currentPath.split(".");
-                            for (let i = 0; i < structPath.length - 1; i++)
+                            for (let i = 0; i < structPath.length - 1; i++) {
                                 pointer = pointer[structPath[i]];
+                            }
                             pointer[structPath[structPath.length - 1]] = value;
                         } else if (typeof value === 'object' && value !== null) {
                             checkFields(value, currentPath);
@@ -69,12 +58,10 @@ function activate() {
 
                 checkFields(jsonData);
 
-                const activeDirectory = path.join(process.cwd(), "languages", baseDirectoryActive, value, "standard");
+                if (!fs.existsSync(activeLanguageBotStandardDirectory))
+                    fs.mkdirSync(activeLanguageBotStandardDirectory, { recursive: true });
 
-                if (!fs.existsSync(activeDirectory))
-                    fs.mkdirSync(activeDirectory);
-
-                fs.writeFileSync(path.join(activeDirectory, file), JSON.stringify(fallbackLanguageData));
+                fs.writeFileSync(path.join(activeLanguageBotStandardDirectory, file), JSON.stringify(fallbackLanguageData));
 
             } catch (err) {
                 console.error(`Error processing ${file}:`, err);
