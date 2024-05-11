@@ -2,14 +2,14 @@ const fs = require('fs');
 const path = require('path');
 const fallbackLanguage = "en_us";
 
-const baseDirectory = "langs";
-const baseDirectoryActive = "active/langs";
+const baseDirectory = "bot";
+const baseDirectoryActive = "active/bot";
 const languages = require('./languages.json');
 
 function activate() {
     Object.entries(languages).forEach(([key, value]) => {
 
-        const directory = path.join(process.cwd(), "languages", baseDirectory, value, "bot", "standard");
+        const directory = path.join(process.cwd(), "languages", baseDirectory, value, "standard");
 
         if (!fs.existsSync(directory)) {
             console.log(`Skipping non-existent directory: ${directory} for language code ${key}`);
@@ -27,12 +27,12 @@ function activate() {
         if (!fs.existsSync(activeLanguageDirectory))
             fs.mkdirSync(activeLanguageDirectory);
 
-        const activeLanguageBotDirectory = path.join(process.cwd(), "languages", baseDirectoryActive, value, "bot");
+        const activeLanguageBotDirectory = path.join(process.cwd(), "languages", baseDirectoryActive, value);
 
         if (!fs.existsSync(activeLanguageBotDirectory))
             fs.mkdirSync(activeLanguageBotDirectory);
 
-        const activeLanguageBotStandardDirectory = path.join(process.cwd(), "languages", baseDirectoryActive, value, "bot", "standard");
+        const activeLanguageBotStandardDirectory = path.join(process.cwd(), "languages", baseDirectoryActive, value, "standard");
 
         if (!fs.existsSync(activeLanguageBotStandardDirectory))
             fs.mkdirSync(activeLanguageBotStandardDirectory);
@@ -48,7 +48,7 @@ function activate() {
             try {
                 const data = fs.readFileSync(filePath, 'utf8');
                 const jsonData = JSON.parse(data);
-                const fallbackLanguageData = require(`./${baseDirectory}/${fallbackLanguage}/bot/standard/${file}`);
+                const fallbackLanguageData = require(`./${baseDirectory}/${fallbackLanguage}/standard/${file}`);
                 // console.log(jsonData);
                 function checkFields(obj, path = '') {
                     Object.keys(obj).forEach(key => {
@@ -69,7 +69,7 @@ function activate() {
 
                 checkFields(jsonData);
 
-                const activeDirectory = path.join(process.cwd(), "languages", baseDirectoryActive, value, "bot", "standard");
+                const activeDirectory = path.join(process.cwd(), "languages", baseDirectoryActive, value, "standard");
 
                 if (!fs.existsSync(activeDirectory))
                     fs.mkdirSync(activeDirectory);
