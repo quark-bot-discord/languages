@@ -2,5 +2,10 @@
     "serverModified": {
         "title": "Server Modified",
         "description": "This server was modified by {executor}"
+    },
+    "serverIconUpdated": {
+        "title": "Server Icon Updated",
+        "description": "{executor} updated the server icon",
+        "linkToOldIcon": "Link to old icon"
     }
 }
