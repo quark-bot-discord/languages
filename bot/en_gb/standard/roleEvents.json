@@ -19,5 +19,10 @@
         "oldPermissions": "Old Permissions",
         "viewFullNewPermissions": "View Full New Permissions",
         "viewFullOldPermissions": "View Full Old Permissions"
+    },
+    "roleIconUpdate": {
+        "title": "Role Icon Updated",
+        "description": "{executor} updated the icon for {role}",
+        "linkToOldIcon": "Link to old icon"
     }
 }
