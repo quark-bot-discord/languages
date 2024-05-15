@@ -24,6 +24,8 @@
     "roleIconUpdate": {
         "title": "Role Icon Updated",
         "description": "{executor} updated the icon for {role}",
+        "description_added": "{executor} added an icon for {role}",
+        "description_removed": "{executor} removed the icon for {role}",
         "linkToOldIcon": "Link to old icon"
     }
 }
