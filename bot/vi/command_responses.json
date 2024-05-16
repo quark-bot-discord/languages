@@ -121,5 +121,49 @@
 
     "need-to-vote-title": "Bạn phải bỏ phiếu để sử dụng lệnh này!",
     "need-to-vote": "Nhấp vào đây để bỏ phiếu",
-    "need-to-vote-footer": "Việc bỏ phiếu mất tối đa một phút để được đăng ký"
+    "need-to-vote-footer": "Việc bỏ phiếu mất tối đa một phút để được đăng ký",
+
+    "configCommand": {
+        "title": "Serverlog Configuration",
+        "selection": "Select a category in the menu to view configuration.",
+        "serverLogDesc": "Serverlog Channel",
+        "formats": {
+            "log_channels": "Log Channels",
+            "configurable_events": "Configurable Events"
+        },
+        "categories": {
+            "serverEvents": {
+                "title": "Members",
+                "description": "Member actions (join/leave, roles, nicknames)"
+            },
+            "textEvents": {
+                "title": "Messages",
+                "description": "Message actions (deletions, edits, pins, reactions)"
+            },
+            "voiceEvents": {
+                "title": "Voice",
+                "description": "Voice channel actions (join/leave, streams, mute/deafens)"
+            },
+            "serverActions": {
+                "title": "Server Actions",
+                "description": "Server actions (invite creation/deletion, emojis)"
+            },
+            "channelEvents": {
+                "title": "Channels",
+                "description": "Channel actions (creations/deletions, permissions)"
+            },
+            "generalEvents": {
+                "title": "Server Events",
+                "description": "General actions (server modifications)"
+            },
+            "roleEvents": {
+                "title": "Roles",
+                "description": "Role actions (creations/deletions, permissions)"
+            },
+            "modLog": {
+                "title": "Mod Logs",
+                "description": "Moderation actions (bans, kicks, mutes)"
+            }
+        }
+    }
 }
