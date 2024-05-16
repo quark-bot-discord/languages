@@ -125,21 +125,23 @@
 
     "configCommand": {
         "title": "Serverlog Configuration",
+        "selection": "Select a category in the menu to view configuration.",
+        "serverLogDesc": "Serverlog Channel",
         "formats": {
             "log_channels": "Log Channels",
             "configurable_events": "Configurable Events"
         },
         "categories": {
             "serverEvents": {
-                "title": "Server Events",
+                "title": "Members",
                 "description": "Member actions (join/leave, roles, nicknames)"
             },
             "textEvents": {
-                "title": "Text Events",
+                "title": "Messages",
                 "description": "Message actions (deletions, edits, pins, reactions)"
             },
             "voiceEvents": {
-                "title": "Voice Events",
+                "title": "Voice",
                 "description": "Voice channel actions (join/leave, streams, mute/deafens)"
             },
             "serverActions": {
@@ -147,19 +149,19 @@
                 "description": "Server actions (invite creation/deletion, emojis)"
             },
             "channelEvents": {
-                "title": "Channel Events",
+                "title": "Channels",
                 "description": "Channel actions (creations/deletions, permissions)"
             },
             "generalEvents": {
-                "title": "General Events",
+                "title": "Server Events",
                 "description": "General actions (server modifications)"
             },
             "roleEvents": {
-                "title": "Role Events",
+                "title": "Roles",
                 "description": "Role actions (creations/deletions, permissions)"
             },
             "modLog": {
-                "title": "Mod Log",
+                "title": "Mod Logs",
                 "description": "Moderation actions (bans, kicks, mutes)"
             }
         }
