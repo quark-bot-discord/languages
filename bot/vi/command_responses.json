@@ -127,6 +127,8 @@
         "title": "Serverlog Configuration",
         "selection": "Select a category in the menu to view configuration.",
         "serverLogDesc": "Serverlog Channel",
+        "notSet": "Not set",
+        "selectACategory": "Select a category",
         "formats": {
             "log_channels": "Log Channels",
             "configurable_events": "Configurable Events"
