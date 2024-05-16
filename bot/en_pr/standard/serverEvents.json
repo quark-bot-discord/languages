@@ -19,7 +19,7 @@
         "description": "{user} deserted the crew",
         "joined": "Joined the crew",
         "roles": "Ranks",
-        "serverProfilePicture": "Server profile picture"
+        "serverProfilePicture": "Link to server avatar"
     },
     "botAdded": {
         "title": "Robot Added",
