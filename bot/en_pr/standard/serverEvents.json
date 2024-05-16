@@ -17,7 +17,9 @@
     "userLeft": {
         "title": "Crew Member Overboard",
         "description": "{user} deserted the crew",
-        "joined": "Joined the crew"
+        "joined": "Joined the crew",
+        "roles": "Ranks",
+        "serverProfilePicture": "Server profile picture"
     },
     "botAdded": {
         "title": "Robot Added",

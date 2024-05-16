@@ -17,7 +17,9 @@
     "userLeft": {
         "title": "User Left",
         "description": "{user} left the server",
-        "joined": "Joined"
+        "joined": "Joined",
+        "roles": "Roles",
+        "serverProfilePicture": "Server profile picture"
     },
     "botAdded": {
         "title": "Bot Added",
