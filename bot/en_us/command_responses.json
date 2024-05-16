@@ -121,5 +121,47 @@
 
     "need-to-vote-title": "You must vote to use this command!",
     "need-to-vote": "Click here to vote",
-    "need-to-vote-footer": "Votes take up to a minute to be registered"
+    "need-to-vote-footer": "Votes take up to a minute to be registered",
+
+    "configCommand": {
+        "title": "Serverlog Configuration",
+        "formats": {
+            "log_channels": "Log Channels",
+            "configurable_events": "Configurable Events"
+        },
+        "categories": {
+            "serverEvents": {
+                "title": "Server Events",
+                "description": "Member actions (join/leave, roles, nicknames)"
+            },
+            "textEvents": {
+                "title": "Text Events",
+                "description": "Message actions (deletions, edits, pins, reactions)"
+            },
+            "voiceEvents": {
+                "title": "Voice Events",
+                "description": "Voice channel actions (join/leave, streams, mute/deafens)"
+            },
+            "serverActions": {
+                "title": "Server Actions",
+                "description": "Server actions (invite creation/deletion, emojis)"
+            },
+            "channelEvents": {
+                "title": "Channel Events",
+                "description": "Channel actions (creations/deletions, permissions)"
+            },
+            "generalEvents": {
+                "title": "General Events",
+                "description": "General actions (server modifications)"
+            },
+            "roleEvents": {
+                "title": "Role Events",
+                "description": "Role actions (creations/deletions, permissions)"
+            },
+            "modLog": {
+                "title": "Mod Log",
+                "description": "Moderation actions (bans, kicks, mutes)"
+            }
+        }
+    }
 }
