@@ -8,10 +8,10 @@
             "description": "The type of configuration you want to view",
             "choices": {
                 "log_channels": {
-                    "name": "Log Channels"
+                    "label": "Log Channels"
                 },
                 "configurable_events": {
-                    "name": "Configurable Events"
+                    "label": "Configurable Events"
                 }
             }
         }
