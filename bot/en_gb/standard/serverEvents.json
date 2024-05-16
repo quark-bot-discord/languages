@@ -57,5 +57,13 @@
     "memberPrune": {
         "title": "Members Pruned",
         "description": "{count} members with at least {time} days of inactivity were pruned by {executor}"
+    },
+    "avatarUpdate": {
+        "title": "Server Avatar Changed",
+        "description": "{user}'s server avatar was changed",
+        "description_added": "{user} added a server avatar",
+        "description_removed": "{user}'s server avatar was removed",
+        "changedBy": "Changed by",
+        "linkToOldAvatar": "Link to old avatar"
     }
 }
