@@ -130,6 +130,7 @@
         "serverLogDesc": "Main Serverlog Channel",
         "notSet": "Not set",
         "selectACategory": "Select a category",
+        "overview": "Overview",
         "formats": {
             "log_channels": "Log Channels",
             "configurable_events": "Configurable Events"
