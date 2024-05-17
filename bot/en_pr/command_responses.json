@@ -127,7 +127,7 @@
     "configCommand": {
         "title": "Serverlog Configuration",
         "selection": "Select a category in the menu to view configuration.",
-        "serverLogDesc": "Serverlog Channel",
+        "serverLogDesc": "Main Serverlog Channel",
         "notSet": "Not set",
         "selectACategory": "Select a category",
         "formats": {
