@@ -60,9 +60,9 @@
     },
     "avatarUpdate": {
         "title": "Server Avatar Changed",
-        "description": "{user}'s server avatar was changed",
+        "description": "{user} changed their server avatar",
         "description_added": "{user} added a server avatar",
-        "description_removed": "{user}'s server avatar was removed",
+        "description_removed": "{user} removed their server avatar",
         "changedBy": "Changed by",
         "linkToOldAvatar": "Link to old avatar"
     }
