@@ -8,6 +8,7 @@
         "description": "{executor} updated the server icon",
         "description_added": "{executor} added a server icon",
         "description_removed": "{executor} removed server icon",
-        "linkToOldIcon": "Link to old icon"
+        "linkToOldIcon": "Link to old icon",
+        "linkToNewIcon": "Link to new icon"
     }
 }
