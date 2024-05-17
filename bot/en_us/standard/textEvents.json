@@ -23,6 +23,7 @@
         "linksToEmojis": "Links to emojis",
         "linksToFiles": "Links to files",
         "inviteDetected": "Server invite detected",
+        "ghostpingDetected": "Ghostping detected",
         "file": "file",
         "files": "files",
         "fileExpired": "file too large or expired",
