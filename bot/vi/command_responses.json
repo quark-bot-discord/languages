@@ -13,6 +13,7 @@
     "error-404-1": "Vui lòng @mention một người dùng, dán ID của họ hoặc gõ tên người dùng của họ",
     "error-405-0": "Xin lỗi?",
     "error-405-1": "Tôi không làm điều đó lol",
+    "error-406-0": "You do not permission",
     "error-407-0": "Bạn không có quyền làm điều này",
     "error-409-0-type-0": "Người dùng đó đã bị cấm",
     "error-409-0-type-1": "Người dùng đó đã bị tắt tiếng",
