@@ -61,5 +61,10 @@
         "description": "{user} đã được bật âm",
         "unmutedBy": "Bật âm bởi",
         "voiceChannel": "Kênh thoại"
+    },
+    "channelStatusUpdate": {
+        "title": "Cập nhật Trạng thái Kênh thoại",
+        "description": "{executor} đã cập nhật trạng thái cho {channel}",
+        "status": "Trạng thái"
     }
 }

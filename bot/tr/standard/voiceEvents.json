@@ -61,5 +61,10 @@
         "description": "{user} susuturması açıldı",
         "unmutedBy": "Susturmayı açan",
         "voiceChannel": "Ses kanalı"
+    },
+    "channelStatusUpdate": {
+        "title": "Voice Channel Status Updated",
+        "description": "{executor} set the status for {channel}",
+        "status": "Status"
     }
 }

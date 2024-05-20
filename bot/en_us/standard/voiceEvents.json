@@ -61,5 +61,10 @@
         "description": "{user} was unmuted",
         "unmutedBy": "Unmuted by",
         "voiceChannel": "Voice channel"
+    },
+    "channelStatusUpdate": {
+        "title": "Voice Channel Status Updated",
+        "description": "{executor} set the status for {channel}",
+        "status": "Status"
     }
 }

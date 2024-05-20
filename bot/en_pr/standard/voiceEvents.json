@@ -61,5 +61,10 @@
         "description": "{user} was permitted t' speak again",
         "unmutedBy": "Permitted by",
         "voiceChannel": "Cabin"
+    },
+    "channelStatusUpdate": {
+        "title": "Voice Channel Status Updated",
+        "description": "{executor} set the status for {channel}",
+        "status": "Status"
     }
 }
