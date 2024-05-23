@@ -170,6 +170,9 @@
             "overview": {
                 "title": "Overview",
                 "description": "Overview of main category options"
+            },
+            "fileEvents": {
+                "title": "Files"
             }
         }
     }
