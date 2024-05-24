@@ -12,5 +12,7 @@
     "mute": "Mute",
     "unmute": "Unmute",
 
-    "timeoutEnds": "Timeout ends {time}"
+    "timeoutEnds": "Timeout ends {time}",
+
+    "editReason": "Edit Reason"
 }
