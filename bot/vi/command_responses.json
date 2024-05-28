@@ -57,7 +57,7 @@
     "serverlog-setchannel": "Kênh đã được đặt thành {channel}",
     "setserverlog-confirm0-set": "Đã đặt Kênh Ghi Nhật Ký Máy Chủ",
     "setserverlog-confirm0-unset": "Đã hủy đặt Kênh Ghi Nhật Ký Máy Chủ",
-    "setserverlog-confirm1-set": "Tất cả các sự kiện ghi nhật ký máy chủ sẽ được ghi lại trong kênh này.\n\n**Để giới hạn một số sự kiện cụ thể trong một kênh cụ thể:** \n\n[**Truy cập Bảng điều khiển Web của chúng tôi**](https://quark.bot/dashboard/{guild_id})\n\nĐể ngăn một số nội dung cụ thể không được ghi nhật ký, chạy:\n\n{ignorecommand}\n\nĐể ẩn tất cả nội dung gửi đến ghi nhật ký máy chủ bằng cách sử dụng spoilers, chạy {spoilerscommand}",
+    "setserverlog-confirm1-set": "All server-log events will now be recorded in this channel.\n\n[**Visit Quark's web dashboard for more configuration options!**]({quark_website_url}/dashboard/{guild_id})",
     "setserverlog-confirm1-unset": "Bạn sẽ không nhận được tin nhắn về các sự kiện xảy ra trong máy chủ này trừ khi bạn có các kênh khác được đặt để xuất các sự kiện đó.",
     "setserverlog-confirm0-options-set": "Đã đặt Kênh Ghi Nhật Ký {type}",
     "setserverlog-confirm0-options-unset": "Đã hủy đặt Kênh Ghi Nhật Ký {type}",

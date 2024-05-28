@@ -7,7 +7,7 @@ When contributing, you should:
 - Ensure the translation **makes sense**
 - Stick to the format
 - Don't translate the stuff within curly brackets - `{` `}` - just place it where it will fit best within the sentence
-- Want to add a new language which doesn't exist here already? Head over to our [support server](https://quark.bot/support) and ask ahead!
+- Want to add a new language which doesn't exist here already? Head over to Quark's [support server](https://quark.bot/support) and ask ahead!
 - There is also a [contribution guide](.github/CONTRIBUTING.md) you can refer to!
 
 Good luck, and have fun!

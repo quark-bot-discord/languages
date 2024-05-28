@@ -57,7 +57,7 @@
     "serverlog-setchannel": "Channel set to {channel}",
     "setserverlog-confirm0-set": "Server-Log Channel Set",
     "setserverlog-confirm0-unset": "Server-Log Channel Unset",
-    "setserverlog-confirm1-set": "All server-log events will now be recorded in this channel.\n\n**To restrict certain events to a certain channel:** \n\n[**Visit Our Web Dashboard**](https://quark.bot/dashboard/{guild_id})\n\nTo prevent certain things from being logged, run:\n\n{ignorecommand}\n\nTo autohide all content sent to the serverlogs using spoilers, run {spoilerscommand}",
+    "setserverlog-confirm1-set": "All server-log events will now be recorded in this channel.\n\n[**Visit Quark's web dashboard for more configuration options!**]({quark_website_url}/dashboard/{guild_id})",
     "setserverlog-confirm1-unset": "You will no longer receive messages about events that occur in this server unless you have other channels set to output the events to.",
     "setserverlog-confirm0-options-set": "Server-Log {type} Channel Set",
     "setserverlog-confirm0-options-unset": "Server-Log {type} Channel Unset",
@@ -118,7 +118,7 @@
     "help-notes-help": "Notes Help",
     "help-tags-help": "Tags Help",
     "help-commands-desc": "Key:\n`<required>` `[optional]`\nThis is not a list of every command",
-    "help-info": "Still need a hand? **Join our support server!**",
+    "help-info": "Still need a hand? **Join Quark's support server!**",
 
     "need-to-vote-title": "You must vote to use this command!",
     "need-to-vote": "Click here to vote",
