@@ -64,6 +64,7 @@
         "description_added": "{user} added a server avatar",
         "description_removed": "{user} removed their server avatar",
         "changedBy": "Changed by",
-        "linkToOldAvatar": "Link to old avatar"
+        "linkToOldAvatar": "Link to old avatar",
+        "linkToNewAvatar": "Link to new avatar"
     }
 }
