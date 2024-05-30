@@ -9,8 +9,8 @@
     "ban": "Ban",
     "unban": "Unban",
     "kick": "Kick",
-    "mute": "Mute",
-    "unmute": "Unmute",
+    "mute": "Timeout",
+    "unmute": "Timeout Removed",
 
     "timeoutEnds": "Timeout ends {time}",
 
