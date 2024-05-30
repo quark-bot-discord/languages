@@ -65,6 +65,7 @@
     "channelStatusUpdate": {
         "title": "Voice Channel Status Updated",
         "description": "{executor} set the status for {channel}",
-        "status": "Status"
+        "status": "Status",
+        "linksToEmojis": "Links to emojis"
     }
 }
