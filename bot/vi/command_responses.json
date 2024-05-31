@@ -1,4 +1,7 @@
 {
+    "disable": "Tắt",
+    "enable": "Bật",
+
     "error-401-0": "Lệnh thất bại",
     "error-401-1-type-0": "Tôi không thể cấm người dùng đó",
     "error-401-1-type-1": "Tôi không thể đá người dùng đó",
@@ -13,7 +16,7 @@
     "error-404-1": "Vui lòng @mention một người dùng, dán ID của họ hoặc gõ tên người dùng của họ",
     "error-405-0": "Xin lỗi?",
     "error-405-1": "Tôi không làm điều đó lol",
-    "error-406-0": "You do not permission",
+    "error-406-0": "Bạn không có quyền",
     "error-407-0": "Bạn không có quyền làm điều này",
     "error-409-0-type-0": "Người dùng đó đã bị cấm",
     "error-409-0-type-1": "Người dùng đó đã bị tắt tiếng",
@@ -33,6 +36,9 @@
     "error-434-1": "Tin nhắn bắt đầu và tin nhắn kết thúc phải thuộc cùng một kênh",
     "error-435-0": "Thời gian chờ đang hoạt động",
     "error-435-1": "Lệnh này chỉ có thể được sử dụng mỗi 15 phút",
+    "error-try-help-again": "Try running the help command again...",
+    "error-no-modlog": "No modlog channel",
+    "error-invalid-log": "Modlog case not found",
 
     "error-timeout-period-too-long-0": "Thời gian chờ quá lâu",
     "error-timeout-period-too-long-1": "Thời gian chờ phải nhỏ hơn 28 ngày",
@@ -44,6 +50,12 @@
     "response-unban": "Đã bỏ cấm",
     "response-purge": "Đã xóa {count} tin nhắn",
 
+    "response-customise-dash": "Cài đặt tùy chỉnh đã được chuyển đến [bảng điều khiển web]!",
+    "response-customise-1": "Ghi lại tin nhắn lên đến 2 tuần trước, tùy chỉnh ghi nhật ký và nhiều hơn nữa với Quark Pro...",
+    "response-customise-2": "[UK, US, EU] Nhấp vào hồ sơ của tôi để nâng cấp!",
+    "response-customise-3": "Hoặc... {proLink}",
+    "response-customise-4": "Thử tùy chỉnh màu sắc miễn phí tại {inventoryLink}",
+
     "target0-command": "mục tiêu",
     "target1-command": "mục tiêu",
     "message0-command": "tin nhắn",
@@ -52,6 +64,8 @@
     "channel0-command": "kênh",
     "channel1-command": "kênh",
     
+    "serverlog-web-promote": "...hoặc truy cập bảng điều khiển web của chúng tôi!",
+    "serverlog-select": "Chọn kênh serverlog",
     "serverlog-unset": "Kênh không được đặt",
     "serverlog-set": "Kênh đã được đặt",
     "serverlog-setchannel": "Kênh đã được đặt thành {channel}",

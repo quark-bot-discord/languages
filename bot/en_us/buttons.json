@@ -1,5 +1,10 @@
 {
     "userID": "User ID",
     "supportServer": "Support Server",
-    "customise": "Customize"
+    "customise": "Customize",
+
+    "overview": "Overview",
+    "serverlog": "Serverlog",
+    "dashboard": "Dashboard",
+    "pro": "Quark Pro"
 }

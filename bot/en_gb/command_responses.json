@@ -1,4 +1,7 @@
 {
+    "disable": "Disable",
+    "enable": "Enable",
+
     "error-401-0": "Command failed",
     "error-401-1-type-0": "I am unable to ban that user",
     "error-401-1-type-1": "I am unable to kick that user",
@@ -33,6 +36,9 @@
     "error-434-1": "The start message and end message must belong to the same channel",
     "error-435-0": "Cooldown active",
     "error-435-1": "This command can only be used every 15 minutes",
+    "error-try-help-again": "Try running the help command again...",
+    "error-no-modlog": "No modlog channel",
+    "error-invalid-log": "Modlog case not found",
 
     "error-timeout-period-too-long-0": "Timeout period too long",
     "error-timeout-period-too-long-1": "Timeout period must be less than 28 days",
@@ -44,6 +50,19 @@
     "response-unban": "Unbanned",
     "response-purge": "Purged {count} messages",
 
+    "response-customise-dash": "Customisation settings have moved to our [web dashboard]!",
+    "response-customise-1": "Log messages up to 2 weeks old, customise logs, and so much more with Quark Pro...",
+    "response-customise-2": "[UK, US, EU] Click onto my profile to upgrade!",
+    "response-customise-3": "Or... {proLink}",
+    "response-customise-4": "Try out colour customisation for free at {inventoryLink}",
+
+    "response-case-updated": "Case updated!",
+
+    "response-debug": "Debug log sent!",
+
+    "response-status-enabled": "Status channel updates enabled!",
+    "response-status-disabled": "Status channel updates disabled!",
+    
     "target0-command": "target",
     "target1-command": "targets",
     "message0-command": "message",
@@ -52,6 +71,8 @@
     "channel0-command": "channel",
     "channel1-command": "channels",
     
+    "serverlog-web-promote": "...or check out our web dashboard!",
+    "serverlog-select": "Select serverlog channel",
     "serverlog-unset": "Channel unset",
     "serverlog-set": "Channel set",
     "serverlog-setchannel": "Channel set to {channel}",
