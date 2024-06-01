@@ -56,6 +56,13 @@
     "response-customise-3": "Hoặc... {proLink}",
     "response-customise-4": "Thử tùy chỉnh màu sắc miễn phí tại {inventoryLink}",
 
+    "response-case-updated": "Cập nhật trạng thái thành công!",
+
+    "response-debug": "Gửi log gỡ lỗi thành công!",
+
+    "response-status-enabled": "Bật cập nhật kênh trạng thái thành công!",
+    "response-status-disabled": "Tắt cập nhật kênh trạng thái thành công!",
+
     "target0-command": "mục tiêu",
     "target1-command": "mục tiêu",
     "message0-command": "tin nhắn",
@@ -99,7 +106,13 @@
     "setserverlog-type-modlogs-1": "modlogs",
     "setserverlog-spoilers": "Spoilers",
     "setserverlog-spoilers-0": "Đã đặt spoilers ghi nhật ký máy chủ thành {result}",
+    "setserverlog-enable-status-updates": "Bật Cập nhật Trạng thái!",
+    "setserverlog-enable-status-updates-desc": "Nhận thông báo về tất cả các cập nhật mới nhất, thời gian chạy và các thông tin quan trọng khác từ các nhà phát triển!",
+    "setserverlog-enable-status-updates-desc-1": "Chúng tôi rất khuyến nghị bạn bật tính năng này trong một trong các kênh của bạn!",
 
+    "help-overview-website-description": "Dễ dàng thiết lập và quản lý Quark từ [bảng điều khiển web]!",
+    "help-overview-inventory-description": "Quản lý các đăng ký của bạn hoặc nhận một số tính năng [Quark Pro] miễn phí!",
+    "help-overview-view-inv": "Xem Kho hàng",
     "help-overview-help": "Trợ giúp",
     "help-overview-website": "Trang web",
     "help-overview-serverlog": "Ghi nhật ký máy chủ",
@@ -120,10 +133,12 @@
     "help-serverlog-0": "Hạn chế Kênh",
     "help-serverlog-1": "Tùy chọn Bỏ qua",
     "help-serverlog-2": "Spoilers",
-    "help-serverlog-0-desc": "Để giới hạn một số sự kiện trong các kênh cụ thể, chạy:\n{setcommands}...trong kênh ghi nhật ký máy chủ hoặc một kênh khác mà bạn muốn chuyển hướng các sự kiện này đến.",
+    "help-serverlog-0-desc": "Để có sự kiểm soát chi tiết hơn về ghi nhật ký, chẳng hạn như chọn các kênh khác nhau cho các loại ghi nhật ký khác nhau, vui lòng truy cập [bảng điều khiển web của Quark]",
     "help-serverlog-1-desc": "Để ngăn một số kênh, người dùng hoặc tin nhắn khỏi việc ghi nhật ký, chạy:\n{ignorecommand}",
-    "help-serverlog-2-desc": "Để chuyển đổi việc áp dụng spoilers cho tất cả các phương tiện gửi trong ghi nhật ký máy chủ, chạy:\n{spoilerscommand}",
-
+    "help-serverlog-2-desc": "Để bật/tắt việc ẩn thông tin về các phương tiện được gửi trong ghi nhật ký máy chủ, chạy: {command}",
+    "help-serverlog-2-on": "Đã bật ẩn thông tin.",
+    "help-serverlog-2-off": "Đã tắt ẩn thông tin.",
+    
     "help-commands-help": "Trợ giúp Lệnh",
     "help-commands-moderation": "Quản lý",
     "help-commands-tags": "Thẻ",

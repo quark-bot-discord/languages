@@ -56,6 +56,13 @@
     "response-customise-3": "Or... {proLink}",
     "response-customise-4": "Try out colour customisation for free at {inventoryLink}",
 
+    "response-case-updated": "Case updated!",
+
+    "response-debug": "Debug log sent!",
+
+    "response-status-enabled": "Status channel updates enabled!",
+    "response-status-disabled": "Status channel updates disabled!",
+    
     "target0-command": "target",
     "target1-command": "targets",
     "message0-command": "message",
@@ -99,7 +106,13 @@
     "setserverlog-type-modlogs-1": "modlogs",
     "setserverlog-spoilers": "Spoilers",
     "setserverlog-spoilers-0": "Serverlog spoilers set to {result}",
+    "setserverlog-enable-status-updates": "Enable Status Updates!",
+    "setserverlog-enable-status-updates-desc": "Get notified of all the latest updates, downtime, and other important communications from the developers!",
+    "setserverlog-enable-status-updates-desc-1": "We highly recommend you enable this in one of your channels!",
 
+    "help-overview-website-description": "Easily set up and manage Quark from the [web dashboard]!",
+    "help-overview-inventory-description": "Manage your subscriptions or get some [Quark Pro] features for free!",
+    "help-overview-view-inv": "View Inventory",
     "help-overview-help": "Help",
     "help-overview-website": "Website",
     "help-overview-serverlog": "Serverlog",
@@ -120,9 +133,11 @@
     "help-serverlog-0": "Channel Restrictions",
     "help-serverlog-1": "Ignore Options",
     "help-serverlog-2": "Spoilers",
-    "help-serverlog-0-desc": "To restrict certain events to certain channels, run:\n{setcommands}...in the serverlog channel, or a different channel where you would like to redirect these events to.",
+    "help-serverlog-0-desc": "For more control over logs, such as selecting different channels for different log types, please visit [Quark's web dashboard]",
     "help-serverlog-1-desc": "To prevent certain channels, users or messages from being logged, run:\n{ignorecommand}",
-    "help-serverlog-2-desc": "To toggle whether spoilers are applied to all media sent in the serverlog, run:\n{spoilerscommand}",
+    "help-serverlog-2-desc": "To toggle whether spoilers are applied to all media sent in the serverlog, run: {command}",
+    "help-serverlog-2-on": "Spoilers are enabled.",
+    "help-serverlog-2-off": "Spoilers are disabled.",
 
     "help-commands-help": "Commands Help",
     "help-commands-moderation": "Moderation",
