@@ -1,0 +1,30 @@
+{
+    "none": "không",
+    "system_channel_id": [],
+    "verification_level": [
+        "không",
+        "thấp",
+        "trung bình",
+        "cao",
+        "rất cao"
+    ],
+    "default_message_notifications": [
+        "tất cả tin nhắn",
+        "chỉ đề cập"
+    ],
+    "explicit_content_filter": [
+        "vô hiệu hóa",
+        "thành viên không có vai trò",
+        "tất cả thành viên"
+    ],
+    "nsfw_level": [
+        "mặc định",
+        "rõ ràng",
+        "an toàn",
+        "hạn chế tuổi"
+    ],
+    "premium_progress_bar_enabled": {
+        "true": "đã kích hoạt",
+        "false": "vô hiệu hóa"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "none": "none",
+    "system_channel_id": [],
+    "verification_level": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "very_high"
+    ],
+    "default_message_notifications": [
+        "all messages",
+        "only mentions"
+    ],
+    "explicit_content_filter": [
+        "disabled",
+        "members without roles",
+        "all members"
+    ],
+    "nsfw_level": [
+        "default",
+        "explicit",
+        "safe",
+        "age restricted"
+    ],
+    "premium_progress_bar_enabled": {
+        "true": "enabled",
+        "false": "disabled"
+    }
+}
