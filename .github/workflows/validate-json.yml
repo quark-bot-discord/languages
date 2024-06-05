@@ -1,0 +1,13 @@
+name: JSON file validation
+
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Validate all JSON files
+      run: node .github/scripts/validate-json.js

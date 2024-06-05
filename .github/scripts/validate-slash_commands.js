@@ -49,6 +49,11 @@ try {
                                 console.error(`Validation error: ${directory}/${file}: Name contains space at '${currentPath}'`);
                                 foundErrors = true;
                             }
+                            if (value !== value.toLowerCase() && currentPath.endsWith('name')) {
+                                console.error(`Validation error: ${directory}/${file}: Key '${currentPath}' must be lowercase`);
+                                foundErrors = true;
+                            }
+                            
                         } else if (typeof value === 'object' && value !== null) {
                             checkFields(value, currentPath);
                         }

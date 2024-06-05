@@ -9,5 +9,5 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Validate Slash Command JSON files
+    - name: Validate Slash Command files
       run: node .github/scripts/validate-slash_commands.js
