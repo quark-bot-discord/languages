@@ -16,7 +16,7 @@ To get an overview, read the [README](../README.md) file. Here are some resource
 
 #### Create a new issue
 
-If you spot a problem with the langues, [search if an issue already exists](https://docs.github.com/en/github/searching-for-information-on-github/searching-on-github/searching-issues-and-pull-requests#search-by-the-title-body-or-comments). If a related issue doesn't exist, you can open a new issue [here](https://github.com/quark-bot-discord/languages/issues/new/choose).
+If you spot a **major** problem with the languages, [search if an issue already exists](https://docs.github.com/en/github/searching-for-information-on-github/searching-on-github/searching-issues-and-pull-requests#search-by-the-title-body-or-comments). If a related issue doesn't exist, you can open a new issue [here](https://github.com/quark-bot-discord/languages/issues/new/choose). If your issue isn't major, just make your changes and open a pull request.
 
 #### Solve an issue
 
