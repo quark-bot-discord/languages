@@ -3,7 +3,7 @@ name: Slash command validation
 on: [push, pull_request, workflow_dispatch]
 
 jobs:
-  validate-json:
+  validate-slash-commands:
     runs-on: ubuntu-latest
 
     steps:
