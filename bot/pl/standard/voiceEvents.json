@@ -1,0 +1,71 @@
+{
+    "streamStart": {
+        "title": "Rozpoczęcie Streamowania",
+        "description": "{user} rozpoczął streamowanie na kanale głosowym {channel}"
+    },
+    "streamStop": {
+        "title": "Zakończenie Streamowania",
+        "description": "{user} zakończył streamowanie na kanale głosowym {channel}"
+    },
+    "videoStart": {
+        "title": "Rozpoczęcie Wideo",
+        "description": "{user} rozpoczął wideo na kanale głosowym {channel}"
+    },
+    "videoStop": {
+        "title": "Zakończenie Wideo",
+        "description": "{user} zakończył wideo na kanale głosowym {channel}"
+    },
+    "voiceSwitch": {
+        "title": "Zmiana Kanału",
+        "description": "{user} przeszedł z kanału głosowego {channel_old} na kanał {channel_new}"
+    },
+    "voiceMove": {
+        "title": "Przeniesienie",
+        "description": "{user} został przeniesiony z kanału głosowego {channel_old} na kanał głosowy {channel_new}",
+        "movedBy": "Przeniesiony przez"
+    },
+    "voiceJoin": {
+        "title": "Dołączenie do Kanału",
+        "description": "{user} dołączył do kanału głosowego {channel}"
+    },
+    "voiceLeave": {
+        "title": "Opuśczenie Kanału",
+        "description": "{user} opuścił kanał głosowy {channel}"
+    },
+    "voiceDisconnect": {
+        "title": "Rozłączenie",
+        "description": "{user} został rozłączony",
+        "disconnectedBy": "Rozłączony przez",
+        "voiceChannel": "Kanał głosowy"
+    },
+    "serverDeafen": {
+        "title": "Wyciszenie",
+        "description": "{user} został wyciszony",
+        "deafenedBy": "Wyciszony przez",
+        "voiceChannel": "Kanał głosowy"
+    },
+    "serverMute": {
+        "title": "Odciszenie Mikrofonu",
+        "description": "{user} został wyciszony mikrofon",
+        "mutedBy": "Wyciszony mikrofon przez",
+        "voiceChannel": "Kanał głosowy"
+    },
+    "serverUndeafen": {
+        "title": "Odciszenie",
+        "description": "{user} został odciszony",
+        "undeafenedBy": "Odciszony przez",
+        "voiceChannel": "Kanał głosowy"
+    },
+    "serverUnmute": {
+        "title": "Odciszonie Mikrofonu",
+        "description": "{user} został odciszony mikrofon",
+        "unmutedBy": "Odciszony przez",
+        "voiceChannel": "Kanał głosowy"
+    },
+    "channelStatusUpdate": {
+        "title": "Zaktualizowano Status Kanału Głosowego",
+        "description": "{executor} ustawił status dla kanału {channel}",
+        "status": "Status",
+        "linksToEmojis": "Linki do emoji"
+    }
+}

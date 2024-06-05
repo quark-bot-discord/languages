@@ -1,0 +1,66 @@
+{
+    "name": "tags",
+    "description": "Tagi",
+    "commandOptions": {
+        "sendOptionTag": {
+            "name": "tag",
+            "description": "Nazwa tagu do wysłania"
+        },
+        "sendOptionUser": {
+            "name": "użytkownik",
+            "description": "Wzmianka o użytkowniku dla lepszej widoczności"
+        },
+        "sendOption": {
+            "name": "wyślij",
+            "description": "Wyślij tag"
+        },
+        "editOptionTag": {
+            "name": "tag",
+            "description": "Nazwa tagu do edycji"
+        },
+        "editOptionText": {
+            "name": "tekst",
+            "description": "Tekst do wyświetlenia na tagu"
+        },
+        "editOptionColour": {
+            "name": "kolor",
+            "description": "Kod koloru hex dla tagu"
+        },
+        "editOptionImage": {
+            "name": "obrazek",
+            "description": "URL obrazu do wyświetlenia na tagu"
+        },
+        "editOption": {
+            "name": "edytuj",
+            "description": "Edytuj tag"
+        },
+        "createOptionTag": {
+            "name": "tag",
+            "description": "Nazwa tagu do utworzenia"
+        },
+        "createOptionText": {
+            "name": "tekst",
+            "description": "Tekst do wyświetlenia na tagu"
+        },
+        "createOption": {
+            "name": "utwórz",
+            "description": "Utwórz tag"
+        },
+        "deleteOptionTag": {
+            "name": "tag",
+            "description": "Nazwa tagu do usunięcia"
+        },
+        "deleteOption": {
+            "name": "usuń",
+            "description": "Usuń tag"
+        },
+        "listOption": {
+            "name": "lista",
+            "description": "Wylistuj wszystkie tagi"
+        },
+        "helpOption": {
+            "name": "pomoc",
+            "description": "Uzyskaj pomoc dotyczącą tagów"
+        }
+    }
+}

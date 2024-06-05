@@ -1,0 +1,14 @@
+{
+    "name": "unmute",
+    "description": "Odcisz użytkownika",
+    "commandOptions": {
+        "userOption": {
+            "name": "użytkownik",
+            "description": "Użytkownik którego chcesz odciszyć"
+        },
+        "reasonOption": {
+            "name": "powód",
+            "description": "Powód odcieszenia"
+        }
+    }
+}

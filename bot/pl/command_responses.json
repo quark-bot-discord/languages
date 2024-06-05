@@ -1,0 +1,210 @@
+{
+    "disable": "Wyłącz",
+    "enable": "Włącz",
+
+    "error-401-0": "Niepowodzenie polecenia",
+    "error-401-1-type-0": "Nie mogę zbanować tego użytkownika",
+    "error-401-1-type-1": "Nie mogę wyrzucić tego użytkownika",
+    "error-401-1-type-2": "Nie mogę wyciszyć tego użytkownika",
+    "error-401-1-type-3": "Nie mogę odciszyć tego użytkownika",
+    "error-403-0": "Brak wystarczających uprawnień",
+    "error-403-1-type-0": "Upewnij się, że mam uprawnienia `BAN_MEMBERS`",
+    "error-403-1-type-1": "Upewnij się, że mam uprawnienia `KICK_MEMBERS`",
+    "error-403-1-type-2": "Upewnij się, że mam uprawnienia `MANAGE_ROLES` i że rola `Muted` jest niżej niż moja najwyższa rola",
+    "error-403-1-type-3": "Upewnij się, że mam uprawnienia `MANAGE_MESSAGES`",
+    "error-404-0": "Nie znaleziono użytkownika",
+    "error-404-1": "Proszę oznaczyć użytkownika, wkleić jego ID lub wpisać jego nazwę użytkownika",
+    "error-405-0": "Słucham?",
+    "error-405-1": "Nie zrobię tego lol",
+    "error-406-0": "Nie masz uprawnień",
+    "error-407-0": "Nie masz władzy, aby to zrobić",
+    "error-409-0-type-0": "Ten użytkownik jest już zbanowany",
+    "error-409-0-type-1": "Ten użytkownik jest już wyciszony",
+    "error-409-0-type-2": "Ten użytkownik jest już odbanowany",
+    "error-409-0-type-3": "Ten użytkownik jest już odciszony",
+    "error-429-0": "Nieprawidłowy numer",
+    "error-429-1": "Wprowadź prawidłową liczbę całkowitą w zakresie (1-100)",
+    "error-430-0": "Brak wiadomości",
+    "error-430-1": "Nie znaleziono wiadomości do usunięcia",
+    "error-431-0": "Nieprawidłowy link do wiadomości",
+    "error-431-1": "Wprowadź prawidłowy link do wiadomości",
+    "error-432-0": "Nieprawidłowy log Quark",
+    "error-432-1": "Ta wiadomość nie jest prawidłowym logiem Quark",
+    "error-433-0": "Nieprawidłowe wiadomości początkowe i końcowe",
+    "error-433-1": "Wiadomość początkowa musi być starsza niż wiadomość końcowa",
+    "error-434-0": "Różne kanały",
+    "error-434-1": "Wiadomość początkowa i końcowa muszą należeć do tego samego kanału",
+    "error-435-0": "Aktywny czas oczekiwania",
+    "error-435-1": "To polecenie można używać tylko co 15 minut",
+    "error-try-help-again": "Spróbuj ponownie uruchomić polecenie pomocy...",
+    "error-no-modlog": "Brak kanału modlog",
+    "error-invalid-log": "Nie znaleziono sprawy modlog",
+
+    "error-timeout-period-too-long-0": "Okres czasu oczekiwania jest zbyt długi",
+    "error-timeout-period-too-long-1": "Okres czasu oczekiwania musi być krótszy niż 28 dni",
+
+    "response-ban": "Zbanowany",
+    "response-kick": "Wyrzucony",
+    "response-mute": "Wyciszony",
+    "response-unmute": "Odciszony",
+    "response-unban": "Odbanowany",
+    "response-purge": "Usunięto {count} wiadomości",
+
+    "response-customise-dash": "Ustawienia personalizacji zostały przeniesione na nasz [web dashboard]!",
+    "response-customise-1": "Loguj wiadomości do 2 tygodni wstecz, personalizuj logi i wiele więcej z Quark Pro...",
+    "response-customise-2": "[UK, US, EU] Kliknij na mój profil, aby przejść na wyższy poziom!",
+    "response-customise-3": "Lub... {proLink}",
+    "response-customise-4": "Wypróbuj personalizację kolorów za darmo na {inventoryLink}",
+
+    "response-case-updated": "Przypadek zaktualizowany!",
+
+    "response-debug": "Wysłano log debugowania!",
+
+    "response-status-enabled": "Aktualizacje kanału statusu włączone!",
+    "response-status-disabled": "Aktualizacje kanału statusu wyłączone!",
+    
+    "target0-command": "cel",
+    "target1-command": "cele",
+    "message0-command": "wiadomość",
+    "executor0-command": "wykonawca",
+    "executor1-command": "wykonawcy",
+    "channel0-command": "kanał",
+    "channel1-command": "kanały",
+    
+    "serverlog-web-promote": "...lub sprawdź nasz web dashboard!",
+    "serverlog-select": "Wybierz kanał serverlog",
+    "serverlog-unset": "Kanał niezdefiniowany",
+    "serverlog-set": "Kanał ustawiony",
+    "serverlog-setchannel": "Kanał ustawiony na {channel}",
+    "setserverlog-confirm0-set": "Kanał Server-Log ustawiony",
+    "setserverlog-confirm0-unset": "Kanał Server-Log niezdefiniowany",
+    "setserverlog-confirm1-set": "Wszystkie wydarzenia server-log będą teraz rejestrowane w tym kanale.\n\n[**Odwiedź web dashboard Quark, aby uzyskać więcej opcji konfiguracji!**]({quark_website_url}/dashboard/{guild_id})",
+    "setserverlog-confirm1-unset": "Nie będziesz już otrzymywać wiadomości o wydarzeniach, które występują na tym serwerze, chyba że masz ustawione inne kanały do wyjścia tych wydarzeń.",
+    "setserverlog-confirm0-options-set": "Kanał Server-Log {type} ustawiony",
+    "setserverlog-confirm0-options-unset": "Kanał Server-Log {type} niezdefiniowany",
+    "setserverlog-confirm0-options-stoplog": "Logowanie Server-Log {type} zatrzymane",
+    "setserverlog-confirm1-options-set": "Server {type} będzie teraz rejestrowany w tym kanale.\n\nAby usunąć ten kanał, uruchom ponownie polecenie w tym kanale.",
+    "setserverlog-confirm1-options-unset": "Server {type} nie będzie już rejestrowany w tym kanale.\n\nAby ustawić ten kanał, uruchom ponownie polecenie w tym kanale.",
+    "setserverlog-confirm1-options-stoplog": "Server {type} będzie teraz nadal rejestrowany w głównym kanale serverlog (jeśli jest ustawiony).\n\nAby to cofnąć, uruchom ponownie polecenie tutaj.",
+    "setserverlog-type-members-0": "Członkowie",
+    "setserverlog-type-members-1": "członkowie",
+    "setserverlog-type-actions-0": "Akcje",
+    "setserverlog-type-actions-1": "akcje",
+    "setserverlog-type-text-0": "Wydarzenia kanału tekstowego",
+    "setserverlog-type-text-1": "wydarzenia kanału tekstowego",
+    "setserverlog-type-voice-0": "Wydarzenia kanału głosowego",
+    "setserverlog-type-voice-1": "wydarzenia kanału głosowego",
+    "setserverlog-type-files-0": "Pliki",
+    "setserverlog-type-files-1": "pliki",
+    "setserverlog-type-server-0": "Serwer",
+    "setserverlog-type-server-1": "serwer",
+    "setserverlog-type-roles-0": "Wydarzenia roli",
+    "setserverlog-type-roles-1": "wydarzenia roli",
+    "setserverlog-type-channels-0": "Wydarzenia kanału",
+    "setserverlog-type-channels-1": "wydarzenia kanału",
+    "setserverlog-type-modlogs-0": "Modlogi",
+    "setserverlog-type-modlogs-1": "modlogi",
+    "setserverlog-spoilers": "Spojlery",
+    "setserverlog-spoilers-0": "Spojlery serverlog ustawione na {result}",
+    "setserverlog-enable-status-updates": "Włącz aktualizacje statusu!",
+    "setserverlog-enable-status-updates-desc": "Otrzymuj powiadomienia o wszystkich najnowszych aktualizacjach, przestojach i innych ważnych komunikatach od deweloperów!",
+    "setserverlog-enable-status-updates-desc-1": "Zalecamy włączenie tego w jednym z twoich kanałów!",
+
+    "help-overview-website-description": "Łatwo skonfiguruj i zarządzaj Quark z [web dashboard]!",
+    "help-overview-inventory-description": "Zarządzaj swoimi subskrypcjami lub uzyskaj niektóre funkcje [Quark Pro] za darmo!",
+    "help-overview-view-inv": "Wyświetl inwentarz",
+    "help-overview-help": "Pomoc",
+    "help-overview-website": "Strona internetowa",
+    "help-overview-serverlog": "Serverlog",
+    "help-overview-modlog": "Modlog",
+    "help-overview-commands": "Polecenia",
+    "help-overview-language": "Język",
+    "help-overview-premium": "Premium",
+    "help-overview-inventory": "Inwentarz",
+    "help-overview-channel-isset": "Kanał ustawiony na {channel}",
+    "help-overview-channel-isnotset": "Uruchom {command} na żądanym kanale",
+    "help-overview-view-options": "Uruchom {command}, aby zobaczyć opcje",
+    "help-overview-view-options-and-statuses": "Uruchom {command}, aby zobaczyć statusy i opcje",
+    "help-overview-view-all-commands": "Uruchom {command}, aby zobaczyć polecenia",
+    "help-overview-change-channel": "Zmień to, uruchamiając {command} na żądanym kanale.",
+    "help-overview-manage-premium": "Uruchom {command}, aby zarządzać premium",
+    "language-set": "Ustaw język na {language}",
+
+    "help-serverlog-help": "Pomoc Serverlog",
+    "help-serverlog-0": "Ograniczenia kanału",
+    "help-serverlog-1": "Opcje ignorowania",
+    "help-serverlog-2": "Spojlery",
+    "help-serverlog-0-desc": "Aby uzyskać większą kontrolę nad logami, np. wybór różnych kanałów dla różnych typów logów, odwiedź [web dashboard Quark]",
+    "help-serverlog-1-desc": "Aby zapobiec rejestrowaniu niektórych kanałów, użytkowników lub wiadomości, uruchom:\n{ignorecommand}",
+    "help-serverlog-2-desc": "Aby przełączać, czy spoilery są stosowane do wszystkich mediów wysyłanych w serverlog, uruchom: {command}",
+    "help-serverlog-2-on": "Spojlery są włączone.",
+    "help-serverlog-2-off": "Spojlery są wyłączone.",
+
+    "help-commands-help": "Pomoc poleceń",
+    "help-commands-moderation": "Moderacja",
+    "help-commands-tags": "Tagi",
+    "help-commands-notes": "Notatki",
+    "help-commands-other": "Inne",
+    "help-notes-help": "Pomoc notatek",
+    "help-tags-help": "Pomoc tagów",
+    "help-commands-desc": "Klucz:\n`<wymagane>` `[opcjonalne]`\nTo nie jest lista wszystkich poleceń",
+    "help-info": "Nadal potrzebujesz pomocy? **Dołącz do serwera wsparcia Quark!**",
+
+    "need-to-vote-title": "Musisz zagłosować, aby użyć tego polecenia!",
+    "need-to-vote": "Kliknij tutaj, aby zagłosować",
+    "need-to-vote-footer": "Głosy są rejestrowane do minuty",
+
+    "configCommand": {
+        "title": "Konfiguracja Serverlog",
+        "selection": "Wybierz kategorię w menu, aby wyświetlić konfigurację.",
+        "serverLogDesc": "Główny kanał Serverlog",
+        "notSet": "Niezdefiniowany",
+        "selectACategory": "Wybierz kategorię",
+        "overview": "Przegląd",
+        "formats": {
+            "log_channels": "Kanały logów",
+            "configurable_events": "Konfigurowalne wydarzenia"
+        },
+        "categories": {
+            "serverEvents": {
+                "title": "Członkowie",
+                "description": "Akcje członków (dołączenie/wyjście, role, pseudonimy)"
+            },
+            "textEvents": {
+                "title": "Wiadomości",
+                "description": "Akcje wiadomości (usunięcia, edycje, przypięcia, reakcje)"
+            },
+            "voiceEvents": {
+                "title": "Głos",
+                "description": "Akcje kanału głosowego (dołączenie/wyjście, transmisje, wyciszenie/ogłuszenie)"
+            },
+            "serverActions": {
+                "title": "Akcje serwera",
+                "description": "Akcje serwera (tworzenie/usuwanie zaproszeń, emotikony)"
+            },
+            "channelEvents": {
+                "title": "Kanały",
+                "description": "Akcje kanału (tworzenie/usuwanie, uprawnienia)"
+            },
+            "generalEvents": {
+                "title": "Wydarzenia serwera",
+                "description": "Ogólne akcje (modyfikacje serwera)"
+            },
+            "roleEvents": {
+                "title": "Role",
+                "description": "Akcje ról (tworzenie/usuwanie, uprawnienia)"
+            },
+            "modLog": {
+                "title": "Logi moderatorów",
+                "description": "Akcje moderacji (bany, wyrzucenia, wyciszenia)"
+            },
+            "overview": {
+                "title": "Przegląd",
+                "description": "Przegląd głównych opcji kategorii"
+            },
+            "fileEvents": {
+                "title": "Pliki"
+            }
+        }
+    }
+}

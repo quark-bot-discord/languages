@@ -1,0 +1,70 @@
+{
+    "members": "Członkowie",
+    "userJoined": {
+        "title": "Użytkownik Dołączył Do Serwera",
+        "description": "{user} dołączył do serwera",
+        "noAvatar": "Konto nie ma awatara",
+        "newAccount": "Konto jest nowe",
+        "noBadges": "Konto nie ma odznak",
+        "warning": "OSTRZEŻENIE!",
+        "accountCreated": "Konto utworzone",
+        "invite": "Zaproszenie",
+        "createdBy": "utworzone przez {user}",
+        "ban": "Ban",
+        "info": "Informacje",
+        "rejoined": "Konto ponownie dołączyło"
+    },
+    "userLeft": {
+        "title": "Użytkownik Opuścił Serwer",
+        "description": "{user} opuścił serwer",
+        "joined": "Dołączył",
+        "roles": "Role",
+        "serverProfilePicture": "Link do awatara serwera"
+    },
+    "botAdded": {
+        "title": "Bot Został Dodany",
+        "description": "{bot} został dodany do serwera przez {executor}",
+        "descriptionne": "{bot} został dodany do serwera"
+    },
+    "botRemoved": {
+        "title": "Bot Został Usunięty",
+        "description": "{bot} został usunięty z serwera przez {executor}",
+        "descriptionne": "{bot} został usunięty z serwera"
+    },
+    "nicknameUpdate": {
+        "title": "Zaktualizowano Pseudonim",
+        "description": "Pseudonim użytkownika {user} został zmieniony z {oldNickname} na {newNickname}",
+        "setNick": "Pseudonim użytkownika {user} został ustawiony na **{newNickname}**",
+        "nickRemoved": "Pseudonim użytkownika {user} o nazwie **{oldNickname}** został usunięty",
+        "changedBy": "Zmienione przez"
+    },
+    "memberRoleAdd": {
+        "title": "Rola Nadana",
+        "title_multiple": "Role Nadane",
+        "description": "Użytkownikowi {user} nadano rolę {role}",
+        "description_multiple": "Użytkownikowi {user} nadano wiele ról",
+        "givenBy": "Nadane przez",
+        "roles": "Role"
+    },
+    "memberRoleRemove": {
+        "title": "Rola Odebrana",
+        "title_multiple": "Role Odebrane",
+        "description": "Rola {role} została odebrana użytkownikowi {user}",
+        "description_multiple": "Wiele ról zostało odebranych użytkownikowi {user}",
+        "removedBy": "Odebrane przez",
+        "roles": "Role"
+    },
+    "memberPrune": {
+        "title": "Members Pruned",
+        "description": "{count} members with at least {time} days of inactivity were pruned by {executor}"
+    },
+    "avatarUpdate": {
+        "title": "Zmieniono Awatar Serwera",
+        "description": "{user} zmienił swojego awatara serwera",
+        "description_added": "{user} dodał awatar serwera",
+        "description_removed": "{user} usunął swojego awatara serwera",
+        "changedBy": "Zmienione przez",
+        "linkToOldAvatar": "Link do starego awatara",
+        "linkToNewAvatar": "Link do nowego awatara"
+    }
+}

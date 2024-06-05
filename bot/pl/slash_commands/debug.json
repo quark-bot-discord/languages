@@ -1,0 +1,10 @@
+{
+    "name": "debug",
+    "description": "Wygeneruj raport z debugowania dla serwera",
+    "commandOptions": {
+        "shareOption": {
+            "name": "share",
+            "description": "Wybierz, czy chcesz podzielić się raportem debugowania z programistami"
+        }
+    }
+}

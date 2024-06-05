@@ -1,0 +1,30 @@
+{
+    "name": "eksportuj",
+    "description": "Eksportuj grupę logów",
+
+    "commandOptions": {
+        "startOption": {
+            "name": "start",
+            "description": "Link do pierwszego logu, od którego rozpocząć eksport"
+        },
+
+        "endOption": {
+            "name": "koniec",
+            "description": "Link do ostatniego logu do eksportu"
+        },
+
+        "formatOption": {
+            "name": "format",
+            "description": "Format eksportowanych logów",
+            
+            "choices": {
+                "json": {
+                    "name": "json"
+                },
+                "pretty": {
+                    "name": "ładny"
+                }
+            }
+        }
+    }
+}
