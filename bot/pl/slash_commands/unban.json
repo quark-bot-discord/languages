@@ -3,7 +3,7 @@
     "description": "Odbanuj użytkownika",
     "commandOptions": {
         "userOption": {
-            "name": "ID użytkownika",
+            "name": "id_użytkownika",
             "description": "ID użytkownika którego chcesz odbanować"
         },
         "reasonOption": {
