@@ -10,5 +10,13 @@
         "description_removed": "{executor} removed server icon",
         "linkToOldIcon": "Link to old icon",
         "linkToNewIcon": "Link to new icon"
+    },
+    "serverBoostAdd": {
+        "title": "Server Boosted",
+        "description": "{user} boosted this server 🎉"
+    },
+    "serverBoostRemove": {
+        "title": "Server Boost Removed",
+        "description": "{user} stopped boosting this server"
     }
 }
