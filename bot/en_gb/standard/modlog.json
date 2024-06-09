@@ -14,5 +14,11 @@
 
     "timeoutEnds": "Timeout ends {time}",
 
-    "editReason": "Edit Reason"
+    "editReason": "Edit Reason",
+
+    "reasonModal": {
+        "label": "Reason",
+        "placeholder": "Being very bad >:(",
+        "title": "Modify modlog reason"
+    }
 }
