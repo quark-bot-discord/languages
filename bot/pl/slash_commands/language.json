@@ -1,0 +1,10 @@
+{
+    "name": "language",
+    "description": "Zmień język Quark'a",
+    "commandOptions": {
+        "languageOption": {
+            "name": "język",
+            "description": "Ustaw język Quark'a dla tego servera"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "inviteCreate": {
+        "title": "Utworzono zaproszenie",
+        "description_withInviter": "{inviter} utworzył zaproszenie {invite} na {channel}",
+        "description_withoutInviter": "Zaproszenie {invite} ostało utworzone dla {channel}",
+        "expires": "Wygasa",
+        "never": "Nigdy",
+        "maxUses": "Maksymalna liczba użyć"
+    },
+    "inviteDelete": {
+        "title": "Zaproszenie usunięte",
+        "description_withExecutor": "{executor} usunął zaproszenie {invite} na {channel}",
+        "description_withoutExecutor": "Zaproszenie {invite} zostało usunięte dla {channel}",
+        "used": "Używany",
+        "created": "Utworzono przez",
+        "none": "brak"
+    },
+    "emojiCreated": {
+        "title": "Utworzono emotkę",
+        "description": "{emoji} została dodana przez {executor}"
+    },
+    "emojiDeleted": {
+        "title": "Emotka usunięte",
+        "description": "{emoji} została usunięta przez {executor}",
+        "emoji": "Emoji"
+    },
+    "emojiUpdated": {
+        "title": "Edytowano emotkę",
+        "description": "{emoji} została edytowana przez {executor}"
+    }
+}   

@@ -1,0 +1,91 @@
+{
+    "polls": {
+    "poll": "Ankieta",
+    "pollDescriptor": "[poll]",
+    "status": "Status ankiety.",
+    "ended": "zakończona",
+    "notEnded": "nie zakończona",
+    "multiselect": "Wielokrotny wybór",
+    "enabled": "włączona",
+    "disabled": "wyłączona",
+    "ends": "Kończy się",
+    "vote": "głos",
+    "votes": "głosy",
+    "noResponses": "Brak odpowiedzi"
+},
+"messageDeleted": {
+    "title": "Wiadomość Usunięta",
+    "author": "Autor wiadomości",
+    "channel": "Kanał",
+    "deletedBy": "Usunięte przez",
+    "jumpToContext": "Przejdź do kontekstu",
+    "warning": "OSTRZEŻENIE!",
+    "linksToEmojis": "Linki do emoji",
+    "linksToFiles": "Linki do plików",
+    "inviteDetected": "Wykryto zaproszenie do serwera",
+    "ghostpingDetected": "Wykryto ghostping",
+    "file": "plik",
+    "files": "pliki",
+    "fileExpired": "plik jest za duży lub wygasł",
+    "filesExpired": "pliki są za duże lub wygasły",
+    "sticker": "naklejka",
+    "noContent": "brak treści",
+    "embed": "osadzone",
+    "thread": "Wątek"
+},
+"messagesBulkDeleted": {
+    "title": "Usunięto Wiele Wiadomości",
+    "deletedBy": "Usunięte przez",
+    "channel": "Kanał",
+    "more": "więcej",
+    "uncachedUser": "niezapisany użytkownik",
+    "uncachedChannel": "niezapisany kanał",
+    "uncachedMessage": "niezapisana wiadomość",
+    "embed": "osadzone",
+    "errorFile": "Wystąpił problem z odzyskaniem plików. Jeśli problem będzie się powtarzał, prosimy o informację na serwerze wsparcia Quark'a.",
+    "errorText": "Wystąpił problem z utworzeniem pliku tekstowego. Niektóre wiadomości mogły zostać utracone. Jeśli problem będzie się powtarzał, prosimy o informację na serwerze wsparcia Quark'a."
+},
+"messageUpdate": {
+    "title": "Wiadomość Zedytowana",
+    "author": "Autor wiadomości",
+    "channel": "Kanał",
+    "jumpToMessage": "Przejdź do wiadomości",
+    "afterEdit": "Po edycji",
+    "diff": "Edycje",
+    "diffError": "Nie można obliczyć edycji.",
+    "cannotRetrieveOriginal": "Nie można odzyskać oryginalnej wiadomości",
+    "noContent": "brak treści",
+    "thread": "Wątek"
+},
+"attachmentDeleted": {
+    "title": "Załącznik Usunięty"
+},
+"messagePin": {
+    "title": "Wiadomość Przypięta",
+    "description": "Wiadomość została przypięta przez {executor}"
+},
+"messageUnpin": {
+    "title": "Wiadomość Odepnięta",
+    "description": "Wiadomość została odepnięta przez {executor}"
+},
+"threadCreate": {
+    "thread": "Wątek",
+    "channel": "Kanał",
+    "jumpToContext": "Przejdź do kontekstu",
+    "title": "Utworzono Wątek",
+    "description": "{member} utworzył nowy wątek {thread}"
+},
+"threadDelete": {
+    "thread": "Wątek",
+    "channel": "Kanał",
+    "title": "Wątek Usunięty",
+    "description": "{executor} usunął wątek {thread}"
+},
+"messageReactionRemove": {
+    "title": "Reakcja Usunięta",
+    "description": "{executor} usunął reakcję z wiadomości",
+    "emoji": "Emoji",
+    "linkToEmoji": "Link do emoji",
+    "jumpToMessage": "Przejdź do wiadomości"
+}
+}

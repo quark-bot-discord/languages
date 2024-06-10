@@ -1,0 +1,30 @@
+{
+    "channelCreated": {
+        "title": "Kanał Utworzony",
+        "description": "{channel} został utworzony przez {executor}",
+        "descriptionWithCategory": "{channel} został utworzony przez {executor} w kategorii {category}."
+    },
+    "channelDeleted": {
+        "title": "Kanał Usunięty",
+        "description": "{channel_name} został usunięty przez {executor}",
+        "channel": "Kanał"
+    },
+    "channelUpdated": {
+        "title": "Kanał Zmodyfikowany",
+        "description": "{channel} został zmodyfikowany przez {executor}"
+    },
+    "channelOverwriteCreate": {
+        "title": "Dodano Uprawnienia do Kanału",
+        "description": "{executor} dodał uprawnienia do {channel} dla {special}"
+    },
+    "channelOverwriteDelete": {
+        "title": "Usunięto Uprawnienia z Kanału",
+        "description": "{executor} usunął uprawnienia z {channel} dla {special}"
+    },
+    "channelOverwriteUpdate": {
+        "title": "Zaktualizowano Uprawnienia Kanału",
+        "description": "{executor} zaktualizował uprawnienia dla {channel} dla {special}",
+        "newPermissions": "Nowe Uprawnienia",
+        "viewFullNewPermissions": "Zobacz Pełne Nowe Uprawnienia"
+    }
+}

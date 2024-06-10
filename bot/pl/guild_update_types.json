@@ -1,0 +1,30 @@
+{
+    "none": "brak",
+    "system_channel_id": [],
+    "verification_level": [
+        "brak",
+        "niski",
+        "średni",
+        "wysoki",
+        "bardzo_wysoki"
+    ],
+    "default_message_notifications": [
+        "wszystkie wiadomości",
+        "tylko wzmianki"
+    ],
+    "explicit_content_filter": [
+        "wyłączony",
+        "użytkownicy bez ról",
+        "wszyscy"
+    ],
+    "nsfw_level": [
+        "domyślne",
+        "wyraźne",
+        "bezpieczne",
+        "ograniczonie wiekowe"
+    ],
+    "premium_progress_bar_enabled": {
+        "true": "włączony",
+        "false": "wyłączony"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "serverModified": {
+        "title": "Serwer Zmodyfikowany",
+        "description": "Ten serwer został zmodyfikowany przez {executor}"
+    },
+    "serverIconUpdated": {
+        "title": "Ikona Serwera Zaktualizowana",
+        "description": "{executor} zaktualizował ikonę serwera",
+        "description_added": "{executor} dodał ikonę serwera",
+        "description_removed": "{executor} usunął ikonę serwera",
+        "linkToOldIcon": "Link do starej ikony",
+        "linkToNewIcon": "Link do nowej ikony"
+    }
+}

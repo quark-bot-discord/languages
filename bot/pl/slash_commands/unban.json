@@ -1,0 +1,14 @@
+{
+    "name": "unban",
+    "description": "Odbanuj użytkownika",
+    "commandOptions": {
+        "userOption": {
+            "name": "id_użytkownika",
+            "description": "ID użytkownika którego chcesz odbanować"
+        },
+        "reasonOption": {
+            "name": "powód",
+            "description": "Powód odbanowania użytkownika"
+        }
+    }
+}
