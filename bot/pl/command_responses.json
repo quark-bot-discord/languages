@@ -109,6 +109,10 @@
     "setserverlog-enable-status-updates": "Włącz aktualizacje statusu!",
     "setserverlog-enable-status-updates-desc": "Otrzymuj powiadomienia o wszystkich najnowszych aktualizacjach, przestojach i innych ważnych komunikatach od deweloperów!",
     "setserverlog-enable-status-updates-desc-1": "Zalecamy włączenie tego w jednym z twoich kanałów!",
+    "setserverlog-check-permissions": "Proszę, upewnij się że Quark ma uprawnienia do wysyłania wiadomości na tym kanale, albo kanał nie będzie ustawiony.",
+
+    "festive-title": "Free Festive Gift!",
+    "festive-claim": "Claim your free gift!",
 
     "help-overview-website-description": "Łatwo skonfiguruj i zarządzaj Quark z [web dashboard]!",
     "help-overview-inventory-description": "Zarządzaj swoimi subskrypcjami lub uzyskaj niektóre funkcje [Quark Pro] za darmo!",
