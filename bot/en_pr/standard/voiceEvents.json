@@ -70,20 +70,19 @@
     },
     "stageStarted": {
         "title": "Stage Started",
-        "description": "{executor} started a stage",
-        "topic": "Topic",
-        "channel": "Channel"
+        "description": "{executor} started a stage in {channel}",
+        "topic": "Topic"
     },
     "stageEnded": {
         "title": "Stage Ended",
-        "description": "The stage was ended by {executor}",
-        "description_noExecutor": "The stage channel was ended",
+        "description": "The stage in {channel} was ended by {executor}",
+        "description_noExecutor": "The stage in {channel} was ended",
         "topic": "Topic",
         "none": "none"
     },
     "stageUpdated": {
         "title": "Stage Updated",
-        "description": "The stage was updated by {executor}",
+        "description": "The stage in {channel} was updated by {executor}",
         "oldTopic": "Old Topic",
         "newTopic": "New Topic"
     }
