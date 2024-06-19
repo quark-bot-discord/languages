@@ -78,7 +78,8 @@
         "title": "Stage Ended",
         "description": "The stage was ended by {executor}",
         "description_noExecutor": "The stage channel was ended",
-        "topic": "Topic"
+        "topic": "Topic",
+        "none": "none"
     },
     "stageUpdated": {
         "title": "Stage Updated",

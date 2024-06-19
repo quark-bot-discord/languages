@@ -5,7 +5,8 @@
         "description_withoutInviter": "An invite {invite} was created for {channel}",
         "expires": "Expires",
         "never": "Never",
-        "maxUses": "Max Uses"
+        "maxUses": "Max Uses",
+        "none": "none"
     },
     "inviteDelete": {
         "title": "Invite Deleted",
