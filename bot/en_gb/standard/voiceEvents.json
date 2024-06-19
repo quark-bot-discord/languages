@@ -67,5 +67,23 @@
         "description": "{executor} set the status for {channel}",
         "status": "Status",
         "linksToEmojis": "Links to emojis"
+    },
+    "stageStarted": {
+        "title": "Stage Started",
+        "description": "{executor} started a stage",
+        "topic": "Topic",
+        "channel": "Channel"
+    },
+    "stageEnded": {
+        "title": "Stage Ended",
+        "description": "The stage was ended by {executor}",
+        "description_noExecutor": "The stage channel was ended",
+        "topic": "Topic"
+    },
+    "stageUpdated": {
+        "title": "Stage Updated",
+        "description": "The stage was updated by {executor}",
+        "oldTopic": "Old Topic",
+        "newTopic": "New Topic"
     }
 }
