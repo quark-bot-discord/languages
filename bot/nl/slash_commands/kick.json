@@ -1,0 +1,16 @@
+{
+    "name": "kicken",
+    "description": "Een gebruiker kicken",
+
+    "commandOptions": {
+        "userOption": {
+            "name": "gebruiker",
+            "description": "De gebruiker om te kicken"
+        },
+
+        "reasonOption": {
+            "name": "reden",
+            "description": "De reden om de gebruiker te kicken"
+        }
+    }
+}

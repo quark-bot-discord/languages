@@ -1,0 +1,10 @@
+{
+    "name": "taal",
+    "description": "Verander Quark's taal",
+    "commandOptions": {
+        "languageOption": {
+            "name": "taal",
+            "description": "Stel de bot taal in voor deze server"
+        }
+    }
+}
