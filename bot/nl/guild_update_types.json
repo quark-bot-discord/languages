@@ -1,0 +1,30 @@
+{
+    "none": "geen",
+    "system_channel_id": [],
+    "verification_level": [
+        "geen",
+        "laag",
+        "medium",
+        "hoog",
+        "zeer hoog"
+    ],
+    "default_message_notifications": [
+        "alle berichten",
+        "alleen notificaties"
+    ],
+    "explicit_content_filter": [
+        "uitgeschakeld",
+        "leden zonder rollen",
+        "alle leden"
+    ],
+    "nsfw_level": [
+        "standaard",
+        "expliciet",
+        "veilig",
+        "leeftijdsbeperkt"
+    ],
+    "premium_progress_bar_enabled": {
+        "true": "ingeschakeld",
+        "false": "uitgeschakeld"
+    }
+}
