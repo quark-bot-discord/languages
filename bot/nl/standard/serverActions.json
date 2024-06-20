@@ -1,0 +1,31 @@
+{
+    "inviteCreate": {
+        "title": "Uitnodiging Gecreëerd",
+        "description_withInviter": "{inviter} heeft een uitnodiging {invite} gecreëerd voor {channel}",
+        "description_withoutInviter": "Een uitnodiging {invite} is gecreëerd voor {channel}",
+        "expires": "Verloopt",
+        "never": "Nooit",
+        "maxUses": "Maximaal Gebruik"
+    },
+    "inviteDelete": {
+        "title": "Uitnodiging Verwijderd",
+        "description_withExecutor": "{executor} heeft een uitnodiging {invite} verwijderd voor {channel}",
+        "description_withoutExecutor": "Een uitnodiging {invite} is verwijderd voor {channel}",
+        "used": "Gebruikt",
+        "created": "Gecreëerd door",
+        "none": "geen"
+    },
+    "emojiCreated": {
+        "title": "Emoji Gecreëerd",
+        "description": "{emoji} is toegevoegd door {executor}"
+    },
+    "emojiDeleted": {
+        "title": "Emoji Verwijderd",
+        "description": "{emoji} is verwijderd door {executor}",
+        "emoji": "Emoji"
+    },
+    "emojiUpdated": {
+        "title": "Emoji Gewijzigd",
+        "description": "{emoji} is gewijzigd door {executor}"
+    }
+}
