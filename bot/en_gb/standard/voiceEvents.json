@@ -30,7 +30,9 @@
     },
     "voiceLeave": {
         "title": "Left Channel",
-        "description": "{user} left the {channel} voice channel"
+        "description": "{user} left the {channel} voice channel",
+        "joined": "Joined",
+        "joinedValue": "{relative} for {relative_fixed}"
     },
     "voiceDisconnect": {
         "title": "Disconnected",

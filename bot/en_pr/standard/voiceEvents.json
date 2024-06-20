@@ -30,7 +30,9 @@
     },
     "voiceLeave": {
         "title": "Exited Cabin",
-        "description": "{user} departed from the {channel} cabin"
+        "description": "{user} departed from the {channel} cabin",
+        "joined": "Present",
+        "joinedValue": "{relative} for {relative_fixed}"
     },
     "voiceDisconnect": {
         "title": "Thrown Out",
