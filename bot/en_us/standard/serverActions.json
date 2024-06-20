@@ -28,5 +28,22 @@
     "emojiUpdated": {
         "title": "Emoji Edited",
         "description": "{emoji} was edited by {executor}"
+    },
+    "serverEventCreate": {
+        "title": "Event Created",
+        "description_withChannel": "{executor} created an event {name} in {channel}",
+        "description_withoutChannel": "{executor} created an event {name}",
+        "location": "Location",
+        "starts": "Starts"
+    },
+    "serverEventDelete": {
+        "title": "Event Deleted",
+        "description": "{executor} deleted an event {name}",
+        "eventDescription": "Description",
+        "linkToEventImage": "Link to event image"
+    },
+    "serverEventUpdate": {
+        "title": "Event Updated",
+        "description": "{executor} updated an event {name}"
     }
 }
