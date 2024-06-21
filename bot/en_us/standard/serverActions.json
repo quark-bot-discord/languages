@@ -39,12 +39,12 @@
     },
     "serverEventDelete": {
         "title": "Event Deleted",
-        "description": "{executor} deleted an event {name}",
+        "description": "{executor} deleted the event {name}",
         "linkToEventImage": "Link to event image"
     },
     "serverEventUpdate": {
         "title": "Event Updated",
-        "description": "{executor} updated an event {name}",
+        "description": "{executor} updated the event {name}",
         "newEventDescription": "New Description",
         "newLocation": "New Location",
         "newChannel": "New Channel",
