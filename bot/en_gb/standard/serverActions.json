@@ -47,6 +47,7 @@
         "description": "{executor} updated an event {name}",
         "newEventDescription": "New Description",
         "newLocation": "New Location",
-        "newChannel": "New Channel"
+        "newChannel": "New Channel",
+        "linkToEventImage": "Link to old event image"
     }
 }
