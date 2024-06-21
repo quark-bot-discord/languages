@@ -1,0 +1,71 @@
+{
+    "name": "serverlog",
+    "description": "Serverlog",
+
+    "commandOptions": {
+        "channelOptionAllChannel": {
+            "name": "kanaal",
+            "description": "Selecteer het logkanaal"
+        },
+
+        "channelOptionAll": {
+            "name": "alle",
+            "description": "Schakel kanaal in of uit voor het loggen van alle logtypes"
+        },
+
+        "channelOption": {
+            "name": "kanaal",
+            "description": "Stel het serverlogkanaal in"
+        },
+
+        "targetUserOption": {
+            "name": "gebruiker",
+            "description": "Selecteer een doelwit"
+        },
+
+        "ignoreOptionTarget": {
+            "name": "doelwit",
+            "description": "Doelwitten zijn mensen die de actie uitvoeren"
+        },
+
+        "messageContentOption": {
+            "name": "inhoud",
+            "description": "Voeg een bericht toe aan of verwijder een bericht uit de negeerlijst"
+        },
+
+        "ignoreOptionMessage": {
+            "name": "bericht",
+            "description": "Berichten met deze exacte inhoud worden niet opgenomen in de serverlog"
+        },
+
+        "executorUserOption": {
+            "name": "gebruiker",
+            "description": "Selecteer een uitvoerder"
+        },
+
+        "ignoreOptionExecutor": {
+            "name": "uitvoerder",
+            "description": "Uitvoerders zijn mensen die de actie uitvoeren"
+        },
+
+        "ignoreOptionsChannelChannel": {
+            "name": "kanaal",
+            "description": "Voeg een kanaal toe aan of verwijder een kanaal uit de negeerlijst"
+        },
+
+        "ignoreOptionChannel": {
+            "name": "kanaal",
+            "description": "Berichten in dit kanaal worden niet opgenomen in de serverlog"
+        },
+
+        "ignoreOption": {
+            "name": "negeren",
+            "description": "Negeeropties"
+        },
+
+        "spoilersOption": {
+            "name": "spoilers",
+            "description": "Spoiler alle media die naar de serverlog worden gestuurd"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "name": "exporteren",
+    "description": "Exporteer een groep logs",
+
+    "commandOptions": {
+        "startOption": {
+            "name": "start",
+            "description": "Het berichtlink van de eerste log om te beginnen met exporteren"
+        },
+
+        "endOption": {
+            "name": "einde",
+            "description": "Het berichtlink van de laatste log om te exporteren"
+        },
+
+        "formatOption": {
+            "name": "formaat",
+            "description": "Het formaat van de geëxporteerde logs",
+
+            "choices": {
+                "json": {
+                    "name": "json"
+                },
+                "pretty": {
+                    "name": "mooi"
+                }
+            }
+        }
+    }
+}

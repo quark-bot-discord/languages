@@ -1,0 +1,10 @@
+{
+    "name": "debug",
+    "description": "Genereer een debugrapport voor deze server",
+    "commandOptions": {
+        "shareOption": {
+            "name": "delen",
+            "description": "Kies of je dit debugrapport met de ontwikkelaars wilt delen"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "channelCreated": {
+        "title": "Kanaal Gemaakt",
+        "description": "{channel} is gemaakt door {executor}",
+        "descriptionWithCategory": "{channel} is gemaakt door {executor} in de categorie {category}."
+    },
+    "channelDeleted": {
+        "title": "Kanaal Verwijderd",
+        "description": "{channel_name} is verwijderd door {executor}",
+        "channel": "Kanaal"
+    },
+    "channelUpdated": {
+        "title": "Kanaal Aangepast",
+        "description": "{channel} is aangepast door {executor}"
+    },
+    "channelOverwriteCreate": {
+        "title": "Kanaalmachtigingen Toegevoegd",
+        "description": "{executor} heeft machtigingen toegevoegd aan {channel} voor {special}"
+    },
+    "channelOverwriteDelete": {
+        "title": "Kanaalmachtigingen Verwijderd",
+        "description": "{executor} heeft machtigingen verwijderd van {channel} voor {special}"
+    },
+    "channelOverwriteUpdate": {
+        "title": "Kanaalmachtigingen Bijgewerkt",
+        "description": "{executor} heeft machtigingen bijgewerkt voor {channel} voor {special}",
+        "newPermissions": "Nieuwe Machtigingen",
+        "viewFullNewPermissions": "Bekijk Volledige Nieuwe Machtigingen"
+    }
+}

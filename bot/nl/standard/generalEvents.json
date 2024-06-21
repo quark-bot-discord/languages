@@ -1,0 +1,30 @@
+{
+    "serverModified": {
+        "title": "Server Aangepast",
+        "description": "Deze server is aangepast door {executor}"
+    },
+    "serverIconUpdated": {
+        "title": "Server icoon Bijgewerkt",
+        "description": "{executor} heeft het server icoon bijgewerkt",
+        "description_added": "{executor} heeft een server icoon toegevoegd",
+        "description_removed": "{executor} heeft het server icoon verwijderd",
+        "linkToOldIcon": "Link naar oud icoon",
+        "linkToNewIcon": "Link naar nieuw icoon"
+    },
+    "serverBoostAdd": {
+        "title": "Server Geboost",
+        "description": "{user} heeft deze server geboost 🎉",
+        "description_noUser": "Iemand heeft deze server geboost 🎉",
+        "description_withTier": "{user} heeft deze server geboost naar niveau {tier} 🎉",
+        "description_withTier_noUser": "Iemand heeft deze server geboost naar niveau {tier} 🎉",
+        "none": "geen"
+    },
+    "serverBoostRemove": {
+        "title": "Serverboost Verwijderd",
+        "description": "{user} is gestopt met het boosten van deze server",
+        "description_noUser": "Iemand is gestopt met het boosten van deze server",
+        "description_withTier": "{user} is gestopt met boosten, waardoor de server is gedaald naar niveau {tier}",
+        "description_withTier_noUser": "Iemand is gestopt met boosten, waardoor de server is gedaald naar niveau {tier}",
+        "none": "geen"
+    }
+}
