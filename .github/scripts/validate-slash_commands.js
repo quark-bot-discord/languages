@@ -45,8 +45,9 @@ try {
                                 console.error(`Validation error: ${directory}/${file}: Description exceeds 100 characters at '${currentPath}'`);
                                 foundErrors = true;
                             }
-                            if (currentPath.endsWith('.name') && value.includes(' ')) {
-                                console.error(`Validation error: ${directory}/${file}: Name contains space at '${currentPath}'`);
+
+                            if (currentPath.endsWith('.name') && value.match(/^[-_\p{L}\p{N}\p{sc=Deva}\p{sc=Thai}]{1,32}$/gu) == null) {
+                                console.error(`Validation error: ${directory}/${file}: Name does not match regex at '${currentPath}', VALUE: ${value}`);
                                 foundErrors = true;
                             }
                             if (value !== value.toLowerCase() && currentPath.endsWith('name')) {
@@ -62,8 +63,8 @@ try {
 
                 checkFields(jsonData);
 
-                if (jsonData.name && jsonData.name.includes(' ')) {
-                    console.error(`Validation error: ${directory}/${file}: Name contains space at 'name'`);
+                if (jsonData.name && jsonData.name.match(/^[-_\p{L}\p{N}\p{sc=Deva}\p{sc=Thai}]{1,32}$/gu) == null) {
+                    console.error(`Validation error: ${directory}/${file}: Name does not match regex, VALUE: ${jsonData.name}`);
                     foundErrors = true;
                 } else if (jsonData.description && jsonData.description.length > 100) {
                     console.error(`Validation error: ${directory}/${file}: Description exceeds 100 characters at 'description'`);

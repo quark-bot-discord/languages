@@ -1,0 +1,91 @@
+{
+    "polls": {
+        "poll": "Peiling",
+        "pollDescriptor": "[peiling]",
+        "status": "Peiling heeft status.",
+        "ended": "geëindigd",
+        "notEnded": "niet geëindigd",
+        "multiselect": "Meervoudige selectie",
+        "enabled": "ingeschakeld",
+        "disabled": "uitgeschakeld",
+        "ends": "Eindigt",
+        "vote": "stem",
+        "votes": "stemmen",
+        "noResponses": "Geen reacties"
+    },
+    "messageDeleted": {
+        "title": "Bericht Verwijderd",
+        "author": "Bericht auteur",
+        "channel": "Kanaal",
+        "deletedBy": "Verwijderd door",
+        "jumpToContext": "Spring naar context",
+        "warning": "WAARSCHUWING!",
+        "linksToEmojis": "Links naar emoji's",
+        "linksToFiles": "Links naar bestanden",
+        "inviteDetected": "Serveruitnodiging gedetecteerd",
+        "ghostpingDetected": "Ghostping gedetecteerd",
+        "file": "bestand",
+        "files": "bestanden",
+        "fileExpired": "bestand te groot of verlopen",
+        "filesExpired": "bestanden te groot of verlopen",
+        "sticker": "sticker",
+        "noContent": "geen inhoud",
+        "embed": "embed",
+        "thread": "Thread"
+    },
+    "messagesBulkDeleted": {
+        "title": "Meerdere Berichten Verwijderd",
+        "deletedBy": "Verwijderd door",
+        "channel": "Kanaal",
+        "more": "meer",
+        "uncachedUser": "ongecachede gebruiker",
+        "uncachedChannel": "ongecachede kanaal",
+        "uncachedMessage": "ongecachede bericht",
+        "embed": "embed",
+        "errorFile": "Er was een probleem met het herstellen van de bestanden. Als dit aanhoudt, laat het ons dan weten in Quark's supportserver.",
+        "errorText": "Er was een probleem met het maken van een tekstbestand. Sommige berichten kunnen verloren gaan. Als dit aanhoudt, laat het ons dan weten in Quark's supportserver."
+    },
+    "messageUpdate": {
+        "title": "Bericht Gewijzigd",
+        "author": "Bericht auteur",
+        "channel": "Kanaal",
+        "jumpToMessage": "Spring naar bericht",
+        "afterEdit": "Na wijziging",
+        "diff": "Wijzigingen",
+        "diffError": "Kan wijzigingen niet berekenen.",
+        "cannotRetrieveOriginal": "Kan origineel bericht niet ophalen",
+        "noContent": "geen inhoud",
+        "thread": "Thread"
+    },
+    "attachmentDeleted": {
+        "title": "Bijlage Verwijderd"
+    },
+    "messagePin": {
+        "title": "Bericht Vastgezet",
+        "description": "Een bericht is vastgezet door {executor}"
+    },
+    "messageUnpin": {
+        "title": "Bericht Losgemaakt",
+        "description": "Een bericht is losgemaakt door {executor}"
+    },
+    "threadCreate": {
+        "thread": "Thread",
+        "channel": "Kanaal",
+        "jumpToContext": "Spring naar context",
+        "title": "Thread Gecreëerd",
+        "description": "{member} heeft een nieuwe thread {thread} gecreëerd"
+    },
+    "threadDelete": {
+        "thread": "Thread",
+        "channel": "Kanaal",
+        "title": "Thread Verwijderd",
+        "description": "{executor} heeft een thread {thread} verwijderd"
+    },
+    "messageReactionRemove": {
+        "title": "Reactie Verwijderd",
+        "description": "{executor} heeft een reactie van een bericht verwijderd",
+        "emoji": "Emoji",
+        "linkToEmoji": "Link naar emoji",
+        "jumpToMessage": "Spring naar bericht"
+    }
+}

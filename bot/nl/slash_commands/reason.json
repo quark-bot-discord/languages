@@ -1,0 +1,16 @@
+{
+    "name": "reden",
+    "description": "De reden in een modlog wijzigen",
+
+    "commandOptions": {
+        "caseOption": {
+            "name": "incident",
+            "description": "Bericht-ID van de modlog om te wijzigen"
+        },
+
+        "reasonOption": {
+            "name": "reden",
+            "description": "De nieuwe reden om het modlog incident bij te werken"
+        }
+    }
+}

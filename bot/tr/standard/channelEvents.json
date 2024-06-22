@@ -1,16 +1,30 @@
 {
     "channelCreated": {
-        "title": "Channel Created",
+        "title": "{type} Channel Created",
         "description": "{channel} was created by {executor}",
         "descriptionWithCategory": "{channel} was created by {executor} under the {category} category."
     },
     "channelDeleted": {
-        "title": "Channel Deleted",
+        "title": "{type} Channel Deleted",
         "description": "{channel_name} was deleted by {executor}",
         "channel": "Channel"
     },
     "channelUpdated": {
-        "title": "Channel Modified",
+        "title": "{type} Channel Modified",
         "description": "{channel} was modified by {executor}"
+    },
+    "channelOverwriteCreate": {
+        "title": "{type} Channel Permissions Added",
+        "description": "{executor} added permissions to {channel} for {special}"
+    },
+    "channelOverwriteDelete": {
+        "title": "{type} Channel Permissions Removed",
+        "description": "{executor} removed permissions from {channel} for {special}"
+    },
+    "channelOverwriteUpdate": {
+        "title": "{type} Channel Permissions Updated",
+        "description": "{executor} updated permissions for {channel} for {special}",
+        "newPermissions": "New Permissions",
+        "viewFullNewPermissions": "View Full New Permissions"
     }
 }

@@ -1,0 +1,70 @@
+{
+    "members": "Leden",
+    "userJoined": {
+        "title": "Gebruiker Toegetreden",
+        "description": "{user} is toegetreden tot de server",
+        "noAvatar": "Account heeft geen avatar",
+        "newAccount": "Account is nieuw",
+        "noBadges": "Account heeft geen badges",
+        "warning": "WAARSCHUWING!",
+        "accountCreated": "Account gecreëerd",
+        "invite": "Uitnodiging",
+        "createdBy": "gecreëerd door {user}",
+        "ban": "Verbannen",
+        "info": "Info",
+        "rejoined": "Account opnieuw toegetreden"
+    },
+    "userLeft": {
+        "title": "Gebruiker Verlaten",
+        "description": "{user} heeft de server verlaten",
+        "joined": "Toegetreden",
+        "roles": "Rollen",
+        "serverProfilePicture": "Link naar server avatar"
+    },
+    "botAdded": {
+        "title": "Bot Toegevoegd",
+        "description": "{bot} is toegevoegd aan de server door {executor}",
+        "descriptionne": "{bot} is toegevoegd aan de server"
+    },
+    "botRemoved": {
+        "title": "Bot Verwijderd",
+        "description": "{bot} is verwijderd van de server door {executor}",
+        "descriptionne": "{bot} is verwijderd van de server"
+    },
+    "nicknameUpdate": {
+        "title": "Bijnaam Bijgewerkt",
+        "description": "{user}'s bijnaam is gewijzigd van {oldNickname} naar {newNickname}",
+        "setNick": "{user}'s bijnaam is ingesteld naar **{newNickname}**",
+        "nickRemoved": "{user}'s bijnaam van **{oldNickname}** is verwijderd",
+        "changedBy": "Gewijzigd door"
+    },
+    "memberRoleAdd": {
+        "title": "Rol Gegeven",
+        "title_multiple": "Rollen Gegeven",
+        "description": "{user} heeft de {role} rol gekregen",
+        "description_multiple": "{user} heeft meerdere rollen gekregen",
+        "givenBy": "Gegeven door",
+        "roles": "Rollen"
+    },
+    "memberRoleRemove": {
+        "title": "Rol Afgenomen",
+        "title_multiple": "Rollen Afgenomen",
+        "description": "De {role} rol is verwijderd van {user}",
+        "description_multiple": "Meerdere rollen zijn verwijderd van {user}",
+        "removedBy": "Verwijderd door",
+        "roles": "Rollen"
+    },
+    "memberPrune": {
+        "title": "Leden Gesnoeid",
+        "description": "{count} leden met ten minste {time} dagen inactiviteit zijn gesnoeid door {executor}"
+    },
+    "avatarUpdate": {
+        "title": "Server Avatar Gewijzigd",
+        "description": "{user} heeft zijn server avatar gewijzigd",
+        "description_added": "{user} heeft een server avatar toegevoegd",
+        "description_removed": "{user} heeft zijn server avatar verwijderd",
+        "changedBy": "Gewijzigd door",
+        "linkToOldAvatar": "Link naar oude avatar",
+        "linkToNewAvatar": "Link naar nieuwe avatar"
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "streamStart": {
+        "title": "Stream Gestart",
+        "description": "{user} is begonnen met streamen in het {channel} voice kanaal"
+    },
+    "streamStop": {
+        "title": "Stream Gestopt",
+        "description": "{user} is gestopt met streamen in het {channel} voice kanaal"
+    },
+    "videoStart": {
+        "title": "Video Gestart",
+        "description": "{user} is begonnen met hun video in het {channel} voice kanaal"
+    },
+    "videoStop": {
+        "title": "Video Gestopt",
+        "description": "{user} is gestopt met hun video in het {channel} voice kanaal"
+    },
+    "voiceSwitch": {
+        "title": "Kanaal Gewijzigd",
+        "description": "{user} is verhuisd van het {channel_old} voice kanaal naar het {channel_new} voice kanaal"
+    },
+    "voiceMove": {
+        "title": "Verplaatst",
+        "description": "{user} is verplaatst van het {channel_old} voice kanaal naar het {channel_new} voice kanaal",
+        "movedBy": "Verplaatst door"
+    },
+    "voiceJoin": {
+        "title": "Kanaal Toegetreden",
+        "description": "{user} is toegetreden tot het {channel} voice kanaal"
+    },
+    "voiceLeave": {
+        "title": "Kanaal Verlaten",
+        "description": "{user} heeft het {channel} voice kanaal verlaten"
+    },
+    "voiceDisconnect": {
+        "title": "Verbinding Verbroken",
+        "description": "{user} is losgekoppeld",
+        "disconnectedBy": "Losgekoppeld door",
+        "voiceChannel": "voice kanaal"
+    },
+    "serverDeafen": {
+        "title": "Onhoorbaar Gemaakt",
+        "description": "{user} is onhoorbaar gemaakt",
+        "deafenedBy": "Onhoorbaar gemaakt door",
+        "voiceChannel": "voice kanaal"
+    },
+    "serverMute": {
+        "title": "Gedempt",
+        "description": "{user} is gedempt",
+        "mutedBy": "Gedempt door",
+        "voiceChannel": "voice kanaal"
+    },
+    "serverUndeafen": {
+        "title": "Hoorbaar Gemaakt",
+        "description": "{user} is hoorbaar gemaakt",
+        "undeafenedBy": "Hoorbaar gemaakt door",
+        "voiceChannel": "voice kanaal"
+    },
+    "serverUnmute": {
+        "title": "Ongedempt",
+        "description": "{user} is ongedempt",
+        "unmutedBy": "Ongedempt door",
+        "voiceChannel": "voice kanaal"
+    },
+    "channelStatusUpdate": {
+        "title": "Status van voice kanaal Bijgewerkt",
+        "description": "{executor} heeft de status ingesteld voor {channel}",
+        "status": "Status",
+        "linksToEmojis": "Links naar emoji's"
+    }
+}

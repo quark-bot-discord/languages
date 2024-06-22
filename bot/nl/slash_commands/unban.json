@@ -1,0 +1,14 @@
+{
+    "name": "ontbannen",
+    "description": "Ontban een gebruiker",
+    "commandOptions": {
+        "userOption": {
+            "name": "gebruikers-id",
+            "description": "Het ID van de gebruiker om te ontbannen"
+        },
+        "reasonOption": {
+            "name": "reden",
+            "description": "De reden om de gebruiker te ontbannen"
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "name": "demp",
+    "description": "Een gebruiker dempen",
+
+    "commandOptions": {
+        "userOption": {
+            "name": "gebruiker",
+            "description": "De gebruiker om te dempen"
+        },
+
+        "timeOption": {
+            "name": "tijd",
+            "description": "Periode om de gebruiker te dempen. Standaardeenheid is dagen"
+        },
+
+        "typeOption": {
+            "name": "eenheid",
+            "description": "Eenheden voor het \"tijd\" veld. Standaard is dagen",
+
+            "choices": {
+                "minutes": {
+                    "name": "minuten"
+                },
+                "hours": {
+                    "name": "uren"
+                },
+                "days": {
+                    "name": "dagen"
+                }
+            }
+        },
+
+        "reasonOption": {
+            "name": "reden",
+            "description": "De reden om de gebruiker te dempen"
+        }
+    }
+}
