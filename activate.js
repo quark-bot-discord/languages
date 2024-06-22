@@ -5,8 +5,8 @@ const fallbackLanguage = "en_us";
 const baseDirectory = "bot";
 const languages = require('./bot/languages.json');
 
-const languagesLocation = path.join(process.cwd(), "language", baseDirectory);
-const activeLanguagesLocation = path.join(process.cwd(), "language", "active", baseDirectory);
+const languagesLocation = path.join(process.cwd(), "languages", baseDirectory);
+const activeLanguagesLocation = path.join(process.cwd(), "languages", "active", baseDirectory);
 
 // relative file path is the path after the locale directory
 function loadFile(locale, relativeFilePath) {
@@ -75,7 +75,7 @@ function loadSubdirectory(locale, relativePath) {
 
 function activate() {
     Object.entries(languages).forEach(([key, value]) => {
-        const directory = path.join(process.cwd(), baseDirectory, value);
+        const directory = path.join(process.cwd(), "languages", baseDirectory, value);
         console.log(`Processing language code ${key}...`);
         if (!fs.existsSync(directory)) {
             console.log(`Skipping non-existent directory: ${directory} for language code ${key}`);
