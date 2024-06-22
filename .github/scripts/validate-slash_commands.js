@@ -45,7 +45,7 @@ try {
                                 console.error(`Validation error: ${directory}/${file}: Description exceeds 100 characters at '${currentPath}'`);
                                 foundErrors = true;
                             }
-                            if (currentPath.endsWith('.name') && value.includes(' ')) {
+                            if (currentPath.endsWith('.name') && /^[-_\p{L}\p{N}\p{sc=Deva}\p{sc=Thai}]{1,32}$/.test(value) == false) {
                                 console.error(`Validation error: ${directory}/${file}: Name contains space at '${currentPath}'`);
                                 foundErrors = true;
                             }
