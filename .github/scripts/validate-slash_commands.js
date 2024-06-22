@@ -45,8 +45,10 @@ try {
                                 console.error(`Validation error: ${directory}/${file}: Description exceeds 100 characters at '${currentPath}'`);
                                 foundErrors = true;
                             }
+                            if (currentPath.endsWith('.name'))
+                                console.log(value);
                             if (currentPath.endsWith('.name') && value.match(/^[-_\p{L}\p{N}\p{sc=Deva}\p{sc=Thai}]{1,32}$/gu) == null) {
-                                console.error(`Validation error: ${directory}/${file}: Name does not match regex at '${currentPath}'`);
+                                console.error(`Validation error: ${directory}/${file}: Name does not match regex at '${currentPath}', VALUE: ${value}`);
                                 foundErrors = true;
                             }
                             if (value !== value.toLowerCase() && currentPath.endsWith('name')) {
