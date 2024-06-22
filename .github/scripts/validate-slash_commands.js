@@ -63,7 +63,7 @@ try {
 
                 checkFields(jsonData);
 
-                if (jsonData.name && value.match(/^[-_\p{L}\p{N}\p{sc=Deva}\p{sc=Thai}]{1,32}$/gu) == null) {
+                if (jsonData.name && jsonData.name.match(/^[-_\p{L}\p{N}\p{sc=Deva}\p{sc=Thai}]{1,32}$/gu) == null) {
                     console.error(`Validation error: ${directory}/${file}: Name does not match regex, VALUE: ${value}`);
                     foundErrors = true;
                 } else if (jsonData.description && jsonData.description.length > 100) {
