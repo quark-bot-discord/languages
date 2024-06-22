@@ -64,7 +64,7 @@ try {
                 checkFields(jsonData);
 
                 if (jsonData.name && jsonData.name.match(/^[-_\p{L}\p{N}\p{sc=Deva}\p{sc=Thai}]{1,32}$/gu) == null) {
-                    console.error(`Validation error: ${directory}/${file}: Name does not match regex, VALUE: ${value}`);
+                    console.error(`Validation error: ${directory}/${file}: Name does not match regex, VALUE: ${jsonData.name}`);
                     foundErrors = true;
                 } else if (jsonData.description && jsonData.description.length > 100) {
                     console.error(`Validation error: ${directory}/${file}: Description exceeds 100 characters at 'description'`);
