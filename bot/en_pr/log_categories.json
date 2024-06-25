@@ -8,5 +8,6 @@
     "roleEvents": "Roles",
     "channelEvents": "Channels",
     "quarkEvents": "Quark Config",
-    "modLog": "Modlogs"
+    "modLog": "Modlogs",
+    "main": "Main"
 }
