@@ -7,7 +7,7 @@
     },
     "serverlogOptionsUpdate": {
         "title": "Logging Options Updated",
-        "description": "{executor} updated {option} to {state}",
+        "description": "{executor} set {option} to {state}",
         "pluralkitSupport": "PluralKit Support",
         "spoilers": "Spoilers",
         "buttons": "Buttons",
