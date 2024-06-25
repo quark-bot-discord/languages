@@ -6,7 +6,7 @@
         "description_unset": "{executor} unset the {type} logging channel"
     },
     "serverlogIgnoreUpdate": {
-        "title": "Ignored Options Updated",
+        "title": "Ignore Options Updated",
         "description_set": "{executor} enabled {type}",
         "description_unset": "{executor} disabled {type}",
         "description_added": "{executor} added {target} to {type}",
