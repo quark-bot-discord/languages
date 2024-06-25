@@ -36,7 +36,7 @@
         "title": "Token Generated",
         "description": "{executor} generated a Quark access token with {permissions} permissions for this server",
         "unique_id": "Token ID",
-        "revoke": "Revoke"
+        "revoke": "Revoke this token"
     },
     "tokenRevoked": {
         "title": "Token Revoked",
