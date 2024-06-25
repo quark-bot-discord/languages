@@ -5,6 +5,25 @@
         "description_category_disable": "{executor} disabled the {type} logging channel",
         "description_unset": "{executor} unset the {type} logging channel"
     },
+    "serverlogOptionsUpdate": {
+        "title": "Logging Options Updated",
+        "description": "{executor} updated {option} to {state}",
+        "pluralkitSupport": "PluralKit Support",
+        "spoilers": "Spoilers",
+        "buttons": "Buttons",
+        "formatType": "Format Type"
+    },
+    "serverlogLogUpdate": {
+        "title": "Log Updated",
+        "description": "{executor} updated the {type} log",
+        "enabled": "Enabled",
+        "logFormat": "Format",
+        "logChannel": "Channel",
+        "colour": "Colour",
+        "ignoreBotExecutors": "Ignore Bot Executors",
+        "ignoreBotTargets": "Ignore Bot Targets",
+        "activeIgnore": "Active Ignore"
+    },
     "serverlogIgnoreUpdate": {
         "title": "Ignore Options Updated",
         "description_set": "{executor} enabled {type}",
