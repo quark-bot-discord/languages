@@ -206,6 +206,10 @@
                 "title": "Overview",
                 "description": "Overview of main category options"
             },
+            "quarkEvents": {
+                "title": "Quark Config",
+                "description": "Changes made to Quark's configuration for this server"
+            },
             "fileEvents": {
                 "title": "Files"
             }
