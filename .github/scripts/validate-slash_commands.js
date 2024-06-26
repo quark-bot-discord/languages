@@ -6,6 +6,8 @@ const conversionFile = './bot/languages.json';
 
 let foundErrors = false;
 
+const nonChatInputCommands = ["initialReactor"];
+
 try {
     const conversionData = fs.readFileSync(conversionFile, 'utf8');
     const languageMap = JSON.parse(conversionData);
@@ -46,7 +48,7 @@ try {
                                 foundErrors = true;
                             }
 
-                            if (currentPath.endsWith('.name') && value.match(/^[-_\p{L}\p{N}\p{sc=Deva}\p{sc=Thai}]{1,32}$/gu) == null) {
+                            if (currentPath.endsWith('.name') && value.match(/^[-_\p{L}\p{N}\p{sc=Deva}\p{sc=Thai}]{1,32}$/gu) == null && !nonChatInputCommands.includes(file.split('.')[0])) {
                                 console.error(`Validation error: ${directory}/${file}: Name does not match regex at '${currentPath}', VALUE: ${value}`);
                                 foundErrors = true;
                             }
