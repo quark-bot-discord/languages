@@ -57,8 +57,6 @@
     },
     "statusChannelUpdated": {
         "title": "Followed Channel Updated",
-        "description": "{executor} updated the followed channel {name}",
-        "name": "New name",
-        "channel": "New channel"
+        "description": "{executor} updated the followed channel {name}"
     }
 }
