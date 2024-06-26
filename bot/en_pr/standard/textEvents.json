@@ -31,7 +31,8 @@
         "sticker": "sticker",
         "noContent": "nothin' t' see",
         "embed": "embed",
-        "thread": "Thread"
+        "thread": "Thread",
+        "initialReactor": "initial reactor"
     },
     "messagesBulkDeleted": {
         "title": "Multiple Messages Scrubbed",
