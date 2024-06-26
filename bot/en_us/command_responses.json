@@ -158,6 +158,9 @@
     "need-to-vote": "Click here to vote",
     "need-to-vote-footer": "Votes take up to a minute to be registered",
 
+    "initialreactors-expired": "expired",
+    "initialreactors-notfound": "No reactions found",
+
     "configCommand": {
         "title": "Serverlog Configuration",
         "selection": "Select a category in the menu to view configuration.",
