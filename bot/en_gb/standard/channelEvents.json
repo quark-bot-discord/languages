@@ -37,7 +37,9 @@
     },
     "webhookUpdate": {
         "title": "Webhook Modified",
-        "description": "{executor} modified the webhook {webhook}"
+        "description": "{executor} modified the webhook {webhook}",
+        "name": "Name",
+        "channel": "Channel"
     },
     "webhookAvatarUpdate": {
         "title": "Webhook Avatar Updated",
