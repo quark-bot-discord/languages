@@ -50,10 +50,10 @@
     "response-unban": "Unbanned",
     "response-purge": "Purged {count} messages",
 
-    "response-customise-dash": "Customization settings have moved to our [web dashboard]!",
+    "response-customise-dash": "Customization settings have moved to Quark's [web dashboard]!",
     "response-customise-1": "Log messages up to 2 weeks old, customise logs, and so much more with Quark Pro...",
     "response-customise-2": "[UK, US, EU] Click onto my profile to upgrade!",
-    "response-customise-3": "Or... {proLink}",
+    "response-customise-3": "See subscriptions... {proLink}",
     "response-customise-4": "Try out colour customisation for free at {inventoryLink}",
 
     "response-case-updated": "Case updated!",
