@@ -63,7 +63,7 @@ function compareAllLanguages(baseDir) {
     return report;
 }
 
-const baseDirectory = './bot/';  // Update with the actual path
+const baseDirectory = './bot/';
 const comparisonReport = compareAllLanguages(baseDirectory);
 
 for (const [lang, report] of Object.entries(comparisonReport)) {
