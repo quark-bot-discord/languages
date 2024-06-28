@@ -1,0 +1,13 @@
+name: Language comparison
+
+on: [workflow_dispatch]
+
+jobs:
+  compare-languages:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Validate Slash Command files
+      run: node .github/scripts/compare-languages.js
