@@ -50,10 +50,10 @@
     "response-unban": "Unbanned",
     "response-purge": "Purged {count} messages",
 
-    "response-customise-dash": "Customisation settings have moved to our [web dashboard]!",
-    "response-customise-1": "Log messages up to 2 weeks old, customise logs, and so much more with Quark Pro...",
+    "response-customise-dash": "Customisation settings have moved to Quark's [web dashboard]!",
+    "response-customise-1": "Log messages up to 8 weeks old, customise logs, and so much more with Quark Pro...",
     "response-customise-2": "[UK, US, EU] Click onto my profile to upgrade!",
-    "response-customise-3": "Or... {proLink}",
+    "response-customise-3": "See subscriptions... {proLink}",
     "response-customise-4": "Try out colour customisation for free at {inventoryLink}",
 
     "response-case-updated": "Case updated!",
@@ -104,6 +104,8 @@
     "setserverlog-type-channels-1": "channel events",
     "setserverlog-type-modlogs-0": "Modlogs",
     "setserverlog-type-modlogs-1": "modlogs",
+    "setserverlog-type-quark-0": "Quark Events",
+    "setserverlog-type-quark-1": "quark events",
     "setserverlog-spoilers": "Spoilers",
     "setserverlog-spoilers-0": "Serverlog spoilers set to {result}",
     "setserverlog-enable-status-updates": "Enable Status Updates!",
@@ -158,6 +160,9 @@
     "need-to-vote": "Click here to vote",
     "need-to-vote-footer": "Votes take up to a minute to be registered",
 
+    "initialreactors-expired": "expired",
+    "initialreactors-notfound": "No reactions found",
+
     "configCommand": {
         "title": "Serverlog Configuration",
         "selection": "Select a category in the menu to view configuration.",
@@ -205,6 +210,10 @@
             "overview": {
                 "title": "Overview",
                 "description": "Overview of main category options"
+            },
+            "quarkEvents": {
+                "title": "Quark Config",
+                "description": "Changes made to Quark's configuration for this server"
             },
             "fileEvents": {
                 "title": "Files"
