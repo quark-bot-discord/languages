@@ -14,5 +14,11 @@
 
     "timeoutEnds": "Przerwa kończy się {time}",
 
-    "editReason": "Edytuj powód"
+    "editReason": "Edytuj powód",
+
+    "reasonModal": {
+    "label": "Powód",
+    "placeholder": "Bardzo złe zachowanie >:(",
+    "title": "Zmodyfikuj powód w modlogu"
+    }
 }
