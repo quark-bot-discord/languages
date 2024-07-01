@@ -104,6 +104,8 @@
     "setserverlog-type-channels-1": "wydarzenia kanału",
     "setserverlog-type-modlogs-0": "Modlogi",
     "setserverlog-type-modlogs-1": "modlogi",
+    "setserverlog-type-modlogs-0": "Modlogi",
+    "setserverlog-type-modlogs-1": "modlogi",
     "setserverlog-spoilers": "Spojlery",
     "setserverlog-spoilers-0": "Spojlery serverlog ustawione na {result}",
     "setserverlog-enable-status-updates": "Włącz aktualizacje statusu!",
@@ -157,6 +159,9 @@
     "need-to-vote-title": "Musisz zagłosować, aby użyć tego polecenia!",
     "need-to-vote": "Kliknij tutaj, aby zagłosować",
     "need-to-vote-footer": "Głosy są rejestrowane do minuty",
+
+    "initialreactors-expired": "wykasły",
+    "initialreactors-notfound": "Nie znaleziono żadnych reakcji",
 
     "configCommand": {
         "title": "Konfiguracja Serverlog",
