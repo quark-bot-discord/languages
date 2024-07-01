@@ -1,0 +1,64 @@
+{
+    "serverlogChannelUpdate": {
+        "title": "Kanał logowania zmieniony",
+        "description_set": "{executor} ustawił kanał logowania dla typu {type} na {channel}",
+        "description_category_disable": "{executor} wyłączył kanał logowania dla typu {type}",
+        "description_unset": "{executor} usunął kanał logowania dla typu {type}"
+    },
+    "serverlogOptionsUpdate": {
+        "title": "Opcje logowania zaktualizowane",
+        "description": "{executor} ustawił {option} na {state}",
+        "pluralkitSupport": "Wsparcie dla PluralKit",
+        "spoilers": "Spoilery",
+        "buttons": "Przyciski",
+        "formatType": "Typ formatu"
+    },
+    "serverlogLogUpdate": {
+        "title": "Log zaktualizowany",
+        "description": "{executor} zaktualizował log typu {type}",
+        "enabled": "Włączone",
+        "logFormat": "Format",
+        "logChannel": "Kanał",
+        "colour": "Kolor",
+        "ignoreBotExecutors": "Ignoruj działania botów",
+        "ignoreBotTargets": "Ignoruj cele botów",
+        "activeIgnore": "Aktywne ignorowanie"
+    },
+    "serverlogIgnoreUpdate": {
+        "title": "Opcje ignorowania zaktualizowane",
+        "description_set": "{executor} włączył {type}",
+        "description_unset": "{executor} wyłączył {type}",
+        "description_added": "{executor} dodał {target} do {type}",
+        "description_removed": "{executor} usunął {target} z {type}"
+    },
+    "languageUpdate": {
+        "title": "Język zmieniony",
+        "description": "{executor} zmienił język na {language}"
+    },
+    "reset": {
+        "title": "Konfiguracja zresetowana",
+        "description": "{executor} zresetował konfigurację tego serwera"
+    },
+    "tagAdded": {
+        "title": "Tag dodany",
+        "description": "{executor} utworzył tag {tag}"
+    },
+    "tagUpdated": {
+        "title": "Tag zaktualizowany",
+        "description": "{executor} zaktualizował tag {tag}"
+    },
+    "tagDeleted": {
+        "title": "Tag usunięty",
+        "description": "{executor} usunął tag {tag}"
+    },
+    "tokenAdded": {
+        "title": "Token wygenerowany",
+        "description": "{executor} wygenerował token dostępu quark'a z uprawnieniami {permissions} dla tego serwera",
+        "unique_id": "ID tokena",
+        "revoke": "Unieważnij ten token"
+    },
+    "tokenRevoked": {
+        "title": "Token unieważniony",
+        "description": "{executor} unieważnił token dostępu quark'a o ID {token}"
+    }
+}
