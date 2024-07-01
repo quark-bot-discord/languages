@@ -26,5 +26,37 @@
         "description": "{executor} zaktualizował uprawnienia dla {channel} dla {special}",
         "newPermissions": "Nowe Uprawnienia",
         "viewFullNewPermissions": "Zobacz Pełne Nowe Uprawnienia"
+    },
+    "webhookCreate": {
+        "title": "Integracja Utworzona",
+        "description": "{executor} utworzył Integracja {webhook} na kanale {channel}"
+    },
+    "webhookDelete": {
+        "title": "Integracja Usunieta",
+        "description": "{executor} usuną integrację {webhook}"
+    },
+    "webhookUpdate": {
+        "title": "Integracja Zmodyfikowana",
+        "description": "{executor} zmodyfikował integrację {webhook}"
+    },
+    "webhookAvatarUpdate": {
+        "title": "Zaktualizowany Awatar Integracji",
+        "description": "{executor} zaktualizował awatar dla integracji {webhook}",
+        "description_added": "{executor} dodał awatar dla integracji {webhook}",
+        "description_removed": "{executor} usuną awatar dla integracji {webhook}",
+        "linkToOldAvatar": "Link do starego awataru",
+        "linkToNewAvatar": "Link do nowego awataru"
+    },
+    "statusChannelFollowed": {
+        "title": "Obserwowany Kanał",
+        "description": "{executor} zaczą obserwować kanał {name} w {channel}"
+    },
+    "statusChannelUnfollowed": {
+        "title": "Nieobserwowany Kanał",
+        "description": "{executor} przestał obserwować kanał {name}"
+    },
+    "statusChannelUpdated": {
+        "title": "Aktualizacja Obserwowanego Kanału",
+        "description": "{executor} zaktualizował obserwowany kanał {name}"
     }
 }
