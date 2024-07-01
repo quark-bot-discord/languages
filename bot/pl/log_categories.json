@@ -1,0 +1,13 @@
+{
+    "serverEvents": "Członkowie",
+    "serverActions": "Akcje",
+    "textEvents": "Wiadomości",
+    "voiceEvents": "Głosowe",
+    "fileEvents": "Pliki",
+    "generalEvents": "Serwer",
+    "roleEvents": "Role",
+    "channelEvents": "Kanały",
+    "quarkEvents": "Konfiguracja quark'a",
+    "modLog": "Dzienniki moderacji",
+    "main": "Głowne"
+}
