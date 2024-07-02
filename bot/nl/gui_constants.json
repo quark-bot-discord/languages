@@ -33,5 +33,9 @@
         "explicit_content_filter": "Expliciete inhoud filter",
         "nsfw_level": "NSFW-niveau",
         "premium_progress_bar_enabled": "Voortgangsbalk"
+    },
+    "webhookModificationTypes": {
+        "name": "Naam",
+        "channel_id": "Kanaal"
     }
 }
