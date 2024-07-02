@@ -5,7 +5,8 @@
         "description_withoutInviter": "Een uitnodiging {invite} is gecreëerd voor {channel}",
         "expires": "Verloopt",
         "never": "Nooit",
-        "maxUses": "Maximaal Gebruik"
+        "maxUses": "Maximaal Gebruik",
+        "none": "geen"
     },
     "inviteDelete": {
         "title": "Uitnodiging Verwijderd",
@@ -27,5 +28,26 @@
     "emojiUpdated": {
         "title": "Emoji Gewijzigd",
         "description": "{emoji} is gewijzigd door {executor}"
+    },
+    "serverEventCreate": {
+        "title": "Evenement Gecreëerd",
+        "description_withChannel": "{executor} heeft een evenement {name} gecreëerd in {channel}",
+        "description_withoutChannel": "{executor} heeft een evenement {name} gecreëerd",
+        "eventDescription": "Beschrijving",
+        "location": "Locatie",
+        "starts": "Start"
+    },
+    "serverEventDelete": {
+        "title": "Evenement Verwijderd",
+        "description": "{executor} heeft het evenement {name} verwijderd",
+        "linkToEventImage": "Link naar evenement afbeelding"
+    },
+    "serverEventUpdate": {
+        "title": "Evenement Bijgewerkt",
+        "description": "{executor} heeft het evenement {name} bijgewerkt",
+        "newEventDescription": "Nieuwe Beschrijving",
+        "newLocation": "Nieuwe Locatie",
+        "newChannel": "Nieuw Kanaal",
+        "linkToEventImage": "Link naar oude evenement afbeelding"
     }
 }
