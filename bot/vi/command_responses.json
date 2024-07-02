@@ -109,6 +109,10 @@
     "setserverlog-enable-status-updates": "Bật Cập nhật Trạng thái!",
     "setserverlog-enable-status-updates-desc": "Nhận thông báo về tất cả các cập nhật mới nhất, thời gian chạy và các thông tin quan trọng khác từ các nhà phát triển!",
     "setserverlog-enable-status-updates-desc-1": "Chúng tôi rất khuyến nghị bạn bật tính năng này trong một trong các kênh của bạn!",
+    "setserverlog-check-permissions": "Vui lòng đảm bảo Quark có quyền gửi tin nhắn trong kênh này, hoặc kênh sẽ bị hủy đặt.",
+
+    "festive-title": "Quà miễn phí trong mùa lễ!",
+    "festive-claim": "Nhận quà miễn phí của bạn!",
 
     "help-overview-website-description": "Dễ dàng thiết lập và quản lý Quark từ [bảng điều khiển web]!",
     "help-overview-inventory-description": "Quản lý các đăng ký của bạn hoặc nhận một số tính năng [Quark Pro] miễn phí!",

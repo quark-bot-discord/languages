@@ -30,7 +30,9 @@
     },
     "voiceLeave": {
         "title": "Left Channel",
-        "description": "{user} left the {channel} voice channel"
+        "description": "{user} left the {channel} voice channel",
+        "joined": "Joined",
+        "joinedValue": "{relative} for {relative_fixed}"
     },
     "voiceDisconnect": {
         "title": "Disconnected",
@@ -67,5 +69,36 @@
         "description": "{executor} set the status for {channel}",
         "status": "Status",
         "linksToEmojis": "Links to emojis"
+    },
+    "stageStarted": {
+        "title": "Stage Started",
+        "description": "{executor} started a stage in {channel}",
+        "topic": "Topic"
+    },
+    "stageEnded": {
+        "title": "Stage Ended",
+        "description": "The stage in {channel} was ended by {executor}",
+        "description_noExecutor": "The stage in {channel} was ended",
+        "topic": "Topic",
+        "none": "none"
+    },
+    "stageUpdated": {
+        "title": "Stage Updated",
+        "description": "The stage in {channel} was updated by {executor}",
+        "oldTopic": "Old Topic",
+        "newTopic": "New Topic"
+    },
+    "stageSpeakerAdd": {
+        "title": "New Stage Speaker",
+        "description": "{user} became a speaker in the {channel} stage channel",
+        "description_inviteAccepted": "{user} accepted the invite to become a speaker in the {channel} stage channel"
+    },
+    "stageSpeakerRemove": {
+        "title": "Stopped Speaking",
+        "description": "{user} is no longer a speaker in the {channel} stage channel"
+    },
+    "stageSpeakerInvited": {
+        "title": "Speaker Invited",
+        "description": "{user} was invited to speak in the {channel} stage channel"
     }
 }

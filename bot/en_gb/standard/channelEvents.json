@@ -1,30 +1,62 @@
 {
     "channelCreated": {
-        "title": "Channel Created",
+        "title": "{type} Channel Created",
         "description": "{channel} was created by {executor}",
         "descriptionWithCategory": "{channel} was created by {executor} under the {category} category."
     },
     "channelDeleted": {
-        "title": "Channel Deleted",
+        "title": "{type} Channel Deleted",
         "description": "{channel_name} was deleted by {executor}",
         "channel": "Channel"
     },
     "channelUpdated": {
-        "title": "Channel Modified",
+        "title": "{type} Channel Modified",
         "description": "{channel} was modified by {executor}"
     },
     "channelOverwriteCreate": {
-        "title": "Channel Permissions Added",
+        "title": "{type} Channel Permissions Added",
         "description": "{executor} added permissions to {channel} for {special}"
     },
     "channelOverwriteDelete": {
-        "title": "Channel Permissions Removed",
+        "title": "{type} Channel Permissions Removed",
         "description": "{executor} removed permissions from {channel} for {special}"
     },
     "channelOverwriteUpdate": {
-        "title": "Channel Permissions Updated",
+        "title": "{type} Channel Permissions Updated",
         "description": "{executor} updated permissions for {channel} for {special}",
         "newPermissions": "New Permissions",
         "viewFullNewPermissions": "View Full New Permissions"
+    },
+    "webhookCreate": {
+        "title": "Webhook Created",
+        "description": "{executor} created a webhook {webhook} in {channel}"
+    },
+    "webhookDelete": {
+        "title": "Webhook Deleted",
+        "description": "{executor} deleted the webhook {webhook}"
+    },
+    "webhookUpdate": {
+        "title": "Webhook Modified",
+        "description": "{executor} modified the webhook {webhook}"
+    },
+    "webhookAvatarUpdate": {
+        "title": "Webhook Avatar Updated",
+        "description": "{executor} updated the avatar for {webhook}",
+        "description_added": "{executor} added an avatar for {webhook}",
+        "description_removed": "{executor} removed the avatar for {webhook}",
+        "linkToOldAvatar": "Link to old avatar",
+        "linkToNewAvatar": "Link to new avatar"
+    },
+    "statusChannelFollowed": {
+        "title": "Channel Followed",
+        "description": "{executor} followed the channel {name} in {channel}"
+    },
+    "statusChannelUnfollowed": {
+        "title": "Channel Unfollowed",
+        "description": "{executor} unfollowed the channel {name}"
+    },
+    "statusChannelUpdated": {
+        "title": "Followed Channel Updated",
+        "description": "{executor} updated the followed channel {name}"
     }
 }
