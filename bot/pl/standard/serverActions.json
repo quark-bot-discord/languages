@@ -27,5 +27,26 @@
     "emojiUpdated": {
         "title": "Edytowano emotkę",
         "description": "{emoji} została edytowana przez {executor}"
+    },
+    "serverEventCreate": {
+        "title": "Wydarzenie Utworzone",
+        "description_withChannel": "{executor} utworzył wydarzenie {name} w kanale {channel}",
+        "description_withoutChannel": "{executor} utworzył wydarzenie {name}",
+        "eventDescription": "Opis",
+        "location": "Lokalizacja",
+        "starts": "Rozpoczęcie"
+    },
+    "serverEventDelete": {
+        "title": "Wydarzenie Usunięte",
+        "description": "{executor} usuną wydarzenie {name}",
+        "linkToEventImage": "Link obrazu wydarzenia"
+    },
+    "serverEventUpdate": {
+        "title": "Wydarzenie Zmodifikowane",
+        "description": "{executor} zmodyfikował wydarzenie {name}",
+        "newEventDescription": "Nowy Opis",
+        "newLocation": "Nowa Lokalizacja",
+        "newChannel": "Nowy Kanał",
+        "linkToEventImage": "Link do starego obrazu wydarzenia"
     }
-}   
+}
