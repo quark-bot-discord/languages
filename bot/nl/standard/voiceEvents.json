@@ -67,5 +67,36 @@
         "description": "{executor} heeft de status ingesteld voor {channel}",
         "status": "Status",
         "linksToEmojis": "Links naar emoji's"
+    },
+    "stageStarted": {
+        "title": "Podium Gestart",
+        "description": "{executor} is een podium gestart in {channel}",
+        "topic": "Onderwerp"
+    },
+    "stageEnded": {
+        "title": "Podium Gestopt",
+        "description": "Het podium in {channel} is gestopt door {executor}",
+        "description_noExecutor": "Het podium in {channel} is gestopt",
+        "topic": "Onderwerp",
+        "none": "geen"
+    },
+    "stageUpdated": {
+        "title": "Podium Bijgewerkt",
+        "description": "Het podium in {channel} is bijgewerkt door {executor}",
+        "oldTopic": "Oude Onderwerp",
+        "newTopic": "Nieuwe Onderwerp"
+    },
+    "stageSpeakerAdd": {
+        "title": "Nieuwe Podium Spreker",
+        "description": "{user} is een spreker geworden in het {channel} podium kanaal",
+        "description_inviteAccepted": "{user} heeft de uitnodiging geaccepteerd om een spreker te worden in het {channel} podium kanaal"
+    },
+    "stageSpeakerRemove": {
+        "title": "Gestopt met Spreken",
+        "description": "{user} is niet langer een spreker in het {channel} podium kanaal"
+    },
+    "stageSpeakerInvited": {
+        "title": "Spreker Uitgenodigd",
+        "description": "{user} is uitgenodigd om te spreken in het {channel} podium kanaal"
     }
 }

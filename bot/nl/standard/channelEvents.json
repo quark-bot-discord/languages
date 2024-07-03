@@ -1,30 +1,62 @@
 {
     "channelCreated": {
-        "title": "Kanaal Gemaakt",
+        "title": "{type} Kanaal Gemaakt",
         "description": "{channel} is gemaakt door {executor}",
         "descriptionWithCategory": "{channel} is gemaakt door {executor} in de categorie {category}."
     },
     "channelDeleted": {
-        "title": "Kanaal Verwijderd",
+        "title": "{type} Kanaal Verwijderd",
         "description": "{channel_name} is verwijderd door {executor}",
         "channel": "Kanaal"
     },
     "channelUpdated": {
-        "title": "Kanaal Aangepast",
+        "title": "{type} Kanaal Aangepast",
         "description": "{channel} is aangepast door {executor}"
     },
     "channelOverwriteCreate": {
-        "title": "Kanaalmachtigingen Toegevoegd",
+        "title": "{type} Kanaalmachtigingen Toegevoegd",
         "description": "{executor} heeft machtigingen toegevoegd aan {channel} voor {special}"
     },
     "channelOverwriteDelete": {
-        "title": "Kanaalmachtigingen Verwijderd",
+        "title": "{type} Kanaalmachtigingen Verwijderd",
         "description": "{executor} heeft machtigingen verwijderd van {channel} voor {special}"
     },
     "channelOverwriteUpdate": {
-        "title": "Kanaalmachtigingen Bijgewerkt",
+        "title": "{type} Kanaalmachtigingen Bijgewerkt",
         "description": "{executor} heeft machtigingen bijgewerkt voor {channel} voor {special}",
         "newPermissions": "Nieuwe Machtigingen",
         "viewFullNewPermissions": "Bekijk Volledige Nieuwe Machtigingen"
+    },
+    "webhookCreate": {
+        "title": "Webhook Gemaakt",
+        "description": "{executor} heeft een webhook {webhook} gemaakt in {channel}"
+    },
+    "webhookDelete": {
+        "title": "Webhook Verwijderd",
+        "description": "{executor} heeft de webhook {webhook} verwijderd"
+    },
+    "webhookUpdate": {
+        "title": "Webhook Aangepast",
+        "description": "{executor} heeft de webhook {webhook} aangepast"
+    },
+    "webhookAvatarUpdate": {
+        "title": "Webhook Avatar Bijgewerkt",
+        "description": "{executor} heeft de avatar voor {webhook} bijgewerkt",
+        "description_added": "{executor} heeft een avatar toegevoegd voor {webhook}",
+        "description_removed": "{executor} heeft de avatar verwijderd voor {webhook}",
+        "linkToOldAvatar": "Link naar oude avatar",
+        "linkToNewAvatar": "Link naar nieuwe avatar"
+    },
+    "statusChannelFollowed": {
+        "title": "Kanaal Gevolgd",
+        "description": "{executor} heeft het kanaal {name} gevolgd in {channel}"
+    },
+    "statusChannelUnfollowed": {
+        "title": "Kanaal Niet Meer Gevolgd",
+        "description": "{executor} heeft het kanaal {name} niet meer gevolgd"
+    },
+    "statusChannelUpdated": {
+        "title": "Gevolgd Kanaal Bijgewerkt",
+        "description": "{executor} heeft het gevolgde kanaal {name} bijgewerkt"
     }
 }
