@@ -1,0 +1,62 @@
+{
+    "channelCreated": {
+      "title": "{type} Canal creado",
+      "description": "{channel} fue creado por {executor}",
+      "descriptionWithCategory": "{channel} fue creado por {executor} en la categoría {categoría}."
+    },
+    "channelDeleted": {
+      "title": "{type} Canal eliminado",
+      "description": "{channel_name} fue eliminado por {executor}",
+      "channel": "Canal"
+    },
+    "channelUpdated": {
+      "title": "{type} Canal modificado",
+      "description": "{channel} fue modificado por {executor}"
+    },
+    "channelOverwriteCreate": {
+      "title": "{type} Permisos de canal agregados",
+      "description": "{executor} agregó permisos a {channel} para {special}"
+    },
+    "channelOverwriteDelete": {
+      "title": "{type} Permisos de canal eliminados",
+      "description": "{executor} eliminó permisos de {channel} para {especial}"
+    },
+    "channelOverwriteUpdate": {
+      "title": "{type} Permisos de canal actualizados",
+      "description": "{executor} permisos actualizados para {channel} para {special}",
+      "newPermissions": "Nuevos permisos",
+      "viewFullNewPermissions": "Ver permisos nuevos completos"
+    },
+    "webhookCreate": {
+      "title": "Webhook creado",
+      "description": "{executor} creó un webhook {webhook} en {channel}"
+    },
+    "webhookDelete": {
+      "title": "Webhook eliminado",
+      "description": "{executor} eliminó el webhook {webhook}"
+    },
+    "webhookUpdate": {
+      "title": "Webhook modificado",
+      "description": "{executor} modificó el webhook {webhook}"
+    },
+    "webhookAvatarUpdate": {
+      "title": "Avatar de webhook actualizado",
+      "description": "{executor} actualizó el avatar de {webhook}",
+      "description_added": "{executor} agregó un avatar para {webhook}",
+      "description_removed": "{executor} eliminó el avatar de {webhook}",
+      "linkToOldAvatar": "Enlace al avatar antiguo",
+      "linkToNewAvatar": "Enlace al nuevo avatar"
+    },
+    "statusChannelFollowed": {
+      "title": "Canal seguido",
+      "description": "{executor} siguió el canal {name} en {channel}"
+    },
+    "statusChannelUnfollowed": {
+      "title": "Canal no seguido",
+      "description": "{executor} dejó de seguir el canal {name}"
+    },
+    "statusChannelUpdated": {
+      "title": "Canal seguido actualizado",
+      "description": "{executor} actualizó el canal seguido {name}"
+    }
+  }

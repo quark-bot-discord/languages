@@ -1,0 +1,10 @@
+{
+    "name": "language",
+    "description": "Cambiar el idioma de Quark",
+    "commandOptions": {
+      "languageOption": {
+        "name": "idioma",
+        "description": "Establecer el idioma del bot para este servidor"
+      }
+    }
+  }

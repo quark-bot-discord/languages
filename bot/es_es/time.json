@@ -1,0 +1,16 @@
+{
+    "second": "{time} segundo",
+    "second-plural": "{time} segundos",
+    "minute": "{time} minuto",
+    "minute-plural": "{time} minutos",
+    "hour": "{time} hora",
+    "hour-plural": "{time} horas",
+    "day": "{time} día",
+    "day-plural": "{time} días",
+    "week": "{time} semana",
+    "week-plural": "{time} semanas",
+    "month": "{time} mes",
+    "month-plural": "{time} meses",
+    "year": "{time} año",
+    "year-plural": "{time} años"
+  }

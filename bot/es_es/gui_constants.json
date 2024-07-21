@@ -1,0 +1,41 @@
+{
+    "channelModificationTypes": {
+      "name": "Nombre",
+      "type": "Tipo",
+      "position": "Posición",
+      "topic": "Tema",
+      "rate_limit_per_user": "Modo lento",
+      "parent_id": "Categoría",
+      "bitrate": "tasa de bits",
+      "user_limit": "Límite de usuarios",
+      "rtc_region": "Región",
+      "nsfw": "NSFW"
+    },
+    "roleModificationTypes": {
+      "name": "Nombre",
+      "color": "Color",
+      "hoist": "izado",
+      "managed": "Administrado",
+      "mentionable": "Mencionable",
+      "unicode_emoji": "emojis"
+    },
+    "emojiModificationTypes": {
+      "name": "Nombre"
+    },
+    "guildModificationTypes": {
+      "name": "Nombre",
+      "description": "Descripción",
+      "system_channel_id": "Canal del sistema",
+      "rules_channel_id": "Canal de reglas",
+      "mfa_level": "Se requiere MFA",
+      "verification_level": "Nivel de verificación",
+      "default_message_notifications": "Notificaciones por defecto",
+      "explicit_content_filter": "Filtro de contenido explícito",
+      "nsfw_level": "Nivel NSFW",
+      "premium_progress_bar_enabled": "Barra de progreso"
+    },
+    "webhookModificationTypes": {
+      "name": "Nombre",
+      "channel_id": "Canal"
+    }
+  }

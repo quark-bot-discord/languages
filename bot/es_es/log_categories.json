@@ -1,0 +1,13 @@
+{
+    "serverEvents": "Miembros",
+    "serverActions": "Comportamiento",
+    "textEvents": "Mensajes",
+    "voiceEvents": "Voz",
+    "fileEvents": "Archivos",
+    "generalEvents": "Servidor",
+    "roleEvents": "Roles",
+    "channelEvents": "Canales",
+    "quarkEvents": "Configuración de quarks",
+    "modLog": "Modlogs",
+    "main": "Principal"
+  }

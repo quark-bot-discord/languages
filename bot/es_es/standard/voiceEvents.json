@@ -1,0 +1,104 @@
+{
+    "streamStart": {
+      "title": "Transmisión iniciada",
+      "description": "{user} comenzó a transmitir en el canal de voz {channel}"
+    },
+    "streamStop": {
+      "title": "Transmisión finalizada",
+      "description": "{user} dejó de transmitir en el canal de voz {channel}"
+    },
+    "videoStart": {
+      "title": "Vídeo iniciado",
+      "description": "{user} comenzó su video en el canal de voz {channel}"
+    },
+    "videoStop": {
+      "title": "Vídeo detenido",
+      "description": "{user} detuvo su video en el canal de voz {channel}"
+    },
+    "voiceSwitch": {
+      "title": "Canal cambiado",
+      "description": "{user} pasó del canal de voz {channel_old} al canal de voz {channel_new}"
+    },
+    "voiceMove": {
+      "title": "Movido",
+      "description": "{user} fue movido del canal de voz {channel_old} al canal de voz {channel_new}",
+      "movedBy": "Llevado por"
+    },
+    "voiceJoin": {
+      "title": "Canal unido",
+      "description": "{user} se unió al canal de voz {channel}"
+    },
+    "voiceLeave": {
+      "title": "Canal izquierdo",
+      "description": "{user} abandonó el canal de voz {channel}",
+      "joined": "Unido",
+      "joinedValue": "{relative} para {relative_fixed}"
+    },
+    "voiceDisconnect": {
+      "title": "Desconectado",
+      "description": "{user} fue desconectado",
+      "disconnectedBy": "Desconectado por",
+      "voiceChannel": "Canal de voz"
+    },
+    "serverDeafen": {
+      "title": "ensordecido",
+      "description": "{user} quedó sordo",
+      "deafenedBy": "ensordecido por",
+      "voiceChannel": "Canal de voz"
+    },
+    "serverMute": {
+      "title": "Apagado",
+      "description": "{user} fue silenciado",
+      "mutedBy": "Silenciado por",
+      "voiceChannel": "Canal de voz"
+    },
+    "serverUndeafen": {
+      "title": "sordos",
+      "description": "{user} estaba sordo",
+      "undeafenedBy": "Ensordecido por",
+      "voiceChannel": "Canal de voz"
+    },
+    "serverUnmute": {
+      "title": "no silenciado",
+      "description": "{user} fue activado",
+      "unmutedBy": "No silenciado por",
+      "voiceChannel": "Canal de voz"
+    },
+    "channelStatusUpdate": {
+      "title": "Estado del canal de voz actualizado",
+      "description": "{executor} establece el estado de {channel}",
+      "status": "Estado",
+      "linksToEmojis": "Enlaces a emojis"
+    },
+    "stageStarted": {
+      "title": "Etapa iniciada",
+      "description": "{executor} inició una etapa en {channel}",
+      "topic": "Tema"
+    },
+    "stageEnded": {
+      "title": "Etapa terminada",
+      "description": "La etapa en {channel} fue finalizada por {executor}",
+      "description_noExecutor": "La etapa en {channel} terminó",
+      "topic": "Tema",
+      "none": "ninguno"
+    },
+    "stageUpdated": {
+      "title": "Etapa actualizada",
+      "description": "La etapa en {channel} fue actualizada por {executor}",
+      "oldTopic": "Tema antiguo",
+      "newTopic": "Nuevo tema"
+    },
+    "stageSpeakerAdd": {
+      "title": "Nuevo altavoz de escenario",
+      "description": "{user} se convirtió en orador en el canal del escenario {channel}",
+      "description_inviteAccepted": "{user} aceptó la invitación para convertirse en orador en el canal del escenario {channel}"
+    },
+    "stageSpeakerRemove": {
+      "title": "dejó de hablar",
+      "description": "{user} ya no es un orador en el canal de escenario {channel}"
+    },
+    "stageSpeakerInvited": {
+      "title": "Orador invitado",
+      "description": "{user} fue invitado a hablar en el canal del escenario {channel}"
+    }
+  }
