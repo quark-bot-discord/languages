@@ -2,7 +2,7 @@
     "channelCreated": {
       "title": "{type} Canal creado",
       "description": "{channel} fue creado por {executor}",
-      "descriptionWithCategory": "{channel} fue creado por {executor} en la categoría {categoría}."
+      "descriptionWithCategory": "{channel} fue creado por {executor} en la categoría {category}."
     },
     "channelDeleted": {
       "title": "{type} Canal eliminado",
@@ -19,7 +19,7 @@
     },
     "channelOverwriteDelete": {
       "title": "{type} Permisos de canal eliminados",
-      "description": "{executor} eliminó permisos de {channel} para {especial}"
+      "description": "{executor} eliminó permisos de {channel} para {special}"
     },
     "channelOverwriteUpdate": {
       "title": "{type} Permisos de canal actualizados",
