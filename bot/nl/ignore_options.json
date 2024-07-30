@@ -1,0 +1,12 @@
+{
+    "ignoreTargets": "Negeer Doelgebruikers",
+    "ignoreExecutors": "Negeer Doeluitvoerders",
+    "specificMessageContent": "Negeer Specifieke Berichtinhoud",
+    "ignoreChannels": "Negeer Kanalen",
+    "ignoreBotExecutors": "Negeer Botuitvoerders",
+    "ignoreBotTargets": "Negeer Botdoelen",
+    "ignoreExecutorRoles": "Negeer Uitvoerdersrollen",
+    "ignoreTargetRoles": "Negeer Doelrollen",
+    "ignoreCategories": "Negeer Categorieën",
+    "activeIgnore": "Actieve Negeer"
+}

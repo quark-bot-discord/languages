@@ -38,8 +38,10 @@
     "error-try-help-again": "Probeer opnieuw het help-commando uit te voeren...",
     "error-no-modlog": "Geen modlog kanaal",
     "error-invalid-log": "Modlog incident niet gevonden",
+
     "error-timeout-period-too-long-0": "Time-out periode te lang",
     "error-timeout-period-too-long-1": "Time-out periode moet minder dan 28 dagen zijn",
+
     "response-ban": "Verbannen",
     "response-kick": "Gekicked",
     "response-mute": "Gedempt",
@@ -51,10 +53,12 @@
     "response-customise-2": "[UK, US, EU] Klik op mijn profiel om te upgraden!",
     "response-customise-3": "Of... {proLink}",
     "response-customise-4": "Probeer kleur aanpassing gratis uit op {inventoryLink}",
+
     "response-case-updated": "Incident bijgewerkt!",
     "response-debug": "Debug log verzonden!",
     "response-status-enabled": "Status kanaal updates ingeschakeld!",
     "response-status-disabled": "Status kanaal updates uitgeschakeld!",
+
     "target0-command": "doel",
     "target1-command": "doelen",
     "message0-command": "bericht",
@@ -62,6 +66,7 @@
     "executor1-command": "uitvoerders",
     "channel0-command": "kanaal",
     "channel1-command": "kanalen",
+
     "serverlog-web-promote": "...of bekijk ons web dashboard!",
     "serverlog-select": "Selecteer serverlog kanaal",
     "serverlog-unset": "Kanaal niet ingesteld",
@@ -95,11 +100,18 @@
     "setserverlog-type-channels-1": "kanaal gebeurtenissen",
     "setserverlog-type-modlogs-0": "Modlogs",
     "setserverlog-type-modlogs-1": "modlogs",
+    "setserverlog-type-quark-0": "Quark Evenementen",
+    "setserverlog-type-quark-1": "quark evenementen",
     "setserverlog-spoilers": "Spoilers",
     "setserverlog-spoilers-0": "Serverlog spoilers ingesteld op {result}",
     "setserverlog-enable-status-updates": "Statusupdates inschakelen!",
     "setserverlog-enable-status-updates-desc": "Ontvang meldingen van alle laatste updates, uitvaltijd en andere belangrijke communicatie van de ontwikkelaars!",
     "setserverlog-enable-status-updates-desc-1": "We raden sterk aan dit in een van je kanalen in te schakelen!",
+    "setserverlog-check-permissions": "Zorg ervoor dat Quark toestemming heeft om berichten te verzenden in dit kanaal, anders wordt het kanaal niet ingesteld.",
+
+    "festive-title": "Gratis Feestelijke Gift!",
+    "festive-claim": "Claim je gratis gift!",
+
     "help-overview-website-description": "Stel Quark eenvoudig in en beheer het via het [web dashboard]!",
     "help-overview-inventory-description": "Beheer je abonnementen of krijg enkele [Quark Pro] functies gratis!",
     "help-overview-view-inv": "Bekijk Inventaris",
@@ -119,6 +131,7 @@
     "help-overview-change-channel": "Verander dit door {command} uit te voeren in het gewenste kanaal.",
     "help-overview-manage-premium": "Voer {command} uit om premium te beheren",
     "language-set": "Taal ingesteld op {language}",
+
     "help-serverlog-help": "Serverlog Hulp",
     "help-serverlog-0": "Kanaalbeperkingen",
     "help-serverlog-1": "Negeeropties",
@@ -128,6 +141,7 @@
     "help-serverlog-2-desc": "Om te wisselen of spoilers worden toegepast op alle media die in de serverlog worden verzonden, voer uit: {command}",
     "help-serverlog-2-on": "Spoilers zijn ingeschakeld.",
     "help-serverlog-2-off": "Spoilers zijn uitgeschakeld.",
+
     "help-commands-help": "Commando's Hulp",
     "help-commands-moderation": "Moderatie",
     "help-commands-tags": "Tags",
@@ -137,9 +151,14 @@
     "help-tags-help": "Tags Hulp",
     "help-commands-desc": "Sleutel:\n`<verplicht>` `[optioneel]`\nDit is niet een lijst van elk commando",
     "help-info": "Nog steeds hulp nodig? **Join Quark's support server!**",
+
     "need-to-vote-title": "Je moet stemmen om dit commando te gebruiken!",
     "need-to-vote": "Klik hier om te stemmen",
     "need-to-vote-footer": "Stemmen duren tot een minuut om geregistreerd te worden",
+
+    "initialreactors-expired": "verlopen",
+    "initialreactors-notfound": "Geen reacties gevonden",
+
     "configCommand": {
         "title": "Serverlog Configuratie",
         "selection": "Selecteer een categorie in het menu om configuratie te bekijken.",
@@ -187,6 +206,10 @@
             "overview": {
                 "title": "Overzicht",
                 "description": "Overzicht van de hoofd categorie opties"
+            },
+            "quarkEvents": {
+                "title": "Quark Config",
+                "description": "Wijzigingen in de configuratie van Quark voor deze server"
             },
             "fileEvents": {
                 "title": "Bestanden"

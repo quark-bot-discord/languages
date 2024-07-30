@@ -1,0 +1,13 @@
+{
+    "serverEvents": "Leden",
+    "serverActions": "Acties",
+    "textEvents": "Berichten",
+    "voiceEvents": "Stem",
+    "fileEvents": "Bestanden",
+    "generalEvents": "Server",
+    "roleEvents": "Rollen",
+    "channelEvents": "Kanalen",
+    "quarkEvents": "Quark Configuratie",
+    "modLog": "Modlogs",
+    "main": "Primair"
+}
