@@ -3,7 +3,7 @@
     "description": "Desbanear a un usuario",
     "commandOptions": {
       "userOption": {
-        "name": "ID de usuario",
+        "name": "id-de-usuario",
         "description": "El ID del usuario a desbanear"
       },
       "reasonOption": {
