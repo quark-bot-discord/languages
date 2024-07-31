@@ -1,0 +1,14 @@
+{
+    "name": "unban",
+    "description": "Desbanear a un usuario",
+    "commandOptions": {
+      "userOption": {
+        "name": "id-de-usuario",
+        "description": "El ID del usuario a desbanear"
+      },
+      "reasonOption": {
+        "name": "razón",
+        "description": "El motivo para desbanear al usuario."
+      }
+    }
+  }

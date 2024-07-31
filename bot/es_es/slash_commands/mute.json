@@ -1,0 +1,33 @@
+{
+    "name": "mute",
+    "description": "Silenciar a un usuario",
+    "commandOptions": {
+      "userOption": {
+        "name": "usuario",
+        "description": "El usuario a silenciar"
+      },
+      "timeOption": {
+        "name": "tiempo",
+        "description": "Período de tiempo para el tiempo de espera del usuario. "
+      },
+      "typeOption": {
+        "name": "tipo",
+        "description": "Unidades para el campo \"tiempo\". ",
+        "choices": {
+          "minutes": {
+            "name": "minutos"
+          },
+          "hours": {
+            "name": "horas"
+          },
+          "days": {
+            "name": "días"
+          }
+        }
+      },
+      "reasonOption": {
+        "name": "razón",
+        "description": "El motivo para silenciar al usuario."
+      }
+    }
+  }
