@@ -59,11 +59,11 @@
         "description": "{count} Członkowie z co najmniej {time} dniami nieaktywności zostali usunięci przez {executor}"
     },
     "avatarUpdate": {
-        "title": "Zmieniono Awatar Serwera",
+        "title": "Zmieniono Ikonę Serwera",
         "description": "{user} zmienił ikonę serwera",
         "description_added": "{user} dodał ikonę serwera",
         "description_removed": "{user} usunął ikonę serwera",
-        "changedBy": "Zmienione przez",
+        "changedBy": "Zmieniona przez",
         "linkToOldAvatar": "Link do starej ikony",
         "linkToNewAvatar": "Link do nowej ikony"
     }
