@@ -20,7 +20,7 @@
         "description": "{emoji} została dodana przez {executor}"
     },
     "emojiDeleted": {
-        "title": "Emotka usunięte",
+        "title": "Usunięto emotkę",
         "description": "{emoji} została usunięta przez {executor}",
         "emoji": "Emoji"
     },

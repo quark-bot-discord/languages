@@ -55,16 +55,16 @@
         "roles": "Role"
     },
     "memberPrune": {
-        "title": "Members Pruned",
-        "description": "{count} members with at least {time} days of inactivity were pruned by {executor}"
+        "title": "Członkowie usunięci",
+        "description": "{count} Członkowie z co najmniej {time} dniami nieaktywności zostali usunięci przez {executor}"
     },
     "avatarUpdate": {
         "title": "Zmieniono Awatar Serwera",
-        "description": "{user} zmienił swojego awatara serwera",
-        "description_added": "{user} dodał awatar serwera",
-        "description_removed": "{user} usunął swojego awatara serwera",
+        "description": "{user} zmienił ikonę serwera",
+        "description_added": "{user} dodał ikonę serwera",
+        "description_removed": "{user} usunął ikonę serwera",
         "changedBy": "Zmienione przez",
-        "linkToOldAvatar": "Link do starego awatara",
-        "linkToNewAvatar": "Link do nowego awatara"
+        "linkToOldAvatar": "Link do starej ikony",
+        "linkToNewAvatar": "Link do nowej ikony"
     }
 }
