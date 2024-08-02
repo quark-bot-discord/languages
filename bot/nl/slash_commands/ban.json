@@ -1,18 +1,15 @@
 {
     "name": "verbannen",
     "description": "Een gebruiker verbannen",
-
     "commandOptions": {
         "userOption": {
             "name": "gebruiker",
             "description": "De gebruiker om te verbannen"
         },
-
         "reasonOption": {
             "name": "reden",
             "description": "De reden voor het verbannen van de gebruiker"
         },
-
         "deleteMessageDaysOption": {
             "name": "verwijderen",
             "description": "Aantal dagen van gebruikersberichten om te verwijderen"
