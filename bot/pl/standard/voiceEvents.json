@@ -16,24 +16,24 @@
         "description": "{user} zakończył wideo na kanale głosowym {channel}"
     },
     "voiceSwitch": {
-        "title": "Zmiana Kanału",
+        "title": "Zmiana Kanału Głosowego",
         "description": "{user} przeszedł z kanału głosowego {channel_old} na kanał {channel_new}"
     },
     "voiceMove": {
-        "title": "Przeniesienie",
+        "title": "Przeniesienie z Kanału Głosowego",
         "description": "{user} został przeniesiony z kanału głosowego {channel_old} na kanał głosowy {channel_new}",
         "movedBy": "Przeniesiony przez"
     },
     "voiceJoin": {
-        "title": "Dołączenie do Kanału",
+        "title": "Dołączenie do Kanału Głosowego",
         "description": "{user} dołączył do kanału głosowego {channel}"
     },
     "voiceLeave": {
-        "title": "Opuśczenie Kanału",
+        "title": "Opuszczenie Kanału Głosowego",
         "description": "{user} opuścił kanał głosowy {channel}"
     },
     "voiceDisconnect": {
-        "title": "Rozłączenie",
+        "title": "Rozłączenie z Kanału Głosowego",
         "description": "{user} został rozłączony",
         "disconnectedBy": "Rozłączony przez",
         "voiceChannel": "Kanał głosowy"
@@ -45,8 +45,8 @@
         "voiceChannel": "Kanał głosowy"
     },
     "serverMute": {
-        "title": "Odciszenie Mikrofonu",
-        "description": "{user} został wyciszony mikrofon",
+        "title": "Wyciszenie Mikrofonu",
+        "description": "{user} został wyciszony",
         "mutedBy": "Wyciszony mikrofon przez",
         "voiceChannel": "Kanał głosowy"
     },
@@ -57,8 +57,8 @@
         "voiceChannel": "Kanał głosowy"
     },
     "serverUnmute": {
-        "title": "Odciszonie Mikrofonu",
-        "description": "{user} został odciszony mikrofon",
+        "title": "Odciszenie Mikrofonu",
+        "description": "{user} został odciszony",
         "unmutedBy": "Odciszony przez",
         "voiceChannel": "Kanał głosowy"
     },
@@ -66,6 +66,6 @@
         "title": "Zaktualizowano Status Kanału Głosowego",
         "description": "{executor} ustawił status dla kanału {channel}",
         "status": "Status",
-        "linksToEmojis": "Linki do emoji"
+        "linksToEmojis": "Linki do emotki"
     }
 }

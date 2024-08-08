@@ -1,7 +1,7 @@
 {
     "polls": {
     "poll": "Ankieta",
-    "pollDescriptor": "[poll]",
+    "pollDescriptor": "[ankieta]",
     "status": "Status ankiety.",
     "ended": "zakończona",
     "notEnded": "nie zakończona",
@@ -65,7 +65,7 @@
     "description": "Wiadomość została przypięta przez {executor}"
 },
 "messageUnpin": {
-    "title": "Wiadomość Odepnięta",
+    "title": "Wiadomość Odpięta",
     "description": "Wiadomość została odepnięta przez {executor}"
 },
 "threadCreate": {
