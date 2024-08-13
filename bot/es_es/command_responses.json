@@ -148,60 +148,60 @@
     "initialreactors-expired": "venció",
     "initialreactors-notfound": "No se encontraron reacciones",
     "configCommand": {
-      "title": "Configuración del registro del servidor",
-      "selection": "Seleccione una categoría en el menú para ver la configuración.",
-      "serverLogDesc": "Canal principal de registro del servidor",
-      "notSet": "No establecido",
-      "selectACategory": "Seleccione una categoría",
-      "overview": "Descripción general",
-      "formats": {
-        "log_channels": "Canales de registro",
-        "configurable_events": "Eventos configurables"
-      },
-      "categories": {
-        "serverEvents": {
-          "title": "Miembros",
-          "description": "Acciones de los miembros (unirse/salir, roles, apodos)"
+        "title": "Configuración del registro del servidor",
+        "selection": "Seleccione una categoría en el menú para ver la configuración.",
+        "serverLogDesc": "Canal principal de registro del servidor",
+        "notSet": "No establecido",
+        "selectACategory": "Seleccione una categoría",
+        "overview": "Descripción general",
+        "formats": {
+            "log_channels": "Canales de registro",
+            "configurable_events": "Eventos configurables"
         },
-        "textEvents": {
-          "title": "Mensajes",
-          "description": "Acciones de mensajes (eliminaciones, ediciones, pines, reacciones)"
-        },
-        "voiceEvents": {
-          "title": "Voz",
-          "description": "Acciones del canal de voz (unirse/salir, transmitir, silenciar/ensordecer)"
-        },
-        "serverActions": {
-          "title": "Acciones del servidor",
-          "description": "Acciones del servidor (creación/eliminación de invitaciones, emojis)"
-        },
-        "channelEvents": {
-          "title": "Canales",
-          "description": "Acciones del canal (creaciones/eliminaciones, permisos)"
-        },
-        "generalEvents": {
-          "title": "Eventos del servidor",
-          "description": "Acciones generales (modificaciones del servidor)"
-        },
-        "roleEvents": {
-          "title": "Roles",
-          "description": "Acciones de rol (creaciones/eliminaciones, permisos)"
-        },
-        "modLog": {
-          "title": "Registros de modificación",
-          "description": "Acciones de moderación (baneos, patadas, silenciamientos)"
-        },
-        "overview": {
-          "title": "Descripción general",
-          "description": "Descripción general de las opciones de la categoría principal"
-        },
-        "quarkEvents": {
-          "title": "Configuración de quarks",
-          "description": "Cambios realizados en la configuración de Quark para este servidor."
-        },
-        "fileEvents": {
-          "title": "Archivos"
+        "categories": {
+            "serverEvents": {
+                "title": "Miembros",
+                "description": "Acciones de los miembros (unirse/salir, roles, apodos)"
+            },
+            "textEvents": {
+                "title": "Mensajes",
+                "description": "Acciones de mensajes (eliminaciones, ediciones, pines, reacciones)"
+            },
+            "voiceEvents": {
+                "title": "Voz",
+                "description": "Acciones del canal de voz (unirse/salir, transmitir, silenciar/ensordecer)"
+            },
+            "serverActions": {
+                "title": "Acciones del servidor",
+                "description": "Acciones del servidor (creación/eliminación de invitaciones, emojis)"
+            },
+            "channelEvents": {
+                "title": "Canales",
+                "description": "Acciones del canal (creaciones/eliminaciones, permisos)"
+            },
+            "generalEvents": {
+                "title": "Eventos del servidor",
+                "description": "Acciones generales (modificaciones del servidor)"
+            },
+            "roleEvents": {
+                "title": "Roles",
+                "description": "Acciones de rol (creaciones/eliminaciones, permisos)"
+            },
+            "modLog": {
+                "title": "Registros de modificación",
+                "description": "Acciones de moderación (baneos, patadas, silenciamientos)"
+            },
+            "overview": {
+                "title": "Descripción general",
+                "description": "Descripción general de las opciones de la categoría principal"
+            },
+            "quarkEvents": {
+                "title": "Configuración de quarks",
+                "description": "Cambios realizados en la configuración de Quark para este servidor."
+            },
+            "fileEvents": {
+                "title": "Archivos"
+            }
         }
-      }
     }
-  }
+}
