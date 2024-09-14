@@ -1,5 +1,1 @@
-const activate = require("./activate");
-
-module.exports = {
-    activate
-};
+export { default as activate } from "./activate.js";
