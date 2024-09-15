@@ -1,0 +1,20 @@
+{
+    "moderator": "Moderador",
+    "user": "Usuario",
+    "reason": "Razón",
+    "case": "Caso",
+    "noReason": "Moderador: ejecute {command}",
+    "noReasonBrief": "Ejecutar {command}",
+    "ban": "Prohibición",
+    "unban": "Desbanear",
+    "kick": "Patada",
+    "mute": "Se acabó el tiempo",
+    "unmute": "Tiempo de espera eliminado",
+    "timeoutEnds": "El tiempo de espera finaliza {time}",
+    "editReason": "Editar motivo",
+    "reasonModal": {
+      "label": "Razón",
+      "placeholder": "Estando muy mal >:(",
+      "title": "Modificar el motivo del modlog"
+    }
+  }

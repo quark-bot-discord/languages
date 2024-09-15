@@ -1,0 +1,16 @@
+{
+    "second": "{time} seconde",
+    "second-plural": "{time} seconden",
+    "minute": "{time} minuut",
+    "minute-plural": "{time} minuten",
+    "hour": "{time} uur",
+    "hour-plural": "{time} uren",
+    "day": "{time} dag",
+    "day-plural": "{time} dagen",
+    "week": "{time} week",
+    "week-plural": "{time} weken",
+    "month": "{time} maand",
+    "month-plural": "{time} maanden",
+    "year": "{time} jaar",
+    "year-plural": "{time} jaren"
+}

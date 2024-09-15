@@ -1,0 +1,18 @@
+{
+    "name": "config",
+    "description": "Ver la configuración de Quark para su servidor",
+    "commandOptions": {
+      "format": {
+        "name": "formato",
+        "description": "El tipo de configuración que desea ver",
+        "choices": {
+          "log_channels": {
+            "label": "Canales de registro"
+          },
+          "configurable_events": {
+            "label": "Eventos configurables"
+          }
+        }
+      }
+    }
+  }

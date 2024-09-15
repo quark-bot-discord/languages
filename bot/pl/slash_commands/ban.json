@@ -1,18 +1,15 @@
 {
     "name": "ban",
     "description": "Zbanuj użytkownika",
-    
     "commandOptions": {
         "userOption": {
             "name": "użytkownik",
             "description": "Użytkownik do zbanowania"
         },
-
         "reasonOption": {
             "name": "powód",
             "description": "Powód bana"
         },
-
         "deleteMessageDaysOption": {
             "name": "wiadomości",
             "description": "Liczba dni wiadomości użytkownika do usunięcia"

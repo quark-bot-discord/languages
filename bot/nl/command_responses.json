@@ -100,6 +100,8 @@
     "setserverlog-type-channels-1": "kanaal gebeurtenissen",
     "setserverlog-type-modlogs-0": "Modlogs",
     "setserverlog-type-modlogs-1": "modlogs",
+    "setserverlog-type-quark-0": "Quark Evenementen",
+    "setserverlog-type-quark-1": "quark evenementen",
     "setserverlog-spoilers": "Spoilers",
     "setserverlog-spoilers-0": "Serverlog spoilers ingesteld op {result}",
     "setserverlog-enable-status-updates": "Statusupdates inschakelen!",
@@ -211,7 +213,18 @@
             },
             "fileEvents": {
                 "title": "Bestanden"
+            },
+            "quarkEvents": {
+                "title": "Quark Config",
+                "description": "Changes made to Quark's configuration for this server"
             }
         }
-    }
+    },
+    "setserverlog-type-quark-0": "Quark Events",
+    "setserverlog-type-quark-1": "quark events",
+    "setserverlog-check-permissions": "Please ensure Quark has permission to send messages in this channel, or the channel will be unset.",
+    "festive-title": "Free Festive Gift!",
+    "festive-claim": "Claim your free gift!",
+    "initialreactors-expired": "expired",
+    "initialreactors-notfound": "No reactions found"
 }

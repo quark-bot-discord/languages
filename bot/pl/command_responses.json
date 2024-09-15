@@ -215,5 +215,10 @@
                 "title": "Pliki"
             }
         }
-    }
+    },
+  
+    "setserverlog-type-quark-0": "Quark Events",
+    "setserverlog-type-quark-1": "quark events",
+    "initialreactors-expired": "expired",
+    "initialreactors-notfound": "No reactions found"
 }

@@ -6,11 +6,11 @@
     "noReason": "Moderator: proszę uruchomić {command}",
     "noReasonBrief": "Uruchom {command}",
 
-    "ban": "Zbanuj",
-    "unban": "Odbanuj",
-    "kick": "Wyrzuć",
+    "ban": "Ban",
+    "unban": "Unban",
+    "kick": "wyrzucenie",
     "mute": "Przerwa",
-    "unmute": "Przerwa została zdjętą",
+    "unmute": "Przerwa została zdjęta",
 
     "timeoutEnds": "Przerwa kończy się {time}",
 
