@@ -33,5 +33,9 @@
         "explicit_content_filter": "Filtr zawartości jawnej",
         "nsfw_level": "Poziom NSFW",
         "premium_progress_bar_enabled": "Pasek postępu"
+    },
+    "webhookModificationTypes": {
+        "name": "Nazwa",
+        "channel_id": "Kanał"
     }
 }
