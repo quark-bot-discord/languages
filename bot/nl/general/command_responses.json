@@ -1,0 +1,217 @@
+{
+    "disable": "Uitschakelen",
+    "enable": "Inschakelen",
+    "error-401-0": "Opdracht mislukt",
+    "error-401-1-type-0": "Ik kan deze gebruiker niet verbannen",
+    "error-401-1-type-1": "Ik kan deze gebruiker niet kicken",
+    "error-401-1-type-2": "Ik kan deze gebruiker niet dempen",
+    "error-401-1-type-3": "Ik kan deze gebruiker niet ontdempen",
+    "error-403-0": "Onvoldoende rechten",
+    "error-403-1-type-0": "Zorg ervoor dat ik de 'BAN_MEMBERS' machtiging heb",
+    "error-403-1-type-1": "Zorg ervoor dat ik de 'KICK_MEMBERS' machtiging heb",
+    "error-403-1-type-2": "Zorg ervoor dat ik de 'MANAGE_ROLES' machtiging heb en dat de 'Muted' (gedempt) rol onder mijn hoogste rol staat",
+    "error-403-1-type-3": "Zorg ervoor dat ik de 'MANAGE_MESSAGES' machtiging heb",
+    "error-404-0": "Gebruiker niet gevonden",
+    "error-404-1": "Noem een gebruiker, plak hun ID of typ hun gebruikersnaam",
+    "error-405-0": "Pardon?",
+    "error-405-1": "Dat ga ik niet doen lol",
+    "error-406-0": "Je hebt geen toestemming",
+    "error-407-0": "Je hebt de macht niet om dit te doen",
+    "error-409-0-type-0": "Deze gebruiker is al verbannen",
+    "error-409-0-type-1": "Deze gebruiker is al gedempt",
+    "error-409-0-type-2": "Deze gebruiker is al ontbannen",
+    "error-409-0-type-3": "Deze gebruiker is al ontdempt",
+    "error-429-0": "Ongeldig nummer",
+    "error-429-1": "Voer een geldig geheel getal in dat binnen het bereik (1-100) ligt",
+    "error-430-0": "Geen berichten",
+    "error-430-1": "Er zijn geen berichten gevonden om te zuiveren",
+    "error-431-0": "Ongeldige berichtlink",
+    "error-431-1": "Voer een geldig berichtlink in",
+    "error-432-0": "Geen Quark log",
+    "error-432-1": "Dit bericht is geen geldige Quark log",
+    "error-433-0": "Ongeldige begin- en eindberichten",
+    "error-433-1": "Het beginbericht moet ouder zijn dan het eindbericht",
+    "error-434-0": "Verschillende kanalen",
+    "error-434-1": "Het beginbericht en eindbericht moeten tot hetzelfde kanaal behoren",
+    "error-435-0": "Cooldown actief",
+    "error-435-1": "Dit commando kan slechts om de 15 minuten worden gebruikt",
+    "error-try-help-again": "Probeer opnieuw het help-commando uit te voeren...",
+    "error-no-modlog": "Geen modlog kanaal",
+    "error-invalid-log": "Modlog incident niet gevonden",
+
+    "error-timeout-period-too-long-0": "Time-out periode te lang",
+    "error-timeout-period-too-long-1": "Time-out periode moet minder dan 28 dagen zijn",
+
+    "response-ban": "Verbannen",
+    "response-kick": "Gekicked",
+    "response-mute": "Gedempt",
+    "response-unmute": "Ontdempt",
+    "response-unban": "Ontbannen",
+    "response-purge": "{count} berichten gezuiverd",
+    "response-customise-dash": "Aanpassingsinstellingen zijn verplaatst naar ons [web dashboard]!",
+    "response-customise-1": "Log berichten tot 2 weken oud, pas logs aan en nog veel meer met Quark Pro...",
+    "response-customise-2": "[UK, US, EU] Klik op mijn profiel om te upgraden!",
+    "response-customise-3": "Of... {proLink}",
+    "response-customise-4": "Probeer kleur aanpassing gratis uit op {inventoryLink}",
+
+    "response-case-updated": "Incident bijgewerkt!",
+    "response-debug": "Debug log verzonden!",
+    "response-status-enabled": "Status kanaal updates ingeschakeld!",
+    "response-status-disabled": "Status kanaal updates uitgeschakeld!",
+
+    "target0-command": "doel",
+    "target1-command": "doelen",
+    "message0-command": "bericht",
+    "executor0-command": "uitvoerder",
+    "executor1-command": "uitvoerders",
+    "channel0-command": "kanaal",
+    "channel1-command": "kanalen",
+
+    "serverlog-web-promote": "...of bekijk ons web dashboard!",
+    "serverlog-select": "Selecteer serverlog kanaal",
+    "serverlog-unset": "Kanaal niet ingesteld",
+    "serverlog-set": "Kanaal ingesteld",
+    "serverlog-setchannel": "Kanaal ingesteld op {channel}",
+    "setserverlog-confirm0-set": "Server-Log Kanaal Ingesteld",
+    "setserverlog-confirm0-unset": "Server-Log Kanaal Niet Ingesteld",
+    "setserverlog-confirm1-set": "Alle server-log gebeurtenissen worden nu in dit kanaal vastgelegd.\n\n[**Bezoek Quark's web dashboard voor meer configuratieopties!**]({quark_website_url}/dashboard/{guild_id})",
+    "setserverlog-confirm1-unset": "Je ontvangt geen berichten meer over gebeurtenissen in deze server tenzij je andere kanalen hebt ingesteld om de gebeurtenissen naar te sturen.",
+    "setserverlog-confirm0-options-set": "Server-Log {type} Kanaal Ingesteld",
+    "setserverlog-confirm0-options-unset": "Server-Log {type} Kanaal Niet Ingesteld",
+    "setserverlog-confirm0-options-stoplog": "Server-Log {type} Loggen Gestopt",
+    "setserverlog-confirm1-options-set": "Server {type} wordt nu in dit kanaal vastgelegd.\n\nOm dit kanaal in te stellen, voer het commando opnieuw uit in dit kanaal.",
+    "setserverlog-confirm1-options-unset": "Server {type} wordt niet langer in dit kanaal vastgelegd.\n\nOm dit kanaal in te stellen, voer het commando opnieuw uit in dit kanaal.",
+    "setserverlog-confirm1-options-stoplog": "Server {type} blijft nu in het hoofd serverlog kanaal gelogd (als er een is ingesteld).\n\nOm dit ongedaan te maken, voer het commando hier opnieuw uit.",
+    "setserverlog-type-members-0": "Leden",
+    "setserverlog-type-members-1": "leden",
+    "setserverlog-type-actions-0": "Acties",
+    "setserverlog-type-actions-1": "acties",
+    "setserverlog-type-text-0": "Tekst Kanaal Gebeurtenissen",
+    "setserverlog-type-text-1": "tekst kanaal gebeurtenissen",
+    "setserverlog-type-voice-0": "Voice Kanaal Gebeurtenissen",
+    "setserverlog-type-voice-1": "voice kanaal gebeurtenissen",
+    "setserverlog-type-files-0": "Bestanden",
+    "setserverlog-type-files-1": "bestanden",
+    "setserverlog-type-server-0": "Server",
+    "setserverlog-type-server-1": "server",
+    "setserverlog-type-roles-0": "Rol Gebeurtenissen",
+    "setserverlog-type-roles-1": "rol gebeurtenissen",
+    "setserverlog-type-channels-0": "Kanaal Gebeurtenissen",
+    "setserverlog-type-channels-1": "kanaal gebeurtenissen",
+    "setserverlog-type-modlogs-0": "Modlogs",
+    "setserverlog-type-modlogs-1": "modlogs",
+    "setserverlog-spoilers": "Spoilers",
+    "setserverlog-spoilers-0": "Serverlog spoilers ingesteld op {result}",
+    "setserverlog-enable-status-updates": "Statusupdates inschakelen!",
+    "setserverlog-enable-status-updates-desc": "Ontvang meldingen van alle laatste updates, uitvaltijd en andere belangrijke communicatie van de ontwikkelaars!",
+    "setserverlog-enable-status-updates-desc-1": "We raden sterk aan dit in een van je kanalen in te schakelen!",
+    "setserverlog-check-permissions": "Zorg ervoor dat Quark toestemming heeft om berichten te verzenden in dit kanaal, anders wordt het kanaal niet ingesteld.",
+
+    "festive-title": "Gratis Feestelijke Gift!",
+    "festive-claim": "Claim je gratis gift!",
+
+    "help-overview-website-description": "Stel Quark eenvoudig in en beheer het via het [web dashboard]!",
+    "help-overview-inventory-description": "Beheer je abonnementen of krijg enkele [Quark Pro] functies gratis!",
+    "help-overview-view-inv": "Bekijk Inventaris",
+    "help-overview-help": "Help",
+    "help-overview-website": "Website",
+    "help-overview-serverlog": "Serverlog",
+    "help-overview-modlog": "Modlog",
+    "help-overview-commands": "Commando's",
+    "help-overview-language": "Taal",
+    "help-overview-premium": "Premium",
+    "help-overview-inventory": "Inventaris",
+    "help-overview-channel-isset": "Kanaal ingesteld op {channel}",
+    "help-overview-channel-isnotset": "Voer {command} uit in het gewenste kanaal",
+    "help-overview-view-options": "Voer {command} uit om opties te zien",
+    "help-overview-view-options-and-statuses": "Voer {command} uit om statussen en opties te zien",
+    "help-overview-view-all-commands": "Voer {command} uit om alle commando's te zien",
+    "help-overview-change-channel": "Verander dit door {command} uit te voeren in het gewenste kanaal.",
+    "help-overview-manage-premium": "Voer {command} uit om premium te beheren",
+    "language-set": "Taal ingesteld op {language}",
+
+    "help-serverlog-help": "Serverlog Hulp",
+    "help-serverlog-0": "Kanaalbeperkingen",
+    "help-serverlog-1": "Negeeropties",
+    "help-serverlog-2": "Spoilers",
+    "help-serverlog-0-desc": "Voor meer controle over logs, zoals het selecteren van verschillende kanalen voor verschillende logtypes, bezoek [Quark's web dashboard]",
+    "help-serverlog-1-desc": "Om te voorkomen dat bepaalde kanalen, gebruikers of berichten worden gelogd, voer uit:\n{ignorecommand}",
+    "help-serverlog-2-desc": "Om te wisselen of spoilers worden toegepast op alle media die in de serverlog worden verzonden, voer uit: {command}",
+    "help-serverlog-2-on": "Spoilers zijn ingeschakeld.",
+    "help-serverlog-2-off": "Spoilers zijn uitgeschakeld.",
+
+    "help-commands-help": "Commando's Hulp",
+    "help-commands-moderation": "Moderatie",
+    "help-commands-tags": "Tags",
+    "help-commands-notes": "Notities",
+    "help-commands-other": "Overig",
+    "help-notes-help": "Notities Hulp",
+    "help-tags-help": "Tags Hulp",
+    "help-commands-desc": "Sleutel:\n`<verplicht>` `[optioneel]`\nDit is niet een lijst van elk commando",
+    "help-info": "Nog steeds hulp nodig? **Join Quark's support server!**",
+
+    "need-to-vote-title": "Je moet stemmen om dit commando te gebruiken!",
+    "need-to-vote": "Klik hier om te stemmen",
+    "need-to-vote-footer": "Stemmen duren tot een minuut om geregistreerd te worden",
+
+    "initialreactors-expired": "verlopen",
+    "initialreactors-notfound": "Geen reacties gevonden",
+
+    "configCommand": {
+        "title": "Serverlog Configuratie",
+        "selection": "Selecteer een categorie in het menu om configuratie te bekijken.",
+        "serverLogDesc": "Hoofd Serverlog Kanaal",
+        "notSet": "Niet ingesteld",
+        "selectACategory": "Selecteer een categorie",
+        "overview": "Overzicht",
+        "formats": {
+            "log_channels": "Log Kanalen",
+            "configurable_events": "Configureerbare Gebeurtenissen"
+        },
+        "categories": {
+            "serverEvents": {
+                "title": "Leden",
+                "description": "Ledenacties (join/leave, rollen, bijnamen)"
+            },
+            "textEvents": {
+                "title": "Berichten",
+                "description": "Berichtacties (verwijderingen, bewerkingen, pins, reacties)"
+            },
+            "voiceEvents": {
+                "title": "Stem",
+                "description": "Stem kanaal acties (join/leave, streams, mute/dempen)"
+            },
+            "serverActions": {
+                "title": "Server Acties",
+                "description": "Serveracties (uitnodiging creatie/verwijdering, emoji's)"
+            },
+            "channelEvents": {
+                "title": "Kanalen",
+                "description": "Kanaalacties (creaties/verwijderingen, rechten)"
+            },
+            "generalEvents": {
+                "title": "Server Gebeurtenissen",
+                "description": "Algemene acties (server modificaties)"
+            },
+            "roleEvents": {
+                "title": "Rollen",
+                "description": "Rollenacties (creaties/verwijderingen, rechten)"
+            },
+            "modLog": {
+                "title": "Mod Logs",
+                "description": "Moderatieacties (verbanningen, kicks, dempen)"
+            },
+            "overview": {
+                "title": "Overzicht",
+                "description": "Overzicht van de hoofd categorie opties"
+            },
+            "quarkEvents": {
+                "title": "Quark Config",
+                "description": "Wijzigingen in de configuratie van Quark voor deze server"
+            },
+            "fileEvents": {
+                "title": "Bestanden"
+            }
+        }
+    }
+}
