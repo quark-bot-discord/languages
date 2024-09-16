@@ -12,12 +12,12 @@ const languageTypeProxy = (language, type) => {
             const selectedLanguagesStrings = await import(
               `./bot/${language}/${type}/${prop}.json`,
               { with: { type: "json" } }
-            );
+            ).catch(() => null);
             const fallbackLanguagesStrings = await import(
               `./bot/en_us/${type}/${prop}.json`,
               { with: { type: "json" } }
             );
-            const languagesStringsToUse = selectedLanguagesStrings.default
+            const languagesStringsToUse = selectedLanguagesStrings?.default
               ? selectedLanguagesStrings.default
               : fallbackLanguagesStrings.default;
             return languagesStringsToUse[prop1]
