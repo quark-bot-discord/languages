@@ -47,11 +47,6 @@ const languageProxy = (language) => {
   );
 };
 
-export default new Proxy(
-  {},
-  {
-    get(target, prop) {
-      return languageProxy(prop);
-    },
-  }
-);
+export default function (lang) {
+  return languageProxy(lang);
+}
