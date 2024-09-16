@@ -1,1 +1,1 @@
-export { default as activate } from "./activate.js";
+export { default as get } from "./get.js";

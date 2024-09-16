@@ -1,0 +1,213 @@
+{
+    "disable": "Tắt",
+    "enable": "Bật",
+
+    "error-401-0": "Lệnh thất bại",
+    "error-401-1-type-0": "Tôi không thể cấm người dùng đó",
+    "error-401-1-type-1": "Tôi không thể đá người dùng đó",
+    "error-401-1-type-2": "Tôi không thể tắt tiếng người dùng đó",
+    "error-401-1-type-3": "Tôi không thể bỏ tắt tiếng người dùng đó",
+    "error-403-0": "Không đủ quyền",
+    "error-403-1-type-0": "Vui lòng đảm bảo tôi có quyền `BAN_MEMBERS`",
+    "error-403-1-type-1": "Vui lòng đảm bảo tôi có quyền `KICK_MEMBERS`",
+    "error-403-1-type-2": "Vui lòng đảm bảo tôi có quyền `MANAGE_ROLES` và vai trò `Muted` nằm dưới vai trò cao nhất của tôi",
+    "error-403-1-type-3": "Vui lòng đảm bảo tôi có quyền `MANAGE_MESSAGES`",
+    "error-404-0": "Không tìm thấy người dùng",
+    "error-404-1": "Vui lòng @mention một người dùng, dán ID của họ hoặc gõ tên người dùng của họ",
+    "error-405-0": "Xin lỗi?",
+    "error-405-1": "Tôi không làm điều đó lol",
+    "error-406-0": "Bạn không có quyền",
+    "error-407-0": "Bạn không có quyền làm điều này",
+    "error-409-0-type-0": "Người dùng đó đã bị cấm",
+    "error-409-0-type-1": "Người dùng đó đã bị tắt tiếng",
+    "error-409-0-type-2": "Người dùng đó đã được bỏ cấm",
+    "error-409-0-type-3": "Người dùng đó đã được bỏ tắt tiếng",
+    "error-429-0": "Số không hợp lệ",
+    "error-429-1": "Nhập một số nguyên hợp lệ trong khoảng từ 1-100",
+    "error-430-0": "Không có tin nhắn",
+    "error-430-1": "Không tìm thấy tin nhắn để xóa",
+    "error-431-0": "Liên kết tin nhắn không hợp lệ",
+    "error-431-1": "Vui lòng nhập một liên kết tin nhắn hợp lệ",
+    "error-432-0": "Không phải là một bản ghi Quark",
+    "error-432-1": "Tin nhắn này không phải là một bản ghi Quark hợp lệ",
+    "error-433-0": "Không hợp lệ về tin nhắn bắt đầu và kết thúc",
+    "error-433-1": "Tin nhắn bắt đầu phải cũ hơn tin nhắn kết thúc",
+    "error-434-0": "Các kênh khác nhau",
+    "error-434-1": "Tin nhắn bắt đầu và tin nhắn kết thúc phải thuộc cùng một kênh",
+    "error-435-0": "Thời gian chờ đang hoạt động",
+    "error-435-1": "Lệnh này chỉ có thể được sử dụng mỗi 15 phút",
+    "error-try-help-again": "Try running the help command again...",
+    "error-no-modlog": "No modlog channel",
+    "error-invalid-log": "Modlog case not found",
+
+    "error-timeout-period-too-long-0": "Thời gian chờ quá lâu",
+    "error-timeout-period-too-long-1": "Thời gian chờ phải nhỏ hơn 28 ngày",
+
+    "response-ban": "Đã cấm",
+    "response-kick": "Đã đuổi",
+    "response-mute": "Đã tắt tiếng",
+    "response-unmute": "Đã bỏ tắt tiếng",
+    "response-unban": "Đã bỏ cấm",
+    "response-purge": "Đã xóa {count} tin nhắn",
+
+    "response-customise-dash": "Cài đặt tùy chỉnh đã được chuyển đến [bảng điều khiển web]!",
+    "response-customise-1": "Ghi lại tin nhắn lên đến 2 tuần trước, tùy chỉnh ghi nhật ký và nhiều hơn nữa với Quark Pro...",
+    "response-customise-2": "[UK, US, EU] Nhấp vào hồ sơ của tôi để nâng cấp!",
+    "response-customise-3": "Hoặc... {proLink}",
+    "response-customise-4": "Thử tùy chỉnh màu sắc miễn phí tại {inventoryLink}",
+
+    "response-case-updated": "Cập nhật trạng thái thành công!",
+
+    "response-debug": "Gửi log gỡ lỗi thành công!",
+
+    "response-status-enabled": "Bật cập nhật kênh trạng thái thành công!",
+    "response-status-disabled": "Tắt cập nhật kênh trạng thái thành công!",
+
+    "target0-command": "mục tiêu",
+    "target1-command": "mục tiêu",
+    "message0-command": "tin nhắn",
+    "executor0-command": "thực thi",
+    "executor1-command": "thực thi",
+    "channel0-command": "kênh",
+    "channel1-command": "kênh",
+    
+    "serverlog-web-promote": "...hoặc truy cập bảng điều khiển web của chúng tôi!",
+    "serverlog-select": "Chọn kênh serverlog",
+    "serverlog-unset": "Kênh không được đặt",
+    "serverlog-set": "Kênh đã được đặt",
+    "serverlog-setchannel": "Kênh đã được đặt thành {channel}",
+    "setserverlog-confirm0-set": "Đã đặt Kênh Ghi Nhật Ký Máy Chủ",
+    "setserverlog-confirm0-unset": "Đã hủy đặt Kênh Ghi Nhật Ký Máy Chủ",
+    "setserverlog-confirm1-set": "All server-log events will now be recorded in this channel.\n\n[**Visit Quark's web dashboard for more configuration options!**]({quark_website_url}/dashboard/{guild_id})",
+    "setserverlog-confirm1-unset": "Bạn sẽ không nhận được tin nhắn về các sự kiện xảy ra trong máy chủ này trừ khi bạn có các kênh khác được đặt để xuất các sự kiện đó.",
+    "setserverlog-confirm0-options-set": "Đã đặt Kênh Ghi Nhật Ký {type}",
+    "setserverlog-confirm0-options-unset": "Đã hủy đặt Kênh Ghi Nhật Ký {type}",
+    "setserverlog-confirm0-options-stoplog": "Đã dừng ghi nhật ký {type}",
+    "setserverlog-confirm1-options-set": "Máy chủ {type} sẽ được ghi lại trong kênh này.\n\nĐể hủy đặt kênh này, chạy lại lệnh trong kênh này.",
+    "setserverlog-confirm1-options-unset": "Máy chủ {type} sẽ không được ghi lại trong kênh này nữa.\n\nĐể đặt kênh này, chạy lại lệnh trong kênh này.",
+    "setserverlog-confirm1-options-stoplog": "Máy chủ {type} sẽ tiếp tục được ghi nhật ký trong kênh ghi nhật ký chính (nếu có).\n\nĐể hoàn tác điều này, chạy lại lệnh ở đây.",
+    "setserverlog-type-members-0": "Thành viên",
+    "setserverlog-type-members-1": "thành viên",
+    "setserverlog-type-actions-0": "Hành động",
+    "setserverlog-type-actions-1": "hành động",
+    "setserverlog-type-text-0": "Sự kiện Kênh Văn bản",
+    "setserverlog-type-text-1": "sự kiện kênh văn bản",
+    "setserverlog-type-voice-0": "Sự kiện Kênh Giọng nói",
+    "setserverlog-type-voice-1": "sự kiện kênh giọng nói",
+    "setserverlog-type-files-0": "Tệp",
+    "setserverlog-type-files-1": "tệp",
+    "setserverlog-type-server-0": "Máy chủ",
+    "setserverlog-type-server-1": "máy chủ",
+    "setserverlog-type-roles-0": "Sự kiện Vai trò",
+    "setserverlog-type-roles-1": "sự kiện vai trò",
+    "setserverlog-type-channels-0": "Sự kiện Kênh",
+    "setserverlog-type-channels-1": "sự kiện kênh",
+    "setserverlog-type-modlogs-0": "Modlogs",
+    "setserverlog-type-modlogs-1": "modlogs",
+    "setserverlog-spoilers": "Spoilers",
+    "setserverlog-spoilers-0": "Đã đặt spoilers ghi nhật ký máy chủ thành {result}",
+    "setserverlog-enable-status-updates": "Bật Cập nhật Trạng thái!",
+    "setserverlog-enable-status-updates-desc": "Nhận thông báo về tất cả các cập nhật mới nhất, thời gian chạy và các thông tin quan trọng khác từ các nhà phát triển!",
+    "setserverlog-enable-status-updates-desc-1": "Chúng tôi rất khuyến nghị bạn bật tính năng này trong một trong các kênh của bạn!",
+    "setserverlog-check-permissions": "Vui lòng đảm bảo Quark có quyền gửi tin nhắn trong kênh này, hoặc kênh sẽ bị hủy đặt.",
+
+    "festive-title": "Quà miễn phí trong mùa lễ!",
+    "festive-claim": "Nhận quà miễn phí của bạn!",
+
+    "help-overview-website-description": "Dễ dàng thiết lập và quản lý Quark từ [bảng điều khiển web]!",
+    "help-overview-inventory-description": "Quản lý các đăng ký của bạn hoặc nhận một số tính năng [Quark Pro] miễn phí!",
+    "help-overview-view-inv": "Xem Kho hàng",
+    "help-overview-help": "Trợ giúp",
+    "help-overview-website": "Trang web",
+    "help-overview-serverlog": "Ghi nhật ký máy chủ",
+    "help-overview-modlog": "Ghi nhật ký Mod",
+    "help-overview-commands": "Lệnh",
+    "help-overview-language": "Ngôn ngữ",
+    "help-overview-premium": "Premium",
+    "help-overview-inventory": "Kho hàng",
+    "help-overview-channel-isset": "Kênh đã được đặt thành {channel}",
+    "help-overview-channel-isnotset": "Chạy {command} trong kênh mong muốn",
+    "help-overview-view-options": "Chạy {command} để xem các tùy chọn",
+    "help-overview-view-options-and-statuses": "Chạy {command} để xem trạng thái và tùy chọn",
+    "help-overview-view-all-commands": "Chạy {command} để xem các lệnh",
+    "help-overview-change-channel": "Thay đổi bằng cách chạy {command} trong kênh mong muốn.",
+    "help-overview-manage-premium": "Chạy {command} để quản lý premium",
+    "language-set": "Ngôn ngữ đã được đặt thành {language}",
+
+    "help-serverlog-help": "Trợ giúp Ghi nhật ký máy chủ",
+    "help-serverlog-0": "Hạn chế Kênh",
+    "help-serverlog-1": "Tùy chọn Bỏ qua",
+    "help-serverlog-2": "Spoilers",
+    "help-serverlog-0-desc": "Để có sự kiểm soát chi tiết hơn về ghi nhật ký, chẳng hạn như chọn các kênh khác nhau cho các loại ghi nhật ký khác nhau, vui lòng truy cập [bảng điều khiển web của Quark]",
+    "help-serverlog-1-desc": "Để ngăn một số kênh, người dùng hoặc tin nhắn khỏi việc ghi nhật ký, chạy:\n{ignorecommand}",
+    "help-serverlog-2-desc": "Để bật/tắt việc ẩn thông tin về các phương tiện được gửi trong ghi nhật ký máy chủ, chạy: {command}",
+    "help-serverlog-2-on": "Đã bật ẩn thông tin.",
+    "help-serverlog-2-off": "Đã tắt ẩn thông tin.",
+    
+    "help-commands-help": "Trợ giúp Lệnh",
+    "help-commands-moderation": "Quản lý",
+    "help-commands-tags": "Thẻ",
+    "help-commands-notes": "Ghi chú",
+    "help-commands-other": "Khác",
+    "help-notes-help": "Trợ giúp Ghi chú",
+    "help-tags-help": "Trợ giúp Thẻ",
+    "help-commands-desc": "Chú thích:\n`<bắt buộc>` `[tùy chọn]`\nĐây không phải là danh sách của tất cả các lệnh",
+    "help-info": "Cần thêm sự trợ giúp? **Tham gia máy chủ hỗ trợ của chúng tôi!**",
+
+    "need-to-vote-title": "Bạn phải bỏ phiếu để sử dụng lệnh này!",
+    "need-to-vote": "Nhấp vào đây để bỏ phiếu",
+    "need-to-vote-footer": "Việc bỏ phiếu mất tối đa một phút để được đăng ký",
+
+    "configCommand": {
+        "title": "Serverlog Configuration",
+        "selection": "Select a category in the menu to view configuration.",
+        "serverLogDesc": "Serverlog Channel",
+        "notSet": "Not set",
+        "selectACategory": "Select a category",
+        "formats": {
+            "log_channels": "Log Channels",
+            "configurable_events": "Configurable Events"
+        },
+        "categories": {
+            "serverEvents": {
+                "title": "Members",
+                "description": "Member actions (join/leave, roles, nicknames)"
+            },
+            "textEvents": {
+                "title": "Messages",
+                "description": "Message actions (deletions, edits, pins, reactions)"
+            },
+            "voiceEvents": {
+                "title": "Voice",
+                "description": "Voice channel actions (join/leave, streams, mute/deafens)"
+            },
+            "serverActions": {
+                "title": "Server Actions",
+                "description": "Server actions (invite creation/deletion, emojis)"
+            },
+            "channelEvents": {
+                "title": "Channels",
+                "description": "Channel actions (creations/deletions, permissions)"
+            },
+            "generalEvents": {
+                "title": "Server Events",
+                "description": "General actions (server modifications)"
+            },
+            "roleEvents": {
+                "title": "Roles",
+                "description": "Role actions (creations/deletions, permissions)"
+            },
+            "modLog": {
+                "title": "Mod Logs",
+                "description": "Moderation actions (bans, kicks, mutes)"
+            },
+            "overview": {
+                "title": "Overview",
+                "description": "Overview of main category options"
+            },
+            "fileEvents": {
+                "title": "Files"
+            }
+        }
+    }
+}
