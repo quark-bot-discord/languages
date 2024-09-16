@@ -1,3 +1,5 @@
-import get from "./get.js";
+import languages from "./get.js";
 
-console.log(await get.en_us.slash_commands.ping.name);
+const language = "en_pr";
+
+console.log(await languages[language].slash_commands.ping.name);
