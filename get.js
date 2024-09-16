@@ -25,7 +25,10 @@ const returnNextProperty = (
     {
       get(target, prop1) {
         if (prop1 === "then")
-            return returnNextProperty(languagesStringsToUse, fallbackLanguagesStrings);
+          return returnNextProperty(
+            languagesStringsToUse,
+            fallbackLanguagesStrings
+          );
         const currentCursor = cursor ? `${cursor}.${prop1}` : prop1;
         const toReturn = readObject(languagesStringsToUse, currentCursor)
           ? readObject(languagesStringsToUse, currentCursor)
@@ -63,10 +66,10 @@ const languageTypeProxy = (language, type) => {
         const languagesStringsToUse = selectedLanguagesStrings?.default
           ? selectedLanguagesStrings.default
           : fallbackLanguagesStrings.default;
-          return returnNextProperty(
-            languagesStringsToUse,
-            fallbackLanguagesStrings
-          );
+        return returnNextProperty(
+          languagesStringsToUse,
+          fallbackLanguagesStrings
+        );
       },
     }
   );
