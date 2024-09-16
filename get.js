@@ -4,25 +4,28 @@ const languages = {};
 const languageTypeProxy = (language, type) => {
   const correctLanguageTypeObject = {};
   return new Proxy(correctLanguageTypeObject, {
-    async get(target, prop) {
-      const selectedLanguagesStrings = await import(
-        `./bot/${language}/${type}/${prop}.json`,
-        { with: { type: "json" } }
+    get(target, prop) {
+      return new Proxy(
+        {},
+        {
+          async get(target, prop1) {
+            const selectedLanguagesStrings = await import(
+              `./bot/${language}/${type}/${prop}.json`,
+              { with: { type: "json" } }
+            );
+            const fallbackLanguagesStrings = await import(
+              `./bot/en_us/${type}/${prop}.json`,
+              { with: { type: "json" } }
+            );
+            const languagesStringsToUse = selectedLanguagesStrings.default
+              ? selectedLanguagesStrings.default
+              : fallbackLanguagesStrings.default;
+            return languagesStringsToUse[prop1]
+              ? languagesStringsToUse[prop1]
+              : fallbackLanguagesStrings.default[prop1];
+          },
+        }
       );
-      const fallbackLanguagesStrings = await import(
-        `./bot/en_us/${type}/${prop}.json`,
-        { with: { type: "json" } }
-      );
-      const languagesStringsToUse = selectedLanguagesStrings.default
-        ? selectedLanguagesStrings.default
-        : fallbackLanguagesStrings.default;
-      return new Proxy(languagesStringsToUse, {
-        get(target, prop) {
-          return target[prop]
-            ? target[prop]
-            : fallbackLanguagesStrings.default[prop];
-        },
-      });
     },
   });
 };
