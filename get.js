@@ -3,7 +3,7 @@ const languages = {};
 
 const languageTypeProxy = (language, type) => {
   const correctLanguageTypeObject = {};
-  new Proxy(correctLanguageTypeObject, {
+  return new Proxy(correctLanguageTypeObject, {
     async get(target, prop) {
       const selectedLanguagesStrings = await import(
         `./bot/${language}/${type}/${prop}.json`,
@@ -16,22 +16,20 @@ const languageTypeProxy = (language, type) => {
       const languagesStringsToUse = selectedLanguagesStrings.default
         ? selectedLanguagesStrings.default
         : fallbackLanguagesStrings.default;
-      new Proxy(languagesStringsToUse, {
+      return new Proxy(languagesStringsToUse, {
         get(target, prop) {
           return target[prop]
             ? target[prop]
             : fallbackLanguagesStrings.default[prop];
         },
       });
-      return languagesStringsToUse.default;
     },
   });
-  return correctLanguageTypeObject;
 };
 
 const languageProxy = (language) => {
   const correctLanguageObject = {};
-  new Proxy(correctLanguageObject, {
+  return new Proxy(correctLanguageObject, {
     get(target, prop) {
       if (validLanguages.includes(language)) {
         return languageTypeProxy(language, prop);
@@ -41,13 +39,11 @@ const languageProxy = (language) => {
       }
     },
   });
-  return correctLanguageObject;
 };
 
-new Proxy(languages, {
+export default new Proxy(languages, {
   get(target, prop) {
+    console.log(target, prop);
     return languageProxy(prop);
   },
 });
-
-export default languages;
