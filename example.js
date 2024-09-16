@@ -1,4 +1,4 @@
-import languages from "./get.js";
+import languages from "./index.js";
 
 const language = "en_pr";
 
