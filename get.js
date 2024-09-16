@@ -43,7 +43,6 @@ const languageProxy = (language) => {
 
 export default new Proxy(languages, {
   get(target, prop) {
-    console.log(target, prop);
     return languageProxy(prop);
   },
 });
