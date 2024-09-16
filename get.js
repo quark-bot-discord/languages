@@ -1,4 +1,4 @@
-const validLanguages = ["en_gb", "en_pr", "en_us", "nl", "pl", "tr", "vi"];
+const validLanguages = ["en_gb", "en_pr", "en_us", "nl", "pl", "tr", "vi", "es_es"];
 
 const languageTypeProxy = (language, type) => {
   return new Proxy(
