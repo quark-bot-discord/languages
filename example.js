@@ -1,4 +1,5 @@
-import languages from "./index.js";
+import languages, { validLanguages } from "./index.js";
+console.log(validLanguages);
 
 const language = "en_pr";
 

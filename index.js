@@ -1,4 +1,4 @@
-const validLanguages = Object.values(
+export const validLanguages = Object.values(
   (await import("./bot/languages.json", { with: { type: "json" } })).default
 ).flat();
 
