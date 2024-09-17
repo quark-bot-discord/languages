@@ -16,3 +16,5 @@ try {
 } catch (error) {
   console.error(error);
 }
+
+console.log((await languages(language, true).slash_commands.ping).name);
