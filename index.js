@@ -1,5 +1,5 @@
 const validLanguages = Object.values(
-  await import("./bot/languages.json", { with: { type: "json" } })
+  (await import("./bot/languages.json", { with: { type: "json" } })).default
 ).flat();
 
 const readObject = (obj, cursor = "") => {
