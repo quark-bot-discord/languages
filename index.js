@@ -7,7 +7,8 @@ export const validLanguages = Object.values(locales).flat();
 const readObject = (obj, cursor = "") => {
   if (!obj) return undefined;
   const cursorPath = cursor.split(".");
-  for (let i = 0; i < cursorPath.length; i++) obj = obj[cursorPath[i]];
+  for (let i = 0; i < cursorPath.length; i++)
+    if (cursorPath[i]) obj = obj[cursorPath[i]];
   return obj;
 };
 
@@ -22,11 +23,11 @@ const returnNextProperty = (
       ownKeys(target) {
         return [
           ...new Set([
-            ...(languagesStringsToUse
-              ? Object.keys(languagesStringsToUse)
+            ...(readObject(languagesStringsToUse, cursor)
+              ? Object.keys(readObject(languagesStringsToUse, cursor))
               : []),
-            ...(fallbackLanguagesStrings
-              ? Object.keys(fallbackLanguagesStrings)
+            ...(readObject(fallbackLanguagesStrings, cursor)
+              ? Object.keys(readObject(fallbackLanguagesStrings, cursor))
               : []),
           ]),
         ];
