@@ -1,6 +1,8 @@
-export const validLanguages = Object.values(
-  (await import("./bot/languages.json", { with: { type: "json" } })).default
-).flat();
+export const locales = (
+  await import("./bot/languages.json", { with: { type: "json" } })
+).default;
+
+export const validLanguages = Object.values(locales).flat();
 
 const readObject = (obj, cursor = "") => {
   if (!obj) return undefined;
