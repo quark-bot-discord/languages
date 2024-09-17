@@ -3,6 +3,7 @@ const validLanguages = Object.values(
 ).flat();
 
 const readObject = (obj, cursor = "") => {
+  if (!obj) return undefined;
   const cursorPath = cursor.split(".");
   for (let i = 0; i < cursorPath.length; i++) obj = obj[cursorPath[i]];
   return obj;
@@ -25,7 +26,7 @@ const returnNextProperty = (
         const currentCursor = cursor ? `${cursor}.${prop1}` : prop1;
         const toReturn = readObject(languagesStringsToUse, currentCursor)
           ? readObject(languagesStringsToUse, currentCursor)
-          : readObject(fallbackLanguagesStrings.default, currentCursor);
+          : readObject(fallbackLanguagesStrings, currentCursor);
         switch (typeof toReturn) {
           case "string":
             return toReturn;
@@ -43,7 +44,7 @@ const returnNextProperty = (
   );
 };
 
-const languageTypeProxy = (language, type) => {
+const languageTypeProxy = (language, type, noFallback) => {
   return new Proxy(
     {},
     {
@@ -52,38 +53,41 @@ const languageTypeProxy = (language, type) => {
           `./bot/${language}/${type}/${prop}.json`,
           { with: { type: "json" } }
         ).catch(() => null);
-        const fallbackLanguagesStrings = await import(
-          `./bot/en_us/${type}/${prop}.json`,
-          { with: { type: "json" } }
-        );
+        const fallbackLanguagesStrings = !noFallback
+          ? await import(`./bot/en_us/${type}/${prop}.json`, {
+              with: { type: "json" },
+            })
+          : null;
         const languagesStringsToUse = selectedLanguagesStrings?.default
           ? selectedLanguagesStrings.default
-          : fallbackLanguagesStrings.default;
+          : fallbackLanguagesStrings?.default;
         return returnNextProperty(
           languagesStringsToUse,
-          fallbackLanguagesStrings
+          fallbackLanguagesStrings?.default
         );
       },
     }
   );
 };
 
-const languageProxy = (language) => {
+const languageProxy = (language, noFallback = false) => {
   return new Proxy(
     {},
     {
       get(target, prop) {
         if (validLanguages.includes(language)) {
-          return languageTypeProxy(language, prop);
-        } else {
+          return languageTypeProxy(language, prop, noFallback);
+        } else if (!noFallback) {
           // default to en_us
-          return languageTypeProxy("en_us", prop);
+          return languageTypeProxy("en_us", prop, noFallback);
+        } else {
+          throw new Error(`Language ${language} not found`);
         }
       },
     }
   );
 };
 
-export default function (lang) {
-  return languageProxy(lang);
+export default function (lang, noFallback = false) {
+  return languageProxy(lang, noFallback);
 }
