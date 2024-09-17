@@ -19,3 +19,5 @@ try {
 }
 
 console.log((await languages(language, true).slash_commands.ping).name);
+
+console.log(Object.keys(await languages("en_gb", true).slash_commands.help));

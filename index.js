@@ -19,6 +19,18 @@ const returnNextProperty = (
   return new Proxy(
     {},
     {
+      ownKeys(target) {
+        return [
+          ...new Set([
+            ...(languagesStringsToUse
+              ? Object.keys(languagesStringsToUse)
+              : []),
+            ...(fallbackLanguagesStrings
+              ? Object.keys(fallbackLanguagesStrings)
+              : []),
+          ]),
+        ];
+      },
       get(target, prop1) {
         if (prop1 === "then")
           return returnNextProperty(
@@ -41,6 +53,12 @@ const returnNextProperty = (
           default:
             return toReturn;
         }
+      },
+      getOwnPropertyDescriptor(target, prop) {
+        return {
+          enumerable: true,
+          configurable: true,
+        };
       },
     }
   );
