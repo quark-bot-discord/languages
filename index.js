@@ -4,6 +4,18 @@ export const locales = (
 
 export const validLanguages = Object.values(locales).flat();
 
+export const getDiscordLocaleCode = (language) => {
+  for (const [key, value] of Object.entries(locales))
+    if (value === language) return key;
+  throw new Error(`Language ${language} not found`);
+};
+
+export const getQuarkLocaleCode = (language) => {
+  const toReturn = locales[language];
+  if (!toReturn) throw new Error(`Language ${language} not found`);
+  return toReturn;
+};
+
 const readObject = (obj, cursor = "") => {
   if (!obj) return undefined;
   const cursorPath = cursor.split(".");
