@@ -90,7 +90,7 @@ const languageTypeProxy = (language, type, noFallback) => {
   );
 };
 
-const languageProxy = (language, noFallback = false) => {
+export default function languageProxy(language, noFallback = false) {
   return new Proxy(
     {},
     {
@@ -106,8 +106,4 @@ const languageProxy = (language, noFallback = false) => {
       },
     }
   );
-};
-
-export default function (lang, noFallback = false) {
-  return languageProxy(lang, noFallback);
 }
