@@ -66,6 +66,37 @@
         "title": "Zaktualizowano Status Kanału Głosowego",
         "description": "{executor} ustawił status dla kanału {channel}",
         "status": "Status",
-        "linksToEmojis": "Linki do emotki"
+        "linksToEmojis": "Linki do emoji"
+    },
+    "stageStarted": {
+        "title": "Rozpoczęto Scenę",
+        "description": "{executor} rozpoczął scenę w kanale {channel}",
+        "topic": "Temat"
+    },
+    "stageEnded": {
+        "title": "Zakończono Scenę",
+        "description": "Scena w kanale {channel} została zakończona przez {executor}",
+        "description_noExecutor": "Scena w kanale {channel} została zakończona",
+        "topic": "Temat",
+        "none": "brak"
+    },
+    "stageUpdated": {
+        "title": "Zaktualizowano Scenę",
+        "description": "Scena w kanale {channel} została zaktualizowana przez {executor}",
+        "oldTopic": "Stary Temat",
+        "newTopic": "Nowy Temat"
+    },
+    "stageSpeakerAdd": {
+        "title": "Nowy Mówca na Scenie",
+        "description": "{user} został mówcą na kanale sceny {channel}",
+        "description_inviteAccepted": "{user} zaakceptował zaproszenie do zostania mówcą na kanale sceny {channel}"
+    },
+    "stageSpeakerRemove": {
+        "title": "Zakończono Mówienie",
+        "description": "{user} nie jest już mówcą na kanale sceny {channel}"
+    },
+    "stageSpeakerInvited": {
+        "title": "Zaproszono Mówcę",
+        "description": "{user} został zaproszony do mówienia na kanale sceny {channel}"
     }
 }
