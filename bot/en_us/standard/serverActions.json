@@ -35,7 +35,8 @@
         "description_withoutChannel": "{executor} created an event {name}",
         "eventDescription": "Description",
         "location": "Location",
-        "starts": "Starts"
+        "starts": "Starts",
+        "image": "Image"
     },
     "serverEventDelete": {
         "title": "Event Deleted",
