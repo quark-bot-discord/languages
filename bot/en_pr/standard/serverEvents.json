@@ -34,8 +34,8 @@
     "nicknameUpdate": {
         "title": "Nickname Updated",
         "description": "{user}'s nickname was changed from {oldNickname} to {newNickname}",
-        "setNick": "{user}'s nickname was set to **{newNickname}**",
-        "nickRemoved": "{user}'s nickname of **{oldNickname}** was removed",
+        "setNick": "{user}'s nickname was set to {newNickname}",
+        "nickRemoved": "{user}'s nickname of {oldNickname} was removed",
         "changedBy": "Changed by"
     },
     "memberRoleAdd": {
