@@ -23,8 +23,8 @@
             "description": "Text to display on the tag"
         },
         "editOptionColour": {
-            "name": "colour",
-            "description": "The hex colour code for the tag"
+            "name": "color",
+            "description": "The hex color code for the tag"
         },
         "editOptionImage": {
             "name": "image",

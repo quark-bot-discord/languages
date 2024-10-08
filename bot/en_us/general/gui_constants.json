@@ -13,7 +13,7 @@
     },
     "roleModificationTypes": {
         "name": "Name",
-        "color": "Colour",
+        "color": "Color",
         "hoist": "Hoisted",
         "managed": "Managed",
         "mentionable": "Mentionable",
