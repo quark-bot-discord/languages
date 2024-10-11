@@ -1,29 +1,29 @@
 {
-    "none": "geen",
-    "verification_level": [
-        "geen",
-        "laag",
-        "medium",
-        "hoog",
-        "zeer hoog"
-    ],
-    "default_message_notifications": [
-        "alle berichten",
-        "alleen notificaties"
-    ],
-    "explicit_content_filter": [
-        "uitgeschakeld",
-        "leden zonder rollen",
-        "alle leden"
-    ],
-    "nsfw_level": [
-        "standaard",
-        "expliciet",
-        "veilig",
-        "leeftijdsbeperkt"
-    ],
-    "premium_progress_bar_enabled": {
-        "true": "ingeschakeld",
-        "false": "uitgeschakeld"
-    }
+  "none": "geen",
+  "verification_level": {
+    "0": "geen",
+    "1": "laag",
+    "2": "medium",
+    "3": "hoog",
+    "4": "zeer hoog"
+  },
+  "default_message_notifications": {
+    "0": "alle berichten",
+    "1": "alleen notificaties"
+  },
+  "explicit_content_filter": {
+    "0": "uitgeschakeld",
+    "1": "leden zonder rollen",
+    "2": "alle leden"
+  },
+  "nsfw_level": {
+    "0": "standaard",
+    "1": "expliciet",
+    "2": "veilig",
+    "3": "leeftijdsbeperkt"
+  },
+  "premium_progress_bar_enabled": {
+    "true": "ingeschakeld",
+    "false": "uitgeschakeld"
+  }
 }

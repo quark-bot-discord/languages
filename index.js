@@ -20,7 +20,7 @@ const readObject = (obj, cursor = "") => {
   if (!obj) return undefined;
   const cursorPath = cursor.split(".");
   for (let i = 0; i < cursorPath.length; i++)
-    if (cursorPath[i]) obj = obj[cursorPath[i]];
+    if (cursorPath[i] && Object.keys(obj).includes(cursorPath[i])) obj = obj[cursorPath[i]];
   return obj;
 };
 

@@ -1,29 +1,29 @@
 {
-    "none": "không",
-    "verification_level": [
-        "không",
-        "thấp",
-        "trung bình",
-        "cao",
-        "rất cao"
-    ],
-    "default_message_notifications": [
-        "tất cả tin nhắn",
-        "chỉ đề cập"
-    ],
-    "explicit_content_filter": [
-        "vô hiệu hóa",
-        "thành viên không có vai trò",
-        "tất cả thành viên"
-    ],
-    "nsfw_level": [
-        "mặc định",
-        "rõ ràng",
-        "an toàn",
-        "hạn chế tuổi"
-    ],
-    "premium_progress_bar_enabled": {
-        "true": "đã kích hoạt",
-        "false": "vô hiệu hóa"
-    }
+  "none": "không",
+  "verification_level": {
+    "0": "không",
+    "1": "thấp",
+    "2": "trung bình",
+    "3": "cao",
+    "4": "rất cao"
+  },
+  "default_message_notifications": {
+    "0": "tất cả tin nhắn",
+    "1": "chỉ đề cập"
+  },
+  "explicit_content_filter": {
+    "0": "vô hiệu hóa",
+    "1": "thành viên không có vai trò",
+    "2": "tất cả thành viên"
+  },
+  "nsfw_level": {
+    "0": "mặc định",
+    "1": "rõ ràng",
+    "2": "an toàn",
+    "3": "hạn chế tuổi"
+  },
+  "premium_progress_bar_enabled": {
+    "true": "đã kích hoạt",
+    "false": "vô hiệu hóa"
+  }
 }
