@@ -2,16 +2,29 @@ export const locales = (
   await import("./bot/languages.json", { with: { type: "json" } })
 ).default;
 
-export const validLanguages = Object.values(locales).flat();
+export const validLanguages = Object.values(locales)
+  .map((locale) => (locale.active === true ? locale.code : null))
+  .filter((locale) => locale !== null);
 
 export const getDiscordLocaleCode = (language) => {
-  for (const [key, value] of Object.entries(locales))
-    if (value === language) return key;
+  if (typeof language === "string") {
+    for (const [key, value] of Object.entries(locales))
+      if (value.code === language) return key;
+  } else if (typeof language === "number") {
+    for (const [key, value] of Object.entries(locales))
+      if (value.id === language) return key;
+  }
   throw new Error(`Language ${language} not found`);
 };
 
 export const getQuarkLocaleCode = (language) => {
-  const toReturn = locales[language];
+  const toReturn = locales[language]?.code;
+  if (!toReturn) throw new Error(`Language ${language} not found`);
+  return toReturn;
+};
+
+export const getDatabaseLocaleCode = (language) => {
+  const toReturn = locales[language]?.id;
   if (!toReturn) throw new Error(`Language ${language} not found`);
   return toReturn;
 };
@@ -20,7 +33,8 @@ const readObject = (obj, cursor = "") => {
   if (!obj) return undefined;
   const cursorPath = cursor.split(".");
   for (let i = 0; i < cursorPath.length; i++)
-    if (cursorPath[i] && Object.keys(obj).includes(cursorPath[i])) obj = obj[cursorPath[i]];
+    if (cursorPath[i] && Object.keys(obj).includes(cursorPath[i]))
+      obj = obj[cursorPath[i]];
   return obj;
 };
 

@@ -1,10 +1,69 @@
 {
-    "en-US": "en_us",
-    "en-GB": "en_gb",
-    "tr": "tr",
-    "vi": "vi",
-    "en-PR": "en_pr",
-    "pl": "pl",
-    "nl": "nl",
-    "es-ES": "es_es"
+  "en-US": {
+    "code": "en_us",
+    "id": 0,
+    "name": "English, US",
+    "default": true,
+    "active": true
+  },
+  "en-GB": {
+    "code": "en_gb",
+    "id": 1,
+    "name": "English, UK",
+    "active": true
+  },
+  "tr": {
+    "code": "tr",
+    "id": 2,
+    "name": "Türkçe",
+    "active": true
+  },
+  "vi": {
+    "code": "vi",
+    "id": 3,
+    "name": "Tiếng Việt",
+    "active": true
+  },
+  "en-PR": {
+    "code": "en_pr",
+    "id": 4,
+    "name": "Pirate Speak, The Seven Seas",
+    "active": true
+  },
+  "pl": {
+    "code": "pl",
+    "id": 5,
+    "name": "Polski",
+    "active": true
+  },
+  "nl": {
+    "code": "nl",
+    "id": 6,
+    "name": "Nederlands",
+    "active": true
+  },
+  "es-ES": {
+    "code": "es_es",
+    "id": 7,
+    "name": "Español, España",
+    "active": true
+  },
+  "it": {
+    "code": "it",
+    "id": 8,
+    "name": "Italiano",
+    "active": false
+  },
+  "de": {
+    "code": "de",
+    "id": 9,
+    "name": "Deutsch",
+    "active": false
+  },
+  "fr": {
+    "code": "fr",
+    "id": 10,
+    "name": "Français",
+    "active": false
+  }
 }
