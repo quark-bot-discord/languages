@@ -1,1 +1,12 @@
-{}
+{
+    "ignoreBotExecutors": "Ignore Bot Executors",
+    "ignoreExecutorRoles": "Ignore Executor Roles",
+    "ignoreBotTargets": "Ignore Bot Targets",
+    "ignoreExecutors": "Ignore Target Executors",
+    "activeIgnore": "Active Ignore",
+    "specificMessageContent": "Ignore Specific Message Content",
+    "ignoreCategories": "Ignore Categories",
+    "ignoreTargets": "Ignore Target Users",
+    "ignoreTargetRoles": "Ignore Target Roles",
+    "ignoreChannels": "Ignore Channels"
+}
