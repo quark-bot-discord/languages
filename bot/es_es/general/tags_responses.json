@@ -1,9 +1,9 @@
 {
     "tags-help-description": "Las etiquetas son una forma de presentar información frecuente a los usuarios de manera fácil y eficiente mediante el uso de sus propios comandos.",
-    "create-success": "¡Etiqueta creada! ",
-    "edit-success": "Etiqueta editada! ",
+    "create-success": "¡Etiqueta creada!",
+    "edit-success": "Etiqueta editada!",
     "delete-success": "¡Etiqueta {tag} eliminada! ¡Usa {commandList} para ver todas tus etiquetas restantes!",
-    "notags-list-command": "Hmmm... no hay etiquetas. ",
+    "notags-list-command": "Hmmm... no hay etiquetas.",
     "tags-list-title": "Etiquetas disponibles",
     "tags-embedoptions-title": "Opciones de inserción:",
     "tags-embedoptions-description": "**-c** - Color hexadecimal a usar para la inserción (ej. -c #0000FF) \n ",
