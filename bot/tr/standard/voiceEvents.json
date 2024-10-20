@@ -30,7 +30,9 @@
     },
     "voiceLeave": {
         "title": "Kanaldan Ayrıldı",
-        "description": "{user}, {channel} ses kanalından ayrıldı"
+        "description": "{user}, {channel} ses kanalından ayrıldı",
+        "joined": "Joined",
+        "joinedValue": "{relative} for {relative_fixed}"
     },
     "voiceDisconnect": {
         "title": "Bağlantı kesildi",
@@ -65,6 +67,38 @@
     "channelStatusUpdate": {
         "title": "Voice Channel Status Updated",
         "description": "{executor} set the status for {channel}",
-        "status": "Status"
+        "status": "Status",
+        "linksToEmojis": "Links to emojis"
+    },
+    "stageEnded": {
+        "description": "The stage in {channel} was ended by {executor}",
+        "title": "Stage Ended",
+        "description_noExecutor": "The stage in {channel} was ended",
+        "topic": "Topic",
+        "none": "none"
+    },
+    "stageSpeakerAdd": {
+        "description": "{user} became a speaker in the {channel} stage channel",
+        "title": "New Stage Speaker",
+        "description_inviteAccepted": "{user} accepted the invite to become a speaker in the {channel} stage channel"
+    },
+    "stageSpeakerInvited": {
+        "description": "{user} was invited to speak in the {channel} stage channel",
+        "title": "Speaker Invited"
+    },
+    "stageStarted": {
+        "title": "Stage Started",
+        "description": "{executor} started a stage in {channel}",
+        "topic": "Topic"
+    },
+    "stageUpdated": {
+        "title": "Stage Updated",
+        "description": "The stage in {channel} was updated by {executor}",
+        "oldTopic": "Old Topic",
+        "newTopic": "New Topic"
+    },
+    "stageSpeakerRemove": {
+        "title": "Stopped Speaking",
+        "description": "{user} is no longer a speaker in the {channel} stage channel"
     }
 }
