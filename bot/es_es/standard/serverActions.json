@@ -1,53 +1,55 @@
 {
     "inviteCreate": {
-      "title": "Invitación creada",
-      "description_withInviter": "{inviter} creó una invitación {invite} para {channel}",
-      "description_withoutInviter": "Se creó una invitación {invite} para {channel}",
-      "expires": "Vence",
-      "never": "Nunca",
-      "maxUses": "Usos máximos",
-      "none": "ninguno"
+        "title": "Invitación creada",
+        "description_withInviter": "{inviter} creó una invitación {invite} para {channel}",
+        "description_withoutInviter": "Se creó una invitación {invite} para {channel}",
+        "expires": "Vence",
+        "never": "Nunca",
+        "maxUses": "Usos máximos",
+        "none": "ninguno"
     },
     "inviteDelete": {
-      "title": "Invitación eliminada",
-      "description_withExecutor": "{executor} eliminó una invitación {invite} para {channel}",
-      "description_withoutExecutor": "Se eliminó una invitación {invite} para {channel}",
-      "used": "Usado",
-      "created": "Creado por",
-      "none": "ninguno"
+        "title": "Invitación eliminada",
+        "description_withExecutor": "{executor} eliminó una invitación {invite} para {channel}",
+        "description_withoutExecutor": "Se eliminó una invitación {invite} para {channel}",
+        "used": "Usado",
+        "created": "Creado por",
+        "none": "ninguno"
     },
     "emojiCreated": {
-      "title": "Emoji creado",
-      "description": "{emoji} fue agregado por {executor}"
+        "title": "Emoji creado",
+        "description": "{emoji} fue agregado por {executor}"
     },
     "emojiDeleted": {
-      "title": "Emoji eliminado",
-      "description": "{emoji} fue eliminado por {executor}",
-      "emoji": "emojis"
+        "title": "Emoji eliminado",
+        "description": "{emoji} fue eliminado por {executor}",
+        "emoji": "emojis"
     },
     "emojiUpdated": {
-      "title": "Emoji editado",
-      "description": "{emoji} fue editado por {executor}"
+        "title": "Emoji editado",
+        "description": "{emoji} fue editado por {executor}"
     },
     "serverEventCreate": {
-      "title": "Evento creado",
-      "description_withChannel": "{executor} creó un evento {name} en {channel}",
-      "description_withoutChannel": "{executor} creó un evento {name}",
-      "eventDescription": "Descripción",
-      "location": "Ubicación",
-      "starts": "Empieza"
+        "title": "Evento creado",
+        "description_withChannel": "{executor} creó un evento {name} en {channel}",
+        "description_withoutChannel": "{executor} creó un evento {name}",
+        "eventDescription": "Descripción",
+        "location": "Ubicación",
+        "starts": "Empieza",
+        "image": "Image"
     },
     "serverEventDelete": {
-      "title": "Evento eliminado",
-      "description": "{executor} eliminó el evento {name}",
-      "linkToEventImage": "Enlace a la imagen del evento"
+        "title": "Evento eliminado",
+        "description": "{executor} eliminó el evento {name}",
+        "linkToEventImage": "Enlace a la imagen del evento"
     },
     "serverEventUpdate": {
-      "title": "Evento actualizado",
-      "description": "{executor} actualizó el evento {name}",
-      "newEventDescription": "Nueva descripción",
-      "newLocation": "Nueva ubicacion",
-      "newChannel": "Nuevo canal",
-      "linkToEventImage": "Enlace a imagen antigua del evento"
+        "title": "Evento actualizado",
+        "description": "{executor} actualizó el evento {name}",
+        "newEventDescription": "Nueva descripción",
+        "newLocation": "Nueva ubicacion",
+        "newChannel": "Nuevo canal",
+        "linkToEventImage": "Enlace a imagen antigua del evento",
+        "newImage": "New Image"
     }
-  }
+}
