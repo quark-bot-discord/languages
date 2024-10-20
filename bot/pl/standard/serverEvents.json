@@ -64,7 +64,7 @@
         "description_added": "{user} dodał ikonę serwera",
         "description_removed": "{user} usunął ikonę serwera",
         "changedBy": "Zmieniona przez",
-        "linkToOldAvatar": "Link do starej ikony",
+        "linkToOldAvatar": "Link do starego awataru",
         "linkToNewAvatar": "Link do nowego awataru"
     }
 }
