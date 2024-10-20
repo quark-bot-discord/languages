@@ -1,15 +1,32 @@
 {
     "roleCreated": {
-        "title":"Role Created",
+        "title": "Role Created",
         "description": "{role} was created by {executor}"
     },
     "roleDeleted": {
-        "title":"Role Deleted",
+        "title": "Role Deleted",
         "description": "{role_name} was deleted by {executor}",
-        "role": "Role"
+        "role": "Role",
+        "linkToRoleIcon": "Link to role icon"
     },
     "roleUpdated": {
-        "title":"Role Modified",
+        "title": "Role Modified",
         "description": "{role} was modified by {executor}"
+    },
+    "rolePermissionsUpdate": {
+        "title": "Role Permissions Updated",
+        "description": "Permissions for {role} were updated by {executor}",
+        "newPermissions": "New Permissions",
+        "oldPermissions": "Old Permissions",
+        "viewFullOldPermissions": "View Full Old Permissions",
+        "viewFullNewPermissions": "View Full New Permissions"
+    },
+    "roleIconUpdate": {
+        "title": "Role Icon Updated",
+        "description": "{executor} updated the icon for {role}",
+        "description_added": "{executor} added an icon for {role}",
+        "linkToOldIcon": "Link to old icon",
+        "linkToNewIcon": "Link to new icon",
+        "description_removed": "{executor} removed the icon for {role}"
     }
 }
