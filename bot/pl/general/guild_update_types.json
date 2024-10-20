@@ -1,29 +1,29 @@
 {
-  "none": "brak",
-  "verification_level": {
-    "0": "brak",
-    "1": "niski",
-    "2": "średni",
-    "3": "wysoki",
-    "4": "bardzo_wysoki"
-  },
-  "default_message_notifications": {
-    "0": "wszystkie wiadomości",
-    "1": "tylko wzmianki"
-  },
-  "explicit_content_filter": {
-    "0": "wyłączony",
-    "1": "użytkownicy bez ról",
-    "2": "wszyscy"
-  },
-  "nsfw_level": {
-    "0": "domyślne",
-    "1": "wyraźne",
-    "2": "bezpieczne",
-    "3": "ograniczonie wiekowe"
-  },
-  "premium_progress_bar_enabled": {
-    "true": "włączony",
-    "false": "wyłączony"
-  }
+    "none": "brak",
+    "verification_level": {
+        "0": "brak",
+        "1": "niski",
+        "2": "średni",
+        "3": "wysoki",
+        "4": "bardzo_wysoki"
+    },
+    "default_message_notifications": {
+        "0": "wszystkie wiadomości",
+        "1": "tylko wzmianki"
+    },
+    "explicit_content_filter": {
+        "0": "wyłączony",
+        "1": "użytkownicy bez ról",
+        "2": "wszyscy"
+    },
+    "nsfw_level": {
+        "0": "domyślne",
+        "1": "wyraźne",
+        "2": "bezpieczne",
+        "3": "ograniczonie wiekowe"
+    },
+    "premium_progress_bar_enabled": {
+        "true": "włączony",
+        "false": "wyłączony"
+    }
 }
