@@ -6,7 +6,7 @@
         "expires": "Wygasa",
         "never": "Nigdy",
         "maxUses": "Maksymalna liczba użyć",
-        "none": "none"
+        "none": "brak"
     },
     "inviteDelete": {
         "title": "Zaproszenie usunięte",
@@ -23,7 +23,7 @@
     "emojiDeleted": {
         "title": "Usunięto emotkę",
         "description": "{emoji} została usunięta przez {executor}",
-        "emoji": "Emoji"
+        "emoji": "Emotka"
     },
     "emojiUpdated": {
         "title": "Edytowano emotkę",
@@ -36,7 +36,7 @@
         "eventDescription": "Opis",
         "location": "Lokalizacja",
         "starts": "Rozpoczęcie",
-        "image": "Image"
+        "image": "Obrazek"
     },
     "serverEventDelete": {
         "title": "Wydarzenie Usunięte",
@@ -50,6 +50,6 @@
         "newLocation": "Nowa Lokalizacja",
         "newChannel": "Nowy Kanał",
         "linkToEventImage": "Link do starego obrazu wydarzenia",
-        "newImage": "New Image"
+        "newImage": "Nowy Obrazek"
     }
 }
