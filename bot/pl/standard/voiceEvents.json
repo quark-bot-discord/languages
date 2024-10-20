@@ -42,7 +42,7 @@
     },
     "serverDeafen": {
         "title": "Wyciszenie",
-        "description": "{user} został wyciszony",
+        "description": "{user} został ogłuszony",
         "deafenedBy": "Wyciszony przez",
         "voiceChannel": "Kanał głosowy"
     },
