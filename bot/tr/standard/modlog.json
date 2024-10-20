@@ -5,12 +5,16 @@
     "case": "Vaka, olay",
     "noReason": "Moderatör: Lütfen {command} yapın",
     "noReasonBrief": "{command} yap",
-
     "ban": "Yasaklamak",
     "unban": "Yasağı kaldır",
     "kick": "Atmak",
     "mute": "Sustur",
     "unmute": "Susturmayı kaldır",
-
-    "timeoutEnds": "Timeout ends {time}"
+    "timeoutEnds": "Timeout ends {time}",
+    "reasonModal": {
+        "label": "Reason",
+        "placeholder": "Being very bad >:(",
+        "title": "Modify modlog reason"
+    },
+    "editReason": "Edit Reason"
 }
