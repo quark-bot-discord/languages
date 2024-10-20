@@ -5,17 +5,13 @@
     "case": "Case",
     "noReason": "Moderator: please run {command}",
     "noReasonBrief": "Run {command}",
-
     "ban": "Ban",
     "unban": "Unban",
     "kick": "Kick",
     "mute": "Timeout",
     "unmute": "Timeout Removed",
-
     "timeoutEnds": "Timeout ends {time}",
-
     "editReason": "Edit Reason",
-
     "reasonModal": {
         "label": "Reason",
         "placeholder": "Being very bad >:(",
