@@ -1,7 +1,7 @@
 {
-    "polls":{
+    "polls": {
         "poll": "Bình chọn",
-        "pollDescriptor":"[bình chọn]",
+        "pollDescriptor": "[bình chọn]",
         "status": "Bình chọn có trạng thái.",
         "ended": "đã kết thúc",
         "notEnded": "chưa kết thúc",
@@ -29,7 +29,10 @@
         "filesExpired": "các tệp tin quá lớn hoặc đã hết hạn",
         "sticker": "nhãn dán",
         "noContent": "không có nội dung",
-        "thread": "Chủ đề"
+        "thread": "Chủ đề",
+        "ghostpingDetected": "Ghostping detected",
+        "embed": "embed",
+        "initialReactor": "initial reactor"
     },
     "messagesBulkDeleted": {
         "title": "Xóa nhiều tin nhắn",
@@ -78,5 +81,12 @@
         "channel": "Kênh",
         "title": "Chủ đề đã bị xóa",
         "description": "{executor} đã xóa một chủ đề {thread}"
+    },
+    "messageReactionRemove": {
+        "title": "Reaction Removed",
+        "emoji": "Emoji",
+        "linkToEmoji": "Link to emoji",
+        "jumpToMessage": "Jump to message",
+        "description": "{executor} removed a reaction from a message"
     }
 }
