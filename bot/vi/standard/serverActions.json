@@ -5,7 +5,8 @@
         "description_withoutInviter": "Một lời mời {invite} đã được tạo cho {channel}",
         "expires": "Hết hạn",
         "never": "Không bao giờ",
-        "maxUses": "Số lần tối đa"
+        "maxUses": "Số lần tối đa",
+        "none": "none"
     },
     "inviteDelete": {
         "title": "Xóa Lời Mời",
@@ -27,5 +28,28 @@
     "emojiUpdated": {
         "title": "Sửa Emoji",
         "description": "{emoji} đã được chỉnh sửa bởi {executor}"
+    },
+    "serverEventCreate": {
+        "title": "Event Created",
+        "description_withChannel": "{executor} created an event {name} in {channel}",
+        "description_withoutChannel": "{executor} created an event {name}",
+        "eventDescription": "Description",
+        "location": "Location",
+        "starts": "Starts",
+        "image": "Image"
+    },
+    "serverEventDelete": {
+        "title": "Event Deleted",
+        "description": "{executor} deleted the event {name}",
+        "linkToEventImage": "Link to event image"
+    },
+    "serverEventUpdate": {
+        "title": "Event Updated",
+        "description": "{executor} updated the event {name}",
+        "newEventDescription": "New Description",
+        "newLocation": "New Location",
+        "newChannel": "New Channel",
+        "linkToEventImage": "Link to old event image",
+        "newImage": "New Image"
     }
 }
