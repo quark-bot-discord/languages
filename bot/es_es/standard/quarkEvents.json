@@ -1,64 +1,64 @@
 {
     "serverlogChannelUpdate": {
-      "title": "Canal de registro cambiado",
-      "description_set": "{executor} establece el canal de registro {type} en {channel}",
-      "description_category_disable": "{executor} deshabilitó el canal de registro {type}",
-      "description_unset": "{executor} desarmar el canal de registro {type}"
+        "title": "Canal de registro cambiado",
+        "description_set": "{executor} establece el canal de registro {type} en {channel}",
+        "description_category_disable": "{executor} deshabilitó el canal de registro {type}",
+        "description_unset": "{executor} desarmar el canal de registro {type}"
     },
     "serverlogOptionsUpdate": {
-      "title": "Opciones de registro actualizadas",
-      "description": "{executor} establece {option} en {state}",
-      "pluralkitSupport": "Soporte de PluralKit",
-      "spoilers": "Spoilers",
-      "buttons": "Botones",
-      "formatType": "Tipo de formato"
+        "title": "Opciones de registro actualizadas",
+        "description": "{executor} establece {option} en {state}",
+        "pluralkitSupport": "Soporte de PluralKit",
+        "spoilers": "Spoilers",
+        "buttons": "Botones",
+        "formatType": "Tipo de formato"
     },
     "serverlogLogUpdate": {
-      "title": "Registro actualizado",
-      "description": "{executor} actualizó el registro de {type}",
-      "enabled": "Activado",
-      "logFormat": "Formato",
-      "logChannel": "Canal",
-      "colour": "Color",
-      "ignoreBotExecutors": "Ignorar a los ejecutores de bots",
-      "ignoreBotTargets": "Ignorar objetivos de bot",
-      "activeIgnore": "Ignorar activo"
+        "title": "Registro actualizado",
+        "description": "{executor} actualizó el registro de {type}",
+        "enabled": "Activado",
+        "logFormat": "Formato",
+        "logChannel": "Canal",
+        "colour": "Color",
+        "ignoreBotExecutors": "Ignorar a los ejecutores de bots",
+        "ignoreBotTargets": "Ignorar objetivos de bot",
+        "activeIgnore": "Ignorar activo"
     },
     "serverlogIgnoreUpdate": {
-      "title": "Ignorar opciones actualizadas",
-      "description_set": "{executor} habilitado {type}",
-      "description_unset": "{executor} deshabilitado {type}",
-      "description_added": "{executor} agregó {objetivo} a {type}",
-      "description_removed": "{executor} eliminó a {objetivo} de {type}"
+        "title": "Ignorar opciones actualizadas",
+        "description_set": "{executor} habilitado {type}",
+        "description_unset": "{executor} deshabilitado {type}",
+        "description_added": "{executor} agregó {objetivo} a {type}",
+        "description_removed": "{executor} eliminó a {objetivo} de {type}"
     },
     "languageUpdate": {
-      "title": "Idioma cambiado",
-      "description": "{executor} cambió el idioma a {language}"
+        "title": "Idioma cambiado",
+        "description": "{executor} cambió el idioma a {language}"
     },
     "reset": {
-      "title": "Restablecer configuración",
-      "description": "{executor} restablece la configuración de este servidor"
+        "title": "Restablecer configuración",
+        "description": "{executor} restablece la configuración de este servidor"
     },
     "tagAdded": {
-      "title": "Etiqueta agregada",
-      "description": "{executor} creó una etiqueta {tag}"
+        "title": "Etiqueta agregada",
+        "description": "{executor} creó una etiqueta {tag}"
     },
     "tagUpdated": {
-      "title": "Etiqueta actualizada",
-      "description": "{executor} actualizó la etiqueta {tag}"
+        "title": "Etiqueta actualizada",
+        "description": "{executor} actualizó la etiqueta {tag}"
     },
     "tagDeleted": {
-      "title": "Etiqueta eliminada",
-      "description": "{executor} eliminó la etiqueta {tag}"
+        "title": "Etiqueta eliminada",
+        "description": "{executor} eliminó la etiqueta {tag}"
     },
     "tokenAdded": {
-      "title": "Token generado",
-      "description": "{executor} generó un token de acceso de Quark con permisos {permissions} para este servidor",
-      "unique_id": "ID de token",
-      "revoke": "Revocar este token"
+        "title": "Token generado",
+        "description": "{executor} generó un token de acceso de Quark con permisos {permissions} para este servidor",
+        "unique_id": "ID de token",
+        "revoke": "Revocar este token"
     },
     "tokenRevoked": {
-      "title": "Token revocado",
-      "description": "{executor} revocó el token de acceso de Quark con ID {token}"
+        "title": "Token revocado",
+        "description": "{executor} revocó el token de acceso de Quark con ID {token}"
     }
-  }
+}
