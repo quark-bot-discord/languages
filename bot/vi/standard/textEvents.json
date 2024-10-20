@@ -30,8 +30,8 @@
         "sticker": "nhãn dán",
         "noContent": "không có nội dung",
         "thread": "Chủ đề",
-        "ghostpingDetected": "Ghostping detected",
-        "embed": "embed",
+        "ghostpingDetected": "Đã phát hiện ghostping",
+        "embed": "nhúng",
         "initialReactor": "initial reactor"
     },
     "messagesBulkDeleted": {
