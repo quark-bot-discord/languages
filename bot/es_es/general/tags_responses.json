@@ -23,4 +23,4 @@
     "tag-error-limitreached-0": "Límite de etiquetas alcanzado",
     "tag-error-limitreached-1": "Este servidor ha alcanzado el límite de 25 etiquetas.",
     "tag-createdby": "Creado por {user}"
-  }
+}
