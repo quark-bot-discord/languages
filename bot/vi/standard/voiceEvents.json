@@ -30,7 +30,9 @@
     },
     "voiceLeave": {
         "title": "Rời khỏi Kênh",
-        "description": "{user} đã rời khỏi kênh thoại {channel}"
+        "description": "{user} đã rời khỏi kênh thoại {channel}",
+        "joined": "Joined",
+        "joinedValue": "{relative} for {relative_fixed}"
     },
     "voiceDisconnect": {
         "title": "Ngắt kết nối",
@@ -65,6 +67,38 @@
     "channelStatusUpdate": {
         "title": "Cập nhật Trạng thái Kênh thoại",
         "description": "{executor} đã cập nhật trạng thái cho {channel}",
-        "status": "Trạng thái"
+        "status": "Trạng thái",
+        "linksToEmojis": "Links to emojis"
+    },
+    "stageStarted": {
+        "description": "{executor} started a stage in {channel}",
+        "title": "Stage Started",
+        "topic": "Topic"
+    },
+    "stageUpdated": {
+        "description": "The stage in {channel} was updated by {executor}",
+        "title": "Stage Updated",
+        "oldTopic": "Old Topic",
+        "newTopic": "New Topic"
+    },
+    "stageEnded": {
+        "title": "Stage Ended",
+        "description": "The stage in {channel} was ended by {executor}",
+        "description_noExecutor": "The stage in {channel} was ended",
+        "topic": "Topic",
+        "none": "none"
+    },
+    "stageSpeakerAdd": {
+        "title": "New Stage Speaker",
+        "description": "{user} became a speaker in the {channel} stage channel",
+        "description_inviteAccepted": "{user} accepted the invite to become a speaker in the {channel} stage channel"
+    },
+    "stageSpeakerRemove": {
+        "title": "Stopped Speaking",
+        "description": "{user} is no longer a speaker in the {channel} stage channel"
+    },
+    "stageSpeakerInvited": {
+        "title": "Speaker Invited",
+        "description": "{user} was invited to speak in the {channel} stage channel"
     }
 }
