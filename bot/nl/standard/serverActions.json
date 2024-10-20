@@ -35,7 +35,8 @@
         "description_withoutChannel": "{executor} heeft een evenement {name} gecreëerd",
         "eventDescription": "Beschrijving",
         "location": "Locatie",
-        "starts": "Start"
+        "starts": "Start",
+        "image": "Image"
     },
     "serverEventDelete": {
         "title": "Evenement Verwijderd",
@@ -48,6 +49,7 @@
         "newEventDescription": "Nieuwe Beschrijving",
         "newLocation": "Nieuwe Locatie",
         "newChannel": "Nieuw Kanaal",
-        "linkToEventImage": "Link naar oude evenement afbeelding"
+        "linkToEventImage": "Link naar oude evenement afbeelding",
+        "newImage": "New Image"
     }
 }
