@@ -32,7 +32,7 @@
         "noContent": "brak treści",
         "embed": "osadzone",
         "thread": "Wątek",
-        "initialReactor": "initial reactor"
+        "initialReactor": "reagujący"
     },
     "messagesBulkDeleted": {
         "title": "Usunięto Wiele Wiadomości",
@@ -85,7 +85,7 @@
     "messageReactionRemove": {
         "title": "Reakcja Usunięta",
         "description": "{executor} usunął reakcję z wiadomości",
-        "emoji": "Emoji",
+        "emoji": "Emotka",
         "linkToEmoji": "Link do emoji",
         "jumpToMessage": "Przejdź do wiadomości"
     }
