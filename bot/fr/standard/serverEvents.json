@@ -1,70 +1,70 @@
 {
-    "members": "Members",
+    "members": "Membres",
     "userJoined": {
-        "title": "User Joined",
-        "description": "{user} joined the server",
-        "noAvatar": "Account has no avatar",
-        "ban": "Ban",
+        "title": "Utilisateur Arrivé",
+        "description": "{user} est arrivé sur le serveur",
+        "noAvatar": "Ce compte n'a pas de photo de profil",
+        "ban": "Banni",
         "info": "Info",
-        "rejoined": "Account rejoined",
-        "newAccount": "Account is new",
-        "noBadges": "Account has no badges",
-        "warning": "WARNING!",
-        "accountCreated": "Account created",
-        "invite": "Invite",
-        "createdBy": "created by {user}"
+        "rejoined": "Ce compte est revenu",
+        "newAccount": "Ce compte est récent",
+        "noBadges": "Ce compte n'a pas de badges",
+        "warning": "ATTENTION !",
+        "accountCreated": "Compte créé",
+        "invite": "Invitation",
+        "createdBy": "créé par {user}"
     },
     "userLeft": {
-        "title": "User Left",
-        "description": "{user} left the server",
-        "joined": "Joined",
-        "roles": "Roles",
-        "serverProfilePicture": "Link to server avatar"
+        "title": "Utilisateur Parti",
+        "description": "{user} est parti du serveur",
+        "joined": "Arrivé",
+        "roles": "Rôles",
+        "serverProfilePicture": "Lien vers sa photo de profil du serveur"
     },
     "botAdded": {
-        "title": "Bot Added",
-        "description": "{bot} was added to the server by {executor}",
-        "descriptionne": "{bot} was added to the server"
+        "title": "Bot Ajouté",
+        "description": "{bot} a été ajouté au serveur par {executor}",
+        "descriptionne": "{bot} a été ajouté au serveur"
     },
     "botRemoved": {
-        "title": "Bot Removed",
-        "description": "{bot} was removed from the server by {executor}",
-        "descriptionne": "{bot} was removed from the server"
+        "title": "Bot Supprimé",
+        "description": "{bot} a été supprimé du serveur par {executor}",
+        "descriptionne": "{bot} a été supprimé du serveur"
     },
     "nicknameUpdate": {
-        "title": "Nickname Updated",
-        "description": "{user}'s nickname was changed from {oldNickname} to {newNickname}",
-        "setNick": "{user}'s nickname was set to {newNickname}",
-        "nickRemoved": "{user}'s nickname of {oldNickname} was removed",
-        "changedBy": "Changed by"
+        "title": "Surnom Modifié",
+        "description": "Le surnom de {user} a été modifié de {oldNickname} en {newNickname}",
+        "setNick": "Le surnom de {user} a été remplacé en **{newNickname}**",
+        "nickRemoved": "Le surnom **{oldNickname}** de {user} a été supprimé",
+        "changedBy": "Changé par"
     },
     "memberRoleAdd": {
-        "title": "Role Given",
-        "title_multiple": "Roles Given",
-        "description": "{user} was given the {role} role",
-        "description_multiple": "{user} was given multiple roles",
-        "givenBy": "Given by",
-        "roles": "Roles"
+        "title": "Rôle Donné",
+        "title_multiple": "Rôles Donnés",
+        "description": "Le rôle {role} a été donné à {user}",
+        "description_multiple": "Plusieurs rôles ont été donnés à {user}",
+        "givenBy": "Donné(s) par",
+        "roles": "Rôles"
     },
     "memberRoleRemove": {
-        "title": "Role Taken",
-        "title_multiple": "Roles Taken",
-        "description": "The {role} role was removed from {user}",
-        "description_multiple": "Multiple roles were removed from {user}",
-        "removedBy": "Removed by",
-        "roles": "Roles"
+        "title": "Rôle Enlevé",
+        "title_multiple": "Rôles Enlevés",
+        "description": "Le role {role} a été enlevé à {user}",
+        "description_multiple": "Plusieurs rôles ont été enlevés à {user}",
+        "removedBy": "Enlevé(s) par",
+        "roles": "Rôles"
     },
     "memberPrune": {
-        "title": "Members Pruned",
-        "description": "{count} members with at least {time} days of inactivity were pruned by {executor}"
+        "title": "Membres Congédiés",
+        "description": "{count} membres avec au moins {time} jours d'activité ont été congédiés par {executor}"
     },
     "avatarUpdate": {
-        "title": "Server Avatar Changed",
-        "description": "{user} changed their server avatar",
-        "description_added": "{user} added a server avatar",
-        "description_removed": "{user} removed their server avatar",
-        "changedBy": "Changed by",
-        "linkToOldAvatar": "Link to old avatar",
-        "linkToNewAvatar": "Link to new avatar"
+        "title": "Photo de Profil du Serveur Modifié",
+        "description": "{user} a changé sa photo de profil du serveur",
+        "description_added": "{user} s'est ajouté une photo de profil de serveur",
+        "description_removed": "{user} a supprimé sa photo de profil de serveur",
+        "changedBy": "Changé par",
+        "linkToOldAvatar": "Lien vers l'ancienne photo de profil",
+        "linkToNewAvatar": "Lien vers la nouvelle photo de profil"
     }
 }
