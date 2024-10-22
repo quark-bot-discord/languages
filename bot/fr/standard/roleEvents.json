@@ -1,32 +1,32 @@
 {
     "roleCreated": {
-        "title": "Role Created",
-        "description": "{role} was created by {executor}"
+        "title": "Rôle créé",
+        "description": "{role} a été créé par {executor}"
     },
     "roleDeleted": {
-        "title": "Role Deleted",
-        "description": "{role_name} was deleted by {executor}",
-        "role": "Role",
-        "linkToRoleIcon": "Link to role icon"
+        "title": "Rôle Supprimé",
+        "description": "{role_name} a été supprimé par {executor}",
+        "role": "Rôle",
+        "linkToRoleIcon": "Lien vers l'icône du rôle"
     },
     "roleUpdated": {
-        "title": "Role Modified",
-        "description": "{role} was modified by {executor}"
+        "title": "Rôle Modifié",
+        "description": "{role} a été modifié par {executor}"
     },
     "rolePermissionsUpdate": {
-        "title": "Role Permissions Updated",
-        "description": "Permissions for {role} were updated by {executor}",
-        "newPermissions": "New Permissions",
-        "oldPermissions": "Old Permissions",
-        "viewFullNewPermissions": "View Full New Permissions",
-        "viewFullOldPermissions": "View Full Old Permissions"
+        "title": "Permissions du Rôle Modifiées",
+        "description": "Les permissions pour {role} ont été modifiées par {executor}",
+        "newPermissions": "Nouvelles Permissions",
+        "oldPermissions": "Anciennes Permissions",
+        "viewFullNewPermissions": "Voir Toutes Les Nouvelles Permissions",
+        "viewFullOldPermissions": "Voir Toutes Les Anciennes Permissions"
     },
     "roleIconUpdate": {
-        "title": "Role Icon Updated",
-        "description": "{executor} updated the icon for {role}",
-        "description_added": "{executor} added an icon for {role}",
-        "description_removed": "{executor} removed the icon for {role}",
-        "linkToOldIcon": "Link to old icon",
-        "linkToNewIcon": "Link to new icon"
+        "title": "Icône du Rôle Modifiée",
+        "description": "{executor} a modifié l'icône pour {role}",
+        "description_added": "{executor} a ajouté une icône pour {role}",
+        "description_removed": "{executor} a supprimé l'icône pour {role}",
+        "linkToOldIcon": "Lien vers l'ancienne icône",
+        "linkToNewIcon": "Lien vers la nouvelle icône"
     }
 }
