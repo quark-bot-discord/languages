@@ -25,7 +25,7 @@ export const getQuarkLocaleCode = (language) => {
 
 export const getDatabaseLocaleCode = (language) => {
   const toReturn = locales[language]?.id;
-  if (!toReturn) throw new Error(`Language ${language} not found`);
+  if (typeof toReturn !== "number") throw new Error(`Language ${language} not found`);
   return toReturn;
 };
 
