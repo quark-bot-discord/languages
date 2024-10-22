@@ -1,20 +1,20 @@
 {
-    "moderator": "Moderator",
-    "user": "User",
-    "reason": "Reason",
-    "case": "Case",
-    "noReason": "Moderator: please run {command}",
-    "noReasonBrief": "Run {command}",
+    "moderator": "Modérateur",
+    "user": "Utilisateur",
+    "reason": "Raison",
+    "case": "Cas",
+    "noReason": "Modérateur : Veuillez utiliser {command}",
+    "noReasonBrief": "Utilisez {command}",
     "ban": "Ban",
-    "unban": "Unban",
-    "kick": "Kick",
-    "mute": "Timeout",
-    "unmute": "Timeout Removed",
-    "timeoutEnds": "Timeout ends {time}",
-    "editReason": "Edit Reason",
+    "unban": "Deban",
+    "kick": "Expulsion",
+    "mute": "Réduction au silence",
+    "unmute": "Réduction au silence supprimée",
+    "timeoutEnds": "La réduction au silence se finit {time}",
+    "editReason": "Modifier la raison",
     "reasonModal": {
-        "label": "Reason",
-        "placeholder": "Being very bad >:(",
-        "title": "Modify modlog reason"
+        "label": "Raison",
+        "placeholder": "Être très méchant > :(",
+        "title": "Modifie la raison du log de modération"
     }
 }
