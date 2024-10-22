@@ -23,7 +23,7 @@
         "3": "age restricted"
     },
     "premium_progress_bar_enabled": {
-        "true": "enabled",
-        "false": "disabled"
+        "true": "activée",
+        "false": "désactivée"
     }
 }
