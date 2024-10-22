@@ -1,92 +1,92 @@
 {
     "polls": {
-        "poll": "Poll",
-        "pollDescriptor": "[poll]",
-        "status": "Poll has status.",
-        "ended": "ended",
-        "notEnded": "not ended",
-        "multiselect": "Multiselect",
-        "enabled": "enabled",
-        "disabled": "disabled",
-        "ends": "Ends",
+        "poll": "Sondage",
+        "pollDescriptor": "[sondage]",
+        "status": "Le sondage est en cours.",
+        "ended": "fini",
+        "notEnded": "n'est pas fini",
+        "multiselect": "Sélection multiple",
+        "enabled": "activée",
+        "disabled": "désactivée",
+        "ends": "Fin",
         "vote": "vote",
         "votes": "votes",
-        "noResponses": "No responses"
+        "noResponses": "Pas de réponse"
     },
     "messageDeleted": {
-        "title": "Message Deleted",
-        "author": "Message author",
-        "channel": "Channel",
-        "deletedBy": "Deleted by",
-        "jumpToContext": "Jump to context",
-        "warning": "WARNING!",
-        "linksToEmojis": "Links to emojis",
-        "linksToFiles": "Links to files",
-        "inviteDetected": "Server invite detected",
-        "ghostpingDetected": "Ghostping detected",
-        "file": "file",
-        "files": "files",
-        "fileExpired": "file too large or expired",
-        "filesExpired": "files too large or expired",
-        "sticker": "sticker",
-        "noContent": "no content",
+        "title": "Message Supprimé",
+        "author": "Auteur du message",
+        "channel": "Salon",
+        "deletedBy": "Supprimé par",
+        "jumpToContext": "Voir le contexte",
+        "warning": "ATTENTION !",
+        "linksToEmojis": "Liens vers les emojis",
+        "linksToFiles": "Liens vers les fichiers",
+        "inviteDetected": "Invitation de serveur détectée",
+        "ghostpingDetected": "Ghostping détecté",
+        "file": "ficher",
+        "files": "fichers",
+        "fileExpired": "Fichier trop volumineux ou expiré",
+        "filesExpired": "Fichers trop volumineux ou expirés",
+        "sticker": "autocollant",
+        "noContent": "aucun contenu",
         "embed": "embed",
-        "thread": "Thread",
+        "thread": "Fil",
         "initialReactor": "initial reactor"
     },
     "messagesBulkDeleted": {
-        "title": "Multiple Messages Deleted",
-        "deletedBy": "Deleted by",
-        "channel": "Channel",
-        "more": "more",
-        "uncachedUser": "uncached user",
-        "uncachedChannel": "uncached channel",
-        "uncachedMessage": "uncached message",
+        "title": "Plusieurs messages supprimés",
+        "deletedBy": "Supprimés par",
+        "channel": "Salon",
+        "more": "plus",
+        "uncachedUser": "utilisateur introuvable",
+        "uncachedChannel": "salon introuvable",
+        "uncachedMessage": "message introuvable",
         "embed": "embed",
-        "errorFile": "There was an issue with recovering the files. If this happens persistently, please make us aware in Quark's support server.",
-        "errorText": "There was an issue with creating a text file. Some messages may be lost. If this happens persistently, please make us aware in Quark's support server."
+        "errorFile": "Un problème est survenu avec la récupération des fichiers. Si cela persiste, signalez-le dans le serveur support de Quark s'il vous plaît.",
+        "errorText": "Un problème est survenu avec la création d'un fichier texte. Certains messages pourraient être perdus. Si cela persiste, signalez-le dans le serveur support de Quark s'il vous plaît."
     },
     "messageUpdate": {
-        "title": "Message Edited",
-        "author": "Message author",
-        "channel": "Channel",
-        "jumpToMessage": "Jump to message",
-        "afterEdit": "After edit",
-        "diff": "Edits",
-        "diffError": "Unable to calculate edits.",
-        "cannotRetrieveOriginal": "Cannot retrieve original message",
-        "noContent": "no content",
-        "thread": "Thread"
+        "title": "Message Modifié",
+        "author": "Auteur du message",
+        "channel": "Salon",
+        "jumpToMessage": "Voir le message",
+        "afterEdit": "Après la modification",
+        "diff": "Les modifications",
+        "diffError": "Impossible de trouver les modifications.",
+        "cannotRetrieveOriginal": "Impossible de récupérer le message original",
+        "noContent": "aucun contenu",
+        "thread": "Fil"
     },
     "attachmentDeleted": {
-        "title": "Attachment Deleted"
+        "title": "Pièce jointe Supprimée"
     },
     "messagePin": {
-        "title": "Message Pinned",
-        "description": "A message was pinned by {executor}"
+        "title": "Message Epinglé",
+        "description": "Un message a été épinglé par {executor}"
     },
     "messageUnpin": {
-        "title": "Message Unpinned",
-        "description": "A message was unpinned by {executor}"
+        "title": "Message Désépinglé",
+        "description": "Un message a été désépinglé par {executor}"
     },
     "threadCreate": {
-        "thread": "Thread",
-        "channel": "Channel",
-        "jumpToContext": "Jump to context",
-        "title": "Thread Created",
-        "description": "{member} created a new thread {thread}"
+        "thread": "Fil",
+        "channel": "Salon",
+        "jumpToContext": "Voir le contexte",
+        "title": "Fil créé",
+        "description": "{member} a créé un nouveau fil {thread}"
     },
     "threadDelete": {
-        "thread": "Thread",
-        "channel": "Channel",
-        "title": "Thread Deleted",
-        "description": "{executor} deleted a thread {thread}"
+        "thread": "Fil",
+        "channel": "Salon",
+        "title": "Fil Supprimé",
+        "description": "{executor} a supprimé un fil {thread}"
     },
     "messageReactionRemove": {
-        "title": "Reaction Removed",
-        "description": "{executor} removed a reaction from a message",
+        "title": "Réaction Supprimée",
+        "description": "{executor} a supprimé une réaction d'un message",
         "emoji": "Emoji",
-        "linkToEmoji": "Link to emoji",
-        "jumpToMessage": "Jump to message"
+        "linkToEmoji": "Lien vers l'emoji",
+        "jumpToMessage": "Voir le message"
     }
 }
