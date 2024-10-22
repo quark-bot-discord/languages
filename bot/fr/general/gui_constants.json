@@ -1,41 +1,41 @@
 {
     "channelModificationTypes": {
-        "name": "Name",
+        "name": "Nom",
         "type": "Type",
         "position": "Position",
-        "topic": "Topic",
-        "rate_limit_per_user": "Slowmode",
-        "parent_id": "Category",
-        "bitrate": "Bitrate",
-        "user_limit": "User Limit",
-        "rtc_region": "Region",
+        "topic": "Sujet",
+        "rate_limit_per_user": "Mode lent",
+        "parent_id": "Catégorie",
+        "bitrate": "Débit Binaire",
+        "user_limit": "Limite d'utilisateurs",
+        "rtc_region": "Région",
         "nsfw": "NSFW"
     },
     "roleModificationTypes": {
-        "name": "Name",
-        "color": "Color",
-        "hoist": "Hoisted",
-        "managed": "Managed",
-        "mentionable": "Mentionable",
+        "name": "Nom",
+        "color": "Couleur",
+        "hoist": "Affiché séparément",
+        "managed": "Géré",
+        "mentionable": "Mentionnable",
         "unicode_emoji": "Emoji"
     },
     "emojiModificationTypes": {
-        "name": "Name"
+        "name": "Nom"
     },
     "guildModificationTypes": {
-        "name": "Name",
+        "name": "Nom",
         "description": "Description",
-        "system_channel_id": "System Channel",
-        "rules_channel_id": "Rule Channel",
-        "mfa_level": "MFA Required",
-        "verification_level": "Verification Level",
-        "default_message_notifications": "Default Notifications",
-        "explicit_content_filter": "Explicit Content Filter",
-        "nsfw_level": "NSFW Level",
-        "premium_progress_bar_enabled": "Progress Bar"
+        "system_channel_id": "Salon de messages système",
+        "rules_channel_id": "Salon des règles",
+        "mfa_level": "A2F Requis",
+        "verification_level": "Niveau de vérification",
+        "default_message_notifications": "Notifications par défaut",
+        "explicit_content_filter": "Filtre d'images explicites",
+        "nsfw_level": "Niveau NSFW",
+        "premium_progress_bar_enabled": "Barre de progression"
     },
     "webhookModificationTypes": {
-        "name": "Name",
-        "channel_id": "Channel"
+        "name": "Nom",
+        "channel_id": "Salon"
     }
 }
