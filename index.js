@@ -29,6 +29,12 @@ export const getDatabaseLocaleCode = (language) => {
   return toReturn;
 };
 
+export const getLocaleFromDatabaseCode = (databaseCode) => {
+  for (const [key, value] of Object.entries(locales))
+    if (value.id === databaseCode) return key;
+  throw new Error(`Language ${databaseCode} not found`);
+};
+
 const readObject = (obj, cursor = "") => {
   if (!obj) return undefined;
   const cursorPath = cursor.split(".");
