@@ -6,7 +6,6 @@
     "notags-list-command": "Hmmm... nie ma tagów. Możesz utworzyć jeden za pomocą {commandCreate}",
     "tags-list-title": "Dostępne Tagi",
     "tags-embedoptions-title": "Opcje osadzenia:",
-    "tags-embedoptions-description": "**-c** - Kolor heksadecymalny używany dla osadzenia (np. -c #0000FF) \n **wyślij obraz w wiadomości z poleceniem** - Obraz dołączony do osadzenia",
     "tags-usageoptions-title": "Opcje użycia tagu:",
     "tags-usageoptions-description": "**-d** - Usuwa oryginalną wiadomość, która wywołała tag \n**Wzmianki** - Edytuje wzmianki w odpowiedzi tagu dla lepszej widoczności",
     "tags-display-title": "Wyświetl Tagi",
