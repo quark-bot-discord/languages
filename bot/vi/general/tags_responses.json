@@ -7,7 +7,6 @@
     "tags-list-title": "Các Nhãn Hiện Có",
     "tags-embedoptions-title": "Tùy chọn Embed:",
     "tags-usageoptions-title": "Tùy chọn sử dụng nhãn:",
-    "tags-usageoptions-description": "**-d** - Xóa tin nhắn gốc đã kích hoạt nhãn \n**Mentions** - Sẽ chỉnh sửa các mention vào phản hồi của nhãn để tăng khả năng nhìn thấy",
     "tags-display-title": "Hiển thị nhãn",
     "tag-error-noname-0": "Không có tên nhãn",
     "tag-error-noname-1": "Vui lòng chỉ định tên nhãn",
