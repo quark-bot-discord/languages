@@ -202,5 +202,6 @@
         }
     },
     "setserverlog-type-quark-0": "Wydarzenia Quarka",
-    "setserverlog-type-quark-1": "Wydarzenia Quarka"
+    "setserverlog-type-quark-1": "Wydarzenia Quarka",
+    "help-modify-tags-description": "To create and edit tags, please visit [Quark's web dashboard]"
 }
