@@ -26,5 +26,37 @@
         "description": "{executor} updated permissions for {channel} for {special}",
         "newPermissions": "New Permissions",
         "viewFullNewPermissions": "View Full New Permissions"
+    },
+    "webhookAvatarUpdate": {
+        "title": "Webhook Avatar Updated",
+        "linkToNewAvatar": "Link to new avatar",
+        "linkToOldAvatar": "Link to old avatar",
+        "description": "{executor} updated the avatar for {webhook}",
+        "description_added": "{executor} added an avatar for {webhook}",
+        "description_removed": "{executor} removed the avatar for {webhook}"
+    },
+    "statusChannelFollowed": {
+        "title": "Channel Followed",
+        "description": "{executor} followed the channel {name} in {channel}"
+    },
+    "webhookUpdate": {
+        "description": "{executor} modified the webhook {webhook}",
+        "title": "Webhook Modified"
+    },
+    "webhookCreate": {
+        "title": "Webhook Created",
+        "description": "{executor} created a webhook {webhook} in {channel}"
+    },
+    "statusChannelUnfollowed": {
+        "title": "Channel Unfollowed",
+        "description": "{executor} unfollowed the channel {name}"
+    },
+    "statusChannelUpdated": {
+        "title": "Followed Channel Updated",
+        "description": "{executor} updated the followed channel {name}"
+    },
+    "webhookDelete": {
+        "title": "Webhook Deleted",
+        "description": "{executor} deleted the webhook {webhook}"
     }
 }

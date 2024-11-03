@@ -1,0 +1,62 @@
+{
+    "channelCreated": {
+        "title": "Salon {type} créé",
+        "description": "{channel} a été créé par {executor}",
+        "descriptionWithCategory": "{channel} a été créé par {executor} dans la catégorie {category}."
+    },
+    "channelDeleted": {
+        "title": "Salon {type} Supprimé",
+        "description": "{channel_name} a été supprimé par {executor}",
+        "channel": "Salon"
+    },
+    "channelUpdated": {
+        "title": "Salon {type} Modifié",
+        "description": "{channel} a été modifié par {executor}"
+    },
+    "channelOverwriteCreate": {
+        "title": "Permissions de Salon {type} Ajoutée",
+        "description": "{executor} a ajouté des permissions à {channel} pour {special}"
+    },
+    "channelOverwriteDelete": {
+        "title": "Permissions de Salon {type} Supprimée",
+        "description": "{executor} a supprimé des permissions à {channel} pour {special}"
+    },
+    "channelOverwriteUpdate": {
+        "title": "Permissions de Salon {type} Modifiée",
+        "description": "{executor} a modifié des permissions à {channel} pour {special}",
+        "newPermissions": "Nouvelles permissions",
+        "viewFullNewPermissions": "Voir toutes les nouvelles permissions"
+    },
+    "webhookCreate": {
+        "title": "Webhook Créé",
+        "description": "{executor} a créé le webhook {webhook} dans {channel}"
+    },
+    "webhookDelete": {
+        "title": "Webhook Suprimé",
+        "description": "{executor} a supprimé le webhook {webhook}"
+    },
+    "webhookUpdate": {
+        "title": "Webhook Modifié",
+        "description": "{executor} a modifié le webhook {webhook}"
+    },
+    "webhookAvatarUpdate": {
+        "title": "Avatar du Webhook Changé",
+        "description": "{executor} a changé l'avatar de {webhook}",
+        "description_added": "{executor} a ajouté un avatar pour {webhook}",
+        "description_removed": "{executor} a supprimé l'avatar de {webhook}",
+        "linkToOldAvatar": "Lien vers l'ancien avatar",
+        "linkToNewAvatar": "Lien vers le nouvel avatar"
+    },
+    "statusChannelFollowed": {
+        "title": "Salon Suivi",
+        "description": "{executor} a suivi le salon {name} dans {channel}"
+    },
+    "statusChannelUnfollowed": {
+        "title": "Salon Plus Suivi",
+        "description": "{executor} a arrêté de suivre le salon {name}"
+    },
+    "statusChannelUpdated": {
+        "title": "Salon Suivi Mis à Jour",
+        "description": "{executor} a mis à jour le salon suivi {name}"
+    }
+}

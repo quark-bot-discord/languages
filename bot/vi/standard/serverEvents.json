@@ -17,7 +17,9 @@
     "userLeft": {
         "title": "Người dùng đã rời đi",
         "description": "{user} đã rời khỏi máy chủ",
-        "joined": "Tham gia"
+        "joined": "Tham gia",
+        "roles": "Roles",
+        "serverProfilePicture": "Link to server avatar"
     },
     "botAdded": {
         "title": "Bot đã được thêm",
@@ -35,5 +37,34 @@
         "setNick": "Biệt danh của {user} đã được đặt thành **{newNickname}**",
         "nickRemoved": "Biệt danh **{oldNickname}** của {user} đã bị xóa",
         "changedBy": "Được thay đổi bởi"
+    },
+    "memberRoleAdd": {
+        "title": "Role Given",
+        "title_multiple": "Roles Given",
+        "description": "{user} was given the {role} role",
+        "givenBy": "Given by",
+        "roles": "Roles",
+        "description_multiple": "{user} was given multiple roles"
+    },
+    "memberRoleRemove": {
+        "title": "Role Taken",
+        "title_multiple": "Roles Taken",
+        "description": "The {role} role was removed from {user}",
+        "description_multiple": "Multiple roles were removed from {user}",
+        "removedBy": "Removed by",
+        "roles": "Roles"
+    },
+    "memberPrune": {
+        "title": "Members Pruned",
+        "description": "{count} members with at least {time} days of inactivity were pruned by {executor}"
+    },
+    "avatarUpdate": {
+        "title": "Server Avatar Changed",
+        "description": "{user} changed their server avatar",
+        "description_added": "{user} added a server avatar",
+        "description_removed": "{user} removed their server avatar",
+        "changedBy": "Changed by",
+        "linkToOldAvatar": "Link to old avatar",
+        "linkToNewAvatar": "Link to new avatar"
     }
 }

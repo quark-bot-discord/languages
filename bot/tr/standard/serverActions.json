@@ -5,7 +5,8 @@
         "description_withoutInviter": "An invite {invite} was created for {channel}",
         "expires": "Expires",
         "never": "Never",
-        "maxUses": "Max Uses"
+        "maxUses": "Max Uses",
+        "none": "none"
     },
     "inviteDelete": {
         "title": "Invite Deleted",
@@ -27,5 +28,28 @@
     "emojiUpdated": {
         "title": "Emoji Edited",
         "description": "{emoji} was edited by {executor}"
+    },
+    "serverEventCreate": {
+        "description_withoutChannel": "{executor} created an event {name}",
+        "title": "Event Created",
+        "description_withChannel": "{executor} created an event {name} in {channel}",
+        "eventDescription": "Description",
+        "location": "Location",
+        "starts": "Starts",
+        "image": "Image"
+    },
+    "serverEventUpdate": {
+        "linkToEventImage": "Link to old event image",
+        "title": "Event Updated",
+        "description": "{executor} updated the event {name}",
+        "newEventDescription": "New Description",
+        "newLocation": "New Location",
+        "newChannel": "New Channel",
+        "newImage": "New Image"
+    },
+    "serverEventDelete": {
+        "title": "Event Deleted",
+        "description": "{executor} deleted the event {name}",
+        "linkToEventImage": "Link to event image"
     }
 }

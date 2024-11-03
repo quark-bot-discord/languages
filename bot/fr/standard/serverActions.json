@@ -1,0 +1,55 @@
+{
+    "inviteCreate": {
+        "title": "Invitation créée",
+        "description_withInviter": "{inviter} a créée une invitation {invite} pour {channel}",
+        "description_withoutInviter": "Une invitation {invite} a été créée pour {channel}",
+        "expires": "Expire",
+        "never": "Jamais",
+        "maxUses": "Utilisation maximum",
+        "none": "none"
+    },
+    "inviteDelete": {
+        "title": "Invitation Supprimée",
+        "description_withExecutor": "{executor} a supprimé une {invite} pour {channel}",
+        "description_withoutExecutor": "Une invitation {invite} a été supprimée pour {channel}",
+        "used": "Utilisée",
+        "created": "Créée par",
+        "none": "none"
+    },
+    "emojiCreated": {
+        "title": "Emoji créé",
+        "description": "{emoji} a été ajouté par {executor}"
+    },
+    "emojiDeleted": {
+        "title": "Emoji Supprimé",
+        "description": "{emoji} a été supprimée par {executor}",
+        "emoji": "Emoji"
+    },
+    "emojiUpdated": {
+        "title": "Emoji Modifié",
+        "description": "{emoji} a été modifié par {executor}"
+    },
+    "serverEventCreate": {
+        "title": "Événement créé",
+        "description_withChannel": "{executor} a créé l'événement {name} dans {channel}",
+        "description_withoutChannel": "{executor} a créé un événement {name}",
+        "eventDescription": "Description",
+        "location": "Emplacement",
+        "starts": "Débute",
+        "image": "Image"
+    },
+    "serverEventDelete": {
+        "title": "Événement supprimée",
+        "description": "{executor} a supprimé l'événement {name}",
+        "linkToEventImage": "Lien vers l'image de l'événement"
+    },
+    "serverEventUpdate": {
+        "title": "Événement mis à jour",
+        "description": "{executor} a mis à jour l'événement {name}",
+        "newEventDescription": "Nouvelle Description",
+        "newLocation": "Nouvel Emplacement",
+        "newChannel": "Nouveau Salon",
+        "linkToEventImage": "Lien vers l'ancienne image de l'événement",
+        "newImage": "Nouvelle Image"
+    }
+}

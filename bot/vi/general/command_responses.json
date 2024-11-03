@@ -1,7 +1,6 @@
 {
     "disable": "Tắt",
     "enable": "Bật",
-
     "error-401-0": "Lệnh thất bại",
     "error-401-1-type-0": "Tôi không thể cấm người dùng đó",
     "error-401-1-type-1": "Tôi không thể đá người dùng đó",
@@ -39,30 +38,23 @@
     "error-try-help-again": "Try running the help command again...",
     "error-no-modlog": "No modlog channel",
     "error-invalid-log": "Modlog case not found",
-
     "error-timeout-period-too-long-0": "Thời gian chờ quá lâu",
     "error-timeout-period-too-long-1": "Thời gian chờ phải nhỏ hơn 28 ngày",
-
     "response-ban": "Đã cấm",
     "response-kick": "Đã đuổi",
     "response-mute": "Đã tắt tiếng",
     "response-unmute": "Đã bỏ tắt tiếng",
     "response-unban": "Đã bỏ cấm",
     "response-purge": "Đã xóa {count} tin nhắn",
-
     "response-customise-dash": "Cài đặt tùy chỉnh đã được chuyển đến [bảng điều khiển web]!",
     "response-customise-1": "Ghi lại tin nhắn lên đến 2 tuần trước, tùy chỉnh ghi nhật ký và nhiều hơn nữa với Quark Pro...",
     "response-customise-2": "[UK, US, EU] Nhấp vào hồ sơ của tôi để nâng cấp!",
     "response-customise-3": "Hoặc... {proLink}",
     "response-customise-4": "Thử tùy chỉnh màu sắc miễn phí tại {inventoryLink}",
-
     "response-case-updated": "Cập nhật trạng thái thành công!",
-
     "response-debug": "Gửi log gỡ lỗi thành công!",
-
     "response-status-enabled": "Bật cập nhật kênh trạng thái thành công!",
     "response-status-disabled": "Tắt cập nhật kênh trạng thái thành công!",
-
     "target0-command": "mục tiêu",
     "target1-command": "mục tiêu",
     "message0-command": "tin nhắn",
@@ -70,7 +62,6 @@
     "executor1-command": "thực thi",
     "channel0-command": "kênh",
     "channel1-command": "kênh",
-    
     "serverlog-web-promote": "...hoặc truy cập bảng điều khiển web của chúng tôi!",
     "serverlog-select": "Chọn kênh serverlog",
     "serverlog-unset": "Kênh không được đặt",
@@ -110,10 +101,8 @@
     "setserverlog-enable-status-updates-desc": "Nhận thông báo về tất cả các cập nhật mới nhất, thời gian chạy và các thông tin quan trọng khác từ các nhà phát triển!",
     "setserverlog-enable-status-updates-desc-1": "Chúng tôi rất khuyến nghị bạn bật tính năng này trong một trong các kênh của bạn!",
     "setserverlog-check-permissions": "Vui lòng đảm bảo Quark có quyền gửi tin nhắn trong kênh này, hoặc kênh sẽ bị hủy đặt.",
-
     "festive-title": "Quà miễn phí trong mùa lễ!",
     "festive-claim": "Nhận quà miễn phí của bạn!",
-
     "help-overview-website-description": "Dễ dàng thiết lập và quản lý Quark từ [bảng điều khiển web]!",
     "help-overview-inventory-description": "Quản lý các đăng ký của bạn hoặc nhận một số tính năng [Quark Pro] miễn phí!",
     "help-overview-view-inv": "Xem Kho hàng",
@@ -133,7 +122,6 @@
     "help-overview-change-channel": "Thay đổi bằng cách chạy {command} trong kênh mong muốn.",
     "help-overview-manage-premium": "Chạy {command} để quản lý premium",
     "language-set": "Ngôn ngữ đã được đặt thành {language}",
-
     "help-serverlog-help": "Trợ giúp Ghi nhật ký máy chủ",
     "help-serverlog-0": "Hạn chế Kênh",
     "help-serverlog-1": "Tùy chọn Bỏ qua",
@@ -143,7 +131,6 @@
     "help-serverlog-2-desc": "Để bật/tắt việc ẩn thông tin về các phương tiện được gửi trong ghi nhật ký máy chủ, chạy: {command}",
     "help-serverlog-2-on": "Đã bật ẩn thông tin.",
     "help-serverlog-2-off": "Đã tắt ẩn thông tin.",
-    
     "help-commands-help": "Trợ giúp Lệnh",
     "help-commands-moderation": "Quản lý",
     "help-commands-tags": "Thẻ",
@@ -151,13 +138,10 @@
     "help-commands-other": "Khác",
     "help-notes-help": "Trợ giúp Ghi chú",
     "help-tags-help": "Trợ giúp Thẻ",
-    "help-commands-desc": "Chú thích:\n`<bắt buộc>` `[tùy chọn]`\nĐây không phải là danh sách của tất cả các lệnh",
     "help-info": "Cần thêm sự trợ giúp? **Tham gia máy chủ hỗ trợ của chúng tôi!**",
-
     "need-to-vote-title": "Bạn phải bỏ phiếu để sử dụng lệnh này!",
     "need-to-vote": "Nhấp vào đây để bỏ phiếu",
     "need-to-vote-footer": "Việc bỏ phiếu mất tối đa một phút để được đăng ký",
-
     "configCommand": {
         "title": "Serverlog Configuration",
         "selection": "Select a category in the menu to view configuration.",
@@ -207,7 +191,17 @@
             },
             "fileEvents": {
                 "title": "Files"
+            },
+            "quarkEvents": {
+                "title": "Quark Config",
+                "description": "Changes made to Quark's configuration for this server"
             }
-        }
-    }
+        },
+        "overview": "Overview"
+    },
+    "setserverlog-type-quark-0": "Quark Events",
+    "setserverlog-type-quark-1": "quark events",
+    "initialreactors-expired": "expired",
+    "initialreactors-notfound": "No reactions found",
+    "help-modify-tags-description": "To create and edit tags, please visit [Quark's web dashboard]"
 }

@@ -30,7 +30,9 @@
     },
     "voiceLeave": {
         "title": "Kanaal Verlaten",
-        "description": "{user} heeft het {channel} voice kanaal verlaten"
+        "description": "{user} heeft het {channel} voice kanaal verlaten",
+        "joined": "Joined",
+        "joinedValue": "{relative} for {relative_fixed}"
     },
     "voiceDisconnect": {
         "title": "Verbinding Verbroken",

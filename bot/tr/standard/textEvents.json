@@ -1,7 +1,7 @@
 {
-    "polls":{
+    "polls": {
         "poll": "Poll",
-        "pollDescriptor":"[poll]",
+        "pollDescriptor": "[poll]",
         "status": "Poll has status.",
         "ended": "ended",
         "notEnded": "not ended",
@@ -29,7 +29,10 @@
         "filesExpired": "dosya çok büyük veya süresi dolmuş",
         "sticker": "sticker",
         "noContent": "no content",
-        "thread": "Thread"
+        "thread": "Thread",
+        "embed": "embed",
+        "initialReactor": "initial reactor",
+        "ghostpingDetected": "Ghostping detected"
     },
     "messagesBulkDeleted": {
         "title": "Birden Fazla Mesaj Silindi",
@@ -78,5 +81,12 @@
         "channel": "Kanal",
         "title": "Thread Deleted",
         "description": "{executor} deleted a thread {thread}"
+    },
+    "messageReactionRemove": {
+        "description": "{executor} removed a reaction from a message",
+        "emoji": "Emoji",
+        "linkToEmoji": "Link to emoji",
+        "jumpToMessage": "Jump to message",
+        "title": "Reaction Removed"
     }
 }

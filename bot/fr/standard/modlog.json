@@ -1,0 +1,20 @@
+{
+    "moderator": "Modérateur",
+    "user": "Utilisateur",
+    "reason": "Raison",
+    "case": "Cas",
+    "noReason": "Modérateur : Veuillez utiliser {command}",
+    "noReasonBrief": "Utilisez {command}",
+    "ban": "Ban",
+    "unban": "Deban",
+    "kick": "Expulsion",
+    "mute": "Réduction au silence",
+    "unmute": "Réduction au silence supprimée",
+    "timeoutEnds": "La réduction au silence se finit {time}",
+    "editReason": "Modifier la raison",
+    "reasonModal": {
+        "label": "Raison",
+        "placeholder": "Être très méchant > :(",
+        "title": "Modifie la raison du log de modération"
+    }
+}

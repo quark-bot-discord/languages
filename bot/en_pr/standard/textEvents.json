@@ -1,7 +1,7 @@
 {
-    "polls":{
+    "polls": {
         "poll": "Poll",
-        "pollDescriptor":"[poll]",
+        "pollDescriptor": "[poll]",
         "status": "Poll has status.",
         "ended": "ended",
         "notEnded": "not ended",

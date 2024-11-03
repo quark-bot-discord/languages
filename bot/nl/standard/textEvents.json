@@ -31,7 +31,8 @@
         "sticker": "sticker",
         "noContent": "geen inhoud",
         "embed": "embed",
-        "thread": "Thread"
+        "thread": "Thread",
+        "initialReactor": "initial reactor"
     },
     "messagesBulkDeleted": {
         "title": "Meerdere Berichten Verwijderd",

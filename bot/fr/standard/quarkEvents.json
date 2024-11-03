@@ -1,0 +1,64 @@
+{
+    "serverlogChannelUpdate": {
+        "title": "Salon des Logs Changé",
+        "description_set": "{executor} a défini le salon des logs {type} dans {channel}",
+        "description_category_disable": "{executor} a désactivé le salon des logs {type}",
+        "description_unset": "{executor} a désactivé le salon des logs {type}"
+    },
+    "serverlogOptionsUpdate": {
+        "title": "Options de log mises à jour",
+        "description": "{executor} a défini {option} sur {state}",
+        "pluralkitSupport": "le Support PluralKit",
+        "spoilers": "les Spoilers",
+        "buttons": "les bouttons",
+        "formatType": "le Type de Format"
+    },
+    "serverlogLogUpdate": {
+        "title": "Log mis à jour",
+        "description": "{executor} a mis à jour le log {type}",
+        "enabled": "Activé",
+        "logFormat": "Format",
+        "logChannel": "Salon",
+        "colour": "Couleur",
+        "ignoreBotExecutors": "Ignorer les Bots Exécutants",
+        "ignoreBotTargets": "Ignorer les Bots Cibles",
+        "activeIgnore": "Activer l'exception"
+    },
+    "serverlogIgnoreUpdate": {
+        "title": "Options des exceptions mises à jour",
+        "description_set": "{executor} a activé {type}",
+        "description_unset": "{executor} a désactivé {type}",
+        "description_added": "{executor} a ajouté {target} dans les {type}",
+        "description_removed": "{executor} a supprimé {target} des {type}"
+    },
+    "languageUpdate": {
+        "title": "Langue Changé",
+        "description": "{executor} a changé la langue en {language}"
+    },
+    "reset": {
+        "title": "Configuration Réinitialisée",
+        "description": "{executor} a réinitialisé la configuration de ce serveur"
+    },
+    "tagAdded": {
+        "title": "Étiquette ajoutée",
+        "description": "{executor} a créé une étiquette {tag}"
+    },
+    "tagUpdated": {
+        "title": "Étiquette modifiée",
+        "description": "{executor} a modifié l'étiquette {tag}"
+    },
+    "tagDeleted": {
+        "title": "Étiquette supprimée",
+        "description": "{executor} a supprimé l'étiquette {tag}"
+    },
+    "tokenAdded": {
+        "title": "Token Généré",
+        "description": "{executor} a généré un token d'accès à Quark avec les permissions {permissions} pour ce serveur",
+        "unique_id": "ID du token",
+        "revoke": "Révoquer ce token"
+    },
+    "tokenRevoked": {
+        "title": "Token Révoqué",
+        "description": "{executor} a révoqué le token d'accès à Quark avec l'ID {token}"
+    }
+}

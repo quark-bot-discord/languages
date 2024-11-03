@@ -1,0 +1,12 @@
+{
+    "ignoreTargets": "Utilisateurs Cibles Ignorés",
+    "ignoreExecutors": "Cibles Exécutants Ignorées",
+    "specificMessageContent": "Contenus Spécifiques de Messages Ignorés",
+    "ignoreChannels": "Salons Ignorés",
+    "ignoreBotExecutors": "Ignorer les Bots Exécutants",
+    "ignoreBotTargets": "Ignorer les Bots Cibles",
+    "ignoreExecutorRoles": "Rôles Exécutants Ignorés",
+    "ignoreTargetRoles": "Rôles Cibles Ignorés",
+    "ignoreCategories": "Catégories Ignorées",
+    "activeIgnore": "Ignorance active"
+}

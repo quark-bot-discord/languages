@@ -5,17 +5,13 @@
     "case": "Incident",
     "noReason": "Moderator: voer alstublieft {command} uit",
     "noReasonBrief": "Voer {command} uit",
-
     "ban": "Verbannen",
     "unban": "Deblokkeren",
     "kick": "Kicken",
     "mute": "Time-out",
     "unmute": "Time-out Verwijderd",
-
     "timeoutEnds": "Time-out eindigt {time}",
-
     "editReason": "Reden Bewerken",
-
     "reasonModal": {
         "label": "Reden",
         "placeholder": "Heel stoutie woutie zijn >:3",

@@ -1,7 +1,7 @@
 {
-    "polls":{
+    "polls": {
         "poll": "Bình chọn",
-        "pollDescriptor":"[bình chọn]",
+        "pollDescriptor": "[bình chọn]",
         "status": "Bình chọn có trạng thái.",
         "ended": "đã kết thúc",
         "notEnded": "chưa kết thúc",
@@ -29,7 +29,10 @@
         "filesExpired": "các tệp tin quá lớn hoặc đã hết hạn",
         "sticker": "nhãn dán",
         "noContent": "không có nội dung",
-        "thread": "Chủ đề"
+        "thread": "Chủ đề",
+        "ghostpingDetected": "Đã phát hiện ghostping",
+        "embed": "nhúng",
+        "initialReactor": "người phản ứng đầu tiên"
     },
     "messagesBulkDeleted": {
         "title": "Xóa nhiều tin nhắn",
@@ -50,7 +53,7 @@
         "jumpToMessage": "Chuyển đến tin nhắn",
         "afterEdit": "Sau khi chỉnh sửa",
         "diff": "Khác biệt",
-        "diffError": "Unable to calculate edits.",
+        "diffError": "Không thể tính toán các chỉnh sửa",
         "cannotRetrieveOriginal": "Không thể lấy lại tin nhắn gốc",
         "noContent": "không có nội dung",
         "thread": "Chủ đề"
@@ -78,5 +81,12 @@
         "channel": "Kênh",
         "title": "Chủ đề đã bị xóa",
         "description": "{executor} đã xóa một chủ đề {thread}"
+    },
+    "messageReactionRemove": {
+        "title": "Đã gỡ phản ứng",
+        "emoji": "Emoji",
+        "linkToEmoji": "Liên kết đến emoji",
+        "jumpToMessage": "Nhảy đến tin nhắn",
+        "description": "{executor} đã gỡ một phản ứng khỏi tin nhắn"
     }
 }

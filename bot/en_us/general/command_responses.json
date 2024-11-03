@@ -1,7 +1,6 @@
 {
     "disable": "Disable",
     "enable": "Enable",
-
     "error-401-0": "Command failed",
     "error-401-1-type-0": "I am unable to ban that user",
     "error-401-1-type-1": "I am unable to kick that user",
@@ -16,7 +15,7 @@
     "error-404-1": "Please @mention a user, paste their ID or type their username",
     "error-405-0": "Excuse me?",
     "error-405-1": "I'm not gonna do that lol",
-    "error-406-0": "You do not permission",
+    "error-406-0": "You do not have permission",
     "error-407-0": "You do not have the power to do this",
     "error-409-0-type-0": "That user is already banned",
     "error-409-0-type-1": "That user is already muted",
@@ -39,30 +38,23 @@
     "error-try-help-again": "Try running the help command again...",
     "error-no-modlog": "No modlog channel",
     "error-invalid-log": "Modlog case not found",
-
     "error-timeout-period-too-long-0": "Timeout period too long",
     "error-timeout-period-too-long-1": "Timeout period must be less than 28 days",
-
     "response-ban": "Banned",
     "response-kick": "Kicked",
     "response-mute": "Muted",
     "response-unmute": "Unmuted",
     "response-unban": "Unbanned",
     "response-purge": "Purged {count} messages",
-
     "response-customise-dash": "Customization settings have moved to Quark's [web dashboard]!",
     "response-customise-1": "Log messages up to 2 weeks old, customize logs, and so much more with Quark Pro...",
     "response-customise-2": "[UK, US, EU] Click onto my profile to upgrade!",
     "response-customise-3": "See subscriptions... {proLink}",
     "response-customise-4": "Try out color customization for free at {inventoryLink}",
-
     "response-case-updated": "Case updated!",
-
     "response-debug": "Debug log sent!",
-
     "response-status-enabled": "Status channel updates enabled!",
     "response-status-disabled": "Status channel updates disabled!",
-    
     "target0-command": "target",
     "target1-command": "targets",
     "message0-command": "message",
@@ -70,7 +62,6 @@
     "executor1-command": "executors",
     "channel0-command": "channel",
     "channel1-command": "channels",
-    
     "serverlog-web-promote": "...or check out our web dashboard!",
     "serverlog-select": "Select serverlog channel",
     "serverlog-unset": "Channel unset",
@@ -112,10 +103,8 @@
     "setserverlog-enable-status-updates-desc": "Get notified of all the latest updates, downtime, and other important communications from the developers!",
     "setserverlog-enable-status-updates-desc-1": "We highly recommend you enable this in one of your channels!",
     "setserverlog-check-permissions": "Please ensure Quark has permission to send messages in this channel, or the channel will be unset.",
-
     "festive-title": "Free Festive Gift!",
     "festive-claim": "Claim your free gift!",
-
     "help-overview-website-description": "Easily set up and manage Quark from the [web dashboard]!",
     "help-overview-inventory-description": "Manage your subscriptions or get some [Quark Pro] features for free!",
     "help-overview-view-inv": "View Inventory",
@@ -135,17 +124,15 @@
     "help-overview-change-channel": "Change this by running {command} in the desired channel.",
     "help-overview-manage-premium": "Run {command} to manage premium",
     "language-set": "Set language to {language}",
-
     "help-serverlog-help": "Serverlog Help",
     "help-serverlog-0": "Channel Restrictions",
     "help-serverlog-1": "Ignore Options",
     "help-serverlog-2": "Spoilers",
     "help-serverlog-0-desc": "For more control over logs, such as selecting different channels for different log types, please visit [Quark's web dashboard]",
-    "help-serverlog-1-desc": "To prevent certain channels, users or messages from being logged, run:\n{ignorecommand}",
+    "help-serverlog-1-desc": "To prevent certain channels, users or messages from being logged, please visit [Quark's web dashboard]",
     "help-serverlog-2-desc": "To toggle whether spoilers are applied to all media sent in the serverlog, run: {command}",
     "help-serverlog-2-on": "Spoilers are enabled.",
     "help-serverlog-2-off": "Spoilers are disabled.",
-
     "help-commands-help": "Commands Help",
     "help-commands-moderation": "Moderation",
     "help-commands-tags": "Tags",
@@ -153,16 +140,12 @@
     "help-commands-other": "Other",
     "help-notes-help": "Notes Help",
     "help-tags-help": "Tags Help",
-    "help-commands-desc": "Key:\n`<required>` `[optional]`\nThis is not a list of every command",
     "help-info": "Still need a hand? **Join Quark's support server!**",
-
     "need-to-vote-title": "You must vote to use this command!",
     "need-to-vote": "Click here to vote",
     "need-to-vote-footer": "Votes take up to a minute to be registered",
-
     "initialreactors-expired": "expired",
     "initialreactors-notfound": "No reactions found",
-
     "configCommand": {
         "title": "Serverlog Configuration",
         "selection": "Select a category in the menu to view configuration.",
@@ -219,5 +202,6 @@
                 "title": "Files"
             }
         }
-    }
+    },
+    "help-modify-tags-description": "To create and edit tags, please visit [Quark's web dashboard]"
 }

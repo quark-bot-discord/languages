@@ -13,8 +13,8 @@
     "timeoutEnds": "El tiempo de espera finaliza {time}",
     "editReason": "Editar motivo",
     "reasonModal": {
-      "label": "Razón",
-      "placeholder": "Estando muy mal >:(",
-      "title": "Modificar el motivo del modlog"
+        "label": "Razón",
+        "placeholder": "Estando muy mal >:(",
+        "title": "Modificar el motivo del modlog"
     }
-  }
+}

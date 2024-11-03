@@ -35,7 +35,7 @@
         "premium_progress_bar_enabled": "Pasek postępu"
     },
     "webhookModificationTypes": {
-        "channel_id": "Channel",
+        "channel_id": "Kanał",
         "name": "Name"
     }
 }

@@ -17,7 +17,9 @@
     "userLeft": {
         "title": "Kullanıcı Ayrıldı",
         "description": "{user} sunucudan ayrıldı",
-        "joined": "Katıldı"
+        "joined": "Katıldı",
+        "roles": "Roles",
+        "serverProfilePicture": "Link to server avatar"
     },
     "botAdded": {
         "title": "Bot Eklendi",
@@ -35,5 +37,34 @@
         "setNick": "{user}'s nickname was set to **{newNickname}**",
         "nickRemoved": "{user}'s nickname of **{oldNickname}** was removed",
         "changedBy": "Changed by"
+    },
+    "memberRoleAdd": {
+        "title": "Role Given",
+        "description": "{user} was given the {role} role",
+        "description_multiple": "{user} was given multiple roles",
+        "givenBy": "Given by",
+        "roles": "Roles",
+        "title_multiple": "Roles Given"
+    },
+    "memberRoleRemove": {
+        "title": "Role Taken",
+        "title_multiple": "Roles Taken",
+        "description_multiple": "Multiple roles were removed from {user}",
+        "removedBy": "Removed by",
+        "roles": "Roles",
+        "description": "The {role} role was removed from {user}"
+    },
+    "memberPrune": {
+        "title": "Members Pruned",
+        "description": "{count} members with at least {time} days of inactivity were pruned by {executor}"
+    },
+    "avatarUpdate": {
+        "title": "Server Avatar Changed",
+        "description": "{user} changed their server avatar",
+        "description_removed": "{user} removed their server avatar",
+        "changedBy": "Changed by",
+        "linkToOldAvatar": "Link to old avatar",
+        "linkToNewAvatar": "Link to new avatar",
+        "description_added": "{user} added a server avatar"
     }
 }

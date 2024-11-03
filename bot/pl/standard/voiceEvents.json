@@ -30,7 +30,9 @@
     },
     "voiceLeave": {
         "title": "Opuszczenie Kanału Głosowego",
-        "description": "{user} opuścił kanał głosowy {channel}"
+        "description": "{user} opuścił kanał głosowy {channel}",
+        "joinedValue": "{relative} dla {relative_fixed}",
+        "joined": "Dołączył"
     },
     "voiceDisconnect": {
         "title": "Rozłączenie z Kanału Głosowego",
@@ -40,7 +42,7 @@
     },
     "serverDeafen": {
         "title": "Wyciszenie",
-        "description": "{user} został wyciszony",
+        "description": "{user} został ogłuszony",
         "deafenedBy": "Wyciszony przez",
         "voiceChannel": "Kanał głosowy"
     },
@@ -52,8 +54,8 @@
     },
     "serverUndeafen": {
         "title": "Odciszenie",
-        "description": "{user} został odciszony",
-        "undeafenedBy": "Odciszony przez",
+        "description": "{user} został odgłuszony",
+        "undeafenedBy": "Odgłuszony przez",
         "voiceChannel": "Kanał głosowy"
     },
     "serverUnmute": {

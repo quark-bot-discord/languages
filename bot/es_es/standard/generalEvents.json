@@ -1,30 +1,30 @@
 {
     "serverModified": {
-      "title": "Servidor modificado",
-      "description": "Este servidor fue modificado por {executor}"
+        "title": "Servidor modificado",
+        "description": "Este servidor fue modificado por {executor}"
     },
     "serverIconUpdated": {
-      "title": "Icono del servidor actualizado",
-      "description": "{executor} actualizó el ícono del servidor",
-      "description_added": "{executor} agregó un ícono de servidor",
-      "description_removed": "{executor} eliminó el icono del servidor",
-      "linkToOldIcon": "Enlace al icono antiguo",
-      "linkToNewIcon": "Enlace al nuevo icono"
+        "title": "Icono del servidor actualizado",
+        "description": "{executor} actualizó el ícono del servidor",
+        "description_added": "{executor} agregó un ícono de servidor",
+        "description_removed": "{executor} eliminó el icono del servidor",
+        "linkToOldIcon": "Enlace al icono antiguo",
+        "linkToNewIcon": "Enlace al nuevo icono"
     },
     "serverBoostAdd": {
-      "title": "Servidor impulsado",
-      "description": "{user} impulsó este servidor 🎉",
-      "description_noUser": "Alguien impulsó este servidor 🎉",
-      "description_withTier": "{user} impulsó este servidor al nivel {tier} 🎉",
-      "description_withTier_noUser": "Alguien impulsó este servidor al nivel {tier} 🎉",
-      "none": "ninguno"
+        "title": "Servidor impulsado",
+        "description": "{user} impulsó este servidor 🎉",
+        "description_noUser": "Alguien impulsó este servidor 🎉",
+        "description_withTier": "{user} impulsó este servidor al nivel {tier} 🎉",
+        "description_withTier_noUser": "Alguien impulsó este servidor al nivel {tier} 🎉",
+        "none": "ninguno"
     },
     "serverBoostRemove": {
-      "title": "Se eliminó el impulso del servidor",
-      "description": "{user} dejó de impulsar este servidor",
-      "description_noUser": "Alguien dejó de impulsar este servidor.",
-      "description_withTier": "{user} dejó de impulsarse, lo que provocó que el servidor cayera al nivel {tier}",
-      "description_withTier_noUser": "Alguien dejó de impulsar, lo que provocó que el servidor cayera al nivel {tier}",
-      "none": "ninguno"
+        "title": "Se eliminó el impulso del servidor",
+        "description": "{user} dejó de impulsar este servidor",
+        "description_noUser": "Alguien dejó de impulsar este servidor.",
+        "description_withTier": "{user} dejó de impulsarse, lo que provocó que el servidor cayera al nivel {tier}",
+        "description_withTier_noUser": "Alguien dejó de impulsar, lo que provocó que el servidor cayera al nivel {tier}",
+        "none": "ninguno"
     }
-  }
+}
