@@ -202,5 +202,6 @@
     "need-to-vote": "Click here to vote",
     "need-to-vote-footer": "Votes take up to a minute to be registered",
     "initialreactors-expired": "expired",
-    "initialreactors-notfound": "No reactions found"
+    "initialreactors-notfound": "No reactions found",
+    "help-modify-tags-description": "To create and edit tags, please visit [Quark's web dashboard]"
 }
