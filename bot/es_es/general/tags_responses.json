@@ -6,7 +6,6 @@
     "notags-list-command": "Hmmm... no hay etiquetas.",
     "tags-list-title": "Etiquetas disponibles",
     "tags-embedoptions-title": "Opciones de inserción:",
-    "tags-embedoptions-description": "**-c** - Color hexadecimal a usar para la inserción (ej. -c #0000FF) \n ",
     "tags-usageoptions-title": "Opciones de uso de etiquetas:",
     "tags-usageoptions-description": "**-d**: elimina el mensaje original que activó la etiqueta. \n",
     "tags-display-title": "Mostrar etiquetas",
