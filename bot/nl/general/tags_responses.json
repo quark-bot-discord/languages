@@ -6,7 +6,6 @@
     "notags-list-command": "Hmmm... er zijn geen tags. Je kunt er een maken met {commandCreate}",
     "tags-list-title": "Beschikbare Tags",
     "tags-embedoptions-title": "Insluitopties:",
-    "tags-embedoptions-description": "**-c** - Hex kleur om te gebruiken voor de embed (bijv. -c #0000FF) \n **stuur een afbeelding in het commando bericht** - Afbeelding die aan de embed moet worden toegevoegd",
     "tags-usageoptions-title": "Tag gebruiksopties:",
     "tags-usageoptions-description": "**-d** - Verwijdert het originele bericht dat de tag heeft geactiveerd \n**Vermeldingen** - Zal vermeldingen in het tagantwoord bewerken voor betere zichtbaarheid",
     "tags-display-title": "Toon Tags",
