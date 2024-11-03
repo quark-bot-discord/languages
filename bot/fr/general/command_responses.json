@@ -202,5 +202,6 @@
             }
         }
     },
-    "help-overview-help": "Aide"
+    "help-overview-help": "Aide",
+    "help-modify-tags-description": "To create and edit tags, please visit [Quark's web dashboard]"
 }
