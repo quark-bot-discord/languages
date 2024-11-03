@@ -140,7 +140,6 @@
     "help-commands-other": "Otro",
     "help-notes-help": "Ayuda de notas",
     "help-tags-help": "Etiquetas Ayuda",
-    "help-commands-desc": "Llave:\n<required>``[opcional]`\n",
     "help-info": "¿Aún necesitas una mano? ",
     "need-to-vote-title": "¡Debes votar para usar este comando!",
     "need-to-vote": "Haga clic aquí para votar",
@@ -203,5 +202,6 @@
                 "title": "Archivos"
             }
         }
-    }
+    },
+    "help-modify-tags-description": "To create and edit tags, please visit [Quark's web dashboard]"
 }
