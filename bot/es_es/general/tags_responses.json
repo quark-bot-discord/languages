@@ -7,7 +7,6 @@
     "tags-list-title": "Etiquetas disponibles",
     "tags-embedoptions-title": "Opciones de inserción:",
     "tags-usageoptions-title": "Opciones de uso de etiquetas:",
-    "tags-usageoptions-description": "**-d**: elimina el mensaje original que activó la etiqueta. \n",
     "tags-display-title": "Mostrar etiquetas",
     "tag-error-noname-0": "Sin nombre de etiqueta",
     "tag-error-noname-1": "Por favor especifique el nombre de la etiqueta",
