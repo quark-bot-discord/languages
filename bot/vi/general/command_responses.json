@@ -127,7 +127,7 @@
     "help-serverlog-1": "Tùy chọn Bỏ qua",
     "help-serverlog-2": "Spoilers",
     "help-serverlog-0-desc": "Để có sự kiểm soát chi tiết hơn về ghi nhật ký, chẳng hạn như chọn các kênh khác nhau cho các loại ghi nhật ký khác nhau, vui lòng truy cập [bảng điều khiển web của Quark]",
-    "help-serverlog-1-desc": "Để ngăn một số kênh, người dùng hoặc tin nhắn khỏi việc ghi nhật ký, chạy:\n{ignorecommand}",
+    "help-serverlog-1-desc": "Để ngăn một số kênh, người dùng hoặc tin nhắn khỏi việc ghi nhật ký, vui lòng truy cập [bảng điều khiển web của Quark]",
     "help-serverlog-2-desc": "Để bật/tắt việc ẩn thông tin về các phương tiện được gửi trong ghi nhật ký máy chủ, chạy: {command}",
     "help-serverlog-2-on": "Đã bật ẩn thông tin.",
     "help-serverlog-2-off": "Đã tắt ẩn thông tin.",
