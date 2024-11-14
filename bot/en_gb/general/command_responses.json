@@ -158,35 +158,35 @@
             "configurable_events": "Configurable Events"
         },
         "categories": {
-            "serverEvents": {
+            "categoryMembers": {
                 "title": "Members",
                 "description": "Member actions (join/leave, roles, nicknames)"
             },
-            "textEvents": {
+            "categoryText": {
                 "title": "Messages",
                 "description": "Message actions (deletions, edits, pins, reactions)"
             },
-            "voiceEvents": {
+            "categoryVoice": {
                 "title": "Voice",
                 "description": "Voice channel actions (join/leave, streams, mute/deafens)"
             },
-            "serverActions": {
+            "categoryActions": {
                 "title": "Server Actions",
                 "description": "Server actions (invite creation/deletion, emojis)"
             },
-            "channelEvents": {
+            "categoryChannels": {
                 "title": "Channels",
                 "description": "Channel actions (creations/deletions, permissions)"
             },
-            "generalEvents": {
+            "categoryServer": {
                 "title": "Server Events",
                 "description": "General actions (server modifications)"
             },
-            "roleEvents": {
+            "categoryRoles": {
                 "title": "Roles",
                 "description": "Role actions (creations/deletions, permissions)"
             },
-            "modLog": {
+            "categoryModlog": {
                 "title": "Mod Logs",
                 "description": "Moderation actions (bans, kicks, mutes)"
             },
