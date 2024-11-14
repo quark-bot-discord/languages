@@ -200,6 +200,38 @@
             },
             "fileEvents": {
                 "title": "Files"
+            },
+            "serverEvents": {
+                "description": "Member actions (join/leave, roles, nicknames)",
+                "title": "Members"
+            },
+            "textEvents": {
+                "title": "Messages",
+                "description": "Message actions (deletions, edits, pins, reactions)"
+            },
+            "voiceEvents": {
+                "title": "Voice",
+                "description": "Voice channel actions (join/leave, streams, mute/deafens)"
+            },
+            "serverActions": {
+                "title": "Server Actions",
+                "description": "Server actions (invite creation/deletion, emojis)"
+            },
+            "channelEvents": {
+                "title": "Channels",
+                "description": "Channel actions (creations/deletions, permissions)"
+            },
+            "generalEvents": {
+                "title": "Server Events",
+                "description": "General actions (server modifications)"
+            },
+            "roleEvents": {
+                "title": "Roles",
+                "description": "Role actions (creations/deletions, permissions)"
+            },
+            "modLog": {
+                "title": "Mod Logs",
+                "description": "Moderation actions (bans, kicks, mutes)"
             }
         }
     },
