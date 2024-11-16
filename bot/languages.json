@@ -64,6 +64,6 @@
     "code": "fr",
     "id": 10,
     "name": "Français",
-    "active": false
+    "active": true
   }
 }
