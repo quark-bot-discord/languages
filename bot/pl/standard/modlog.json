@@ -3,7 +3,7 @@
     "user": "Użytkownik",
     "reason": "Powód",
     "case": "Sprawa",
-    "noReason": "Moderator: proszę uruchomić {command}",
+    "noReason": "[brak podanego powodu]",
     "noReasonBrief": "Uruchom {command}",
     "ban": "Ban",
     "unban": "Unban",
