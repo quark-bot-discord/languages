@@ -3,7 +3,7 @@
     "create-success": "Tag created! Use {tag} to access it at any time!",
     "edit-success": "Tag edited! Use {tag} to access it at any time!",
     "delete-success": "{tag} tag deleted! Use {commandList} to see all your remaining tags!",
-    "notags-list-command": "Hmmm... there are no tags. You can create one using {commandCreate}",
+    "notags-list-command": "Hmmm… there are no tags. You can create one using [Quark's web dashboard]",
     "tags-list-title": "Available Tags",
     "tags-embedoptions-title": "Embed options:",
     "tags-usageoptions-title": "Tag usage options:",
