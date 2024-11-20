@@ -20,7 +20,7 @@
         "deletedBy": "Được xóa bởi",
         "jumpToContext": "Chuyển đến ngữ cảnh",
         "warning": "CẢNH BÁO!",
-        "linksToEmojis": "Liên kết đến biểu tượng cảm xúc",
+        "linksToEmojis": "Liên kết đến emoji",
         "linksToFiles": "Liên kết đến tệp tin",
         "inviteDetected": "Phát hiện lời mời máy chủ",
         "file": "tệp tin",
@@ -53,7 +53,7 @@
         "jumpToMessage": "Chuyển đến tin nhắn",
         "afterEdit": "Sau khi chỉnh sửa",
         "diff": "Khác biệt",
-        "diffError": "Không thể tính toán các chỉnh sửa",
+        "diffError": "Không thể tính toán các chỉnh sửa.",
         "cannotRetrieveOriginal": "Không thể lấy lại tin nhắn gốc",
         "noContent": "không có nội dung",
         "thread": "Chủ đề"
