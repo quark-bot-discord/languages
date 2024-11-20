@@ -3,7 +3,7 @@
     "user": "Người dùng",
     "reason": "Lý do",
     "case": "Trường hợp",
-    "noReason": "Quản trị viên: vui lòng chạy {command}",
+    "noReason": "[không có lý do]",
     "noReasonBrief": "Chạy {command}",
     "ban": "Cấm",
     "unban": "Bỏ cấm",
@@ -11,10 +11,10 @@
     "mute": "Tắt âm",
     "unmute": "Bật âm",
     "timeoutEnds": "Hết thời gian chờ {time}",
-    "editReason": "Edit Reason",
+    "editReason": "Chỉnh sửa lý do",
     "reasonModal": {
-        "label": "Reason",
-        "placeholder": "Being very bad >:(",
-        "title": "Modify modlog reason"
+        "label": "Lý do",
+        "placeholder": "Rất tệ >:(",
+        "title": "Sửa đổi lý do modlog"
     }
 }
