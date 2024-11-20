@@ -31,8 +31,8 @@
     "voiceLeave": {
         "title": "Rời khỏi Kênh",
         "description": "{user} đã rời khỏi kênh thoại {channel}",
-        "joined": "Joined",
-        "joinedValue": "{relative} for {relative_fixed}"
+        "joined": "Tham gia",
+        "joinedValue": "{relative} cho {relative_fixed}"
     },
     "voiceDisconnect": {
         "title": "Ngắt kết nối",
@@ -68,7 +68,7 @@
         "title": "Cập nhật Trạng thái Kênh thoại",
         "description": "{executor} đã cập nhật trạng thái cho {channel}",
         "status": "Trạng thái",
-        "linksToEmojis": "Links to emojis"
+        "linksToEmojis": "Liên kết đến emoji"
     },
     "stageStarted": {
         "description": "{executor} started a stage in {channel}",
