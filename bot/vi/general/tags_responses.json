@@ -3,7 +3,7 @@
     "create-success": "Tạo nhãn thành công! Sử dụng {nhãn} để truy cập vào nó bất cứ lúc nào!",
     "edit-success": "Chỉnh sửa nhãn thành công! Sử dụng {nhãn} để truy cập vào nó bất cứ lúc nào!",
     "delete-success": "Nhãn {nhãn} đã bị xóa! Sử dụng {commandList} để xem tất cả các nhãn còn lại!",
-    "notags-list-command": "Hmmm... không có nhãn nào. Bạn có thể tạo một nhãn bằng cách sử dụng {commandCreate}",
+    "notags-list-command": "Hmmm… không có nhãn nào. Bạn có thể tạo một nhãn bằng cách sử dụng [bảng điều khiển web của Quark]",
     "tags-list-title": "Các Nhãn Hiện Có",
     "tags-embedoptions-title": "Tùy chọn Embed:",
     "tags-usageoptions-title": "Tùy chọn sử dụng nhãn:",
