@@ -1,5 +1,5 @@
 {
-    "none": "none",
+    "none": "không",
     "verification_level": {
         "0": "không",
         "1": "thấp",
@@ -12,7 +12,7 @@
         "1": "chỉ đề cập"
     },
     "explicit_content_filter": {
-        "0": "vô hiệu hóa",
+        "0": "đã tắt",
         "1": "thành viên không có vai trò",
         "2": "tất cả thành viên"
     },
@@ -24,6 +24,6 @@
     },
     "premium_progress_bar_enabled": {
         "true": "đã kích hoạt",
-        "false": "vô hiệu hóa"
+        "false": "đã tắt"
     }
 }
