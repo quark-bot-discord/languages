@@ -1,6 +1,6 @@
 {
     "channelModificationTypes": {
-        "name": "Name",
+        "name": "Tên",
         "user_limit": "User Limit",
         "rate_limit_per_user": "Slowmode",
         "topic": "Topic",
