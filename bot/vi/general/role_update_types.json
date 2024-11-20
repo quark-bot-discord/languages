@@ -1,5 +1,5 @@
 {
-    "enabled": "đã kích hoạt",
-    "disabled": "đã vô hiệu hóa",
-    "none": "none"
+    "enabled": "đã bật",
+    "disabled": "đã tắt",
+    "none": "không"
 }
