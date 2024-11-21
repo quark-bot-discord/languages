@@ -11,7 +11,8 @@
         "ends": "Kończy się",
         "vote": "głos",
         "votes": "głosy",
-        "noResponses": "Brak odpowiedzi"
+        "noResponses": "Brak odpowiedzi",
+        "pollDeleted": "Poll Deleted"
     },
     "messageDeleted": {
         "title": "Wiadomość Usunięta",
