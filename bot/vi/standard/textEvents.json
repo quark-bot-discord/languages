@@ -11,7 +11,8 @@
         "ends": "Kết thúc",
         "votes": "phiếu",
         "vote": "phiếu",
-        "noResponses": "Không có phản hồi"
+        "noResponses": "Không có phản hồi",
+        "pollDeleted": "Poll Deleted"
     },
     "messageDeleted": {
         "title": "Tin nhắn đã bị xóa",
