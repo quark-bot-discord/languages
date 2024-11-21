@@ -11,7 +11,8 @@
         "ends": "Eindigt",
         "vote": "stem",
         "votes": "stemmen",
-        "noResponses": "Geen reacties"
+        "noResponses": "Geen reacties",
+        "pollDeleted": "Poll Deleted"
     },
     "messageDeleted": {
         "title": "Bericht Verwijderd",
