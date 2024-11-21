@@ -11,7 +11,8 @@
         "ends": "Fin",
         "vote": "vote",
         "votes": "votes",
-        "noResponses": "Pas de réponse"
+        "noResponses": "Pas de réponse",
+        "pollDeleted": "Poll Deleted"
     },
     "messageDeleted": {
         "title": "Message Supprimé",
