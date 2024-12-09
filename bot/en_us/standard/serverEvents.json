@@ -41,8 +41,8 @@
     "memberRoleAdd": {
         "title": "Role Given",
         "title_multiple": "Roles Given",
-        "description": "{user} was given the {role} role",
-        "description_multiple": "{user} was given multiple roles",
+        "description": "The {role} role was given to {user}",
+        "description_multiple": "Multiple roles were given to {user}",
         "givenBy": "Given by",
         "roles": "Roles"
     },
