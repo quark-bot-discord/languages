@@ -1,18 +1,16 @@
 import { readFileSync, existsSync, readdirSync } from "fs";
 import { join } from "path";
+import { locales } from "../../index.js";
 
 const baseDirectory = "./bot";
-const conversionFile = "./bot/languages.json";
 
 let foundErrors = false;
 
 const nonChatInputCommands = ["initialReactor.json"];
 
 try {
-  const conversionData = readFileSync(conversionFile, "utf8");
-  const languageMap = JSON.parse(conversionData);
 
-  Object.entries(languageMap).forEach(([key, value]) => {
+  Object.entries(locales).forEach(([key, value]) => {
     value = value.code;
     const directory = join(baseDirectory, value, "slash_commands");
     if (!existsSync(directory)) {
