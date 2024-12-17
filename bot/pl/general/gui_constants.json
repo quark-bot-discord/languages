@@ -4,7 +4,7 @@
         "type": "Typ",
         "position": "Pozycja",
         "topic": "Temat",
-        "rate_limit_per_user": "Slowmode",
+        "rate_limit_per_user": "Tryb spowolnenia",
         "parent_id": "Kategoria",
         "bitrate": "Bitrate",
         "user_limit": "Limit Użytkowników",
