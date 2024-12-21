@@ -41,8 +41,8 @@
     "memberRoleAdd": {
         "title": "Rola Nadana",
         "title_multiple": "Role Nadane",
-        "description": "Użytkownikowi {user} nadano rolę {role}",
-        "description_multiple": "Użytkownikowi {user} nadano wiele ról",
+        "description": "Rola {role} została nadana użytkownikowi {user}",
+        "description_multiple": "Nadano wiele ról wżytkownikowi {user}",
         "givenBy": "Nadane przez",
         "roles": "Role"
     },

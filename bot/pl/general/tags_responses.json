@@ -3,7 +3,7 @@
     "create-success": "Tag utworzony! Użyj {tag}, aby uzyskać do niego dostęp w dowolnym momencie!",
     "edit-success": "Tag zmodyfikowany! Użyj {tag}, aby uzyskać do niego dostęp w dowolnym momencie!",
     "delete-success": "Tag {tag} usunięty! Użyj {commandList}, aby zobaczyć wszystkie pozostałe tagi!",
-    "notags-list-command": "Hmmm... nie ma tagów. Możesz utworzyć jeden za pomocą {commandCreate}",
+    "notags-list-command": "Hmmm... nie ma tagów. Możesz utworzyć jeden za pomocą [Quark's web dashboard]",
     "tags-list-title": "Dostępne Tagi",
     "tags-embedoptions-title": "Opcje osadzenia:",
     "tags-usageoptions-title": "Opcje użycia tagu:",
