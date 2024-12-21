@@ -1,4 +1,4 @@
-import languages, { getDiscordLocaleCode, getQuarkLocaleCode, validLanguages } from "./index.js";
+import languages, { getDiscordLocaleCode, getQuarkLocaleCode, validLanguages } from "./dist/index.js";
 console.log(validLanguages);
 
 const language = "en_pr";
@@ -18,6 +18,7 @@ try {
   console.error(error);
 }
 
+// should be undefined, as fallback is disabled
 console.log((await languages(language, true).slash_commands.ping).name);
 
 console.log(Object.keys(await languages("en_gb", true).slash_commands.help));

@@ -1,52 +1,68 @@
-export const locales = (
+export type DiscordLocaleKeys = keyof typeof locales;
+
+export interface Locale {
+  code: string;
+  id: number;
+  name: string;
+  active: boolean;
+}
+
+export type Languages = {
+  [key: string]: Locale;
+};
+
+export const locales: Languages = (
   await import("./bot/languages.json", { with: { type: "json" } })
 ).default;
 
-export const validLanguages = Object.values(locales)
+export const validLanguages: Array<string> = Object.values(locales)
   .map((locale) => (locale.active === true ? locale.code : null))
   .filter((locale) => locale !== null);
 
-export const getDiscordLocaleCode = (language) => {
+export const getDiscordLocaleCode = (language: string): DiscordLocaleKeys => {
   if (typeof language === "string") {
     for (const [key, value] of Object.entries(locales))
-      if (value.code === language) return key;
+      if (value.code === language) return key as DiscordLocaleKeys;
   } else if (typeof language === "number") {
     for (const [key, value] of Object.entries(locales))
-      if (value.id === language) return key;
+      if (value.id === language) return key as DiscordLocaleKeys;
   }
   throw new Error(`Language ${language} not found`);
 };
 
-export const getQuarkLocaleCode = (language) => {
+export const getQuarkLocaleCode = (language: DiscordLocaleKeys): string => {
   const toReturn = locales[language]?.code;
   if (!toReturn) throw new Error(`Language ${language} not found`);
   return toReturn;
 };
 
-export const getDatabaseLocaleCode = (language) => {
+export const getDatabaseLocaleCode = (language: string): number => {
   const toReturn = locales[language]?.id;
-  if (typeof toReturn !== "number") throw new Error(`Language ${language} not found`);
+  if (typeof toReturn !== "number")
+    throw new Error(`Language ${language} not found`);
   return toReturn;
 };
 
-export const getLocaleFromDatabaseCode = (databaseCode) => {
+export const getLocaleFromDatabaseCode = (databaseCode: number): string => {
   for (const [key, value] of Object.entries(locales))
     if (value.id === databaseCode) return key;
   throw new Error(`Language ${databaseCode} not found`);
 };
 
-const readObject = (obj, cursor = "") => {
+const readObject = (obj: { [key: string]: any }, cursor = "") => {
   if (!obj) return undefined;
   const cursorPath = cursor.split(".");
   for (let i = 0; i < cursorPath.length; i++)
-    if (cursorPath[i] && Object.keys(obj).includes(cursorPath[i]))
-      obj = obj[cursorPath[i]];
+    if (cursorPath[i] && Object.keys(obj).includes(cursorPath[i])) {
+      if (typeof obj[cursorPath[i]] !== "object") return obj[cursorPath[i]];
+      else obj = (obj as { [key: string]: object })[cursorPath[i]];
+    }
   return obj;
 };
 
 const returnNextProperty = (
-  languagesStringsToUse,
-  fallbackLanguagesStrings,
+  languagesStringsToUse: object,
+  fallbackLanguagesStrings: object,
   cursor = ""
 ) => {
   return new Proxy(
@@ -56,10 +72,10 @@ const returnNextProperty = (
         return [
           ...new Set([
             ...(readObject(languagesStringsToUse, cursor)
-              ? Object.keys(readObject(languagesStringsToUse, cursor))
+              ? Object.keys(readObject(languagesStringsToUse, cursor) || {})
               : []),
             ...(readObject(fallbackLanguagesStrings, cursor)
-              ? Object.keys(readObject(fallbackLanguagesStrings, cursor))
+              ? Object.keys(readObject(fallbackLanguagesStrings, cursor) || {})
               : []),
           ]),
         ];
@@ -70,7 +86,9 @@ const returnNextProperty = (
             languagesStringsToUse,
             fallbackLanguagesStrings
           );
-        const currentCursor = cursor ? `${cursor}.${prop1}` : prop1;
+        const currentCursor = cursor
+          ? `${cursor}.${String(prop1)}`
+          : String(prop1);
         const toReturn = readObject(languagesStringsToUse, currentCursor)
           ? readObject(languagesStringsToUse, currentCursor)
           : readObject(fallbackLanguagesStrings, currentCursor);
@@ -97,17 +115,21 @@ const returnNextProperty = (
   );
 };
 
-const languageTypeProxy = (language, type, noFallback) => {
+const languageTypeProxy = (
+  language: string,
+  type: string,
+  noFallback: boolean
+) => {
   return new Proxy(
     {},
     {
       async get(target, prop) {
         const selectedLanguagesStrings = await import(
-          `./bot/${language}/${type}/${prop}.json`,
+          `./bot/${language}/${type}/${String(prop)}.json`,
           { with: { type: "json" } }
         ).catch(() => null);
         const fallbackLanguagesStrings = !noFallback
-          ? await import(`./bot/en_us/${type}/${prop}.json`, {
+          ? await import(`./bot/en_us/${type}/${String(prop)}.json`, {
               with: { type: "json" },
             })
           : null;
@@ -123,16 +145,19 @@ const languageTypeProxy = (language, type, noFallback) => {
   );
 };
 
-export default function languageProxy(language, noFallback = false) {
+export default function languageProxy(
+  language: string,
+  noFallback: boolean = false
+) {
   return new Proxy(
     {},
     {
       get(target, prop) {
         if (validLanguages.includes(language)) {
-          return languageTypeProxy(language, prop, noFallback);
+          return languageTypeProxy(language, String(prop), noFallback);
         } else if (!noFallback) {
           // default to en_us
-          return languageTypeProxy("en_us", prop, noFallback);
+          return languageTypeProxy("en_us", String(prop), noFallback);
         } else {
           throw new Error(`Language ${language} not found`);
         }

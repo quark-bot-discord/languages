@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true,
+    "strictNullChecks": true,
+    "outDir": "./dist",
+    "allowJs": true, // Allow JavaScript files
+    "checkJs": false, // Check JavaScript files with TypeScript
+    "sourceMap": true,
+    "baseUrl": ".",
+    "rootDir": ".",
+    "paths": {
+      "*": ["*"]
+    }
+  },
+  "include": ["bot/**/*", "index.ts", "bot/**/*.json"],
+  "exclude": ["node_modules", "dist"]
+}
