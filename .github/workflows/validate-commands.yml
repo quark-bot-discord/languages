@@ -24,4 +24,4 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Validate Slash Command files
-      run: node .github/scripts/validate-slash_commands.js
+      run: npm run build && node .github/scripts/validate-slash_commands.js

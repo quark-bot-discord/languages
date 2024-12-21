@@ -1,6 +1,6 @@
 import { readFileSync, existsSync, readdirSync } from "fs";
 import { join } from "path";
-import { locales } from "../../index.js";
+import { locales } from "../../dist/index.js";
 
 const baseDirectory = "./bot";
 
