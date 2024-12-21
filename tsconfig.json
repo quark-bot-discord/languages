@@ -20,6 +20,6 @@
       "*": ["*"]
     }
   },
-  "include": ["bot/**/*", "index.ts", "bot/**/*.json"],
+  "include": ["bot/**/*", "index.ts", "bot/**/*.json", "package.json"],
   "exclude": ["node_modules", "dist"]
 }
