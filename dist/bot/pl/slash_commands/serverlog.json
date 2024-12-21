@@ -1,0 +1,58 @@
+{
+    "name": "serverlog",
+    "description": "Dziennik serwera",
+    "commandOptions": {
+        "channelOptionAllChannel": {
+            "name": "kanał",
+            "description": "Wybierz kanał logowania"
+        },
+        "channelOptionAll": {
+            "name": "wszystko",
+            "description": "Przełącz kanał na logowanie wszystkich typów logów"
+        },
+        "channelOption": {
+            "name": "channel",
+            "description": "Ustaw kanał dziennika serwera"
+        },
+        "targetUserOption": {
+            "name": "użytkownik",
+            "description": "Wybierz cel"
+        },
+        "ignoreOptionTarget": {
+            "name": "cel",
+            "description": "Cele to osoby wykonujące akcję"
+        },
+        "messageContentOption": {
+            "name": "zawartość",
+            "description": "Dodaj lub usuń wiadomość z listy ignorowanych"
+        },
+        "ignoreOptionMessage": {
+            "name": "wiadomość",
+            "description": "Wiadomości o tej dokładnej treści nie są rejestrowane w dzienniku serwera"
+        },
+        "executorUserOption": {
+            "name": "użytkownik",
+            "description": "Wybierz wykonawcę"
+        },
+        "ignoreOptionExecutor": {
+            "name": "executor",
+            "description": "Wykonawcy to osoby przeprowadzające akcję"
+        },
+        "ignoreOptionsChannelChannel": {
+            "name": "kanał",
+            "description": "Dodaj lub usuń kanał z listy ignorowanych"
+        },
+        "ignoreOptionChannel": {
+            "name": "kanał",
+            "description": "Wiadomości na tym kanale nie są rejestrowane w dzienniku serwera"
+        },
+        "ignoreOption": {
+            "name": "ignoruj",
+            "description": "Opcje ignorowania"
+        },
+        "spoilersOption": {
+            "name": "spoilery",
+            "description": "Oznacz wszystkie media wysyłane do dziennika serwera jako spoilery"
+        }
+    }
+}

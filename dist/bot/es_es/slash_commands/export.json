@@ -1,0 +1,26 @@
+{
+    "name": "export",
+    "description": "Exportar un grupo de registros",
+    "commandOptions": {
+        "startOption": {
+            "name": "comenzar",
+            "description": "El enlace del mensaje del primer registro desde el que comenzar a exportar"
+        },
+        "endOption": {
+            "name": "fin",
+            "description": "El enlace del mensaje del último registro desde el que exportar"
+        },
+        "formatOption": {
+            "name": "formato",
+            "description": "El formato de los registros exportados.",
+            "choices": {
+                "json": {
+                    "name": "json"
+                },
+                "pretty": {
+                    "name": "bonito"
+                }
+            }
+        }
+    }
+}

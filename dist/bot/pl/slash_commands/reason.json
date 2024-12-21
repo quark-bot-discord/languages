@@ -1,0 +1,14 @@
+{
+    "name": "reason",
+    "description": "Zmodyfikuj powód w logu",
+    "commandOptions": {
+        "caseOption": {
+            "name": "sprawa",
+            "description": "ID wiadomości loga do modyfikacji"
+        },
+        "reasonOption": {
+            "name": "powód",
+            "description": "Nowy powód aby zmodyfikować sprawę loga"
+        }
+    }
+}

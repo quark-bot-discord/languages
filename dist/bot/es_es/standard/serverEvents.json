@@ -1,0 +1,70 @@
+{
+    "members": "Miembros",
+    "userJoined": {
+        "title": "Usuario unido",
+        "description": "{user} se unió al servidor",
+        "noAvatar": "La cuenta no tiene avatar.",
+        "newAccount": "La cuenta es nueva",
+        "noBadges": "La cuenta no tiene insignias",
+        "warning": "¡ADVERTENCIA!",
+        "accountCreated": "Cuenta creada",
+        "invite": "Invitar",
+        "createdBy": "creado por {user}",
+        "ban": "Prohibición",
+        "info": "Información",
+        "rejoined": "Cuenta reincorporada"
+    },
+    "userLeft": {
+        "title": "Usuario izquierdo",
+        "description": "{user} abandonó el servidor",
+        "joined": "Unido",
+        "roles": "Roles",
+        "serverProfilePicture": "Enlace al avatar del servidor"
+    },
+    "botAdded": {
+        "title": "Bot agregado",
+        "description": "{bot} fue agregado al servidor por {executor}",
+        "descriptionne": "{bot} fue agregado al servidor"
+    },
+    "botRemoved": {
+        "title": "Bot eliminado",
+        "description": "{bot} fue eliminado del servidor por {executor}",
+        "descriptionne": "{bot} fue eliminado del servidor"
+    },
+    "nicknameUpdate": {
+        "title": "Apodo actualizado",
+        "description": "El apodo de {user} se cambió de {oldNickname} a {newNickname}",
+        "setNick": "El apodo de {user} se estableció en **{newNickname}**",
+        "nickRemoved": "Se eliminó el apodo de {user}, **{oldNickname}**",
+        "changedBy": "Cambiado por"
+    },
+    "memberRoleAdd": {
+        "title": "Rol asignado",
+        "title_multiple": "Roles asignados",
+        "description": "A {user} se le asignó el rol {role}",
+        "description_multiple": "A {user} se le asignaron múltiples roles",
+        "givenBy": "Dada por",
+        "roles": "Roles"
+    },
+    "memberRoleRemove": {
+        "title": "Rol asumido",
+        "title_multiple": "Roles asumidos",
+        "description": "El rol {role} fue eliminado de {user}",
+        "description_multiple": "Se eliminaron varios roles de {user}",
+        "removedBy": "Eliminado por",
+        "roles": "Roles"
+    },
+    "memberPrune": {
+        "title": "Miembros podados",
+        "description": "{count} miembros con al menos {time} días de inactividad fueron eliminados por {executor}"
+    },
+    "avatarUpdate": {
+        "title": "Avatar del servidor cambiado",
+        "description": "{user} cambió su avatar de servidor",
+        "description_added": "{user} agregó un avatar de servidor",
+        "description_removed": "{user} eliminó su avatar del servidor",
+        "changedBy": "Cambiado por",
+        "linkToOldAvatar": "Enlace al avatar antiguo",
+        "linkToNewAvatar": "Enlace al nuevo avatar"
+    }
+}

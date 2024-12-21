@@ -1,0 +1,33 @@
+{
+    "name": "tắt_âm",
+    "description": "Tắt âm một người dùng",
+    "commandOptions": {
+        "userOption": {
+            "name": "nguoi_dung",
+            "description": "Người dùng cần tắt âm"
+        },
+        "timeOption": {
+            "name": "thoi_gian",
+            "description": "Thời gian tắt âm người dùng. Đơn vị mặc định là ngày"
+        },
+        "typeOption": {
+            "name": "loai",
+            "description": "Đơn vị cho trường \"thoi_gian\". Mặc định là ngày",
+            "choices": {
+                "minutes": {
+                    "name": "phut"
+                },
+                "hours": {
+                    "name": "gio"
+                },
+                "days": {
+                    "name": "ngay"
+                }
+            }
+        },
+        "reasonOption": {
+            "name": "ly_do",
+            "description": "Lý do tắt âm người dùng"
+        }
+    }
+}

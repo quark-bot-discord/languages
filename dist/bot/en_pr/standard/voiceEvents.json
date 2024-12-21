@@ -1,0 +1,104 @@
+{
+    "streamStart": {
+        "title": "Entertainment Started",
+        "description": "{user} started entertaining the crew in the {channel} cabin"
+    },
+    "streamStop": {
+        "title": "Entertainment Ended",
+        "description": "Th' crew had enough, so {user} stopped entertaining th' crew in the {channel} cabin"
+    },
+    "videoStart": {
+        "title": "Video Entertainment Started",
+        "description": "{user} started entertaining the crew in the {channel} cabin"
+    },
+    "videoStop": {
+        "title": "Video Entertainment Ended",
+        "description": "Th' crew had enough, so {user} stopped entertaining th' crew in the {channel} cabin"
+    },
+    "voiceSwitch": {
+        "title": "Changed Cabin",
+        "description": "{user} went from th' {channel_old} cabin to th' {channel_new} cabin"
+    },
+    "voiceMove": {
+        "title": "Ordered T' Move",
+        "description": "{user} was ordered t' move from th' {channel_old} cabin to the {channel_new} cabin",
+        "movedBy": "Ordered by"
+    },
+    "voiceJoin": {
+        "title": "Entered Cabin",
+        "description": "{user} entered the {channel} cabin"
+    },
+    "voiceLeave": {
+        "title": "Exited Cabin",
+        "description": "{user} departed from the {channel} cabin",
+        "joined": "Present",
+        "joinedValue": "{relative} for {relative_fixed}"
+    },
+    "voiceDisconnect": {
+        "title": "Thrown Out",
+        "description": "{user} was thrown out o' the cabin",
+        "disconnectedBy": "Ordered by",
+        "voiceChannel": "Cabin"
+    },
+    "serverDeafen": {
+        "title": "Deafen'd",
+        "description": "{user} was deafened by th' cannon",
+        "deafenedBy": "Blaster o' th' cannon",
+        "voiceChannel": "Cabin"
+    },
+    "serverMute": {
+        "title": "Silence Enforced",
+        "description": "{user} was ordered t' keep thar mouth shut in th' cabin",
+        "mutedBy": "Ordered by",
+        "voiceChannel": "Cabin"
+    },
+    "serverUndeafen": {
+        "title": "Ears Recovered",
+        "description": "{user} has regained thar hearin'",
+        "undeafenedBy": "Nursed by",
+        "voiceChannel": "Cabin"
+    },
+    "serverUnmute": {
+        "title": "Permitted T' Speak",
+        "description": "{user} was permitted t' speak again",
+        "unmutedBy": "Permitted by",
+        "voiceChannel": "Cabin"
+    },
+    "channelStatusUpdate": {
+        "title": "Voice Channel Status Updated",
+        "description": "{executor} set the status for {channel}",
+        "status": "Status",
+        "linksToEmojis": "Links to emojis"
+    },
+    "stageStarted": {
+        "title": "Stage Started",
+        "description": "{executor} started a stage in {channel}",
+        "topic": "Topic"
+    },
+    "stageEnded": {
+        "title": "Stage Ended",
+        "description": "The stage in {channel} was ended by {executor}",
+        "description_noExecutor": "The stage in {channel} was ended",
+        "topic": "Topic",
+        "none": "none"
+    },
+    "stageUpdated": {
+        "title": "Stage Updated",
+        "description": "The stage in {channel} was updated by {executor}",
+        "oldTopic": "Old Topic",
+        "newTopic": "New Topic"
+    },
+    "stageSpeakerAdd": {
+        "title": "New Stage Speaker",
+        "description": "{user} became a speaker in the {channel} stage channel",
+        "description_inviteAccepted": "{user} accepted the invite to become a speaker in the {channel} stage channel"
+    },
+    "stageSpeakerRemove": {
+        "title": "Stopped Speaking",
+        "description": "{user} is no longer a speaker in the {channel} stage channel"
+    },
+    "stageSpeakerInvited": {
+        "title": "Speaker Invited",
+        "description": "{user} was invited to speak in the {channel} stage channel"
+    }
+}

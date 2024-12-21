@@ -1,0 +1,33 @@
+{
+    "name": "mute",
+    "description": "Wycisz użytkownika",
+    "commandOptions": {
+        "userOption": {
+            "name": "użytkownik",
+            "description": "Użytkownik do wyciszenia"
+        },
+        "timeOption": {
+            "name": "czas",
+            "description": "Okres czasu na wyciszenie użytkownika. Domyślna jednostka to dni"
+        },
+        "typeOption": {
+            "name": "typ",
+            "description": "Jednostki dla pola \"czas\". Domyślnie dni",
+            "choices": {
+                "minutes": {
+                    "name": "minuty"
+                },
+                "hours": {
+                    "name": "godziny"
+                },
+                "days": {
+                    "name": "dni"
+                }
+            }
+        },
+        "reasonOption": {
+            "name": "powód",
+            "description": "Powód wyciszenia użytkownika"
+        }
+    }
+}

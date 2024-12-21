@@ -1,0 +1,66 @@
+{
+    "name": "tags",
+    "description": "Etiquetas",
+    "commandOptions": {
+        "sendOptionTag": {
+            "name": "etiqueta",
+            "description": "Nombre de la etiqueta a enviar"
+        },
+        "sendOptionUser": {
+            "name": "usuario",
+            "description": "Menciona a un usuario para una mejor visibilidad."
+        },
+        "sendOption": {
+            "name": "enviar",
+            "description": "Enviar una etiqueta"
+        },
+        "editOptionTag": {
+            "name": "etiqueta",
+            "description": "Nombre de la etiqueta a editar"
+        },
+        "editOptionText": {
+            "name": "texto",
+            "description": "Texto para mostrar en la etiqueta"
+        },
+        "editOptionColour": {
+            "name": "color",
+            "description": "El código de color hexadecimal para la etiqueta."
+        },
+        "editOptionImage": {
+            "name": "imagen",
+            "description": "Una URL para que una imagen se muestre en la etiqueta"
+        },
+        "editOption": {
+            "name": "editar",
+            "description": "Editar una etiqueta"
+        },
+        "createOptionTag": {
+            "name": "etiqueta",
+            "description": "Nombre de la etiqueta a crear"
+        },
+        "createOptionText": {
+            "name": "texto",
+            "description": "Texto para mostrar en la etiqueta"
+        },
+        "createOption": {
+            "name": "crear",
+            "description": "Crear una etiqueta"
+        },
+        "deleteOptionTag": {
+            "name": "etiqueta",
+            "description": "Nombre de la etiqueta a eliminar"
+        },
+        "deleteOption": {
+            "name": "borrar",
+            "description": "Eliminar una etiqueta"
+        },
+        "listOption": {
+            "name": "lista",
+            "description": "Listar todas las etiquetas"
+        },
+        "helpOption": {
+            "name": "ayuda",
+            "description": "Obtén ayuda con las etiquetas"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "giúp_đỡ",
+    "description": "Nhận trợ giúp với Quark",
+    "commandOptions": {
+        "overviewOption": {
+            "name": "tổng_quan",
+            "description": "Xem thông tin trợ giúp chung"
+        },
+        "serverlogOption": {
+            "name": "serverlog",
+            "description": "Nhận trợ giúp serverlog của Quark"
+        }
+    }
+}

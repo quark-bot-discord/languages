@@ -1,0 +1,32 @@
+{
+    "roleCreated": {
+        "title": "Vai trò đã được tạo",
+        "description": "{role} đã được tạo bởi {executor}"
+    },
+    "roleDeleted": {
+        "title": "Vai trò đã bị xóa",
+        "description": "{role_name} đã bị xóa bởi {executor}",
+        "role": "Vai trò",
+        "linkToRoleIcon": "Link to role icon"
+    },
+    "roleUpdated": {
+        "title": "Vai trò đã được sửa đổi",
+        "description": "{role} đã được sửa đổi bởi {executor}"
+    },
+    "rolePermissionsUpdate": {
+        "title": "Role Permissions Updated",
+        "description": "Permissions for {role} were updated by {executor}",
+        "newPermissions": "New Permissions",
+        "oldPermissions": "Old Permissions",
+        "viewFullNewPermissions": "View Full New Permissions",
+        "viewFullOldPermissions": "View Full Old Permissions"
+    },
+    "roleIconUpdate": {
+        "title": "Role Icon Updated",
+        "description": "{executor} updated the icon for {role}",
+        "description_added": "{executor} added an icon for {role}",
+        "description_removed": "{executor} removed the icon for {role}",
+        "linkToOldIcon": "Link to old icon",
+        "linkToNewIcon": "Link to new icon"
+    }
+}

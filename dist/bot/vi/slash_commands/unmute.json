@@ -1,0 +1,14 @@
+{
+    "name": "bật_âm",
+    "description": "Bật âm cho người dùng",
+    "commandOptions": {
+        "userOption": {
+            "name": "người_dùng",
+            "description": "Người dùng cần bật âm"
+        },
+        "reasonOption": {
+            "name": "lý_do",
+            "description": "Lý do bật âm cho người dùng"
+        }
+    }
+}

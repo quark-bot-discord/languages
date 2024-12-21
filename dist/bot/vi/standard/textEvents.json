@@ -1,0 +1,93 @@
+{
+    "polls": {
+        "poll": "Bình chọn",
+        "pollDescriptor": "[bình chọn]",
+        "status": "Bình chọn có trạng thái.",
+        "ended": "đã kết thúc",
+        "notEnded": "chưa kết thúc",
+        "multiselect": "Chọn nhiều",
+        "enabled": "đã bật",
+        "disabled": "đã tắt",
+        "ends": "Kết thúc",
+        "votes": "phiếu",
+        "vote": "phiếu",
+        "noResponses": "Không có phản hồi",
+        "pollDeleted": "Poll Deleted"
+    },
+    "messageDeleted": {
+        "title": "Tin nhắn đã bị xóa",
+        "author": "Tác giả tin nhắn",
+        "channel": "Kênh",
+        "deletedBy": "Được xóa bởi",
+        "jumpToContext": "Chuyển đến ngữ cảnh",
+        "warning": "CẢNH BÁO!",
+        "linksToEmojis": "Liên kết đến emoji",
+        "linksToFiles": "Liên kết đến tệp tin",
+        "inviteDetected": "Phát hiện lời mời máy chủ",
+        "file": "tệp tin",
+        "files": "tệp tin",
+        "fileExpired": "tệp tin quá lớn hoặc đã hết hạn",
+        "filesExpired": "các tệp tin quá lớn hoặc đã hết hạn",
+        "sticker": "nhãn dán",
+        "noContent": "không có nội dung",
+        "thread": "Chủ đề",
+        "ghostpingDetected": "Đã phát hiện ghostping",
+        "embed": "nhúng",
+        "initialReactor": "người phản ứng đầu tiên"
+    },
+    "messagesBulkDeleted": {
+        "title": "Xóa nhiều tin nhắn",
+        "deletedBy": "Được xóa bởi",
+        "channel": "Kênh",
+        "more": "thêm",
+        "uncachedUser": "người dùng chưa được lưu vào bộ nhớ cache",
+        "uncachedChannel": "kênh chưa được lưu vào bộ nhớ cache",
+        "uncachedMessage": "tin nhắn chưa được lưu vào bộ nhớ cache",
+        "embed": "nhúng",
+        "errorFile": "Có vấn đề khi khôi phục các tệp tin. Nếu điều này xảy ra liên tục, hãy thông báo cho chúng tôi trong máy chủ hỗ trợ của chúng tôi.",
+        "errorText": "Có vấn đề khi tạo tệp văn bản. Một số tin nhắn có thể bị mất. Nếu điều này xảy ra liên tục, hãy thông báo cho chúng tôi trong máy chủ hỗ trợ của chúng tôi."
+    },
+    "messageUpdate": {
+        "title": "Tin nhắn đã chỉnh sửa",
+        "author": "Tác giả tin nhắn",
+        "channel": "Kênh",
+        "jumpToMessage": "Chuyển đến tin nhắn",
+        "afterEdit": "Sau khi chỉnh sửa",
+        "diff": "Khác biệt",
+        "diffError": "Không thể tính toán các chỉnh sửa.",
+        "cannotRetrieveOriginal": "Không thể lấy lại tin nhắn gốc",
+        "noContent": "không có nội dung",
+        "thread": "Chủ đề"
+    },
+    "attachmentDeleted": {
+        "title": "Tệp tin đính kèm đã bị xóa"
+    },
+    "messagePin": {
+        "title": "Tin nhắn đã ghim",
+        "description": "Một tin nhắn đã được ghim bởi {executor}"
+    },
+    "messageUnpin": {
+        "title": "Tin nhắn đã bỏ ghim",
+        "description": "Một tin nhắn đã được bỏ ghim bởi {executor}"
+    },
+    "threadCreate": {
+        "thread": "Chủ đề",
+        "channel": "Kênh",
+        "jumpToContext": "Chuyển đến ngữ cảnh",
+        "title": "Chủ đề mới được tạo",
+        "description": "{member} đã tạo một chủ đề mới {thread}"
+    },
+    "threadDelete": {
+        "thread": "Chủ đề",
+        "channel": "Kênh",
+        "title": "Chủ đề đã bị xóa",
+        "description": "{executor} đã xóa một chủ đề {thread}"
+    },
+    "messageReactionRemove": {
+        "title": "Đã gỡ phản ứng",
+        "emoji": "Emoji",
+        "linkToEmoji": "Liên kết đến emoji",
+        "jumpToMessage": "Nhảy đến tin nhắn",
+        "description": "{executor} đã gỡ một phản ứng khỏi tin nhắn"
+    }
+}

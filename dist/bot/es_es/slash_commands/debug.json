@@ -1,0 +1,10 @@
+{
+    "name": "debug",
+    "description": "Generar un informe de depuración para este servidor",
+    "commandOptions": {
+        "shareOption": {
+            "name": "compartir",
+            "description": "Elija si desea compartir este informe de depuración con los desarrolladores"
+        }
+    }
+}

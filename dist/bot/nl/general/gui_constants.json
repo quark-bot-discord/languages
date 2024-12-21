@@ -1,0 +1,41 @@
+{
+    "channelModificationTypes": {
+        "name": "Naam",
+        "type": "Type",
+        "position": "Positie",
+        "topic": "Onderwerp",
+        "rate_limit_per_user": "Slowmode",
+        "parent_id": "Categorie",
+        "bitrate": "Bitrate",
+        "user_limit": "Gebruikerslimiet",
+        "rtc_region": "Regio",
+        "nsfw": "NSFW"
+    },
+    "roleModificationTypes": {
+        "name": "Naam",
+        "color": "Kleur",
+        "hoist": "Gehoist",
+        "managed": "Beheerd",
+        "mentionable": "Vermeldbaar",
+        "unicode_emoji": "Emoji"
+    },
+    "emojiModificationTypes": {
+        "name": "Naam"
+    },
+    "guildModificationTypes": {
+        "name": "Naam",
+        "description": "Beschrijving",
+        "system_channel_id": "Systeemkanaal",
+        "rules_channel_id": "Regelkanaal",
+        "mfa_level": "MFA Vereist",
+        "verification_level": "Verificatieniveau",
+        "default_message_notifications": "Standaardmeldingen",
+        "explicit_content_filter": "Expliciete inhoud filter",
+        "nsfw_level": "NSFW-niveau",
+        "premium_progress_bar_enabled": "Voortgangsbalk"
+    },
+    "webhookModificationTypes": {
+        "name": "Naam",
+        "channel_id": "Kanaal"
+    }
+}

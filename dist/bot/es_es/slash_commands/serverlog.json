@@ -1,0 +1,58 @@
+{
+    "name": "serverlog",
+    "description": "Registro del servidor",
+    "commandOptions": {
+        "channelOptionAllChannel": {
+            "name": "canal",
+            "description": "Seleccione el canal de registro"
+        },
+        "channelOptionAll": {
+            "name": "todo",
+            "description": "Alternar canal para que no registre todos los tipos de registros"
+        },
+        "channelOption": {
+            "name": "canal",
+            "description": "Establecer el canal de registro del servidor"
+        },
+        "targetUserOption": {
+            "name": "usuario",
+            "description": "Seleccione un objetivo"
+        },
+        "ignoreOptionTarget": {
+            "name": "objetivo",
+            "description": "Los objetivos son las personas que realizan la acción."
+        },
+        "messageContentOption": {
+            "name": "contenido",
+            "description": "Agregar o eliminar un mensaje de la lista de ignorados"
+        },
+        "ignoreOptionMessage": {
+            "name": "mensaje",
+            "description": "Los mensajes con este contenido exacto no se registran en el registro del servidor."
+        },
+        "executorUserOption": {
+            "name": "usuario",
+            "description": "Seleccione un ejecutor"
+        },
+        "ignoreOptionExecutor": {
+            "name": "ejecutor",
+            "description": "Los ejecutores son personas que llevan a cabo la acción."
+        },
+        "ignoreOptionsChannelChannel": {
+            "name": "canal",
+            "description": "Agregar o eliminar un canal de la lista de ignorados"
+        },
+        "ignoreOptionChannel": {
+            "name": "canal",
+            "description": "Los mensajes en este canal no se registran en el registro del servidor."
+        },
+        "ignoreOption": {
+            "name": "ignorar",
+            "description": "Ignorar opciones"
+        },
+        "spoilersOption": {
+            "name": "spoilers",
+            "description": "Spoiler todos los medios enviados al serverlog"
+        }
+    }
+}

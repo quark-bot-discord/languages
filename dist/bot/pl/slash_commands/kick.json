@@ -1,0 +1,14 @@
+{
+    "name": "kick",
+    "description": "Wyrzuć użytkownika",
+    "commandOptions": {
+        "userOption": {
+            "name": "użytkownik",
+            "description": "Użytkownik którego chcesz wyrzucic"
+        },
+        "reasonOption": {
+            "name": "powód",
+            "description": "Powód wyrzucenia użytkownika"
+        }
+    }
+}

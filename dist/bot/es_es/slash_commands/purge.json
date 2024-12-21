@@ -1,0 +1,10 @@
+{
+    "name": "purge",
+    "description": "Purgar mensajes del canal",
+    "commandOptions": {
+        "countOption": {
+            "name": "contar",
+            "description": "Número de mensajes para eliminar (2-100)"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "lý_do",
+    "description": "Sửa đổi lý do trên bảng ghi quản trị",
+    "commandOptions": {
+        "caseOption": {
+            "name": "trường_hợp",
+            "description": "ID tin nhắn của bảng ghi quản trị cần sửa đổi"
+        },
+        "reasonOption": {
+            "name": "lý_do",
+            "description": "Lý do mới để cập nhật cho trường hợp bảng ghi quản trị"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "roleCreated": {
+        "title": "Rôle créé",
+        "description": "{role} a été créé par {executor}"
+    },
+    "roleDeleted": {
+        "title": "Rôle Supprimé",
+        "description": "{role_name} a été supprimé par {executor}",
+        "role": "Rôle",
+        "linkToRoleIcon": "Lien vers l'icône du rôle"
+    },
+    "roleUpdated": {
+        "title": "Rôle Modifié",
+        "description": "{role} a été modifié par {executor}"
+    },
+    "rolePermissionsUpdate": {
+        "title": "Permissions du Rôle Modifiées",
+        "description": "Les permissions pour {role} ont été modifiées par {executor}",
+        "newPermissions": "Nouvelles Permissions",
+        "oldPermissions": "Anciennes Permissions",
+        "viewFullNewPermissions": "Voir Toutes Les Nouvelles Permissions",
+        "viewFullOldPermissions": "Voir Toutes Les Anciennes Permissions"
+    },
+    "roleIconUpdate": {
+        "title": "Icône du Rôle Modifiée",
+        "description": "{executor} a modifié l'icône pour {role}",
+        "description_added": "{executor} a ajouté une icône pour {role}",
+        "description_removed": "{executor} a supprimé l'icône pour {role}",
+        "linkToOldIcon": "Lien vers l'ancienne icône",
+        "linkToNewIcon": "Lien vers la nouvelle icône"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "unmute",
+    "description": "Dejar de silenciar a un usuario",
+    "commandOptions": {
+        "userOption": {
+            "name": "usuario",
+            "description": "El usuario para activar el silencio."
+        },
+        "reasonOption": {
+            "name": "razón",
+            "description": "El motivo para reactivar el silencio del usuario."
+        }
+    }
+}

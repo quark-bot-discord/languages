@@ -1,0 +1,18 @@
+{
+    "name": "ban",
+    "description": "Prohibir a un usuario",
+    "commandOptions": {
+        "userOption": {
+            "name": "usuario",
+            "description": "El usuario a prohibir"
+        },
+        "reasonOption": {
+            "name": "razón",
+            "description": "El motivo de la prohibición del usuario."
+        },
+        "deleteMessageDaysOption": {
+            "name": "borrar",
+            "description": "Número de días de mensajes de usuario para eliminar"
+        }
+    }
+}

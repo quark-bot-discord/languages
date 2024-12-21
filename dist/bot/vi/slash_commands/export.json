@@ -1,0 +1,26 @@
+{
+    "name": "xuất",
+    "description": "Xuất một nhóm log",
+    "commandOptions": {
+        "startOption": {
+            "name": "bắt_đầu",
+            "description": "Liên kết tin nhắn của log đầu tiên để bắt đầu xuất"
+        },
+        "endOption": {
+            "name": "kết_thúc",
+            "description": "Liên kết tin nhắn của log cuối cùng để xuất"
+        },
+        "formatOption": {
+            "name": "định_dạng",
+            "description": "Định dạng của log được xuất",
+            "choices": {
+                "json": {
+                    "name": "json"
+                },
+                "pretty": {
+                    "name": "pretty"
+                }
+            }
+        }
+    }
+}

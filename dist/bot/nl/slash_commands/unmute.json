@@ -1,0 +1,14 @@
+{
+    "name": "ongedempt",
+    "description": "Een gebruiker ongedempt maken",
+    "commandOptions": {
+        "userOption": {
+            "name": "gebruiker",
+            "description": "De gebruiker te ontdempen"
+        },
+        "reasonOption": {
+            "name": "reden",
+            "description": "De reden om de gebruiker te ontdempen"
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "name": "gỡ_lỗi",
+    "description": "Tạo báo cáo gỡ lỗi cho máy chủ này",
+    "commandOptions": {
+        "shareOption": {
+            "name": "chia_sẻ",
+            "description": "Chọn liệu có chia sẻ báo cáo gỡ lỗi này với nhà phát triển hay không"
+        }
+    }
+}

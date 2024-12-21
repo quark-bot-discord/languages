@@ -1,0 +1,18 @@
+{
+    "name": "cấm",
+    "description": "Cấm một người dùng",
+    "commandOptions": {
+        "userOption": {
+            "name": "người_dùng",
+            "description": "Người dùng bị cấm"
+        },
+        "reasonOption": {
+            "name": "lý_do",
+            "description": "Lý do cấm người dùng"
+        },
+        "deleteMessageDaysOption": {
+            "name": "xóa",
+            "description": "Số ngày xóa tin nhắn của người dùng"
+        }
+    }
+}

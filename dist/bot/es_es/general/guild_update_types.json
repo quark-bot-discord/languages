@@ -1,0 +1,29 @@
+{
+    "none": "ninguno",
+    "verification_level": {
+        "0": "ninguno",
+        "1": "bajo",
+        "2": "medio",
+        "3": "alto",
+        "4": "muy_alto"
+    },
+    "default_message_notifications": {
+        "0": "todos los mensajes",
+        "1": "solo menciona"
+    },
+    "explicit_content_filter": {
+        "0": "desactivado",
+        "1": "miembros sin roles",
+        "2": "todos los miembros"
+    },
+    "nsfw_level": {
+        "0": "por defecto",
+        "1": "explícito",
+        "2": "seguro",
+        "3": "edad restringida"
+    },
+    "premium_progress_bar_enabled": {
+        "true": "activado",
+        "false": "desactivado"
+    }
+}

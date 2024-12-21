@@ -1,0 +1,10 @@
+{
+    "name": "language",
+    "description": "Change Quark's language",
+    "commandOptions": {
+        "languageOption": {
+            "name": "language",
+            "description": "Set the bot language for this server"
+        }
+    }
+}

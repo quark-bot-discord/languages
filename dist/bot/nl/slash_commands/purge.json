@@ -1,0 +1,10 @@
+{
+    "name": "opschonen",
+    "description": "Kanaalberichten opschonen",
+    "commandOptions": {
+        "countOption": {
+            "name": "aantal",
+            "description": "Aantal berichten om te verwijderen (2-100)"
+        }
+    }
+}

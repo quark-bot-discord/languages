@@ -1,0 +1,93 @@
+{
+    "polls": {
+        "poll": "Poll",
+        "pollDescriptor": "[poll]",
+        "status": "Poll has status.",
+        "ended": "ended",
+        "notEnded": "not ended",
+        "multiselect": "Multiselect",
+        "enabled": "enabled",
+        "disabled": "disabled",
+        "ends": "Ends",
+        "vote": "vote",
+        "votes": "votes",
+        "noResponses": "No responses",
+        "pollDeleted": "Poll Deleted"
+    },
+    "messageDeleted": {
+        "title": "Message Scrubbed",
+        "author": "Message written by",
+        "channel": "Deck",
+        "deletedBy": "Scrubbed by",
+        "jumpToContext": "Jump t' where it 'appened",
+        "warning": "WARNIN'!",
+        "linksToEmojis": "Links to emojis",
+        "linksToFiles": "Links to files",
+        "inviteDetected": "Server invite detected",
+        "ghostpingDetected": "Ghostping detected",
+        "file": "file",
+        "files": "files",
+        "fileExpired": "file too large or expired",
+        "filesExpired": "files too large or expired",
+        "sticker": "sticker",
+        "noContent": "nothin' t' see",
+        "embed": "embed",
+        "thread": "Thread",
+        "initialReactor": "initial reactor"
+    },
+    "messagesBulkDeleted": {
+        "title": "Multiple Messages Scrubbed",
+        "deletedBy": "Scrubbed by",
+        "channel": "Deck",
+        "more": "more",
+        "uncachedUser": "uncached user",
+        "uncachedChannel": "uncached channel",
+        "uncachedMessage": "uncached message",
+        "embed": "embed",
+        "errorFile": "There was an issue with recovering the files. If this happens persistently, please make us aware in Quark's support server.",
+        "errorText": "There was an issue with creating a text file. Some messages may be lost. If this happens persistently, please make us aware in Quark's support server."
+    },
+    "messageUpdate": {
+        "title": "Message Rewritten",
+        "author": "Message written by",
+        "channel": "Deck",
+        "jumpToMessage": "Jump t' th' message",
+        "afterEdit": "After rewrite",
+        "diff": "Edits",
+        "diffError": "Unable to calculate edits.",
+        "cannotRetrieveOriginal": "Cannot retrieve original message",
+        "noContent": "nothin' t' see",
+        "thread": "Thread"
+    },
+    "attachmentDeleted": {
+        "title": "Attachment Be Gone"
+    },
+    "messagePin": {
+        "title": "Message Pinned",
+        "description": "A message was pinned by {executor}"
+    },
+    "messageUnpin": {
+        "title": "Message Unpinned",
+        "description": "A message was unpinned by {executor}"
+    },
+    "threadCreate": {
+        "thread": "Thread",
+        "channel": "Channel",
+        "jumpToContext": "Jump t' where it 'appened",
+        "title": "Thread Created",
+        "description": "{member} created a new thread {thread}"
+    },
+    "threadDelete": {
+        "thread": "Thread",
+        "channel": "Channel",
+        "title": "Thread Deleted",
+        "description": "{executor} deleted a thread {thread}"
+    },
+    "messageReactionRemove": {
+        "title": "Reaction Removed",
+        "description": "{executor} removed a reaction from a message",
+        "emoji": "Emoji",
+        "linkToEmoji": "Link to emoji",
+        "jumpToMessage": "Jump to message"
+    }
+}

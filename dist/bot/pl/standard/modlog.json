@@ -1,0 +1,20 @@
+{
+    "moderator": "Moderator",
+    "user": "Użytkownik",
+    "reason": "Powód",
+    "case": "Sprawa",
+    "noReason": "[brak podanego powodu]",
+    "noReasonBrief": "Uruchom {command}",
+    "ban": "Ban",
+    "unban": "Unban",
+    "kick": "wyrzucenie",
+    "mute": "Przerwa",
+    "unmute": "Przerwa została zdjęta",
+    "timeoutEnds": "Przerwa kończy się {time}",
+    "editReason": "Edytuj powód",
+    "reasonModal": {
+        "label": "Powód",
+        "placeholder": "Bardzo złe zachowanie >:(",
+        "title": "Zmodyfikuj powód w modlogu"
+    }
+}

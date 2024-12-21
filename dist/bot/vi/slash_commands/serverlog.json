@@ -1,0 +1,58 @@
+{
+    "name": "serverlog",
+    "description": "Serverlog",
+    "commandOptions": {
+        "channelOptionAllChannel": {
+            "name": "kênh",
+            "description": "Chọn kênh ghi log"
+        },
+        "channelOptionAll": {
+            "name": "tất_cả",
+            "description": "Chuyển đổi kênh từ ghi tất cả các loại log"
+        },
+        "channelOption": {
+            "name": "kênh",
+            "description": "Thiết lập kênh serverlog"
+        },
+        "targetUserOption": {
+            "name": "người_dùng",
+            "description": "Chọn mục tiêu"
+        },
+        "ignoreOptionTarget": {
+            "name": "mục_tiêu",
+            "description": "Mục tiêu là những người thực hiện hành động"
+        },
+        "messageContentOption": {
+            "name": "nội_dung",
+            "description": "Thêm hoặc xóa một tin nhắn khỏi danh sách bỏ qua"
+        },
+        "ignoreOptionMessage": {
+            "name": "tin_nhắn",
+            "description": "Các tin nhắn có nội dung chính xác này không được ghi lại vào serverlog"
+        },
+        "executorUserOption": {
+            "name": "người_dùng",
+            "description": "Chọn người thực hiện"
+        },
+        "ignoreOptionExecutor": {
+            "name": "người_thực_hiện",
+            "description": "Người thực hiện là những người thực hiện hành động"
+        },
+        "ignoreOptionsChannelChannel": {
+            "name": "kênh",
+            "description": "Thêm hoặc xóa một kênh khỏi danh sách bỏ qua"
+        },
+        "ignoreOptionChannel": {
+            "name": "kênh",
+            "description": "Các tin nhắn trong kênh này không được ghi lại vào serverlog"
+        },
+        "ignoreOption": {
+            "name": "bỏ_qua",
+            "description": "Tùy chọn bỏ qua"
+        },
+        "spoilersOption": {
+            "name": "spoilers",
+            "description": "Ẩn nội dung của tất cả các phương tiện gửi đến serverlog"
+        }
+    }
+}

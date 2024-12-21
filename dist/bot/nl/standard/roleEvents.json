@@ -1,0 +1,32 @@
+{
+    "roleCreated": {
+        "title": "Rol Gecreëerd",
+        "description": "{role} is gecreëerd door {executor}"
+    },
+    "roleDeleted": {
+        "title": "Rol Verwijderd",
+        "description": "{role_name} is verwijderd door {executor}",
+        "role": "Rol",
+        "linkToRoleIcon": "Link naar rol icoon"
+    },
+    "roleUpdated": {
+        "title": "Rol Gewijzigd",
+        "description": "{role} is gewijzigd door {executor}"
+    },
+    "rolePermissionsUpdate": {
+        "title": "Rol Machtigingen Bijgewerkt",
+        "description": "Machtigingen voor {role} zijn bijgewerkt door {executor}",
+        "newPermissions": "Nieuwe Machtigingen",
+        "oldPermissions": "Oude Machtigingen",
+        "viewFullNewPermissions": "Volledige Nieuwe Machtigingen Bekijken",
+        "viewFullOldPermissions": "Volledige Oude Machtigingen Bekijken"
+    },
+    "roleIconUpdate": {
+        "title": "Rol Icoon Bijgewerkt",
+        "description": "{executor} heeft het icoon voor {role} bijgewerkt",
+        "description_added": "{executor} heeft een icoon toegevoegd voor {role}",
+        "description_removed": "{executor} heeft het icoon verwijderd voor {role}",
+        "linkToOldIcon": "Link naar oud icoon",
+        "linkToNewIcon": "Link naar nieuw icoon"
+    }
+}

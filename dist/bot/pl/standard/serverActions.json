@@ -1,0 +1,55 @@
+{
+    "inviteCreate": {
+        "title": "Utworzono zaproszenie",
+        "description_withInviter": "{inviter} utworzył zaproszenie {invite} na {channel}",
+        "description_withoutInviter": "Zaproszenie {invite} ostało utworzone dla {channel}",
+        "expires": "Wygasa",
+        "never": "Nigdy",
+        "maxUses": "Maksymalna liczba użyć",
+        "none": "brak"
+    },
+    "inviteDelete": {
+        "title": "Zaproszenie usunięte",
+        "description_withExecutor": "{executor} usunął zaproszenie {invite} na {channel}",
+        "description_withoutExecutor": "Zaproszenie {invite} zostało usunięte dla {channel}",
+        "used": "Używany",
+        "created": "Utworzono przez",
+        "none": "brak"
+    },
+    "emojiCreated": {
+        "title": "Utworzono emotkę",
+        "description": "{emoji} została dodana przez {executor}"
+    },
+    "emojiDeleted": {
+        "title": "Usunięto emotkę",
+        "description": "{emoji} została usunięta przez {executor}",
+        "emoji": "Emotka"
+    },
+    "emojiUpdated": {
+        "title": "Edytowano emotkę",
+        "description": "{emoji} została edytowana przez {executor}"
+    },
+    "serverEventCreate": {
+        "title": "Wydarzenie Utworzone",
+        "description_withChannel": "{executor} utworzył wydarzenie {name} w kanale {channel}",
+        "description_withoutChannel": "{executor} utworzył wydarzenie {name}",
+        "eventDescription": "Opis",
+        "location": "Lokalizacja",
+        "starts": "Rozpoczęcie",
+        "image": "Obrazek"
+    },
+    "serverEventDelete": {
+        "title": "Wydarzenie Usunięte",
+        "description": "{executor} usuną wydarzenie {name}",
+        "linkToEventImage": "Link obrazu wydarzenia"
+    },
+    "serverEventUpdate": {
+        "title": "Wydarzenie Zmodifikowane",
+        "description": "{executor} zmodyfikował wydarzenie {name}",
+        "newEventDescription": "Nowy Opis",
+        "newLocation": "Nowa Lokalizacja",
+        "newChannel": "Nowy Kanał",
+        "linkToEventImage": "Link do starego obrazu wydarzenia",
+        "newImage": "Nowy Obrazek"
+    }
+}

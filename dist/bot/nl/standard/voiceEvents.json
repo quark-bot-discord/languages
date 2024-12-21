@@ -1,0 +1,104 @@
+{
+    "streamStart": {
+        "title": "Stream Gestart",
+        "description": "{user} is begonnen met streamen in het {channel} voice kanaal"
+    },
+    "streamStop": {
+        "title": "Stream Gestopt",
+        "description": "{user} is gestopt met streamen in het {channel} voice kanaal"
+    },
+    "videoStart": {
+        "title": "Video Gestart",
+        "description": "{user} is begonnen met hun video in het {channel} voice kanaal"
+    },
+    "videoStop": {
+        "title": "Video Gestopt",
+        "description": "{user} is gestopt met hun video in het {channel} voice kanaal"
+    },
+    "voiceSwitch": {
+        "title": "Kanaal Gewijzigd",
+        "description": "{user} is verhuisd van het {channel_old} voice kanaal naar het {channel_new} voice kanaal"
+    },
+    "voiceMove": {
+        "title": "Verplaatst",
+        "description": "{user} is verplaatst van het {channel_old} voice kanaal naar het {channel_new} voice kanaal",
+        "movedBy": "Verplaatst door"
+    },
+    "voiceJoin": {
+        "title": "Kanaal Toegetreden",
+        "description": "{user} is toegetreden tot het {channel} voice kanaal"
+    },
+    "voiceLeave": {
+        "title": "Kanaal Verlaten",
+        "description": "{user} heeft het {channel} voice kanaal verlaten",
+        "joined": "Joined",
+        "joinedValue": "{relative} for {relative_fixed}"
+    },
+    "voiceDisconnect": {
+        "title": "Verbinding Verbroken",
+        "description": "{user} is losgekoppeld",
+        "disconnectedBy": "Losgekoppeld door",
+        "voiceChannel": "voice kanaal"
+    },
+    "serverDeafen": {
+        "title": "Onhoorbaar Gemaakt",
+        "description": "{user} is onhoorbaar gemaakt",
+        "deafenedBy": "Onhoorbaar gemaakt door",
+        "voiceChannel": "voice kanaal"
+    },
+    "serverMute": {
+        "title": "Gedempt",
+        "description": "{user} is gedempt",
+        "mutedBy": "Gedempt door",
+        "voiceChannel": "voice kanaal"
+    },
+    "serverUndeafen": {
+        "title": "Hoorbaar Gemaakt",
+        "description": "{user} is hoorbaar gemaakt",
+        "undeafenedBy": "Hoorbaar gemaakt door",
+        "voiceChannel": "voice kanaal"
+    },
+    "serverUnmute": {
+        "title": "Ongedempt",
+        "description": "{user} is ongedempt",
+        "unmutedBy": "Ongedempt door",
+        "voiceChannel": "voice kanaal"
+    },
+    "channelStatusUpdate": {
+        "title": "Status van voice kanaal Bijgewerkt",
+        "description": "{executor} heeft de status ingesteld voor {channel}",
+        "status": "Status",
+        "linksToEmojis": "Links naar emoji's"
+    },
+    "stageStarted": {
+        "title": "Podium Gestart",
+        "description": "{executor} is een podium gestart in {channel}",
+        "topic": "Onderwerp"
+    },
+    "stageEnded": {
+        "title": "Podium Gestopt",
+        "description": "Het podium in {channel} is gestopt door {executor}",
+        "description_noExecutor": "Het podium in {channel} is gestopt",
+        "topic": "Onderwerp",
+        "none": "geen"
+    },
+    "stageUpdated": {
+        "title": "Podium Bijgewerkt",
+        "description": "Het podium in {channel} is bijgewerkt door {executor}",
+        "oldTopic": "Oude Onderwerp",
+        "newTopic": "Nieuwe Onderwerp"
+    },
+    "stageSpeakerAdd": {
+        "title": "Nieuwe Podium Spreker",
+        "description": "{user} is een spreker geworden in het {channel} podium kanaal",
+        "description_inviteAccepted": "{user} heeft de uitnodiging geaccepteerd om een spreker te worden in het {channel} podium kanaal"
+    },
+    "stageSpeakerRemove": {
+        "title": "Gestopt met Spreken",
+        "description": "{user} is niet langer een spreker in het {channel} podium kanaal"
+    },
+    "stageSpeakerInvited": {
+        "title": "Spreker Uitgenodigd",
+        "description": "{user} is uitgenodigd om te spreken in het {channel} podium kanaal"
+    }
+}

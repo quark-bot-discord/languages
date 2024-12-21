@@ -1,0 +1,14 @@
+{
+    "name": "help",
+    "description": "Uzyskaj pomoc z Quark'iem",
+    "commandOptions": {
+        "overviewOption": {
+            "name": "przegląd",
+            "description": "Zobacz ogólne informacje pomocy"
+        },
+        "serverlogOption": {
+            "name": "serverlog",
+            "description": "Uzyskaj pomoc z Quark'owymi logami servera"
+        }
+    }
+}

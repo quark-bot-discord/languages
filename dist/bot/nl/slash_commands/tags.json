@@ -1,0 +1,66 @@
+{
+    "name": "tags",
+    "description": "Tags",
+    "commandOptions": {
+        "sendOptionTag": {
+            "name": "tag",
+            "description": "Naam van de tag om te verzenden"
+        },
+        "sendOptionUser": {
+            "name": "gebruiker",
+            "description": "Vermeld een gebruiker voor betere zichtbaarheid"
+        },
+        "sendOption": {
+            "name": "verzenden",
+            "description": "Verzend een tag"
+        },
+        "editOptionTag": {
+            "name": "tag",
+            "description": "Naam van de tag om te bewerken"
+        },
+        "editOptionText": {
+            "name": "tekst",
+            "description": "Tekst om op de tag weer te geven"
+        },
+        "editOptionColour": {
+            "name": "kleur",
+            "description": "De hex-kleurcode voor de tag"
+        },
+        "editOptionImage": {
+            "name": "afbeelding",
+            "description": "Een URL voor een afbeelding die op de tag wordt weergegeven"
+        },
+        "editOption": {
+            "name": "bewerken",
+            "description": "Bewerk een tag"
+        },
+        "createOptionTag": {
+            "name": "tag",
+            "description": "Naam van de tag om te creëren"
+        },
+        "createOptionText": {
+            "name": "tekst",
+            "description": "Tekst om op de tag weer te geven"
+        },
+        "createOption": {
+            "name": "creëren",
+            "description": "Creëer een tag"
+        },
+        "deleteOptionTag": {
+            "name": "tag",
+            "description": "Naam van de tag om te verwijderen"
+        },
+        "deleteOption": {
+            "name": "verwijderen",
+            "description": "Verwijder een tag"
+        },
+        "listOption": {
+            "name": "lijst",
+            "description": "Alle tags weergeven"
+        },
+        "helpOption": {
+            "name": "hulp",
+            "description": "Krijg hulp met tags"
+        }
+    }
+}

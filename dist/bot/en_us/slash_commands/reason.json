@@ -1,0 +1,14 @@
+{
+    "name": "reason",
+    "description": "Modify the reason on a modlog",
+    "commandOptions": {
+        "caseOption": {
+            "name": "case",
+            "description": "Message ID of the modlog to modify"
+        },
+        "reasonOption": {
+            "name": "reason",
+            "description": "The new reason to update the modlog case with"
+        }
+    }
+}

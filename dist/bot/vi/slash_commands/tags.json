@@ -1,0 +1,66 @@
+{
+    "name": "nhãn",
+    "description": "Nhãn",
+    "commandOptions": {
+        "sendOptionTag": {
+            "name": "nhãn",
+            "description": "Tên nhãn để gửi"
+        },
+        "sendOptionUser": {
+            "name": "người_dùng",
+            "description": "Đề cập đến người dùng để tăng khả năng nhìn thấy"
+        },
+        "sendOption": {
+            "name": "gửi",
+            "description": "Gửi một nhãn"
+        },
+        "editOptionTag": {
+            "name": "nhãn",
+            "description": "Tên nhãn để chỉnh sửa"
+        },
+        "editOptionText": {
+            "name": "văn_bản",
+            "description": "Văn bản hiển thị trên nhãn"
+        },
+        "editOptionColour": {
+            "name": "màu_sắc",
+            "description": "Mã màu hex cho nhãn"
+        },
+        "editOptionImage": {
+            "name": "hình_ảnh",
+            "description": "URL cho hình ảnh hiển thị trên nhãn"
+        },
+        "editOption": {
+            "name": "chỉnh_sửa",
+            "description": "Chỉnh sửa một nhãn"
+        },
+        "createOptionTag": {
+            "name": "nhãn",
+            "description": "Tên nhãn để tạo mới"
+        },
+        "createOptionText": {
+            "name": "văn_bản",
+            "description": "Văn bản hiển thị trên nhãn"
+        },
+        "createOption": {
+            "name": "tạo_mới",
+            "description": "Tạo mới một nhãn"
+        },
+        "deleteOptionTag": {
+            "name": "nhãn",
+            "description": "Tên nhãn để xóa"
+        },
+        "deleteOption": {
+            "name": "xóa",
+            "description": "Xóa một nhãn"
+        },
+        "listOption": {
+            "name": "danh_sách",
+            "description": "Liệt kê tất cả các nhãn"
+        },
+        "helpOption": {
+            "name": "trợ_giúp",
+            "description": "Nhận trợ giúp về nhãn"
+        }
+    }
+}

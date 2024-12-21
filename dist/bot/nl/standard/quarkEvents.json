@@ -1,0 +1,64 @@
+{
+    "serverlogChannelUpdate": {
+        "title": "Logkanaal Gewijzigd",
+        "description_set": "{executor} heeft het {type} logkanaal ingesteld op {channel}",
+        "description_category_disable": "{executor} heeft het {type} logkanaal uitgeschakeld",
+        "description_unset": "{executor} heeft het {type} logkanaal uitgeschakeld"
+    },
+    "serverlogOptionsUpdate": {
+        "title": "Logopties Bijgewerkt",
+        "description": "{executor} heeft {option} ingesteld op {state}",
+        "pluralkitSupport": "PluralKit Ondersteuning",
+        "spoilers": "Spoilers",
+        "buttons": "Knoppen",
+        "formatType": "Formaat Type"
+    },
+    "serverlogLogUpdate": {
+        "title": "Log Bijgewerkt",
+        "description": "{executor} heeft de {type} log bijgewerkt",
+        "enabled": "Ingeschakeld",
+        "logFormat": "Formaat",
+        "logChannel": "Kanaal",
+        "colour": "Kleur",
+        "ignoreBotExecutors": "Negeer Botuitvoerders",
+        "ignoreBotTargets": "Negeer Botdoelen",
+        "activeIgnore": "Actieve Negeer"
+    },
+    "serverlogIgnoreUpdate": {
+        "title": "Negeeropties Bijgewerkt",
+        "description_set": "{executor} heeft {type} ingeschakeld",
+        "description_unset": "{executor} heeft {type} uitgeschakeld",
+        "description_added": "{executor} heeft {target} toegevoegd aan {type}",
+        "description_removed": "{executor} heeft {target} verwijderd uit {type}"
+    },
+    "languageUpdate": {
+        "title": "Taal Gewijzigd",
+        "description": "{executor} heeft de taal gewijzigd naar {language}"
+    },
+    "reset": {
+        "title": "Configuratie Resetten",
+        "description": "{executor} heeft de configuratie voor deze server gereset"
+    },
+    "tagAdded": {
+        "title": "Tag Toegevoegd",
+        "description": "{executor} heeft een tag {tag} gecreëerd"
+    },
+    "tagUpdated": {
+        "title": "Tag Bijgewerkt",
+        "description": "{executor} heeft de tag {tag} bijgewerkt"
+    },
+    "tagDeleted": {
+        "title": "Tag Verwijderd",
+        "description": "{executor} heeft de tag {tag} verwijderd"
+    },
+    "tokenAdded": {
+        "title": "Token Gegenereerd",
+        "description": "{executor} heeft een Quark-toegangstoken gegenereerd met {permissions} machtigingen voor deze server",
+        "unique_id": "Token ID",
+        "revoke": "Herroep deze token"
+    },
+    "tokenRevoked": {
+        "title": "Token Intrekken",
+        "description": "{executor} heeft de Quark-toegangstoken met ID {token} ingetrokken"
+    }
+}

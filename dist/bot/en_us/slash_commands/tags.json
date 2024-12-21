@@ -1,0 +1,66 @@
+{
+    "name": "tags",
+    "description": "Tags",
+    "commandOptions": {
+        "sendOptionTag": {
+            "name": "tag",
+            "description": "Name of tag to send"
+        },
+        "sendOptionUser": {
+            "name": "user",
+            "description": "Mentions a user for better visibility"
+        },
+        "sendOption": {
+            "name": "send",
+            "description": "Send a tag"
+        },
+        "editOptionTag": {
+            "name": "tag",
+            "description": "Name of tag to edit"
+        },
+        "editOptionText": {
+            "name": "text",
+            "description": "Text to display on the tag"
+        },
+        "editOptionColour": {
+            "name": "color",
+            "description": "The hex color code for the tag"
+        },
+        "editOptionImage": {
+            "name": "image",
+            "description": "A URL for an image to be displayed on the tag"
+        },
+        "editOption": {
+            "name": "edit",
+            "description": "Edit a tag"
+        },
+        "createOptionTag": {
+            "name": "tag",
+            "description": "Name of tag to create"
+        },
+        "createOptionText": {
+            "name": "text",
+            "description": "Text to display on the tag"
+        },
+        "createOption": {
+            "name": "create",
+            "description": "Create a tag"
+        },
+        "deleteOptionTag": {
+            "name": "tag",
+            "description": "Name of tag to delete"
+        },
+        "deleteOption": {
+            "name": "delete",
+            "description": "Delete a tag"
+        },
+        "listOption": {
+            "name": "list",
+            "description": "List all tags"
+        },
+        "helpOption": {
+            "name": "help",
+            "description": "Get help with tags"
+        }
+    }
+}

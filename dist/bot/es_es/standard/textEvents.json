@@ -1,0 +1,93 @@
+{
+    "polls": {
+        "poll": "Encuesta",
+        "pollDescriptor": "[encuesta]",
+        "status": "La encuesta tiene estado.",
+        "ended": "terminó",
+        "notEnded": "no terminó",
+        "multiselect": "Selección múltiple",
+        "enabled": "activado",
+        "disabled": "desactivado",
+        "ends": "Termina",
+        "vote": "votar",
+        "votes": "votos",
+        "noResponses": "Sin respuestas",
+        "pollDeleted": "Poll Deleted"
+    },
+    "messageDeleted": {
+        "title": "Mensaje borrado",
+        "author": "Autor del mensaje",
+        "channel": "Canal",
+        "deletedBy": "Eliminado por",
+        "jumpToContext": "Saltar al contexto",
+        "warning": "¡ADVERTENCIA!",
+        "linksToEmojis": "Enlaces a emojis",
+        "linksToFiles": "Enlaces a archivos",
+        "inviteDetected": "Invitación al servidor detectada",
+        "ghostpingDetected": "Imágenes fantasma detectadas",
+        "file": "archivo",
+        "files": "archivos",
+        "fileExpired": "archivo demasiado grande o caducado",
+        "filesExpired": "archivos demasiado grandes o caducados",
+        "sticker": "pegatina",
+        "noContent": "sin contenido",
+        "embed": "empotrar",
+        "thread": "Hilo",
+        "initialReactor": "reactor inicial"
+    },
+    "messagesBulkDeleted": {
+        "title": "Varios mensajes eliminados",
+        "deletedBy": "Eliminado por",
+        "channel": "Canal",
+        "more": "más",
+        "uncachedUser": "usuario sin caché",
+        "uncachedChannel": "canal sin caché",
+        "uncachedMessage": "mensaje sin caché",
+        "embed": "empotrar",
+        "errorFile": "Hubo un problema con la recuperación de los archivos. ",
+        "errorText": "Hubo un problema con la creación de un archivo de texto. "
+    },
+    "messageUpdate": {
+        "title": "Mensaje editado",
+        "author": "Autor del mensaje",
+        "channel": "Canal",
+        "jumpToMessage": "Saltar al mensaje",
+        "afterEdit": "Después de editar",
+        "diff": "Ediciones",
+        "diffError": "No se pueden calcular las ediciones.",
+        "cannotRetrieveOriginal": "No se puede recuperar el mensaje original",
+        "noContent": "sin contenido",
+        "thread": "Hilo"
+    },
+    "attachmentDeleted": {
+        "title": "Adjunto eliminado"
+    },
+    "messagePin": {
+        "title": "Mensaje fijado",
+        "description": "{executor} fijó un mensaje"
+    },
+    "messageUnpin": {
+        "title": "Mensaje no fijado",
+        "description": "{executor} desanuló un mensaje"
+    },
+    "threadCreate": {
+        "thread": "Hilo",
+        "channel": "Canal",
+        "jumpToContext": "Saltar al contexto",
+        "title": "Hilo creado",
+        "description": "{member} creó un nuevo hilo {thread}"
+    },
+    "threadDelete": {
+        "thread": "Hilo",
+        "channel": "Canal",
+        "title": "Hilo eliminado",
+        "description": "{executor} eliminó un hilo {thread}"
+    },
+    "messageReactionRemove": {
+        "title": "Reacción eliminada",
+        "description": "{executor} eliminó una reacción de un mensaje",
+        "emoji": "emojis",
+        "linkToEmoji": "Enlace a emojis",
+        "jumpToMessage": "Saltar al mensaje"
+    }
+}

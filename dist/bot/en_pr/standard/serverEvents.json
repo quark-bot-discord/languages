@@ -1,0 +1,70 @@
+{
+    "members": "Crewmates",
+    "userJoined": {
+        "title": "New Crew Member",
+        "description": "{user} joined our crew",
+        "noAvatar": "Account be without a face",
+        "newAccount": "Account be new",
+        "noBadges": "Account be without any medals",
+        "warning": "WARNIN'!",
+        "accountCreated": "Account made",
+        "invite": "Invitation",
+        "createdBy": "recruited by {user}",
+        "ban": "Banish",
+        "info": "Info",
+        "rejoined": "Account rejoined"
+    },
+    "userLeft": {
+        "title": "Crew Member Overboard",
+        "description": "{user} deserted the crew",
+        "joined": "Joined the crew",
+        "roles": "Ranks",
+        "serverProfilePicture": "Link to server avatar"
+    },
+    "botAdded": {
+        "title": "Robot Added",
+        "description": "{bot} was added to the ship by {executor}",
+        "descriptionne": "{user} was added to the ship"
+    },
+    "botRemoved": {
+        "title": "Robot Removed",
+        "description": "{bot} was thrown overboard by {executor}",
+        "descriptionne": "{bot} was thrown overboard"
+    },
+    "nicknameUpdate": {
+        "title": "Nickname Updated",
+        "description": "{user}'s nickname was changed from {oldNickname} to {newNickname}",
+        "setNick": "{user}'s nickname was set to {newNickname}",
+        "nickRemoved": "{user}'s nickname of {oldNickname} was removed",
+        "changedBy": "Changed by"
+    },
+    "memberRoleAdd": {
+        "title": "Promoted",
+        "title_multiple": "Promoted",
+        "description": "{user} was promoted to the {role} rank",
+        "description_multiple": "{user} was given multiple promotions",
+        "givenBy": "Promoted by",
+        "roles": "Ranks"
+    },
+    "memberRoleRemove": {
+        "title": "Demoted",
+        "title_multiple": "Demoted",
+        "description": "{user} was demoted from the {role} rank",
+        "description_multiple": "{user} was stripped of multiple ranks",
+        "removedBy": "Demoted by",
+        "roles": "Ranks"
+    },
+    "memberPrune": {
+        "title": "Members Overboard",
+        "description": "{count} members with at least {time} days of inactivity were pruned by {executor}"
+    },
+    "avatarUpdate": {
+        "title": "Server Avatar Changed",
+        "description": "{user} changed their server avatar",
+        "description_added": "{user} added a server avatar",
+        "description_removed": "{user} removed their server avatar",
+        "changedBy": "Changed by",
+        "linkToOldAvatar": "Link to old avatar",
+        "linkToNewAvatar": "Link to new avatar"
+    }
+}

@@ -1,0 +1,93 @@
+{
+    "polls": {
+        "poll": "Sondage",
+        "pollDescriptor": "[sondage]",
+        "status": "Le sondage est en cours.",
+        "ended": "fini",
+        "notEnded": "n'est pas fini",
+        "multiselect": "Sélection multiple",
+        "enabled": "activée",
+        "disabled": "désactivée",
+        "ends": "Fin",
+        "vote": "vote",
+        "votes": "votes",
+        "noResponses": "Pas de réponse",
+        "pollDeleted": "Poll Deleted"
+    },
+    "messageDeleted": {
+        "title": "Message Supprimé",
+        "author": "Auteur du message",
+        "channel": "Salon",
+        "deletedBy": "Supprimé par",
+        "jumpToContext": "Voir le contexte",
+        "warning": "ATTENTION !",
+        "linksToEmojis": "Liens vers les emojis",
+        "linksToFiles": "Liens vers les fichiers",
+        "inviteDetected": "Invitation de serveur détectée",
+        "ghostpingDetected": "Ghostping détecté",
+        "file": "ficher",
+        "files": "fichers",
+        "fileExpired": "Fichier trop volumineux ou expiré",
+        "filesExpired": "Fichers trop volumineux ou expirés",
+        "sticker": "autocollant",
+        "noContent": "aucun contenu",
+        "embed": "embed",
+        "thread": "Fil",
+        "initialReactor": "initial reactor"
+    },
+    "messagesBulkDeleted": {
+        "title": "Plusieurs messages supprimés",
+        "deletedBy": "Supprimés par",
+        "channel": "Salon",
+        "more": "plus",
+        "uncachedUser": "utilisateur introuvable",
+        "uncachedChannel": "salon introuvable",
+        "uncachedMessage": "message introuvable",
+        "embed": "embed",
+        "errorFile": "Un problème est survenu avec la récupération des fichiers. Si cela persiste, signalez-le dans le serveur support de Quark s'il vous plaît.",
+        "errorText": "Un problème est survenu avec la création d'un fichier texte. Certains messages pourraient être perdus. Si cela persiste, signalez-le dans le serveur support de Quark s'il vous plaît."
+    },
+    "messageUpdate": {
+        "title": "Message Modifié",
+        "author": "Auteur du message",
+        "channel": "Salon",
+        "jumpToMessage": "Voir le message",
+        "afterEdit": "Après la modification",
+        "diff": "Les modifications",
+        "diffError": "Impossible de trouver les modifications.",
+        "cannotRetrieveOriginal": "Impossible de récupérer le message original",
+        "noContent": "aucun contenu",
+        "thread": "Fil"
+    },
+    "attachmentDeleted": {
+        "title": "Pièce jointe Supprimée"
+    },
+    "messagePin": {
+        "title": "Message Epinglé",
+        "description": "Un message a été épinglé par {executor}"
+    },
+    "messageUnpin": {
+        "title": "Message Désépinglé",
+        "description": "Un message a été désépinglé par {executor}"
+    },
+    "threadCreate": {
+        "thread": "Fil",
+        "channel": "Salon",
+        "jumpToContext": "Voir le contexte",
+        "title": "Fil créé",
+        "description": "{member} a créé un nouveau fil {thread}"
+    },
+    "threadDelete": {
+        "thread": "Fil",
+        "channel": "Salon",
+        "title": "Fil Supprimé",
+        "description": "{executor} a supprimé un fil {thread}"
+    },
+    "messageReactionRemove": {
+        "title": "Réaction Supprimée",
+        "description": "{executor} a supprimé une réaction d'un message",
+        "emoji": "Emoji",
+        "linkToEmoji": "Lien vers l'emoji",
+        "jumpToMessage": "Voir le message"
+    }
+}

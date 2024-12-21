@@ -1,0 +1,104 @@
+{
+    "streamStart": {
+        "title": "Bắt đầu Stream",
+        "description": "{user} bắt đầu stream trong kênh thoại {channel}"
+    },
+    "streamStop": {
+        "title": "Kết thúc Stream",
+        "description": "{user} kết thúc stream trong kênh thoại {channel}"
+    },
+    "videoStart": {
+        "title": "Bắt đầu Video",
+        "description": "{user} bắt đầu video trong kênh thoại {channel}"
+    },
+    "videoStop": {
+        "title": "Kết thúc Video",
+        "description": "{user} kết thúc video trong kênh thoại {channel}"
+    },
+    "voiceSwitch": {
+        "title": "Thay đổi Kênh",
+        "description": "{user} chuyển từ kênh thoại {channel_old} sang kênh thoại {channel_new}"
+    },
+    "voiceMove": {
+        "title": "Di chuyển",
+        "description": "{user} đã được di chuyển từ kênh thoại {channel_old} sang kênh thoại {channel_new}",
+        "movedBy": "Di chuyển bởi"
+    },
+    "voiceJoin": {
+        "title": "Tham gia Kênh",
+        "description": "{user} đã tham gia kênh thoại {channel}"
+    },
+    "voiceLeave": {
+        "title": "Rời khỏi Kênh",
+        "description": "{user} đã rời khỏi kênh thoại {channel}",
+        "joined": "Tham gia",
+        "joinedValue": "{relative} cho {relative_fixed}"
+    },
+    "voiceDisconnect": {
+        "title": "Ngắt kết nối",
+        "description": "{user} đã bị ngắt kết nối",
+        "disconnectedBy": "Ngắt kết nối bởi",
+        "voiceChannel": "Kênh thoại"
+    },
+    "serverDeafen": {
+        "title": "Tắt tiếng",
+        "description": "{user} đã bị tắt tiếng",
+        "deafenedBy": "Tắt tiếng bởi",
+        "voiceChannel": "Kênh thoại"
+    },
+    "serverMute": {
+        "title": "Tắt âm",
+        "description": "{user} đã bị tắt âm",
+        "mutedBy": "Tắt âm bởi",
+        "voiceChannel": "Kênh thoại"
+    },
+    "serverUndeafen": {
+        "title": "Bật tiếng",
+        "description": "{user} đã được bật tiếng",
+        "undeafenedBy": "Bật tiếng bởi",
+        "voiceChannel": "Kênh thoại"
+    },
+    "serverUnmute": {
+        "title": "Bật âm",
+        "description": "{user} đã được bật âm",
+        "unmutedBy": "Bật âm bởi",
+        "voiceChannel": "Kênh thoại"
+    },
+    "channelStatusUpdate": {
+        "title": "Cập nhật Trạng thái Kênh thoại",
+        "description": "{executor} đã cập nhật trạng thái cho {channel}",
+        "status": "Trạng thái",
+        "linksToEmojis": "Liên kết đến emoji"
+    },
+    "stageStarted": {
+        "description": "{executor} started a stage in {channel}",
+        "title": "Stage Started",
+        "topic": "Topic"
+    },
+    "stageUpdated": {
+        "description": "The stage in {channel} was updated by {executor}",
+        "title": "Stage Updated",
+        "oldTopic": "Old Topic",
+        "newTopic": "New Topic"
+    },
+    "stageEnded": {
+        "title": "Stage Ended",
+        "description": "The stage in {channel} was ended by {executor}",
+        "description_noExecutor": "The stage in {channel} was ended",
+        "topic": "Topic",
+        "none": "none"
+    },
+    "stageSpeakerAdd": {
+        "title": "New Stage Speaker",
+        "description": "{user} became a speaker in the {channel} stage channel",
+        "description_inviteAccepted": "{user} accepted the invite to become a speaker in the {channel} stage channel"
+    },
+    "stageSpeakerRemove": {
+        "title": "Stopped Speaking",
+        "description": "{user} is no longer a speaker in the {channel} stage channel"
+    },
+    "stageSpeakerInvited": {
+        "title": "Speaker Invited",
+        "description": "{user} was invited to speak in the {channel} stage channel"
+    }
+}

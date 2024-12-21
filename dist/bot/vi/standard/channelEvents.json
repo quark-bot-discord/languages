@@ -1,0 +1,62 @@
+{
+    "channelCreated": {
+        "title": "Kênh Đã Được Tạo",
+        "description": "{channel} đã được tạo bởi {executor}",
+        "descriptionWithCategory": "{channel} đã được tạo bởi {executor} dưới danh mục {category}."
+    },
+    "channelDeleted": {
+        "title": "Kênh Đã Được Xóa",
+        "description": "{channel_name} đã bị xóa bởi {executor}",
+        "channel": "Kênh"
+    },
+    "channelUpdated": {
+        "title": "Kênh Đã Được Sửa Đổi",
+        "description": "{channel} đã được sửa đổi bởi {executor}"
+    },
+    "channelOverwriteDelete": {
+        "description": "{executor} removed permissions from {channel} for {special}",
+        "title": "{type} Channel Permissions Removed"
+    },
+    "channelOverwriteCreate": {
+        "description": "{executor} added permissions to {channel} for {special}",
+        "title": "{type} Channel Permissions Added"
+    },
+    "channelOverwriteUpdate": {
+        "newPermissions": "New Permissions",
+        "viewFullNewPermissions": "View Full New Permissions",
+        "title": "{type} Channel Permissions Updated",
+        "description": "{executor} updated permissions for {channel} for {special}"
+    },
+    "webhookUpdate": {
+        "description": "{executor} modified the webhook {webhook}",
+        "title": "Webhook Modified"
+    },
+    "webhookCreate": {
+        "title": "Webhook Created",
+        "description": "{executor} created a webhook {webhook} in {channel}"
+    },
+    "webhookDelete": {
+        "title": "Webhook Deleted",
+        "description": "{executor} deleted the webhook {webhook}"
+    },
+    "webhookAvatarUpdate": {
+        "title": "Webhook Avatar Updated",
+        "linkToNewAvatar": "Link to new avatar",
+        "description_removed": "{executor} removed the avatar for {webhook}",
+        "linkToOldAvatar": "Link to old avatar",
+        "description": "{executor} updated the avatar for {webhook}",
+        "description_added": "{executor} added an avatar for {webhook}"
+    },
+    "statusChannelFollowed": {
+        "title": "Channel Followed",
+        "description": "{executor} followed the channel {name} in {channel}"
+    },
+    "statusChannelUnfollowed": {
+        "title": "Channel Unfollowed",
+        "description": "{executor} unfollowed the channel {name}"
+    },
+    "statusChannelUpdated": {
+        "title": "Followed Channel Updated",
+        "description": "{executor} updated the followed channel {name}"
+    }
+}

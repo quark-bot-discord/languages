@@ -1,0 +1,30 @@
+{
+    "serverModified": {
+        "title": "Serveur Modifié",
+        "description": "Ce serveur a été modifié par {executor}"
+    },
+    "serverIconUpdated": {
+        "title": "L'icône de Serveur Modifiée",
+        "description": "{executor} a modifié l'icône du serveur",
+        "description_added": "{executor} a ajouté une icône de serveur",
+        "description_removed": "{executor} a supprimé l'icône du serveur",
+        "linkToOldIcon": "Lien vers l'ancienne icône",
+        "linkToNewIcon": "Lien vers la nouvelle icône"
+    },
+    "serverBoostAdd": {
+        "title": "Serveur Boost",
+        "description": "{user} a boost ce serveur 🎉",
+        "description_noUser": "Quelqu'un a boost ce serveur 🎉",
+        "description_withTier": "{user} a boost ce serveur au niveau {tier} 🎉",
+        "description_withTier_noUser": "Quelqu'un a boost ce serveur au niveau {tier} 🎉",
+        "none": "none"
+    },
+    "serverBoostRemove": {
+        "title": "Boost de Serveur Supprimé",
+        "description": "{user} a arrêté de boost ce serveur",
+        "description_noUser": "Quelqu'un a arrêté de boost ce serveur",
+        "description_withTier": "{user} a arrêté de boost, causant la descente de ce serveur au niveau {tier}",
+        "description_withTier_noUser": "Quelqu'un a arrêté de boost, causant la descente de ce serveur au niveau {tier}",
+        "none": "none"
+    }
+}

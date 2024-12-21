@@ -1,0 +1,10 @@
+{
+    "name": "ngôn_ngữ",
+    "description": "Thay đổi ngôn ngữ của Quark",
+    "commandOptions": {
+        "languageOption": {
+            "name": "ngôn_ngữ",
+            "description": "Đặt ngôn ngữ bot cho máy chủ này"
+        }
+    }
+}
