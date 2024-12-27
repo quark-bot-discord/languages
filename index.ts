@@ -1,3 +1,5 @@
+import type { LanguageStructure } from "./.github/scripts/languages.d.ts";
+
 export type DiscordLocaleKeys = keyof typeof locales;
 
 export interface Locale {
@@ -11,9 +13,9 @@ export type Languages = {
   [key: string]: Locale;
 };
 
-export const locales: Languages = (
-  await import("./bot/languages.json", { with: { type: "json" } })
-).default;
+import _locales from "./bot/languages.json" with { type: "json" };
+
+export const locales: Languages = _locales;
 
 export const validLanguages: Array<string> = Object.values(locales)
   .map((locale) => (locale.active === true ? locale.code : null))
@@ -148,7 +150,7 @@ const languageTypeProxy = (
 export default function languageProxy(
   language: string,
   noFallback: boolean = false
-) {
+): LanguageStructure {
   return new Proxy(
     {},
     {
@@ -163,5 +165,5 @@ export default function languageProxy(
         }
       },
     }
-  );
+  ) as LanguageStructure;
 }
