@@ -5,7 +5,9 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
-        "build": "tsc",
+        "build": "npm run generate-typings && tsc && npm run copy-dts",
+        "generate-typings": "node .github/scripts/generate-typings.js",
+        "copy-dts": "copyfiles languages.d.ts dist/",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "exports": {
@@ -24,5 +26,8 @@
     "bugs": {
         "url": "https://github.com/quark-bot-discord/languages/issues"
     },
-    "homepage": "https://github.com/quark-bot-discord/languages#readme"
+    "homepage": "https://github.com/quark-bot-discord/languages#readme",
+    "devDependencies": {
+        "copyfiles": "^2.4.1"
+    }
 }
