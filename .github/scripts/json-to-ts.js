@@ -9,10 +9,16 @@ const __dirname = dirname(__filename);
 
 function jsonToTypeScript(obj) {
   const entries = Object.entries(obj).map(([key, value]) => {
-    if (typeof value === "object" && value !== null) {
-      return `"${key}": ${jsonToTypeScript(value)};`;
+    let safeKey;
+    if (!isNaN(parseInt(key)) || key.includes("-")) {
+      safeKey = `"${key}"`;
     } else {
-      return `"${key}": string;`; // Assuming leaf nodes are strings
+      safeKey = key;
+    }
+    if (typeof value === "object" && value !== null) {
+      return `${safeKey}: ${jsonToTypeScript(value)};`;
+    } else {
+      return `${safeKey}: string;`; // Assuming leaf nodes are strings
     }
   });
   return `{\n${entries.map((entry) => `  ${entry}`).join("\n")}\n}`;
