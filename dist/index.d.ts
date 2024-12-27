@@ -1,4 +1,4 @@
-import type { LanguageStructure } from "./.github/scripts/languages.d.ts";
+import type { LanguageStructure } from "./languages.d.ts";
 export type DiscordLocaleKeys = keyof typeof locales;
 export interface Locale {
     code: string;
