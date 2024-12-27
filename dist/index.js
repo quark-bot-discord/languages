@@ -17,13 +17,15 @@ export const getDiscordLocaleCode = (language) => {
     throw new Error(`Language ${language} not found`);
 };
 export const getQuarkLocaleCode = (language) => {
-    const toReturn = locales[language]?.code;
+    var _a;
+    const toReturn = (_a = locales[language]) === null || _a === void 0 ? void 0 : _a.code;
     if (!toReturn)
         throw new Error(`Language ${language} not found`);
     return toReturn;
 };
 export const getDatabaseLocaleCode = (language) => {
-    const toReturn = locales[language]?.id;
+    var _a;
+    const toReturn = (_a = locales[language]) === null || _a === void 0 ? void 0 : _a.id;
     if (typeof toReturn !== "number")
         throw new Error(`Language ${language} not found`);
     return toReturn;
@@ -96,10 +98,10 @@ const languageTypeProxy = (language, type, noFallback) => {
                     with: { type: "json" },
                 })
                 : null;
-            const languagesStringsToUse = selectedLanguagesStrings?.default
+            const languagesStringsToUse = (selectedLanguagesStrings === null || selectedLanguagesStrings === void 0 ? void 0 : selectedLanguagesStrings.default)
                 ? selectedLanguagesStrings.default
-                : fallbackLanguagesStrings?.default;
-            return returnNextProperty(languagesStringsToUse, fallbackLanguagesStrings?.default);
+                : fallbackLanguagesStrings === null || fallbackLanguagesStrings === void 0 ? void 0 : fallbackLanguagesStrings.default;
+            return returnNextProperty(languagesStringsToUse, fallbackLanguagesStrings === null || fallbackLanguagesStrings === void 0 ? void 0 : fallbackLanguagesStrings.default);
         },
     });
 };

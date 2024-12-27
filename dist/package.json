@@ -1,0 +1,28 @@
+{
+    "name": "languages",
+    "version": "1.0.0",
+    "description": "Languages for Quark",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "build": "tsc",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "exports": {
+        ".": {
+            "import": "./dist/index.js",
+            "require": "./dist/index.js",
+            "types": "./dist/index.d.ts"
+        }
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/quark-bot-discord/languages.git"
+    },
+    "author": "Quark",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/quark-bot-discord/languages/issues"
+    },
+    "homepage": "https://github.com/quark-bot-discord/languages#readme"
+}
