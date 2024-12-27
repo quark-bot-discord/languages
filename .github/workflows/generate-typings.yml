@@ -1,4 +1,4 @@
-name: File validation
+name: Generate typings
 
 on: 
   push:
