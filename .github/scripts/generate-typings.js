@@ -46,6 +46,6 @@ async function generateTypings(dirPath = baseDir) {
 
 const typings = await generateTypings();
 
-const typeScript = convert(typings);
+const typeScript = convert(typings, { topLevelArePromises: true });
 
 writeFileSync(join(writeDir, "languages.d.ts"), typeScript, "utf-8");
