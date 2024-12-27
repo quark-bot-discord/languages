@@ -2,8 +2,11 @@ import { readdirSync, statSync } from "fs";
 import { readFile } from "fs/promises";
 import { join } from "path";
 import convert from "./json-to-ts.js";
+import { writeFileSync } from "fs";
 
 const baseDir = "./bot/en_us";
+
+const writeDir = "./";
 
 function readObject(obj) {
   const result = {};
@@ -43,4 +46,6 @@ async function generateTypings(dirPath = baseDir) {
 
 const typings = await generateTypings();
 
-convert(typings);
+const typeScript = convert(typings);
+
+writeFileSync(join(writeDir, "languages.d.ts"), typeScript, "utf-8");

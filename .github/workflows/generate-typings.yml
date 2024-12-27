@@ -30,6 +30,6 @@ jobs:
     - name: Commit changes
       uses: EndBug/add-and-commit@v9
       with:
-        add: '[".github/scripts", "dist"]'
+        add: '["languages.d.ts", "dist"]'
         committer_email: automations@quark.bot
         committer_name: Quark Automations

@@ -1,12 +1,3 @@
-import { join, dirname } from "path";
-import { writeFileSync } from "fs";
-import { fileURLToPath } from "url";
-
-// Get the current file URL
-const __filename = fileURLToPath(import.meta.url);
-// Get the directory name
-const __dirname = dirname(__filename);
-
 function jsonToTypeScript(obj) {
   const entries = Object.entries(obj).map(([key, value]) => {
     let safeKey;
@@ -29,5 +20,5 @@ export default function convert(jsonStructure) {
     jsonStructure
   )};`;
 
-  writeFileSync(join(__dirname, "languages.d.ts"), typings, "utf-8");
+  return typings;
 }
