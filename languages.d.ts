@@ -29,181 +29,6 @@ export type LanguageStructure = {
   channel_update_types: {
   none: string;
 };
-  emoji_update_types: {
-  none: string;
-};
-  guild_update_types: {
-  none: string;
-  verification_level: {
-  "0": string;
-  "1": string;
-  "2": string;
-  "3": string;
-  "4": string;
-};
-  default_message_notifications: {
-  "0": string;
-  "1": string;
-};
-  explicit_content_filter: {
-  "0": string;
-  "1": string;
-  "2": string;
-};
-  nsfw_level: {
-  "0": string;
-  "1": string;
-  "2": string;
-  "3": string;
-};
-  premium_progress_bar_enabled: {
-  true: string;
-  false: string;
-};
-};
-  ignore_options: {
-  ignoreTargets: string;
-  ignoreExecutors: string;
-  specificMessageContent: string;
-  ignoreChannels: string;
-  ignoreBotExecutors: string;
-  ignoreBotTargets: string;
-  ignoreExecutorRoles: string;
-  ignoreTargetRoles: string;
-  ignoreCategories: string;
-  activeIgnore: string;
-};
-  gui_constants: {
-  channelModificationTypes: {
-  name: string;
-  type: string;
-  position: string;
-  topic: string;
-  rate_limit_per_user: string;
-  parent_id: string;
-  bitrate: string;
-  user_limit: string;
-  rtc_region: string;
-  nsfw: string;
-};
-  roleModificationTypes: {
-  name: string;
-  color: string;
-  hoist: string;
-  managed: string;
-  mentionable: string;
-  unicode_emoji: string;
-};
-  emojiModificationTypes: {
-  name: string;
-};
-  guildModificationTypes: {
-  name: string;
-  description: string;
-  system_channel_id: string;
-  rules_channel_id: string;
-  mfa_level: string;
-  verification_level: string;
-  default_message_notifications: string;
-  explicit_content_filter: string;
-  nsfw_level: string;
-  premium_progress_bar_enabled: string;
-};
-  webhookModificationTypes: {
-  name: string;
-  channel_id: string;
-};
-};
-  log_categories: {
-  serverEvents: string;
-  serverActions: string;
-  textEvents: string;
-  voiceEvents: string;
-  fileEvents: string;
-  generalEvents: string;
-  roleEvents: string;
-  channelEvents: string;
-  quarkEvents: string;
-  modLog: string;
-  main: string;
-};
-  log_formats: {
-  "0": string;
-  "1": string;
-  "2": string;
-  "3": string;
-  "4": string;
-};
-  permissions: {
-  CREATE_INSTANT_INVITE: string;
-  KICK_MEMBERS: string;
-  BAN_MEMBERS: string;
-  ADMINISTRATOR: string;
-  MANAGE_CHANNELS: string;
-  MANAGE_GUILD: string;
-  ADD_REACTIONS: string;
-  VIEW_AUDIT_LOG: string;
-  PRIORITY_SPEAKER: string;
-  STREAM: string;
-  VIEW_CHANNEL: string;
-  SEND_MESSAGES: string;
-  SEND_TTS_MESSAGES: string;
-  MANAGE_MESSAGES: string;
-  EMBED_LINKS: string;
-  ATTACH_FILES: string;
-  READ_MESSAGE_HISTORY: string;
-  MENTION_EVERYONE: string;
-  USE_EXTERNAL_EMOJIS: string;
-  VIEW_GUILD_INSIGHTS: string;
-  CONNECT: string;
-  SPEAK: string;
-  MUTE_MEMBERS: string;
-  DEAFEN_MEMBERS: string;
-  MOVE_MEMBERS: string;
-  USE_VAD: string;
-  CHANGE_NICKNAME: string;
-  MANAGE_NICKNAMES: string;
-  MANAGE_ROLES: string;
-  MANAGE_WEBHOOKS: string;
-  MANAGE_EMOJIS: string;
-  USE_SLASH_COMMANDS: string;
-  REQUEST_TO_SPEAK: string;
-  MANAGE_THREADS: string;
-  USE_PUBLIC_THREADS: string;
-  USE_PRIVATE_THREADS: string;
-  USE_EXTERNAL_STICKERS: string;
-  SEND_MESSAGES_IN_THREADS: string;
-  USE_EMBEDDED_ACTIVITIES: string;
-  MODERATE_MEMBERS: string;
-  VIEW_CREATOR_MONETIZATION_ANALYTICS: string;
-  USE_SOUNDBOARD: string;
-  CREATE_GUILD_EXPRESSIONS: string;
-  CREATE_EVENTS: string;
-  USE_EXTERNAL_SOUNDS: string;
-  SEND_VOICE_MESSAGES: string;
-  SEND_POLLS: string;
-};
-  role_update_types: {
-  enabled: string;
-  disabled: string;
-  none: string;
-};
-  time: {
-  second: string;
-  "second-plural": string;
-  minute: string;
-  "minute-plural": string;
-  hour: string;
-  "hour-plural": string;
-  day: string;
-  "day-plural": string;
-  week: string;
-  "week-plural": string;
-  month: string;
-  "month-plural": string;
-  year: string;
-  "year-plural": string;
-};
   command_responses: {
   disable: string;
   enable: string;
@@ -411,6 +236,165 @@ export type LanguageStructure = {
 };
   "help-modify-tags-description": string;
 };
+  emoji_update_types: {
+  none: string;
+};
+  gui_constants: {
+  channelModificationTypes: {
+  name: string;
+  type: string;
+  position: string;
+  topic: string;
+  rate_limit_per_user: string;
+  parent_id: string;
+  bitrate: string;
+  user_limit: string;
+  rtc_region: string;
+  nsfw: string;
+};
+  roleModificationTypes: {
+  name: string;
+  color: string;
+  hoist: string;
+  managed: string;
+  mentionable: string;
+  unicode_emoji: string;
+};
+  emojiModificationTypes: {
+  name: string;
+};
+  guildModificationTypes: {
+  name: string;
+  description: string;
+  system_channel_id: string;
+  rules_channel_id: string;
+  mfa_level: string;
+  verification_level: string;
+  default_message_notifications: string;
+  explicit_content_filter: string;
+  nsfw_level: string;
+  premium_progress_bar_enabled: string;
+};
+  webhookModificationTypes: {
+  name: string;
+  channel_id: string;
+};
+};
+  guild_update_types: {
+  none: string;
+  verification_level: {
+  "0": string;
+  "1": string;
+  "2": string;
+  "3": string;
+  "4": string;
+};
+  default_message_notifications: {
+  "0": string;
+  "1": string;
+};
+  explicit_content_filter: {
+  "0": string;
+  "1": string;
+  "2": string;
+};
+  nsfw_level: {
+  "0": string;
+  "1": string;
+  "2": string;
+  "3": string;
+};
+  premium_progress_bar_enabled: {
+  true: string;
+  false: string;
+};
+};
+  ignore_options: {
+  ignoreTargets: string;
+  ignoreExecutors: string;
+  specificMessageContent: string;
+  ignoreChannels: string;
+  ignoreBotExecutors: string;
+  ignoreBotTargets: string;
+  ignoreExecutorRoles: string;
+  ignoreTargetRoles: string;
+  ignoreCategories: string;
+  activeIgnore: string;
+};
+  log_categories: {
+  serverEvents: string;
+  serverActions: string;
+  textEvents: string;
+  voiceEvents: string;
+  fileEvents: string;
+  generalEvents: string;
+  roleEvents: string;
+  channelEvents: string;
+  quarkEvents: string;
+  modLog: string;
+  main: string;
+};
+  log_formats: {
+  "0": string;
+  "1": string;
+  "2": string;
+  "3": string;
+  "4": string;
+};
+  permissions: {
+  CREATE_INSTANT_INVITE: string;
+  KICK_MEMBERS: string;
+  BAN_MEMBERS: string;
+  ADMINISTRATOR: string;
+  MANAGE_CHANNELS: string;
+  MANAGE_GUILD: string;
+  ADD_REACTIONS: string;
+  VIEW_AUDIT_LOG: string;
+  PRIORITY_SPEAKER: string;
+  STREAM: string;
+  VIEW_CHANNEL: string;
+  SEND_MESSAGES: string;
+  SEND_TTS_MESSAGES: string;
+  MANAGE_MESSAGES: string;
+  EMBED_LINKS: string;
+  ATTACH_FILES: string;
+  READ_MESSAGE_HISTORY: string;
+  MENTION_EVERYONE: string;
+  USE_EXTERNAL_EMOJIS: string;
+  VIEW_GUILD_INSIGHTS: string;
+  CONNECT: string;
+  SPEAK: string;
+  MUTE_MEMBERS: string;
+  DEAFEN_MEMBERS: string;
+  MOVE_MEMBERS: string;
+  USE_VAD: string;
+  CHANGE_NICKNAME: string;
+  MANAGE_NICKNAMES: string;
+  MANAGE_ROLES: string;
+  MANAGE_WEBHOOKS: string;
+  MANAGE_EMOJIS: string;
+  USE_SLASH_COMMANDS: string;
+  REQUEST_TO_SPEAK: string;
+  MANAGE_THREADS: string;
+  USE_PUBLIC_THREADS: string;
+  USE_PRIVATE_THREADS: string;
+  USE_EXTERNAL_STICKERS: string;
+  SEND_MESSAGES_IN_THREADS: string;
+  USE_EMBEDDED_ACTIVITIES: string;
+  MODERATE_MEMBERS: string;
+  VIEW_CREATOR_MONETIZATION_ANALYTICS: string;
+  USE_SOUNDBOARD: string;
+  CREATE_GUILD_EXPRESSIONS: string;
+  CREATE_EVENTS: string;
+  USE_EXTERNAL_SOUNDS: string;
+  SEND_VOICE_MESSAGES: string;
+  SEND_POLLS: string;
+};
+  role_update_types: {
+  enabled: string;
+  disabled: string;
+  none: string;
+};
   tags_responses: {
   "tags-help-description": string;
   "create-success": string;
@@ -434,6 +418,22 @@ export type LanguageStructure = {
   "tag-error-limitreached-0": string;
   "tag-error-limitreached-1": string;
   "tag-createdby": string;
+};
+  time: {
+  second: string;
+  "second-plural": string;
+  minute: string;
+  "minute-plural": string;
+  hour: string;
+  "hour-plural": string;
+  day: string;
+  "day-plural": string;
+  week: string;
+  "week-plural": string;
+  month: string;
+  "month-plural": string;
+  year: string;
+  "year-plural": string;
 };
 };
   slash_commands: {
@@ -517,13 +517,6 @@ export type LanguageStructure = {
 };
 };
 };
-  initialReactor: {
-  name: string;
-};
-  invite: {
-  name: string;
-  description: string;
-};
   help: {
   name: string;
   description: string;
@@ -537,6 +530,13 @@ export type LanguageStructure = {
   description: string;
 };
 };
+};
+  initialReactor: {
+  name: string;
+};
+  invite: {
+  name: string;
+  description: string;
 };
   kick: {
   name: string;
@@ -561,6 +561,10 @@ export type LanguageStructure = {
   description: string;
 };
 };
+};
+  logging: {
+  name: string;
+  description: string;
 };
   mute: {
   name: string;
@@ -595,6 +599,10 @@ export type LanguageStructure = {
 };
 };
 };
+  ping: {
+  name: string;
+  description: string;
+};
   purge: {
   name: string;
   description: string;
@@ -610,10 +618,6 @@ export type LanguageStructure = {
   description: string;
 };
   privacy: {
-  name: string;
-  description: string;
-};
-  ping: {
   name: string;
   description: string;
 };
@@ -689,38 +693,6 @@ export type LanguageStructure = {
 };
 };
 };
-  unban: {
-  name: string;
-  description: string;
-  commandOptions: {
-  userOption: {
-  name: string;
-  description: string;
-};
-  reasonOption: {
-  name: string;
-  description: string;
-};
-};
-};
-  unmute: {
-  name: string;
-  description: string;
-  commandOptions: {
-  userOption: {
-  name: string;
-  description: string;
-};
-  reasonOption: {
-  name: string;
-  description: string;
-};
-};
-};
-  logging: {
-  name: string;
-  description: string;
-};
   tags: {
   name: string;
   description: string;
@@ -782,6 +754,34 @@ export type LanguageStructure = {
   description: string;
 };
   helpOption: {
+  name: string;
+  description: string;
+};
+};
+};
+  unban: {
+  name: string;
+  description: string;
+  commandOptions: {
+  userOption: {
+  name: string;
+  description: string;
+};
+  reasonOption: {
+  name: string;
+  description: string;
+};
+};
+};
+  unmute: {
+  name: string;
+  description: string;
+  commandOptions: {
+  userOption: {
+  name: string;
+  description: string;
+};
+  reasonOption: {
   name: string;
   description: string;
 };
@@ -879,6 +879,58 @@ export type LanguageStructure = {
   description_withTier: string;
   description_withTier_noUser: string;
   none: string;
+};
+};
+  modlog: {
+  moderator: string;
+  user: string;
+  reason: string;
+  case: string;
+  noReason: string;
+  noReasonBrief: string;
+  ban: string;
+  unban: string;
+  kick: string;
+  mute: string;
+  unmute: string;
+  timeoutEnds: string;
+  editReason: string;
+  reasonModal: {
+  label: string;
+  placeholder: string;
+  title: string;
+};
+};
+  roleEvents: {
+  roleCreated: {
+  title: string;
+  description: string;
+};
+  roleDeleted: {
+  title: string;
+  description: string;
+  role: string;
+  linkToRoleIcon: string;
+};
+  roleUpdated: {
+  title: string;
+  description: string;
+};
+  rolePermissionsUpdate: {
+  title: string;
+  description: string;
+  newPermissions: string;
+  oldPermissions: string;
+  viewFullNewPermissions: string;
+  viewFullOldPermissions: string;
+};
+  roleIconUpdate: {
+  title: string;
+  description: string;
+  description_added: string;
+  description_removed: string;
+  linkToOldIcon: string;
+  linkToNewIcon: string;
 };
 };
   quarkEvents: {
@@ -998,58 +1050,6 @@ export type LanguageStructure = {
   newChannel: string;
   linkToEventImage: string;
   newImage: string;
-};
-};
-  roleEvents: {
-  roleCreated: {
-  title: string;
-  description: string;
-};
-  roleDeleted: {
-  title: string;
-  description: string;
-  role: string;
-  linkToRoleIcon: string;
-};
-  roleUpdated: {
-  title: string;
-  description: string;
-};
-  rolePermissionsUpdate: {
-  title: string;
-  description: string;
-  newPermissions: string;
-  oldPermissions: string;
-  viewFullNewPermissions: string;
-  viewFullOldPermissions: string;
-};
-  roleIconUpdate: {
-  title: string;
-  description: string;
-  description_added: string;
-  description_removed: string;
-  linkToOldIcon: string;
-  linkToNewIcon: string;
-};
-};
-  modlog: {
-  moderator: string;
-  user: string;
-  reason: string;
-  case: string;
-  noReason: string;
-  noReasonBrief: string;
-  ban: string;
-  unban: string;
-  kick: string;
-  mute: string;
-  unmute: string;
-  timeoutEnds: string;
-  editReason: string;
-  reasonModal: {
-  label: string;
-  placeholder: string;
-  title: string;
 };
 };
   serverEvents: {
