@@ -3,7 +3,7 @@ import { readFile } from "fs/promises";
 import { join } from "path";
 import convert from "./json-to-ts.js";
 
-const baseDir = "./bot";
+const baseDir = "./bot/en_us";
 
 function readObject(obj) {
   const result = {};
