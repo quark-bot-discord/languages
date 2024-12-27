@@ -85,12 +85,6 @@ export type LanguageStructure = {
   "15": string;
   "16": string;
 };
-  "channel_update_types": {
-  "none": string;
-};
-  "emoji_update_types": {
-  "none": string;
-};
   "command_responses": {
   "disable": string;
   "enable": string;
@@ -302,6 +296,12 @@ export type LanguageStructure = {
 };
   "help-modify-tags-description": string;
 };
+  "channel_update_types": {
+  "none": string;
+};
+  "emoji_update_types": {
+  "none": string;
+};
   "gui_constants": {
   "channelModificationTypes": {
   "name": string;
@@ -372,6 +372,18 @@ export type LanguageStructure = {
   "false": string;
 };
 };
+  "ignore_options": {
+  "ignoreTargets": string;
+  "ignoreExecutors": string;
+  "specificMessageContent": string;
+  "ignoreChannels": string;
+  "ignoreBotExecutors": string;
+  "ignoreBotTargets": string;
+  "ignoreExecutorRoles": string;
+  "ignoreTargetRoles": string;
+  "ignoreCategories": string;
+  "activeIgnore": string;
+};
   "log_categories": {
   "serverEvents": string;
   "serverActions": string;
@@ -385,24 +397,17 @@ export type LanguageStructure = {
   "modLog": string;
   "main": string;
 };
-  "ignore_options": {
-  "ignoreTargets": string;
-  "ignoreExecutors": string;
-  "specificMessageContent": string;
-  "ignoreChannels": string;
-  "ignoreBotExecutors": string;
-  "ignoreBotTargets": string;
-  "ignoreExecutorRoles": string;
-  "ignoreTargetRoles": string;
-  "ignoreCategories": string;
-  "activeIgnore": string;
-};
   "log_formats": {
   "0": string;
   "1": string;
   "2": string;
   "3": string;
   "4": string;
+};
+  "role_update_types": {
+  "enabled": string;
+  "disabled": string;
+  "none": string;
 };
   "permissions": {
   "CREATE_INSTANT_INVITE": string;
@@ -452,11 +457,6 @@ export type LanguageStructure = {
   "USE_EXTERNAL_SOUNDS": string;
   "SEND_VOICE_MESSAGES": string;
   "SEND_POLLS": string;
-};
-  "role_update_types": {
-  "enabled": string;
-  "disabled": string;
-  "none": string;
 };
   "tags_responses": {
   "tags-help-description": string;
@@ -597,16 +597,6 @@ export type LanguageStructure = {
 };
 };
 };
-  "language": {
-  "name": string;
-  "description": string;
-  "commandOptions": {
-  "languageOption": {
-  "name": string;
-  "description": string;
-};
-};
-};
   "mute": {
   "name": string;
   "description": string;
@@ -640,11 +630,25 @@ export type LanguageStructure = {
 };
 };
 };
+  "language": {
+  "name": string;
+  "description": string;
+  "commandOptions": {
+  "languageOption": {
+  "name": string;
+  "description": string;
+};
+};
+};
+  "ping": {
+  "name": string;
+  "description": string;
+};
   "premium": {
   "name": string;
   "description": string;
 };
-  "ping": {
+  "privacy": {
   "name": string;
   "description": string;
 };
@@ -657,10 +661,6 @@ export type LanguageStructure = {
   "description": string;
 };
 };
-};
-  "privacy": {
-  "name": string;
-  "description": string;
 };
   "reason": {
   "name": string;
@@ -1038,6 +1038,61 @@ export type LanguageStructure = {
   "linkToNewIcon": string;
 };
 };
+  "serverActions": {
+  "inviteCreate": {
+  "title": string;
+  "description_withInviter": string;
+  "description_withoutInviter": string;
+  "expires": string;
+  "never": string;
+  "maxUses": string;
+  "none": string;
+};
+  "inviteDelete": {
+  "title": string;
+  "description_withExecutor": string;
+  "description_withoutExecutor": string;
+  "used": string;
+  "created": string;
+  "none": string;
+};
+  "emojiCreated": {
+  "title": string;
+  "description": string;
+};
+  "emojiDeleted": {
+  "title": string;
+  "description": string;
+  "emoji": string;
+};
+  "emojiUpdated": {
+  "title": string;
+  "description": string;
+};
+  "serverEventCreate": {
+  "title": string;
+  "description_withChannel": string;
+  "description_withoutChannel": string;
+  "eventDescription": string;
+  "location": string;
+  "starts": string;
+  "image": string;
+};
+  "serverEventDelete": {
+  "title": string;
+  "description": string;
+  "linkToEventImage": string;
+};
+  "serverEventUpdate": {
+  "title": string;
+  "description": string;
+  "newEventDescription": string;
+  "newLocation": string;
+  "newChannel": string;
+  "linkToEventImage": string;
+  "newImage": string;
+};
+};
   "serverEvents": {
   "members": string;
   "userJoined": {
@@ -1106,61 +1161,6 @@ export type LanguageStructure = {
   "changedBy": string;
   "linkToOldAvatar": string;
   "linkToNewAvatar": string;
-};
-};
-  "serverActions": {
-  "inviteCreate": {
-  "title": string;
-  "description_withInviter": string;
-  "description_withoutInviter": string;
-  "expires": string;
-  "never": string;
-  "maxUses": string;
-  "none": string;
-};
-  "inviteDelete": {
-  "title": string;
-  "description_withExecutor": string;
-  "description_withoutExecutor": string;
-  "used": string;
-  "created": string;
-  "none": string;
-};
-  "emojiCreated": {
-  "title": string;
-  "description": string;
-};
-  "emojiDeleted": {
-  "title": string;
-  "description": string;
-  "emoji": string;
-};
-  "emojiUpdated": {
-  "title": string;
-  "description": string;
-};
-  "serverEventCreate": {
-  "title": string;
-  "description_withChannel": string;
-  "description_withoutChannel": string;
-  "eventDescription": string;
-  "location": string;
-  "starts": string;
-  "image": string;
-};
-  "serverEventDelete": {
-  "title": string;
-  "description": string;
-  "linkToEventImage": string;
-};
-  "serverEventUpdate": {
-  "title": string;
-  "description": string;
-  "newEventDescription": string;
-  "newLocation": string;
-  "newChannel": string;
-  "linkToEventImage": string;
-  "newImage": string;
 };
 };
   "textEvents": {
@@ -1590,6 +1590,31 @@ export type LanguageStructure = {
   "emoji_update_types": {
   "none": string;
 };
+  "ignore_options": {
+  "ignoreTargets": string;
+  "ignoreExecutors": string;
+  "specificMessageContent": string;
+  "ignoreChannels": string;
+  "ignoreBotExecutors": string;
+  "ignoreBotTargets": string;
+  "ignoreExecutorRoles": string;
+  "ignoreTargetRoles": string;
+  "ignoreCategories": string;
+  "activeIgnore": string;
+};
+  "log_categories": {
+  "serverEvents": string;
+  "serverActions": string;
+  "textEvents": string;
+  "voiceEvents": string;
+  "fileEvents": string;
+  "generalEvents": string;
+  "roleEvents": string;
+  "channelEvents": string;
+  "quarkEvents": string;
+  "modLog": string;
+  "main": string;
+};
   "guild_update_types": {
   "none": string;
   "verification_level": {
@@ -1618,31 +1643,6 @@ export type LanguageStructure = {
   "true": string;
   "false": string;
 };
-};
-  "ignore_options": {
-  "ignoreTargets": string;
-  "ignoreExecutors": string;
-  "specificMessageContent": string;
-  "ignoreChannels": string;
-  "ignoreBotExecutors": string;
-  "ignoreBotTargets": string;
-  "ignoreExecutorRoles": string;
-  "ignoreTargetRoles": string;
-  "ignoreCategories": string;
-  "activeIgnore": string;
-};
-  "log_categories": {
-  "serverEvents": string;
-  "serverActions": string;
-  "textEvents": string;
-  "voiceEvents": string;
-  "fileEvents": string;
-  "generalEvents": string;
-  "roleEvents": string;
-  "channelEvents": string;
-  "quarkEvents": string;
-  "modLog": string;
-  "main": string;
 };
   "log_formats": {
   "0": string;
@@ -2718,24 +2718,6 @@ export type LanguageStructure = {
 };
 };
   "slash_commands": {
-  "ban": {
-  "name": string;
-  "description": string;
-  "commandOptions": {
-  "userOption": {
-  "name": string;
-  "description": string;
-};
-  "reasonOption": {
-  "name": string;
-  "description": string;
-};
-  "deleteMessageDaysOption": {
-  "name": string;
-  "description": string;
-};
-};
-};
   "commands": {
   "name": string;
   "description": string;
@@ -2755,6 +2737,24 @@ export type LanguageStructure = {
   "label": string;
 };
 };
+};
+};
+};
+  "ban": {
+  "name": string;
+  "description": string;
+  "commandOptions": {
+  "userOption": {
+  "name": string;
+  "description": string;
+};
+  "reasonOption": {
+  "name": string;
+  "description": string;
+};
+  "deleteMessageDaysOption": {
+  "name": string;
+  "description": string;
 };
 };
 };
@@ -2798,9 +2798,6 @@ export type LanguageStructure = {
 };
 };
 };
-  "initialReactor": {
-  "name": string;
-};
   "help": {
   "name": string;
   "description": string;
@@ -2814,6 +2811,9 @@ export type LanguageStructure = {
   "description": string;
 };
 };
+};
+  "initialReactor": {
+  "name": string;
 };
   "invite": {
   "name": string;
@@ -3040,7 +3040,7 @@ export type LanguageStructure = {
 };
 };
 };
-  "unban": {
+  "unmute": {
   "name": string;
   "description": string;
   "commandOptions": {
@@ -3054,7 +3054,7 @@ export type LanguageStructure = {
 };
 };
 };
-  "unmute": {
+  "unban": {
   "name": string;
   "description": string;
   "commandOptions": {
@@ -3182,6 +3182,93 @@ export type LanguageStructure = {
   "title": string;
 };
 };
+  "roleEvents": {
+  "roleCreated": {
+  "title": string;
+  "description": string;
+};
+  "roleDeleted": {
+  "title": string;
+  "description": string;
+  "role": string;
+  "linkToRoleIcon": string;
+};
+  "roleUpdated": {
+  "title": string;
+  "description": string;
+};
+  "rolePermissionsUpdate": {
+  "title": string;
+  "description": string;
+  "newPermissions": string;
+  "oldPermissions": string;
+  "viewFullNewPermissions": string;
+  "viewFullOldPermissions": string;
+};
+  "roleIconUpdate": {
+  "title": string;
+  "description": string;
+  "description_added": string;
+  "description_removed": string;
+  "linkToOldIcon": string;
+  "linkToNewIcon": string;
+};
+};
+  "serverActions": {
+  "inviteCreate": {
+  "title": string;
+  "description_withInviter": string;
+  "description_withoutInviter": string;
+  "expires": string;
+  "never": string;
+  "maxUses": string;
+  "none": string;
+};
+  "inviteDelete": {
+  "title": string;
+  "description_withExecutor": string;
+  "description_withoutExecutor": string;
+  "used": string;
+  "created": string;
+  "none": string;
+};
+  "emojiCreated": {
+  "title": string;
+  "description": string;
+};
+  "emojiDeleted": {
+  "title": string;
+  "description": string;
+  "emoji": string;
+};
+  "emojiUpdated": {
+  "title": string;
+  "description": string;
+};
+  "serverEventCreate": {
+  "title": string;
+  "description_withChannel": string;
+  "description_withoutChannel": string;
+  "eventDescription": string;
+  "location": string;
+  "starts": string;
+  "image": string;
+};
+  "serverEventDelete": {
+  "title": string;
+  "description": string;
+  "linkToEventImage": string;
+};
+  "serverEventUpdate": {
+  "title": string;
+  "description": string;
+  "newEventDescription": string;
+  "newLocation": string;
+  "newChannel": string;
+  "linkToEventImage": string;
+  "newImage": string;
+};
+};
   "quarkEvents": {
   "serverlogChannelUpdate": {
   "title": string;
@@ -3246,91 +3333,74 @@ export type LanguageStructure = {
   "description": string;
 };
 };
-  "serverActions": {
-  "inviteCreate": {
+  "serverEvents": {
+  "members": string;
+  "userJoined": {
   "title": string;
-  "description_withInviter": string;
-  "description_withoutInviter": string;
-  "expires": string;
-  "never": string;
-  "maxUses": string;
-  "none": string;
+  "description": string;
+  "noAvatar": string;
+  "newAccount": string;
+  "noBadges": string;
+  "warning": string;
+  "accountCreated": string;
+  "invite": string;
+  "createdBy": string;
+  "ban": string;
+  "info": string;
+  "rejoined": string;
 };
-  "inviteDelete": {
+  "userLeft": {
   "title": string;
-  "description_withExecutor": string;
-  "description_withoutExecutor": string;
-  "used": string;
-  "created": string;
-  "none": string;
+  "description": string;
+  "joined": string;
+  "roles": string;
+  "serverProfilePicture": string;
 };
-  "emojiCreated": {
+  "botAdded": {
+  "title": string;
+  "description": string;
+  "descriptionne": string;
+};
+  "botRemoved": {
+  "title": string;
+  "description": string;
+  "descriptionne": string;
+};
+  "nicknameUpdate": {
+  "title": string;
+  "description": string;
+  "setNick": string;
+  "nickRemoved": string;
+  "changedBy": string;
+};
+  "memberRoleAdd": {
+  "title": string;
+  "title_multiple": string;
+  "description": string;
+  "description_multiple": string;
+  "givenBy": string;
+  "roles": string;
+};
+  "memberRoleRemove": {
+  "title": string;
+  "title_multiple": string;
+  "description": string;
+  "description_multiple": string;
+  "removedBy": string;
+  "roles": string;
+};
+  "memberPrune": {
   "title": string;
   "description": string;
 };
-  "emojiDeleted": {
-  "title": string;
-  "description": string;
-  "emoji": string;
-};
-  "emojiUpdated": {
-  "title": string;
-  "description": string;
-};
-  "serverEventCreate": {
-  "title": string;
-  "description_withChannel": string;
-  "description_withoutChannel": string;
-  "eventDescription": string;
-  "location": string;
-  "starts": string;
-  "image": string;
-};
-  "serverEventDelete": {
-  "title": string;
-  "description": string;
-  "linkToEventImage": string;
-};
-  "serverEventUpdate": {
-  "title": string;
-  "description": string;
-  "newEventDescription": string;
-  "newLocation": string;
-  "newChannel": string;
-  "linkToEventImage": string;
-  "newImage": string;
-};
-};
-  "roleEvents": {
-  "roleCreated": {
-  "title": string;
-  "description": string;
-};
-  "roleDeleted": {
-  "title": string;
-  "description": string;
-  "role": string;
-  "linkToRoleIcon": string;
-};
-  "roleUpdated": {
-  "title": string;
-  "description": string;
-};
-  "rolePermissionsUpdate": {
-  "title": string;
-  "description": string;
-  "newPermissions": string;
-  "oldPermissions": string;
-  "viewFullNewPermissions": string;
-  "viewFullOldPermissions": string;
-};
-  "roleIconUpdate": {
+  "avatarUpdate": {
   "title": string;
   "description": string;
   "description_added": string;
   "description_removed": string;
-  "linkToOldIcon": string;
-  "linkToNewIcon": string;
+  "changedBy": string;
+  "linkToOldAvatar": string;
+  "linkToNewAvatar": string;
 };
 };
   "textEvents": {
@@ -3424,76 +3494,6 @@ export type LanguageStructure = {
   "emoji": string;
   "linkToEmoji": string;
   "jumpToMessage": string;
-};
-};
-  "serverEvents": {
-  "members": string;
-  "userJoined": {
-  "title": string;
-  "description": string;
-  "noAvatar": string;
-  "newAccount": string;
-  "noBadges": string;
-  "warning": string;
-  "accountCreated": string;
-  "invite": string;
-  "createdBy": string;
-  "ban": string;
-  "info": string;
-  "rejoined": string;
-};
-  "userLeft": {
-  "title": string;
-  "description": string;
-  "joined": string;
-  "roles": string;
-  "serverProfilePicture": string;
-};
-  "botAdded": {
-  "title": string;
-  "description": string;
-  "descriptionne": string;
-};
-  "botRemoved": {
-  "title": string;
-  "description": string;
-  "descriptionne": string;
-};
-  "nicknameUpdate": {
-  "title": string;
-  "description": string;
-  "setNick": string;
-  "nickRemoved": string;
-  "changedBy": string;
-};
-  "memberRoleAdd": {
-  "title": string;
-  "title_multiple": string;
-  "description": string;
-  "description_multiple": string;
-  "givenBy": string;
-  "roles": string;
-};
-  "memberRoleRemove": {
-  "title": string;
-  "title_multiple": string;
-  "description": string;
-  "description_multiple": string;
-  "removedBy": string;
-  "roles": string;
-};
-  "memberPrune": {
-  "title": string;
-  "description": string;
-};
-  "avatarUpdate": {
-  "title": string;
-  "description": string;
-  "description_added": string;
-  "description_removed": string;
-  "changedBy": string;
-  "linkToOldAvatar": string;
-  "linkToNewAvatar": string;
 };
 };
   "voiceEvents": {
@@ -3872,6 +3872,19 @@ export type LanguageStructure = {
   "false": string;
 };
 };
+  "log_categories": {
+  "serverEvents": string;
+  "serverActions": string;
+  "textEvents": string;
+  "voiceEvents": string;
+  "fileEvents": string;
+  "generalEvents": string;
+  "roleEvents": string;
+  "channelEvents": string;
+  "quarkEvents": string;
+  "modLog": string;
+  "main": string;
+};
   "gui_constants": {
   "channelModificationTypes": {
   "name": string;
@@ -3924,19 +3937,6 @@ export type LanguageStructure = {
   "ignoreTargetRoles": string;
   "ignoreCategories": string;
   "activeIgnore": string;
-};
-  "log_categories": {
-  "serverEvents": string;
-  "serverActions": string;
-  "textEvents": string;
-  "voiceEvents": string;
-  "fileEvents": string;
-  "generalEvents": string;
-  "roleEvents": string;
-  "channelEvents": string;
-  "quarkEvents": string;
-  "modLog": string;
-  "main": string;
 };
   "log_formats": {
   "0": string;
@@ -3994,11 +3994,6 @@ export type LanguageStructure = {
   "SEND_VOICE_MESSAGES": string;
   "SEND_POLLS": string;
 };
-  "role_update_types": {
-  "enabled": string;
-  "disabled": string;
-  "none": string;
-};
   "tags_responses": {
   "tags-help-description": string;
   "create-success": string;
@@ -4022,6 +4017,11 @@ export type LanguageStructure = {
   "tag-error-limitreached-0": string;
   "tag-error-limitreached-1": string;
   "tag-createdby": string;
+};
+  "role_update_types": {
+  "enabled": string;
+  "disabled": string;
+  "none": string;
 };
   "time": {
   "second": string;
@@ -4059,6 +4059,14 @@ export type LanguageStructure = {
 };
 };
 };
+  "commands": {
+  "name": string;
+  "description": string;
+};
+  "dashboard": {
+  "name": string;
+  "description": string;
+};
   "config": {
   "name": string;
   "description": string;
@@ -4076,14 +4084,6 @@ export type LanguageStructure = {
 };
 };
 };
-};
-  "commands": {
-  "name": string;
-  "description": string;
-};
-  "dashboard": {
-  "name": string;
-  "description": string;
 };
   "debug": {
   "name": string;
@@ -4138,10 +4138,6 @@ export type LanguageStructure = {
   "initialReactor": {
   "name": string;
 };
-  "invite": {
-  "name": string;
-  "description": string;
-};
   "kick": {
   "name": string;
   "description": string;
@@ -4155,6 +4151,10 @@ export type LanguageStructure = {
   "description": string;
 };
 };
+};
+  "invite": {
+  "name": string;
+  "description": string;
 };
   "language": {
   "name": string;
@@ -4293,20 +4293,6 @@ export type LanguageStructure = {
 };
 };
 };
-  "unban": {
-  "name": string;
-  "description": string;
-  "commandOptions": {
-  "userOption": {
-  "name": string;
-  "description": string;
-};
-  "reasonOption": {
-  "name": string;
-  "description": string;
-};
-};
-};
   "tags": {
   "name": string;
   "description": string;
@@ -4368,6 +4354,20 @@ export type LanguageStructure = {
   "description": string;
 };
   "helpOption": {
+  "name": string;
+  "description": string;
+};
+};
+};
+  "unban": {
+  "name": string;
+  "description": string;
+  "commandOptions": {
+  "userOption": {
+  "name": string;
+  "description": string;
+};
+  "reasonOption": {
   "name": string;
   "description": string;
 };
@@ -5159,9 +5159,6 @@ export type LanguageStructure = {
   "help-overview-help": string;
   "help-modify-tags-description": string;
 };
-  "emoji_update_types": {
-  "none": string;
-};
   "gui_constants": {
   "channelModificationTypes": {
   "name": string;
@@ -5232,6 +5229,9 @@ export type LanguageStructure = {
   "false": string;
 };
 };
+  "emoji_update_types": {
+  "none": string;
+};
   "ignore_options": {
   "ignoreTargets": string;
   "ignoreExecutors": string;
@@ -5263,6 +5263,11 @@ export type LanguageStructure = {
   "2": string;
   "3": string;
   "4": string;
+};
+  "role_update_types": {
+  "none": string;
+  "enabled": string;
+  "disabled": string;
 };
   "permissions": {
   "CREATE_INSTANT_INVITE": string;
@@ -5336,11 +5341,6 @@ export type LanguageStructure = {
   "tag-error-limitreached-0": string;
   "tag-error-limitreached-1": string;
   "tag-createdby": string;
-};
-  "role_update_types": {
-  "none": string;
-  "enabled": string;
-  "disabled": string;
 };
   "time": {
   "second": string;
@@ -5898,6 +5898,15 @@ export type LanguageStructure = {
   "1": string;
   "2": string;
 };
+  "buttons": {
+  "userID": string;
+  "supportServer": string;
+  "customise": string;
+  "overview": string;
+  "serverlog": string;
+  "dashboard": string;
+  "pro": string;
+};
   "channel_types": {
   "0": string;
   "2": string;
@@ -5911,16 +5920,10 @@ export type LanguageStructure = {
   "15": string;
   "16": string;
 };
-  "buttons": {
-  "userID": string;
-  "supportServer": string;
-  "customise": string;
-  "overview": string;
-  "serverlog": string;
-  "dashboard": string;
-  "pro": string;
-};
   "channel_update_types": {
+  "none": string;
+};
+  "emoji_update_types": {
   "none": string;
 };
   "command_responses": {
@@ -6130,9 +6133,6 @@ export type LanguageStructure = {
   "setserverlog-type-quark-1": string;
   "help-modify-tags-description": string;
 };
-  "emoji_update_types": {
-  "none": string;
-};
   "gui_constants": {
   "channelModificationTypes": {
   "name": string;
@@ -6289,22 +6289,6 @@ export type LanguageStructure = {
   "disabled": string;
   "none": string;
 };
-  "time": {
-  "second": string;
-  "second-plural": string;
-  "minute": string;
-  "minute-plural": string;
-  "hour": string;
-  "hour-plural": string;
-  "day": string;
-  "day-plural": string;
-  "week": string;
-  "week-plural": string;
-  "month": string;
-  "month-plural": string;
-  "year": string;
-  "year-plural": string;
-};
   "tags_responses": {
   "tags-help-description": string;
   "create-success": string;
@@ -6328,6 +6312,22 @@ export type LanguageStructure = {
   "tag-error-limitreached-0": string;
   "tag-error-limitreached-1": string;
   "tag-createdby": string;
+};
+  "time": {
+  "second": string;
+  "second-plural": string;
+  "minute": string;
+  "minute-plural": string;
+  "hour": string;
+  "hour-plural": string;
+  "day": string;
+  "day-plural": string;
+  "week": string;
+  "week-plural": string;
+  "month": string;
+  "month-plural": string;
+  "year": string;
+  "year-plural": string;
 };
 };
   "slash_commands": {
@@ -6425,12 +6425,12 @@ export type LanguageStructure = {
 };
 };
 };
+  "initialReactor": {
+  "name": string;
+};
   "invite": {
   "name": string;
   "description": string;
-};
-  "initialReactor": {
-  "name": string;
 };
   "kick": {
   "name": string;
@@ -6583,6 +6583,20 @@ export type LanguageStructure = {
 };
 };
 };
+  "unban": {
+  "name": string;
+  "description": string;
+  "commandOptions": {
+  "userOption": {
+  "name": string;
+  "description": string;
+};
+  "reasonOption": {
+  "name": string;
+  "description": string;
+};
+};
+};
   "tags": {
   "name": string;
   "description": string;
@@ -6649,20 +6663,6 @@ export type LanguageStructure = {
 };
 };
 };
-  "unban": {
-  "name": string;
-  "description": string;
-  "commandOptions": {
-  "userOption": {
-  "name": string;
-  "description": string;
-};
-  "reasonOption": {
-  "name": string;
-  "description": string;
-};
-};
-};
   "unmute": {
   "name": string;
   "description": string;
@@ -6679,6 +6679,36 @@ export type LanguageStructure = {
 };
 };
   "standard": {
+  "generalEvents": {
+  "serverModified": {
+  "title": string;
+  "description": string;
+};
+  "serverIconUpdated": {
+  "title": string;
+  "description": string;
+  "description_added": string;
+  "description_removed": string;
+  "linkToOldIcon": string;
+  "linkToNewIcon": string;
+};
+  "serverBoostAdd": {
+  "title": string;
+  "description": string;
+  "description_noUser": string;
+  "description_withTier": string;
+  "description_withTier_noUser": string;
+  "none": string;
+};
+  "serverBoostRemove": {
+  "title": string;
+  "description": string;
+  "description_noUser": string;
+  "description_withTier": string;
+  "description_withTier_noUser": string;
+  "none": string;
+};
+};
   "channelEvents": {
   "channelCreated": {
   "title": string;
@@ -6739,56 +6769,6 @@ export type LanguageStructure = {
   "statusChannelUpdated": {
   "title": string;
   "description": string;
-};
-};
-  "generalEvents": {
-  "serverModified": {
-  "title": string;
-  "description": string;
-};
-  "serverIconUpdated": {
-  "title": string;
-  "description": string;
-  "description_added": string;
-  "description_removed": string;
-  "linkToOldIcon": string;
-  "linkToNewIcon": string;
-};
-  "serverBoostAdd": {
-  "title": string;
-  "description": string;
-  "description_noUser": string;
-  "description_withTier": string;
-  "description_withTier_noUser": string;
-  "none": string;
-};
-  "serverBoostRemove": {
-  "title": string;
-  "description": string;
-  "description_noUser": string;
-  "description_withTier": string;
-  "description_withTier_noUser": string;
-  "none": string;
-};
-};
-  "modlog": {
-  "moderator": string;
-  "user": string;
-  "reason": string;
-  "case": string;
-  "noReason": string;
-  "noReasonBrief": string;
-  "ban": string;
-  "unban": string;
-  "kick": string;
-  "mute": string;
-  "unmute": string;
-  "timeoutEnds": string;
-  "editReason": string;
-  "reasonModal": {
-  "label": string;
-  "placeholder": string;
-  "title": string;
 };
 };
   "quarkEvents": {
@@ -6855,6 +6835,58 @@ export type LanguageStructure = {
   "description": string;
 };
 };
+  "modlog": {
+  "moderator": string;
+  "user": string;
+  "reason": string;
+  "case": string;
+  "noReason": string;
+  "noReasonBrief": string;
+  "ban": string;
+  "unban": string;
+  "kick": string;
+  "mute": string;
+  "unmute": string;
+  "timeoutEnds": string;
+  "editReason": string;
+  "reasonModal": {
+  "label": string;
+  "placeholder": string;
+  "title": string;
+};
+};
+  "roleEvents": {
+  "roleCreated": {
+  "title": string;
+  "description": string;
+};
+  "roleDeleted": {
+  "title": string;
+  "description": string;
+  "role": string;
+  "linkToRoleIcon": string;
+};
+  "roleUpdated": {
+  "title": string;
+  "description": string;
+};
+  "rolePermissionsUpdate": {
+  "title": string;
+  "description": string;
+  "newPermissions": string;
+  "oldPermissions": string;
+  "viewFullNewPermissions": string;
+  "viewFullOldPermissions": string;
+};
+  "roleIconUpdate": {
+  "title": string;
+  "description": string;
+  "description_added": string;
+  "description_removed": string;
+  "linkToOldIcon": string;
+  "linkToNewIcon": string;
+};
+};
   "serverActions": {
   "inviteCreate": {
   "title": string;
@@ -6910,36 +6942,74 @@ export type LanguageStructure = {
   "newImage": string;
 };
 };
-  "roleEvents": {
-  "roleCreated": {
+  "serverEvents": {
+  "members": string;
+  "userJoined": {
+  "title": string;
+  "description": string;
+  "noAvatar": string;
+  "newAccount": string;
+  "noBadges": string;
+  "warning": string;
+  "accountCreated": string;
+  "invite": string;
+  "createdBy": string;
+  "ban": string;
+  "info": string;
+  "rejoined": string;
+};
+  "userLeft": {
+  "title": string;
+  "description": string;
+  "joined": string;
+  "roles": string;
+  "serverProfilePicture": string;
+};
+  "botAdded": {
+  "title": string;
+  "description": string;
+  "descriptionne": string;
+};
+  "botRemoved": {
+  "title": string;
+  "description": string;
+  "descriptionne": string;
+};
+  "nicknameUpdate": {
+  "title": string;
+  "description": string;
+  "setNick": string;
+  "nickRemoved": string;
+  "changedBy": string;
+};
+  "memberRoleAdd": {
+  "title": string;
+  "title_multiple": string;
+  "description": string;
+  "description_multiple": string;
+  "givenBy": string;
+  "roles": string;
+};
+  "memberRoleRemove": {
+  "title": string;
+  "title_multiple": string;
+  "description": string;
+  "description_multiple": string;
+  "removedBy": string;
+  "roles": string;
+};
+  "memberPrune": {
   "title": string;
   "description": string;
 };
-  "roleDeleted": {
-  "title": string;
-  "description": string;
-  "role": string;
-  "linkToRoleIcon": string;
-};
-  "roleUpdated": {
-  "title": string;
-  "description": string;
-};
-  "rolePermissionsUpdate": {
-  "title": string;
-  "description": string;
-  "newPermissions": string;
-  "oldPermissions": string;
-  "viewFullNewPermissions": string;
-  "viewFullOldPermissions": string;
-};
-  "roleIconUpdate": {
+  "avatarUpdate": {
   "title": string;
   "description": string;
   "description_added": string;
   "description_removed": string;
-  "linkToOldIcon": string;
-  "linkToNewIcon": string;
+  "changedBy": string;
+  "linkToOldAvatar": string;
+  "linkToNewAvatar": string;
 };
 };
   "textEvents": {
@@ -7033,76 +7103,6 @@ export type LanguageStructure = {
   "emoji": string;
   "linkToEmoji": string;
   "jumpToMessage": string;
-};
-};
-  "serverEvents": {
-  "members": string;
-  "userJoined": {
-  "title": string;
-  "description": string;
-  "noAvatar": string;
-  "newAccount": string;
-  "noBadges": string;
-  "warning": string;
-  "accountCreated": string;
-  "invite": string;
-  "createdBy": string;
-  "ban": string;
-  "info": string;
-  "rejoined": string;
-};
-  "userLeft": {
-  "title": string;
-  "description": string;
-  "joined": string;
-  "roles": string;
-  "serverProfilePicture": string;
-};
-  "botAdded": {
-  "title": string;
-  "description": string;
-  "descriptionne": string;
-};
-  "botRemoved": {
-  "title": string;
-  "description": string;
-  "descriptionne": string;
-};
-  "nicknameUpdate": {
-  "title": string;
-  "description": string;
-  "setNick": string;
-  "nickRemoved": string;
-  "changedBy": string;
-};
-  "memberRoleAdd": {
-  "title": string;
-  "title_multiple": string;
-  "description": string;
-  "description_multiple": string;
-  "givenBy": string;
-  "roles": string;
-};
-  "memberRoleRemove": {
-  "title": string;
-  "title_multiple": string;
-  "description": string;
-  "description_multiple": string;
-  "removedBy": string;
-  "roles": string;
-};
-  "memberPrune": {
-  "title": string;
-  "description": string;
-};
-  "avatarUpdate": {
-  "title": string;
-  "description": string;
-  "description_added": string;
-  "description_removed": string;
-  "changedBy": string;
-  "linkToOldAvatar": string;
-  "linkToNewAvatar": string;
 };
 };
   "voiceEvents": {
@@ -7522,18 +7522,6 @@ export type LanguageStructure = {
   "false": string;
 };
 };
-  "ignore_options": {
-  "ignoreTargets": string;
-  "ignoreExecutors": string;
-  "specificMessageContent": string;
-  "ignoreChannels": string;
-  "ignoreBotExecutors": string;
-  "ignoreBotTargets": string;
-  "ignoreExecutorRoles": string;
-  "ignoreTargetRoles": string;
-  "ignoreCategories": string;
-  "activeIgnore": string;
-};
   "log_categories": {
   "serverEvents": string;
   "serverActions": string;
@@ -7546,6 +7534,39 @@ export type LanguageStructure = {
   "quarkEvents": string;
   "modLog": string;
   "main": string;
+};
+  "ignore_options": {
+  "ignoreTargets": string;
+  "ignoreExecutors": string;
+  "specificMessageContent": string;
+  "ignoreChannels": string;
+  "ignoreBotExecutors": string;
+  "ignoreBotTargets": string;
+  "ignoreExecutorRoles": string;
+  "ignoreTargetRoles": string;
+  "ignoreCategories": string;
+  "activeIgnore": string;
+};
+  "role_update_types": {
+  "enabled": string;
+  "disabled": string;
+  "none": string;
+};
+  "time": {
+  "second": string;
+  "second-plural": string;
+  "minute": string;
+  "minute-plural": string;
+  "hour": string;
+  "hour-plural": string;
+  "day": string;
+  "day-plural": string;
+  "week": string;
+  "week-plural": string;
+  "month": string;
+  "month-plural": string;
+  "year": string;
+  "year-plural": string;
 };
   "tags_responses": {
   "tags-help-description": string;
@@ -7570,22 +7591,6 @@ export type LanguageStructure = {
   "tag-error-limitreached-0": string;
   "tag-error-limitreached-1": string;
   "tag-createdby": string;
-};
-  "time": {
-  "second": string;
-  "second-plural": string;
-  "minute": string;
-  "minute-plural": string;
-  "hour": string;
-  "hour-plural": string;
-  "day": string;
-  "day-plural": string;
-  "week": string;
-  "week-plural": string;
-  "month": string;
-  "month-plural": string;
-  "year": string;
-  "year-plural": string;
 };
   "permissions": {
   "CREATE_INSTANT_INVITE": string;
@@ -7636,11 +7641,6 @@ export type LanguageStructure = {
   "SEND_VOICE_MESSAGES": string;
   "SEND_POLLS": string;
 };
-  "role_update_types": {
-  "enabled": string;
-  "disabled": string;
-  "none": string;
-};
   "log_formats": {
   "0": string;
   "1": string;
@@ -7668,24 +7668,6 @@ export type LanguageStructure = {
 };
 };
 };
-  "commands": {
-  "name": string;
-  "description": string;
-};
-  "dashboard": {
-  "name": string;
-  "description": string;
-};
-  "debug": {
-  "name": string;
-  "description": string;
-  "commandOptions": {
-  "shareOption": {
-  "name": string;
-  "description": string;
-};
-};
-};
   "config": {
   "name": string;
   "description": string;
@@ -7701,6 +7683,24 @@ export type LanguageStructure = {
   "label": string;
 };
 };
+};
+};
+};
+  "commands": {
+  "name": string;
+  "description": string;
+};
+  "dashboard": {
+  "name": string;
+  "description": string;
+};
+  "debug": {
+  "name": string;
+  "description": string;
+  "commandOptions": {
+  "shareOption": {
+  "name": string;
+  "description": string;
 };
 };
 };
@@ -7747,10 +7747,6 @@ export type LanguageStructure = {
   "initialReactor": {
   "name": string;
 };
-  "invite": {
-  "name": string;
-  "description": string;
-};
   "kick": {
   "name": string;
   "description": string;
@@ -7764,6 +7760,10 @@ export type LanguageStructure = {
   "description": string;
 };
 };
+};
+  "invite": {
+  "name": string;
+  "description": string;
 };
   "language": {
   "name": string;
@@ -7830,6 +7830,20 @@ export type LanguageStructure = {
 };
 };
 };
+  "reason": {
+  "name": string;
+  "description": string;
+  "commandOptions": {
+  "caseOption": {
+  "name": string;
+  "description": string;
+};
+  "reasonOption": {
+  "name": string;
+  "description": string;
+};
+};
+};
   "serverlog": {
   "name": string;
   "description": string;
@@ -7883,20 +7897,6 @@ export type LanguageStructure = {
   "description": string;
 };
   "spoilersOption": {
-  "name": string;
-  "description": string;
-};
-};
-};
-  "reason": {
-  "name": string;
-  "description": string;
-  "commandOptions": {
-  "caseOption": {
-  "name": string;
-  "description": string;
-};
-  "reasonOption": {
   "name": string;
   "description": string;
 };
@@ -8090,26 +8090,6 @@ export type LanguageStructure = {
   "none": string;
 };
 };
-  "modlog": {
-  "moderator": string;
-  "user": string;
-  "reason": string;
-  "case": string;
-  "noReason": string;
-  "noReasonBrief": string;
-  "ban": string;
-  "unban": string;
-  "kick": string;
-  "mute": string;
-  "unmute": string;
-  "timeoutEnds": string;
-  "editReason": string;
-  "reasonModal": {
-  "label": string;
-  "placeholder": string;
-  "title": string;
-};
-};
   "quarkEvents": {
   "serverlogChannelUpdate": {
   "title": string;
@@ -8172,6 +8152,26 @@ export type LanguageStructure = {
   "tokenRevoked": {
   "title": string;
   "description": string;
+};
+};
+  "modlog": {
+  "moderator": string;
+  "user": string;
+  "reason": string;
+  "case": string;
+  "noReason": string;
+  "noReasonBrief": string;
+  "ban": string;
+  "unban": string;
+  "kick": string;
+  "mute": string;
+  "unmute": string;
+  "timeoutEnds": string;
+  "editReason": string;
+  "reasonModal": {
+  "label": string;
+  "placeholder": string;
+  "title": string;
 };
 };
   "roleEvents": {
@@ -8558,12 +8558,6 @@ export type LanguageStructure = {
   "15": string;
   "16": string;
 };
-  "channel_update_types": {
-  "none": string;
-};
-  "emoji_update_types": {
-  "none": string;
-};
   "command_responses": {
   "error-405-0": string;
   "configCommand": {
@@ -8771,6 +8765,12 @@ export type LanguageStructure = {
   "initialreactors-notfound": string;
   "help-modify-tags-description": string;
 };
+  "emoji_update_types": {
+  "none": string;
+};
+  "channel_update_types": {
+  "none": string;
+};
   "gui_constants": {
   "channelModificationTypes": {
   "name": string;
@@ -8922,6 +8922,11 @@ export type LanguageStructure = {
   "SEND_VOICE_MESSAGES": string;
   "SEND_POLLS": string;
 };
+  "role_update_types": {
+  "enabled": string;
+  "disabled": string;
+  "none": string;
+};
   "tags_responses": {
   "tags-help-description": string;
   "create-success": string;
@@ -8946,11 +8951,6 @@ export type LanguageStructure = {
   "tag-error-limitreached-1": string;
   "tag-createdby": string;
 };
-  "role_update_types": {
-  "enabled": string;
-  "disabled": string;
-  "none": string;
-};
   "time": {
   "second": string;
   "second-plural": string;
@@ -8969,6 +8969,36 @@ export type LanguageStructure = {
 };
 };
   "standard": {
+  "generalEvents": {
+  "serverModified": {
+  "title": string;
+  "description": string;
+};
+  "serverIconUpdated": {
+  "title": string;
+  "description": string;
+  "description_added": string;
+  "description_removed": string;
+  "linkToOldIcon": string;
+  "linkToNewIcon": string;
+};
+  "serverBoostAdd": {
+  "title": string;
+  "description": string;
+  "description_noUser": string;
+  "description_withTier": string;
+  "description_withTier_noUser": string;
+  "none": string;
+};
+  "serverBoostRemove": {
+  "title": string;
+  "description": string;
+  "description_noUser": string;
+  "description_withTier": string;
+  "description_withTier_noUser": string;
+  "none": string;
+};
+};
   "channelEvents": {
   "channelCreated": {
   "title": string;
@@ -9031,36 +9061,6 @@ export type LanguageStructure = {
   "description": string;
 };
 };
-  "generalEvents": {
-  "serverModified": {
-  "title": string;
-  "description": string;
-};
-  "serverIconUpdated": {
-  "title": string;
-  "description": string;
-  "description_added": string;
-  "description_removed": string;
-  "linkToOldIcon": string;
-  "linkToNewIcon": string;
-};
-  "serverBoostAdd": {
-  "title": string;
-  "description": string;
-  "description_noUser": string;
-  "description_withTier": string;
-  "description_withTier_noUser": string;
-  "none": string;
-};
-  "serverBoostRemove": {
-  "title": string;
-  "description": string;
-  "description_noUser": string;
-  "description_withTier": string;
-  "description_withTier_noUser": string;
-  "none": string;
-};
-};
   "modlog": {
   "moderator": string;
   "user": string;
@@ -9079,38 +9079,6 @@ export type LanguageStructure = {
   "label": string;
   "placeholder": string;
   "title": string;
-};
-};
-  "roleEvents": {
-  "roleCreated": {
-  "title": string;
-  "description": string;
-};
-  "roleDeleted": {
-  "title": string;
-  "description": string;
-  "role": string;
-  "linkToRoleIcon": string;
-};
-  "roleUpdated": {
-  "title": string;
-  "description": string;
-};
-  "rolePermissionsUpdate": {
-  "title": string;
-  "description": string;
-  "newPermissions": string;
-  "oldPermissions": string;
-  "viewFullNewPermissions": string;
-  "viewFullOldPermissions": string;
-};
-  "roleIconUpdate": {
-  "title": string;
-  "description": string;
-  "description_added": string;
-  "description_removed": string;
-  "linkToOldIcon": string;
-  "linkToNewIcon": string;
 };
 };
   "quarkEvents": {
@@ -9175,6 +9143,38 @@ export type LanguageStructure = {
   "tokenRevoked": {
   "title": string;
   "description": string;
+};
+};
+  "roleEvents": {
+  "roleCreated": {
+  "title": string;
+  "description": string;
+};
+  "roleDeleted": {
+  "title": string;
+  "description": string;
+  "role": string;
+  "linkToRoleIcon": string;
+};
+  "roleUpdated": {
+  "title": string;
+  "description": string;
+};
+  "rolePermissionsUpdate": {
+  "title": string;
+  "description": string;
+  "newPermissions": string;
+  "oldPermissions": string;
+  "viewFullNewPermissions": string;
+  "viewFullOldPermissions": string;
+};
+  "roleIconUpdate": {
+  "title": string;
+  "description": string;
+  "description_added": string;
+  "description_removed": string;
+  "linkToOldIcon": string;
+  "linkToNewIcon": string;
 };
 };
   "serverActions": {
@@ -9532,50 +9532,6 @@ export type LanguageStructure = {
   "channel_update_types": {
   "none": string;
 };
-  "emoji_update_types": {
-  "none": string;
-};
-  "gui_constants": {
-  "roleModificationTypes": {
-  "name": string;
-  "hoist": string;
-  "unicode_emoji": string;
-  "managed": string;
-  "mentionable": string;
-  "color": string;
-};
-  "channelModificationTypes": {
-  "nsfw": string;
-  "name": string;
-  "user_limit": string;
-  "rate_limit_per_user": string;
-  "topic": string;
-  "bitrate": string;
-  "type": string;
-  "position": string;
-  "parent_id": string;
-  "rtc_region": string;
-};
-  "guildModificationTypes": {
-  "premium_progress_bar_enabled": string;
-  "description": string;
-  "name": string;
-  "system_channel_id": string;
-  "nsfw_level": string;
-  "mfa_level": string;
-  "default_message_notifications": string;
-  "explicit_content_filter": string;
-  "verification_level": string;
-  "rules_channel_id": string;
-};
-  "webhookModificationTypes": {
-  "channel_id": string;
-  "name": string;
-};
-  "emojiModificationTypes": {
-  "name": string;
-};
-};
   "command_responses": {
   "disable": string;
   "enable": string;
@@ -9783,6 +9739,50 @@ export type LanguageStructure = {
   "initialreactors-notfound": string;
   "help-modify-tags-description": string;
 };
+  "emoji_update_types": {
+  "none": string;
+};
+  "gui_constants": {
+  "roleModificationTypes": {
+  "name": string;
+  "hoist": string;
+  "unicode_emoji": string;
+  "managed": string;
+  "mentionable": string;
+  "color": string;
+};
+  "channelModificationTypes": {
+  "nsfw": string;
+  "name": string;
+  "user_limit": string;
+  "rate_limit_per_user": string;
+  "topic": string;
+  "bitrate": string;
+  "type": string;
+  "position": string;
+  "parent_id": string;
+  "rtc_region": string;
+};
+  "guildModificationTypes": {
+  "premium_progress_bar_enabled": string;
+  "description": string;
+  "name": string;
+  "system_channel_id": string;
+  "nsfw_level": string;
+  "mfa_level": string;
+  "default_message_notifications": string;
+  "explicit_content_filter": string;
+  "verification_level": string;
+  "rules_channel_id": string;
+};
+  "webhookModificationTypes": {
+  "channel_id": string;
+  "name": string;
+};
+  "emojiModificationTypes": {
+  "name": string;
+};
+};
   "guild_update_types": {
   "verification_level": {
   "0": string;
@@ -9812,6 +9812,18 @@ export type LanguageStructure = {
   "1": string;
 };
 };
+  "ignore_options": {
+  "ignoreBotExecutors": string;
+  "ignoreExecutorRoles": string;
+  "ignoreBotTargets": string;
+  "ignoreExecutors": string;
+  "activeIgnore": string;
+  "specificMessageContent": string;
+  "ignoreCategories": string;
+  "ignoreTargets": string;
+  "ignoreTargetRoles": string;
+  "ignoreChannels": string;
+};
   "log_categories": {
   "modLog": string;
   "channelEvents": string;
@@ -9825,24 +9837,17 @@ export type LanguageStructure = {
   "quarkEvents": string;
   "generalEvents": string;
 };
-  "ignore_options": {
-  "ignoreBotExecutors": string;
-  "ignoreExecutorRoles": string;
-  "ignoreBotTargets": string;
-  "ignoreExecutors": string;
-  "activeIgnore": string;
-  "specificMessageContent": string;
-  "ignoreCategories": string;
-  "ignoreTargets": string;
-  "ignoreTargetRoles": string;
-  "ignoreChannels": string;
-};
   "log_formats": {
   "0": string;
   "1": string;
   "2": string;
   "3": string;
   "4": string;
+};
+  "role_update_types": {
+  "enabled": string;
+  "disabled": string;
+  "none": string;
 };
   "permissions": {
   "CREATE_INSTANT_INVITE": string;
@@ -9892,11 +9897,6 @@ export type LanguageStructure = {
   "USE_EXTERNAL_SOUNDS": string;
   "SEND_VOICE_MESSAGES": string;
   "SEND_POLLS": string;
-};
-  "role_update_types": {
-  "enabled": string;
-  "disabled": string;
-  "none": string;
 };
   "tags_responses": {
   "tags-help-description": string;
@@ -10002,6 +10002,26 @@ export type LanguageStructure = {
   "description": string;
 };
 };
+  "modlog": {
+  "moderator": string;
+  "user": string;
+  "reason": string;
+  "case": string;
+  "noReason": string;
+  "noReasonBrief": string;
+  "ban": string;
+  "unban": string;
+  "kick": string;
+  "mute": string;
+  "unmute": string;
+  "timeoutEnds": string;
+  "reasonModal": {
+  "label": string;
+  "placeholder": string;
+  "title": string;
+};
+  "editReason": string;
+};
   "generalEvents": {
   "serverModified": {
   "title": string;
@@ -10031,26 +10051,6 @@ export type LanguageStructure = {
   "description_withTier_noUser": string;
   "none": string;
 };
-};
-  "modlog": {
-  "moderator": string;
-  "user": string;
-  "reason": string;
-  "case": string;
-  "noReason": string;
-  "noReasonBrief": string;
-  "ban": string;
-  "unban": string;
-  "kick": string;
-  "mute": string;
-  "unmute": string;
-  "timeoutEnds": string;
-  "reasonModal": {
-  "label": string;
-  "placeholder": string;
-  "title": string;
-};
-  "editReason": string;
 };
   "quarkEvents": {
   "serverlogChannelUpdate": {
@@ -10503,9 +10503,6 @@ export type LanguageStructure = {
   "channel_update_types": {
   "none": string;
 };
-  "emoji_update_types": {
-  "none": string;
-};
   "command_responses": {
   "disable": string;
   "enable": string;
@@ -10754,6 +10751,9 @@ export type LanguageStructure = {
   "name": string;
 };
 };
+  "emoji_update_types": {
+  "none": string;
+};
   "guild_update_types": {
   "none": string;
   "verification_level": {
@@ -10929,16 +10929,6 @@ export type LanguageStructure = {
 };
 };
 };
-  "debug": {
-  "name": string;
-  "description": string;
-  "commandOptions": {
-  "shareOption": {
-  "name": string;
-  "description": string;
-};
-};
-};
   "commands": {
   "name": string;
   "description": string;
@@ -10966,6 +10956,16 @@ export type LanguageStructure = {
   "name": string;
 };
 };
+};
+};
+};
+  "debug": {
+  "name": string;
+  "description": string;
+  "commandOptions": {
+  "shareOption": {
+  "name": string;
+  "description": string;
 };
 };
 };
@@ -11134,20 +11134,6 @@ export type LanguageStructure = {
 };
 };
 };
-  "unban": {
-  "name": string;
-  "description": string;
-  "commandOptions": {
-  "userOption": {
-  "name": string;
-  "description": string;
-};
-  "reasonOption": {
-  "name": string;
-  "description": string;
-};
-};
-};
   "tags": {
   "name": string;
   "description": string;
@@ -11214,6 +11200,20 @@ export type LanguageStructure = {
 };
 };
 };
+  "unban": {
+  "name": string;
+  "description": string;
+  "commandOptions": {
+  "userOption": {
+  "name": string;
+  "description": string;
+};
+  "reasonOption": {
+  "name": string;
+  "description": string;
+};
+};
+};
   "unmute": {
   "name": string;
   "description": string;
@@ -11230,6 +11230,36 @@ export type LanguageStructure = {
 };
 };
   "standard": {
+  "generalEvents": {
+  "serverModified": {
+  "title": string;
+  "description": string;
+};
+  "serverIconUpdated": {
+  "title": string;
+  "description": string;
+  "description_added": string;
+  "description_removed": string;
+  "linkToOldIcon": string;
+  "linkToNewIcon": string;
+};
+  "serverBoostAdd": {
+  "title": string;
+  "description": string;
+  "description_noUser": string;
+  "description_withTier": string;
+  "description_withTier_noUser": string;
+  "none": string;
+};
+  "serverBoostRemove": {
+  "title": string;
+  "description": string;
+  "description_noUser": string;
+  "description_withTier": string;
+  "description_withTier_noUser": string;
+  "none": string;
+};
+};
   "channelEvents": {
   "channelCreated": {
   "title": string;
@@ -11290,36 +11320,6 @@ export type LanguageStructure = {
   "statusChannelUpdated": {
   "title": string;
   "description": string;
-};
-};
-  "generalEvents": {
-  "serverModified": {
-  "title": string;
-  "description": string;
-};
-  "serverIconUpdated": {
-  "title": string;
-  "description": string;
-  "description_added": string;
-  "description_removed": string;
-  "linkToOldIcon": string;
-  "linkToNewIcon": string;
-};
-  "serverBoostAdd": {
-  "title": string;
-  "description": string;
-  "description_noUser": string;
-  "description_withTier": string;
-  "description_withTier_noUser": string;
-  "none": string;
-};
-  "serverBoostRemove": {
-  "title": string;
-  "description": string;
-  "description_noUser": string;
-  "description_withTier": string;
-  "description_withTier_noUser": string;
-  "none": string;
 };
 };
   "modlog": {

@@ -1,4 +1,5 @@
-export const locales = (await import("./bot/languages.json", { with: { type: "json" } })).default;
+import _locales from "./bot/languages.json" with { type: "json" };
+export const locales = _locales;
 export const validLanguages = Object.values(locales)
     .map((locale) => (locale.active === true ? locale.code : null))
     .filter((locale) => locale !== null);
