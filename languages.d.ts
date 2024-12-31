@@ -334,6 +334,13 @@ export type LanguageStructure = {
   modLog: string;
   main: string;
 }>;
+  log_formats: Promise<{
+  "0": string;
+  "1": string;
+  "2": string;
+  "3": string;
+  "4": string;
+}>;
   permissions: Promise<{
   CREATE_INSTANT_INVITE: string;
   KICK_MEMBERS: string;
@@ -383,13 +390,6 @@ export type LanguageStructure = {
   SEND_VOICE_MESSAGES: string;
   SEND_POLLS: string;
 }>;
-  log_formats: Promise<{
-  "0": string;
-  "1": string;
-  "2": string;
-  "3": string;
-  "4": string;
-}>;
   role_update_types: Promise<{
   enabled: string;
   disabled: string;
@@ -437,6 +437,10 @@ export type LanguageStructure = {
 }>;
 };
   slash_commands: {
+  commands: Promise<{
+  name: string;
+  description: string;
+}>;
   ban: Promise<{
   name: string;
   description: string;
@@ -454,10 +458,6 @@ export type LanguageStructure = {
   description: string;
 };
 };
-}>;
-  commands: Promise<{
-  name: string;
-  description: string;
 }>;
   config: Promise<{
   name: string;
@@ -517,9 +517,6 @@ export type LanguageStructure = {
 };
 };
 }>;
-  initialReactor: Promise<{
-  name: string;
-}>;
   help: Promise<{
   name: string;
   description: string;
@@ -533,6 +530,9 @@ export type LanguageStructure = {
   description: string;
 };
 };
+}>;
+  initialReactor: Promise<{
+  name: string;
 }>;
   invite: Promise<{
   name: string;
@@ -789,36 +789,6 @@ export type LanguageStructure = {
 }>;
 };
   standard: {
-  generalEvents: Promise<{
-  serverModified: {
-  title: string;
-  description: string;
-};
-  serverIconUpdated: {
-  title: string;
-  description: string;
-  description_added: string;
-  description_removed: string;
-  linkToOldIcon: string;
-  linkToNewIcon: string;
-};
-  serverBoostAdd: {
-  title: string;
-  description: string;
-  description_noUser: string;
-  description_withTier: string;
-  description_withTier_noUser: string;
-  none: string;
-};
-  serverBoostRemove: {
-  title: string;
-  description: string;
-  description_noUser: string;
-  description_withTier: string;
-  description_withTier_noUser: string;
-  none: string;
-};
-}>;
   channelEvents: Promise<{
   channelCreated: {
   title: string;
@@ -879,6 +849,36 @@ export type LanguageStructure = {
   statusChannelUpdated: {
   title: string;
   description: string;
+};
+}>;
+  generalEvents: Promise<{
+  serverModified: {
+  title: string;
+  description: string;
+};
+  serverIconUpdated: {
+  title: string;
+  description: string;
+  description_added: string;
+  description_removed: string;
+  linkToOldIcon: string;
+  linkToNewIcon: string;
+};
+  serverBoostAdd: {
+  title: string;
+  description: string;
+  description_noUser: string;
+  description_withTier: string;
+  description_withTier_noUser: string;
+  none: string;
+};
+  serverBoostRemove: {
+  title: string;
+  description: string;
+  description_noUser: string;
+  description_withTier: string;
+  description_withTier_noUser: string;
+  none: string;
 };
 }>;
   modlog: Promise<{
