@@ -437,10 +437,6 @@ export type LanguageStructure = {
 }>;
 };
   slash_commands: {
-  commands: Promise<{
-  name: string;
-  description: string;
-}>;
   ban: Promise<{
   name: string;
   description: string;
@@ -458,6 +454,10 @@ export type LanguageStructure = {
   description: string;
 };
 };
+}>;
+  commands: Promise<{
+  name: string;
+  description: string;
 }>;
   config: Promise<{
   name: string;
@@ -517,6 +517,13 @@ export type LanguageStructure = {
 };
 };
 }>;
+  initialReactor: Promise<{
+  name: string;
+}>;
+  invite: Promise<{
+  name: string;
+  description: string;
+}>;
   help: Promise<{
   name: string;
   description: string;
@@ -530,13 +537,6 @@ export type LanguageStructure = {
   description: string;
 };
 };
-}>;
-  initialReactor: Promise<{
-  name: string;
-}>;
-  invite: Promise<{
-  name: string;
-  description: string;
 }>;
   kick: Promise<{
   name: string;

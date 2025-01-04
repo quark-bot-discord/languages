@@ -1,5 +1,5 @@
 {
     "none": "none",
-    "enabled": "enabled",
-    "disabled": "disabled"
+    "enabled": "activé",
+    "disabled": "désactivé"
 }
