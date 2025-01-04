@@ -1,26 +1,26 @@
 {
     "none": "none",
     "verification_level": {
-        "0": "none",
-        "1": "low",
-        "2": "medium",
-        "3": "high",
-        "4": "very_high"
+        "0": "aucun",
+        "1": "faible",
+        "2": "moyen",
+        "3": "élevé",
+        "4": "très_élevé"
     },
     "default_message_notifications": {
-        "0": "all messages",
-        "1": "only mentions"
+        "0": "tous les messages",
+        "1": "uniquement les mentions"
     },
     "explicit_content_filter": {
-        "0": "disabled",
-        "1": "members without roles",
-        "2": "all members"
+        "0": "désactivé",
+        "1": "membres sans rôles",
+        "2": "tous les membres"
     },
     "nsfw_level": {
-        "0": "default",
-        "1": "explicit",
-        "2": "safe",
-        "3": "age restricted"
+        "0": "par défaut",
+        "1": "explicite",
+        "2": "sécurisé",
+        "3": "restriction d'âge"
     },
     "premium_progress_bar_enabled": {
         "true": "activée",
