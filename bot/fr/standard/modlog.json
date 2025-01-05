@@ -3,7 +3,7 @@
     "user": "Utilisateur",
     "reason": "Raison",
     "case": "Cas",
-    "noReason": "Modérateur : Veuillez utiliser {command}",
+    "noReason": "[aucune raison fournie]",
     "noReasonBrief": "Utilisez {command}",
     "ban": "Ban",
     "unban": "Deban",
