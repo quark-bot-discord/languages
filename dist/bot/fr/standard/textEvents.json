@@ -12,7 +12,7 @@
         "vote": "vote",
         "votes": "votes",
         "noResponses": "Pas de réponse",
-        "pollDeleted": "Poll Deleted"
+        "pollDeleted": "Sondage Supprimé"
     },
     "messageDeleted": {
         "title": "Message Supprimé",
