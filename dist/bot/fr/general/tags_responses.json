@@ -3,7 +3,7 @@
     "create-success": "L'étiquette est créée ! Utilise {tag} pour y avoir accès à tout moment !",
     "edit-success": "L'étiquette est modifiée ! Utilise {tag} pour y avoir accès à tout moment !",
     "delete-success": "L'étiquette {tag} est supprimée ! Utilise {commandList} pour voir toutes tes étiquettes restantes !",
-    "notags-list-command": "Hmmm... il n'y a pas d'étiquettes. Tu peux en créer une en utilisant le tableau de bord de Quark",
+    "notags-list-command": "Hmmm... il n'y a pas d'étiquettes. Tu peux en créer une en utilisant le tableau de [bord de Quark]",
     "tags-list-title": "Les étiquettes disponibles",
     "tags-embedoptions-title": "Les options d'embed :",
     "tags-usageoptions-title": "Les options d'utilisations des étiquettes :",

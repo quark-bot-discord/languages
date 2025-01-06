@@ -534,10 +534,6 @@ export type LanguageStructure = {
   initialReactor: Promise<{
   name: string;
 }>;
-  invite: Promise<{
-  name: string;
-  description: string;
-}>;
   kick: Promise<{
   name: string;
   description: string;
@@ -551,6 +547,10 @@ export type LanguageStructure = {
   description: string;
 };
 };
+}>;
+  invite: Promise<{
+  name: string;
+  description: string;
 }>;
   language: Promise<{
   name: string;
@@ -693,6 +693,20 @@ export type LanguageStructure = {
 };
 };
 }>;
+  unban: Promise<{
+  name: string;
+  description: string;
+  commandOptions: {
+  userOption: {
+  name: string;
+  description: string;
+};
+  reasonOption: {
+  name: string;
+  description: string;
+};
+};
+}>;
   tags: Promise<{
   name: string;
   description: string;
@@ -754,20 +768,6 @@ export type LanguageStructure = {
   description: string;
 };
   helpOption: {
-  name: string;
-  description: string;
-};
-};
-}>;
-  unban: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  userOption: {
-  name: string;
-  description: string;
-};
-  reasonOption: {
   name: string;
   description: string;
 };

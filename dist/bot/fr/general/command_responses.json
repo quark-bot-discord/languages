@@ -128,7 +128,7 @@
     "help-serverlog-1": "Options d'exceptions",
     "help-serverlog-2": "Spoilers",
     "help-serverlog-0-desc": "Pour plus de contrôle sur les logs, comme la sélection de différents salons pour différents types de logs, veuillez vous rendre sur le [tableau de bord en ligne de Quark]",
-    "help-serverlog-1-desc": "Pour éviter que certains salons, utilisateurs ou messages soit enregistrés dans les logs, merci de visiter le dashboard de Quark",
+    "help-serverlog-1-desc": "Pour éviter que certains salons, utilisateurs ou messages soit enregistrés dans les logs, merci de visiter le [dashboard de Quark]",
     "help-serverlog-2-desc": "Pour définir si les spoilers sont appliqués à tous les médias envoyés dans les logs du serveur ou non, exécutez : {command}",
     "help-serverlog-2-on": "Les spoilers sont activés.",
     "help-serverlog-2-off": "Les spoilers sont désactivés.",
@@ -203,5 +203,5 @@
         }
     },
     "help-overview-help": "Aide",
-    "help-modify-tags-description": "Pour créer et modifier des étiquettes, merci de visiter le dashboard de Quark"
+    "help-modify-tags-description": "Pour créer et modifier des étiquettes, merci de visiter le [dashboard de Quark]"
 }
