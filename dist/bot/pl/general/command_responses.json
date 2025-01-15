@@ -183,7 +183,8 @@
             "categoryChannels": {
                 "title": "Kanały",
                 "description": "Akcje kanału (tworzenie/usuwanie, uprawnienia)",
-                "resetButton": "Reset Channel Logging Channel"
+                "resetButton": "Reset Channel Logging Channel",
+                "disableButton": "Disable Channel Logs"
             },
             "categoryServer": {
                 "title": "Wydarzenia serwera",
