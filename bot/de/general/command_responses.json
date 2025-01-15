@@ -56,7 +56,7 @@
             "log_channels": "Log Channels",
             "configurable_events": "Configurable Events"
         },
-        "selectChannel": "Select a channel"
+        "selectChannel": "Set logging channel"
     },
     "disable": "Disable",
     "enable": "Enable",
