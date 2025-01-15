@@ -159,7 +159,8 @@
             "categoryMembers": {
                 "title": "Leden",
                 "description": "Ledenacties (join/leave, rollen, bijnamen)",
-                "resetButton": "Reset Member Logging Channel"
+                "resetButton": "Reset Member Logging Channel",
+                "disableButton": "Disable Member Logs"
             },
             "categoryText": {
                 "title": "Berichten",

@@ -193,6 +193,7 @@ export type LanguageStructure = {
   title: string;
   description: string;
   resetButton: string;
+  disableButton: string;
 };
   categoryText: {
   title: string;
@@ -614,11 +615,11 @@ export type LanguageStructure = {
 };
 };
 }>;
-  ping: Promise<{
+  premium: Promise<{
   name: string;
   description: string;
 }>;
-  premium: Promise<{
+  ping: Promise<{
   name: string;
   description: string;
 }>;

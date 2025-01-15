@@ -161,7 +161,8 @@
             "categoryMembers": {
                 "title": "Miembros",
                 "description": "Acciones de los miembros (unirse/salir, roles, apodos)",
-                "resetButton": "Reset Member Logging Channel"
+                "resetButton": "Reset Member Logging Channel",
+                "disableButton": "Disable Member Logs"
             },
             "categoryText": {
                 "title": "Mensajes",
