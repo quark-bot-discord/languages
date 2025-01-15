@@ -47,7 +47,8 @@
             "categoryModlog": {
                 "title": "Mod Logs",
                 "description": "Moderation actions (bans, kicks, mutes)",
-                "resetButton": "Reset Modlog Logging Channel"
+                "resetButton": "Reset Modlog Logging Channel",
+                "disableButton": "Disable Modlog Logs"
             },
             "overview": {
                 "title": "Overview",
