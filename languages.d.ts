@@ -223,6 +223,7 @@ export type LanguageStructure = {
   title: string;
   description: string;
   resetButton: string;
+  disableButton: string;
 };
   categoryRoles: {
   title: string;
@@ -582,6 +583,10 @@ export type LanguageStructure = {
 };
 };
 }>;
+  logging: Promise<{
+  name: string;
+  description: string;
+}>;
   mute: Promise<{
   name: string;
   description: string;
@@ -614,10 +619,6 @@ export type LanguageStructure = {
   description: string;
 };
 };
-}>;
-  logging: Promise<{
-  name: string;
-  description: string;
 }>;
   ping: Promise<{
   name: string;
