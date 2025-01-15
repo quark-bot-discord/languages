@@ -149,7 +149,7 @@
     "configCommand": {
         "title": "{quark} Logging Configurator",
         "selection": "Select a category in the menu to view configuration.",
-        "serverLogDesc": "Main Serverlog Channel",
+        "serverLogDesc": "Main Logging Channel",
         "notSet": "Not set",
         "selectACategory": "Select a category",
         "overview": "Overview",
@@ -160,7 +160,8 @@
         "categories": {
             "categoryMembers": {
                 "title": "Members",
-                "description": "Member actions (join/leave, roles, nicknames)"
+                "description": "Member actions (join/leave, roles, nicknames)",
+                "resetButton": "Reset Member Logging Channel"
             },
             "categoryText": {
                 "title": "Messages",
@@ -209,7 +210,7 @@
         },
         "selectChannel": "Set logging channel",
         "all": "All",
-        "resetChannel": "Reset Channel"
+        "resetChannel": "Reset Main Channel"
     },
     "help-modify-tags-description": "To create and edit tags, please visit [Quark's web dashboard]"
 }

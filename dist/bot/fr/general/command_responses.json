@@ -159,7 +159,8 @@
         "categories": {
             "categoryMembers": {
                 "title": "Membres",
-                "description": "Les actions de membre (rejoindre/quitter, rôles, pseudo)"
+                "description": "Les actions de membre (rejoindre/quitter, rôles, pseudo)",
+                "resetButton": "Reset Member Logging Channel"
             },
             "categoryText": {
                 "title": "Messages",
@@ -204,7 +205,7 @@
         },
         "selectChannel": "Set logging channel",
         "all": "All",
-        "resetChannel": "Reset Channel"
+        "resetChannel": "Reset Main Channel"
     },
     "help-overview-help": "Aide",
     "help-modify-tags-description": "Pour créer et modifier des étiquettes, merci de visiter le [dashboard de Quark]"

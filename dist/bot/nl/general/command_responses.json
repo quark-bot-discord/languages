@@ -158,7 +158,8 @@
         "categories": {
             "categoryMembers": {
                 "title": "Leden",
-                "description": "Ledenacties (join/leave, rollen, bijnamen)"
+                "description": "Ledenacties (join/leave, rollen, bijnamen)",
+                "resetButton": "Reset Member Logging Channel"
             },
             "categoryText": {
                 "title": "Berichten",
@@ -203,7 +204,7 @@
         },
         "selectChannel": "Set logging channel",
         "all": "All",
-        "resetChannel": "Reset Channel"
+        "resetChannel": "Reset Main Channel"
     },
     "setserverlog-type-quark-0": "Quark Events",
     "setserverlog-type-quark-1": "quark events",

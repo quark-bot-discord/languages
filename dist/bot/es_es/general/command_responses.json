@@ -160,7 +160,8 @@
         "categories": {
             "categoryMembers": {
                 "title": "Miembros",
-                "description": "Acciones de los miembros (unirse/salir, roles, apodos)"
+                "description": "Acciones de los miembros (unirse/salir, roles, apodos)",
+                "resetButton": "Reset Member Logging Channel"
             },
             "categoryText": {
                 "title": "Mensajes",
@@ -205,7 +206,7 @@
         },
         "selectChannel": "Set logging channel",
         "all": "All",
-        "resetChannel": "Reset Channel"
+        "resetChannel": "Reset Main Channel"
     },
     "help-modify-tags-description": "To create and edit tags, please visit [Quark's web dashboard]"
 }

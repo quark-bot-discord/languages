@@ -155,7 +155,8 @@
         "categories": {
             "categoryMembers": {
                 "title": "Members",
-                "description": "Member actions (join/leave, roles, nicknames)"
+                "description": "Member actions (join/leave, roles, nicknames)",
+                "resetButton": "Reset Member Logging Channel"
             },
             "categoryText": {
                 "title": "Messages",
@@ -201,7 +202,7 @@
         "overview": "Overview",
         "selectChannel": "Set logging channel",
         "all": "All",
-        "resetChannel": "Reset Channel"
+        "resetChannel": "Reset Main Channel"
     },
     "setserverlog-type-quark-0": "Quark Events",
     "setserverlog-type-quark-1": "quark events",
