@@ -167,7 +167,8 @@
             "categoryText": {
                 "title": "Mensajes",
                 "description": "Acciones de mensajes (eliminaciones, ediciones, pines, reacciones)",
-                "resetButton": "Reset Message Logging Channel"
+                "resetButton": "Reset Message Logging Channel",
+                "disableButton": "Disable Message Logs"
             },
             "categoryVoice": {
                 "title": "Voz",
