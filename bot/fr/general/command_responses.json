@@ -159,7 +159,8 @@
         "categories": {
             "categoryMembers": {
                 "title": "Membres",
-                "description": "Les actions de membre (rejoindre/quitter, rôles, pseudo)"
+                "description": "Les actions de membre (rejoindre/quitter, rôles, pseudo)",
+                "resetButton": "Reset Member Logging Channel"
             },
             "categoryText": {
                 "title": "Messages",
