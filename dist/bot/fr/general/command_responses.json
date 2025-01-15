@@ -207,7 +207,8 @@
             },
             "categoryQuark": {
                 "title": "Configuration Quark",
-                "description": "Les changements apportés à la configuration de Quark pour ce serveur"
+                "description": "Les changements apportés à la configuration de Quark pour ce serveur",
+                "resetButton": "Reset Quark Config Logging Channel"
             }
         },
         "selectChannel": "Set logging channel",

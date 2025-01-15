@@ -236,6 +236,7 @@ export type LanguageStructure = {
   categoryQuark: {
   title: string;
   description: string;
+  resetButton: string;
 };
   categoryFiles: {
   title: string;
