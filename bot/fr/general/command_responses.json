@@ -172,7 +172,8 @@
             "categoryVoice": {
                 "title": "Voix",
                 "description": "Les actions de salon vocal (rejoindre/se déconnecter, partage d'écran, rendre muet/mettre en sourdine)",
-                "resetButton": "Reset Voice Logging Channel"
+                "resetButton": "Reset Voice Logging Channel",
+                "disableButton": "Disable Voice Logs"
             },
             "categoryActions": {
                 "title": "Les actions de serveur",
