@@ -199,7 +199,8 @@
                 "description": "Cambios realizados en la configuración de Quark para este servidor."
             },
             "categoryFiles": {
-                "title": "Archivos"
+                "title": "Archivos",
+                "description": "Files (deleted attachments)"
             }
         },
         "selectChannel": "Set logging channel"

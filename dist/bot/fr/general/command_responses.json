@@ -178,7 +178,8 @@
                 "description": "Les actions de salons (créations/suppressions, permissions)"
             },
             "categoryFiles": {
-                "title": "Fichiers"
+                "title": "Fichiers",
+                "description": "Files (deleted attachments)"
             },
             "categoryServer": {
                 "title": "Les Événements du Serveur",

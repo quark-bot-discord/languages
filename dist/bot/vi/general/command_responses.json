@@ -190,7 +190,8 @@
                 "description": "Overview of main category options"
             },
             "categoryFiles": {
-                "title": "Files"
+                "title": "Files",
+                "description": "Files (deleted attachments)"
             },
             "categoryQuark": {
                 "title": "Quark Config",

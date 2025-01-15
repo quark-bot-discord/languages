@@ -231,6 +231,7 @@ export type LanguageStructure = {
 };
   categoryFiles: {
   title: string;
+  description: string;
 };
 };
   selectChannel: string;
@@ -553,10 +554,6 @@ export type LanguageStructure = {
 };
 };
 }>;
-  logging: Promise<{
-  name: string;
-  description: string;
-}>;
   language: Promise<{
   name: string;
   description: string;
@@ -566,6 +563,10 @@ export type LanguageStructure = {
   description: string;
 };
 };
+}>;
+  logging: Promise<{
+  name: string;
+  description: string;
 }>;
   mute: Promise<{
   name: string;
@@ -608,6 +609,10 @@ export type LanguageStructure = {
   name: string;
   description: string;
 }>;
+  privacy: Promise<{
+  name: string;
+  description: string;
+}>;
   purge: Promise<{
   name: string;
   description: string;
@@ -617,10 +622,6 @@ export type LanguageStructure = {
   description: string;
 };
 };
-}>;
-  privacy: Promise<{
-  name: string;
-  description: string;
 }>;
   reason: Promise<{
   name: string;
@@ -902,38 +903,6 @@ export type LanguageStructure = {
   title: string;
 };
 }>;
-  roleEvents: Promise<{
-  roleCreated: {
-  title: string;
-  description: string;
-};
-  roleDeleted: {
-  title: string;
-  description: string;
-  role: string;
-  linkToRoleIcon: string;
-};
-  roleUpdated: {
-  title: string;
-  description: string;
-};
-  rolePermissionsUpdate: {
-  title: string;
-  description: string;
-  newPermissions: string;
-  oldPermissions: string;
-  viewFullNewPermissions: string;
-  viewFullOldPermissions: string;
-};
-  roleIconUpdate: {
-  title: string;
-  description: string;
-  description_added: string;
-  description_removed: string;
-  linkToOldIcon: string;
-  linkToNewIcon: string;
-};
-}>;
   quarkEvents: Promise<{
   serverlogChannelUpdate: {
   title: string;
@@ -996,6 +965,38 @@ export type LanguageStructure = {
   tokenRevoked: {
   title: string;
   description: string;
+};
+}>;
+  roleEvents: Promise<{
+  roleCreated: {
+  title: string;
+  description: string;
+};
+  roleDeleted: {
+  title: string;
+  description: string;
+  role: string;
+  linkToRoleIcon: string;
+};
+  roleUpdated: {
+  title: string;
+  description: string;
+};
+  rolePermissionsUpdate: {
+  title: string;
+  description: string;
+  newPermissions: string;
+  oldPermissions: string;
+  viewFullNewPermissions: string;
+  viewFullOldPermissions: string;
+};
+  roleIconUpdate: {
+  title: string;
+  description: string;
+  description_added: string;
+  description_removed: string;
+  linkToOldIcon: string;
+  linkToNewIcon: string;
 };
 }>;
   serverActions: Promise<{
