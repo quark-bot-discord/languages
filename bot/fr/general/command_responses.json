@@ -188,7 +188,8 @@
             },
             "categoryServer": {
                 "title": "Les Événements du Serveur",
-                "description": "Les actions générales (modifications du serveur)"
+                "description": "Les actions générales (modifications du serveur)",
+                "resetButton": "Reset Server Event Logging Channel"
             },
             "categoryRoles": {
                 "title": "Rôles",
