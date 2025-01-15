@@ -207,6 +207,7 @@ export type LanguageStructure = {
   categoryActions: {
   title: string;
   description: string;
+  resetButton: string;
 };
   categoryChannels: {
   title: string;
@@ -610,11 +611,11 @@ export type LanguageStructure = {
   name: string;
   description: string;
 }>;
-  privacy: Promise<{
+  premium: Promise<{
   name: string;
   description: string;
 }>;
-  premium: Promise<{
+  privacy: Promise<{
   name: string;
   description: string;
 }>;

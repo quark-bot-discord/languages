@@ -175,7 +175,8 @@
             },
             "categoryActions": {
                 "title": "Acciones del servidor",
-                "description": "Acciones del servidor (creación/eliminación de invitaciones, emojis)"
+                "description": "Acciones del servidor (creación/eliminación de invitaciones, emojis)",
+                "resetButton": "Reset Server Actions Logging Channel"
             },
             "categoryChannels": {
                 "title": "Canales",

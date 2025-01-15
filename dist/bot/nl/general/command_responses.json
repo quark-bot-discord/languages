@@ -173,7 +173,8 @@
             },
             "categoryActions": {
                 "title": "Server Acties",
-                "description": "Serveracties (uitnodiging creatie/verwijdering, emoji's)"
+                "description": "Serveracties (uitnodiging creatie/verwijdering, emoji's)",
+                "resetButton": "Reset Server Actions Logging Channel"
             },
             "categoryChannels": {
                 "title": "Kanalen",
