@@ -204,7 +204,8 @@
             },
             "categoryQuark": {
                 "title": "Configuración de quarks",
-                "description": "Cambios realizados en la configuración de Quark para este servidor."
+                "description": "Cambios realizados en la configuración de Quark para este servidor.",
+                "resetButton": "Reset Quark Config Logging Channel"
             },
             "categoryFiles": {
                 "title": "Archivos",
