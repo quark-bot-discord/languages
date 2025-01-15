@@ -198,7 +198,7 @@
             }
         },
         "overview": "Overview",
-        "selectChannel": "Select a channel"
+        "selectChannel": "Set logging channel"
     },
     "setserverlog-type-quark-0": "Quark Events",
     "setserverlog-type-quark-1": "quark events",
