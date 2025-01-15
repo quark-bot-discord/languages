@@ -222,6 +222,7 @@ export type LanguageStructure = {
   categoryRoles: {
   title: string;
   description: string;
+  resetButton: string;
 };
   categoryModlog: {
   title: string;
@@ -501,6 +502,9 @@ export type LanguageStructure = {
 };
 };
 }>;
+  initialReactor: Promise<{
+  name: string;
+}>;
   export: Promise<{
   name: string;
   description: string;
@@ -541,9 +545,6 @@ export type LanguageStructure = {
 };
 };
 }>;
-  initialReactor: Promise<{
-  name: string;
-}>;
   invite: Promise<{
   name: string;
   description: string;
@@ -573,6 +574,10 @@ export type LanguageStructure = {
 };
 }>;
   logging: Promise<{
+  name: string;
+  description: string;
+}>;
+  ping: Promise<{
   name: string;
   description: string;
 }>;
@@ -608,10 +613,6 @@ export type LanguageStructure = {
   description: string;
 };
 };
-}>;
-  ping: Promise<{
-  name: string;
-  description: string;
 }>;
   premium: Promise<{
   name: string;
@@ -769,7 +770,7 @@ export type LanguageStructure = {
 };
 };
 }>;
-  unban: Promise<{
+  unmute: Promise<{
   name: string;
   description: string;
   commandOptions: {
@@ -783,7 +784,7 @@ export type LanguageStructure = {
 };
 };
 }>;
-  unmute: Promise<{
+  unban: Promise<{
   name: string;
   description: string;
   commandOptions: {
@@ -799,36 +800,6 @@ export type LanguageStructure = {
 }>;
 };
   standard: {
-  generalEvents: Promise<{
-  serverModified: {
-  title: string;
-  description: string;
-};
-  serverIconUpdated: {
-  title: string;
-  description: string;
-  description_added: string;
-  description_removed: string;
-  linkToOldIcon: string;
-  linkToNewIcon: string;
-};
-  serverBoostAdd: {
-  title: string;
-  description: string;
-  description_noUser: string;
-  description_withTier: string;
-  description_withTier_noUser: string;
-  none: string;
-};
-  serverBoostRemove: {
-  title: string;
-  description: string;
-  description_noUser: string;
-  description_withTier: string;
-  description_withTier_noUser: string;
-  none: string;
-};
-}>;
   channelEvents: Promise<{
   channelCreated: {
   title: string;
@@ -891,6 +862,36 @@ export type LanguageStructure = {
   description: string;
 };
 }>;
+  generalEvents: Promise<{
+  serverModified: {
+  title: string;
+  description: string;
+};
+  serverIconUpdated: {
+  title: string;
+  description: string;
+  description_added: string;
+  description_removed: string;
+  linkToOldIcon: string;
+  linkToNewIcon: string;
+};
+  serverBoostAdd: {
+  title: string;
+  description: string;
+  description_noUser: string;
+  description_withTier: string;
+  description_withTier_noUser: string;
+  none: string;
+};
+  serverBoostRemove: {
+  title: string;
+  description: string;
+  description_noUser: string;
+  description_withTier: string;
+  description_withTier_noUser: string;
+  none: string;
+};
+}>;
   modlog: Promise<{
   moderator: string;
   user: string;
@@ -909,6 +910,38 @@ export type LanguageStructure = {
   label: string;
   placeholder: string;
   title: string;
+};
+}>;
+  roleEvents: Promise<{
+  roleCreated: {
+  title: string;
+  description: string;
+};
+  roleDeleted: {
+  title: string;
+  description: string;
+  role: string;
+  linkToRoleIcon: string;
+};
+  roleUpdated: {
+  title: string;
+  description: string;
+};
+  rolePermissionsUpdate: {
+  title: string;
+  description: string;
+  newPermissions: string;
+  oldPermissions: string;
+  viewFullNewPermissions: string;
+  viewFullOldPermissions: string;
+};
+  roleIconUpdate: {
+  title: string;
+  description: string;
+  description_added: string;
+  description_removed: string;
+  linkToOldIcon: string;
+  linkToNewIcon: string;
 };
 }>;
   quarkEvents: Promise<{
@@ -973,38 +1006,6 @@ export type LanguageStructure = {
   tokenRevoked: {
   title: string;
   description: string;
-};
-}>;
-  roleEvents: Promise<{
-  roleCreated: {
-  title: string;
-  description: string;
-};
-  roleDeleted: {
-  title: string;
-  description: string;
-  role: string;
-  linkToRoleIcon: string;
-};
-  roleUpdated: {
-  title: string;
-  description: string;
-};
-  rolePermissionsUpdate: {
-  title: string;
-  description: string;
-  newPermissions: string;
-  oldPermissions: string;
-  viewFullNewPermissions: string;
-  viewFullOldPermissions: string;
-};
-  roleIconUpdate: {
-  title: string;
-  description: string;
-  description_added: string;
-  description_removed: string;
-  linkToOldIcon: string;
-  linkToNewIcon: string;
 };
 }>;
   serverActions: Promise<{
