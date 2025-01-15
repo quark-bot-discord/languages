@@ -197,7 +197,8 @@
                 "description": "Wijzigingen in de configuratie van Quark voor deze server"
             },
             "categoryFiles": {
-                "title": "Bestanden"
+                "title": "Bestanden",
+                "description": "Files (deleted attachments)"
             }
         },
         "selectChannel": "Set logging channel"
