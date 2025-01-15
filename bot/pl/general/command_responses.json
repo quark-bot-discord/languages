@@ -201,7 +201,8 @@
             "categoryModlog": {
                 "title": "Logi moderatorów",
                 "description": "Akcje moderacji (bany, wyrzucenia, wyciszenia)",
-                "resetButton": "Reset Modlog Logging Channel"
+                "resetButton": "Reset Modlog Logging Channel",
+                "disableButton": "Disable Modlog Logs"
             },
             "overview": {
                 "title": "Przegląd",
