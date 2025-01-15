@@ -193,7 +193,8 @@
                 "description": "Przegląd głównych opcji kategorii"
             },
             "categoryFiles": {
-                "title": "Pliki"
+                "title": "Pliki",
+                "description": "Files (deleted attachments)"
             },
             "categoryQuark": {
                 "title": "Ustawienia Quark",
