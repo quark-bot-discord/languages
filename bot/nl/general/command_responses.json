@@ -178,7 +178,8 @@
             },
             "categoryChannels": {
                 "title": "Kanalen",
-                "description": "Kanaalacties (creaties/verwijderingen, rechten)"
+                "description": "Kanaalacties (creaties/verwijderingen, rechten)",
+                "resetButton": "Reset Channel Logging Channel"
             },
             "categoryServer": {
                 "title": "Server Gebeurtenissen",
