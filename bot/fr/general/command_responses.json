@@ -214,7 +214,8 @@
         "selectChannel": "Set logging channel",
         "all": "All",
         "resetChannel": "Reset Main Channel",
-        "selectLogType": "Select Log Type"
+        "selectLogType": "Select Log Type",
+        "resetLogChannel": "Reset Log Channel"
     },
     "help-overview-help": "Aide",
     "help-modify-tags-description": "Pour créer et modifier des étiquettes, merci de visiter le [dashboard de Quark]"
