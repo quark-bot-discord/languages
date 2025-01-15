@@ -202,7 +202,8 @@
                 "description": "Les changements apportés à la configuration de Quark pour ce serveur"
             }
         },
-        "selectChannel": "Set logging channel"
+        "selectChannel": "Set logging channel",
+        "all": "All"
     },
     "help-overview-help": "Aide",
     "help-modify-tags-description": "Pour créer et modifier des étiquettes, merci de visiter le [dashboard de Quark]"
