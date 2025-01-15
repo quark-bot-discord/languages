@@ -195,7 +195,8 @@
             "categoryRoles": {
                 "title": "Role",
                 "description": "Akcje ról (tworzenie/usuwanie, uprawnienia)",
-                "resetButton": "Reset Role Logging Channel"
+                "resetButton": "Reset Role Logging Channel",
+                "disableButton": "Disable Role Logs"
             },
             "categoryModlog": {
                 "title": "Logi moderatorów",
