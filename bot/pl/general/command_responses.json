@@ -177,7 +177,8 @@
             "categoryActions": {
                 "title": "Akcje serwera",
                 "description": "Akcje serwera (tworzenie/usuwanie zaproszeń, emotikony)",
-                "resetButton": "Reset Server Actions Logging Channel"
+                "resetButton": "Reset Server Actions Logging Channel",
+                "disableButton": "Disable Server Actions Logs"
             },
             "categoryChannels": {
                 "title": "Kanały",
