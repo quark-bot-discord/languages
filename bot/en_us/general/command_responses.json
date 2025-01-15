@@ -201,7 +201,8 @@
             "categoryFiles": {
                 "title": "Files"
             }
-        }
+        },
+        "selectChannel": "Select a channel"
     },
     "help-modify-tags-description": "To create and edit tags, please visit [Quark's web dashboard]"
 }
