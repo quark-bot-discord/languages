@@ -11,7 +11,8 @@
             "categoryText": {
                 "title": "Messages",
                 "description": "Message actions (deletions, edits, pins, reactions)",
-                "resetButton": "Reset Message Logging Channel"
+                "resetButton": "Reset Message Logging Channel",
+                "disableButton": "Disable Message Logs"
             },
             "categoryVoice": {
                 "title": "Voice",
