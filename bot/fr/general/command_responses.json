@@ -179,7 +179,8 @@
             },
             "categoryChannels": {
                 "title": "Salons",
-                "description": "Les actions de salons (créations/suppressions, permissions)"
+                "description": "Les actions de salons (créations/suppressions, permissions)",
+                "resetButton": "Reset Channel Logging Channel"
             },
             "categoryFiles": {
                 "title": "Fichiers",
