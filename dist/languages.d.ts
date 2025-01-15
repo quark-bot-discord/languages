@@ -233,6 +233,7 @@ export type LanguageStructure = {
   title: string;
 };
 };
+  selectChannel: string;
 };
   "help-modify-tags-description": string;
 }>;
@@ -437,6 +438,10 @@ export type LanguageStructure = {
 }>;
 };
   slash_commands: {
+  commands: Promise<{
+  name: string;
+  description: string;
+}>;
   ban: Promise<{
   name: string;
   description: string;
@@ -454,10 +459,6 @@ export type LanguageStructure = {
   description: string;
 };
 };
-}>;
-  commands: Promise<{
-  name: string;
-  description: string;
 }>;
   config: Promise<{
   name: string;

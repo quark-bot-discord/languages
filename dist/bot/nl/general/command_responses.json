@@ -199,7 +199,8 @@
             "categoryFiles": {
                 "title": "Bestanden"
             }
-        }
+        },
+        "selectChannel": "Select a channel"
     },
     "setserverlog-type-quark-0": "Quark Events",
     "setserverlog-type-quark-1": "quark events",
