@@ -188,7 +188,8 @@
             },
             "categoryRoles": {
                 "title": "Rollen",
-                "description": "Rollenacties (creaties/verwijderingen, rechten)"
+                "description": "Rollenacties (creaties/verwijderingen, rechten)",
+                "resetButton": "Reset Role Logging Channel"
             },
             "categoryModlog": {
                 "title": "Mod Logs",
