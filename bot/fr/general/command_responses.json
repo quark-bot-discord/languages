@@ -198,7 +198,8 @@
             },
             "categoryModlog": {
                 "title": "Logs de modération",
-                "description": "Les actions de modération (bannissements, expulsions, réductions au silence)"
+                "description": "Les actions de modération (bannissements, expulsions, réductions au silence)",
+                "resetButton": "Reset Modlog Logging Channel"
             },
             "overview": {
                 "title": "Aperçu",
