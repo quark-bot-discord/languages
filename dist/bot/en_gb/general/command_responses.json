@@ -147,7 +147,7 @@
     "initialreactors-expired": "expired",
     "initialreactors-notfound": "No reactions found",
     "configCommand": {
-        "title": "Serverlog Configuration",
+        "title": "{quark} Logging Configurator",
         "selection": "Select a category in the menu to view configuration.",
         "serverLogDesc": "Main Serverlog Channel",
         "notSet": "Not set",
