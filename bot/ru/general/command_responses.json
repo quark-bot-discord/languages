@@ -68,7 +68,8 @@
         },
         "selectChannel": "Set logging channel",
         "all": "All",
-        "resetChannel": "Reset Main Channel"
+        "resetChannel": "Reset Main Channel",
+        "selectLogType": "Select Log Type"
     },
     "disable": "Disable",
     "enable": "Enable",
