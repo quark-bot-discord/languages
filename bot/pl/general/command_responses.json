@@ -168,7 +168,8 @@
             },
             "categoryVoice": {
                 "title": "Głos",
-                "description": "Akcje kanału głosowego (dołączenie/wyjście, transmisje, wyciszenie/ogłuszenie)"
+                "description": "Akcje kanału głosowego (dołączenie/wyjście, transmisje, wyciszenie/ogłuszenie)",
+                "resetButton": "Reset Voice Logging Channel"
             },
             "categoryActions": {
                 "title": "Akcje serwera",
