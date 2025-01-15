@@ -57,7 +57,8 @@
             "categoryQuark": {
                 "title": "Quark Config",
                 "description": "Changes made to Quark's configuration for this server",
-                "resetButton": "Reset Quark Config Logging Channel"
+                "resetButton": "Reset Quark Config Logging Channel",
+                "disableButton": "Disable Quark Config Logs"
             },
             "categoryFiles": {
                 "title": "Files",
