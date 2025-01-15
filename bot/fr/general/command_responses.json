@@ -174,7 +174,8 @@
             },
             "categoryActions": {
                 "title": "Les actions de serveur",
-                "description": "Les actions de serveur (création d'invitation/suppression, émojis)"
+                "description": "Les actions de serveur (création d'invitation/suppression, émojis)",
+                "resetButton": "Reset Server Actions Logging Channel"
             },
             "categoryChannels": {
                 "title": "Salons",
