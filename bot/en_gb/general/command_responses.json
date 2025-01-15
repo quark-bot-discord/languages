@@ -173,7 +173,8 @@
             "categoryVoice": {
                 "title": "Voice",
                 "description": "Voice channel actions (join/leave, streams, mute/deafens)",
-                "resetButton": "Reset Voice Logging Channel"
+                "resetButton": "Reset Voice Logging Channel",
+                "disableButton": "Disable Voice Logs"
             },
             "categoryActions": {
                 "title": "Server Actions",
