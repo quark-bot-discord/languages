@@ -193,7 +193,8 @@
             },
             "categoryRoles": {
                 "title": "Rôles",
-                "description": "Les actions de rôles (créations/suppressions, permissions)"
+                "description": "Les actions de rôles (créations/suppressions, permissions)",
+                "resetButton": "Reset Role Logging Channel"
             },
             "categoryModlog": {
                 "title": "Logs de modération",
