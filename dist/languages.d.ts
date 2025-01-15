@@ -229,6 +229,7 @@ export type LanguageStructure = {
   title: string;
   description: string;
   resetButton: string;
+  disableButton: string;
 };
   categoryModlog: {
   title: string;
