@@ -190,7 +190,8 @@
             },
             "categoryRoles": {
                 "title": "Roles",
-                "description": "Acciones de rol (creaciones/eliminaciones, permisos)"
+                "description": "Acciones de rol (creaciones/eliminaciones, permisos)",
+                "resetButton": "Reset Role Logging Channel"
             },
             "categoryModlog": {
                 "title": "Registros de modificación",
