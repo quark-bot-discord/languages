@@ -44,7 +44,8 @@
             },
             "categoryMembers": {
                 "title": "Members",
-                "description": "Member actions (join/leave, roles, nicknames)"
+                "description": "Member actions (join/leave, roles, nicknames)",
+                "resetButton": "Reset Member Logging Channel"
             }
         },
         "title": "Serverlog Configuration",
