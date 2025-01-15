@@ -29,7 +29,8 @@
             },
             "categoryServer": {
                 "title": "Server Events",
-                "description": "General actions (server modifications)"
+                "description": "General actions (server modifications)",
+                "resetButton": "Reset Server Event Logging Channel"
             },
             "categoryRoles": {
                 "title": "Roles",

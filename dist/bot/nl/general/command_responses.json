@@ -183,7 +183,8 @@
             },
             "categoryServer": {
                 "title": "Server Gebeurtenissen",
-                "description": "Algemene acties (server modificaties)"
+                "description": "Algemene acties (server modificaties)",
+                "resetButton": "Reset Server Event Logging Channel"
             },
             "categoryRoles": {
                 "title": "Rollen",

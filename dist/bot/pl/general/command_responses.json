@@ -183,7 +183,8 @@
             },
             "categoryServer": {
                 "title": "Wydarzenia serwera",
-                "description": "Ogólne akcje (modyfikacje serwera)"
+                "description": "Ogólne akcje (modyfikacje serwera)",
+                "resetButton": "Reset Server Event Logging Channel"
             },
             "categoryRoles": {
                 "title": "Role",
