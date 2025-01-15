@@ -206,7 +206,7 @@
                 "description": "Changes made to Quark's configuration for this server"
             }
         },
-        "selectChannel": "Select a channel"
+        "selectChannel": "Set logging channel"
     },
     "help-modify-tags-description": "To create and edit tags, please visit [Quark's web dashboard]"
 }
