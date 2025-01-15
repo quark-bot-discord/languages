@@ -55,7 +55,8 @@
         "formats": {
             "log_channels": "Log Channels",
             "configurable_events": "Configurable Events"
-        }
+        },
+        "selectChannel": "Select a channel"
     },
     "disable": "Disable",
     "enable": "Enable",
