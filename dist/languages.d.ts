@@ -212,6 +212,7 @@ export type LanguageStructure = {
   categoryChannels: {
   title: string;
   description: string;
+  resetButton: string;
 };
   categoryServer: {
   title: string;

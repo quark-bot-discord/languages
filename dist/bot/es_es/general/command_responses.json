@@ -180,7 +180,8 @@
             },
             "categoryChannels": {
                 "title": "Canales",
-                "description": "Acciones del canal (creaciones/eliminaciones, permisos)"
+                "description": "Acciones del canal (creaciones/eliminaciones, permisos)",
+                "resetButton": "Reset Channel Logging Channel"
             },
             "categoryServer": {
                 "title": "Eventos del servidor",
