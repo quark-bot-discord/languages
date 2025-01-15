@@ -163,7 +163,8 @@
             },
             "categoryText": {
                 "title": "Berichten",
-                "description": "Berichtacties (verwijderingen, bewerkingen, pins, reacties)"
+                "description": "Berichtacties (verwijderingen, bewerkingen, pins, reacties)",
+                "resetButton": "Reset Message Logging Channel"
             },
             "categoryVoice": {
                 "title": "Stem",

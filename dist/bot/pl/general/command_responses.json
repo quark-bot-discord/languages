@@ -163,7 +163,8 @@
             },
             "categoryText": {
                 "title": "Wiadomości",
-                "description": "Akcje wiadomości (usunięcia, edycje, przypięcia, reakcje)"
+                "description": "Akcje wiadomości (usunięcia, edycje, przypięcia, reakcje)",
+                "resetButton": "Reset Message Logging Channel"
             },
             "categoryVoice": {
                 "title": "Głos",

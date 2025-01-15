@@ -9,7 +9,8 @@
             },
             "categoryText": {
                 "title": "Messages",
-                "description": "Message actions (deletions, edits, pins, reactions)"
+                "description": "Message actions (deletions, edits, pins, reactions)",
+                "resetButton": "Reset Message Logging Channel"
             },
             "categoryVoice": {
                 "title": "Voice",

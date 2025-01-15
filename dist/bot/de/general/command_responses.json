@@ -4,7 +4,8 @@
         "categories": {
             "categoryText": {
                 "description": "Message actions (deletions, edits, pins, reactions)",
-                "title": "Messages"
+                "title": "Messages",
+                "resetButton": "Reset Message Logging Channel"
             },
             "categoryVoice": {
                 "title": "Voice",
