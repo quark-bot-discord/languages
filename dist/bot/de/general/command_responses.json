@@ -58,7 +58,8 @@
             "configurable_events": "Configurable Events"
         },
         "selectChannel": "Set logging channel",
-        "all": "All"
+        "all": "All",
+        "resetChannel": "Reset Channel"
     },
     "disable": "Disable",
     "enable": "Enable",
