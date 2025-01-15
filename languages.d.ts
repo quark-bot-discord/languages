@@ -247,6 +247,7 @@ export type LanguageStructure = {
   all: string;
   resetChannel: string;
   selectLogType: string;
+  resetLogChannel: string;
 };
   "help-modify-tags-description": string;
 }>;
@@ -617,11 +618,11 @@ export type LanguageStructure = {
   name: string;
   description: string;
 }>;
-  privacy: Promise<{
+  premium: Promise<{
   name: string;
   description: string;
 }>;
-  premium: Promise<{
+  privacy: Promise<{
   name: string;
   description: string;
 }>;
