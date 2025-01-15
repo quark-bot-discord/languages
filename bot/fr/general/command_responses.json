@@ -184,7 +184,8 @@
             "categoryChannels": {
                 "title": "Salons",
                 "description": "Les actions de salons (créations/suppressions, permissions)",
-                "resetButton": "Reset Channel Logging Channel"
+                "resetButton": "Reset Channel Logging Channel",
+                "disableButton": "Disable Channel Logs"
             },
             "categoryFiles": {
                 "title": "Fichiers",
