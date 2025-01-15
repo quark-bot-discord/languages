@@ -210,7 +210,8 @@
         "overview": "Overview",
         "selectChannel": "Set logging channel",
         "all": "All",
-        "resetChannel": "Reset Main Channel"
+        "resetChannel": "Reset Main Channel",
+        "selectLogType": "Select Log Type"
     },
     "setserverlog-type-quark-0": "Quark Events",
     "setserverlog-type-quark-1": "quark events",

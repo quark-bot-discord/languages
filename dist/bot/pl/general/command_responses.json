@@ -212,7 +212,8 @@
         },
         "selectChannel": "Set logging channel",
         "all": "All",
-        "resetChannel": "Reset Main Channel"
+        "resetChannel": "Reset Main Channel",
+        "selectLogType": "Select Log Type"
     },
     "setserverlog-type-quark-0": "Wydarzenia Quarka",
     "setserverlog-type-quark-1": "Wydarzenia Quarka",
