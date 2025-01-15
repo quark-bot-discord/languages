@@ -203,7 +203,8 @@
                 "description": "Files (deleted attachments)"
             }
         },
-        "selectChannel": "Set logging channel"
+        "selectChannel": "Set logging channel",
+        "all": "All"
     },
     "help-modify-tags-description": "To create and edit tags, please visit [Quark's web dashboard]"
 }
