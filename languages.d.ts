@@ -227,6 +227,7 @@ export type LanguageStructure = {
   categoryModlog: {
   title: string;
   description: string;
+  resetButton: string;
 };
   overview: {
   title: string;
@@ -502,9 +503,6 @@ export type LanguageStructure = {
 };
 };
 }>;
-  initialReactor: Promise<{
-  name: string;
-}>;
   export: Promise<{
   name: string;
   description: string;
@@ -545,6 +543,9 @@ export type LanguageStructure = {
 };
 };
 }>;
+  initialReactor: Promise<{
+  name: string;
+}>;
   invite: Promise<{
   name: string;
   description: string;
@@ -574,10 +575,6 @@ export type LanguageStructure = {
 };
 }>;
   logging: Promise<{
-  name: string;
-  description: string;
-}>;
-  ping: Promise<{
   name: string;
   description: string;
 }>;
@@ -613,6 +610,10 @@ export type LanguageStructure = {
   description: string;
 };
 };
+}>;
+  ping: Promise<{
+  name: string;
+  description: string;
 }>;
   premium: Promise<{
   name: string;
@@ -770,7 +771,7 @@ export type LanguageStructure = {
 };
 };
 }>;
-  unmute: Promise<{
+  unban: Promise<{
   name: string;
   description: string;
   commandOptions: {
@@ -784,7 +785,7 @@ export type LanguageStructure = {
 };
 };
 }>;
-  unban: Promise<{
+  unmute: Promise<{
   name: string;
   description: string;
   commandOptions: {
@@ -912,38 +913,6 @@ export type LanguageStructure = {
   title: string;
 };
 }>;
-  roleEvents: Promise<{
-  roleCreated: {
-  title: string;
-  description: string;
-};
-  roleDeleted: {
-  title: string;
-  description: string;
-  role: string;
-  linkToRoleIcon: string;
-};
-  roleUpdated: {
-  title: string;
-  description: string;
-};
-  rolePermissionsUpdate: {
-  title: string;
-  description: string;
-  newPermissions: string;
-  oldPermissions: string;
-  viewFullNewPermissions: string;
-  viewFullOldPermissions: string;
-};
-  roleIconUpdate: {
-  title: string;
-  description: string;
-  description_added: string;
-  description_removed: string;
-  linkToOldIcon: string;
-  linkToNewIcon: string;
-};
-}>;
   quarkEvents: Promise<{
   serverlogChannelUpdate: {
   title: string;
@@ -1006,6 +975,38 @@ export type LanguageStructure = {
   tokenRevoked: {
   title: string;
   description: string;
+};
+}>;
+  roleEvents: Promise<{
+  roleCreated: {
+  title: string;
+  description: string;
+};
+  roleDeleted: {
+  title: string;
+  description: string;
+  role: string;
+  linkToRoleIcon: string;
+};
+  roleUpdated: {
+  title: string;
+  description: string;
+};
+  rolePermissionsUpdate: {
+  title: string;
+  description: string;
+  newPermissions: string;
+  oldPermissions: string;
+  viewFullNewPermissions: string;
+  viewFullOldPermissions: string;
+};
+  roleIconUpdate: {
+  title: string;
+  description: string;
+  description_added: string;
+  description_removed: string;
+  linkToOldIcon: string;
+  linkToNewIcon: string;
 };
 }>;
   serverActions: Promise<{

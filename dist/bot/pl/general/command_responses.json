@@ -193,7 +193,8 @@
             },
             "categoryModlog": {
                 "title": "Logi moderatorów",
-                "description": "Akcje moderacji (bany, wyrzucenia, wyciszenia)"
+                "description": "Akcje moderacji (bany, wyrzucenia, wyciszenia)",
+                "resetButton": "Reset Modlog Logging Channel"
             },
             "overview": {
                 "title": "Przegląd",
