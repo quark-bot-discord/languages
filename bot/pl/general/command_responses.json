@@ -201,7 +201,8 @@
                 "description": "Zmiany które zostały zmienione dla ustawień Quark dla tego serwera"
             }
         },
-        "selectChannel": "Set logging channel"
+        "selectChannel": "Set logging channel",
+        "all": "All"
     },
     "setserverlog-type-quark-0": "Wydarzenia Quarka",
     "setserverlog-type-quark-1": "Wydarzenia Quarka",
