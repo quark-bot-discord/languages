@@ -158,7 +158,8 @@
         "categories": {
             "categoryMembers": {
                 "title": "Członkowie",
-                "description": "Akcje członków (dołączenie/wyjście, role, pseudonimy)"
+                "description": "Akcje członków (dołączenie/wyjście, role, pseudonimy)",
+                "resetButton": "Reset Member Logging Channel"
             },
             "categoryText": {
                 "title": "Wiadomości",
