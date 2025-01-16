@@ -168,7 +168,8 @@
                 "title": "Messages",
                 "description": "Les actions de message (suppressions, modifications, épinglements, mettre/enlever une réaction)",
                 "resetButton": "Reset Message Logging Channel",
-                "disableButton": "Disable Message Logs"
+                "disableButton": "Disable Message Logs",
+                "enableButton": "Enable Message Logs"
             },
             "categoryVoice": {
                 "title": "Voix",
