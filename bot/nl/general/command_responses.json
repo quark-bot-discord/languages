@@ -202,7 +202,8 @@
                 "title": "Rollen",
                 "description": "Rollenacties (creaties/verwijderingen, rechten)",
                 "resetButton": "Reset Role Logging Channel",
-                "disableButton": "Disable Role Logs"
+                "disableButton": "Disable Role Logs",
+                "enableButton": "Enable Role Logs"
             },
             "categoryModlog": {
                 "title": "Mod Logs",
