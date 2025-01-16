@@ -195,7 +195,8 @@
                 "title": "Server Gebeurtenissen",
                 "description": "Algemene acties (server modificaties)",
                 "resetButton": "Reset Server Event Logging Channel",
-                "disableButton": "Disable Server Event Logs"
+                "disableButton": "Disable Server Event Logs",
+                "enableButton": "Enable Server Event Logs"
             },
             "categoryRoles": {
                 "title": "Rollen",
