@@ -176,7 +176,8 @@
                 "title": "Voz",
                 "description": "Acciones del canal de voz (unirse/salir, transmitir, silenciar/ensordecer)",
                 "resetButton": "Reset Voice Logging Channel",
-                "disableButton": "Disable Voice Logs"
+                "disableButton": "Disable Voice Logs",
+                "enableButton": "Enable Voice Logs"
             },
             "categoryActions": {
                 "title": "Acciones del servidor",

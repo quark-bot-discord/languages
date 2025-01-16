@@ -174,7 +174,8 @@
                 "title": "Stem",
                 "description": "Stem kanaal acties (join/leave, streams, mute/dempen)",
                 "resetButton": "Reset Voice Logging Channel",
-                "disableButton": "Disable Voice Logs"
+                "disableButton": "Disable Voice Logs",
+                "enableButton": "Enable Voice Logs"
             },
             "categoryActions": {
                 "title": "Server Acties",
