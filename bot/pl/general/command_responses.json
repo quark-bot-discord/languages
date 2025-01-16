@@ -195,7 +195,8 @@
                 "title": "Wydarzenia serwera",
                 "description": "Ogólne akcje (modyfikacje serwera)",
                 "resetButton": "Reset Server Event Logging Channel",
-                "disableButton": "Disable Server Event Logs"
+                "disableButton": "Disable Server Event Logs",
+                "enableButton": "Enable Server Event Logs"
             },
             "categoryRoles": {
                 "title": "Role",
