@@ -211,7 +211,8 @@
                 "title": "Registros de modificación",
                 "description": "Acciones de moderación (baneos, patadas, silenciamientos)",
                 "resetButton": "Reset Modlog Logging Channel",
-                "disableButton": "Disable Modlog Logs"
+                "disableButton": "Disable Modlog Logs",
+                "enableButton": "Enable Modlog Logs"
             },
             "overview": {
                 "title": "Descripción general",
