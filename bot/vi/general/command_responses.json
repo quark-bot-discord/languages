@@ -199,7 +199,8 @@
                 "title": "Roles",
                 "description": "Role actions (creations/deletions, permissions)",
                 "resetButton": "Reset Role Logging Channel",
-                "disableButton": "Disable Role Logs"
+                "disableButton": "Disable Role Logs",
+                "enableButton": "Enable Role Logs"
             },
             "categoryModlog": {
                 "title": "Mod Logs",
