@@ -243,6 +243,7 @@ export type LanguageStructure = {
   description: string;
   resetButton: string;
   disableButton: string;
+  enableButton: string;
 };
   overview: {
   title: string;
@@ -339,6 +340,18 @@ export type LanguageStructure = {
   true: string;
   false: string;
 };
+}>;
+  ignore_options: Promise<{
+  ignoreTargets: string;
+  ignoreExecutors: string;
+  specificMessageContent: string;
+  ignoreChannels: string;
+  ignoreBotExecutors: string;
+  ignoreBotTargets: string;
+  ignoreExecutorRoles: string;
+  ignoreTargetRoles: string;
+  ignoreCategories: string;
+  activeIgnore: string;
 }>;
   log_categories: Promise<{
   serverEvents: string;
@@ -454,18 +467,6 @@ export type LanguageStructure = {
   year: string;
   "year-plural": string;
 }>;
-  ignore_options: Promise<{
-  ignoreTargets: string;
-  ignoreExecutors: string;
-  specificMessageContent: string;
-  ignoreChannels: string;
-  ignoreBotExecutors: string;
-  ignoreBotTargets: string;
-  ignoreExecutorRoles: string;
-  ignoreTargetRoles: string;
-  ignoreCategories: string;
-  activeIgnore: string;
-}>;
 };
   slash_commands: {
   ban: Promise<{
@@ -490,6 +491,10 @@ export type LanguageStructure = {
   name: string;
   description: string;
 }>;
+  dashboard: Promise<{
+  name: string;
+  description: string;
+}>;
   config: Promise<{
   name: string;
   description: string;
@@ -507,10 +512,6 @@ export type LanguageStructure = {
 };
 };
 };
-}>;
-  dashboard: Promise<{
-  name: string;
-  description: string;
 }>;
   debug: Promise<{
   name: string;
@@ -565,6 +566,10 @@ export type LanguageStructure = {
   initialReactor: Promise<{
   name: string;
 }>;
+  invite: Promise<{
+  name: string;
+  description: string;
+}>;
   kick: Promise<{
   name: string;
   description: string;
@@ -578,10 +583,6 @@ export type LanguageStructure = {
   description: string;
 };
 };
-}>;
-  invite: Promise<{
-  name: string;
-  description: string;
 }>;
   language: Promise<{
   name: string;

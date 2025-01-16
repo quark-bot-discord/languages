@@ -209,7 +209,8 @@
                 "title": "Mod Logs",
                 "description": "Moderatieacties (verbanningen, kicks, dempen)",
                 "resetButton": "Reset Modlog Logging Channel",
-                "disableButton": "Disable Modlog Logs"
+                "disableButton": "Disable Modlog Logs",
+                "enableButton": "Enable Modlog Logs"
             },
             "overview": {
                 "title": "Overzicht",

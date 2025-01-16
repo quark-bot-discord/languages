@@ -214,7 +214,8 @@
                 "title": "Logs de modération",
                 "description": "Les actions de modération (bannissements, expulsions, réductions au silence)",
                 "resetButton": "Reset Modlog Logging Channel",
-                "disableButton": "Disable Modlog Logs"
+                "disableButton": "Disable Modlog Logs",
+                "enableButton": "Enable Modlog Logs"
             },
             "overview": {
                 "title": "Aperçu",
