@@ -174,7 +174,8 @@
                 "title": "Głos",
                 "description": "Akcje kanału głosowego (dołączenie/wyjście, transmisje, wyciszenie/ogłuszenie)",
                 "resetButton": "Reset Voice Logging Channel",
-                "disableButton": "Disable Voice Logs"
+                "disableButton": "Disable Voice Logs",
+                "enableButton": "Enable Voice Logs"
             },
             "categoryActions": {
                 "title": "Akcje serwera",
