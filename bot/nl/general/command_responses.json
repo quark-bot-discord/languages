@@ -167,7 +167,8 @@
                 "title": "Berichten",
                 "description": "Berichtacties (verwijderingen, bewerkingen, pins, reacties)",
                 "resetButton": "Reset Message Logging Channel",
-                "disableButton": "Disable Message Logs"
+                "disableButton": "Disable Message Logs",
+                "enableButton": "Enable Message Logs"
             },
             "categoryVoice": {
                 "title": "Stem",
