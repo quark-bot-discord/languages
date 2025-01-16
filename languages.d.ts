@@ -29,6 +29,9 @@ export type LanguageStructure = {
   channel_update_types: Promise<{
   none: string;
 }>;
+  emoji_update_types: Promise<{
+  none: string;
+}>;
   command_responses: Promise<{
   disable: string;
   enable: string;
@@ -254,6 +257,7 @@ export type LanguageStructure = {
   description: string;
   resetButton: string;
   disableButton: string;
+  enableButton: string;
 };
   categoryFiles: {
   title: string;
@@ -267,9 +271,6 @@ export type LanguageStructure = {
   resetLogChannel: string;
 };
   "help-modify-tags-description": string;
-}>;
-  emoji_update_types: Promise<{
-  none: string;
 }>;
   gui_constants: Promise<{
   channelModificationTypes: {
@@ -373,6 +374,11 @@ export type LanguageStructure = {
   "3": string;
   "4": string;
 }>;
+  role_update_types: Promise<{
+  enabled: string;
+  disabled: string;
+  none: string;
+}>;
   permissions: Promise<{
   CREATE_INSTANT_INVITE: string;
   KICK_MEMBERS: string;
@@ -422,11 +428,6 @@ export type LanguageStructure = {
   SEND_VOICE_MESSAGES: string;
   SEND_POLLS: string;
 }>;
-  role_update_types: Promise<{
-  enabled: string;
-  disabled: string;
-  none: string;
-}>;
   tags_responses: Promise<{
   "tags-help-description": string;
   "create-success": string;
@@ -469,6 +470,10 @@ export type LanguageStructure = {
 }>;
 };
   slash_commands: {
+  commands: Promise<{
+  name: string;
+  description: string;
+}>;
   ban: Promise<{
   name: string;
   description: string;
@@ -487,14 +492,6 @@ export type LanguageStructure = {
 };
 };
 }>;
-  commands: Promise<{
-  name: string;
-  description: string;
-}>;
-  dashboard: Promise<{
-  name: string;
-  description: string;
-}>;
   config: Promise<{
   name: string;
   description: string;
@@ -512,6 +509,10 @@ export type LanguageStructure = {
 };
 };
 };
+}>;
+  dashboard: Promise<{
+  name: string;
+  description: string;
 }>;
   debug: Promise<{
   name: string;
