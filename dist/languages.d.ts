@@ -215,6 +215,7 @@ export type LanguageStructure = {
   description: string;
   resetButton: string;
   disableButton: string;
+  enableButton: string;
 };
   categoryChannels: {
   title: string;
@@ -348,6 +349,13 @@ export type LanguageStructure = {
   ignoreCategories: string;
   activeIgnore: string;
 }>;
+  log_formats: Promise<{
+  "0": string;
+  "1": string;
+  "2": string;
+  "3": string;
+  "4": string;
+}>;
   log_categories: Promise<{
   serverEvents: string;
   serverActions: string;
@@ -360,13 +368,6 @@ export type LanguageStructure = {
   quarkEvents: string;
   modLog: string;
   main: string;
-}>;
-  log_formats: Promise<{
-  "0": string;
-  "1": string;
-  "2": string;
-  "3": string;
-  "4": string;
 }>;
   permissions: Promise<{
   CREATE_INSTANT_INVITE: string;
@@ -518,6 +519,23 @@ export type LanguageStructure = {
 };
 };
 }>;
+  help: Promise<{
+  name: string;
+  description: string;
+  commandOptions: {
+  overviewOption: {
+  name: string;
+  description: string;
+};
+  serverlogOption: {
+  name: string;
+  description: string;
+};
+};
+}>;
+  initialReactor: Promise<{
+  name: string;
+}>;
   export: Promise<{
   name: string;
   description: string;
@@ -544,23 +562,6 @@ export type LanguageStructure = {
 };
 };
 }>;
-  initialReactor: Promise<{
-  name: string;
-}>;
-  help: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  overviewOption: {
-  name: string;
-  description: string;
-};
-  serverlogOption: {
-  name: string;
-  description: string;
-};
-};
-}>;
   invite: Promise<{
   name: string;
   description: string;
@@ -579,6 +580,10 @@ export type LanguageStructure = {
 };
 };
 }>;
+  logging: Promise<{
+  name: string;
+  description: string;
+}>;
   language: Promise<{
   name: string;
   description: string;
@@ -588,10 +593,6 @@ export type LanguageStructure = {
   description: string;
 };
 };
-}>;
-  logging: Promise<{
-  name: string;
-  description: string;
 }>;
   mute: Promise<{
   name: string;

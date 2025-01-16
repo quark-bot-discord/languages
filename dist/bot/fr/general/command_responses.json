@@ -182,7 +182,8 @@
                 "title": "Les actions de serveur",
                 "description": "Les actions de serveur (création d'invitation/suppression, émojis)",
                 "resetButton": "Reset Server Actions Logging Channel",
-                "disableButton": "Disable Server Actions Logs"
+                "disableButton": "Disable Server Actions Logs",
+                "enableButton": "Enable Server Actions Logs"
             },
             "categoryChannels": {
                 "title": "Salons",
