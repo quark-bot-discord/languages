@@ -183,7 +183,8 @@
                 "title": "Acciones del servidor",
                 "description": "Acciones del servidor (creación/eliminación de invitaciones, emojis)",
                 "resetButton": "Reset Server Actions Logging Channel",
-                "disableButton": "Disable Server Actions Logs"
+                "disableButton": "Disable Server Actions Logs",
+                "enableButton": "Enable Server Actions Logs"
             },
             "categoryChannels": {
                 "title": "Canales",
