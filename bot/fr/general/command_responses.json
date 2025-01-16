@@ -161,7 +161,8 @@
                 "title": "Membres",
                 "description": "Les actions de membre (rejoindre/quitter, rôles, pseudo)",
                 "resetButton": "Reset Member Logging Channel",
-                "disableButton": "Disable Member Logs"
+                "disableButton": "Disable Member Logs",
+                "enableButton": "Enable Member Logs"
             },
             "categoryText": {
                 "title": "Messages",
