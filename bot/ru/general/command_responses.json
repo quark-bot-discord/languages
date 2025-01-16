@@ -6,7 +6,8 @@
                 "title": "Members",
                 "description": "Member actions (join/leave, roles, nicknames)",
                 "resetButton": "Reset Member Logging Channel",
-                "disableButton": "Disable Member Logs"
+                "disableButton": "Disable Member Logs",
+                "enableButton": "Enable Member Logs"
             },
             "categoryText": {
                 "title": "Messages",
