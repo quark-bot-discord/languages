@@ -229,6 +229,7 @@ export type LanguageStructure = {
   description: string;
   resetButton: string;
   disableButton: string;
+  enableButton: string;
 };
   categoryRoles: {
   title: string;
@@ -520,6 +521,20 @@ export type LanguageStructure = {
 };
 };
 }>;
+  help: Promise<{
+  name: string;
+  description: string;
+  commandOptions: {
+  overviewOption: {
+  name: string;
+  description: string;
+};
+  serverlogOption: {
+  name: string;
+  description: string;
+};
+};
+}>;
   export: Promise<{
   name: string;
   description: string;
@@ -543,20 +558,6 @@ export type LanguageStructure = {
   name: string;
 };
 };
-};
-};
-}>;
-  help: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  overviewOption: {
-  name: string;
-  description: string;
-};
-  serverlogOption: {
-  name: string;
-  description: string;
 };
 };
 }>;

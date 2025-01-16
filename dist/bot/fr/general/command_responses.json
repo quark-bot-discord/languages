@@ -200,7 +200,8 @@
                 "title": "Les Événements du Serveur",
                 "description": "Les actions générales (modifications du serveur)",
                 "resetButton": "Reset Server Event Logging Channel",
-                "disableButton": "Disable Server Event Logs"
+                "disableButton": "Disable Server Event Logs",
+                "enableButton": "Enable Server Event Logs"
             },
             "categoryRoles": {
                 "title": "Rôles",
