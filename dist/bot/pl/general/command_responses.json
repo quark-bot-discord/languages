@@ -160,7 +160,8 @@
                 "title": "Członkowie",
                 "description": "Akcje członków (dołączenie/wyjście, role, pseudonimy)",
                 "resetButton": "Reset Member Logging Channel",
-                "disableButton": "Disable Member Logs"
+                "disableButton": "Disable Member Logs",
+                "enableButton": "Enable Member Logs"
             },
             "categoryText": {
                 "title": "Wiadomości",
