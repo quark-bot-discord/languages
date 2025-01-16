@@ -181,7 +181,8 @@
                 "title": "Server Acties",
                 "description": "Serveracties (uitnodiging creatie/verwijdering, emoji's)",
                 "resetButton": "Reset Server Actions Logging Channel",
-                "disableButton": "Disable Server Actions Logs"
+                "disableButton": "Disable Server Actions Logs",
+                "enableButton": "Enable Server Actions Logs"
             },
             "categoryChannels": {
                 "title": "Kanalen",
