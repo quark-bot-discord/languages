@@ -224,7 +224,8 @@
                 "title": "Ustawienia Quark",
                 "description": "Zmiany które zostały zmienione dla ustawień Quark dla tego serwera",
                 "resetButton": "Reset Quark Config Logging Channel",
-                "disableButton": "Disable Quark Config Logs"
+                "disableButton": "Disable Quark Config Logs",
+                "enableButton": "Enable Quark Config Logs"
             }
         },
         "selectChannel": "Set logging channel",
