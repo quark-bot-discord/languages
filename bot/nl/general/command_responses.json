@@ -232,7 +232,8 @@
         "all": "All",
         "resetChannel": "Reset Main Channel",
         "selectLogType": "Select Log Type",
-        "resetLogChannel": "Reset Log Channel"
+        "resetLogChannel": "Reset Log Channel",
+        "furtherConfig": "For more control over logs, such as selecting different channels for different log types or preventing certain channels, users or messages from being logged please visit [Quark's web dashboard]"
     },
     "setserverlog-type-quark-0": "Quark Events",
     "setserverlog-type-quark-1": "quark events",
