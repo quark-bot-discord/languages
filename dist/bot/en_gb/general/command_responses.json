@@ -238,7 +238,8 @@
         "all": "All",
         "resetChannel": "Reset Main Channel",
         "selectLogType": "Select Log Type",
-        "resetLogChannel": "Reset Log Channel"
+        "resetLogChannel": "Reset Log Channel",
+        "furtherConfig": "For more control over logs, such as selecting different channels for different log types or preventing certain channels, users or messages from being logged please visit [Quark's web dashboard]"
     },
     "help-modify-tags-description": "To create and edit tags, please visit [Quark's web dashboard]"
 }
