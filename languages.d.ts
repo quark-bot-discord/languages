@@ -95,7 +95,6 @@ export type LanguageStructure = {
   "channel1-command": string;
   "serverlog-web-promote": string;
   "serverlog-select": string;
-  "serverlog-unset": string;
   "setserverlog-confirm0-set": string;
   "setserverlog-confirm0-unset": string;
   "setserverlog-confirm1-set": string;
@@ -411,11 +410,6 @@ export type LanguageStructure = {
   SEND_VOICE_MESSAGES: string;
   SEND_POLLS: string;
 }>;
-  role_update_types: Promise<{
-  enabled: string;
-  disabled: string;
-  none: string;
-}>;
   tags_responses: Promise<{
   "tags-help-description": string;
   "create-success": string;
@@ -439,6 +433,11 @@ export type LanguageStructure = {
   "tag-error-limitreached-0": string;
   "tag-error-limitreached-1": string;
   "tag-createdby": string;
+}>;
+  role_update_types: Promise<{
+  enabled: string;
+  disabled: string;
+  none: string;
 }>;
   time: Promise<{
   second: string;
@@ -502,16 +501,6 @@ export type LanguageStructure = {
   name: string;
   description: string;
 }>;
-  debug: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  shareOption: {
-  name: string;
-  description: string;
-};
-};
-}>;
   export: Promise<{
   name: string;
   description: string;
@@ -538,8 +527,15 @@ export type LanguageStructure = {
 };
 };
 }>;
-  initialReactor: Promise<{
+  debug: Promise<{
   name: string;
+  description: string;
+  commandOptions: {
+  shareOption: {
+  name: string;
+  description: string;
+};
+};
 }>;
   help: Promise<{
   name: string;
@@ -554,6 +550,9 @@ export type LanguageStructure = {
   description: string;
 };
 };
+}>;
+  initialReactor: Promise<{
+  name: string;
 }>;
   invite: Promise<{
   name: string;
@@ -582,10 +581,6 @@ export type LanguageStructure = {
   description: string;
 };
 };
-}>;
-  logging: Promise<{
-  name: string;
-  description: string;
 }>;
   mute: Promise<{
   name: string;
@@ -624,6 +619,10 @@ export type LanguageStructure = {
   name: string;
   description: string;
 }>;
+  logging: Promise<{
+  name: string;
+  description: string;
+}>;
   premium: Promise<{
   name: string;
   description: string;
@@ -631,16 +630,6 @@ export type LanguageStructure = {
   privacy: Promise<{
   name: string;
   description: string;
-}>;
-  purge: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  countOption: {
-  name: string;
-  description: string;
-};
-};
 }>;
   reason: Promise<{
   name: string;
@@ -651,6 +640,16 @@ export type LanguageStructure = {
   description: string;
 };
   reasonOption: {
+  name: string;
+  description: string;
+};
+};
+}>;
+  purge: Promise<{
+  name: string;
+  description: string;
+  commandOptions: {
+  countOption: {
   name: string;
   description: string;
 };
@@ -902,6 +901,26 @@ export type LanguageStructure = {
   none: string;
 };
 }>;
+  modlog: Promise<{
+  moderator: string;
+  user: string;
+  reason: string;
+  case: string;
+  noReason: string;
+  noReasonBrief: string;
+  ban: string;
+  unban: string;
+  kick: string;
+  mute: string;
+  unmute: string;
+  timeoutEnds: string;
+  editReason: string;
+  reasonModal: {
+  label: string;
+  placeholder: string;
+  title: string;
+};
+}>;
   quarkEvents: Promise<{
   serverlogChannelUpdate: {
   title: string;
@@ -964,26 +983,6 @@ export type LanguageStructure = {
   tokenRevoked: {
   title: string;
   description: string;
-};
-}>;
-  modlog: Promise<{
-  moderator: string;
-  user: string;
-  reason: string;
-  case: string;
-  noReason: string;
-  noReasonBrief: string;
-  ban: string;
-  unban: string;
-  kick: string;
-  mute: string;
-  unmute: string;
-  timeoutEnds: string;
-  editReason: string;
-  reasonModal: {
-  label: string;
-  placeholder: string;
-  title: string;
 };
 }>;
   roleEvents: Promise<{

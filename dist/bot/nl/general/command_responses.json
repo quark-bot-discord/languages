@@ -64,7 +64,6 @@
     "channel1-command": "kanalen",
     "serverlog-web-promote": "...of bekijk ons web dashboard!",
     "serverlog-select": "Selecteer serverlog kanaal",
-    "serverlog-unset": "Kanaal niet ingesteld",
     "setserverlog-confirm0-set": "Server-Log Kanaal Ingesteld",
     "setserverlog-confirm0-unset": "Server-Log Kanaal Niet Ingesteld",
     "setserverlog-confirm1-set": "Alle server-log gebeurtenissen worden nu in dit kanaal vastgelegd ({channel}).\n\n[**Bezoek Quark's web dashboard voor meer configuratieopties!**]({quark_website_url}/dashboard/{guild_id})",
