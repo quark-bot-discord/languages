@@ -123,7 +123,6 @@
     "help-overview-change-channel": "Changez ceci en exécutant {command} dans le salon désiré.",
     "help-overview-manage-premium": "Exécutez {command} pour gérer votre premium",
     "language-set": "Langue défini sur {language}",
-    "help-serverlog-2-desc": "Pour définir si les spoilers sont appliqués à tous les médias envoyés dans les logs du serveur ou non, exécutez : {command}",
     "help-serverlog-2-on": "Les spoilers sont activés.",
     "help-serverlog-2-off": "Les spoilers sont désactivés.",
     "help-commands-help": "Aide Commandes",
