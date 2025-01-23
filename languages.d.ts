@@ -4,6 +4,15 @@ export type LanguageStructure = {
   "1": string;
   "2": string;
 }>;
+  buttons: Promise<{
+  userID: string;
+  supportServer: string;
+  customise: string;
+  overview: string;
+  serverlog: string;
+  dashboard: string;
+  pro: string;
+}>;
   channel_types: Promise<{
   "0": string;
   "2": string;
@@ -16,18 +25,6 @@ export type LanguageStructure = {
   "14": string;
   "15": string;
   "16": string;
-}>;
-  buttons: Promise<{
-  userID: string;
-  supportServer: string;
-  customise: string;
-  overview: string;
-  serverlog: string;
-  dashboard: string;
-  pro: string;
-}>;
-  channel_update_types: Promise<{
-  none: string;
 }>;
   command_responses: Promise<{
   disable: string;
@@ -269,6 +266,9 @@ export type LanguageStructure = {
   furtherConfig: string;
 };
   "help-modify-tags-description": string;
+}>;
+  channel_update_types: Promise<{
+  none: string;
 }>;
   emoji_update_types: Promise<{
   none: string;
@@ -525,6 +525,20 @@ export type LanguageStructure = {
 };
 };
 }>;
+  help: Promise<{
+  name: string;
+  description: string;
+  commandOptions: {
+  overviewOption: {
+  name: string;
+  description: string;
+};
+  serverlogOption: {
+  name: string;
+  description: string;
+};
+};
+}>;
   export: Promise<{
   name: string;
   description: string;
@@ -548,20 +562,6 @@ export type LanguageStructure = {
   name: string;
 };
 };
-};
-};
-}>;
-  help: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  overviewOption: {
-  name: string;
-  description: string;
-};
-  serverlogOption: {
-  name: string;
-  description: string;
 };
 };
 }>;
@@ -935,6 +935,38 @@ export type LanguageStructure = {
   title: string;
 };
 }>;
+  roleEvents: Promise<{
+  roleCreated: {
+  title: string;
+  description: string;
+};
+  roleDeleted: {
+  title: string;
+  description: string;
+  role: string;
+  linkToRoleIcon: string;
+};
+  roleUpdated: {
+  title: string;
+  description: string;
+};
+  rolePermissionsUpdate: {
+  title: string;
+  description: string;
+  newPermissions: string;
+  oldPermissions: string;
+  viewFullNewPermissions: string;
+  viewFullOldPermissions: string;
+};
+  roleIconUpdate: {
+  title: string;
+  description: string;
+  description_added: string;
+  description_removed: string;
+  linkToOldIcon: string;
+  linkToNewIcon: string;
+};
+}>;
   quarkEvents: Promise<{
   serverlogChannelUpdate: {
   title: string;
@@ -997,38 +1029,6 @@ export type LanguageStructure = {
   tokenRevoked: {
   title: string;
   description: string;
-};
-}>;
-  roleEvents: Promise<{
-  roleCreated: {
-  title: string;
-  description: string;
-};
-  roleDeleted: {
-  title: string;
-  description: string;
-  role: string;
-  linkToRoleIcon: string;
-};
-  roleUpdated: {
-  title: string;
-  description: string;
-};
-  rolePermissionsUpdate: {
-  title: string;
-  description: string;
-  newPermissions: string;
-  oldPermissions: string;
-  viewFullNewPermissions: string;
-  viewFullOldPermissions: string;
-};
-  roleIconUpdate: {
-  title: string;
-  description: string;
-  description_added: string;
-  description_removed: string;
-  linkToOldIcon: string;
-  linkToNewIcon: string;
 };
 }>;
   serverActions: Promise<{
