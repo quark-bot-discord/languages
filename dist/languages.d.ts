@@ -26,6 +26,9 @@ export type LanguageStructure = {
   "15": string;
   "16": string;
 }>;
+  channel_update_types: Promise<{
+  none: string;
+}>;
   command_responses: Promise<{
   disable: string;
   enable: string;
@@ -156,7 +159,6 @@ export type LanguageStructure = {
   "help-serverlog-0": string;
   "help-serverlog-1": string;
   "help-serverlog-2": string;
-  "help-serverlog-0-desc": string;
   "help-serverlog-1-desc": string;
   "help-serverlog-2-desc": string;
   "help-serverlog-2-on": string;
@@ -266,9 +268,6 @@ export type LanguageStructure = {
   furtherConfig: string;
 };
   "help-modify-tags-description": string;
-}>;
-  channel_update_types: Promise<{
-  none: string;
 }>;
   emoji_update_types: Promise<{
   none: string;
@@ -525,20 +524,6 @@ export type LanguageStructure = {
 };
 };
 }>;
-  help: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  overviewOption: {
-  name: string;
-  description: string;
-};
-  serverlogOption: {
-  name: string;
-  description: string;
-};
-};
-}>;
   export: Promise<{
   name: string;
   description: string;
@@ -562,6 +547,20 @@ export type LanguageStructure = {
   name: string;
 };
 };
+};
+};
+}>;
+  help: Promise<{
+  name: string;
+  description: string;
+  commandOptions: {
+  overviewOption: {
+  name: string;
+  description: string;
+};
+  serverlogOption: {
+  name: string;
+  description: string;
 };
 };
 }>;
