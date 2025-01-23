@@ -189,7 +189,6 @@
     "setserverlog-type-modlogs-1": "modlogs",
     "setserverlog-type-quark-0": "Quark Events",
     "setserverlog-type-quark-1": "quark events",
-    "setserverlog-spoilers-0": "Serverlog spoilers set to {result}",
     "setserverlog-enable-status-updates": "Enable Status Updates!",
     "setserverlog-enable-status-updates-desc": "Get notified of all the latest updates, downtime, and other important communications from the developers!",
     "setserverlog-enable-status-updates-desc-1": "We highly recommend you enable this in one of your channels!",

@@ -97,7 +97,6 @@
     "setserverlog-type-modlogs-1": "de modération",
     "setserverlog-type-quark-0": "d'Événements de Quark",
     "setserverlog-type-quark-1": "d'événements de Quark",
-    "setserverlog-spoilers-0": "Les spoilers dans les logs du serveur sont définis sur {result}",
     "setserverlog-enable-status-updates": "Activez les Mises à Jour du Statut !",
     "setserverlog-enable-status-updates-desc": "Soyez notifié de toutes les dernières mises à jour, des maintenances, et d'autres communications importants des développeurs !",
     "setserverlog-enable-status-updates-desc-1": "Nous vous recommandons vivement d'activer ceci dans l'un de vos salons !",

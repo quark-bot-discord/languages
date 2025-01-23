@@ -128,7 +128,6 @@ export type LanguageStructure = {
   "setserverlog-type-modlogs-1": string;
   "setserverlog-type-quark-0": string;
   "setserverlog-type-quark-1": string;
-  "setserverlog-spoilers-0": string;
   "setserverlog-enable-status-updates": string;
   "setserverlog-enable-status-updates-desc": string;
   "setserverlog-enable-status-updates-desc-1": string;
