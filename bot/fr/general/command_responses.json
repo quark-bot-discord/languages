@@ -65,7 +65,6 @@
     "serverlog-web-promote": "...ou consultez notre tableau de bord en ligne !",
     "serverlog-select": "Sélectionnez le salon des logs du serveur",
     "serverlog-unset": "Salon désactivé",
-    "serverlog-set": "Salon défini",
     "serverlog-setchannel": "Salon défini sur {channel}",
     "setserverlog-confirm0-set": "Salon des logs du serveur défini",
     "setserverlog-confirm0-unset": "Salon des logs du serveur désactivé",
