@@ -65,7 +65,6 @@
     "serverlog-web-promote": "...hoặc truy cập bảng điều khiển web của chúng tôi!",
     "serverlog-select": "Chọn kênh serverlog",
     "serverlog-unset": "Kênh không được đặt",
-    "serverlog-set": "Kênh đã được đặt",
     "serverlog-setchannel": "Kênh đã được đặt thành {channel}",
     "setserverlog-confirm0-set": "Đã đặt Kênh Ghi Nhật Ký Máy Chủ",
     "setserverlog-confirm0-unset": "Đã hủy đặt Kênh Ghi Nhật Ký Máy Chủ",
