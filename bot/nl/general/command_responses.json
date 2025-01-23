@@ -126,7 +126,6 @@
     "help-serverlog-0": "Kanaalbeperkingen",
     "help-serverlog-1": "Negeeropties",
     "help-serverlog-2": "Spoilers",
-    "help-serverlog-1-desc": "Om te voorkomen dat bepaalde kanalen, gebruikers of berichten worden gelogd, voer uit:\n{ignorecommand}",
     "help-serverlog-2-desc": "Om te wisselen of spoilers worden toegepast op alle media die in de serverlog worden verzonden, voer uit: {command}",
     "help-serverlog-2-on": "Spoilers zijn ingeschakeld.",
     "help-serverlog-2-off": "Spoilers zijn uitgeschakeld.",
