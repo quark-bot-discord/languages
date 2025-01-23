@@ -155,7 +155,6 @@
     "channel1-command": "channels",
     "serverlog-web-promote": "...or check out our web dashboard!",
     "serverlog-select": "Select serverlog channel",
-    "serverlog-unset": "Channel unset",
     "setserverlog-confirm0-set": "Server-Log Channel Set",
     "setserverlog-confirm0-unset": "Server-Log Channel Unset",
     "setserverlog-confirm1-set": "All server-log events will now be recorded in this channel ({channel}).\n\n[**Visit Quark's web dashboard for more configuration options!**]({quark_website_url}/dashboard/{guild_id})",
