@@ -215,7 +215,6 @@
     "help-overview-view-all-commands": "Run {command} to see commands",
     "help-overview-change-channel": "Change this by running {command} in the desired channel.",
     "help-overview-manage-premium": "Run {command} to manage premium",
-    "help-serverlog-help": "Serverlog Help",
     "help-serverlog-0": "Channel Restrictions",
     "help-serverlog-1": "Ignore Options",
     "help-serverlog-2": "Spoilers",
