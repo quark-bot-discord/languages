@@ -122,7 +122,6 @@
     "help-overview-change-channel": "Zmień to, uruchamiając {command} na żądanym kanale.",
     "help-overview-manage-premium": "Uruchom {command}, aby zarządzać premium",
     "language-set": "Ustaw język na {language}",
-    "help-serverlog-2-off": "Spojlery są wyłączone.",
     "help-commands-help": "Pomoc poleceń",
     "help-commands-moderation": "Moderacja",
     "help-commands-tags": "Tagi",
