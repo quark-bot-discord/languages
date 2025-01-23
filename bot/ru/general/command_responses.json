@@ -215,7 +215,6 @@
     "help-overview-change-channel": "Change this by running {command} in the desired channel.",
     "help-overview-manage-premium": "Run {command} to manage premium",
     "language-set": "Set language to {language}",
-    "help-serverlog-2": "Spoilers",
     "help-serverlog-2-desc": "To toggle whether spoilers are applied to all media sent in the serverlog, run: {command}",
     "help-serverlog-2-on": "Spoilers are enabled.",
     "help-serverlog-2-off": "Spoilers are disabled.",
