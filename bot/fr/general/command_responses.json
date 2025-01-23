@@ -64,7 +64,6 @@
     "channel1-command": "salons",
     "serverlog-web-promote": "...ou consultez notre tableau de bord en ligne !",
     "serverlog-select": "Sélectionnez le salon des logs du serveur",
-    "serverlog-unset": "Salon désactivé",
     "setserverlog-confirm0-set": "Salon des logs du serveur défini",
     "setserverlog-confirm0-unset": "Salon des logs du serveur désactivé",
     "setserverlog-confirm1-set": "Tous les événements de log de serveur seront maintenant enregistrés dans ce salon ({channel}).\n\n[**Consultez le tableau de bord en ligne de Quark pour plus d'options de configurations!**]({quark_website_url}/dashboard/{guild_id})",
