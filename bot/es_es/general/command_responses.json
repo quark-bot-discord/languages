@@ -124,7 +124,6 @@
     "help-overview-change-channel": "Cambie esto ejecutando {command} en el canal deseado.",
     "help-overview-manage-premium": "Ejecute {command} para administrar premium",
     "language-set": "Establecer idioma en {language}",
-    "help-serverlog-help": "Ayuda de registro del servidor",
     "help-serverlog-0": "Restricciones de canales",
     "help-serverlog-1": "Ignorar opciones",
     "help-serverlog-2": "Spoilers",
