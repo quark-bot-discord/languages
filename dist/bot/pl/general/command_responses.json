@@ -65,7 +65,6 @@
     "serverlog-web-promote": "...lub sprawdź nasz web dashboard!",
     "serverlog-select": "Wybierz kanał serverlog",
     "serverlog-unset": "Kanał niezdefiniowany",
-    "serverlog-setchannel": "Kanał ustawiony na {channel}",
     "setserverlog-confirm0-set": "Kanał Server-Log ustawiony",
     "setserverlog-confirm0-unset": "Kanał Server-Log niezdefiniowany",
     "setserverlog-confirm1-set": "Wszystkie wydarzenia server-log będą teraz rejestrowane w tym kanale ({channel}).\n\n[**Odwiedź web dashboard Quark, aby uzyskać więcej opcji konfiguracji!**]({quark_website_url}/dashboard/{guild_id})",
