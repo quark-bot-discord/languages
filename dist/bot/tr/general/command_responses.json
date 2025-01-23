@@ -65,7 +65,6 @@
     "serverlog-web-promote": "...or check out our web dashboard!",
     "serverlog-select": "Select serverlog channel",
     "serverlog-unset": "Channel unset",
-    "serverlog-set": "Channel set",
     "serverlog-setchannel": "Channel set to {channel}",
     "setserverlog-confirm0-set": "Server-Log Channel Set",
     "setserverlog-confirm0-unset": "Server-Log Channel Unset",

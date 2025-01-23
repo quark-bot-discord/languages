@@ -29,6 +29,9 @@ export type LanguageStructure = {
   channel_update_types: Promise<{
   none: string;
 }>;
+  emoji_update_types: Promise<{
+  none: string;
+}>;
   command_responses: Promise<{
   disable: string;
   enable: string;
@@ -96,7 +99,6 @@ export type LanguageStructure = {
   "serverlog-web-promote": string;
   "serverlog-select": string;
   "serverlog-unset": string;
-  "serverlog-set": string;
   "serverlog-setchannel": string;
   "setserverlog-confirm0-set": string;
   "setserverlog-confirm0-unset": string;
@@ -258,9 +260,6 @@ export type LanguageStructure = {
   furtherConfig: string;
 };
   "help-modify-tags-description": string;
-}>;
-  emoji_update_types: Promise<{
-  none: string;
 }>;
   gui_constants: Promise<{
   channelModificationTypes: {
@@ -812,6 +811,36 @@ export type LanguageStructure = {
 }>;
 };
   standard: {
+  generalEvents: Promise<{
+  serverModified: {
+  title: string;
+  description: string;
+};
+  serverIconUpdated: {
+  title: string;
+  description: string;
+  description_added: string;
+  description_removed: string;
+  linkToOldIcon: string;
+  linkToNewIcon: string;
+};
+  serverBoostAdd: {
+  title: string;
+  description: string;
+  description_noUser: string;
+  description_withTier: string;
+  description_withTier_noUser: string;
+  none: string;
+};
+  serverBoostRemove: {
+  title: string;
+  description: string;
+  description_noUser: string;
+  description_withTier: string;
+  description_withTier_noUser: string;
+  none: string;
+};
+}>;
   channelEvents: Promise<{
   channelCreated: {
   title: string;
@@ -872,36 +901,6 @@ export type LanguageStructure = {
   statusChannelUpdated: {
   title: string;
   description: string;
-};
-}>;
-  generalEvents: Promise<{
-  serverModified: {
-  title: string;
-  description: string;
-};
-  serverIconUpdated: {
-  title: string;
-  description: string;
-  description_added: string;
-  description_removed: string;
-  linkToOldIcon: string;
-  linkToNewIcon: string;
-};
-  serverBoostAdd: {
-  title: string;
-  description: string;
-  description_noUser: string;
-  description_withTier: string;
-  description_withTier_noUser: string;
-  none: string;
-};
-  serverBoostRemove: {
-  title: string;
-  description: string;
-  description_noUser: string;
-  description_withTier: string;
-  description_withTier_noUser: string;
-  none: string;
 };
 }>;
   modlog: Promise<{
