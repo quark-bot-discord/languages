@@ -122,7 +122,6 @@
     "help-overview-change-channel": "Zmień to, uruchamiając {command} na żądanym kanale.",
     "help-overview-manage-premium": "Uruchom {command}, aby zarządzać premium",
     "language-set": "Ustaw język na {language}",
-    "help-serverlog-2-desc": "Aby przełączać, czy spoilery są stosowane do wszystkich mediów wysyłanych w serverlog, uruchom: {command}",
     "help-serverlog-2-on": "Spojlery są włączone.",
     "help-serverlog-2-off": "Spojlery są wyłączone.",
     "help-commands-help": "Pomoc poleceń",
