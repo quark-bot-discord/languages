@@ -64,7 +64,6 @@
     "channel1-command": "canales",
     "serverlog-web-promote": "... ¡o consulte nuestro panel web!",
     "serverlog-select": "Seleccione el canal de registro del servidor",
-    "serverlog-unset": "Canal desarmado",
     "setserverlog-confirm0-set": "Conjunto de canales de registro del servidor",
     "setserverlog-confirm0-unset": "Canal de registro del servidor no configurado",
     "setserverlog-confirm1-set": "Todos los eventos de registro del servidor ahora se registrarán en este canal ({channel}).",
