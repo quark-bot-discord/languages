@@ -155,7 +155,6 @@ export type LanguageStructure = {
   "help-overview-change-channel": string;
   "help-overview-manage-premium": string;
   "language-set": string;
-  "help-serverlog-2": string;
   "help-serverlog-2-desc": string;
   "help-serverlog-2-on": string;
   "help-serverlog-2-off": string;
@@ -506,6 +505,10 @@ export type LanguageStructure = {
 };
 };
 }>;
+  dashboard: Promise<{
+  name: string;
+  description: string;
+}>;
   debug: Promise<{
   name: string;
   description: string;
@@ -515,10 +518,6 @@ export type LanguageStructure = {
   description: string;
 };
 };
-}>;
-  dashboard: Promise<{
-  name: string;
-  description: string;
 }>;
   export: Promise<{
   name: string;

@@ -124,7 +124,6 @@
     "help-overview-change-channel": "Cambie esto ejecutando {command} en el canal deseado.",
     "help-overview-manage-premium": "Ejecute {command} para administrar premium",
     "language-set": "Establecer idioma en {language}",
-    "help-serverlog-2": "Spoilers",
     "help-serverlog-2-desc": "Para alternar si se aplican spoilers a todos los medios enviados en el registro del servidor, ejecute: {command}",
     "help-serverlog-2-on": "Los spoilers están habilitados.",
     "help-serverlog-2-off": "Los spoilers están desactivados.",
