@@ -97,7 +97,6 @@
     "setserverlog-type-modlogs-1": "modlogs",
     "setserverlog-type-quark-0": "Eventos de quarks",
     "setserverlog-type-quark-1": "eventos de quarks",
-    "setserverlog-spoilers": "Spoilers",
     "setserverlog-spoilers-0": "Spoilers del registro del servidor configurados en {result}",
     "setserverlog-enable-status-updates": "¡Habilite las actualizaciones de estado!",
     "setserverlog-enable-status-updates-desc": "¡Reciba notificaciones sobre las últimas actualizaciones, tiempos de inactividad y otras comunicaciones importantes de los desarrolladores!",
