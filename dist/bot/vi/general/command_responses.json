@@ -122,8 +122,6 @@
     "help-overview-change-channel": "Thay đổi bằng cách chạy {command} trong kênh mong muốn.",
     "help-overview-manage-premium": "Chạy {command} để quản lý premium",
     "language-set": "Ngôn ngữ đã được đặt thành {language}",
-    "help-serverlog-2-desc": "Để bật/tắt việc ẩn thông tin về các phương tiện được gửi trong ghi nhật ký máy chủ, chạy: {command}",
-    "help-serverlog-2-on": "Đã bật ẩn thông tin.",
     "help-serverlog-2-off": "Đã tắt ẩn thông tin.",
     "help-commands-help": "Trợ giúp Lệnh",
     "help-commands-moderation": "Quản lý",
