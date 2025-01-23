@@ -117,7 +117,7 @@
     "help-overview-premium": "Premium",
     "help-overview-inventory": "Inventory",
     "help-overview-channel-isset": "Channel set to {channel}",
-    "help-overview-channel-isnotset": "Run {command} in the desired channel",
+    "help-overview-channel-isnotset": "Run {command} to get started",
     "help-overview-view-options": "Run {command} to see options",
     "help-overview-view-options-and-statuses": "Run {command} to see statuses and options",
     "help-overview-view-all-commands": "Run {command} to see commands",
