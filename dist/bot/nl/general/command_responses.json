@@ -122,7 +122,6 @@
     "help-overview-change-channel": "Verander dit door {command} uit te voeren in het gewenste kanaal.",
     "help-overview-manage-premium": "Voer {command} uit om premium te beheren",
     "language-set": "Taal ingesteld op {language}",
-    "help-serverlog-1": "Negeeropties",
     "help-serverlog-2": "Spoilers",
     "help-serverlog-2-desc": "Om te wisselen of spoilers worden toegepast op alle media die in de serverlog worden verzonden, voer uit: {command}",
     "help-serverlog-2-on": "Spoilers zijn ingeschakeld.",

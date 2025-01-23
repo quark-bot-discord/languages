@@ -155,7 +155,6 @@ export type LanguageStructure = {
   "help-overview-change-channel": string;
   "help-overview-manage-premium": string;
   "language-set": string;
-  "help-serverlog-1": string;
   "help-serverlog-2": string;
   "help-serverlog-2-desc": string;
   "help-serverlog-2-on": string;
@@ -507,10 +506,6 @@ export type LanguageStructure = {
 };
 };
 }>;
-  dashboard: Promise<{
-  name: string;
-  description: string;
-}>;
   debug: Promise<{
   name: string;
   description: string;
@@ -520,6 +515,10 @@ export type LanguageStructure = {
   description: string;
 };
 };
+}>;
+  dashboard: Promise<{
+  name: string;
+  description: string;
 }>;
   export: Promise<{
   name: string;
@@ -641,6 +640,16 @@ export type LanguageStructure = {
   name: string;
   description: string;
 }>;
+  purge: Promise<{
+  name: string;
+  description: string;
+  commandOptions: {
+  countOption: {
+  name: string;
+  description: string;
+};
+};
+}>;
   reason: Promise<{
   name: string;
   description: string;
@@ -650,16 +659,6 @@ export type LanguageStructure = {
   description: string;
 };
   reasonOption: {
-  name: string;
-  description: string;
-};
-};
-}>;
-  purge: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  countOption: {
   name: string;
   description: string;
 };
@@ -718,34 +717,6 @@ export type LanguageStructure = {
   description: string;
 };
   spoilersOption: {
-  name: string;
-  description: string;
-};
-};
-}>;
-  unban: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  userOption: {
-  name: string;
-  description: string;
-};
-  reasonOption: {
-  name: string;
-  description: string;
-};
-};
-}>;
-  unmute: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  userOption: {
-  name: string;
-  description: string;
-};
-  reasonOption: {
   name: string;
   description: string;
 };
@@ -812,6 +783,34 @@ export type LanguageStructure = {
   description: string;
 };
   helpOption: {
+  name: string;
+  description: string;
+};
+};
+}>;
+  unban: Promise<{
+  name: string;
+  description: string;
+  commandOptions: {
+  userOption: {
+  name: string;
+  description: string;
+};
+  reasonOption: {
+  name: string;
+  description: string;
+};
+};
+}>;
+  unmute: Promise<{
+  name: string;
+  description: string;
+  commandOptions: {
+  userOption: {
+  name: string;
+  description: string;
+};
+  reasonOption: {
   name: string;
   description: string;
 };
