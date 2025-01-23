@@ -128,7 +128,6 @@
     "help-serverlog-0": "Restricciones de canales",
     "help-serverlog-1": "Ignorar opciones",
     "help-serverlog-2": "Spoilers",
-    "help-serverlog-1-desc": "Para evitar que se registren ciertos canales, usuarios o mensajes, ejecute:\n",
     "help-serverlog-2-desc": "Para alternar si se aplican spoilers a todos los medios enviados en el registro del servidor, ejecute: {command}",
     "help-serverlog-2-on": "Los spoilers están habilitados.",
     "help-serverlog-2-off": "Los spoilers están desactivados.",
