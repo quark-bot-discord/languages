@@ -126,7 +126,6 @@
     "help-serverlog-0": "Ograniczenia kanału",
     "help-serverlog-1": "Opcje ignorowania",
     "help-serverlog-2": "Spojlery",
-    "help-serverlog-0-desc": "Aby uzyskać większą kontrolę nad logami, np. wybór różnych kanałów dla różnych typów logów, odwiedź [web dashboard Quark]",
     "help-serverlog-1-desc": "Aby zapobiec rejestrowaniu niektórych kanałów, użytkowników lub wiadomości, proszę odwiedź [Quark's web dashboard]",
     "help-serverlog-2-desc": "Aby przełączać, czy spoilery są stosowane do wszystkich mediów wysyłanych w serverlog, uruchom: {command}",
     "help-serverlog-2-on": "Spojlery są włączone.",
