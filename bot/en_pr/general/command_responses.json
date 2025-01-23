@@ -128,7 +128,6 @@
     "help-serverlog-0": "Channel Restrictions",
     "help-serverlog-1": "Ignore Options",
     "help-serverlog-2": "Spoilers",
-    "help-serverlog-1-desc": "To prevent certain channels, users or messages from being logged, please visit [Quark's web dashboard]",
     "help-serverlog-2-desc": "To toggle whether spoilers are applied to all media sent in the serverlog, run: {command}",
     "help-serverlog-2-on": "Spoilers are enabled.",
     "help-serverlog-2-off": "Spoilers are disabled.",
