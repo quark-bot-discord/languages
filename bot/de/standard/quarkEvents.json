@@ -1,6 +1,6 @@
 {
     "serverlogChannelUpdate": {
-        "title": "Logging Channel Changed",
+        "title": "Log-Channel geändert",
         "description_set": "{executor} set the {type} logging channel to {channel}",
         "description_category_disable": "{executor} disabled the {type} logging channel",
         "description_unset": "{executor} unset the {type} logging channel"
