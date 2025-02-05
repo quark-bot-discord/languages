@@ -1,13 +1,13 @@
 {
     "0": "Text",
     "2": "Voice",
-    "4": "Category",
-    "5": "Announcement",
-    "10": "Announcement Thread",
-    "11": "Public Thread",
-    "12": "Private Thread",
+    "4": "Kategorie",
+    "5": "Ankündigung",
+    "10": "Ankündigungsbeitrag",
+    "11": "Öffentlicher Beitrag",
+    "12": "Privater Beitrag",
     "13": "Stage",
-    "14": "Directory",
+    "14": "Wörterbuch",
     "15": "Forum",
-    "16": "Media"
+    "16": "Medien"
 }
