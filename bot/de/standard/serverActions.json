@@ -1,6 +1,6 @@
 {
     "inviteCreate": {
-        "title": "Invite Created",
+        "title": "Einladung erstellt",
         "description_withInviter": "{inviter} created an invite {invite} for {channel}",
         "description_withoutInviter": "An invite {invite} was created for {channel}",
         "expires": "Expires",
