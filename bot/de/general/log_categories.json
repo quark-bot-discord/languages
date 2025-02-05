@@ -1,13 +1,13 @@
 {
-    "serverEvents": "Members",
+    "serverEvents": "Mitglieder",
     "voiceEvents": "Voice",
-    "serverActions": "Actions",
-    "textEvents": "Messages",
-    "fileEvents": "Files",
+    "serverActions": "Aktionen",
+    "textEvents": "Nachrichten",
+    "fileEvents": "Dateien",
     "generalEvents": "Server",
-    "roleEvents": "Roles",
-    "channelEvents": "Channels",
-    "quarkEvents": "Quark Config",
+    "roleEvents": "Rollen",
+    "channelEvents": "Kanäle",
+    "quarkEvents": "Quark Konfiguration",
     "modLog": "Modlogs",
-    "main": "Main"
+    "main": "Haupt"
 }
