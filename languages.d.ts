@@ -410,6 +410,11 @@ export type LanguageStructure = {
   SEND_VOICE_MESSAGES: string;
   SEND_POLLS: string;
 }>;
+  role_update_types: Promise<{
+  enabled: string;
+  disabled: string;
+  none: string;
+}>;
   tags_responses: Promise<{
   "tags-help-description": string;
   "create-success": string;
@@ -433,11 +438,6 @@ export type LanguageStructure = {
   "tag-error-limitreached-0": string;
   "tag-error-limitreached-1": string;
   "tag-createdby": string;
-}>;
-  role_update_types: Promise<{
-  enabled: string;
-  disabled: string;
-  none: string;
 }>;
   time: Promise<{
   second: string;
@@ -501,6 +501,16 @@ export type LanguageStructure = {
   name: string;
   description: string;
 }>;
+  debug: Promise<{
+  name: string;
+  description: string;
+  commandOptions: {
+  shareOption: {
+  name: string;
+  description: string;
+};
+};
+}>;
   export: Promise<{
   name: string;
   description: string;
@@ -524,16 +534,6 @@ export type LanguageStructure = {
   name: string;
 };
 };
-};
-};
-}>;
-  debug: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  shareOption: {
-  name: string;
-  description: string;
 };
 };
 }>;
@@ -582,6 +582,10 @@ export type LanguageStructure = {
 };
 };
 }>;
+  logging: Promise<{
+  name: string;
+  description: string;
+}>;
   mute: Promise<{
   name: string;
   description: string;
@@ -619,10 +623,6 @@ export type LanguageStructure = {
   name: string;
   description: string;
 }>;
-  logging: Promise<{
-  name: string;
-  description: string;
-}>;
   premium: Promise<{
   name: string;
   description: string;
@@ -630,6 +630,16 @@ export type LanguageStructure = {
   privacy: Promise<{
   name: string;
   description: string;
+}>;
+  purge: Promise<{
+  name: string;
+  description: string;
+  commandOptions: {
+  countOption: {
+  name: string;
+  description: string;
+};
+};
 }>;
   reason: Promise<{
   name: string;
@@ -640,16 +650,6 @@ export type LanguageStructure = {
   description: string;
 };
   reasonOption: {
-  name: string;
-  description: string;
-};
-};
-}>;
-  purge: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  countOption: {
   name: string;
   description: string;
 };
@@ -779,7 +779,7 @@ export type LanguageStructure = {
 };
 };
 }>;
-  unban: Promise<{
+  unmute: Promise<{
   name: string;
   description: string;
   commandOptions: {
@@ -793,7 +793,7 @@ export type LanguageStructure = {
 };
 };
 }>;
-  unmute: Promise<{
+  unban: Promise<{
   name: string;
   description: string;
   commandOptions: {

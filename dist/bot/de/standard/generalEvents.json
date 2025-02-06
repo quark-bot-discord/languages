@@ -1,30 +1,30 @@
 {
     "serverModified": {
-        "title": "Server Modified",
-        "description": "This server was modified by {executor}"
+        "title": "Server verändert",
+        "description": "Dieser Server wurde von {executor} verändert"
     },
     "serverIconUpdated": {
-        "title": "Server Icon Updated",
-        "description": "{executor} updated the server icon",
-        "description_added": "{executor} added a server icon",
-        "description_removed": "{executor} removed the server icon",
-        "linkToOldIcon": "Link to old icon",
-        "linkToNewIcon": "Link to new icon"
+        "title": "Server Icon geändert",
+        "description": "{executor} hat das Server Icon geändert",
+        "description_added": "{executor} hat ein neues Server Icon hinzugefügt",
+        "description_removed": "{executor} hat das Server Icon entfernt",
+        "linkToOldIcon": "Link zum alten Icon",
+        "linkToNewIcon": "Link zum neuen Icon"
     },
     "serverBoostAdd": {
-        "title": "Server Boosted",
-        "description": "{user} boosted this server 🎉",
-        "description_noUser": "Someone boosted this server 🎉",
-        "description_withTier": "{user} boosted this server to tier {tier} 🎉",
-        "none": "none",
-        "description_withTier_noUser": "Someone boosted this server to tier {tier} 🎉"
+        "title": "Server geboosted",
+        "description": "{user} hat den Server geboosted 🎉",
+        "description_noUser": "Jemand hat den Server geboosted 🎉",
+        "description_withTier": "{user} hat den Server auf Stufe {tier} geboosted 🎉",
+        "none": "Nichts",
+        "description_withTier_noUser": "Jemand hat den Server auf Stufe {tier} geboosted 🎉"
     },
     "serverBoostRemove": {
-        "title": "Server Boost Removed",
-        "description": "{user} stopped boosting this server",
-        "description_noUser": "Someone stopped boosting this server",
-        "description_withTier": "{user} stopped boosting, causing the server to drop down to tier {tier}",
-        "description_withTier_noUser": "Someone stopped boosting, causing the server to drop down to tier {tier}",
-        "none": "none"
+        "title": "Server Boost entfernt",
+        "description": "{user} boosted den Server nicht mehr",
+        "description_noUser": "Jemand boosted den Server nicht mehr",
+        "description_withTier": "{user} boosted den Server nicht mehr, dadurch fällt der Server auf Stufe {tier} herunter",
+        "description_withTier_noUser": "Jemand boosted den Server nicht mehr, dadurch fällt der Server auf Stufe {tier} herunter",
+        "none": "Nichts"
     }
 }

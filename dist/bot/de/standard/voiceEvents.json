@@ -1,6 +1,6 @@
 {
     "streamStart": {
-        "title": "Stream Started",
+        "title": "Stream gestartet",
         "description": "{user} started streaming in the {channel} voice channel"
     },
     "streamStop": {

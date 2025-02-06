@@ -1,7 +1,7 @@
 {
     "polls": {
         "votes": "votes",
-        "poll": "Poll",
+        "poll": "Umfrage",
         "pollDescriptor": "[poll]",
         "status": "Poll has status.",
         "ended": "ended",

@@ -1,62 +1,62 @@
 {
     "channelCreated": {
-        "title": "{type} Channel Created",
-        "description": "{channel} was created by {executor}",
-        "descriptionWithCategory": "{channel} was created by {executor} under the {category} category."
+        "title": "{type} Kanal erstellt",
+        "description": "{channel} wurde von {executor} erstellt",
+        "descriptionWithCategory": "{channel} wurde von {executor} unter der Kategorie {category} erstellt."
     },
     "channelDeleted": {
-        "title": "{type} Channel Deleted",
-        "description": "{channel_name} was deleted by {executor}",
-        "channel": "Channel"
+        "title": "{type} Kanal gelöscht",
+        "description": "{channel_name} wurde von {executor} gelöscht",
+        "channel": "Kanal"
     },
     "channelUpdated": {
-        "title": "{type} Channel Modified",
-        "description": "{channel} was modified by {executor}"
+        "title": "{type} Kanal editiert",
+        "description": "{channel} wurde von {executor} editiert"
     },
     "channelOverwriteCreate": {
-        "title": "{type} Channel Permissions Added",
-        "description": "{executor} added permissions to {channel} for {special}"
+        "title": "{type} Kanal Berechtigungen hinzugefügt",
+        "description": "{executor} hat die Berechtigungen von {channel} für {special} hinzugefügt"
     },
     "channelOverwriteDelete": {
-        "title": "{type} Channel Permissions Removed",
-        "description": "{executor} removed permissions from {channel} for {special}"
+        "title": "{type} Kanal Berechtigungen entfernt",
+        "description": "{executor} hat die Berechtigungen von {channel} für {special} entfernt"
     },
     "channelOverwriteUpdate": {
-        "title": "{type} Channel Permissions Updated",
-        "description": "{executor} updated permissions for {channel} for {special}",
-        "newPermissions": "New Permissions",
-        "viewFullNewPermissions": "View Full New Permissions"
+        "title": "{type} Kanal Berechtigungen verändert",
+        "description": "{executor} hat die Berechtigungen von {channel} für {special} geändert",
+        "newPermissions": "Neue Berechtigungen",
+        "viewFullNewPermissions": "Zeige alle neuen Berechtigungen"
     },
     "webhookCreate": {
-        "title": "Webhook Created",
-        "description": "{executor} created a webhook {webhook} in {channel}"
+        "title": "Webhook erstellt",
+        "description": "{executor} hat einen neuen Webhook {webhook} in {channel} erstellt"
     },
     "webhookDelete": {
-        "title": "Webhook Deleted",
-        "description": "{executor} deleted the webhook {webhook}"
+        "title": "Webhook gelöscht",
+        "description": "{executor} hat den Webhook {webhook} gelöscht"
     },
     "webhookUpdate": {
-        "title": "Webhook Modified",
-        "description": "{executor} modified the webhook {webhook}"
+        "title": "Webhook verändert",
+        "description": "{executor} hat den Webhook {webhook} verändert"
     },
     "webhookAvatarUpdate": {
-        "title": "Webhook Avatar Updated",
-        "description": "{executor} updated the avatar for {webhook}",
-        "description_added": "{executor} added an avatar for {webhook}",
-        "description_removed": "{executor} removed the avatar for {webhook}",
-        "linkToOldAvatar": "Link to old avatar",
-        "linkToNewAvatar": "Link to new avatar"
+        "title": "Webhook Profilbild geändert",
+        "description": "{executor} hat das Profilbild von {webhook} geändert",
+        "description_added": "{executor} hat ein neues Profilbild für {webhook} hinzugefügt",
+        "description_removed": "{executor} hat das Profilbild für {webhook} entfernt",
+        "linkToOldAvatar": "Link zum alten Profilbild",
+        "linkToNewAvatar": "Link zum neuen Profilbild"
     },
     "statusChannelFollowed": {
-        "title": "Channel Followed",
-        "description": "{executor} followed the channel {name} in {channel}"
+        "title": "Kanal gefolgt",
+        "description": "{executor} folgt dem Kanal {name} in {channel}"
     },
     "statusChannelUnfollowed": {
-        "title": "Channel Unfollowed",
-        "description": "{executor} unfollowed the channel {name}"
+        "title": "Kanal entfolgt",
+        "description": "{executor} entfolgt dem Kanal {name}"
     },
     "statusChannelUpdated": {
-        "title": "Followed Channel Updated",
-        "description": "{executor} updated the followed channel {name}"
+        "title": "Gefolgten Kanal geändert",
+        "description": "{executor} hat den gefolgten Kanal {name} geändert"
     }
 }

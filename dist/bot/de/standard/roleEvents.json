@@ -1,32 +1,32 @@
 {
     "roleCreated": {
-        "title": "Role Created",
-        "description": "{role} was created by {executor}"
+        "title": "Rolle erstellt",
+        "description": "{role} wurde von {executor} erstellt"
     },
     "roleDeleted": {
-        "title": "Role Deleted",
-        "description": "{role_name} was deleted by {executor}",
-        "role": "Role",
-        "linkToRoleIcon": "Link to role icon"
+        "title": "Rolle gelöscht",
+        "description": "{role_name} wurde von {executor} gelöscht",
+        "role": "Rolle",
+        "linkToRoleIcon": "Link zum Rollen Bild"
     },
     "roleUpdated": {
-        "title": "Role Modified",
-        "description": "{role} was modified by {executor}"
+        "title": "Rolle verändert",
+        "description": "{role} wurde von {executor} verändert"
     },
     "rolePermissionsUpdate": {
-        "title": "Role Permissions Updated",
-        "description": "Permissions for {role} were updated by {executor}",
-        "newPermissions": "New Permissions",
-        "oldPermissions": "Old Permissions",
-        "viewFullNewPermissions": "View Full New Permissions",
-        "viewFullOldPermissions": "View Full Old Permissions"
+        "title": "Rollen Berechtigungen hinzugefügt",
+        "description": "Berechtigungen für {role} wurden von {executor} geändert",
+        "newPermissions": "Neue Berechtigungen",
+        "oldPermissions": "Alte Berechtigungen",
+        "viewFullNewPermissions": "Zeige alle neuen Berechtigungen",
+        "viewFullOldPermissions": "Zeige alle alten Berechtigungen"
     },
     "roleIconUpdate": {
-        "title": "Role Icon Updated",
-        "description": "{executor} updated the icon for {role}",
-        "description_added": "{executor} added an icon for {role}",
-        "description_removed": "{executor} removed the icon for {role}",
-        "linkToOldIcon": "Link to old icon",
-        "linkToNewIcon": "Link to new icon"
+        "title": "Rollen Bild geändert",
+        "description": "{executor} hat das Rollen Bild für {role} geändert",
+        "description_added": "{executor} hat ein neues Rollen Bild für {role} hinzugefügt",
+        "description_removed": "{executor} hat das Rollen Bild für {role} entfernt",
+        "linkToOldIcon": "Link zum alten Bild",
+        "linkToNewIcon": "Link zum neuen Bild"
     }
 }
