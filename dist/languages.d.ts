@@ -779,7 +779,7 @@ export type LanguageStructure = {
 };
 };
 }>;
-  unmute: Promise<{
+  unban: Promise<{
   name: string;
   description: string;
   commandOptions: {
@@ -793,7 +793,7 @@ export type LanguageStructure = {
 };
 };
 }>;
-  unban: Promise<{
+  unmute: Promise<{
   name: string;
   description: string;
   commandOptions: {
