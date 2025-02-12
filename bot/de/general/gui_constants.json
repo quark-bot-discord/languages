@@ -1,22 +1,22 @@
 {
     "channelModificationTypes": {
         "name": "Name",
-        "type": "Type",
+        "type": "Typ",
         "position": "Position",
-        "topic": "Topic",
-        "rate_limit_per_user": "Slowmode",
-        "parent_id": "Category",
+        "topic": "Thema",
+        "rate_limit_per_user": "Slow-Modus",
+        "parent_id": "Kategorie",
         "bitrate": "Bitrate",
-        "user_limit": "User Limit",
+        "user_limit": "Benutzerlimit",
         "rtc_region": "Region",
-        "nsfw": "NSFW"
+        "nsfw": "Altersbegrenzt"
     },
     "roleModificationTypes": {
         "name": "Name",
-        "color": "Color",
-        "hoist": "Hoisted",
-        "managed": "Managed",
-        "mentionable": "Mentionable",
+        "color": "Farbe",
+        "hoist": "Hochgehoben",
+        "managed": "Verwaltet",
+        "mentionable": "Kann erwähnen",
         "unicode_emoji": "Emoji"
     },
     "emojiModificationTypes": {
@@ -24,18 +24,18 @@
     },
     "guildModificationTypes": {
         "name": "Name",
-        "description": "Description",
-        "system_channel_id": "System Channel",
-        "rules_channel_id": "Rule Channel",
-        "mfa_level": "MFA Required",
-        "verification_level": "Verification Level",
-        "default_message_notifications": "Default Notifications",
-        "explicit_content_filter": "Explicit Content Filter",
-        "nsfw_level": "NSFW Level",
-        "premium_progress_bar_enabled": "Progress Bar"
+        "description": "Beschreibung",
+        "system_channel_id": "System-Kanal",
+        "rules_channel_id": "Regel-Kanal",
+        "mfa_level": "2FA benötigt",
+        "verification_level": "Verifizierungsstufe",
+        "default_message_notifications": "Standard Benachrichtigungen",
+        "explicit_content_filter": "Sensible Inhalte Filter",
+        "nsfw_level": "Altersbeschränkung-Stufe",
+        "premium_progress_bar_enabled": "Fortschrittbalken"
     },
     "webhookModificationTypes": {
         "name": "Name",
-        "channel_id": "Channel"
+        "channel_id": "Kanal"
     }
 }
