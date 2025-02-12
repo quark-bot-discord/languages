@@ -1,6 +1,6 @@
 {
     "serverEvents": "Mitglieder",
-    "voiceEvents": "Voice",
+    "voiceEvents": "Sprache",
     "serverActions": "Aktionen",
     "textEvents": "Nachrichten",
     "fileEvents": "Dateien",
@@ -8,6 +8,6 @@
     "roleEvents": "Rollen",
     "channelEvents": "Kanäle",
     "quarkEvents": "Quark Konfiguration",
-    "modLog": "Modlogs",
+    "modLog": "Mod-Logs",
     "main": "Haupt"
 }
