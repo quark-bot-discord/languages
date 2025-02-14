@@ -1,104 +1,104 @@
 {
     "streamStart": {
         "title": "Stream gestartet",
-        "description": "{user} started streaming in the {channel} voice channel"
+        "description": "{user} hat einen Stream in {channel} gestartet"
     },
     "streamStop": {
-        "title": "Stream Ended",
-        "description": "{user} stopped streaming in the {channel} voice channel"
+        "title": "Stream beendet",
+        "description": "{user} hat den Stream in {channel} gestoppt"
     },
     "videoStart": {
-        "title": "Video Started",
-        "description": "{user} started their video in the {channel} voice channel"
+        "title": "Kamera eingeschaltet",
+        "description": "{user} hat die Kamera in {channel} eingeschaltet"
     },
     "videoStop": {
-        "title": "Video Stopped",
-        "description": "{user} stopped their video in the {channel} voice channel"
+        "title": "Kamera ausgeschaltet",
+        "description": "{user} hat die Kamera in {channel} ausgeschaltet"
     },
     "voiceSwitch": {
-        "title": "Changed Channel",
-        "description": "{user} moved from the {channel_old} voice channel to the {channel_new} voice channel"
+        "title": "Kanal gewechselt",
+        "description": "{user} ist von {channel_old} in den Sprachkanal {channel_new} gewechselt"
     },
     "voiceMove": {
-        "title": "Moved",
-        "description": "{user} was moved from the {channel_old} voice channel to the {channel_new} voice channel",
-        "movedBy": "Moved by"
+        "title": "Verschoben",
+        "description": "{user} wurde aus den Kanal {channel_old} in den Sprachkanal {channel_new} verschoben",
+        "movedBy": "Verschoben von"
     },
     "voiceJoin": {
-        "title": "Joined Channel",
-        "description": "{user} joined the {channel} voice channel"
+        "title": "Kanal beigetreten",
+        "description": "{user} ist dem Kanal {channel} beigetreten"
     },
     "voiceLeave": {
-        "title": "Left Channel",
-        "description": "{user} left the {channel} voice channel",
-        "joined": "Joined",
-        "joinedValue": "{relative} for {relative_fixed}"
+        "title": "Kanal verlassen",
+        "description": "{user} hat den Kanal {channel} verlassen",
+        "joined": "Beigetreten",
+        "joinedValue": "{relative} für {relative_fixed}"
     },
     "voiceDisconnect": {
-        "title": "Disconnected",
-        "description": "{user} was disconnected",
-        "disconnectedBy": "Disconnected by",
-        "voiceChannel": "Voice channel"
+        "title": "Verbindung getrennt",
+        "description": "{user} wurde vom Sprachkanal getrennt",
+        "disconnectedBy": "Getrennt von",
+        "voiceChannel": "Sprachkanal"
     },
     "serverDeafen": {
-        "title": "Deafened",
-        "description": "{user} was deafened",
-        "deafenedBy": "Deafened by",
-        "voiceChannel": "Voice channel"
+        "title": "Ein- und Ausgabe deaktiviert",
+        "description": "Ein- und Ausgabe von {user} deaktiviert",
+        "deafenedBy": "Deaktiviert von",
+        "voiceChannel": "Sprachkanal"
     },
     "serverMute": {
-        "title": "Muted",
-        "description": "{user} was muted",
-        "mutedBy": "Muted by",
-        "voiceChannel": "Voice channel"
+        "title": "Stummgeschaltet",
+        "description": "{user} wurde stummgeschaltet",
+        "mutedBy": "Stummgeschaltet von",
+        "voiceChannel": "Sprachkanal"
     },
     "serverUndeafen": {
-        "title": "Undeafened",
-        "description": "{user} was undeafened",
-        "undeafenedBy": "Undeafened by",
-        "voiceChannel": "Voice channel"
+        "title": "Ein- und Ausgabe wieder aktiviert",
+        "description": "Ein- und Ausgabe von {user} wieder aktiviert",
+        "undeafenedBy": "Freigegeben von",
+        "voiceChannel": "Sprachkanal"
     },
     "serverUnmute": {
-        "title": "Unmuted",
-        "description": "{user} was unmuted",
-        "unmutedBy": "Unmuted by",
-        "voiceChannel": "Voice channel"
+        "title": "Stummschaltung aufgehoben",
+        "description": "Stummschaltung von {user} aufgehoben",
+        "unmutedBy": "Freigegeben von",
+        "voiceChannel": "Sprachkanal"
     },
     "channelStatusUpdate": {
-        "title": "Voice Channel Status Updated",
-        "description": "{executor} set the status for {channel}",
+        "title": "Sprachkanal Status aktualisiert",
+        "description": "{executor} hat den Status von {channel} gesetzt",
         "status": "Status",
-        "linksToEmojis": "Links to emojis"
+        "linksToEmojis": "Links zu Emojis"
     },
     "stageStarted": {
-        "title": "Stage Started",
-        "description": "{executor} started a stage in {channel}",
-        "topic": "Topic"
+        "title": "Stage gestartet",
+        "description": "{executor} hat eine Stage in {channel} gestartet",
+        "topic": "Thema"
     },
     "stageEnded": {
-        "title": "Stage Ended",
-        "description": "The stage in {channel} was ended by {executor}",
-        "description_noExecutor": "The stage in {channel} was ended",
-        "topic": "Topic",
-        "none": "none"
+        "title": "Stage beendet",
+        "description": "Die Stage in {channel} wurde von {executor} beendet",
+        "description_noExecutor": "Die Stage in {channel} wurde beendet",
+        "topic": "Thema",
+        "none": "Nichts"
     },
     "stageUpdated": {
-        "title": "Stage Updated",
-        "description": "The stage in {channel} was updated by {executor}",
-        "oldTopic": "Old Topic",
-        "newTopic": "New Topic"
+        "title": "Stage aktualisiert",
+        "description": "Die Stage in {channel} wurde von {executor} aktualisiert",
+        "oldTopic": "Altes Thema",
+        "newTopic": "Neues Thema"
     },
     "stageSpeakerAdd": {
-        "title": "New Stage Speaker",
-        "description": "{user} became a speaker in the {channel} stage channel",
-        "description_inviteAccepted": "{user} accepted the invite to become a speaker in the {channel} stage channel"
+        "title": "Neue Redner*innen",
+        "description": "{user} wurde Redner*in im {channel} Stage Kanal",
+        "description_inviteAccepted": "{user} hat die Einladung als Redner*in im {channel} Stage Kanal angenommen"
     },
     "stageSpeakerRemove": {
-        "title": "Stopped Speaking",
-        "description": "{user} is no longer a speaker in the {channel} stage channel"
+        "title": "Redner*in entfernt",
+        "description": "{user} ist nicht länger Redner*in im {channel} Stage Kanal"
     },
     "stageSpeakerInvited": {
-        "title": "Speaker Invited",
-        "description": "{user} was invited to speak in the {channel} stage channel"
+        "title": "Redner*in eingeladen",
+        "description": "{user} wurde als Redner*in im {channel} Stage Kanal eingeladen"
     }
 }
