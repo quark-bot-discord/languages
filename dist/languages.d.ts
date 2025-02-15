@@ -29,6 +29,9 @@ export type LanguageStructure = {
   channel_update_types: Promise<{
   none: string;
 }>;
+  emoji_update_types: Promise<{
+  none: string;
+}>;
   command_responses: Promise<{
   disable: string;
   enable: string;
@@ -256,9 +259,6 @@ export type LanguageStructure = {
 };
   "help-modify-tags-description": string;
 }>;
-  emoji_update_types: Promise<{
-  none: string;
-}>;
   gui_constants: Promise<{
   channelModificationTypes: {
   name: string;
@@ -415,6 +415,22 @@ export type LanguageStructure = {
   disabled: string;
   none: string;
 }>;
+  time: Promise<{
+  second: string;
+  "second-plural": string;
+  minute: string;
+  "minute-plural": string;
+  hour: string;
+  "hour-plural": string;
+  day: string;
+  "day-plural": string;
+  week: string;
+  "week-plural": string;
+  month: string;
+  "month-plural": string;
+  year: string;
+  "year-plural": string;
+}>;
   tags_responses: Promise<{
   "tags-help-description": string;
   "create-success": string;
@@ -439,28 +455,8 @@ export type LanguageStructure = {
   "tag-error-limitreached-1": string;
   "tag-createdby": string;
 }>;
-  time: Promise<{
-  second: string;
-  "second-plural": string;
-  minute: string;
-  "minute-plural": string;
-  hour: string;
-  "hour-plural": string;
-  day: string;
-  "day-plural": string;
-  week: string;
-  "week-plural": string;
-  month: string;
-  "month-plural": string;
-  year: string;
-  "year-plural": string;
-}>;
 };
   slash_commands: {
-  commands: Promise<{
-  name: string;
-  description: string;
-}>;
   ban: Promise<{
   name: string;
   description: string;
@@ -479,6 +475,14 @@ export type LanguageStructure = {
 };
 };
 }>;
+  commands: Promise<{
+  name: string;
+  description: string;
+}>;
+  dashboard: Promise<{
+  name: string;
+  description: string;
+}>;
   config: Promise<{
   name: string;
   description: string;
@@ -496,10 +500,6 @@ export type LanguageStructure = {
 };
 };
 };
-}>;
-  dashboard: Promise<{
-  name: string;
-  description: string;
 }>;
   debug: Promise<{
   name: string;
@@ -554,10 +554,6 @@ export type LanguageStructure = {
   initialReactor: Promise<{
   name: string;
 }>;
-  invite: Promise<{
-  name: string;
-  description: string;
-}>;
   kick: Promise<{
   name: string;
   description: string;
@@ -572,6 +568,10 @@ export type LanguageStructure = {
 };
 };
 }>;
+  invite: Promise<{
+  name: string;
+  description: string;
+}>;
   language: Promise<{
   name: string;
   description: string;
@@ -583,6 +583,10 @@ export type LanguageStructure = {
 };
 }>;
   logging: Promise<{
+  name: string;
+  description: string;
+}>;
+  ping: Promise<{
   name: string;
   description: string;
 }>;
@@ -618,10 +622,6 @@ export type LanguageStructure = {
   description: string;
 };
 };
-}>;
-  ping: Promise<{
-  name: string;
-  description: string;
 }>;
   premium: Promise<{
   name: string;
@@ -901,26 +901,6 @@ export type LanguageStructure = {
   none: string;
 };
 }>;
-  modlog: Promise<{
-  moderator: string;
-  user: string;
-  reason: string;
-  case: string;
-  noReason: string;
-  noReasonBrief: string;
-  ban: string;
-  unban: string;
-  kick: string;
-  mute: string;
-  unmute: string;
-  timeoutEnds: string;
-  editReason: string;
-  reasonModal: {
-  label: string;
-  placeholder: string;
-  title: string;
-};
-}>;
   quarkEvents: Promise<{
   serverlogChannelUpdate: {
   title: string;
@@ -983,6 +963,26 @@ export type LanguageStructure = {
   tokenRevoked: {
   title: string;
   description: string;
+};
+}>;
+  modlog: Promise<{
+  moderator: string;
+  user: string;
+  reason: string;
+  case: string;
+  noReason: string;
+  noReasonBrief: string;
+  ban: string;
+  unban: string;
+  kick: string;
+  mute: string;
+  unmute: string;
+  timeoutEnds: string;
+  editReason: string;
+  reasonModal: {
+  label: string;
+  placeholder: string;
+  title: string;
 };
 }>;
   roleEvents: Promise<{

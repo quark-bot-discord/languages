@@ -1,93 +1,93 @@
 {
     "polls": {
-        "votes": "votes",
+        "votes": "Stimmen",
         "poll": "Umfrage",
-        "pollDescriptor": "[poll]",
-        "status": "Poll has status.",
-        "ended": "ended",
-        "notEnded": "not ended",
-        "multiselect": "Multiselect",
-        "enabled": "enabled",
-        "disabled": "disabled",
-        "ends": "Ends",
-        "vote": "vote",
-        "noResponses": "No responses",
-        "pollDeleted": "Poll Deleted"
+        "pollDescriptor": "[umfrage]",
+        "status": "Umfrage hat Status.",
+        "ended": "beendet",
+        "notEnded": "läuft noch",
+        "multiselect": "Mehrfachauswahl",
+        "enabled": "aktivert",
+        "disabled": "deaktivert",
+        "ends": "Endet",
+        "vote": "Abstimmen",
+        "noResponses": "Keine Rückmeldung",
+        "pollDeleted": "Umfrage gelöscht"
     },
     "messageDeleted": {
-        "title": "Message Deleted",
-        "author": "Message author",
-        "channel": "Channel",
-        "deletedBy": "Deleted by",
-        "jumpToContext": "Jump to context",
-        "warning": "WARNING!",
-        "linksToEmojis": "Links to emojis",
-        "linksToFiles": "Links to files",
-        "inviteDetected": "Server invite detected",
-        "ghostpingDetected": "Ghostping detected",
-        "file": "file",
-        "files": "files",
-        "fileExpired": "file too large or expired",
-        "filesExpired": "files too large or expired",
-        "sticker": "sticker",
-        "noContent": "no content",
-        "embed": "embed",
+        "title": "Nachricht gelöscht",
+        "author": "Nachrichtenautor",
+        "channel": "Kanal",
+        "deletedBy": "Gelöscht von",
+        "jumpToContext": "Zum Kontext springen",
+        "warning": "WARNUNG!",
+        "linksToEmojis": "Link zu Emojis",
+        "linksToFiles": "Link zu Dateien",
+        "inviteDetected": "Servereinladung entdeckt",
+        "ghostpingDetected": "Ghostping entdeckt",
+        "file": "Datei",
+        "files": "Dateien",
+        "fileExpired": "Datei ist zu groß oder abgelaufen",
+        "filesExpired": "Dateien sind zu groß oder abgelaufen",
+        "sticker": "Sticker",
+        "noContent": "Kein Inhalt",
+        "embed": "eingebettet",
         "thread": "Thread",
-        "initialReactor": "initial reactor"
+        "initialReactor": "Initiale Reaktion"
     },
     "messagesBulkDeleted": {
-        "title": "Multiple Messages Deleted",
-        "deletedBy": "Deleted by",
-        "channel": "Channel",
-        "more": "more",
-        "uncachedUser": "uncached user",
-        "uncachedChannel": "uncached channel",
-        "uncachedMessage": "uncached message",
-        "embed": "embed",
-        "errorFile": "There was an issue with recovering the files. If this happens persistently, please make us aware in Quark's support server.",
-        "errorText": "There was an issue with creating a text file. Some messages may be lost. If this happens persistently, please make us aware in Quark's support server."
+        "title": "Mehrere Nachrichten gelöscht",
+        "deletedBy": "Gelöscht von",
+        "channel": "Kanal",
+        "more": "mehr",
+        "uncachedUser": "unbekannter Benutzer",
+        "uncachedChannel": "unbekannter Kanal",
+        "uncachedMessage": "unbekannte Nachricht",
+        "embed": "eingebettet",
+        "errorFile": "Beim wiederherstellen der Dateien ist ein Fehler aufgetreten. Wenn das häufiger passiert, melde den Fehler bitte auf dem Quark's Support Server.",
+        "errorText": "Beim erstellen der Textdatei ist ein Fehler aufgetreten. Einige Nachrichten vielleicht vielleicht. Wenn das häufiger passiert, melde den Fehler bitte auf dem Quark's Support Server."
     },
     "messageUpdate": {
-        "title": "Message Edited",
-        "author": "Message author",
-        "channel": "Channel",
-        "jumpToMessage": "Jump to message",
-        "afterEdit": "After edit",
-        "diff": "Edits",
-        "diffError": "Unable to calculate edits.",
-        "cannotRetrieveOriginal": "Cannot retrieve original message",
-        "noContent": "no content",
+        "title": "Nachricht editiert",
+        "author": "Nachrichtenautor",
+        "channel": "Kanal",
+        "jumpToMessage": "Spring zur Nachricht",
+        "afterEdit": "Nach Editierung",
+        "diff": "Änderungen",
+        "diffError": "Änderungen können nicht berechnet werden.",
+        "cannotRetrieveOriginal": "Originale Nachricht kann nicht abgerufen werden",
+        "noContent": "kein Inhalt",
         "thread": "Thread"
     },
     "attachmentDeleted": {
-        "title": "Attachment Deleted"
+        "title": "Anhang gelöscht"
     },
     "messagePin": {
-        "title": "Message Pinned",
-        "description": "A message was pinned by {executor}"
+        "title": "Nachricht angepinnt",
+        "description": "{executor} hat eine Nachricht angepinnt"
     },
     "messageUnpin": {
-        "title": "Message Unpinned",
-        "description": "A message was unpinned by {executor}"
+        "title": "Nachricht losgelöst",
+        "description": "{executor} hat eine Nachricht losgelöst"
     },
     "threadCreate": {
         "thread": "Thread",
-        "channel": "Channel",
-        "jumpToContext": "Jump to context",
-        "title": "Thread Created",
-        "description": "{member} created a new thread {thread}"
+        "channel": "Kanal",
+        "jumpToContext": "Springe zum Kontext",
+        "title": "Thread erstellt",
+        "description": "{member} hat den neuen Thread {thread} erstellt"
     },
     "threadDelete": {
         "thread": "Thread",
-        "channel": "Channel",
-        "title": "Thread Deleted",
-        "description": "{executor} deleted a thread {thread}"
+        "channel": "Kanal",
+        "title": "Thread gelöscht",
+        "description": "{executor} hat den Thread {thread} gelöscht"
     },
     "messageReactionRemove": {
-        "title": "Reaction Removed",
-        "description": "{executor} removed a reaction from a message",
+        "title": "Reaktion entfernt",
+        "description": "{executor} hat eine Reaktion von einer Nachricht entfernt",
         "emoji": "Emoji",
-        "linkToEmoji": "Link to emoji",
-        "jumpToMessage": "Jump to message"
+        "linkToEmoji": "Link zum Emoji",
+        "jumpToMessage": "Spring nur Nachricht"
     }
 }
