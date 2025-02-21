@@ -44,7 +44,8 @@
         "description": "{user} heeft de {role} rol gekregen",
         "description_multiple": "{user} heeft meerdere rollen gekregen",
         "givenBy": "Gegeven door",
-        "roles": "Rollen"
+        "roles": "Rollen",
+        "warning": "WARNING!"
     },
     "memberRoleRemove": {
         "title": "Rol Afgenomen",
