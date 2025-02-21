@@ -45,7 +45,8 @@
         "description_multiple": "{user} was given multiple promotions",
         "givenBy": "Promoted by",
         "roles": "Ranks",
-        "warning": "WARNING!"
+        "warning": "WARNING!",
+        "dangerousPermissionsSingular": "Role contains dangerous permissions"
     },
     "memberRoleRemove": {
         "title": "Demoted",
