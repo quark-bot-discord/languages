@@ -223,5 +223,6 @@
     "need-to-vote-footer": "Deine Wahl braucht ein paar Minuten um registriert zu werden",
     "initialreactors-expired": "Abgelaufen",
     "initialreactors-notfound": "Keine Reaktionen gefunden",
-    "help-modify-tags-description": "Um Tags zu erstellen und zu editieren besuche bitte [Quark's web dashboard]"
+    "help-modify-tags-description": "Um Tags zu erstellen und zu editieren besuche bitte [Quark's web dashboard]",
+    "banButton-banning": "Banning {user} {inXSeconds}"
 }
