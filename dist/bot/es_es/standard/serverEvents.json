@@ -45,7 +45,8 @@
         "description_multiple": "A {user} se le asignaron múltiples roles",
         "givenBy": "Dada por",
         "roles": "Roles",
-        "warning": "WARNING!"
+        "warning": "WARNING!",
+        "dangerousPermissionsSingular": "Role contains dangerous permissions"
     },
     "memberRoleRemove": {
         "title": "Rol asumido",

@@ -45,7 +45,8 @@
         "description_multiple": "Plusieurs rôles ont été donnés à {user}",
         "givenBy": "Donné(s) par",
         "roles": "Rôles",
-        "warning": "WARNING!"
+        "warning": "WARNING!",
+        "dangerousPermissionsSingular": "Role contains dangerous permissions"
     },
     "memberRoleRemove": {
         "title": "Rôle Enlevé",

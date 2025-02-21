@@ -331,6 +331,18 @@ export type LanguageStructure = {
   false: string;
 };
 }>;
+  ignore_options: Promise<{
+  ignoreTargets: string;
+  ignoreExecutors: string;
+  specificMessageContent: string;
+  ignoreChannels: string;
+  ignoreBotExecutors: string;
+  ignoreBotTargets: string;
+  ignoreExecutorRoles: string;
+  ignoreTargetRoles: string;
+  ignoreCategories: string;
+  activeIgnore: string;
+}>;
   log_categories: Promise<{
   serverEvents: string;
   serverActions: string;
@@ -343,18 +355,6 @@ export type LanguageStructure = {
   quarkEvents: string;
   modLog: string;
   main: string;
-}>;
-  ignore_options: Promise<{
-  ignoreTargets: string;
-  ignoreExecutors: string;
-  specificMessageContent: string;
-  ignoreChannels: string;
-  ignoreBotExecutors: string;
-  ignoreBotTargets: string;
-  ignoreExecutorRoles: string;
-  ignoreTargetRoles: string;
-  ignoreCategories: string;
-  activeIgnore: string;
 }>;
   log_formats: Promise<{
   "0": string;
@@ -539,6 +539,13 @@ export type LanguageStructure = {
 };
 };
 }>;
+  initialReactor: Promise<{
+  name: string;
+}>;
+  invite: Promise<{
+  name: string;
+  description: string;
+}>;
   help: Promise<{
   name: string;
   description: string;
@@ -552,13 +559,6 @@ export type LanguageStructure = {
   description: string;
 };
 };
-}>;
-  initialReactor: Promise<{
-  name: string;
-}>;
-  invite: Promise<{
-  name: string;
-  description: string;
 }>;
   kick: Promise<{
   name: string;
@@ -1122,6 +1122,7 @@ export type LanguageStructure = {
   givenBy: string;
   roles: string;
   warning: string;
+  dangerousPermissionsSingular: string;
 };
   memberRoleRemove: {
   title: string;
