@@ -224,5 +224,6 @@
     },
     "help-overview-help": "Aide",
     "help-modify-tags-description": "Pour créer et modifier des étiquettes, merci de visiter le [dashboard de Quark]",
-    "banButton-banning": "Banning {user} {inXSeconds}"
+    "banButton-banning": "Banning {user} {inXSeconds}",
+    "banButton-cancel": "Cancel"
 }
