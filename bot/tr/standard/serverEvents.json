@@ -46,7 +46,6 @@
         "roles": "Roles",
         "title_multiple": "Roles Given",
         "warning": "WARNING!",
-        "dangerousPermissionsSingular": "Role grants dangerous permissions",
         "dangerousPermissions": "One or more roles grant dangerous permissions"
     },
     "memberRoleRemove": {
