@@ -584,10 +584,6 @@ export type LanguageStructure = {
 };
 };
 }>;
-  logging: Promise<{
-  name: string;
-  description: string;
-}>;
   mute: Promise<{
   name: string;
   description: string;
@@ -620,6 +616,10 @@ export type LanguageStructure = {
   description: string;
 };
 };
+}>;
+  logging: Promise<{
+  name: string;
+  description: string;
 }>;
   ping: Promise<{
   name: string;
@@ -923,6 +923,38 @@ export type LanguageStructure = {
   title: string;
 };
 }>;
+  roleEvents: Promise<{
+  roleCreated: {
+  title: string;
+  description: string;
+};
+  roleDeleted: {
+  title: string;
+  description: string;
+  role: string;
+  linkToRoleIcon: string;
+};
+  roleUpdated: {
+  title: string;
+  description: string;
+};
+  rolePermissionsUpdate: {
+  title: string;
+  description: string;
+  newPermissions: string;
+  oldPermissions: string;
+  viewFullNewPermissions: string;
+  viewFullOldPermissions: string;
+};
+  roleIconUpdate: {
+  title: string;
+  description: string;
+  description_added: string;
+  description_removed: string;
+  linkToOldIcon: string;
+  linkToNewIcon: string;
+};
+}>;
   quarkEvents: Promise<{
   serverlogChannelUpdate: {
   title: string;
@@ -987,38 +1019,6 @@ export type LanguageStructure = {
   description: string;
 };
 }>;
-  roleEvents: Promise<{
-  roleCreated: {
-  title: string;
-  description: string;
-};
-  roleDeleted: {
-  title: string;
-  description: string;
-  role: string;
-  linkToRoleIcon: string;
-};
-  roleUpdated: {
-  title: string;
-  description: string;
-};
-  rolePermissionsUpdate: {
-  title: string;
-  description: string;
-  newPermissions: string;
-  oldPermissions: string;
-  viewFullNewPermissions: string;
-  viewFullOldPermissions: string;
-};
-  roleIconUpdate: {
-  title: string;
-  description: string;
-  description_added: string;
-  description_removed: string;
-  linkToOldIcon: string;
-  linkToNewIcon: string;
-};
-}>;
   serverActions: Promise<{
   inviteCreate: {
   title: string;
@@ -1072,6 +1072,78 @@ export type LanguageStructure = {
   newChannel: string;
   linkToEventImage: string;
   newImage: string;
+};
+}>;
+  serverEvents: Promise<{
+  members: string;
+  userJoined: {
+  title: string;
+  description: string;
+  noAvatar: string;
+  newAccount: string;
+  noBadges: string;
+  warning: string;
+  accountCreated: string;
+  invite: string;
+  createdBy: string;
+  ban: string;
+  info: string;
+  rejoined: string;
+};
+  userLeft: {
+  title: string;
+  description: string;
+  joined: string;
+  roles: string;
+  serverProfilePicture: string;
+};
+  botAdded: {
+  title: string;
+  description: string;
+  descriptionne: string;
+};
+  botRemoved: {
+  title: string;
+  description: string;
+  descriptionne: string;
+};
+  nicknameUpdate: {
+  title: string;
+  description: string;
+  setNick: string;
+  nickRemoved: string;
+  changedBy: string;
+};
+  memberRoleAdd: {
+  title: string;
+  title_multiple: string;
+  description: string;
+  description_multiple: string;
+  givenBy: string;
+  roles: string;
+  warning: string;
+  dangerousPermissions: string;
+};
+  memberRoleRemove: {
+  title: string;
+  title_multiple: string;
+  description: string;
+  description_multiple: string;
+  removedBy: string;
+  roles: string;
+};
+  memberPrune: {
+  title: string;
+  description: string;
+};
+  avatarUpdate: {
+  title: string;
+  description: string;
+  description_added: string;
+  description_removed: string;
+  changedBy: string;
+  linkToOldAvatar: string;
+  linkToNewAvatar: string;
 };
 }>;
   textEvents: Promise<{
@@ -1165,78 +1237,6 @@ export type LanguageStructure = {
   emoji: string;
   linkToEmoji: string;
   jumpToMessage: string;
-};
-}>;
-  serverEvents: Promise<{
-  members: string;
-  userJoined: {
-  title: string;
-  description: string;
-  noAvatar: string;
-  newAccount: string;
-  noBadges: string;
-  warning: string;
-  accountCreated: string;
-  invite: string;
-  createdBy: string;
-  ban: string;
-  info: string;
-  rejoined: string;
-};
-  userLeft: {
-  title: string;
-  description: string;
-  joined: string;
-  roles: string;
-  serverProfilePicture: string;
-};
-  botAdded: {
-  title: string;
-  description: string;
-  descriptionne: string;
-};
-  botRemoved: {
-  title: string;
-  description: string;
-  descriptionne: string;
-};
-  nicknameUpdate: {
-  title: string;
-  description: string;
-  setNick: string;
-  nickRemoved: string;
-  changedBy: string;
-};
-  memberRoleAdd: {
-  title: string;
-  title_multiple: string;
-  description: string;
-  description_multiple: string;
-  givenBy: string;
-  roles: string;
-  warning: string;
-  dangerousPermissions: string;
-};
-  memberRoleRemove: {
-  title: string;
-  title_multiple: string;
-  description: string;
-  description_multiple: string;
-  removedBy: string;
-  roles: string;
-};
-  memberPrune: {
-  title: string;
-  description: string;
-};
-  avatarUpdate: {
-  title: string;
-  description: string;
-  description_added: string;
-  description_removed: string;
-  changedBy: string;
-  linkToOldAvatar: string;
-  linkToNewAvatar: string;
 };
 }>;
   voiceEvents: Promise<{
