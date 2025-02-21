@@ -539,13 +539,6 @@ export type LanguageStructure = {
 };
 };
 }>;
-  initialReactor: Promise<{
-  name: string;
-}>;
-  invite: Promise<{
-  name: string;
-  description: string;
-}>;
   help: Promise<{
   name: string;
   description: string;
@@ -559,6 +552,13 @@ export type LanguageStructure = {
   description: string;
 };
 };
+}>;
+  initialReactor: Promise<{
+  name: string;
+}>;
+  invite: Promise<{
+  name: string;
+  description: string;
 }>;
   kick: Promise<{
   name: string;
@@ -625,11 +625,11 @@ export type LanguageStructure = {
   name: string;
   description: string;
 }>;
-  premium: Promise<{
+  privacy: Promise<{
   name: string;
   description: string;
 }>;
-  privacy: Promise<{
+  premium: Promise<{
   name: string;
   description: string;
 }>;
@@ -1123,6 +1123,7 @@ export type LanguageStructure = {
   roles: string;
   warning: string;
   dangerousPermissionsSingular: string;
+  dangerousPermissions: string;
 };
   memberRoleRemove: {
   title: string;

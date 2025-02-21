@@ -46,7 +46,8 @@
         "givenBy": "Donné(s) par",
         "roles": "Rôles",
         "warning": "WARNING!",
-        "dangerousPermissionsSingular": "Role contains dangerous permissions"
+        "dangerousPermissionsSingular": "Role contains dangerous permissions",
+        "dangerousPermissions": "One or more roles grant dangerous permissions"
     },
     "memberRoleRemove": {
         "title": "Rôle Enlevé",
