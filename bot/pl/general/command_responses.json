@@ -224,5 +224,6 @@
     "setserverlog-type-quark-0": "Wydarzenia Quarka",
     "setserverlog-type-quark-1": "Wydarzenia Quarka",
     "help-modify-tags-description": "Aby tworzyć i edytować tagi, proszę odwiedź [Quark's web dashboard]",
-    "banButton-banning": "Banning {user} {inXSeconds}"
+    "banButton-banning": "Banning {user} {inXSeconds}",
+    "banButton-cancel": "Cancel"
 }
