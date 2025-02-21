@@ -46,7 +46,6 @@
         "givenBy": "Nadane przez",
         "roles": "Role",
         "warning": "WARNING!",
-        "dangerousPermissionsSingular": "Role grants dangerous permissions",
         "dangerousPermissions": "One or more roles grant dangerous permissions"
     },
     "memberRoleRemove": {
