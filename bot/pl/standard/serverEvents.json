@@ -44,7 +44,8 @@
         "description": "Rola {role} została nadana użytkownikowi {user}",
         "description_multiple": "Nadano wiele ról wżytkownikowi {user}",
         "givenBy": "Nadane przez",
-        "roles": "Role"
+        "roles": "Role",
+        "warning": "WARNING!"
     },
     "memberRoleRemove": {
         "title": "Rola Odebrana",
