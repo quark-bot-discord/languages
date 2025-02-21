@@ -44,7 +44,8 @@
         "description": "A {user} se le asignó el rol {role}",
         "description_multiple": "A {user} se le asignaron múltiples roles",
         "givenBy": "Dada por",
-        "roles": "Roles"
+        "roles": "Roles",
+        "warning": "WARNING!"
     },
     "memberRoleRemove": {
         "title": "Rol asumido",

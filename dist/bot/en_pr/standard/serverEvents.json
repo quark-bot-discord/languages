@@ -44,7 +44,8 @@
         "description": "{user} was promoted to the {role} rank",
         "description_multiple": "{user} was given multiple promotions",
         "givenBy": "Promoted by",
-        "roles": "Ranks"
+        "roles": "Ranks",
+        "warning": "WARNING!"
     },
     "memberRoleRemove": {
         "title": "Demoted",

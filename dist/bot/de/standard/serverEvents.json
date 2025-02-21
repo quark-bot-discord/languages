@@ -44,7 +44,8 @@
         "description": "Die Rolle {role} wurde {user} gegeben",
         "description_multiple": "{user} wurden mehrere Rollen gegeben",
         "givenBy": "Vergeben von",
-        "roles": "Rollen"
+        "roles": "Rollen",
+        "warning": "WARNING!"
     },
     "memberRoleRemove": {
         "title": "Rolle entfernt",
