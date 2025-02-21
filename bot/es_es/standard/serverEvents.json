@@ -46,7 +46,6 @@
         "givenBy": "Dada por",
         "roles": "Roles",
         "warning": "WARNING!",
-        "dangerousPermissionsSingular": "Role grants dangerous permissions",
         "dangerousPermissions": "One or more roles grant dangerous permissions"
     },
     "memberRoleRemove": {
