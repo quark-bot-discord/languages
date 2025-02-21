@@ -45,7 +45,8 @@
         "givenBy": "Given by",
         "roles": "Roles",
         "title_multiple": "Roles Given",
-        "warning": "WARNING!"
+        "warning": "WARNING!",
+        "dangerousPermissionsSingular": "Role contains dangerous permissions"
     },
     "memberRoleRemove": {
         "title": "Role Taken",
