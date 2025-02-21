@@ -46,7 +46,7 @@
         "roles": "Roles",
         "description_multiple": "{user} was given multiple roles",
         "warning": "WARNING!",
-        "dangerousPermissions": "One or more roles grant dangerous permissions"
+        "dangerousPermissions": "Dangerous permissions granted"
     },
     "memberRoleRemove": {
         "title": "Role Taken",
