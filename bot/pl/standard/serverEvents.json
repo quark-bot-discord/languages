@@ -45,7 +45,8 @@
         "description_multiple": "Nadano wiele ról wżytkownikowi {user}",
         "givenBy": "Nadane przez",
         "roles": "Role",
-        "warning": "WARNING!"
+        "warning": "WARNING!",
+        "dangerousPermissionsSingular": "Role contains dangerous permissions"
     },
     "memberRoleRemove": {
         "title": "Rola Odebrana",
