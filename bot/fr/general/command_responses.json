@@ -223,5 +223,6 @@
         "furtherConfig": "For more control over logs, such as selecting different channels for different log types or preventing certain channels, users or messages from being logged please visit [Quark's web dashboard]"
     },
     "help-overview-help": "Aide",
-    "help-modify-tags-description": "Pour créer et modifier des étiquettes, merci de visiter le [dashboard de Quark]"
+    "help-modify-tags-description": "Pour créer et modifier des étiquettes, merci de visiter le [dashboard de Quark]",
+    "banButton-banning": "Banning {user} {inXSeconds}"
 }
