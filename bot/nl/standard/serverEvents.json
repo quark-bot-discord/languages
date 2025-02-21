@@ -45,7 +45,8 @@
         "description_multiple": "{user} heeft meerdere rollen gekregen",
         "givenBy": "Gegeven door",
         "roles": "Rollen",
-        "warning": "WARNING!"
+        "warning": "WARNING!",
+        "dangerousPermissionsSingular": "Role contains dangerous permissions"
     },
     "memberRoleRemove": {
         "title": "Rol Afgenomen",
