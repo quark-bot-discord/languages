@@ -481,6 +481,20 @@ export type LanguageStructure = {
   name: string;
   description: string;
 }>;
+  dashboard: Promise<{
+  name: string;
+  description: string;
+}>;
+  debug: Promise<{
+  name: string;
+  description: string;
+  commandOptions: {
+  shareOption: {
+  name: string;
+  description: string;
+};
+};
+}>;
   config: Promise<{
   name: string;
   description: string;
@@ -496,20 +510,6 @@ export type LanguageStructure = {
   label: string;
 };
 };
-};
-};
-}>;
-  dashboard: Promise<{
-  name: string;
-  description: string;
-}>;
-  debug: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  shareOption: {
-  name: string;
-  description: string;
 };
 };
 }>;
@@ -574,6 +574,10 @@ export type LanguageStructure = {
 };
 };
 }>;
+  logging: Promise<{
+  name: string;
+  description: string;
+}>;
   language: Promise<{
   name: string;
   description: string;
@@ -583,10 +587,6 @@ export type LanguageStructure = {
   description: string;
 };
 };
-}>;
-  logging: Promise<{
-  name: string;
-  description: string;
 }>;
   mute: Promise<{
   name: string;
@@ -625,11 +625,11 @@ export type LanguageStructure = {
   name: string;
   description: string;
 }>;
-  privacy: Promise<{
+  premium: Promise<{
   name: string;
   description: string;
 }>;
-  premium: Promise<{
+  privacy: Promise<{
   name: string;
   description: string;
 }>;
@@ -715,6 +715,20 @@ export type LanguageStructure = {
 };
 };
 }>;
+  unban: Promise<{
+  name: string;
+  description: string;
+  commandOptions: {
+  userOption: {
+  name: string;
+  description: string;
+};
+  reasonOption: {
+  name: string;
+  description: string;
+};
+};
+}>;
   tags: Promise<{
   name: string;
   description: string;
@@ -776,20 +790,6 @@ export type LanguageStructure = {
   description: string;
 };
   helpOption: {
-  name: string;
-  description: string;
-};
-};
-}>;
-  unban: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  userOption: {
-  name: string;
-  description: string;
-};
-  reasonOption: {
   name: string;
   description: string;
 };

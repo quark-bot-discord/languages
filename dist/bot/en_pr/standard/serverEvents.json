@@ -46,7 +46,7 @@
         "givenBy": "Promoted by",
         "roles": "Ranks",
         "warning": "WARNING!",
-        "dangerousPermissionsSingular": "Role contains dangerous permissions",
+        "dangerousPermissionsSingular": "Role grants dangerous permissions",
         "dangerousPermissions": "One or more roles grant dangerous permissions"
     },
     "memberRoleRemove": {
