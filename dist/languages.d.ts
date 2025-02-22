@@ -412,11 +412,6 @@ export type LanguageStructure = {
   SEND_VOICE_MESSAGES: string;
   SEND_POLLS: string;
 }>;
-  role_update_types: Promise<{
-  enabled: string;
-  disabled: string;
-  none: string;
-}>;
   tags_responses: Promise<{
   "tags-help-description": string;
   "create-success": string;
@@ -440,6 +435,11 @@ export type LanguageStructure = {
   "tag-error-limitreached-0": string;
   "tag-error-limitreached-1": string;
   "tag-createdby": string;
+}>;
+  role_update_types: Promise<{
+  enabled: string;
+  disabled: string;
+  none: string;
 }>;
   time: Promise<{
   second: string;
@@ -539,13 +539,6 @@ export type LanguageStructure = {
 };
 };
 }>;
-  initialReactor: Promise<{
-  name: string;
-}>;
-  invite: Promise<{
-  name: string;
-  description: string;
-}>;
   help: Promise<{
   name: string;
   description: string;
@@ -559,6 +552,13 @@ export type LanguageStructure = {
   description: string;
 };
 };
+}>;
+  initialReactor: Promise<{
+  name: string;
+}>;
+  invite: Promise<{
+  name: string;
+  description: string;
 }>;
   kick: Promise<{
   name: string;
@@ -583,10 +583,6 @@ export type LanguageStructure = {
   description: string;
 };
 };
-}>;
-  logging: Promise<{
-  name: string;
-  description: string;
 }>;
   mute: Promise<{
   name: string;
@@ -621,6 +617,10 @@ export type LanguageStructure = {
 };
 };
 }>;
+  logging: Promise<{
+  name: string;
+  description: string;
+}>;
   ping: Promise<{
   name: string;
   description: string;
@@ -629,29 +629,15 @@ export type LanguageStructure = {
   name: string;
   description: string;
 }>;
+  privacy: Promise<{
+  name: string;
+  description: string;
+}>;
   purge: Promise<{
   name: string;
   description: string;
   commandOptions: {
   countOption: {
-  name: string;
-  description: string;
-};
-};
-}>;
-  privacy: Promise<{
-  name: string;
-  description: string;
-}>;
-  reason: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  caseOption: {
-  name: string;
-  description: string;
-};
-  reasonOption: {
   name: string;
   description: string;
 };
@@ -710,6 +696,20 @@ export type LanguageStructure = {
   description: string;
 };
   spoilersOption: {
+  name: string;
+  description: string;
+};
+};
+}>;
+  reason: Promise<{
+  name: string;
+  description: string;
+  commandOptions: {
+  caseOption: {
+  name: string;
+  description: string;
+};
+  reasonOption: {
   name: string;
   description: string;
 };
@@ -1096,7 +1096,6 @@ export type LanguageStructure = {
   joined: string;
   roles: string;
   serverProfilePicture: string;
-  members: string;
 };
   botAdded: {
   title: string;
