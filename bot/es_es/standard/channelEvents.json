@@ -26,7 +26,8 @@
         "description": "{executor} permisos actualizados para {channel} para {special}",
         "newPermissions": "Nuevos permisos",
         "viewFullNewPermissions": "Ver permisos nuevos completos",
-        "warning": "WARNING!"
+        "warning": "WARNING!",
+        "dangerousPermissions": "Dangerous permissions granted"
     },
     "webhookCreate": {
         "title": "Webhook creado",
