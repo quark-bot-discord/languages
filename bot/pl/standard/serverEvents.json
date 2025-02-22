@@ -19,8 +19,7 @@
         "description": "{user} opuścił serwer",
         "joined": "Dołączył",
         "roles": "Role",
-        "serverProfilePicture": "Link do awatara serwera",
-        "members": "Members"
+        "serverProfilePicture": "Link do awatara serwera"
     },
     "botAdded": {
         "title": "Bot Został Dodany",
