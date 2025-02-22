@@ -19,7 +19,8 @@
         "newPermissions": "Nieuwe Machtigingen",
         "oldPermissions": "Oude Machtigingen",
         "viewFullNewPermissions": "Volledige Nieuwe Machtigingen Bekijken",
-        "viewFullOldPermissions": "Volledige Oude Machtigingen Bekijken"
+        "viewFullOldPermissions": "Volledige Oude Machtigingen Bekijken",
+        "warning": "WARNING!"
     },
     "roleIconUpdate": {
         "title": "Rol Icoon Bijgewerkt",
