@@ -412,11 +412,6 @@ export type LanguageStructure = {
   SEND_VOICE_MESSAGES: string;
   SEND_POLLS: string;
 }>;
-  role_update_types: Promise<{
-  enabled: string;
-  disabled: string;
-  none: string;
-}>;
   tags_responses: Promise<{
   "tags-help-description": string;
   "create-success": string;
@@ -440,6 +435,11 @@ export type LanguageStructure = {
   "tag-error-limitreached-0": string;
   "tag-error-limitreached-1": string;
   "tag-createdby": string;
+}>;
+  role_update_types: Promise<{
+  enabled: string;
+  disabled: string;
+  none: string;
 }>;
   time: Promise<{
   second: string;
@@ -840,6 +840,7 @@ export type LanguageStructure = {
   newPermissions: string;
   viewFullNewPermissions: string;
   warning: string;
+  dangerousPermissions: string;
 };
   webhookCreate: {
   title: string;
