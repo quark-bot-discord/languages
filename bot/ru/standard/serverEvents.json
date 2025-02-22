@@ -19,8 +19,7 @@
         "description": "{user} left the server",
         "joined": "Joined",
         "roles": "Roles",
-        "serverProfilePicture": "Link to server avatar",
-        "members": "Members"
+        "serverProfilePicture": "Link to server avatar"
     },
     "botAdded": {
         "title": "Bot Added",
