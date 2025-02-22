@@ -19,7 +19,8 @@
         "description": "{user} đã rời khỏi máy chủ",
         "joined": "Tham gia",
         "roles": "Roles",
-        "serverProfilePicture": "Link to server avatar"
+        "serverProfilePicture": "Link to server avatar",
+        "members": "Members"
     },
     "botAdded": {
         "title": "Bot đã được thêm",
