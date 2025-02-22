@@ -20,7 +20,8 @@
         "oldPermissions": "Stare uprawnienia",
         "viewFullNewPermissions": "Wyświetl pełne nowe uprawnienia",
         "viewFullOldPermissions": "Wyświetl pełne stare uprawnienia",
-        "warning": "WARNING!"
+        "warning": "WARNING!",
+        "dangerousPermissions": "Dangerous permissions granted"
     },
     "roleIconUpdate": {
         "title": "Zaktualizowano ikonę roli",

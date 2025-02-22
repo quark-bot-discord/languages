@@ -20,7 +20,8 @@
         "oldPermissions": "Old Permissions",
         "viewFullNewPermissions": "View Full New Permissions",
         "viewFullOldPermissions": "View Full Old Permissions",
-        "warning": "WARNING!"
+        "warning": "WARNING!",
+        "dangerousPermissions": "Dangerous permissions granted"
     },
     "roleIconUpdate": {
         "title": "Role Icon Updated",
