@@ -19,7 +19,8 @@
         "description": "{user} heeft de server verlaten",
         "joined": "Toegetreden",
         "roles": "Rollen",
-        "serverProfilePicture": "Link naar server avatar"
+        "serverProfilePicture": "Link naar server avatar",
+        "members": "Members"
     },
     "botAdded": {
         "title": "Bot Toegevoegd",
