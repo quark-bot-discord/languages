@@ -89,5 +89,8 @@
         "emoji": "Emotka",
         "linkToEmoji": "Link do emoji",
         "jumpToMessage": "Przejdź do wiadomości"
+    },
+    "threadUpdated": {
+        "description": "{thread} was modified by {executor}"
     }
 }
