@@ -26,7 +26,8 @@
         "description": "{executor} zaktualizował uprawnienia dla {channel} dla {special}",
         "newPermissions": "Nowe Uprawnienia",
         "viewFullNewPermissions": "Zobacz Pełne Nowe Uprawnienia",
-        "warning": "WARNING!"
+        "warning": "WARNING!",
+        "dangerousPermissions": "Dangerous permissions granted"
     },
     "webhookCreate": {
         "title": "Integracja Utworzona",
