@@ -19,7 +19,8 @@
         "newPermissions": "Nuevos permisos",
         "oldPermissions": "Permisos antiguos",
         "viewFullNewPermissions": "Ver permisos nuevos completos",
-        "viewFullOldPermissions": "Ver permisos antiguos completos"
+        "viewFullOldPermissions": "Ver permisos antiguos completos",
+        "warning": "WARNING!"
     },
     "roleIconUpdate": {
         "title": "Icono de rol actualizado",

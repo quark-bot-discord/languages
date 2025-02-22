@@ -19,7 +19,8 @@
         "newPermissions": "Nouvelles Permissions",
         "oldPermissions": "Anciennes Permissions",
         "viewFullNewPermissions": "Voir Toutes Les Nouvelles Permissions",
-        "viewFullOldPermissions": "Voir Toutes Les Anciennes Permissions"
+        "viewFullOldPermissions": "Voir Toutes Les Anciennes Permissions",
+        "warning": "WARNING!"
     },
     "roleIconUpdate": {
         "title": "Icône du Rôle Modifiée",
