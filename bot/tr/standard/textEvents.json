@@ -89,5 +89,8 @@
         "linkToEmoji": "Link to emoji",
         "jumpToMessage": "Jump to message",
         "title": "Reaction Removed"
+    },
+    "threadUpdated": {
+        "description": "{thread} was modified by {executor}"
     }
 }
