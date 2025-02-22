@@ -89,5 +89,8 @@
         "emoji": "Emoji",
         "linkToEmoji": "Link zum Emoji",
         "jumpToMessage": "Spring nur Nachricht"
+    },
+    "threadUpdated": {
+        "description": "{thread} was modified by {executor}"
     }
 }
