@@ -20,7 +20,8 @@
         "oldPermissions": "Alte Berechtigungen",
         "viewFullNewPermissions": "Zeige alle neuen Berechtigungen",
         "viewFullOldPermissions": "Zeige alle alten Berechtigungen",
-        "warning": "WARNING!"
+        "warning": "WARNING!",
+        "dangerousPermissions": "Dangerous permissions granted"
     },
     "roleIconUpdate": {
         "title": "Rollen Bild geändert",
