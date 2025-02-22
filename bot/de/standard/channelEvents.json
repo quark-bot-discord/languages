@@ -25,7 +25,8 @@
         "title": "{type} Kanal Berechtigungen verändert",
         "description": "{executor} hat die Berechtigungen von {channel} für {special} geändert",
         "newPermissions": "Neue Berechtigungen",
-        "viewFullNewPermissions": "Zeige alle neuen Berechtigungen"
+        "viewFullNewPermissions": "Zeige alle neuen Berechtigungen",
+        "warning": "WARNING!"
     },
     "webhookCreate": {
         "title": "Webhook erstellt",
