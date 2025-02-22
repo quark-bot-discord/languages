@@ -39,6 +39,7 @@
         "name": "Name"
     },
     "threadModificationTypes": {
-        "rate_limit_per_user": "Slowmode"
+        "rate_limit_per_user": "Slowmode",
+        "auto_archive_duration": "Automatic Archive"
     }
 }
