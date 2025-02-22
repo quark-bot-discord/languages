@@ -25,7 +25,8 @@
         "title": "{type} Kanaalmachtigingen Bijgewerkt",
         "description": "{executor} heeft machtigingen bijgewerkt voor {channel} voor {special}",
         "newPermissions": "Nieuwe Machtigingen",
-        "viewFullNewPermissions": "Bekijk Volledige Nieuwe Machtigingen"
+        "viewFullNewPermissions": "Bekijk Volledige Nieuwe Machtigingen",
+        "warning": "WARNING!"
     },
     "webhookCreate": {
         "title": "Webhook Gemaakt",

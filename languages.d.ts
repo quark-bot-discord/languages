@@ -412,6 +412,11 @@ export type LanguageStructure = {
   SEND_VOICE_MESSAGES: string;
   SEND_POLLS: string;
 }>;
+  role_update_types: Promise<{
+  enabled: string;
+  disabled: string;
+  none: string;
+}>;
   tags_responses: Promise<{
   "tags-help-description": string;
   "create-success": string;
@@ -435,11 +440,6 @@ export type LanguageStructure = {
   "tag-error-limitreached-0": string;
   "tag-error-limitreached-1": string;
   "tag-createdby": string;
-}>;
-  role_update_types: Promise<{
-  enabled: string;
-  disabled: string;
-  none: string;
 }>;
   time: Promise<{
   second: string;
@@ -584,6 +584,10 @@ export type LanguageStructure = {
 };
 };
 }>;
+  logging: Promise<{
+  name: string;
+  description: string;
+}>;
   mute: Promise<{
   name: string;
   description: string;
@@ -617,10 +621,6 @@ export type LanguageStructure = {
 };
 };
 }>;
-  logging: Promise<{
-  name: string;
-  description: string;
-}>;
   ping: Promise<{
   name: string;
   description: string;
@@ -638,6 +638,20 @@ export type LanguageStructure = {
   description: string;
   commandOptions: {
   countOption: {
+  name: string;
+  description: string;
+};
+};
+}>;
+  reason: Promise<{
+  name: string;
+  description: string;
+  commandOptions: {
+  caseOption: {
+  name: string;
+  description: string;
+};
+  reasonOption: {
   name: string;
   description: string;
 };
@@ -696,20 +710,6 @@ export type LanguageStructure = {
   description: string;
 };
   spoilersOption: {
-  name: string;
-  description: string;
-};
-};
-}>;
-  reason: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  caseOption: {
-  name: string;
-  description: string;
-};
-  reasonOption: {
   name: string;
   description: string;
 };
@@ -839,6 +839,7 @@ export type LanguageStructure = {
   description: string;
   newPermissions: string;
   viewFullNewPermissions: string;
+  warning: string;
 };
   webhookCreate: {
   title: string;
