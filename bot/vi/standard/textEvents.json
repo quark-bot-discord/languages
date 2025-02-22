@@ -89,5 +89,8 @@
         "linkToEmoji": "Liên kết đến emoji",
         "jumpToMessage": "Nhảy đến tin nhắn",
         "description": "{executor} đã gỡ một phản ứng khỏi tin nhắn"
+    },
+    "threadUpdated": {
+        "description": "{thread} was modified by {executor}"
     }
 }
