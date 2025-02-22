@@ -25,7 +25,8 @@
         "title": "Permissions de Salon {type} Modifiée",
         "description": "{executor} a modifié des permissions à {channel} pour {special}",
         "newPermissions": "Nouvelles permissions",
-        "viewFullNewPermissions": "Voir toutes les nouvelles permissions"
+        "viewFullNewPermissions": "Voir toutes les nouvelles permissions",
+        "warning": "WARNING!"
     },
     "webhookCreate": {
         "title": "Webhook Créé",
