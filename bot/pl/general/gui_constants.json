@@ -37,5 +37,8 @@
     "webhookModificationTypes": {
         "channel_id": "Kanał",
         "name": "Name"
+    },
+    "threadModificationTypes": {
+        "rate_limit_per_user": "Slowmode"
     }
 }
