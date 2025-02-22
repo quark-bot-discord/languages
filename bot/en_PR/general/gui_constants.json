@@ -37,5 +37,8 @@
     },
     "emojiModificationTypes": {
         "name": "Name"
+    },
+    "threadModificationTypes": {
+        "rate_limit_per_user": "Slowmode"
     }
 }
