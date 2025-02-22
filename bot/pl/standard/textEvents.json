@@ -91,6 +91,7 @@
         "jumpToMessage": "Przejdź do wiadomości"
     },
     "threadUpdated": {
-        "description": "{thread} was modified by {executor}"
+        "description": "{thread} was modified by {executor}",
+        "title": "Thread Modified"
     }
 }
