@@ -25,7 +25,8 @@
         "title": "Zaktualizowano Uprawnienia Kanału {type}",
         "description": "{executor} zaktualizował uprawnienia dla {channel} dla {special}",
         "newPermissions": "Nowe Uprawnienia",
-        "viewFullNewPermissions": "Zobacz Pełne Nowe Uprawnienia"
+        "viewFullNewPermissions": "Zobacz Pełne Nowe Uprawnienia",
+        "warning": "WARNING!"
     },
     "webhookCreate": {
         "title": "Integracja Utworzona",
