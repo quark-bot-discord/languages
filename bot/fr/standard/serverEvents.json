@@ -19,7 +19,8 @@
         "description": "{user} est parti du serveur",
         "joined": "Arrivé",
         "roles": "Rôles",
-        "serverProfilePicture": "Lien vers sa photo de profil du serveur"
+        "serverProfilePicture": "Lien vers sa photo de profil du serveur",
+        "members": "Members"
     },
     "botAdded": {
         "title": "Bot Ajouté",
