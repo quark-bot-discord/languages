@@ -19,8 +19,7 @@
         "description": "{user} sunucudan ayrıldı",
         "joined": "Katıldı",
         "roles": "Roles",
-        "serverProfilePicture": "Link to server avatar",
-        "members": "Members"
+        "serverProfilePicture": "Link to server avatar"
     },
     "botAdded": {
         "title": "Bot Eklendi",
