@@ -261,6 +261,47 @@ export type LanguageStructure = {
   emoji_update_types: Promise<{
   none: string;
 }>;
+  guild_update_types: Promise<{
+  none: string;
+  verification_level: {
+  "0": string;
+  "1": string;
+  "2": string;
+  "3": string;
+  "4": string;
+};
+  default_message_notifications: {
+  "0": string;
+  "1": string;
+};
+  explicit_content_filter: {
+  "0": string;
+  "1": string;
+  "2": string;
+};
+  nsfw_level: {
+  "0": string;
+  "1": string;
+  "2": string;
+  "3": string;
+};
+  premium_progress_bar_enabled: {
+  true: string;
+  false: string;
+};
+}>;
+  ignore_options: Promise<{
+  ignoreTargets: string;
+  ignoreExecutors: string;
+  specificMessageContent: string;
+  ignoreChannels: string;
+  ignoreBotExecutors: string;
+  ignoreBotTargets: string;
+  ignoreExecutorRoles: string;
+  ignoreTargetRoles: string;
+  ignoreCategories: string;
+  activeIgnore: string;
+}>;
   gui_constants: Promise<{
   channelModificationTypes: {
   name: string;
@@ -307,47 +348,6 @@ export type LanguageStructure = {
   name: string;
 };
 }>;
-  guild_update_types: Promise<{
-  none: string;
-  verification_level: {
-  "0": string;
-  "1": string;
-  "2": string;
-  "3": string;
-  "4": string;
-};
-  default_message_notifications: {
-  "0": string;
-  "1": string;
-};
-  explicit_content_filter: {
-  "0": string;
-  "1": string;
-  "2": string;
-};
-  nsfw_level: {
-  "0": string;
-  "1": string;
-  "2": string;
-  "3": string;
-};
-  premium_progress_bar_enabled: {
-  true: string;
-  false: string;
-};
-}>;
-  ignore_options: Promise<{
-  ignoreTargets: string;
-  ignoreExecutors: string;
-  specificMessageContent: string;
-  ignoreChannels: string;
-  ignoreBotExecutors: string;
-  ignoreBotTargets: string;
-  ignoreExecutorRoles: string;
-  ignoreTargetRoles: string;
-  ignoreCategories: string;
-  activeIgnore: string;
-}>;
   log_categories: Promise<{
   serverEvents: string;
   serverActions: string;
@@ -367,11 +367,6 @@ export type LanguageStructure = {
   "2": string;
   "3": string;
   "4": string;
-}>;
-  role_update_types: Promise<{
-  enabled: string;
-  disabled: string;
-  none: string;
 }>;
   permissions: Promise<{
   CREATE_INSTANT_INVITE: string;
@@ -422,6 +417,27 @@ export type LanguageStructure = {
   SEND_VOICE_MESSAGES: string;
   SEND_POLLS: string;
 }>;
+  role_update_types: Promise<{
+  enabled: string;
+  disabled: string;
+  none: string;
+}>;
+  time: Promise<{
+  second: string;
+  "second-plural": string;
+  minute: string;
+  "minute-plural": string;
+  hour: string;
+  "hour-plural": string;
+  day: string;
+  "day-plural": string;
+  week: string;
+  "week-plural": string;
+  month: string;
+  "month-plural": string;
+  year: string;
+  "year-plural": string;
+}>;
   tags_responses: Promise<{
   "tags-help-description": string;
   "create-success": string;
@@ -445,22 +461,6 @@ export type LanguageStructure = {
   "tag-error-limitreached-0": string;
   "tag-error-limitreached-1": string;
   "tag-createdby": string;
-}>;
-  time: Promise<{
-  second: string;
-  "second-plural": string;
-  minute: string;
-  "minute-plural": string;
-  hour: string;
-  "hour-plural": string;
-  day: string;
-  "day-plural": string;
-  week: string;
-  "week-plural": string;
-  month: string;
-  "month-plural": string;
-  year: string;
-  "year-plural": string;
 }>;
 };
   slash_commands: {
@@ -626,11 +626,11 @@ export type LanguageStructure = {
 };
 };
 }>;
-  ping: Promise<{
+  premium: Promise<{
   name: string;
   description: string;
 }>;
-  premium: Promise<{
+  ping: Promise<{
   name: string;
   description: string;
 }>;
@@ -880,36 +880,6 @@ export type LanguageStructure = {
   description: string;
 };
 }>;
-  generalEvents: Promise<{
-  serverModified: {
-  title: string;
-  description: string;
-};
-  serverIconUpdated: {
-  title: string;
-  description: string;
-  description_added: string;
-  description_removed: string;
-  linkToOldIcon: string;
-  linkToNewIcon: string;
-};
-  serverBoostAdd: {
-  title: string;
-  description: string;
-  description_noUser: string;
-  description_withTier: string;
-  description_withTier_noUser: string;
-  none: string;
-};
-  serverBoostRemove: {
-  title: string;
-  description: string;
-  description_noUser: string;
-  description_withTier: string;
-  description_withTier_noUser: string;
-  none: string;
-};
-}>;
   modlog: Promise<{
   moderator: string;
   user: string;
@@ -992,6 +962,36 @@ export type LanguageStructure = {
   tokenRevoked: {
   title: string;
   description: string;
+};
+}>;
+  generalEvents: Promise<{
+  serverModified: {
+  title: string;
+  description: string;
+};
+  serverIconUpdated: {
+  title: string;
+  description: string;
+  description_added: string;
+  description_removed: string;
+  linkToOldIcon: string;
+  linkToNewIcon: string;
+};
+  serverBoostAdd: {
+  title: string;
+  description: string;
+  description_noUser: string;
+  description_withTier: string;
+  description_withTier_noUser: string;
+  none: string;
+};
+  serverBoostRemove: {
+  title: string;
+  description: string;
+  description_noUser: string;
+  description_withTier: string;
+  description_withTier_noUser: string;
+  none: string;
 };
 }>;
   roleEvents: Promise<{
@@ -1249,6 +1249,7 @@ export type LanguageStructure = {
 };
   threadUpdated: {
   description: string;
+  title: string;
 };
 }>;
   voiceEvents: Promise<{

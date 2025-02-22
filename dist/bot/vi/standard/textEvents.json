@@ -91,6 +91,7 @@
         "description": "{executor} đã gỡ một phản ứng khỏi tin nhắn"
     },
     "threadUpdated": {
-        "description": "{thread} was modified by {executor}"
+        "description": "{thread} was modified by {executor}",
+        "title": "Thread Modified"
     }
 }
