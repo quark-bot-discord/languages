@@ -25,7 +25,8 @@
         "newPermissions": "New Permissions",
         "viewFullNewPermissions": "View Full New Permissions",
         "title": "{type} Channel Permissions Updated",
-        "description": "{executor} updated permissions for {channel} for {special}"
+        "description": "{executor} updated permissions for {channel} for {special}",
+        "warning": "WARNING!"
     },
     "webhookUpdate": {
         "description": "{executor} modified the webhook {webhook}",
