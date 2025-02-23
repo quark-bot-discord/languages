@@ -4,66 +4,84 @@
         "id": 0,
         "name": "English, US",
         "default": true,
-        "active": true
+        "active": true,
+        "iconCode": "US"
     },
     "en-GB": {
         "code": "en_gb",
         "id": 1,
         "name": "English, UK",
-        "active": true
+        "active": true,
+        "iconCode": "GB"
     },
     "tr": {
         "code": "tr",
         "id": 2,
         "name": "Türkçe",
-        "active": true
+        "active": true,
+        "iconCode": "TR"
     },
     "vi": {
         "code": "vi",
         "id": 3,
         "name": "Tiếng Việt",
-        "active": true
+        "active": true,
+        "iconCode": "VN"
     },
     "en-PR": {
         "code": "en_pr",
         "id": 4,
         "name": "Pirate Speak, The Seven Seas",
-        "active": true
+        "active": true,
+        "icon": "🏴‍☠️"
     },
     "pl": {
         "code": "pl",
         "id": 5,
         "name": "Polski",
-        "active": true
+        "active": true,
+        "iconCode": "PL"
     },
     "nl": {
         "code": "nl",
         "id": 6,
         "name": "Nederlands",
-        "active": true
+        "active": true,
+        "iconCode": "NL"
     },
     "es-ES": {
         "code": "es_es",
         "id": 7,
         "name": "Español, España",
-        "active": true
+        "active": true,
+        "iconCode": "ES"
     },
     "it": {
         "code": "it",
         "id": 8,
         "name": "Italiano",
-        "active": false
+        "active": false,
+        "iconCode": "IT"
     },
     "de": {
         "code": "de",
         "id": 9,
         "name": "Deutsch",
-        "active": false
+        "active": true,
+        "iconCode": "DE"
     },
     "fr": {
         "code": "fr",
         "id": 10,
         "name": "Français",
-        "active": true
+        "active": true,
+        "iconCode": "FR"
+    },
+    "ru": {
+        "code": "ru",
+        "id": 11,
+        "name": "Русский",
+        "active": true,
+        "iconCode": "RU"
     }
 }
