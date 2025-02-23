@@ -224,6 +224,6 @@
     "initialreactors-expired": "Abgelaufen",
     "initialreactors-notfound": "Keine Reaktionen gefunden",
     "help-modify-tags-description": "Um Tags zu erstellen und zu editieren besuche bitte [Quark's web dashboard]",
-    "banButton-banning": "Banning {user} {inXSeconds}",
-    "banButton-cancel": "Cancel"
+    "banButton-banning": "{user} wird gebannt {inXSeconds}",
+    "banButton-cancel": "Abbrechen"
 }
