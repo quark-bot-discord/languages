@@ -91,7 +91,7 @@
         "jumpToMessage": "Spring nur Nachricht"
     },
     "threadUpdated": {
-        "description": "{thread} was modified by {executor}",
-        "title": "Thread Modified"
+        "description": "{thread} wurde von {executor} geändert",
+        "title": "Thread geändert"
     }
 }

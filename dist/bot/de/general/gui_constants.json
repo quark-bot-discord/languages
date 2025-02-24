@@ -39,8 +39,8 @@
         "channel_id": "Kanal"
     },
     "threadModificationTypes": {
-        "rate_limit_per_user": "Slowmode",
-        "auto_archive_duration": "Automatic Archive",
+        "rate_limit_per_user": "Slow-Mode",
+        "auto_archive_duration": "Automatisches Archiv",
         "name": "Name"
     }
 }
