@@ -16,31 +16,31 @@
         "color": "Colore",
         "hoist": "Alzato",
         "managed": "Gestito",
-        "mentionable": "Menzionabile.",
+        "mentionable": "Menzionabile",
         "unicode_emoji": "Emoji"
     },
     "emojiModificationTypes": {
-        "name": "Name"
+        "name": "Nome"
     },
     "guildModificationTypes": {
-        "name": "Name",
-        "description": "Description",
-        "system_channel_id": "System Channel",
-        "rules_channel_id": "Rule Channel",
-        "mfa_level": "MFA Required",
-        "verification_level": "Verification Level",
-        "default_message_notifications": "Default Notifications",
-        "explicit_content_filter": "Explicit Content Filter",
-        "nsfw_level": "NSFW Level",
-        "premium_progress_bar_enabled": "Progress Bar"
+        "name": "Nome",
+        "description": "Descrizione",
+        "system_channel_id": "Canale di sistema",
+        "rules_channel_id": "Canale delle regole",
+        "mfa_level": "MFA richiesto",
+        "verification_level": "Livello di verifica",
+        "default_message_notifications": "Notifiche predefinite",
+        "explicit_content_filter": "Filtro dei contenuti espliciti",
+        "nsfw_level": "Livello NSFW",
+        "premium_progress_bar_enabled": "Barra di progresso"
     },
     "threadModificationTypes": {
-        "rate_limit_per_user": "Slowmode",
+        "rate_limit_per_user": "Modalità lenta",
         "auto_archive_duration": "Automatic Archive",
         "name": "Name"
     },
     "webhookModificationTypes": {
-        "name": "Name",
-        "channel_id": "Channel"
+        "name": "Nome",
+        "channel_id": "Canale"
     }
 }
