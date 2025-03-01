@@ -1,6 +1,6 @@
 {
     "channelCreated": {
-        "title": "{type} Channel Created",
+        "title": "Canale {type} creato",
         "description": "{channel} was created by {executor}",
         "descriptionWithCategory": "{channel} was created by {executor} under the {category} category."
     },
