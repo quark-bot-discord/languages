@@ -12,9 +12,9 @@
         "nsfw": "NSFW"
     },
     "roleModificationTypes": {
-        "name": "Name",
-        "color": "Color",
-        "hoist": "Hoisted",
+        "name": "Nome",
+        "color": "Colore",
+        "hoist": "Alzato",
         "managed": "Managed",
         "mentionable": "Mentionable",
         "unicode_emoji": "Emoji"
