@@ -5,7 +5,7 @@
         "position": "Posizione",
         "topic": "Argomento",
         "rate_limit_per_user": "modalità lenta",
-        "parent_id": "Category",
+        "parent_id": "Categoria.",
         "bitrate": "Bitrate",
         "user_limit": "User Limit",
         "rtc_region": "Region",
