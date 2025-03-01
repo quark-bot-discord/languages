@@ -1,22 +1,22 @@
 {
     "channelModificationTypes": {
-        "name": "Name",
-        "type": "Type",
-        "position": "Position",
-        "topic": "Topic",
-        "rate_limit_per_user": "Slowmode",
-        "parent_id": "Category",
+        "name": "Nome",
+        "type": "Tipo",
+        "position": "Posizione",
+        "topic": "Argomento",
+        "rate_limit_per_user": "modalità lenta",
+        "parent_id": "Categoria.",
         "bitrate": "Bitrate",
-        "user_limit": "User Limit",
-        "rtc_region": "Region",
+        "user_limit": "Limite utenti.",
+        "rtc_region": "Regione",
         "nsfw": "NSFW"
     },
     "roleModificationTypes": {
-        "name": "Name",
-        "color": "Color",
-        "hoist": "Hoisted",
-        "managed": "Managed",
-        "mentionable": "Mentionable",
+        "name": "Nome",
+        "color": "Colore",
+        "hoist": "Alzato",
+        "managed": "Gestito",
+        "mentionable": "Menzionabile.",
         "unicode_emoji": "Emoji"
     },
     "emojiModificationTypes": {

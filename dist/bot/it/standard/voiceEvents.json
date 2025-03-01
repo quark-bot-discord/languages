@@ -1,0 +1,104 @@
+{
+    "stageEnded": {
+        "topic": "Topic",
+        "title": "Stage Ended",
+        "description": "The stage in {channel} was ended by {executor}",
+        "description_noExecutor": "The stage in {channel} was ended",
+        "none": "none"
+    },
+    "streamStart": {
+        "title": "Stream Started",
+        "description": "{user} started streaming in the {channel} voice channel"
+    },
+    "streamStop": {
+        "title": "Stream Ended",
+        "description": "{user} stopped streaming in the {channel} voice channel"
+    },
+    "videoStart": {
+        "title": "Video Started",
+        "description": "{user} started their video in the {channel} voice channel"
+    },
+    "stageSpeakerAdd": {
+        "title": "New Stage Speaker",
+        "description": "{user} became a speaker in the {channel} stage channel",
+        "description_inviteAccepted": "{user} accepted the invite to become a speaker in the {channel} stage channel"
+    },
+    "videoStop": {
+        "title": "Video Stopped",
+        "description": "{user} stopped their video in the {channel} voice channel"
+    },
+    "voiceSwitch": {
+        "title": "Changed Channel",
+        "description": "{user} moved from the {channel_old} voice channel to the {channel_new} voice channel"
+    },
+    "voiceMove": {
+        "title": "Moved",
+        "description": "{user} was moved from the {channel_old} voice channel to the {channel_new} voice channel",
+        "movedBy": "Moved by"
+    },
+    "voiceJoin": {
+        "title": "Joined Channel",
+        "description": "{user} joined the {channel} voice channel"
+    },
+    "voiceLeave": {
+        "title": "Left Channel",
+        "description": "{user} left the {channel} voice channel",
+        "joined": "Joined",
+        "joinedValue": "{relative} for {relative_fixed}"
+    },
+    "voiceDisconnect": {
+        "title": "Disconnected",
+        "description": "{user} was disconnected",
+        "disconnectedBy": "Disconnected by",
+        "voiceChannel": "Voice channel"
+    },
+    "serverDeafen": {
+        "title": "Deafened",
+        "description": "{user} was deafened",
+        "deafenedBy": "Deafened by",
+        "voiceChannel": "Voice channel"
+    },
+    "serverMute": {
+        "title": "Muted",
+        "description": "{user} was muted",
+        "mutedBy": "Muted by",
+        "voiceChannel": "Voice channel"
+    },
+    "serverUndeafen": {
+        "title": "Undeafened",
+        "description": "{user} was undeafened",
+        "undeafenedBy": "Undeafened by",
+        "voiceChannel": "Voice channel"
+    },
+    "serverUnmute": {
+        "title": "Unmuted",
+        "description": "{user} was unmuted",
+        "unmutedBy": "Unmuted by",
+        "voiceChannel": "Voice channel"
+    },
+    "channelStatusUpdate": {
+        "title": "Voice Channel Status Updated",
+        "description": "{executor} set the status for {channel}",
+        "status": "Status",
+        "linksToEmojis": "Links to emojis"
+    },
+    "stageStarted": {
+        "title": "Stage Started",
+        "description": "{executor} started a stage in {channel}",
+        "topic": "Topic"
+    },
+    "stageUpdated": {
+        "title": "Stage Updated",
+        "description": "The stage in {channel} was updated by {executor}",
+        "oldTopic": "Old Topic",
+        "newTopic": "New Topic"
+    },
+    "stageSpeakerRemove": {
+        "title": "Stopped Speaking",
+        "description": "{user} is no longer a speaker in the {channel} stage channel"
+    },
+    "stageSpeakerInvited": {
+        "title": "Speaker Invited",
+        "description": "{user} was invited to speak in the {channel} stage channel"
+    }
+}
