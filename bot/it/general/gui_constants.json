@@ -15,7 +15,7 @@
         "name": "Nome",
         "color": "Colore",
         "hoist": "Alzato",
-        "managed": "Managed",
+        "managed": "Gestito",
         "mentionable": "Mentionable",
         "unicode_emoji": "Emoji"
     },
