@@ -8,7 +8,7 @@
         "parent_id": "Categoria.",
         "bitrate": "Bitrate",
         "user_limit": "Limite utenti.",
-        "rtc_region": "Region",
+        "rtc_region": "Regione",
         "nsfw": "NSFW"
     },
     "roleModificationTypes": {
