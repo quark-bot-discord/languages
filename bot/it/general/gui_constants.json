@@ -1,7 +1,7 @@
 {
     "channelModificationTypes": {
-        "name": "Name",
-        "type": "Type",
+        "name": "Nome",
+        "type": "Tipo",
         "position": "Position",
         "topic": "Topic",
         "rate_limit_per_user": "Slowmode",
