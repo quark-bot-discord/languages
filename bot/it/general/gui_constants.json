@@ -2,7 +2,7 @@
     "channelModificationTypes": {
         "name": "Nome",
         "type": "Tipo",
-        "position": "Position",
+        "position": "Posizione",
         "topic": "Topic",
         "rate_limit_per_user": "Slowmode",
         "parent_id": "Category",
