@@ -1,5 +1,5 @@
 {
-    "ignoreTargets": "Ignore Target Users",
+    "ignoreTargets": "Ignora utenti target",
     "ignoreExecutors": "Ignore Target Executors",
     "specificMessageContent": "Ignore Specific Message Content",
     "ignoreChannels": "Ignore Channels",
