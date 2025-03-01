@@ -3,7 +3,7 @@
         "name": "Nome",
         "type": "Tipo",
         "position": "Posizione",
-        "topic": "Topic",
+        "topic": "Argomento",
         "rate_limit_per_user": "Slowmode",
         "parent_id": "Category",
         "bitrate": "Bitrate",
