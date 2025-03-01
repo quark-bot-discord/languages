@@ -4,7 +4,7 @@
         "type": "Tipo",
         "position": "Posizione",
         "topic": "Argomento",
-        "rate_limit_per_user": "Slowmode",
+        "rate_limit_per_user": "modalità lenta",
         "parent_id": "Category",
         "bitrate": "Bitrate",
         "user_limit": "User Limit",
