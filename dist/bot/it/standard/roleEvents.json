@@ -1,6 +1,6 @@
 {
     "roleCreated": {
-        "title": "Role Created",
+        "title": "Ruolo creato",
         "description": "{role} was created by {executor}"
     },
     "roleIconUpdate": {

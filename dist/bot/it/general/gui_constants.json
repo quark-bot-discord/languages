@@ -5,9 +5,9 @@
         "position": "Posizione",
         "topic": "Argomento",
         "rate_limit_per_user": "modalità lenta",
-        "parent_id": "Categoria.",
+        "parent_id": "Categoria",
         "bitrate": "Bitrate",
-        "user_limit": "Limite utenti.",
+        "user_limit": "Limite utenti",
         "rtc_region": "Regione",
         "nsfw": "NSFW"
     },
@@ -36,8 +36,8 @@
     },
     "threadModificationTypes": {
         "rate_limit_per_user": "Modalità lenta",
-        "auto_archive_duration": "Automatic Archive",
-        "name": "Name"
+        "auto_archive_duration": "Archiviazione automatica",
+        "name": "Nome"
     },
     "webhookModificationTypes": {
         "name": "Nome",

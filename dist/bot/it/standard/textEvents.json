@@ -1,6 +1,6 @@
 {
     "polls": {
-        "poll": "Poll",
+        "poll": "Sondaggio",
         "pollDescriptor": "[poll]",
         "status": "Poll has status.",
         "ended": "ended",
