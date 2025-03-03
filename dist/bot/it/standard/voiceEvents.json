@@ -7,7 +7,7 @@
         "none": "none"
     },
     "streamStart": {
-        "title": "Stream Started",
+        "title": "Streaming avviato",
         "description": "{user} started streaming in the {channel} voice channel"
     },
     "streamStop": {

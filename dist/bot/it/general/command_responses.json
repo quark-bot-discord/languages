@@ -104,7 +104,7 @@
     "banButton-banning": "Banning {user} {inXSeconds}",
     "banButton-cancel": "Cancel",
     "disable": "disabilitare",
-    "enable": "Enable",
+    "enable": "Abilita",
     "error-401-0": "Command failed",
     "error-401-1-type-0": "I am unable to ban that user",
     "error-401-1-type-1": "I am unable to kick that user",
