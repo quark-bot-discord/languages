@@ -1,9 +1,9 @@
 {
-    "userID": "User ID",
-    "supportServer": "Support Server",
-    "customise": "Customize",
-    "overview": "Overview",
-    "serverlog": "Serverlog",
-    "dashboard": "Dashboard",
+    "userID": "Αναγνωριστικό Χρήστη",
+    "supportServer": "Διακοσμιτής Υποστήριξης",
+    "customise": "Επεξεργασία",
+    "overview": "Προεπισκόπηση",
+    "serverlog": "Αρχείο καταγραφής διακομιστή",
+    "dashboard": "Ταμπλό",
     "pro": "Quark Pro"
 }
