@@ -83,5 +83,12 @@
     "name": "Русский",
     "active": true,
     "iconCode": "RU"
+  },
+  "el": {
+    "code": "el",
+    "id": 12,
+    "name": "Ελληνικά",
+    "active": true,
+    "iconCode": "GR"
   }
 }
