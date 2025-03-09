@@ -11,7 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "exports": {
-    "@types": {
+    "./@types": {
       "types": "./dist/languages.d.ts"
     },
     ".": {
