@@ -13,9 +13,6 @@ export type LanguageStructure = {
   dashboard: string;
   pro: string;
 }>;
-  channel_update_types: Promise<{
-  none: string;
-}>;
   channel_types: Promise<{
   "0": string;
   "2": string;
@@ -28,6 +25,9 @@ export type LanguageStructure = {
   "14": string;
   "15": string;
   "16": string;
+}>;
+  channel_update_types: Promise<{
+  none: string;
 }>;
   command_responses: Promise<{
   disable: string;
@@ -422,6 +422,9 @@ export type LanguageStructure = {
   disabled: string;
   none: string;
 }>;
+  thread_update_types: Promise<{
+  none: string;
+}>;
   tags_responses: Promise<{
   "tags-help-description": string;
   "create-success": string;
@@ -445,9 +448,6 @@ export type LanguageStructure = {
   "tag-error-limitreached-0": string;
   "tag-error-limitreached-1": string;
   "tag-createdby": string;
-}>;
-  thread_update_types: Promise<{
-  none: string;
 }>;
   time: Promise<{
   second: string;
@@ -511,6 +511,30 @@ export type LanguageStructure = {
   name: string;
   description: string;
 }>;
+  debug: Promise<{
+  name: string;
+  description: string;
+  commandOptions: {
+  shareOption: {
+  name: string;
+  description: string;
+};
+};
+}>;
+  help: Promise<{
+  name: string;
+  description: string;
+  commandOptions: {
+  overviewOption: {
+  name: string;
+  description: string;
+};
+  serverlogOption: {
+  name: string;
+  description: string;
+};
+};
+}>;
   export: Promise<{
   name: string;
   description: string;
@@ -534,30 +558,6 @@ export type LanguageStructure = {
   name: string;
 };
 };
-};
-};
-}>;
-  debug: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  shareOption: {
-  name: string;
-  description: string;
-};
-};
-}>;
-  help: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  overviewOption: {
-  name: string;
-  description: string;
-};
-  serverlogOption: {
-  name: string;
-  description: string;
 };
 };
 }>;
@@ -596,6 +596,14 @@ export type LanguageStructure = {
   name: string;
   description: string;
 }>;
+  ping: Promise<{
+  name: string;
+  description: string;
+}>;
+  premium: Promise<{
+  name: string;
+  description: string;
+}>;
   mute: Promise<{
   name: string;
   description: string;
@@ -628,14 +636,6 @@ export type LanguageStructure = {
   description: string;
 };
 };
-}>;
-  premium: Promise<{
-  name: string;
-  description: string;
-}>;
-  ping: Promise<{
-  name: string;
-  description: string;
 }>;
   privacy: Promise<{
   name: string;
@@ -723,6 +723,20 @@ export type LanguageStructure = {
 };
 };
 }>;
+  unban: Promise<{
+  name: string;
+  description: string;
+  commandOptions: {
+  userOption: {
+  name: string;
+  description: string;
+};
+  reasonOption: {
+  name: string;
+  description: string;
+};
+};
+}>;
   tags: Promise<{
   name: string;
   description: string;
@@ -784,20 +798,6 @@ export type LanguageStructure = {
   description: string;
 };
   helpOption: {
-  name: string;
-  description: string;
-};
-};
-}>;
-  unban: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  userOption: {
-  name: string;
-  description: string;
-};
-  reasonOption: {
   name: string;
   description: string;
 };
@@ -883,26 +883,6 @@ export type LanguageStructure = {
   description: string;
 };
 }>;
-  modlog: Promise<{
-  moderator: string;
-  user: string;
-  reason: string;
-  case: string;
-  noReason: string;
-  noReasonBrief: string;
-  ban: string;
-  unban: string;
-  kick: string;
-  mute: string;
-  unmute: string;
-  timeoutEnds: string;
-  editReason: string;
-  reasonModal: {
-  label: string;
-  placeholder: string;
-  title: string;
-};
-}>;
   generalEvents: Promise<{
   serverModified: {
   title: string;
@@ -931,6 +911,60 @@ export type LanguageStructure = {
   description_withTier: string;
   description_withTier_noUser: string;
   none: string;
+};
+}>;
+  modlog: Promise<{
+  moderator: string;
+  user: string;
+  reason: string;
+  case: string;
+  noReason: string;
+  noReasonBrief: string;
+  ban: string;
+  unban: string;
+  kick: string;
+  mute: string;
+  unmute: string;
+  timeoutEnds: string;
+  editReason: string;
+  reasonModal: {
+  label: string;
+  placeholder: string;
+  title: string;
+};
+}>;
+  roleEvents: Promise<{
+  roleCreated: {
+  title: string;
+  description: string;
+};
+  roleDeleted: {
+  title: string;
+  description: string;
+  role: string;
+  linkToRoleIcon: string;
+};
+  roleUpdated: {
+  title: string;
+  description: string;
+};
+  rolePermissionsUpdate: {
+  title: string;
+  description: string;
+  newPermissions: string;
+  oldPermissions: string;
+  viewFullNewPermissions: string;
+  viewFullOldPermissions: string;
+  warning: string;
+  dangerousPermissions: string;
+};
+  roleIconUpdate: {
+  title: string;
+  description: string;
+  description_added: string;
+  description_removed: string;
+  linkToOldIcon: string;
+  linkToNewIcon: string;
 };
 }>;
   quarkEvents: Promise<{
@@ -995,40 +1029,6 @@ export type LanguageStructure = {
   tokenRevoked: {
   title: string;
   description: string;
-};
-}>;
-  roleEvents: Promise<{
-  roleCreated: {
-  title: string;
-  description: string;
-};
-  roleDeleted: {
-  title: string;
-  description: string;
-  role: string;
-  linkToRoleIcon: string;
-};
-  roleUpdated: {
-  title: string;
-  description: string;
-};
-  rolePermissionsUpdate: {
-  title: string;
-  description: string;
-  newPermissions: string;
-  oldPermissions: string;
-  viewFullNewPermissions: string;
-  viewFullOldPermissions: string;
-  warning: string;
-  dangerousPermissions: string;
-};
-  roleIconUpdate: {
-  title: string;
-  description: string;
-  description_added: string;
-  description_removed: string;
-  linkToOldIcon: string;
-  linkToNewIcon: string;
 };
 }>;
   serverActions: Promise<{
@@ -1361,5 +1361,5 @@ export type LanguageStructure = {
 }>;
 };
 };
-export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "export" | "debug" | "help" | "initialReactor" | "invite" | "kick" | "language" | "logging" | "mute" | "premium" | "ping" | "privacy" | "purge" | "reason" | "serverlog" | "tags" | "unban" | "unmute";
+export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "help" | "export" | "initialReactor" | "invite" | "kick" | "language" | "logging" | "ping" | "premium" | "mute" | "privacy" | "purge" | "reason" | "serverlog" | "unban" | "tags" | "unmute";
 export type QuarkLanguageCodes = "en_us" | "en_gb" | "tr" | "vi" | "en_pr" | "pl" | "nl" | "es_es" | "it" | "de" | "fr" | "ru" | "el";
