@@ -46,6 +46,25 @@ async function generateTypings(dirPath = baseDir) {
 
 const typings = await generateTypings();
 
-const typeScript = convert(typings, { topLevelArePromises: true });
+const slashCommandNamesType = `export type SlashCommandNames = ${Object.keys(
+  typings.slash_commands
+)
+  .map((key) => `"${key}"`)
+  .join(" | ")};`;
 
-writeFileSync(join(writeDir, "languages.d.ts"), typeScript, "utf-8");
+const locales = (
+  await import("../../bot/languages.json", { assert: { type: "json" } })
+).default;
+
+const quarkLanguageCodes = Object.values(locales).map((locale) => locale.code);
+const quarkLanguageCodesType = `export type QuarkLanguageCodes = ${quarkLanguageCodes
+  .map((code) => `"${code}"`)
+  .join(" | ")};`;
+
+let finalFile = "";
+const typeScript = convert(typings, { topLevelArePromises: true });
+finalFile += typeScript + "\n";
+finalFile += slashCommandNamesType + "\n";
+finalFile += quarkLanguageCodesType + "\n";
+
+writeFileSync(join(writeDir, "languages.d.ts"), finalFile, "utf-8");
