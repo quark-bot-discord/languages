@@ -103,14 +103,14 @@
     "help-overview-view-inv": "Wyświetl inwentarz",
     "help-overview-help": "Pomoc",
     "help-overview-website": "Strona internetowa",
-    "help-overview-serverlog": "Serverlog",
+    "help-overview-serverlog": "Logowanie",
     "help-overview-modlog": "Modlog",
     "help-overview-commands": "Polecenia",
     "help-overview-language": "Język",
     "help-overview-premium": "Premium",
     "help-overview-inventory": "Inwentarz",
     "help-overview-channel-isset": "Kanał ustawiony na {channel}",
-    "help-overview-channel-isnotset": "Uruchom {command} na żądanym kanale",
+    "help-overview-channel-isnotset": "Uruchom {command} aby rozpocząć",
     "help-overview-view-options": "Uruchom {command}, aby zobaczyć opcje",
     "help-overview-view-options-and-statuses": "Uruchom {command}, aby zobaczyć statusy i opcje",
     "help-overview-view-all-commands": "Uruchom {command}, aby zobaczyć polecenia",
@@ -131,9 +131,9 @@
     "initialreactors-expired": "wykasły",
     "initialreactors-notfound": "Nie znaleziono żadnych reakcji",
     "configCommand": {
-        "title": "Konfiguracja Serverlog",
+        "title": "Konfiguracja Serverlog Quark",
         "selection": "Wybierz kategorię w menu, aby wyświetlić konfigurację.",
-        "serverLogDesc": "Główny kanał Serverlog",
+        "serverLogDesc": "Główny kanał logowania",
         "notSet": "Niezdefiniowany",
         "selectACategory": "Wybierz kategorię",
         "overview": "Przegląd",
@@ -145,58 +145,58 @@
             "categoryMembers": {
                 "title": "Członkowie",
                 "description": "Akcje członków (dołączenie/wyjście, role, pseudonimy)",
-                "resetButton": "Reset Member Logging Channel",
-                "disableButton": "Disable Member Logs",
-                "enableButton": "Enable Member Logs"
+                "resetButton": "Zresetuj kanał logowania członków",
+                "disableButton": "Wyłącz logowanie członków",
+                "enableButton": "Włącz logowanie członków"
             },
             "categoryText": {
                 "title": "Wiadomości",
                 "description": "Akcje wiadomości (usunięcia, edycje, przypięcia, reakcje)",
-                "resetButton": "Reset Message Logging Channel",
-                "disableButton": "Disable Message Logs",
-                "enableButton": "Enable Message Logs"
+                "resetButton": "Zresetuj kanał logowania wiadomości",
+                "disableButton": "Wyłącz logowanie wiadomości",
+                "enableButton": "Włącz logowanie wiadomości"
             },
             "categoryVoice": {
                 "title": "Głos",
                 "description": "Akcje kanału głosowego (dołączenie/wyjście, transmisje, wyciszenie/ogłuszenie)",
-                "resetButton": "Reset Voice Logging Channel",
-                "disableButton": "Disable Voice Logs",
-                "enableButton": "Enable Voice Logs"
+                "resetButton": "Zresetuj kanał logowania kanałów głosowych",
+                "disableButton": "Wyłącz logowanie kanałów głosowych",
+                "enableButton": "Włącz logowanie kanałów głosowych"
             },
             "categoryActions": {
                 "title": "Akcje serwera",
                 "description": "Akcje serwera (tworzenie/usuwanie zaproszeń, emotikony)",
-                "resetButton": "Reset Server Actions Logging Channel",
-                "disableButton": "Disable Server Actions Logs",
-                "enableButton": "Enable Server Actions Logs"
+                "resetButton": "Zresetuj kanał logowania akcji serwera",
+                "disableButton": "Wyłącz logowanie akcji serwera",
+                "enableButton": "Włącz logowanie akcji serwera"
             },
             "categoryChannels": {
                 "title": "Kanały",
                 "description": "Akcje kanału (tworzenie/usuwanie, uprawnienia)",
-                "resetButton": "Reset Channel Logging Channel",
-                "disableButton": "Disable Channel Logs",
-                "enableButton": "Enable Channel Logs"
+                "resetButton": "Zresetuj kanał logowania kanałów",
+                "disableButton": "Wyłącz logowanie kanałów",
+                "enableButton": "Włącz logowanie kanałów"
             },
             "categoryServer": {
                 "title": "Wydarzenia serwera",
                 "description": "Ogólne akcje (modyfikacje serwera)",
-                "resetButton": "Reset Server Event Logging Channel",
-                "disableButton": "Disable Server Event Logs",
-                "enableButton": "Enable Server Event Logs"
+                "resetButton": "Zresetuj kanał logowania wydarzeń serwera",
+                "disableButton": "Wyłącz logowanie wydarzeń serwera",
+                "enableButton": "Włącz logowanie wydarzeń serwera"
             },
             "categoryRoles": {
                 "title": "Role",
                 "description": "Akcje ról (tworzenie/usuwanie, uprawnienia)",
-                "resetButton": "Reset Role Logging Channel",
-                "disableButton": "Disable Role Logs",
-                "enableButton": "Enable Role Logs"
+                "resetButton": "Zresetuj kanał logowania ról",
+                "disableButton": "Wyłącz logowanie ról",
+                "enableButton": "Włącz logowanie ról"
             },
             "categoryModlog": {
                 "title": "Logi moderatorów",
                 "description": "Akcje moderacji (bany, wyrzucenia, wyciszenia)",
-                "resetButton": "Reset Modlog Logging Channel",
-                "disableButton": "Disable Modlog Logs",
-                "enableButton": "Enable Modlog Logs"
+                "resetButton": "Zresetuj kanał logowania akcji moderatorów",
+                "disableButton": "Wyłącz logowanie akcji moderatorów",
+                "enableButton": "Włącz logowanie akcji moderatorów"
             },
             "overview": {
                 "title": "Przegląd",
@@ -204,26 +204,26 @@
             },
             "categoryFiles": {
                 "title": "Pliki",
-                "description": "Files (deleted attachments)"
+                "description": "Pliki (Usunięte załączniki)"
             },
             "categoryQuark": {
                 "title": "Ustawienia Quark",
                 "description": "Zmiany które zostały zmienione dla ustawień Quark dla tego serwera",
-                "resetButton": "Reset Quark Config Logging Channel",
-                "disableButton": "Disable Quark Config Logs",
-                "enableButton": "Enable Quark Config Logs"
+                "resetButton": "Zresetuj kanał logowania konfiguracji Quark",
+                "disableButton": "Wyłącz logowanie konfiguracji Quark",
+                "enableButton": "Włącz logowanie konfiguracji Quark"
             }
         },
-        "selectChannel": "Set logging channel",
-        "all": "All",
-        "resetChannel": "Reset Main Channel",
-        "selectLogType": "Select Log Type",
-        "resetLogChannel": "Reset Log Channel",
-        "furtherConfig": "For more control over logs, such as selecting different channels for different log types or preventing certain channels, users or messages from being logged please visit [Quark's web dashboard]"
+        "selectChannel": "Ustaw kanał logowania",
+        "all": "Wszystko",
+        "resetChannel": "Zresetuj główny kanał",
+        "selectLogType": "Wybierz typ loga",
+        "resetLogChannel": "Zresetuj kanał logowania",
+        "furtherConfig": "Po więcej kontroli nad logami, taką jak wybieranie różnych kanałów dla różnych typów logów lub zapobieganie logowania niektórych kanałów, użytkowników lub wiadomości udaj się na [Panel Webowy Quark]"
     },
     "setserverlog-type-quark-0": "Wydarzenia Quarka",
     "setserverlog-type-quark-1": "Wydarzenia Quarka",
     "help-modify-tags-description": "Aby tworzyć i edytować tagi, proszę odwiedź [Quark's web dashboard]",
-    "banButton-banning": "Banning {user} {inXSeconds}",
-    "banButton-cancel": "Cancel"
+    "banButton-banning": "Banowanie {user} {inXSeconds}",
+    "banButton-cancel": "Anuluj"
 }
