@@ -7,8 +7,9 @@ export interface Locale {
     active: boolean;
 }
 export type Languages = {
-    [key: string]: Locale;
+    [key: localeOptions]: Locale;
 };
+export type localeOptions = typeof validLanguages[number];
 export declare const locales: Languages;
 export declare const validLanguages: Array<string>;
 export declare const getDiscordLocaleCode: (language: string) => DiscordLocaleKeys;

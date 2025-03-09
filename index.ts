@@ -10,10 +10,12 @@ export interface Locale {
 }
 
 export type Languages = {
-  [key: string]: Locale;
+  [key: localeOptions]: Locale;
 };
 
 import _locales from "./bot/languages.json" with { type: "json" };
+
+export type localeOptions = typeof validLanguages[number];
 
 export const locales: Languages = _locales;
 
