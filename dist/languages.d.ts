@@ -489,10 +489,6 @@ export type LanguageStructure = {
   name: string;
   description: string;
 }>;
-  dashboard: Promise<{
-  name: string;
-  description: string;
-}>;
   config: Promise<{
   name: string;
   description: string;
@@ -520,6 +516,10 @@ export type LanguageStructure = {
   description: string;
 };
 };
+}>;
+  dashboard: Promise<{
+  name: string;
+  description: string;
 }>;
   export: Promise<{
   name: string;
