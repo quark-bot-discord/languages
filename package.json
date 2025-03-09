@@ -12,7 +12,7 @@
   },
   "exports": {
     "@types": {
-      "types": "./languages.d.ts"
+      "types": "./dist/languages.d.ts"
     },
     ".": {
       "import": "./dist/index.js",
