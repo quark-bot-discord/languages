@@ -68,7 +68,8 @@
         "title": "Status van voice kanaal Bijgewerkt",
         "description": "{executor} heeft de status ingesteld voor {channel}",
         "status": "Status",
-        "linksToEmojis": "Links naar emoji's"
+        "linksToEmojis": "Links naar emoji's",
+        "descriptionRemoved": "{executor} removed the status for {channel}"
     },
     "stageStarted": {
         "title": "Podium Gestart",
