@@ -68,7 +68,8 @@
         "title": "Statut de Salon Vocal Modifié",
         "description": "{executor} a défini le statut pour {channel}",
         "status": "Statut",
-        "linksToEmojis": "Liens vers les emojis"
+        "linksToEmojis": "Liens vers les emojis",
+        "descriptionRemoved": "{executor} removed the status for {channel}"
     },
     "stageStarted": {
         "title": "Conférence Commencée",
