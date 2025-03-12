@@ -68,7 +68,8 @@
         "title": "Zaktualizowano Status Kanału Głosowego",
         "description": "{executor} ustawił status dla kanału {channel}",
         "status": "Status",
-        "linksToEmojis": "Linki do emoji"
+        "linksToEmojis": "Linki do emoji",
+        "descriptionRemoved": "{executor} removed the status for {channel}"
     },
     "stageStarted": {
         "title": "Rozpoczęto Scenę",
