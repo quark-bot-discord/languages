@@ -68,7 +68,8 @@
         "title": "Cập nhật Trạng thái Kênh thoại",
         "description": "{executor} đã cập nhật trạng thái cho {channel}",
         "status": "Trạng thái",
-        "linksToEmojis": "Liên kết đến emoji"
+        "linksToEmojis": "Liên kết đến emoji",
+        "descriptionRemoved": "{executor} removed the status for {channel}"
     },
     "stageStarted": {
         "description": "{executor} started a stage in {channel}",

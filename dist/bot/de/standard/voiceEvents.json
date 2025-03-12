@@ -68,7 +68,8 @@
         "title": "Sprachkanal Status aktualisiert",
         "description": "{executor} hat den Status von {channel} gesetzt",
         "status": "Status",
-        "linksToEmojis": "Links zu Emojis"
+        "linksToEmojis": "Links zu Emojis",
+        "descriptionRemoved": "{executor} removed the status for {channel}"
     },
     "stageStarted": {
         "title": "Stage gestartet",

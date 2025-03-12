@@ -68,7 +68,8 @@
         "title": "Voice Channel Status Updated",
         "description": "{executor} set the status for {channel}",
         "status": "Status",
-        "linksToEmojis": "Links to emojis"
+        "linksToEmojis": "Links to emojis",
+        "descriptionRemoved": "{executor} removed the status for {channel}"
     },
     "stageStarted": {
         "title": "Stage Started",

@@ -68,7 +68,8 @@
         "title": "Estado del canal de voz actualizado",
         "description": "{executor} establece el estado de {channel}",
         "status": "Estado",
-        "linksToEmojis": "Enlaces a emojis"
+        "linksToEmojis": "Enlaces a emojis",
+        "descriptionRemoved": "{executor} removed the status for {channel}"
     },
     "stageStarted": {
         "title": "Etapa iniciada",
