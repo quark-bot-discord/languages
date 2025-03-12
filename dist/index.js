@@ -16,11 +16,16 @@ export const getDiscordLocaleCode = (language) => {
     }
     throw new Error(`Language ${language} not found`);
 };
+export const checkIsQuarkLocaleCode = (language) => {
+    return Object.values(locales).some((locale) => locale.code === language);
+};
 export const getQuarkLocaleCode = (language) => {
     var _a;
     const toReturn = (_a = locales[language]) === null || _a === void 0 ? void 0 : _a.code;
     if (!toReturn)
         throw new Error(`Language ${language} not found`);
+    if (!checkIsQuarkLocaleCode(toReturn))
+        throw new Error(`Language ${toReturn} not found`);
     return toReturn;
 };
 export const getDatabaseLocaleCode = (language) => {

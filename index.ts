@@ -1,4 +1,4 @@
-import type { LanguageStructure } from "./languages.d.ts";
+import type { LanguageStructure, QuarkLanguageCodes } from "./languages.d.ts";
 
 export type DiscordLocaleKeys = keyof typeof locales;
 
@@ -34,20 +34,26 @@ export const getDiscordLocaleCode = (language: string): DiscordLocaleKeys => {
   throw new Error(`Language ${language} not found`);
 };
 
-export const getQuarkLocaleCode = (language: DiscordLocaleKeys): string => {
+export const checkIsQuarkLocaleCode = (language: string): language is QuarkLanguageCodes => {
+  return Object.values(locales).some((locale) => locale.code === language);
+};
+
+export const getQuarkLocaleCode = (language: DiscordLocaleKeys): QuarkLanguageCodes => {
   const toReturn = locales[language]?.code;
   if (!toReturn) throw new Error(`Language ${language} not found`);
+  if (!checkIsQuarkLocaleCode(toReturn))
+    throw new Error(`Language ${toReturn} not found`);
   return toReturn;
 };
 
-export const getDatabaseLocaleCode = (language: string): number => {
+export const getDatabaseLocaleCode = (language: DiscordLocaleKeys): number => {
   const toReturn = locales[language]?.id;
   if (typeof toReturn !== "number")
     throw new Error(`Language ${language} not found`);
   return toReturn;
 };
 
-export const getLocaleFromDatabaseCode = (databaseCode: number): string => {
+export const getLocaleFromDatabaseCode = (databaseCode: number): DiscordLocaleKeys => {
   for (const [key, value] of Object.entries(locales))
     if (value.id === databaseCode) return key;
   throw new Error(`Language ${databaseCode} not found`);
