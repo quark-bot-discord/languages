@@ -1,3 +1,7 @@
+<a href="https://languages.quark.bot/engage/quark-bot/">
+<img src="https://languages.quark.bot/widget/quark-bot/svg-badge.svg" alt="Translation status" />
+</a>
+
 # Quark Languages
 Welcome! This is the place to contribute to adding and editing languages for Quark! By contributing, you help us and the community as well as making Quark more accessible to more people. We are very grateful for the positive impact you will have upon others.
 
