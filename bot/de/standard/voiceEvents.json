@@ -69,7 +69,7 @@
         "description": "{executor} hat den Status von {channel} gesetzt",
         "status": "Status",
         "linksToEmojis": "Links zu Emojis",
-        "descriptionRemoved": "{executor} removed the status for {channel}"
+        "descriptionRemoved": "{executor} hat den Status von {channel} entfernt"
     },
     "stageStarted": {
         "title": "Stage gestartet",
