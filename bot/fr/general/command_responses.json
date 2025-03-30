@@ -104,14 +104,14 @@
     "help-overview-inventory-description": "Gérez votre abonnement et obtenez certaines fonctionnalités [Quark Pro] gratuitement !",
     "help-overview-view-inv": "Voir l'inventaire",
     "help-overview-website": "Site Web",
-    "help-overview-serverlog": "Logs de serveur",
+    "help-overview-serverlog": "Logs",
     "help-overview-modlog": "Logs de modération",
     "help-overview-commands": "Commandes",
     "help-overview-language": "Langue",
     "help-overview-premium": "Premium",
     "help-overview-inventory": "Inventaire",
     "help-overview-channel-isset": "Salon configuré dans {channel}",
-    "help-overview-channel-isnotset": "Exécutez {command} dans le salon désiré",
+    "help-overview-channel-isnotset": "Exécutez {command} pour commencer",
     "help-overview-view-options": "Exécutez {command} pour voir les options",
     "help-overview-view-options-and-statuses": "Exécutez {command} pour voir les statuts et les options",
     "help-overview-view-all-commands": "Exécutez {command} pour voir les commandes",
@@ -132,7 +132,7 @@
     "initialreactors-expired": "expiré",
     "initialreactors-notfound": "Aucune réaction trouvée",
     "configCommand": {
-        "title": "Configuration des Logs du Serveur",
+        "title": "Configurateur des Logs {quark}",
         "selection": "Sélectionnez une catégorie dans le menu pour afficher la configuration.",
         "serverLogDesc": "Salon principal des logs du serveur",
         "notSet": "Pas défini",
@@ -146,16 +146,16 @@
             "categoryMembers": {
                 "title": "Membres",
                 "description": "Les actions de membre (rejoindre/quitter, rôles, pseudo)",
-                "resetButton": "Reset Member Logging Channel",
-                "disableButton": "Disable Member Logs",
-                "enableButton": "Enable Member Logs"
+                "resetButton": "Réinitialiser le salon des logs de membre",
+                "disableButton": "Désactiver les logs de membre",
+                "enableButton": "Activer les logs de membre"
             },
             "categoryText": {
                 "title": "Messages",
                 "description": "Les actions de message (suppressions, modifications, épinglements, mettre/enlever une réaction)",
                 "resetButton": "Reset Message Logging Channel",
                 "disableButton": "Disable Message Logs",
-                "enableButton": "Enable Message Logs"
+                "enableButton": "Activer les logs de message"
             },
             "categoryVoice": {
                 "title": "Voix",
@@ -167,20 +167,20 @@
             "categoryActions": {
                 "title": "Les actions de serveur",
                 "description": "Les actions de serveur (création d'invitation/suppression, émojis)",
-                "resetButton": "Reset Server Actions Logging Channel",
-                "disableButton": "Disable Server Actions Logs",
-                "enableButton": "Enable Server Actions Logs"
+                "resetButton": "Réinitialiser le salon des logs des actions de serveur",
+                "disableButton": "Désactiver les logs des actions de serveur",
+                "enableButton": "Activer les logs des actions de serveur"
             },
             "categoryChannels": {
                 "title": "Salons",
                 "description": "Les actions de salons (créations/suppressions, permissions)",
-                "resetButton": "Reset Channel Logging Channel",
-                "disableButton": "Disable Channel Logs",
-                "enableButton": "Enable Channel Logs"
+                "resetButton": "Réinitialiser le salon des logs de salon",
+                "disableButton": "Désactiver les logs de salon",
+                "enableButton": "Activer les logs de salon"
             },
             "categoryFiles": {
                 "title": "Fichiers",
-                "description": "Files (deleted attachments)"
+                "description": "Fichiers (pièces jointes supprimées)"
             },
             "categoryServer": {
                 "title": "Les Événements du Serveur",
@@ -212,18 +212,18 @@
                 "description": "Les changements apportés à la configuration de Quark pour ce serveur",
                 "resetButton": "Reset Quark Config Logging Channel",
                 "disableButton": "Disable Quark Config Logs",
-                "enableButton": "Enable Quark Config Logs"
+                "enableButton": "Activer les logs de configurations Quark"
             }
         },
         "selectChannel": "Set logging channel",
-        "all": "All",
-        "resetChannel": "Reset Main Channel",
+        "all": "Tout",
+        "resetChannel": "Réinitialiser le salon principal",
         "selectLogType": "Select Log Type",
         "resetLogChannel": "Reset Log Channel",
-        "furtherConfig": "For more control over logs, such as selecting different channels for different log types or preventing certain channels, users or messages from being logged please visit [Quark's web dashboard]"
+        "furtherConfig": "Pour plus de contrôles sur les logs, comme la sélection de salons différents pour des différents types de log ou empêcher certains salons, utilisateurs ou messages d'être log, veuillez visiter [Quark's web dashboard]"
     },
     "help-overview-help": "Aide",
     "help-modify-tags-description": "Pour créer et modifier des étiquettes, merci de visiter le [dashboard de Quark]",
-    "banButton-banning": "Banning {user} {inXSeconds}",
-    "banButton-cancel": "Cancel"
+    "banButton-banning": "Ban {user} {inXSeconds}",
+    "banButton-cancel": "Annuler"
 }
