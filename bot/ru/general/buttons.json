@@ -1,9 +1,9 @@
 {
-    "userID": "User ID",
-    "supportServer": "Support Server",
-    "customise": "Customize",
-    "overview": "Overview",
-    "serverlog": "Serverlog",
-    "dashboard": "Dashboard",
+    "userID": "ID пользователя",
+    "supportServer": "Сервер поддержки",
+    "customise": "Настроить",
+    "overview": "Обзор",
+    "serverlog": "Лог сервера",
+    "dashboard": "Панель управления",
     "pro": "Quark Pro"
 }
