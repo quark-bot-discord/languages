@@ -1,64 +1,64 @@
 {
     "serverlogChannelUpdate": {
-        "title": "Logging Channel Changed",
-        "description_set": "{executor} set the {type} logging channel to {channel}",
-        "description_category_disable": "{executor} disabled the {type} logging channel",
-        "description_unset": "{executor} unset the {type} logging channel"
+        "title": "Канал логирования изменён",
+        "description_set": "{executor} установил канал логирования {type} в {channel}",
+        "description_category_disable": "{executor} отключил канал логирования {type}",
+        "description_unset": "{executor} сбросил настройки канала логирования {type}"
     },
     "serverlogOptionsUpdate": {
-        "title": "Logging Options Updated",
-        "description": "{executor} set {option} to {state}",
-        "pluralkitSupport": "PluralKit Support",
-        "spoilers": "Spoilers",
-        "buttons": "Buttons",
-        "formatType": "Format Type"
+        "title": "Настройки логирования обновлены",
+        "description": "{executor} установил {option} в значение {state}",
+        "pluralkitSupport": "Поддержка PluralKit",
+        "spoilers": "Спойлеры",
+        "buttons": "Кнопки",
+        "formatType": "Тип форматирования"
     },
     "serverlogLogUpdate": {
-        "title": "Log Updated",
-        "description": "{executor} updated the {type} log",
-        "enabled": "Enabled",
-        "logFormat": "Format",
-        "logChannel": "Channel",
-        "colour": "Color",
-        "ignoreBotExecutors": "Ignore Bot Executors",
-        "ignoreBotTargets": "Ignore Bot Targets",
-        "activeIgnore": "Active Ignore"
+        "title": "Лог обновлён",
+        "description": "{executor} обновил лог {type}",
+        "enabled": "Включено",
+        "logFormat": "Формат",
+        "logChannel": "Канал",
+        "colour": "Цвет",
+        "ignoreBotExecutors": "Игнорировать ботов-исполнителей",
+        "ignoreBotTargets": "Игнорировать ботов-целей",
+        "activeIgnore": "Активное игнорирование"
     },
     "serverlogIgnoreUpdate": {
-        "title": "Ignore Options Updated",
-        "description_set": "{executor} enabled {type}",
-        "description_unset": "{executor} disabled {type}",
-        "description_added": "{executor} added {target} to {type}",
-        "description_removed": "{executor} removed {target} from {type}"
+        "title": "Настройки игнорирования обновлены",
+        "description_set": "{executor} включил {type}",
+        "description_unset": "{executor} отключил {type}",
+        "description_added": "{executor} добавил {target} в {type}",
+        "description_removed": "{executor} удалил {target} из {type}"
     },
     "languageUpdate": {
-        "title": "Language Changed",
-        "description": "{executor} changed the language to {language}"
+        "title": "Язык изменён",
+        "description": "{executor} изменил язык на {language}"
     },
     "reset": {
-        "title": "Configuration Reset",
-        "description": "{executor} reset the configuration for this server"
+        "title": "Конфигурация сброшена",
+        "description": "{executor} сбросил настройки сервера"
     },
     "tagAdded": {
-        "title": "Tag Added",
-        "description": "{executor} created a tag {tag}"
+        "title": "Тег добавлен",
+        "description": "{executor} создал тег {tag}"
     },
     "tagUpdated": {
-        "title": "Tag Updated",
-        "description": "{executor} updated the tag {tag}"
+        "title": "Тег обновлён",
+        "description": "{executor} обновил тег {tag}"
     },
     "tagDeleted": {
-        "title": "Tag Deleted",
-        "description": "{executor} deleted the tag {tag}"
+        "title": "Тег удалён",
+        "description": "{executor} удалил тег {tag}"
     },
     "tokenAdded": {
-        "title": "Token Generated",
-        "description": "{executor} generated a Quark access token with {permissions} permissions for this server",
-        "unique_id": "Token ID",
-        "revoke": "Revoke this token"
+        "title": "Токен создан",
+        "description": "{executor} создал токен доступа Quark с правами {permissions} для этого сервера",
+        "unique_id": "ID токена",
+        "revoke": "Отозвать токен"
     },
     "tokenRevoked": {
-        "title": "Token Revoked",
-        "description": "{executor} revoked the Quark access token with ID {token}"
+        "title": "Токен отозван",
+        "description": "{executor} отозвал токен доступа Quark с ID {token}"
     }
 }
