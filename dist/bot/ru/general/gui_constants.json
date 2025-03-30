@@ -1,46 +1,46 @@
 {
     "channelModificationTypes": {
-        "name": "Name",
-        "type": "Type",
-        "position": "Position",
-        "topic": "Topic",
-        "rate_limit_per_user": "Slowmode",
-        "parent_id": "Category",
-        "bitrate": "Bitrate",
-        "user_limit": "User Limit",
-        "rtc_region": "Region",
+        "name": "Название",
+        "type": "Тип",
+        "position": "Позиция",
+        "topic": "Тема",
+        "rate_limit_per_user": "Медленный режим",
+        "parent_id": "Категория",
+        "bitrate": "Битрейт",
+        "user_limit": "Лимит пользователей",
+        "rtc_region": "Регион",
         "nsfw": "NSFW"
     },
     "roleModificationTypes": {
-        "name": "Name",
-        "color": "Color",
-        "hoist": "Hoisted",
-        "managed": "Managed",
-        "mentionable": "Mentionable",
-        "unicode_emoji": "Emoji"
+        "name": "Название",
+        "color": "Цвет",
+        "hoist": "Отображается отдельно",
+        "managed": "Управляется",
+        "mentionable": "Упоминаемая",
+        "unicode_emoji": "Эмодзи"
     },
     "emojiModificationTypes": {
-        "name": "Name"
+        "name": "Название"
     },
     "guildModificationTypes": {
-        "name": "Name",
-        "description": "Description",
-        "system_channel_id": "System Channel",
-        "rules_channel_id": "Rule Channel",
-        "mfa_level": "MFA Required",
-        "verification_level": "Verification Level",
-        "default_message_notifications": "Default Notifications",
-        "explicit_content_filter": "Explicit Content Filter",
-        "nsfw_level": "NSFW Level",
-        "premium_progress_bar_enabled": "Progress Bar"
+        "name": "Название",
+        "description": "Описание",
+        "system_channel_id": "Системный канал",
+        "rules_channel_id": "Канал правил",
+        "mfa_level": "Требуется MFA",
+        "verification_level": "Уровень верификации",
+        "default_message_notifications": "Уведомления по умолчанию",
+        "explicit_content_filter": "Фильтр откровенного контента",
+        "nsfw_level": "Уровень NSFW",
+        "premium_progress_bar_enabled": "Индикатор прогресса"
     },
     "webhookModificationTypes": {
-        "name": "Name",
-        "channel_id": "Channel"
+        "name": "Название",
+        "channel_id": "Канал"
     },
     "threadModificationTypes": {
-        "rate_limit_per_user": "Slowmode",
-        "auto_archive_duration": "Automatic Archive",
-        "name": "Name"
+        "rate_limit_per_user": "Медленный режим",
+        "auto_archive_duration": "Автоматическая архивация",
+        "name": "Название"
     }
 }

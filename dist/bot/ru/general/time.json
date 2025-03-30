@@ -1,16 +1,16 @@
 {
-    "second": "{time} второй",
-    "second-plural": "{time} товары второго сорта",
+    "second": "{time} секунда",
+    "second-plural": "{time} секунды",
     "minute": "{time} минута",
-    "minute-plural": "{time} протокол",
+    "minute-plural": "{time} минуты",
     "hour": "{time} час",
-    "hour-plural": "{time} Часов",
+    "hour-plural": "{time} часа",
     "day": "{time} день",
-    "day-plural": "{time} Дни недели",
+    "day-plural": "{time} дня",
     "week": "{time} неделя",
-    "week-plural": "{time} Недель",
+    "week-plural": "{time} недели",
     "month": "{time} месяц",
-    "month-plural": "{time} Месяцы",
+    "month-plural": "{time} месяца",
     "year": "{time} год",
-    "year-plural": "{time} годы"
+    "year-plural": "{time} года"
 }

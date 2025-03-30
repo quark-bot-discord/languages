@@ -1,13 +1,13 @@
 {
-    "serverEvents": "Members",
-    "serverActions": "Actions",
-    "textEvents": "Messages",
-    "voiceEvents": "Voice",
-    "fileEvents": "Files",
-    "generalEvents": "Server",
-    "roleEvents": "Roles",
-    "channelEvents": "Channels",
-    "quarkEvents": "Quark Config",
-    "modLog": "Modlogs",
-    "main": "Main"
+    "serverEvents": "Участники",
+    "serverActions": "Действия",
+    "textEvents": "Сообщения",
+    "voiceEvents": "Голосовые каналы",
+    "fileEvents": "Файлы",
+    "generalEvents": "Сервер",
+    "roleEvents": "Роли",
+    "channelEvents": "Каналы",
+    "quarkEvents": "Настройки Quark",
+    "modLog": "Логи модерации",
+    "main": "Основные"
 }

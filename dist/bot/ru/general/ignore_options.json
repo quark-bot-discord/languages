@@ -1,12 +1,12 @@
 {
-    "ignoreTargets": "Ignore Target Users",
-    "ignoreExecutors": "Ignore Target Executors",
-    "specificMessageContent": "Ignore Specific Message Content",
-    "ignoreChannels": "Ignore Channels",
-    "ignoreBotExecutors": "Ignore Bot Executors",
-    "ignoreBotTargets": "Ignore Bot Targets",
-    "ignoreExecutorRoles": "Ignore Executor Roles",
-    "ignoreTargetRoles": "Ignore Target Roles",
-    "ignoreCategories": "Ignore Categories",
-    "activeIgnore": "Active Ignore"
+    "ignoreTargets": "Игнорируемые пользователи",
+    "ignoreExecutors": "Игнорируемые инициаторы",
+    "specificMessageContent": "Игнорировать определенное содержимое сообщения",
+    "ignoreChannels": "Игнорировать каналы",
+    "ignoreBotExecutors": "Игнорировать ботов-инициаторов",
+    "ignoreBotTargets": "Игнорировать целевых ботов",
+    "ignoreExecutorRoles": "Игнорировать роли инициаторов",
+    "ignoreTargetRoles": "Игнорировать роли целевых пользователей",
+    "ignoreCategories": "Игнорировать категории",
+    "activeIgnore": "Активное игнорирование"
 }

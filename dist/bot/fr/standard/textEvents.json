@@ -91,7 +91,7 @@
         "jumpToMessage": "Voir le message"
     },
     "threadUpdated": {
-        "description": "{thread} was modified by {executor}",
-        "title": "Thread Modified"
+        "description": "{thread} a été modifié par {executor}",
+        "title": "Fil Modifié"
     }
 }

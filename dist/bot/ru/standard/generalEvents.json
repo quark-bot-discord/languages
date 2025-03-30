@@ -1,30 +1,30 @@
 {
     "serverModified": {
-        "title": "Server Modified",
-        "description": "This server was modified by {executor}"
+        "title": "Сервер изменен",
+        "description": "Изменения внесены {executor}"
     },
     "serverIconUpdated": {
-        "title": "Server Icon Updated",
-        "description": "{executor} updated the server icon",
-        "description_added": "{executor} added a server icon",
-        "description_removed": "{executor} removed the server icon",
-        "linkToOldIcon": "Link to old icon",
-        "linkToNewIcon": "Link to new icon"
+        "title": "Иконка сервера обновлена",
+        "description": "{executor} обновил иконку сервера",
+        "description_added": "{executor} добавил иконку сервера",
+        "description_removed": "{executor} удалил иконку сервера",
+        "linkToOldIcon": "Ссылка на старую иконку",
+        "linkToNewIcon": "Ссылка на новую иконку"
     },
     "serverBoostAdd": {
-        "title": "Server Boosted",
-        "description": "{user} boosted this server 🎉",
-        "description_noUser": "Someone boosted this server 🎉",
-        "description_withTier": "{user} boosted this server to tier {tier} 🎉",
-        "description_withTier_noUser": "Someone boosted this server to tier {tier} 🎉",
-        "none": "none"
+        "title": "Сервер забущен",
+        "description": "{user} забустил сервер 🎉",
+        "description_noUser": "Сервер получил буст 🎉",
+        "description_withTier": "{user} повысил сервер до {tier} уровня 🎉",
+        "description_withTier_noUser": "Сервер достиг {tier} уровня бустов 🎉",
+        "none": "нет"
     },
     "serverBoostRemove": {
-        "title": "Server Boost Removed",
-        "description": "{user} stopped boosting this server",
-        "description_noUser": "Someone stopped boosting this server",
-        "description_withTier": "{user} stopped boosting, causing the server to drop down to tier {tier}",
-        "description_withTier_noUser": "Someone stopped boosting, causing the server to drop down to tier {tier}",
-        "none": "none"
+        "title": "Буст отменен",
+        "description": "{user} отменил буст сервера",
+        "description_noUser": "Кто-то перестал бустить сервер",
+        "description_withTier": "{user} отменил буст, понизив сервер до {tier} уровня",
+        "description_withTier_noUser": "Отмена буста понизила сервер до {tier} уровня",
+        "none": "нет"
     }
 }

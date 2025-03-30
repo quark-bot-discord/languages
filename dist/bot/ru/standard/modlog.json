@@ -1,20 +1,20 @@
 {
-    "moderator": "Moderator",
-    "user": "User",
-    "reason": "Reason",
-    "case": "Case",
-    "noReason": "Moderator: please run {command}",
-    "noReasonBrief": "Run {command}",
-    "ban": "Ban",
-    "unban": "Unban",
-    "kick": "Kick",
-    "mute": "Timeout",
-    "unmute": "Timeout Removed",
-    "timeoutEnds": "Timeout ends {time}",
-    "editReason": "Edit Reason",
+    "moderator": "Модератор",
+    "user": "Пользователь",
+    "reason": "Причина",
+    "case": "Кейс",
+    "noReason": "Модератор: используйте {command}",
+    "noReasonBrief": "Выполните {command}",
+    "ban": "Бан",
+    "unban": "Разбан",
+    "kick": "Кик",
+    "mute": "Тайм-аут",
+    "unmute": "Тайм-аут снят",
+    "timeoutEnds": "Тайм-аут до {time}",
+    "editReason": "Изменить причину",
     "reasonModal": {
-        "label": "Reason",
-        "placeholder": "Being very bad >:(",
-        "title": "Modify modlog reason"
+        "label": "Причина",
+        "placeholder": "Нарушение правил >:(",
+        "title": "Изменить причину в журнале"
     }
 }

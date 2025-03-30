@@ -1,5 +1,5 @@
 {
-    "enabled": "enabled",
-    "disabled": "disabled",
-    "none": "none"
+    "enabled": "Включено",
+    "disabled": "Отключено",
+    "none": "нет"
 }
