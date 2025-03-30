@@ -1,97 +1,97 @@
 {
     "polls": {
-        "poll": "Poll",
-        "pollDescriptor": "[poll]",
-        "status": "Poll has status.",
-        "ended": "ended",
-        "notEnded": "not ended",
-        "multiselect": "Multiselect",
-        "enabled": "enabled",
-        "disabled": "disabled",
-        "ends": "Ends",
-        "vote": "vote",
-        "votes": "votes",
-        "noResponses": "No responses",
-        "pollDeleted": "Poll Deleted"
+        "poll": "Опрос",
+        "pollDescriptor": "[опрос]",
+        "status": "Статус опроса.",
+        "ended": "завершён",
+        "notEnded": "не завершён",
+        "multiselect": "Множественный выбор",
+        "enabled": "включён",
+        "disabled": "отключён",
+        "ends": "Завершается",
+        "vote": "голос",
+        "votes": "голосов",
+        "noResponses": "Нет ответов",
+        "pollDeleted": "Опрос удалён"
     },
     "messageDeleted": {
-        "title": "Message Deleted",
-        "author": "Message author",
-        "channel": "Channel",
-        "deletedBy": "Deleted by",
-        "jumpToContext": "Jump to context",
-        "warning": "WARNING!",
-        "linksToEmojis": "Links to emojis",
-        "linksToFiles": "Links to files",
-        "inviteDetected": "Server invite detected",
-        "ghostpingDetected": "Ghostping detected",
-        "file": "file",
-        "files": "files",
-        "fileExpired": "file too large or expired",
-        "filesExpired": "files too large or expired",
-        "sticker": "sticker",
-        "noContent": "no content",
-        "embed": "embed",
-        "thread": "Thread",
-        "initialReactor": "initial reactor"
+        "title": "Сообщение удалено",
+        "author": "Автор сообщения",
+        "channel": "Канал",
+        "deletedBy": "Удалено пользователем",
+        "jumpToContext": "Перейти к контексту",
+        "warning": "Предупреждение!",
+        "linksToEmojis": "Ссылки на эмодзи",
+        "linksToFiles": "Ссылки на файлы",
+        "inviteDetected": "Обнаружено приглашение на сервер",
+        "ghostpingDetected": "Обнаружен ghostping",
+        "file": "файл",
+        "files": "файлы",
+        "fileExpired": "файл слишком большой или удалён",
+        "filesExpired": "файлы слишком большие или удалены",
+        "sticker": "стикер",
+        "noContent": "нет содержимого",
+        "embed": "вложение",
+        "thread": "Ветка",
+        "initialReactor": "первый реактор"
     },
     "messagesBulkDeleted": {
-        "title": "Multiple Messages Deleted",
-        "deletedBy": "Deleted by",
-        "channel": "Channel",
-        "more": "more",
-        "uncachedUser": "uncached user",
-        "uncachedChannel": "uncached channel",
-        "uncachedMessage": "uncached message",
-        "embed": "embed",
-        "errorFile": "There was an issue with recovering the files. If this happens persistently, please make us aware in Quark's support server.",
-        "errorText": "There was an issue with creating a text file. Some messages may be lost. If this happens persistently, please make us aware in Quark's support server."
+        "title": "Массовое удаление сообщений",
+        "deletedBy": "Удалено пользователем",
+        "channel": "Канал",
+        "more": "ещё",
+        "uncachedUser": "некэшированный пользователь",
+        "uncachedChannel": "некэшированный канал",
+        "uncachedMessage": "некэшированное сообщение",
+        "embed": "вложение",
+        "errorFile": "Возникла проблема с восстановлением файлов. Если это происходит постоянно, сообщите нам на сервере поддержки Quark.",
+        "errorText": "Возникла проблема с созданием текстового файла. Некоторые сообщения могут быть потеряны. Если это происходит постоянно, сообщите нам на сервере поддержки Quark."
     },
     "messageUpdate": {
-        "title": "Message Edited",
-        "author": "Message author",
-        "channel": "Channel",
-        "jumpToMessage": "Jump to message",
-        "afterEdit": "After edit",
-        "diff": "Edits",
-        "diffError": "Unable to calculate edits.",
-        "cannotRetrieveOriginal": "Cannot retrieve original message",
-        "noContent": "no content",
-        "thread": "Thread"
+        "title": "Сообщение изменено",
+        "author": "Автор сообщения",
+        "channel": "Канал",
+        "jumpToMessage": "Перейти к сообщению",
+        "afterEdit": "После изменения",
+        "diff": "Изменения",
+        "diffError": "Не удалось рассчитать изменения.",
+        "cannotRetrieveOriginal": "Не удалось получить исходное сообщение",
+        "noContent": "нет содержимого",
+        "thread": "Ветка"
     },
     "attachmentDeleted": {
-        "title": "Attachment Deleted"
+        "title": "Вложение удалено"
     },
     "messagePin": {
-        "title": "Message Pinned",
-        "description": "A message was pinned by {executor}"
+        "title": "Сообщение закреплено",
+        "description": "Сообщение было закреплено {executor}"
     },
     "messageUnpin": {
-        "title": "Message Unpinned",
-        "description": "A message was unpinned by {executor}"
+        "title": "Сообщение откреплено",
+        "description": "Сообщение было откреплено {executor}"
     },
     "threadCreate": {
-        "thread": "Thread",
-        "channel": "Channel",
-        "jumpToContext": "Jump to context",
-        "title": "Thread Created",
-        "description": "{member} created a new thread {thread}"
+        "thread": "Ветка",
+        "channel": "Канал",
+        "jumpToContext": "Перейти к контексту",
+        "title": "Ветка создана",
+        "description": "{member} создал новую ветку {thread}"
     },
     "threadDelete": {
-        "thread": "Thread",
-        "channel": "Channel",
-        "title": "Thread Deleted",
-        "description": "{executor} deleted a thread {thread}"
+        "thread": "Ветка",
+        "channel": "Канал",
+        "title": "Ветка удалена",
+        "description": "{executor} удалил ветку {thread}"
     },
     "messageReactionRemove": {
-        "title": "Reaction Removed",
-        "description": "{executor} removed a reaction from a message",
-        "emoji": "Emoji",
-        "linkToEmoji": "Link to emoji",
-        "jumpToMessage": "Jump to message"
+        "title": "Реакция удалена",
+        "description": "{executor} удалил реакцию с сообщения",
+        "emoji": "Эмодзи",
+        "linkToEmoji": "Ссылка на эмодзи",
+        "jumpToMessage": "Перейти к сообщению"
     },
     "threadUpdated": {
-        "description": "{thread} was modified by {executor}",
-        "title": "Thread Modified"
+        "description": "{thread} был изменён {executor}",
+        "title": "Ветка изменена"
     }
 }
