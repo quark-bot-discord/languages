@@ -1,64 +1,64 @@
 {
     "channelCreated": {
-        "title": "{type} Channel Created",
-        "description": "{channel} was created by {executor}",
-        "descriptionWithCategory": "{channel} was created by {executor} under the {category} category."
+        "title": "Канал {type} создан",
+        "description": "Канал {channel} создан пользователем {executor}",
+        "descriptionWithCategory": "Канал {channel} создан пользователем {executor} в категории {category}."
     },
     "channelDeleted": {
-        "title": "{type} Channel Deleted",
-        "description": "{channel_name} was deleted by {executor}",
-        "channel": "Channel"
+        "title": "Канал {type} удалён",
+        "description": "Канал {channel_name} удалён пользователем {executor}",
+        "channel": "Канал"
     },
     "channelUpdated": {
-        "title": "{type} Channel Modified",
-        "description": "{channel} was modified by {executor}"
+        "title": "Канал {type} изменён",
+        "description": "Канал {channel} изменён пользователем {executor}"
     },
     "channelOverwriteCreate": {
-        "title": "{type} Channel Permissions Added",
-        "description": "{executor} added permissions to {channel} for {special}"
+        "title": "Для канала {type} добавлены права",
+        "description": "Пользователь {executor} добавил права для {special} в канале {channel}"
     },
     "channelOverwriteDelete": {
-        "title": "{type} Channel Permissions Removed",
-        "description": "{executor} removed permissions from {channel} for {special}"
+        "title": "Для канала {type} удалены права",
+        "description": "Пользователь {executor} удалил права для {special} в канале {channel}"
     },
     "channelOverwriteUpdate": {
-        "title": "{type} Channel Permissions Updated",
-        "description": "{executor} updated permissions for {channel} for {special}",
-        "newPermissions": "New Permissions",
-        "viewFullNewPermissions": "View Full New Permissions",
-        "warning": "WARNING!",
-        "dangerousPermissions": "Dangerous permissions granted"
+        "title": "Для канала {type} обновлены права",
+        "description": "Пользователь {executor} обновил права для {special} в канале {channel}",
+        "newPermissions": "Новые права",
+        "viewFullNewPermissions": "Показать все новые разрешения",
+        "warning": "Предупреждение!",
+        "dangerousPermissions": "Предоставлены опасные права доступа"
     },
     "webhookCreate": {
-        "title": "Webhook Created",
-        "description": "{executor} created a webhook {webhook} in {channel}"
+        "title": "Вебхук создан",
+        "description": "{executor} создал вебхук {webhook} в канале {channel}"
     },
     "webhookDelete": {
-        "title": "Webhook Deleted",
-        "description": "{executor} deleted the webhook {webhook}"
+        "title": "Вебхук удалён",
+        "description": "{executor} удалил вебхук {webhook}"
     },
     "webhookUpdate": {
-        "title": "Webhook Modified",
-        "description": "{executor} modified the webhook {webhook}"
+        "title": "Вебхук изменён",
+        "description": "{executor} изменил вебхук {webhook}"
     },
     "webhookAvatarUpdate": {
-        "title": "Webhook Avatar Updated",
-        "description": "{executor} updated the avatar for {webhook}",
-        "description_added": "{executor} added an avatar for {webhook}",
-        "description_removed": "{executor} removed the avatar for {webhook}",
-        "linkToOldAvatar": "Link to old avatar",
-        "linkToNewAvatar": "Link to new avatar"
+        "title": "Аватар вебхука обновлён",
+        "description": "{executor} обновил аватар для {webhook}",
+        "description_added": "{executor} добавил аватар для {webhook}",
+        "description_removed": "{executor} удалил аватар для {webhook}",
+        "linkToOldAvatar": "Ссылка на старый аватар",
+        "linkToNewAvatar": "Ссылка на новый аватар"
     },
     "statusChannelFollowed": {
-        "title": "Channel Followed",
-        "description": "{executor} followed the channel {name} in {channel}"
+        "title": "Канал добавлен в подписки",
+        "description": "{executor} подписался на канал {name} в {channel}"
     },
     "statusChannelUnfollowed": {
-        "title": "Channel Unfollowed",
-        "description": "{executor} unfollowed the channel {name}"
+        "title": "Канал удалён из подписок",
+        "description": "{executor} отписался от канала {name}"
     },
     "statusChannelUpdated": {
-        "title": "Followed Channel Updated",
-        "description": "{executor} updated the followed channel {name}"
+        "title": "Изменения в отслеживаемом канале",
+        "description": "{executor} обновил отслеживаемый канал {name}"
     }
 }
