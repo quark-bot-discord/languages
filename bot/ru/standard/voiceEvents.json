@@ -1,105 +1,105 @@
 {
     "streamStart": {
-        "title": "Stream Started",
-        "description": "{user} started streaming in the {channel} voice channel"
+        "title": "Начата трансляция",
+        "description": "{user} начал трансляцию в {channel}"
     },
     "serverMute": {
-        "voiceChannel": "Voice channel",
-        "title": "Muted",
-        "description": "{user} was muted",
-        "mutedBy": "Muted by"
+        "voiceChannel": "Голосовой канал",
+        "title": "Отключен микрофон",
+        "description": "{user} отключил микрофон",
+        "mutedBy": "Микрофон отключил"
     },
     "streamStop": {
-        "title": "Stream Ended",
-        "description": "{user} stopped streaming in the {channel} voice channel"
+        "title": "Трансляция завершена",
+        "description": "{user} закончил трансляцию в {channel}"
     },
     "videoStart": {
-        "title": "Video Started",
-        "description": "{user} started their video in the {channel} voice channel"
+        "title": "Веб-камера включена",
+        "description": "{user} включил веб-камеру в {channel}"
     },
     "videoStop": {
-        "title": "Video Stopped",
-        "description": "{user} stopped their video in the {channel} voice channel"
+        "title": "Веб-камера выключена",
+        "description": "{user} выключил веб-камеру в {channel}"
     },
     "voiceSwitch": {
-        "title": "Changed Channel",
-        "description": "{user} moved from the {channel_old} voice channel to the {channel_new} voice channel"
+        "title": "Смена канала",
+        "description": "{user} перешел из {channel_old} в {channel_new}"
     },
     "voiceMove": {
-        "title": "Moved",
-        "description": "{user} was moved from the {channel_old} voice channel to the {channel_new} voice channel",
-        "movedBy": "Moved by"
+        "title": "Перемещен",
+        "description": "{user} перемещен из {channel_old} в {channel_new}",
+        "movedBy": "Переместил"
     },
     "stageSpeakerInvited": {
-        "title": "Speaker Invited",
-        "description": "{user} was invited to speak in the {channel} stage channel"
+        "title": "Приглашение спикера",
+        "description": "{user} получил приглашение выступить на трибуне {channel}"
     },
     "voiceJoin": {
-        "title": "Joined Channel",
-        "description": "{user} joined the {channel} voice channel"
+        "title": "Подключение к голосовому каналу",
+        "description": "{user} подключился в {channel}"
     },
     "voiceLeave": {
-        "title": "Left Channel",
-        "description": "{user} left the {channel} voice channel",
-        "joined": "Joined",
-        "joinedValue": "{relative} for {relative_fixed}"
+        "title": "Выход из голосового канала",
+        "description": "{user} вышел из {channel}",
+        "joined": "Подключился",
+        "joinedValue": "{relative} {relative_fixed}"
     },
     "voiceDisconnect": {
-        "title": "Disconnected",
-        "description": "{user} was disconnected",
-        "disconnectedBy": "Disconnected by",
-        "voiceChannel": "Voice channel"
+        "title": "Отключен",
+        "description": "{user} был отключен",
+        "disconnectedBy": "Отключил",
+        "voiceChannel": "Голосовой канал"
     },
     "serverDeafen": {
-        "title": "Deafened",
-        "description": "{user} was deafened",
-        "deafenedBy": "Deafened by",
-        "voiceChannel": "Voice channel"
+        "title": "Отключен звук",
+        "description": "{user} отключил звук",
+        "deafenedBy": "Звук отключил",
+        "voiceChannel": "Голосовой канал"
     },
     "serverUndeafen": {
-        "title": "Undeafened",
-        "description": "{user} was undeafened",
-        "undeafenedBy": "Undeafened by",
-        "voiceChannel": "Voice channel"
+        "title": "Звук включен",
+        "description": "{user} включил звук",
+        "undeafenedBy": "Звук включил",
+        "voiceChannel": "Голосовой канал"
     },
     "serverUnmute": {
-        "title": "Unmuted",
-        "description": "{user} was unmuted",
-        "unmutedBy": "Unmuted by",
-        "voiceChannel": "Voice channel"
+        "title": "Микрофон включен",
+        "description": "{user} включил микрофон",
+        "unmutedBy": "Микрофон включил",
+        "voiceChannel": "Голосовой канал"
     },
     "channelStatusUpdate": {
-        "title": "Voice Channel Status Updated",
-        "description": "{executor} set the status for {channel}",
-        "status": "Status",
-        "linksToEmojis": "Links to emojis",
-        "descriptionRemoved": "{executor} removed the status for {channel}"
+        "title": "Статус голосового канала обновлен",
+        "description": "{executor} установил статус для {channel}",
+        "status": "Статус",
+        "linksToEmojis": "Ссылки на эмодзи",
+        "descriptionRemoved": "{executor} удалил статус для {channel}"
     },
     "stageStarted": {
-        "title": "Stage Started",
-        "description": "{executor} started a stage in {channel}",
-        "topic": "Topic"
+        "title": "Трибуна запущена",
+        "description": "{executor} запустил трибуну в {channel}",
+        "topic": "Тема"
     },
     "stageEnded": {
-        "title": "Stage Ended",
-        "description": "The stage in {channel} was ended by {executor}",
-        "description_noExecutor": "The stage in {channel} was ended",
-        "topic": "Topic",
-        "none": "none"
+        "title": "Трибуна завершена",
+        "description": "Трибуна в {channel} закрыта {executor}",
+        "description_noExecutor": "Трибуна в {channel} закрыта",
+        "topic": "Тема",
+        "none": "нет"
     },
     "stageUpdated": {
-        "title": "Stage Updated",
-        "description": "The stage in {channel} was updated by {executor}",
-        "oldTopic": "Old Topic",
-        "newTopic": "New Topic"
+        "title": "Трибуна обновлена",
+        "description": "Трибуна в {channel} изменена {executor}",
+        "oldTopic": "Старая тема",
+        "newTopic": "Новая тема"
     },
     "stageSpeakerAdd": {
-        "title": "New Stage Speaker",
-        "description": "{user} became a speaker in the {channel} stage channel",
-        "description_inviteAccepted": "{user} accepted the invite to become a speaker in the {channel} stage channel"
+        "title": "Новый спикер",
+        "description": "{user} стал спикером на трибуне {channel}",
+        "description_inviteAccepted": "{user} принял приглашение стать спикером на трибуне {channel}"
     },
     "stageSpeakerRemove": {
-        "title": "Stopped Speaking",
-        "description": "{user} is no longer a speaker in the {channel} stage channel"
+        "title": "Спикер завершил выступление",
+        "description": "{user} больше не является спикером на трибуне {channel}"
     }
 }
