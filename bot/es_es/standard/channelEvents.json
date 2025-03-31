@@ -60,5 +60,8 @@
     "statusChannelUpdated": {
         "title": "Canal seguido actualizado",
         "description": "{executor} actualizó el canal seguido {name}"
+    },
+    "general": {
+        "unknownChannel": "Unknown Channel"
     }
 }
