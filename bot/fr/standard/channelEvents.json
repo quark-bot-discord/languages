@@ -60,5 +60,8 @@
     "statusChannelUpdated": {
         "title": "Salon Suivi Mis à Jour",
         "description": "{executor} a mis à jour le salon suivi {name}"
+    },
+    "general": {
+        "unknownChannel": "Unknown Channel"
     }
 }
