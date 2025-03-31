@@ -5,51 +5,51 @@
         "description_withoutInviter": "Приглашение {invite} было создано для {channel}",
         "expires": "Истекает",
         "never": "Никогда",
-        "maxUses": "Max Uses",
-        "none": "none"
+        "maxUses": "Макс. использований",
+        "none": "нет"
     },
     "inviteDelete": {
-        "title": "Invite Deleted",
-        "description_withExecutor": "{executor} deleted an invite {invite} for {channel}",
-        "description_withoutExecutor": "An invite {invite} was deleted for {channel}",
-        "used": "Used",
-        "created": "Created by",
-        "none": "none"
+        "title": "Приглашение удалено",
+        "description_withExecutor": "{executor} удалил приглашение {invite} для {channel}",
+        "description_withoutExecutor": "Приглашение {invite} было удалено для {channel}",
+        "used": "Использовано",
+        "created": "Создано",
+        "none": "нет"
     },
     "emojiCreated": {
-        "title": "Emoji Created",
-        "description": "{emoji} was added by {executor}"
+        "title": "Эмодзи добавлено",
+        "description": "{emoji} было добавлено {executor}"
     },
     "emojiDeleted": {
-        "title": "Emoji Deleted",
-        "description": "{emoji} was deleted by {executor}",
-        "emoji": "Emoji"
+        "title": "Эмодзи удалено",
+        "description": "{emoji} было удалено {executor}",
+        "emoji": "Эмодзи"
     },
     "emojiUpdated": {
-        "title": "Emoji Edited",
-        "description": "{emoji} was edited by {executor}"
+        "title": "Эмодзи изменено",
+        "description": "{emoji} было изменено {executor}"
     },
     "serverEventCreate": {
-        "title": "Event Created",
-        "description_withChannel": "{executor} created an event {name} in {channel}",
-        "description_withoutChannel": "{executor} created an event {name}",
-        "eventDescription": "Description",
-        "location": "Location",
-        "starts": "Starts",
-        "image": "Image"
+        "title": "Событие создано",
+        "description_withChannel": "{executor} создал(а) событие {name} в {channel}",
+        "description_withoutChannel": "{executor} создал событие {name}",
+        "eventDescription": "Описание",
+        "location": "Место",
+        "starts": "Начинается",
+        "image": "Изображение"
     },
     "serverEventDelete": {
-        "title": "Event Deleted",
-        "description": "{executor} deleted the event {name}",
-        "linkToEventImage": "Link to event image"
+        "title": "Событие удалено",
+        "description": "{executor} удалил событие {name}",
+        "linkToEventImage": "Ссылка на изображение события"
     },
     "serverEventUpdate": {
-        "title": "Event Updated",
-        "description": "{executor} updated the event {name}",
-        "newEventDescription": "New Description",
-        "newLocation": "New Location",
-        "newChannel": "New Channel",
-        "linkToEventImage": "Link to old event image",
-        "newImage": "New Image"
+        "title": "Событие обновлено",
+        "description": "{executor} обновил событие {name}",
+        "newEventDescription": "Новое описание",
+        "newLocation": "Новое место",
+        "newChannel": "Новый канал",
+        "linkToEventImage": "Ссылка на старое изображение",
+        "newImage": "Новое изображение"
     }
 }

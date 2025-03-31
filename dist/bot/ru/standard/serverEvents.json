@@ -1,72 +1,72 @@
 {
-    "members": "Members",
+    "members": "Участники",
     "userJoined": {
-        "title": "User Joined",
-        "description": "{user} joined the server",
-        "noAvatar": "Account has no avatar",
-        "newAccount": "Account is new",
-        "noBadges": "Account has no badges",
-        "warning": "WARNING!",
-        "accountCreated": "Account created",
-        "invite": "Invite",
-        "createdBy": "created by {user}",
-        "ban": "Ban",
-        "info": "Info",
-        "rejoined": "Account rejoined"
+        "title": "Пользователь присоединился",
+        "description": "{user} присоединился к серверу",
+        "noAvatar": "У аккаунта нет аватарки",
+        "newAccount": "Новый аккаунт",
+        "noBadges": "У аккаунта нет значков",
+        "warning": "Предупреждение!",
+        "accountCreated": "Аккаунт создан",
+        "invite": "Приглашение",
+        "createdBy": "создал {user}",
+        "ban": "Бан",
+        "info": "Информация",
+        "rejoined": "Аккаунт вернулся"
     },
     "userLeft": {
-        "title": "User Left",
-        "description": "{user} left the server",
-        "joined": "Joined",
-        "roles": "Roles",
-        "serverProfilePicture": "Link to server avatar"
+        "title": "Пользователь вышел",
+        "description": "{user} покинул сервер",
+        "joined": "Присоединился",
+        "roles": "Роли",
+        "serverProfilePicture": "Ссылка на серверный аватар"
     },
     "botAdded": {
-        "title": "Bot Added",
-        "description": "{bot} was added to the server by {executor}",
-        "descriptionne": "{bot} was added to the server"
+        "title": "Бот добавлен",
+        "description": "{bot} был добавлен на сервер {executor}",
+        "descriptionne": "{bot} был добавлен на сервер"
     },
     "botRemoved": {
-        "title": "Bot Removed",
-        "description": "{bot} was removed from the server by {executor}",
-        "descriptionne": "{bot} was removed from the server"
+        "title": "Бот удалён",
+        "description": "{bot} был удалён с сервера {executor}",
+        "descriptionne": "{bot} был удалён с сервера"
     },
     "nicknameUpdate": {
-        "title": "Nickname Updated",
-        "description": "{user}'s nickname was changed from {oldNickname} to {newNickname}",
-        "setNick": "{user}'s nickname was set to {newNickname}",
-        "nickRemoved": "{user}'s nickname of {oldNickname} was removed",
-        "changedBy": "Changed by"
+        "title": "Никнейм изменён",
+        "description": "Никнейм {user} был изменён с {oldNickname} на {newNickname}",
+        "setNick": "{user} получил никнейм {newNickname}",
+        "nickRemoved": "Никнейм {oldNickname} был удалён у {user}",
+        "changedBy": "Изменил"
     },
     "memberRoleAdd": {
-        "title": "Role Given",
-        "title_multiple": "Roles Given",
-        "description": "{user} was given the {role} role",
-        "description_multiple": "{user} was given multiple roles",
-        "givenBy": "Given by",
-        "roles": "Roles",
-        "warning": "WARNING!",
-        "dangerousPermissions": "Dangerous permissions granted"
+        "title": "Роль выдана",
+        "title_multiple": "Роли выданы",
+        "description": "Роль {role} была выдана {user}",
+        "description_multiple": "Несколько ролей было выдано {user}",
+        "givenBy": "Выдал",
+        "roles": "Роли",
+        "warning": "Предупреждение!",
+        "dangerousPermissions": "Выданы опасные разрешения"
     },
     "memberRoleRemove": {
-        "title": "Role Taken",
-        "title_multiple": "Roles Taken",
-        "description": "The {role} role was removed from {user}",
-        "description_multiple": "Multiple roles were removed from {user}",
-        "removedBy": "Removed by",
-        "roles": "Roles"
+        "title": "Роль снята",
+        "title_multiple": "Роли сняты",
+        "description": "Роль {role} была снята с {user}",
+        "description_multiple": "Несколько ролей было снято с {user}",
+        "removedBy": "Снял",
+        "roles": "Роли"
     },
     "memberPrune": {
-        "title": "Members Pruned",
-        "description": "{count} members with at least {time} days of inactivity were pruned by {executor}"
+        "title": "Участники очищены",
+        "description": "{count} участников с неактивностью от {time} дней были удалены {executor}"
     },
     "avatarUpdate": {
-        "title": "Server Avatar Changed",
-        "description": "{user} changed their server avatar",
-        "description_added": "{user} added a server avatar",
-        "description_removed": "{user} removed their server avatar",
-        "changedBy": "Changed by",
-        "linkToOldAvatar": "Link to old avatar",
-        "linkToNewAvatar": "Link to new avatar"
+        "title": "Серверный аватар изменён",
+        "description": "{user} изменил серверный аватар",
+        "description_added": "{user} добавил серверный аватар",
+        "description_removed": "{user} удалил серверный аватар",
+        "changedBy": "Изменил",
+        "linkToOldAvatar": "Ссылка на старый аватар",
+        "linkToNewAvatar": "Ссылка на новый аватар"
     }
 }

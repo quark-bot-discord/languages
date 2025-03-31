@@ -1,34 +1,34 @@
 {
     "roleCreated": {
-        "title": "Role Created",
-        "description": "{role} was created by {executor}"
+        "title": "Роль создана",
+        "description": "Роль {role} была создана {executor}"
     },
     "roleDeleted": {
-        "title": "Role Deleted",
-        "description": "{role_name} was deleted by {executor}",
-        "role": "Role",
-        "linkToRoleIcon": "Link to role icon"
+        "title": "Роль удалена",
+        "description": "Роль {role_name} была удалена {executor}",
+        "role": "Роль",
+        "linkToRoleIcon": "Ссылка на иконку роли"
     },
     "roleUpdated": {
-        "title": "Role Modified",
-        "description": "{role} was modified by {executor}"
+        "title": "Роль изменена",
+        "description": "Роль {role} была изменена {executor}"
     },
     "rolePermissionsUpdate": {
-        "title": "Role Permissions Updated",
-        "description": "Permissions for {role} were updated by {executor}",
-        "newPermissions": "New Permissions",
-        "oldPermissions": "Old Permissions",
-        "viewFullNewPermissions": "View Full New Permissions",
-        "viewFullOldPermissions": "View Full Old Permissions",
-        "warning": "WARNING!",
-        "dangerousPermissions": "Dangerous permissions granted"
+        "title": "Права роли обновлены",
+        "description": "Права для роли {role} были обновлены {executor}",
+        "newPermissions": "Новые права",
+        "oldPermissions": "Старые права",
+        "viewFullNewPermissions": "Показать все новые права",
+        "viewFullOldPermissions": "Показать все старые права",
+        "warning": "Предупреждение!",
+        "dangerousPermissions": "Выданы опасные права"
     },
     "roleIconUpdate": {
-        "title": "Role Icon Updated",
-        "description": "{executor} updated the icon for {role}",
-        "description_added": "{executor} added an icon for {role}",
-        "description_removed": "{executor} removed the icon for {role}",
-        "linkToOldIcon": "Link to old icon",
-        "linkToNewIcon": "Link to new icon"
+        "title": "Иконка роли обновлена",
+        "description": "{executor} обновил иконку для роли {role}",
+        "description_added": "{executor} добавил иконку для роли {role}",
+        "description_removed": "{executor} удалил иконку для роли {role}",
+        "linkToOldIcon": "Ссылка на старую иконку",
+        "linkToNewIcon": "Ссылка на новую иконку"
     }
 }
