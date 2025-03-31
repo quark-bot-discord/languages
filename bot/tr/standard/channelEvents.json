@@ -60,5 +60,8 @@
     "webhookDelete": {
         "title": "Webhook Deleted",
         "description": "{executor} deleted the webhook {webhook}"
+    },
+    "general": {
+        "unknownChannel": "Unknown Channel"
     }
 }
