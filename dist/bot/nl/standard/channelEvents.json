@@ -60,5 +60,8 @@
     "statusChannelUpdated": {
         "title": "Gevolgd Kanaal Bijgewerkt",
         "description": "{executor} heeft het gevolgde kanaal {name} bijgewerkt"
+    },
+    "general": {
+        "unknownChannel": "Unknown Channel"
     }
 }

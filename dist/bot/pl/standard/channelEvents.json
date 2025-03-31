@@ -60,5 +60,8 @@
     "statusChannelUpdated": {
         "title": "Aktualizacja Obserwowanego Kanału",
         "description": "{executor} zaktualizował obserwowany kanał {name}"
+    },
+    "general": {
+        "unknownChannel": "Unknown Channel"
     }
 }

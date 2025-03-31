@@ -60,5 +60,8 @@
     "statusChannelUpdated": {
         "title": "Followed Channel Updated",
         "description": "{executor} updated the followed channel {name}"
+    },
+    "general": {
+        "unknownChannel": "Unknown Channel"
     }
 }

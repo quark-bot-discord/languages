@@ -60,5 +60,8 @@
     "statusChannelUpdated": {
         "title": "Изменения в отслеживаемом канале",
         "description": "{executor} обновил отслеживаемый канал {name}"
+    },
+    "general": {
+        "unknownChannel": "Unknown Channel"
     }
 }
