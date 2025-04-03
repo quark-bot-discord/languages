@@ -101,5 +101,8 @@
     "stageSpeakerInvited": {
         "title": "Redner*in eingeladen",
         "description": "{user} wurde als Redner*in im {channel} Stage Kanal eingeladen"
+    },
+    "voiceBundle": {
+        "title": "Multiple Voice Channel Events"
     }
 }
