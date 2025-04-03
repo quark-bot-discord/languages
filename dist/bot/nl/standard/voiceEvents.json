@@ -101,5 +101,8 @@
     "stageSpeakerInvited": {
         "title": "Spreker Uitgenodigd",
         "description": "{user} is uitgenodigd om te spreken in het {channel} podium kanaal"
+    },
+    "voiceBundle": {
+        "title": "Multiple Voice Channel Events"
     }
 }
