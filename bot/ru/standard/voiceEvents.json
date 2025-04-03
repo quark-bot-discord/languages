@@ -103,6 +103,6 @@
         "description": "{user} больше не является спикером на трибуне {channel}"
     },
     "voiceBundle": {
-        "title": "Multiple Voice Channel Events"
+        "title": "Несколько событий голосовых каналов"
     }
 }
