@@ -101,5 +101,8 @@
     "stageSpeakerRemove": {
         "title": "Stopped Speaking",
         "description": "{user} is no longer a speaker in the {channel} stage channel"
+    },
+    "voiceBundle": {
+        "title": "Multiple Voice Channel Events"
     }
 }
