@@ -221,8 +221,8 @@
         "resetLogChannel": "Zresetuj kanał logowania",
         "furtherConfig": "Po więcej kontroli nad logami, taką jak wybieranie różnych kanałów dla różnych typów logów lub zapobieganie logowania niektórych kanałów, użytkowników lub wiadomości udaj się na [Panel Webowy Quark]"
     },
-    "setserverlog-type-quark-0": "Wydarzenia Quarka",
-    "setserverlog-type-quark-1": "Wydarzenia Quarka",
+    "setserverlog-type-quark-0": "Wydarzenia Quark",
+    "setserverlog-type-quark-1": "Wydarzenia Quark",
     "help-modify-tags-description": "Aby tworzyć i edytować tagi, proszę odwiedź [Quark's web dashboard]",
     "banButton-banning": "Banowanie {user} {inXSeconds}",
     "banButton-cancel": "Anuluj"
