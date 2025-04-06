@@ -69,7 +69,7 @@
         "description": "{executor} ustawił status dla kanału {channel}",
         "status": "Status",
         "linksToEmojis": "Linki do emoji",
-        "descriptionRemoved": "{executor} removed the status for {channel}"
+        "descriptionRemoved": "{executor} usuną status dla {channel}"
     },
     "stageStarted": {
         "title": "Rozpoczęto Scenę",
@@ -103,6 +103,6 @@
         "description": "{user} został zaproszony do mówienia na kanale sceny {channel}"
     },
     "voiceBundle": {
-        "title": "Multiple Voice Channel Events"
+        "title": "Wiele wydarzeń głosowych"
     }
 }
