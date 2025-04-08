@@ -91,11 +91,11 @@
     "active": true,
     "iconCode": "GR"
   },
-  "zh-TW": {
-    "code": "zh_tw",
+  "zh-Hant": {
+    "code": "zh_hant",
     "id": 13,
     "name": "繁體中文",
     "active": false,
-    "iconCode": "TW"
+    "iconCode": "ZH"
   }
 }
