@@ -60,7 +60,7 @@
         "code": "it",
         "id": 8,
         "name": "Italiano",
-        "active": false,
+        "active": true,
         "iconCode": "IT"
     },
     "de": {
@@ -90,5 +90,12 @@
         "name": "Ελληνικά",
         "active": true,
         "iconCode": "GR"
+    },
+    "zh-Hant": {
+        "code": "zh_hant",
+        "id": 13,
+        "name": "繁體中文",
+        "active": false,
+        "iconCode": "ZH"
     }
 }
