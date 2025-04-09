@@ -1,64 +1,64 @@
 {
     "serverlogOptionsUpdate": {
-        "pluralkitSupport": "PluralKit Support",
-        "spoilers": "Spoilers",
-        "title": "Logging Options Updated",
-        "description": "{executor} set {option} to {state}",
-        "buttons": "Buttons",
-        "formatType": "Format Type"
+        "pluralkitSupport": "PluralKit 支援",
+        "spoilers": "暴雷內容",
+        "title": "日誌選項已更新",
+        "description": "{executor} 將 {option} 設為 {state}",
+        "buttons": "按鈕",
+        "formatType": "格式類型"
     },
     "serverlogLogUpdate": {
-        "activeIgnore": "Active Ignore",
-        "title": "Log Updated",
-        "description": "{executor} updated the {type} log",
-        "enabled": "Enabled",
-        "logFormat": "Format",
-        "logChannel": "Channel",
-        "colour": "Color",
-        "ignoreBotExecutors": "Ignore Bot Executors",
-        "ignoreBotTargets": "Ignore Bot Targets"
+        "activeIgnore": "啟用忽略",
+        "title": "日誌已更新",
+        "description": "{executor} 更新了 {type} 日誌",
+        "enabled": "已啟用",
+        "logFormat": "格式",
+        "logChannel": "頻道",
+        "colour": "顏色",
+        "ignoreBotExecutors": "忽略機器人執行者",
+        "ignoreBotTargets": "忽略機器人目標"
     },
     "serverlogChannelUpdate": {
-        "title": "Logging Channel Changed",
-        "description_set": "{executor} set the {type} logging channel to {channel}",
-        "description_category_disable": "{executor} disabled the {type} logging channel",
-        "description_unset": "{executor} unset the {type} logging channel"
+        "title": "日誌記錄頻道已更改",
+        "description_set": "{executor} 設置 {type} 日誌頻道到 {channel}",
+        "description_category_disable": "{executor} 已停用 {type} 日誌頻道",
+        "description_unset": "{executor} 取消設定 {type} 日誌頻道"
     },
     "tokenAdded": {
         "unique_id": "Token ID",
-        "title": "Token Generated",
-        "description": "{executor} generated a Quark access token with {permissions} permissions for this server",
-        "revoke": "Revoke this token"
+        "title": "Token已建立",
+        "description": "{executor} 在這個伺服器裡建立了一個 Quark 存取 Token，權限為 {permissions}",
+        "revoke": "撤銷這個Token"
     },
     "serverlogIgnoreUpdate": {
-        "title": "Ignore Options Updated",
-        "description_set": "{executor} enabled {type}",
-        "description_unset": "{executor} disabled {type}",
-        "description_added": "{executor} added {target} to {type}",
-        "description_removed": "{executor} removed {target} from {type}"
+        "title": "忽略選項已更新",
+        "description_set": "{executor} 啟用了 {type}",
+        "description_unset": "{executor} 停用了 {type}",
+        "description_added": "{executor} 將 {target} 加入了 {type}",
+        "description_removed": "{executor} 將 {target} 從 {type} 移除"
     },
     "languageUpdate": {
-        "title": "Language Changed",
-        "description": "{executor} changed the language to {language}"
+        "title": "語言已更改",
+        "description": "{executor} 把語言改成 {language}"
     },
     "reset": {
-        "title": "Configuration Reset",
-        "description": "{executor} reset the configuration for this server"
+        "title": "設定已重置為預設值",
+        "description": "{executor} 把設定重置為預設值"
     },
     "tagAdded": {
-        "title": "Tag Added",
-        "description": "{executor} created a tag {tag}"
+        "title": "標籤已增加",
+        "description": "{executor} 創建了一個標籤 {tag}"
     },
     "tagUpdated": {
-        "title": "Tag Updated",
-        "description": "{executor} updated the tag {tag}"
+        "title": "標籤已更新",
+        "description": "{executor} 更新了標籤 {tag}"
     },
     "tagDeleted": {
-        "title": "Tag Deleted",
-        "description": "{executor} deleted the tag {tag}"
+        "title": "標籤已刪除",
+        "description": "{executor} 刪除了標籤 {tag}"
     },
     "tokenRevoked": {
-        "title": "Token Revoked",
-        "description": "{executor} revoked the Quark access token with ID {token}"
+        "title": "Token 已撤銷",
+        "description": "{executor} 已撤銷 ID 為 {token} 的 Quark 存取 Token"
     }
 }
