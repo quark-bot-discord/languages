@@ -1,16 +1,16 @@
 {
     "roleCreated": {
         "title": "身分組已創建",
-        "description": "{role} was created by {executor}"
+        "description": "{role} 已被 {executor} 創建"
     },
     "roleDeleted": {
-        "title": "Role Deleted",
-        "description": "{role_name} was deleted by {executor}",
-        "role": "Role",
-        "linkToRoleIcon": "Link to role icon"
+        "title": "身份組已刪除",
+        "description": "{role_name} 已被 {executor} 刪除",
+        "role": "身份組",
+        "linkToRoleIcon": "連結至身份組圖示"
     },
     "roleUpdated": {
-        "title": "Role Modified",
+        "title": "身份組已修改",
         "description": "{role} was modified by {executor}"
     },
     "rolePermissionsUpdate": {
