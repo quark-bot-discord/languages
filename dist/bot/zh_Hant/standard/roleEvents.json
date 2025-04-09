@@ -1,6 +1,6 @@
 {
     "roleCreated": {
-        "title": "Role Created",
+        "title": "身分組已創建",
         "description": "{role} was created by {executor}"
     },
     "roleDeleted": {

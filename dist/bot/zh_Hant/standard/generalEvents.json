@@ -1,30 +1,30 @@
 {
     "serverModified": {
-        "title": "Server Modified",
-        "description": "This server was modified by {executor}"
+        "title": "伺服器已修改",
+        "description": "此伺服器被 {executor} 修改了"
     },
     "serverIconUpdated": {
-        "title": "Server Icon Updated",
-        "description": "{executor} updated the server icon",
-        "description_added": "{executor} added a server icon",
-        "description_removed": "{executor} removed the server icon",
-        "linkToOldIcon": "Link to old icon",
-        "linkToNewIcon": "Link to new icon"
+        "title": "伺服器圖示已更新",
+        "description": "{executor} 更新了伺服器圖示",
+        "description_added": "{executor} 增加了一個伺服器圖示",
+        "description_removed": "{executor} 移除了伺服器圖示",
+        "linkToOldIcon": "連結至舊圖示",
+        "linkToNewIcon": "連結至新圖示"
     },
     "serverBoostAdd": {
-        "title": "Server Boosted",
-        "description": "{user} boosted this server 🎉",
-        "description_noUser": "Someone boosted this server 🎉",
-        "description_withTier": "{user} boosted this server to tier {tier} 🎉",
-        "description_withTier_noUser": "Someone boosted this server to tier {tier} 🎉",
-        "none": "none"
+        "title": "伺服器已加成",
+        "description": "{user} 加成了這個伺服器 🎉",
+        "description_noUser": "有某人加成了這個伺服器 🎉",
+        "description_withTier": "{user} 把這個伺服器加成到等級 {tier} 🎉",
+        "description_withTier_noUser": "有某人把這個伺服器加成到等級 {tier} 🎉",
+        "none": "無"
     },
     "serverBoostRemove": {
-        "title": "Server Boost Removed",
-        "description": "{user} stopped boosting this server",
-        "description_noUser": "Someone stopped boosting this server",
-        "description_withTier": "{user} stopped boosting, causing the server to drop down to tier {tier}",
-        "description_withTier_noUser": "Someone stopped boosting, causing the server to drop down to tier {tier}",
-        "none": "none"
+        "title": "伺服器加成已被移除",
+        "description": "{user} 停止加成這個伺服器了",
+        "description_noUser": "有某人停止加成這個伺服器了",
+        "description_withTier": "{user} 停止了加成, 讓這個伺服器掉到等級 {tier}",
+        "description_withTier_noUser": "有某人停止了加成, 讓這個伺服器掉到等級 {tier}",
+        "none": "無"
     }
 }

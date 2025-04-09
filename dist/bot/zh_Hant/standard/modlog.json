@@ -1,20 +1,20 @@
 {
-    "kick": "Kick",
-    "mute": "Timeout",
-    "unmute": "Timeout Removed",
-    "timeoutEnds": "Timeout ends {time}",
-    "editReason": "Edit Reason",
+    "kick": "踢出",
+    "mute": "禁言",
+    "unmute": "已移除禁言",
+    "timeoutEnds": "禁言結束{time}",
+    "editReason": "編輯理由",
     "reasonModal": {
-        "label": "Reason",
-        "placeholder": "Being very bad >:(",
-        "title": "Modify modlog reason"
+        "label": "理由",
+        "placeholder": "你很壞欸 >:(",
+        "title": "修改MOD紀錄理由"
     },
-    "moderator": "Moderator",
-    "user": "User",
-    "reason": "Reason",
-    "case": "Case",
-    "noReason": "[no reason provided]",
-    "noReasonBrief": "Run {command}",
-    "ban": "Ban",
-    "unban": "Unban"
+    "moderator": "版主",
+    "user": "使用者",
+    "reason": "理由",
+    "case": "案件",
+    "noReason": "[沒有任何理由]",
+    "noReasonBrief": "運行 {command}",
+    "ban": "停權",
+    "unban": "取消停權"
 }
