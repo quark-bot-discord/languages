@@ -1,67 +1,67 @@
 {
     "channelDeleted": {
-        "channel": "Channel",
-        "title": "{type} Channel Deleted",
-        "description": "{channel_name} was deleted by {executor}"
+        "channel": "頻道",
+        "title": "{type} 頻道已刪除",
+        "description": "{channel_name} 是被 {executor} 刪除的"
     },
     "channelCreated": {
-        "title": "{type} Channel Created",
-        "description": "{channel} was created by {executor}",
-        "descriptionWithCategory": "{channel} was created by {executor} under the {category} category."
+        "title": "{type} 頻道已創建",
+        "description": "{channel} 是被 {executor} 創建的",
+        "descriptionWithCategory": "{channel}是被 {executor} 在 {category} 類別創建的"
     },
     "channelUpdated": {
-        "title": "{type} Channel Modified",
-        "description": "{channel} was modified by {executor}"
+        "title": "{type} 頻道已修改",
+        "description": "{channel} 是被 {executor} 修改的"
     },
     "channelOverwriteCreate": {
-        "title": "{type} Channel Permissions Added",
-        "description": "{executor} added permissions to {channel} for {special}"
+        "title": "{type} 頻道權限已增加",
+        "description": "{executor} 已為 {channel} 增加了 {special} 的權限"
     },
     "channelOverwriteDelete": {
-        "title": "{type} Channel Permissions Removed",
-        "description": "{executor} removed permissions from {channel} for {special}"
+        "title": "{type} 頻道權限已移除",
+        "description": "{executor} 已從 {channel} 移除 {special} 的權限"
     },
     "channelOverwriteUpdate": {
-        "title": "{type} Channel Permissions Updated",
-        "description": "{executor} updated permissions for {channel} for {special}",
-        "newPermissions": "New Permissions",
-        "viewFullNewPermissions": "View Full New Permissions",
-        "warning": "WARNING!",
-        "dangerousPermissions": "Dangerous permissions granted"
+        "title": "{type} 頻道權限已更新",
+        "description": "{executor} 已將 {channel} 的 {special} 權限更新",
+        "newPermissions": "新權限",
+        "viewFullNewPermissions": "查看完整的新權限",
+        "warning": "警告!",
+        "dangerousPermissions": "已授予了危險的權限"
     },
     "statusChannelUnfollowed": {
-        "title": "Channel Unfollowed",
-        "description": "{executor} unfollowed the channel {name}"
+        "title": "已取消追蹤頻道",
+        "description": "{executor} 取消追蹤了頻道 {name}"
     },
     "webhookCreate": {
-        "title": "Webhook Created",
-        "description": "{executor} created a webhook {webhook} in {channel}"
+        "title": "已創建 Webhook",
+        "description": "{executor} 已在 {channel} 中創建了 {webhook} webhook"
     },
     "webhookDelete": {
-        "title": "Webhook Deleted",
-        "description": "{executor} deleted the webhook {webhook}"
+        "title": "已刪除 Webhook",
+        "description": "{executor} 刪除了 webhook {webhook}"
     },
     "webhookUpdate": {
-        "title": "Webhook Modified",
-        "description": "{executor} modified the webhook {webhook}"
+        "title": "Webhook 已修改",
+        "description": "{executor} 修改了 webhook {webhook}"
     },
     "webhookAvatarUpdate": {
-        "title": "Webhook Avatar Updated",
-        "description": "{executor} updated the avatar for {webhook}",
-        "description_added": "{executor} added an avatar for {webhook}",
-        "description_removed": "{executor} removed the avatar for {webhook}",
-        "linkToOldAvatar": "Link to old avatar",
-        "linkToNewAvatar": "Link to new avatar"
+        "title": "Webhook 頭像已更新",
+        "description": "{executor} 更新了 {webhook} 的頭像",
+        "description_added": "{executor} 為 {webhook} 增加了一個頭像",
+        "description_removed": "{executor} 移除了 {webhook} 的頭像",
+        "linkToOldAvatar": "連結至舊頭像",
+        "linkToNewAvatar": "連結至新頭像"
     },
     "statusChannelFollowed": {
-        "title": "Channel Followed",
-        "description": "{executor} followed the channel {name} in {channel}"
+        "title": "已追蹤頻道",
+        "description": "{executor} 追蹤了 {channel} 頻道中的 {name}"
     },
     "statusChannelUpdated": {
-        "title": "Followed Channel Updated",
-        "description": "{executor} updated the followed channel {name}"
+        "title": "追蹤的頻道已更新",
+        "description": "{executor} 更新了關注的頻道 {name}"
     },
     "general": {
-        "unknownChannel": "Unknown Channel"
+        "unknownChannel": "未知的頻道"
     }
 }
