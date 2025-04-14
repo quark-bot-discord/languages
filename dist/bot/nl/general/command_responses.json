@@ -14,7 +14,7 @@
     "error-404-0": "Gebruiker niet gevonden",
     "error-404-1": "Noem een gebruiker, plak hun ID of typ hun gebruikersnaam",
     "error-405-0": "Pardon?",
-    "error-405-1": "Dat ga ik niet doen lol",
+    "error-405-1": "Ik dacht het even niet, joh",
     "error-406-0": "Je hebt geen toestemming",
     "error-407-0": "Je hebt de macht niet om dit te doen",
     "error-409-0-type-0": "Deze gebruiker is al verbannen",
@@ -221,8 +221,8 @@
         "resetLogChannel": "Reset Log Channel",
         "furtherConfig": "For more control over logs, such as selecting different channels for different log types or preventing certain channels, users or messages from being logged please visit [Quark's web dashboard]"
     },
-    "setserverlog-type-quark-0": "Quark Events",
-    "setserverlog-type-quark-1": "quark events",
+    "setserverlog-type-quark-0": "Quark Gebeurtenissen",
+    "setserverlog-type-quark-1": "quark gebeurtenissen",
     "help-modify-tags-description": "To create and edit tags, please visit [Quark's web dashboard]",
     "banButton-banning": "Banning {user} {inXSeconds}",
     "banButton-cancel": "Cancel"
