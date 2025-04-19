@@ -2,9 +2,9 @@
     "messageDeleted": {
         "filesExpired": "files too large or expired",
         "sticker": "sticker",
-        "title": "Message Deleted",
-        "author": "Message author",
-        "channel": "Channel",
+        "title": "메세지 삭제됨",
+        "author": "작성자",
+        "channel": "채널",
         "deletedBy": "Deleted by",
         "jumpToContext": "Jump to context",
         "warning": "WARNING!",
@@ -45,7 +45,7 @@
         "vote": "vote",
         "votes": "votes",
         "noResponses": "No responses",
-        "pollDeleted": "Poll Deleted"
+        "pollDeleted": "투표 삭제됨"
     },
     "messagesBulkDeleted": {
         "title": "Multiple Messages Deleted",
