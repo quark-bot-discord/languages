@@ -2,7 +2,7 @@
     "messageDeleted": {
         "filesExpired": "files too large or expired",
         "sticker": "sticker",
-        "title": "Message Deleted",
+        "title": "메세지 삭제됨",
         "author": "Message author",
         "channel": "Channel",
         "deletedBy": "Deleted by",
@@ -45,7 +45,7 @@
         "vote": "vote",
         "votes": "votes",
         "noResponses": "No responses",
-        "pollDeleted": "Poll Deleted"
+        "pollDeleted": "투표 삭제됨"
     },
     "messagesBulkDeleted": {
         "title": "Multiple Messages Deleted",
