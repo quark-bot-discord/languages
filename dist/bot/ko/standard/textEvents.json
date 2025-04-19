@@ -33,7 +33,7 @@
         "thread": "Thread"
     },
     "polls": {
-        "poll": "Poll",
+        "poll": "투표",
         "pollDescriptor": "[poll]",
         "status": "Poll has status.",
         "ended": "ended",
