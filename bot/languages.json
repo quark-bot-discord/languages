@@ -97,5 +97,12 @@
     "name": "繁體中文",
     "active": false,
     "iconCode": "ZH"
+  },
+  "ko": {
+    "code": "ko",
+    "id": 14,
+    "name": "한국어",
+    "active": true,
+    "iconCode": "KR"
   }
 }
