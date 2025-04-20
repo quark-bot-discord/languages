@@ -91,11 +91,18 @@
         "active": true,
         "iconCode": "GR"
     },
-    "zh-Hant": {
+    "zh_Hant": {
         "code": "zh_hant",
         "id": 13,
         "name": "繁體中文",
-        "active": false,
+        "active": true,
         "iconCode": "ZH"
+    },
+    "ko": {
+        "code": "ko",
+        "id": 14,
+        "name": "한국어",
+        "active": true,
+        "iconCode": "KR"
     }
 }
