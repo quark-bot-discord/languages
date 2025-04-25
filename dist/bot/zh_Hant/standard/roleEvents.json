@@ -11,24 +11,24 @@
     },
     "roleUpdated": {
         "title": "身份組已修改",
-        "description": "{role} was modified by {executor}"
+        "description": "{role} 已被 {executor} 修改"
     },
     "rolePermissionsUpdate": {
-        "title": "Role Permissions Updated",
-        "description": "Permissions for {role} were updated by {executor}",
-        "newPermissions": "New Permissions",
-        "oldPermissions": "Old Permissions",
-        "viewFullNewPermissions": "View Full New Permissions",
-        "viewFullOldPermissions": "View Full Old Permissions",
-        "warning": "WARNING!",
-        "dangerousPermissions": "Dangerous permissions granted"
+        "title": "身分組權限已更新",
+        "description": "{role} 的權限已被 {executor} 更新",
+        "newPermissions": "新權限",
+        "oldPermissions": "舊權限",
+        "viewFullNewPermissions": "檢視完整的新權限",
+        "viewFullOldPermissions": "檢視完整的舊權限",
+        "warning": "警告!",
+        "dangerousPermissions": "已給予危險的權限"
     },
     "roleIconUpdate": {
-        "title": "Role Icon Updated",
-        "description": "{executor} updated the icon for {role}",
-        "description_added": "{executor} added an icon for {role}",
-        "description_removed": "{executor} removed the icon for {role}",
-        "linkToOldIcon": "Link to old icon",
-        "linkToNewIcon": "Link to new icon"
+        "title": "身分組圖示已更新",
+        "description": "{executor} 更新了 {role} 的圖示",
+        "description_added": "{executor} 為 {role} 增加了新圖示",
+        "description_removed": "{executor} 移除了 {role} 的圖示",
+        "linkToOldIcon": "連結至舊圖示",
+        "linkToNewIcon": "連結至新圖示"
     }
 }
