@@ -1,0 +1,55 @@
+{
+    "serverEventCreate": {
+        "starts": "Starts",
+        "image": "Image",
+        "title": "Event Created",
+        "description_withChannel": "{executor} created an event {name} in {channel}",
+        "description_withoutChannel": "{executor} created an event {name}",
+        "eventDescription": "Description",
+        "location": "Location"
+    },
+    "serverEventDelete": {
+        "title": "Event Deleted",
+        "description": "{executor} deleted the event {name}",
+        "linkToEventImage": "Link to event image"
+    },
+    "inviteCreate": {
+        "title": "Invite Created",
+        "description_withInviter": "{inviter} created an invite {invite} for {channel}",
+        "description_withoutInviter": "An invite {invite} was created for {channel}",
+        "expires": "Expires",
+        "never": "Never",
+        "maxUses": "Max Uses",
+        "none": "none"
+    },
+    "inviteDelete": {
+        "title": "Invite Deleted",
+        "description_withExecutor": "{executor} deleted an invite {invite} for {channel}",
+        "description_withoutExecutor": "An invite {invite} was deleted for {channel}",
+        "used": "Used",
+        "created": "Created by",
+        "none": "none"
+    },
+    "emojiCreated": {
+        "title": "Emoji Created",
+        "description": "{emoji} was added by {executor}"
+    },
+    "emojiDeleted": {
+        "title": "Emoji Deleted",
+        "description": "{emoji} was deleted by {executor}",
+        "emoji": "Emoji"
+    },
+    "emojiUpdated": {
+        "title": "Emoji Edited",
+        "description": "{emoji} was edited by {executor}"
+    },
+    "serverEventUpdate": {
+        "title": "Event Updated",
+        "description": "{executor} updated the event {name}",
+        "newEventDescription": "New Description",
+        "newLocation": "New Location",
+        "newChannel": "New Channel",
+        "linkToEventImage": "Link to old event image",
+        "newImage": "New Image"
+    }
+}
