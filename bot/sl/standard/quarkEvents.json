@@ -1,1 +1,64 @@
-{}
+{
+    "serverlogOptionsUpdate": {
+        "buttons": "Buttons",
+        "title": "Logging Options Updated",
+        "spoilers": "Spoilers",
+        "formatType": "Format Type",
+        "description": "{executor} set {option} to {state}",
+        "pluralkitSupport": "PluralKit Support"
+    },
+    "serverlogChannelUpdate": {
+        "description_set": "{executor} set the {type} logging channel to {channel}",
+        "description_unset": "{executor} unset the {type} logging channel",
+        "title": "Logging Channel Changed",
+        "description_category_disable": "{executor} disabled the {type} logging channel"
+    },
+    "serverlogLogUpdate": {
+        "logFormat": "Format",
+        "colour": "Color",
+        "logChannel": "Channel",
+        "ignoreBotExecutors": "Ignore Bot Executors",
+        "ignoreBotTargets": "Ignore Bot Targets",
+        "activeIgnore": "Active Ignore",
+        "enabled": "Enabled",
+        "description": "{executor} updated the {type} log",
+        "title": "Log Updated"
+    },
+    "tokenRevoked": {
+        "title": "Token Revoked",
+        "description": "{executor} revoked the Quark access token with ID {token}"
+    },
+    "reset": {
+        "description": "{executor} reset the configuration for this server",
+        "title": "Configuration Reset"
+    },
+    "tagUpdated": {
+        "description": "{executor} updated the tag {tag}",
+        "title": "Tag Updated"
+    },
+    "tagAdded": {
+        "description": "{executor} created a tag {tag}",
+        "title": "Tag Added"
+    },
+    "serverlogIgnoreUpdate": {
+        "description_unset": "{executor} disabled {type}",
+        "description_set": "{executor} enabled {type}",
+        "title": "Ignore Options Updated",
+        "description_removed": "{executor} removed {target} from {type}",
+        "description_added": "{executor} added {target} to {type}"
+    },
+    "tokenAdded": {
+        "unique_id": "Token ID",
+        "title": "Token Generated",
+        "revoke": "Revoke this token",
+        "description": "{executor} generated a Quark access token with {permissions} permissions for this server"
+    },
+    "languageUpdate": {
+        "description": "{executor} changed the language to {language}",
+        "title": "Language Changed"
+    },
+    "tagDeleted": {
+        "description": "{executor} deleted the tag {tag}",
+        "title": "Tag Deleted"
+    }
+}
