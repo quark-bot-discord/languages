@@ -1,5 +1,5 @@
 {
-    "tags-help-description": "Tags are a way of easily and efficiently presenting frequent information to users, by using your own commands.",
+    "tags-help-description": "Oznake so način preprostega in učinkovitega predstavljanja pogostih informacij uporabnikom z uporabo lastnih ukazov.",
     "create-success": "Tag created! Use {tag} to access it at any time!",
     "edit-success": "Tag edited! Use {tag} to access it at any time!",
     "delete-success": "{tag} tag deleted! Use {commandList} to see all your remaining tags!",
