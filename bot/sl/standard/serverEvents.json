@@ -1,1 +1,72 @@
-{}
+{
+    "memberRoleAdd": {
+        "roles": "Roles",
+        "title": "Role Given",
+        "title_multiple": "Roles Given",
+        "description": "The {role} role was given to {user}",
+        "description_multiple": "Multiple roles were given to {user}",
+        "givenBy": "Given by",
+        "warning": "WARNING!",
+        "dangerousPermissions": "Dangerous permissions granted"
+    },
+    "memberRoleRemove": {
+        "removedBy": "Removed by",
+        "title": "Role Taken",
+        "title_multiple": "Roles Taken",
+        "description": "The {role} role was removed from {user}",
+        "description_multiple": "Multiple roles were removed from {user}",
+        "roles": "Roles"
+    },
+    "members": "Members",
+    "userJoined": {
+        "title": "User Joined",
+        "description": "{user} joined the server",
+        "noAvatar": "Account has no avatar",
+        "newAccount": "Account is new",
+        "noBadges": "Account has no badges",
+        "warning": "WARNING!",
+        "accountCreated": "Account created",
+        "invite": "Invite",
+        "createdBy": "created by {user}",
+        "ban": "Ban",
+        "info": "Info",
+        "rejoined": "Account rejoined"
+    },
+    "userLeft": {
+        "title": "User Left",
+        "description": "{user} left the server",
+        "joined": "Joined",
+        "roles": "Roles",
+        "serverProfilePicture": "Link to server avatar"
+    },
+    "botAdded": {
+        "title": "Bot Added",
+        "description": "{bot} was added to the server by {executor}",
+        "descriptionne": "{bot} was added to the server"
+    },
+    "botRemoved": {
+        "title": "Bot Removed",
+        "description": "{bot} was removed from the server by {executor}",
+        "descriptionne": "{bot} was removed from the server"
+    },
+    "nicknameUpdate": {
+        "title": "Nickname Updated",
+        "description": "{user}'s nickname was changed from {oldNickname} to {newNickname}",
+        "setNick": "{user}'s nickname was set to {newNickname}",
+        "nickRemoved": "{user}'s nickname of {oldNickname} was removed",
+        "changedBy": "Changed by"
+    },
+    "memberPrune": {
+        "title": "Members Pruned",
+        "description": "{count} members with at least {time} days of inactivity were pruned by {executor}"
+    },
+    "avatarUpdate": {
+        "title": "Server Avatar Changed",
+        "description": "{user} changed their server avatar",
+        "description_added": "{user} added a server avatar",
+        "description_removed": "{user} removed their server avatar",
+        "changedBy": "Changed by",
+        "linkToOldAvatar": "Link to old avatar",
+        "linkToNewAvatar": "Link to new avatar"
+    }
+}
