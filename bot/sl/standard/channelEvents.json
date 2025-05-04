@@ -1,1 +1,67 @@
-{}
+{
+    "channelOverwriteUpdate": {
+        "description": "{executor} updated permissions for {channel} for {special}",
+        "newPermissions": "New Permissions",
+        "dangerousPermissions": "Dangerous permissions granted",
+        "warning": "WARNING!",
+        "viewFullNewPermissions": "View Full New Permissions",
+        "title": "{type} Channel Permissions Updated"
+    },
+    "channelUpdated": {
+        "title": "{type} Channel Modified",
+        "description": "{channel} was modified by {executor}"
+    },
+    "webhookCreate": {
+        "title": "Webhook Created",
+        "description": "{executor} created a webhook {webhook} in {channel}"
+    },
+    "channelCreated": {
+        "description": "{channel} was created by {executor}",
+        "descriptionWithCategory": "{channel} was created by {executor} under the {category} category.",
+        "title": "{type} Channel Created"
+    },
+    "webhookDelete": {
+        "description": "{executor} deleted the webhook {webhook}",
+        "title": "Webhook Deleted"
+    },
+    "webhookAvatarUpdate": {
+        "title": "Webhook Avatar Updated",
+        "linkToNewAvatar": "Link to new avatar",
+        "description_removed": "{executor} removed the avatar for {webhook}",
+        "linkToOldAvatar": "Link to old avatar",
+        "description": "{executor} updated the avatar for {webhook}",
+        "description_added": "{executor} added an avatar for {webhook}"
+    },
+    "channelDeleted": {
+        "title": "{type} Channel Deleted",
+        "description": "{channel_name} was deleted by {executor}",
+        "channel": "Channel"
+    },
+    "statusChannelFollowed": {
+        "title": "Channel Followed",
+        "description": "{executor} followed the channel {name} in {channel}"
+    },
+    "webhookUpdate": {
+        "description": "{executor} modified the webhook {webhook}",
+        "title": "Webhook Modified"
+    },
+    "channelOverwriteDelete": {
+        "description": "{executor} removed permissions from {channel} for {special}",
+        "title": "{type} Channel Permissions Removed"
+    },
+    "statusChannelUnfollowed": {
+        "title": "Channel Unfollowed",
+        "description": "{executor} unfollowed the channel {name}"
+    },
+    "statusChannelUpdated": {
+        "title": "Followed Channel Updated",
+        "description": "{executor} updated the followed channel {name}"
+    },
+    "general": {
+        "unknownChannel": "Unknown Channel"
+    },
+    "channelOverwriteCreate": {
+        "description": "{executor} added permissions to {channel} for {special}",
+        "title": "{type} Channel Permissions Added"
+    }
+}
