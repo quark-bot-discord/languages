@@ -19,7 +19,7 @@
     },
     "members": "Člani",
     "userJoined": {
-        "title": "User Joined",
+        "title": "Uporabnik se je pridružil",
         "description": "{user} joined the server",
         "noAvatar": "Account has no avatar",
         "newAccount": "Account is new",
