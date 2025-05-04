@@ -17,7 +17,7 @@
         "description_multiple": "Multiple roles were removed from {user}",
         "roles": "Roles"
     },
-    "members": "Members",
+    "members": "Člani",
     "userJoined": {
         "title": "User Joined",
         "description": "{user} joined the server",
