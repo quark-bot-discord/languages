@@ -104,5 +104,12 @@
     "name": "한국어",
     "active": true,
     "iconCode": "KR"
+  },
+  "sl": {
+    "code": "sl",
+    "id": 15,
+    "name": "Slovenščina",
+    "active": true,
+    "iconCode": "SI"
   }
 }
