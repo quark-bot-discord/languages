@@ -641,16 +641,6 @@ export type LanguageStructure = {
   name: string;
   description: string;
 }>;
-  purge: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  countOption: {
-  name: string;
-  description: string;
-};
-};
-}>;
   reason: Promise<{
   name: string;
   description: string;
@@ -660,6 +650,16 @@ export type LanguageStructure = {
   description: string;
 };
   reasonOption: {
+  name: string;
+  description: string;
+};
+};
+}>;
+  purge: Promise<{
+  name: string;
+  description: string;
+  commandOptions: {
+  countOption: {
   name: string;
   description: string;
 };
@@ -1368,5 +1368,5 @@ export type LanguageStructure = {
 }>;
 };
 };
-export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "export" | "help" | "initialReactor" | "invite" | "kick" | "language" | "logging" | "mute" | "ping" | "premium" | "privacy" | "purge" | "reason" | "serverlog" | "tags" | "unban" | "unmute";
-export type QuarkLanguageCodes = "en_us" | "en_gb" | "tr" | "vi" | "en_pr" | "pl" | "nl" | "es_es" | "it" | "de" | "fr" | "ru" | "el" | "zh_hant" | "ko";
+export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "export" | "help" | "initialReactor" | "invite" | "kick" | "language" | "logging" | "mute" | "ping" | "premium" | "privacy" | "reason" | "purge" | "serverlog" | "tags" | "unban" | "unmute";
+export type QuarkLanguageCodes = "en_us" | "en_gb" | "tr" | "vi" | "en_pr" | "pl" | "nl" | "es_es" | "it" | "de" | "fr" | "ru" | "el" | "zh_hant" | "ko" | "sl";
