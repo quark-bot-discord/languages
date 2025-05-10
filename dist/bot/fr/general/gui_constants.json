@@ -39,8 +39,8 @@
         "channel_id": "Salon"
     },
     "threadModificationTypes": {
-        "rate_limit_per_user": "Slowmode",
-        "auto_archive_duration": "Automatic Archive",
-        "name": "Name"
+        "rate_limit_per_user": "Mode lent",
+        "auto_archive_duration": "Archive automatique",
+        "name": "Nom"
     }
 }

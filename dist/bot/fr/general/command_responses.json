@@ -134,7 +134,7 @@
     "configCommand": {
         "title": "Configurateur des Logs {quark}",
         "selection": "Sélectionnez une catégorie dans le menu pour afficher la configuration.",
-        "serverLogDesc": "Salon principal des logs du serveur",
+        "serverLogDesc": "Salon principal des logs",
         "notSet": "Pas défini",
         "selectACategory": "Sélectionnez une catégorie",
         "overview": "Aperçu",
@@ -153,16 +153,16 @@
             "categoryText": {
                 "title": "Messages",
                 "description": "Les actions de message (suppressions, modifications, épinglements, mettre/enlever une réaction)",
-                "resetButton": "Reset Message Logging Channel",
-                "disableButton": "Disable Message Logs",
+                "resetButton": "Réinitialiser le salon des logs de message",
+                "disableButton": "Désactiver les logs de message",
                 "enableButton": "Activer les logs de message"
             },
             "categoryVoice": {
                 "title": "Voix",
                 "description": "Les actions de salon vocal (rejoindre/se déconnecter, partage d'écran, rendre muet/mettre en sourdine)",
-                "resetButton": "Reset Voice Logging Channel",
-                "disableButton": "Disable Voice Logs",
-                "enableButton": "Enable Voice Logs"
+                "resetButton": "Réinitialiser le salon des logs de vocaux",
+                "disableButton": "Désactiver les logs de vocal",
+                "enableButton": "Activer les logs de vocal"
             },
             "categoryActions": {
                 "title": "Les actions de serveur",
@@ -185,23 +185,23 @@
             "categoryServer": {
                 "title": "Les Événements du Serveur",
                 "description": "Les actions générales (modifications du serveur)",
-                "resetButton": "Reset Server Event Logging Channel",
-                "disableButton": "Disable Server Event Logs",
-                "enableButton": "Enable Server Event Logs"
+                "resetButton": "Réinitialiser le salon des logs d'événements du serveur",
+                "disableButton": "Désactiver les logs d'événements du serveur",
+                "enableButton": "Activer les logs des événements du serveur"
             },
             "categoryRoles": {
                 "title": "Rôles",
                 "description": "Les actions de rôles (créations/suppressions, permissions)",
-                "resetButton": "Reset Role Logging Channel",
-                "disableButton": "Disable Role Logs",
-                "enableButton": "Enable Role Logs"
+                "resetButton": "Réinitialiser le salon des logs de rôle",
+                "disableButton": "Désactiver les logs de rôle",
+                "enableButton": "Activer les logs de rôle"
             },
             "categoryModlog": {
                 "title": "Logs de modération",
                 "description": "Les actions de modération (bannissements, expulsions, réductions au silence)",
-                "resetButton": "Reset Modlog Logging Channel",
-                "disableButton": "Disable Modlog Logs",
-                "enableButton": "Enable Modlog Logs"
+                "resetButton": "Réinitialiser le salon des logs de modération",
+                "disableButton": "Désactiver les logs de modération",
+                "enableButton": "Activer les logs de modération"
             },
             "overview": {
                 "title": "Aperçu",
@@ -210,16 +210,16 @@
             "categoryQuark": {
                 "title": "Configuration Quark",
                 "description": "Les changements apportés à la configuration de Quark pour ce serveur",
-                "resetButton": "Reset Quark Config Logging Channel",
-                "disableButton": "Disable Quark Config Logs",
-                "enableButton": "Activer les logs de configurations Quark"
+                "resetButton": "Réinitialiser le salon des logs de configuration de Quark",
+                "disableButton": "Désactiver les logs de configuration de Quark",
+                "enableButton": "Activer les logs de configurations de Quark"
             }
         },
-        "selectChannel": "Set logging channel",
+        "selectChannel": "Configurez le salon des logs",
         "all": "Tout",
         "resetChannel": "Réinitialiser le salon principal",
-        "selectLogType": "Select Log Type",
-        "resetLogChannel": "Reset Log Channel",
+        "selectLogType": "Sélectionnez le type de logs",
+        "resetLogChannel": "Réinitialiser le salon de logs",
         "furtherConfig": "Pour plus de contrôles sur les logs, comme la sélection de salons différents pour des différents types de log ou empêcher certains salons, utilisateurs ou messages d'être log, veuillez visiter [Quark's web dashboard]"
     },
     "help-overview-help": "Aide",
