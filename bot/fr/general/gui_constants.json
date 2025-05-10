@@ -40,7 +40,7 @@
     },
     "threadModificationTypes": {
         "rate_limit_per_user": "Mode lent",
-        "auto_archive_duration": "Automatic Archive",
+        "auto_archive_duration": "Archive automatique",
         "name": "Nom"
     }
 }
