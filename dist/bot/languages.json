@@ -96,7 +96,7 @@
         "id": 13,
         "name": "繁體中文",
         "active": true,
-        "iconCode": "ZH"
+        "iconCode": "CN"
     },
     "ko": {
         "code": "ko",
