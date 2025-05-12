@@ -160,7 +160,7 @@
             "categoryVoice": {
                 "title": "Voix",
                 "description": "Les actions de salon vocal (rejoindre/se déconnecter, partage d'écran, rendre muet/mettre en sourdine)",
-                "resetButton": "Réinitialiser le salon des logs de vocaux",
+                "resetButton": "Réinitialiser le salon des logs de vocal",
                 "disableButton": "Désactiver les logs de vocal",
                 "enableButton": "Activer les logs de vocal"
             },
@@ -187,7 +187,7 @@
                 "description": "Les actions générales (modifications du serveur)",
                 "resetButton": "Réinitialiser le salon des logs d'événements du serveur",
                 "disableButton": "Désactiver les logs d'événements du serveur",
-                "enableButton": "Activer les logs des événements du serveur"
+                "enableButton": "Activer les logs d'événements du serveur"
             },
             "categoryRoles": {
                 "title": "Rôles",
