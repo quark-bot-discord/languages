@@ -126,4 +126,10 @@ export default function languageProxy(language, noFallback = false) {
         },
     });
 }
+export function displayLanguage(language) {
+    const locale = Object.values(locales).find((locale) => locale.code === language);
+    if (!locale)
+        throw new Error(`Language ${language} not found`);
+    return `${locale.emoji} ${locale.name}`;
+}
 //# sourceMappingURL=index.js.map
