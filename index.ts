@@ -7,6 +7,7 @@ export interface Locale {
   id: number;
   name: string;
   active: boolean;
+  emoji: string;
 }
 
 export type Languages = {
@@ -174,4 +175,12 @@ export default function languageProxy(
       },
     }
   ) as LanguageStructure;
+}
+
+export function displayLanguage(language: QuarkLanguageCodes) {
+  const locale = Object.values(locales).find(
+    (locale) => locale.code === language
+  );
+  if (!locale) throw new Error(`Language ${language} not found`);
+  return `${locale.emoji} ${locale.name}`;
 }

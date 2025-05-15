@@ -5,111 +5,127 @@
     "name": "English, US",
     "default": true,
     "active": true,
-    "iconCode": "US"
+    "iconCode": "US",
+    "emoji": "🇺🇸"
   },
   "en-GB": {
     "code": "en_gb",
     "id": 1,
     "name": "English, UK",
     "active": true,
-    "iconCode": "GB"
+    "iconCode": "GB",
+    "emoji": "🇬🇧"
   },
   "tr": {
     "code": "tr",
     "id": 2,
     "name": "Türkçe",
     "active": true,
-    "iconCode": "TR"
+    "iconCode": "TR",
+    "emoji": "🇹🇷"
   },
   "vi": {
     "code": "vi",
     "id": 3,
     "name": "Tiếng Việt",
     "active": true,
-    "iconCode": "VN"
+    "iconCode": "VN",
+    "emoji": "🇻🇳"
   },
   "en-PR": {
     "code": "en_pr",
     "id": 4,
     "name": "Pirate Speak, The Seven Seas",
     "active": true,
-    "icon": "🏴‍☠️"
+    "icon": "🏴‍☠️",
+    "emoji": "🏴‍☠️"
   },
   "pl": {
     "code": "pl",
     "id": 5,
     "name": "Polski",
     "active": true,
-    "iconCode": "PL"
+    "iconCode": "PL",
+    "emoji": "🇵🇱"
   },
   "nl": {
     "code": "nl",
     "id": 6,
     "name": "Nederlands",
     "active": true,
-    "iconCode": "NL"
+    "iconCode": "NL",
+    "emoji": "🇳🇱"
   },
   "es-ES": {
     "code": "es_es",
     "id": 7,
     "name": "Español, España",
     "active": true,
-    "iconCode": "ES"
+    "iconCode": "ES",
+    "emoji": "🇪🇸"
   },
   "it": {
     "code": "it",
     "id": 8,
     "name": "Italiano",
     "active": true,
-    "iconCode": "IT"
+    "iconCode": "IT",
+    "emoji": "🇮🇹"
   },
   "de": {
     "code": "de",
     "id": 9,
     "name": "Deutsch",
     "active": true,
-    "iconCode": "DE"
+    "iconCode": "DE",
+    "emoji": "🇩🇪"
   },
   "fr": {
     "code": "fr",
     "id": 10,
     "name": "Français",
     "active": true,
-    "iconCode": "FR"
+    "iconCode": "FR",
+    "emoji": "🇫🇷"
   },
   "ru": {
     "code": "ru",
     "id": 11,
     "name": "Русский",
     "active": true,
-    "iconCode": "RU"
+    "iconCode": "RU",
+    "emoji": "🇷🇺"
   },
   "el": {
     "code": "el",
     "id": 12,
     "name": "Ελληνικά",
     "active": true,
-    "iconCode": "GR"
+    "iconCode": "GR",
+    "emoji": "🇬🇷"
   },
   "zh_Hant": {
     "code": "zh_hant",
     "id": 13,
     "name": "繁體中文",
     "active": true,
-    "iconCode": "CN"
+    "iconCode": "CN",
+    "emoji": "🇨🇳"
   },
   "ko": {
     "code": "ko",
     "id": 14,
     "name": "한국어",
     "active": true,
-    "iconCode": "KR"
+    "iconCode": "KR",
+    "emoji": "🇰🇷"
   },
   "sl": {
     "code": "sl",
     "id": 15,
     "name": "Slovenščina",
     "active": true,
-    "iconCode": "SI"
+    "iconCode": "SI",
+    "emoji": "🇸🇮"
   }
 }

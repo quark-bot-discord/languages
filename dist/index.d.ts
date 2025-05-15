@@ -18,3 +18,4 @@ export declare const getQuarkLocaleCode: (language: DiscordLocaleKeys) => QuarkL
 export declare const getDatabaseLocaleCode: (language: DiscordLocaleKeys) => number;
 export declare const getLocaleFromDatabaseCode: (databaseCode: number) => DiscordLocaleKeys;
 export default function languageProxy(language: string, noFallback?: boolean): LanguageStructure;
+export declare const displayLanguage: (language: QuarkLanguageCodes) => string;
