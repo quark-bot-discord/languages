@@ -24,7 +24,8 @@
         "description_kicked_no_executor": "{user} was kicked",
         "description_banned": "{user} was banned by {executor}",
         "description_banned_no_executor": "{user} was banned",
-        "info": "Info"
+        "info": "Info",
+        "info_kicked": "User kicked"
     },
     "botAdded": {
         "title": "Bot Ajouté",
