@@ -42,7 +42,7 @@
         "title": "Role Given",
         "title_multiple": "Roles Given",
         "description": "The {role} role was given to {user}",
-        "description_multiple": "Multiple roles were given to {user}",
+        "description_multiple": "{user} was given multiple roles",
         "givenBy": "Given by",
         "roles": "Roles",
         "warning": "WARNING!",
