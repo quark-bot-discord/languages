@@ -20,7 +20,8 @@
         "joined": "Arrivé",
         "roles": "Rôles",
         "serverProfilePicture": "Lien vers sa photo de profil du serveur",
-        "description_kicked": "{user} was kicked by {executor}"
+        "description_kicked": "{user} was kicked by {executor}",
+        "description_kicked_no_executor": "{user} was kicked"
     },
     "botAdded": {
         "title": "Bot Ajouté",
