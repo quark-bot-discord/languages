@@ -19,7 +19,8 @@
         "description": "{user} hat den Server verlassen",
         "joined": "Beigetreten",
         "roles": "Rollen",
-        "serverProfilePicture": "Link zum Server-Bild"
+        "serverProfilePicture": "Link zum Server-Bild",
+        "description_kicked": "{user} was kicked by {executor}"
     },
     "botAdded": {
         "title": "Bot hinzugefügt",
