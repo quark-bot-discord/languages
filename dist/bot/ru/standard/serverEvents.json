@@ -19,7 +19,8 @@
         "description": "{user} покинул сервер",
         "joined": "Присоединился",
         "roles": "Роли",
-        "serverProfilePicture": "Ссылка на серверный аватар"
+        "serverProfilePicture": "Ссылка на серверный аватар",
+        "description_kicked": "{user} was kicked by {executor}"
     },
     "botAdded": {
         "title": "Бот добавлен",

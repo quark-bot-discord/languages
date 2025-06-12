@@ -19,7 +19,8 @@
         "description": "{user} abandonó el servidor",
         "joined": "Unido",
         "roles": "Roles",
-        "serverProfilePicture": "Enlace al avatar del servidor"
+        "serverProfilePicture": "Enlace al avatar del servidor",
+        "description_kicked": "{user} was kicked by {executor}"
     },
     "botAdded": {
         "title": "Bot agregado",
