@@ -40,7 +40,7 @@
     },
     "memberRoleAdd": {
         "title": "Promoted",
-        "title_multiple": "Promoted",
+        "title_multiple": "Multiple Promotions",
         "description": "{user} was promoted to the {role} rank",
         "description_multiple": "{user} was given multiple promotions",
         "givenBy": "Promoted by",
@@ -50,7 +50,7 @@
     },
     "memberRoleRemove": {
         "title": "Demoted",
-        "title_multiple": "Demoted",
+        "title_multiple": "Multiple Demotions",
         "description": "{user} was demoted from the {role} rank",
         "description_multiple": "{user} was stripped of multiple ranks",
         "removedBy": "Demoted by",

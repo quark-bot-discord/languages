@@ -131,7 +131,7 @@
     "initialreactors-expired": "wykasły",
     "initialreactors-notfound": "Nie znaleziono żadnych reakcji",
     "configCommand": {
-        "title": "Konfiguracja Serverlog Quark",
+        "title": "Konfiguracja Logging {quark}",
         "selection": "Wybierz kategorię w menu, aby wyświetlić konfigurację.",
         "serverLogDesc": "Główny kanał logowania",
         "notSet": "Niezdefiniowany",
