@@ -21,7 +21,8 @@
         "roles": "Roles",
         "serverProfilePicture": "Link to server avatar",
         "description_kicked": "{user} was kicked by {executor}",
-        "description_kicked_no_executor": "{user} was kicked"
+        "description_kicked_no_executor": "{user} was kicked",
+        "description_banned": "{user} was banned by {executor}"
     },
     "botAdded": {
         "title": "Bot Eklendi",
