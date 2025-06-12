@@ -34,7 +34,8 @@
         "description_banned": "{user} was banned by {executor}",
         "description_banned_no_executor": "{user} was banned",
         "info": "Info",
-        "info_kicked": "User kicked"
+        "info_kicked": "User kicked",
+        "info_banned": "User banned"
     },
     "botAdded": {
         "title": "Bot Added",
