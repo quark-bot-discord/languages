@@ -20,8 +20,8 @@
         "oldPermissions": "Oude Machtigingen",
         "viewFullNewPermissions": "Volledige Nieuwe Machtigingen Bekijken",
         "viewFullOldPermissions": "Volledige Oude Machtigingen Bekijken",
-        "warning": "WARNING!",
-        "dangerousPermissions": "Dangerous permissions granted"
+        "warning": "WAARSCHUWING!",
+        "dangerousPermissions": "Gevaarlijke toestemmingen verleend"
     },
     "roleIconUpdate": {
         "title": "Rol Icoon Bijgewerkt",
