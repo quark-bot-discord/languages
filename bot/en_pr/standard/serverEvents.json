@@ -19,7 +19,8 @@
         "description": "{user} deserted the crew",
         "joined": "Joined the crew",
         "roles": "Ranks",
-        "serverProfilePicture": "Link to server avatar"
+        "serverProfilePicture": "Link to server avatar",
+        "description_kicked": "{user} was kicked by {executor}"
     },
     "botAdded": {
         "title": "Robot Added",
