@@ -20,7 +20,8 @@
         "joined": "Dołączył",
         "roles": "Role",
         "serverProfilePicture": "Link do awatara serwera",
-        "description_kicked": "{user} was kicked by {executor}"
+        "description_kicked": "{user} was kicked by {executor}",
+        "description_kicked_no_executor": "{user} was kicked"
     },
     "botAdded": {
         "title": "Bot Został Dodany",
