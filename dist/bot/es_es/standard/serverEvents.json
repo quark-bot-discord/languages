@@ -20,7 +20,8 @@
         "joined": "Unido",
         "roles": "Roles",
         "serverProfilePicture": "Enlace al avatar del servidor",
-        "description_kicked": "{user} was kicked by {executor}"
+        "description_kicked": "{user} was kicked by {executor}",
+        "description_kicked_no_executor": "{user} was kicked"
     },
     "botAdded": {
         "title": "Bot agregado",
