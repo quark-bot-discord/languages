@@ -10,7 +10,7 @@
     "kick": "Kick",
     "mute": "Timeout",
     "unmute": "Timeout Removed",
-    "timeoutEnds": "Timeout ends {time}",
+    "timeoutEnds": "Timeout ends {time} ({duration})",
     "editReason": "Edit Reason",
     "reasonModal": {
         "label": "Reason",
