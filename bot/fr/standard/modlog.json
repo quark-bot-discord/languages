@@ -10,7 +10,7 @@
     "kick": "Expulsion",
     "mute": "Réduction au silence",
     "unmute": "Réduction au silence supprimée",
-    "timeoutEnds": "La réduction au silence se finit {time}",
+    "timeoutEnds": "La réduction au silence se finit {time} ({duration})",
     "editReason": "Modifier la raison",
     "reasonModal": {
         "label": "Raison",
