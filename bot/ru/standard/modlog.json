@@ -10,7 +10,7 @@
     "kick": "Кик",
     "mute": "Тайм-аут",
     "unmute": "Тайм-аут снят",
-    "timeoutEnds": "Тайм-аут до {time}",
+    "timeoutEnds": "Тайм-аут до {time} ({duration})",
     "editReason": "Изменить причину",
     "reasonModal": {
         "label": "Причина",
