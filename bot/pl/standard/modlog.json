@@ -10,7 +10,7 @@
     "kick": "wyrzucenie",
     "mute": "Przerwa",
     "unmute": "Przerwa została zdjęta",
-    "timeoutEnds": "Przerwa kończy się {time}",
+    "timeoutEnds": "Przerwa kończy się {time} ({duration})",
     "editReason": "Edytuj powód",
     "reasonModal": {
         "label": "Powód",
