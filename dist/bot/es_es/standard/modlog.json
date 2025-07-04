@@ -10,7 +10,7 @@
     "kick": "Patada",
     "mute": "Se acabó el tiempo",
     "unmute": "Tiempo de espera eliminado",
-    "timeoutEnds": "El tiempo de espera finaliza {time}",
+    "timeoutEnds": "El tiempo de espera finaliza {time} ({duration})",
     "editReason": "Editar motivo",
     "reasonModal": {
         "label": "Razón",

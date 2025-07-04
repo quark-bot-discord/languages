@@ -2,7 +2,7 @@
     "kick": "踢出",
     "mute": "禁言",
     "unmute": "已移除禁言",
-    "timeoutEnds": "禁言結束{time}",
+    "timeoutEnds": "禁言結束{time} ({duration})",
     "editReason": "編輯理由",
     "reasonModal": {
         "label": "理由",

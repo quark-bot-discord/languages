@@ -10,7 +10,7 @@
     "kick": "Kicken",
     "mute": "Timeout",
     "unmute": "Timeout entfernt",
-    "timeoutEnds": "Timeout ended {time}",
+    "timeoutEnds": "Timeout ended {time} ({duration})",
     "editReason": "Grund bearbeiten",
     "reasonModal": {
         "label": "Grund",

@@ -10,7 +10,7 @@
     "kick": "Đuổi",
     "mute": "Tắt âm",
     "unmute": "Bật âm",
-    "timeoutEnds": "Hết thời gian chờ {time}",
+    "timeoutEnds": "Hết thời gian chờ {time} ({duration})",
     "editReason": "Chỉnh sửa lý do",
     "reasonModal": {
         "label": "Lý do",

@@ -10,7 +10,7 @@
     "kick": "Kicken",
     "mute": "Time-out",
     "unmute": "Time-out Verwijderd",
-    "timeoutEnds": "Time-out eindigt {time}",
+    "timeoutEnds": "Time-out eindigt {time} ({duration})",
     "editReason": "Reden Bewerken",
     "reasonModal": {
         "label": "Reden",
