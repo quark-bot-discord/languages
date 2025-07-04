@@ -10,7 +10,7 @@
     "kick": "Atmak",
     "mute": "Sustur",
     "unmute": "Susturmayı kaldır",
-    "timeoutEnds": "Timeout ends {time}",
+    "timeoutEnds": "Timeout ends {time} ({duration})",
     "reasonModal": {
         "label": "Reason",
         "placeholder": "Being very bad >:(",
