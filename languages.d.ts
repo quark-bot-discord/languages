@@ -665,64 +665,6 @@ export type LanguageStructure = {
 };
 };
 }>;
-  serverlog: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  channelOptionAllChannel: {
-  name: string;
-  description: string;
-};
-  channelOptionAll: {
-  name: string;
-  description: string;
-};
-  channelOption: {
-  name: string;
-  description: string;
-};
-  targetUserOption: {
-  name: string;
-  description: string;
-};
-  ignoreOptionTarget: {
-  name: string;
-  description: string;
-};
-  messageContentOption: {
-  name: string;
-  description: string;
-};
-  ignoreOptionMessage: {
-  name: string;
-  description: string;
-};
-  executorUserOption: {
-  name: string;
-  description: string;
-};
-  ignoreOptionExecutor: {
-  name: string;
-  description: string;
-};
-  ignoreOptionsChannelChannel: {
-  name: string;
-  description: string;
-};
-  ignoreOptionChannel: {
-  name: string;
-  description: string;
-};
-  ignoreOption: {
-  name: string;
-  description: string;
-};
-  spoilersOption: {
-  name: string;
-  description: string;
-};
-};
-}>;
   tags: Promise<{
   name: string;
   description: string;
@@ -789,6 +731,64 @@ export type LanguageStructure = {
 };
 };
 }>;
+  serverlog: Promise<{
+  name: string;
+  description: string;
+  commandOptions: {
+  channelOptionAllChannel: {
+  name: string;
+  description: string;
+};
+  channelOptionAll: {
+  name: string;
+  description: string;
+};
+  channelOption: {
+  name: string;
+  description: string;
+};
+  targetUserOption: {
+  name: string;
+  description: string;
+};
+  ignoreOptionTarget: {
+  name: string;
+  description: string;
+};
+  messageContentOption: {
+  name: string;
+  description: string;
+};
+  ignoreOptionMessage: {
+  name: string;
+  description: string;
+};
+  executorUserOption: {
+  name: string;
+  description: string;
+};
+  ignoreOptionExecutor: {
+  name: string;
+  description: string;
+};
+  ignoreOptionsChannelChannel: {
+  name: string;
+  description: string;
+};
+  ignoreOptionChannel: {
+  name: string;
+  description: string;
+};
+  ignoreOption: {
+  name: string;
+  description: string;
+};
+  spoilersOption: {
+  name: string;
+  description: string;
+};
+};
+}>;
   unban: Promise<{
   name: string;
   description: string;
@@ -819,6 +819,56 @@ export type LanguageStructure = {
 }>;
 };
   standard: {
+  generalEvents: Promise<{
+  serverModified: {
+  title: string;
+  description: string;
+};
+  serverIconUpdated: {
+  title: string;
+  description: string;
+  description_added: string;
+  description_removed: string;
+  linkToOldIcon: string;
+  linkToNewIcon: string;
+};
+  serverBoostAdd: {
+  title: string;
+  description: string;
+  description_noUser: string;
+  description_withTier: string;
+  description_withTier_noUser: string;
+  none: string;
+};
+  serverBoostRemove: {
+  title: string;
+  description: string;
+  description_noUser: string;
+  description_withTier: string;
+  description_withTier_noUser: string;
+  none: string;
+};
+}>;
+  modlog: Promise<{
+  moderator: string;
+  user: string;
+  reason: string;
+  case: string;
+  noReason: string;
+  noReasonBrief: string;
+  ban: string;
+  unban: string;
+  kick: string;
+  mute: string;
+  unmute: string;
+  timeoutEnds: string;
+  editReason: string;
+  reasonModal: {
+  label: string;
+  placeholder: string;
+  title: string;
+};
+}>;
   channelEvents: Promise<{
   channelCreated: {
   title: string;
@@ -886,54 +936,38 @@ export type LanguageStructure = {
   unknownChannel: string;
 };
 }>;
-  generalEvents: Promise<{
-  serverModified: {
+  roleEvents: Promise<{
+  roleCreated: {
   title: string;
   description: string;
 };
-  serverIconUpdated: {
+  roleDeleted: {
+  title: string;
+  description: string;
+  role: string;
+  linkToRoleIcon: string;
+};
+  roleUpdated: {
+  title: string;
+  description: string;
+};
+  rolePermissionsUpdate: {
+  title: string;
+  description: string;
+  newPermissions: string;
+  oldPermissions: string;
+  viewFullNewPermissions: string;
+  viewFullOldPermissions: string;
+  warning: string;
+  dangerousPermissions: string;
+};
+  roleIconUpdate: {
   title: string;
   description: string;
   description_added: string;
   description_removed: string;
   linkToOldIcon: string;
   linkToNewIcon: string;
-};
-  serverBoostAdd: {
-  title: string;
-  description: string;
-  description_noUser: string;
-  description_withTier: string;
-  description_withTier_noUser: string;
-  none: string;
-};
-  serverBoostRemove: {
-  title: string;
-  description: string;
-  description_noUser: string;
-  description_withTier: string;
-  description_withTier_noUser: string;
-  none: string;
-};
-}>;
-  modlog: Promise<{
-  moderator: string;
-  user: string;
-  reason: string;
-  case: string;
-  noReason: string;
-  noReasonBrief: string;
-  ban: string;
-  unban: string;
-  kick: string;
-  mute: string;
-  unmute: string;
-  timeoutEnds: string;
-  editReason: string;
-  reasonModal: {
-  label: string;
-  placeholder: string;
-  title: string;
 };
 }>;
   quarkEvents: Promise<{
@@ -998,40 +1032,6 @@ export type LanguageStructure = {
   tokenRevoked: {
   title: string;
   description: string;
-};
-}>;
-  roleEvents: Promise<{
-  roleCreated: {
-  title: string;
-  description: string;
-};
-  roleDeleted: {
-  title: string;
-  description: string;
-  role: string;
-  linkToRoleIcon: string;
-};
-  roleUpdated: {
-  title: string;
-  description: string;
-};
-  rolePermissionsUpdate: {
-  title: string;
-  description: string;
-  newPermissions: string;
-  oldPermissions: string;
-  viewFullNewPermissions: string;
-  viewFullOldPermissions: string;
-  warning: string;
-  dangerousPermissions: string;
-};
-  roleIconUpdate: {
-  title: string;
-  description: string;
-  description_added: string;
-  description_removed: string;
-  linkToOldIcon: string;
-  linkToNewIcon: string;
 };
 }>;
   serverActions: Promise<{
@@ -1375,5 +1375,5 @@ export type LanguageStructure = {
 }>;
 };
 };
-export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "export" | "help" | "initialReactor" | "invite" | "kick" | "language" | "logging" | "mute" | "ping" | "premium" | "privacy" | "purge" | "reason" | "serverlog" | "tags" | "unban" | "unmute";
+export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "export" | "help" | "initialReactor" | "invite" | "kick" | "language" | "logging" | "mute" | "ping" | "premium" | "privacy" | "purge" | "reason" | "tags" | "serverlog" | "unban" | "unmute";
 export type QuarkLanguageCodes = "en_us" | "en_gb" | "tr" | "vi" | "en_pr" | "pl" | "nl" | "es_es" | "it" | "de" | "fr" | "ru" | "el" | "zh_hant" | "ko" | "sl";
