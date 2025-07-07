@@ -1,13 +1,13 @@
 {
-    "modLog": "Modlogs",
-    "channelEvents": "Channels",
-    "voiceEvents": "Voice",
-    "textEvents": "Messages",
-    "serverActions": "Actions",
-    "roleEvents": "Roles",
-    "serverEvents": "Members",
-    "main": "Main",
-    "fileEvents": "Files",
-    "quarkEvents": "Quark Config",
-    "generalEvents": "Server"
+    "modLog": "سجلات المشرفين",
+    "channelEvents": "القنوات",
+    "voiceEvents": "الصوت",
+    "textEvents": "الرسائل",
+    "serverActions": "الإجراءات",
+    "roleEvents": "الرتب",
+    "serverEvents": "الأعضاء",
+    "main": "الرئيسية",
+    "fileEvents": "الملفات",
+    "quarkEvents": "إعدادات Quark",
+    "generalEvents": "السيرفر"
 }
