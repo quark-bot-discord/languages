@@ -125,80 +125,80 @@
     "help-commands-notes": "ملاحظات",
     "help-commands-other": "أخرى",
     "help-notes-help": "دليل الملاحظات",
-    "help-tags-help": "Tags Help",
-    "help-info": "Still need a hand? **Join Quark's support server!**",
-    "need-to-vote-title": "You must vote to use this command!",
-    "need-to-vote": "Click here to vote",
-    "need-to-vote-footer": "Votes take up to a minute to be registered",
-    "initialreactors-expired": "expired",
-    "initialreactors-notfound": "No reactions found",
+    "help-tags-help": "دليل العلامات",
+    "help-info": "هل ما زلت بحاجة للمساعدة؟ **انضم إلى سيرفر الدعم الخاص بـ Quark!**",
+    "need-to-vote-title": "يجب عليك التصويت لاستخدام هذا الأمر!",
+    "need-to-vote": "اضغط هنا للتصويت",
+    "need-to-vote-footer": "التصويت قد يستغرق ما يصل إلى دقيقة واحدة ليتم تسجيله",
+    "initialreactors-expired": "منتهي الصلاحية",
+    "initialreactors-notfound": "لا توجد تفاعلات",
     "configCommand": {
-        "title": "{quark} Logging Configurator",
-        "selection": "Select a category in the menu to view configuration.",
-        "serverLogDesc": "Main Logging Channel",
-        "notSet": "Not set",
-        "selectACategory": "Select a category",
+        "title": "إعدادات السجلات الخاصة بـ {quark}",
+        "selection": "اختر فئة من القائمة لعرض الإعدادات.",
+        "serverLogDesc": "القناة الرئيسية للسجلات",
+        "notSet": "غير مُعيّن",
+        "selectACategory": "اختر فئة",
         "overview": "Overview",
         "formats": {
-            "log_channels": "Log Channels",
-            "configurable_events": "Configurable Events"
+            "log_channels": "قنوات السجل",
+            "configurable_events": "الأحداث القابلة للتخصيص"
         },
         "categories": {
             "categoryMembers": {
-                "title": "Members",
-                "description": "Member actions (join/leave, roles, nicknames)",
-                "resetButton": "Reset Member Logging Channel",
-                "disableButton": "Disable Member Logs",
-                "enableButton": "Enable Member Logs"
+                "title": "الأعضاء",
+                "description": "إجراءات الأعضاء (الانضمام/المغادرة، الرتب،الألقاب)",
+                "resetButton": "إعادة ضبط قناة سجل الأعضاء",
+                "disableButton": "تعطيل سجلات الأعضاء",
+                "enableButton": "تفعيل تسجيل أحداث الأعضاء"
             },
             "categoryText": {
-                "title": "Messages",
-                "description": "Message actions (deletions, edits, pins, reactions)",
-                "resetButton": "Reset Message Logging Channel",
-                "disableButton": "Disable Message Logs",
-                "enableButton": "Enable Message Logs"
+                "title": "الرسائل",
+                "description": "إجراءات الرسائل (حذف، تعديل، تثبيت، تفاعلات)",
+                "resetButton": "إعادة تعيين قناة تسجيل أحداث الرسائل",
+                "disableButton": "إيقاف تسجيل أحداث الرسائل",
+                "enableButton": "تفعيل تسجيل أحداث الرسائل"
             },
             "categoryVoice": {
-                "title": "Voice",
-                "description": "Voice channel actions (join/leave, streams, mute/deafens)",
-                "resetButton": "Reset Voice Logging Channel",
-                "disableButton": "Disable Voice Logs",
-                "enableButton": "Enable Voice Logs"
+                "title": "الصوت",
+                "description": "إجراءات قناة الصوت (دخول/خروج، بث مباشر، كتم/صمم)",
+                "resetButton": "إعادة تعيين قناة تسجيل أحداث الصوت",
+                "disableButton": "إيقاف تسجيل أحداث الصوت",
+                "enableButton": "تفعيل تسجيل أحداث الصوت"
             },
             "categoryActions": {
-                "title": "Server Actions",
-                "description": "Server actions (invite creation/deletion, emojis)",
-                "resetButton": "Reset Server Actions Logging Channel",
-                "disableButton": "Disable Server Actions Logs",
-                "enableButton": "Enable Server Actions Logs"
+                "title": "إجراءات السيرفر",
+                "description": "إجراءات السيرفر (إنشاء/حذف الدعوه، الإيموجي)",
+                "resetButton": "عادة تعيين قناة تسجيل أحداث سيرفر",
+                "disableButton": "إلغاء تفعيل سجل أحداث السيرفر",
+                "enableButton": "تفعيل سجل أحداث السيرفر"
             },
             "categoryChannels": {
-                "title": "Channels",
-                "description": "Channel actions (creations/deletions, permissions)",
-                "resetButton": "Reset Channel Logging Channel",
-                "disableButton": "Disable Channel Logs",
-                "enableButton": "Enable Channel Logs"
+                "title": "القنوات",
+                "description": "إجراءات القناة (إنشاء/حذف القنوات، الصلاحيات)",
+                "resetButton": "إعادة تعيين قناة تسجيل أحداث القنوات",
+                "disableButton": "إلغاء تفعيل سجل القنوات",
+                "enableButton": "تفعيل سجل القنوات"
             },
             "categoryServer": {
-                "title": "Server Events",
-                "description": "General actions (server modifications)",
-                "resetButton": "Reset Server Event Logging Channel",
-                "disableButton": "Disable Server Event Logs",
-                "enableButton": "Enable Server Event Logs"
+                "title": "أحداث السيرفر",
+                "description": "الإجراءات العامة (تعديلات السيرفر)",
+                "resetButton": "إعادة ضبط قناة سجل أحداث السيرفر",
+                "disableButton": "إلغاء تفعيل سجل أحداث السيرفر",
+                "enableButton": "تفعيل سجل أحداث السيرفر"
             },
             "categoryRoles": {
-                "title": "Roles",
-                "description": "Role actions (creations/deletions, permissions)",
-                "resetButton": "Reset Role Logging Channel",
-                "disableButton": "Disable Role Logs",
-                "enableButton": "Enable Role Logs"
+                "title": "الرتب",
+                "description": "إجراءات الرتب (الإنشاء، الحذف، الصلاحيات)",
+                "resetButton": "إعادة ضبط قناة سجل الرتب",
+                "disableButton": "إيقاف تسجيل أحداث الرتب",
+                "enableButton": "تفعيل تسجيل أحداث الرتب"
             },
             "categoryModlog": {
                 "title": "Mod Logs",
-                "description": "Moderation actions (bans, kicks, mutes)",
-                "resetButton": "Reset Modlog Logging Channel",
-                "disableButton": "Disable Modlog Logs",
-                "enableButton": "Enable Modlog Logs"
+                "description": "إجراءات الإشراف (الحظر، الطرد، الكتم)",
+                "resetButton": "عادة ضبط قناة سجل الإشراف",
+                "disableButton": "إيقاف تسجيل سجل الإشراف",
+                "enableButton": "تفعيل تسجيل سجل الإشراف"
             },
             "overview": {
                 "title": "Overview",
@@ -206,24 +206,24 @@
             },
             "categoryQuark": {
                 "title": "Quark Config",
-                "description": "Changes made to Quark's configuration for this server",
-                "resetButton": "Reset Quark Config Logging Channel",
-                "disableButton": "Disable Quark Config Logs",
-                "enableButton": "Enable Quark Config Logs"
+                "description": "التغييرات التي أُجريت على إعدادات Quark في هذا السيرفر",
+                "resetButton": "إعادة تعيين قناة تسجيل إعدادات Quark",
+                "disableButton": "تعطيل سجلات إعدادات Quark",
+                "enableButton": "تفعيل سجلات إعدادات Quark"
             },
             "categoryFiles": {
-                "title": "Files",
-                "description": "Files (deleted attachments)"
+                "title": "الملفات",
+                "description": "الملفات (المرفقات المحذوفة)"
             }
         },
-        "selectChannel": "Set logging channel",
-        "all": "All",
-        "resetChannel": "Reset Main Channel",
-        "selectLogType": "Select Log Type",
-        "resetLogChannel": "Reset Log Channel",
-        "furtherConfig": "For more control over logs, such as selecting different channels for different log types or preventing certain channels, users or messages from being logged please visit [Quark's web dashboard]"
+        "selectChannel": "تحديد قناة التسجيل",
+        "all": "الجميع",
+        "resetChannel": "إعادة ضبط القناة الرئيسية",
+        "selectLogType": "اختر نوع السجل",
+        "resetLogChannel": "إعادة تعيين قناة السجل",
+        "furtherConfig": "لمزيد من التحكم في السجلات، مثل اختيار قنوات مختلفة لأنواع السجلات المختلفة أو منع تسجيل قنوات أو مستخدمين أو رسائل معيّنة، يرجى زيارة [لوحة تحكم Quark على الويب]."
     },
-    "help-modify-tags-description": "To create and edit tags, please visit [Quark's web dashboard]",
-    "banButton-banning": "Banning {user} {inXSeconds}",
-    "banButton-cancel": "Cancel"
+    "help-modify-tags-description": "لإنشاء وتعديل العلامات (Tags)، يرجى زيارة [لوحة تحكم Quark على الويب]",
+    "banButton-banning": "جاري حظر {user} {inXSeconds}",
+    "banButton-cancel": "إلغاء"
 }
