@@ -258,9 +258,6 @@ export type LanguageStructure = {
   "banButton-banning": string;
   "banButton-cancel": string;
 }>;
-  emoji_update_types: Promise<{
-  none: string;
-}>;
   gui_constants: Promise<{
   channelModificationTypes: {
   name: string;
@@ -306,6 +303,9 @@ export type LanguageStructure = {
   auto_archive_duration: string;
   name: string;
 };
+}>;
+  emoji_update_types: Promise<{
+  none: string;
 }>;
   guild_update_types: Promise<{
   none: string;
