@@ -1,29 +1,29 @@
 {
     "verification_level": {
-        "3": "high",
-        "0": "none",
-        "2": "medium",
-        "1": "low",
-        "4": "very_high"
+        "3": "عالٍ",
+        "0": "بدون تحقق",
+        "2": "متوسط",
+        "1": "منخفض",
+        "4": "عالٍ جدًا"
     },
     "premium_progress_bar_enabled": {
-        "true": "enabled",
-        "false": "disabled"
+        "true": "مفعل",
+        "false": "معطل"
     },
     "nsfw_level": {
-        "0": "default",
-        "1": "explicit",
-        "3": "age restricted",
-        "2": "safe"
+        "0": "افتراضي",
+        "1": "صريح",
+        "3": "مقيّد بالعمر",
+        "2": "آمن"
     },
     "none": "بدون",
     "explicit_content_filter": {
-        "1": "members without roles",
-        "2": "all members",
-        "0": "disabled"
+        "1": "الأعضاء بدون رتب",
+        "2": "كل الأعضاء",
+        "0": "معطل"
     },
     "default_message_notifications": {
-        "0": "all messages",
-        "1": "only mentions"
+        "0": "كل الرسائل",
+        "1": "التنبيهات فقط"
     }
 }

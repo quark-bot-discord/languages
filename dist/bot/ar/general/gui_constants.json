@@ -1,46 +1,46 @@
 {
     "guildModificationTypes": {
-        "premium_progress_bar_enabled": "Progress Bar",
-        "description": "Description",
-        "name": "Name",
-        "system_channel_id": "System Channel",
-        "nsfw_level": "NSFW Level",
-        "mfa_level": "MFA Required",
-        "default_message_notifications": "Default Notifications",
-        "explicit_content_filter": "Explicit Content Filter",
-        "verification_level": "Verification Level",
-        "rules_channel_id": "Rule Channel"
+        "premium_progress_bar_enabled": "شريط التقدم (للـBoost)",
+        "description": "الوصف",
+        "name": "الاسم",
+        "system_channel_id": "القناة النظام",
+        "nsfw_level": "مستوى NSFW (محتوى للبالغين)",
+        "mfa_level": "المصادقة الثنائية مطلوبة",
+        "default_message_notifications": "الإشعارات الافتراضية",
+        "explicit_content_filter": "فلتر المحتوى الصريح",
+        "verification_level": "مستوى التحقق",
+        "rules_channel_id": "قناة القوانين"
     },
     "channelModificationTypes": {
-        "name": "Name",
-        "user_limit": "User Limit",
+        "name": "الاسم",
+        "user_limit": "الحد الأقصى للمستخدمين",
         "rate_limit_per_user": "Slowmode",
-        "topic": "Topic",
+        "topic": "الموضوع",
         "bitrate": "Bitrate",
-        "type": "Type",
-        "position": "Position",
+        "type": "النوع",
+        "position": "الموضع",
         "parent_id": "Category",
-        "nsfw": "NSFW",
-        "rtc_region": "Region"
+        "nsfw": "محتوى للبالغين (NSFW)",
+        "rtc_region": "المنطقة"
     },
     "roleModificationTypes": {
-        "name": "Name",
-        "hoist": "Hoisted",
-        "unicode_emoji": "Emoji",
-        "managed": "Managed",
-        "mentionable": "Mentionable",
-        "color": "Color"
+        "name": "الاسم",
+        "hoist": "مرفوعة (تُعرض منفصلة)",
+        "unicode_emoji": "الإيموجي",
+        "managed": "مُدارة",
+        "mentionable": "قابلة للمنشن",
+        "color": "اللون"
     },
     "threadModificationTypes": {
-        "name": "Name",
+        "name": "الاسم",
         "rate_limit_per_user": "Slowmode",
-        "auto_archive_duration": "Automatic Archive"
+        "auto_archive_duration": "الأرشفة التلقائية"
     },
     "webhookModificationTypes": {
-        "channel_id": "Channel",
-        "name": "Name"
+        "channel_id": "القناة",
+        "name": "الاسم"
     },
     "emojiModificationTypes": {
-        "name": "Name"
+        "name": "الاسم"
     }
 }

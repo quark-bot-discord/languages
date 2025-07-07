@@ -1,7 +1,7 @@
 {
-    "2": "Standard (no embed)",
+    "2": "العادي (بدون رسائل مضمنة)",
     "4": "json",
-    "3": "Compact (no embed)",
-    "1": "Compact",
-    "0": "Standard"
+    "3": "مختصر (بدون رسائل مضمنة)",
+    "1": "مختصر (Compact)",
+    "0": "العادي (Standard)"
 }

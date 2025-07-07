@@ -1,1 +1,12 @@
-{}
+{
+    "ignoreBotTargets": "تجاهل الأهداف من البوتات",
+    "ignoreExecutorRoles": "تجاهل رتب المنفذين",
+    "ignoreTargetRoles": "تجاهل رتب المستهدفين",
+    "activeIgnore": "التجاهل النشط",
+    "ignoreCategories": "تجاهل التصنيفات",
+    "ignoreTargets": "تجاهل المستخدمين المستهدفين",
+    "ignoreExecutors": "تجاهل المنفذين المستهدفين",
+    "specificMessageContent": "تجاهل محتوى رسائل معين",
+    "ignoreChannels": "تجاهل القنوات",
+    "ignoreBotExecutors": "تجاهل المنفذين من البوتات"
+}
