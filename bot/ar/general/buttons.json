@@ -1,9 +1,9 @@
 {
-    "dashboard": "Dashboard",
-    "customise": "Customize",
-    "supportServer": "Support Server",
+    "dashboard": "لوحة التحكم",
+    "customise": "تخصيص",
+    "supportServer": "الدعم الفني",
     "pro": "Quark Pro",
     "overview": "Overview",
-    "serverlog": "Serverlog",
-    "userID": "User ID"
+    "serverlog": "سجل السيرف",
+    "userID": "معرف المستخدم"
 }
