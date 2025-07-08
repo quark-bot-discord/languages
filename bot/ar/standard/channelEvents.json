@@ -1,67 +1,67 @@
 {
     "channelCreated": {
-        "description": "{channel} was created by {executor}",
-        "descriptionWithCategory": "{channel} was created by {executor} under the {category} category.",
-        "title": "{type} Channel Created"
+        "description": "{channel} تم إنشاؤها بواسطة {executor}",
+        "descriptionWithCategory": "{channel} تم إنشاؤها بواسطة {executor} تحت فئة {category}.",
+        "title": "تم إنشاء قناة {type}"
     },
     "webhookDelete": {
-        "description": "{executor} deleted the webhook {webhook}",
-        "title": "Webhook Deleted"
+        "description": "{executor} حذف Webhook {webhook}",
+        "title": "تم حذف Webhook"
     },
     "channelOverwriteUpdate": {
-        "description": "{executor} updated permissions for {channel} for {special}",
-        "newPermissions": "New Permissions",
-        "dangerousPermissions": "Dangerous permissions granted",
-        "warning": "WARNING!",
-        "viewFullNewPermissions": "View Full New Permissions",
-        "title": "{type} Channel Permissions Updated"
+        "description": "{executor} حدّث الصلاحيات في {channel} لـ {special}",
+        "newPermissions": "الصلاحيات الجديدة",
+        "dangerousPermissions": "تم منح صلاحيات خطيرة",
+        "warning": "تحذير!",
+        "viewFullNewPermissions": "عرض جميع الصلاحيات الجديدة",
+        "title": "تم تحديث صلاحيات قناة {type}"
     },
     "webhookAvatarUpdate": {
-        "title": "Webhook Avatar Updated",
-        "linkToNewAvatar": "Link to new avatar",
-        "description_removed": "{executor} removed the avatar for {webhook}",
-        "linkToOldAvatar": "Link to old avatar",
-        "description": "{executor} updated the avatar for {webhook}",
-        "description_added": "{executor} added an avatar for {webhook}"
+        "title": "تم تحديث صورة Webhook",
+        "linkToNewAvatar": "رابط الصورة الجديدة",
+        "description_removed": "{executor} أزال صورة Webhook {webhook}",
+        "linkToOldAvatar": "رابط الصورة السابقة",
+        "description": "{executor} حدّث صورة Webhook {webhook}",
+        "description_added": "{executor} أضاف صورة إلى Webhook {webhook}"
     },
     "channelDeleted": {
-        "title": "{type} Channel Deleted",
-        "description": "{channel_name} was deleted by {executor}",
-        "channel": "Channel"
+        "title": "تم حذف قناة {type}",
+        "description": "{channel_name} تم حذفها بواسطة {executor}",
+        "channel": "القناة"
     },
     "statusChannelFollowed": {
-        "title": "Channel Followed",
-        "description": "{executor} followed the channel {name} in {channel}"
+        "title": "تم متابعة قناة",
+        "description": "{executor} تابع القناة {name} في {channel}"
     },
     "channelUpdated": {
-        "title": "{type} Channel Modified",
-        "description": "{channel} was modified by {executor}"
+        "title": "تم تعديل قناة {type}",
+        "description": "{channel} تم تعديلها بواسطة {executor}"
     },
     "webhookUpdate": {
-        "description": "{executor} modified the webhook {webhook}",
-        "title": "Webhook Modified"
+        "description": "{executor} عدّل Webhook {webhook}",
+        "title": "تم تعديل Webhook"
     },
     "webhookCreate": {
-        "title": "Webhook Created",
-        "description": "{executor} created a webhook {webhook} in {channel}"
+        "title": "تم إنشاء Webhook",
+        "description": "{executor} أنشأ Webhook {webhook} في {channel}"
     },
     "channelOverwriteDelete": {
-        "description": "{executor} removed permissions from {channel} for {special}",
-        "title": "{type} Channel Permissions Removed"
+        "description": "{executor} أزال الصلاحيات من {channel} لـ {special}",
+        "title": "تمت إزالة صلاحيات من قناة {type}"
     },
     "statusChannelUnfollowed": {
-        "title": "Channel Unfollowed",
-        "description": "{executor} unfollowed the channel {name}"
+        "title": "تم إلغاء متابعة قناة",
+        "description": "{executor} ألغى متابعة القناة {name}"
     },
     "statusChannelUpdated": {
-        "title": "Followed Channel Updated",
-        "description": "{executor} updated the followed channel {name}"
+        "title": "تم تحديث قناة المتابعة",
+        "description": "{executor} حدّث قناة المتابعة {name}"
     },
     "general": {
-        "unknownChannel": "Unknown Channel"
+        "unknownChannel": "قناة غير معروفة"
     },
     "channelOverwriteCreate": {
-        "description": "{executor} added permissions to {channel} for {special}",
-        "title": "{type} Channel Permissions Added"
+        "description": "{executor} أضاف صلاحيات إلى {channel} لـ {special}",
+        "title": "تمت إضافة صلاحيات لقناة {type}"
     }
 }
