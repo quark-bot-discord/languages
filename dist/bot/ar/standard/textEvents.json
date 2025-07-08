@@ -1,97 +1,97 @@
 {
     "messageReactionRemove": {
-        "emoji": "Emoji",
-        "description": "{executor} removed a reaction from a message",
-        "title": "Reaction Removed",
-        "jumpToMessage": "Jump to message",
-        "linkToEmoji": "Link to emoji"
+        "emoji": "إيموجي",
+        "description": "قام {executor} بحذف تفاعل من رسالة",
+        "title": "تم حذف التفاعل",
+        "jumpToMessage": "الانتقال إلى الرسالة",
+        "linkToEmoji": "رابط الإيموجي"
     },
     "messagesBulkDeleted": {
-        "deletedBy": "Deleted by",
-        "errorText": "There was an issue with creating a text file. Some messages may be lost. If this happens persistently, please make us aware in Quark's support server.",
-        "channel": "Channel",
-        "more": "more",
-        "errorFile": "There was an issue with recovering the files. If this happens persistently, please make us aware in Quark's support server.",
-        "embed": "embed",
-        "uncachedMessage": "uncached message",
-        "uncachedChannel": "uncached channel",
-        "uncachedUser": "uncached user",
-        "title": "Multiple Messages Deleted"
+        "deletedBy": "تم الحذف بواسطة",
+        "errorText": "حدثت مشكلة في إنشاء ملف نصي. قد يتم فقد بعض الرسائل. إذا استمر ذلك، يرجى التواصل مع دعم Quark.",
+        "channel": "القناة",
+        "more": "المزيد",
+        "errorFile": "حدثت مشكلة في استرجاع الملفات. إذا استمر ذلك، يرجى التواصل مع دعم Quark.",
+        "embed": "الإيمبد",
+        "uncachedMessage": "رسالة غير مخزَّنة مؤقتًا",
+        "uncachedChannel": "قناة غير مخزَّنة مؤقتًا",
+        "uncachedUser": "مستخدم غير مخزَّن مؤقتًا",
+        "title": "تم حذف رسائل متعددة"
     },
     "polls": {
-        "noResponses": "No responses",
-        "enabled": "enabled",
-        "pollDescriptor": "[poll]",
-        "votes": "votes",
-        "pollDeleted": "Poll Deleted",
-        "status": "Poll has status.",
-        "notEnded": "not ended",
-        "multiselect": "Multiselect",
-        "poll": "Poll",
-        "disabled": "disabled",
-        "vote": "vote",
-        "ends": "Ends",
-        "ended": "ended"
+        "noResponses": "لا توجد استجابات",
+        "enabled": "مفعّل",
+        "pollDescriptor": "[استفتاء]",
+        "votes": "أصوات",
+        "pollDeleted": "تم حذف الاستفتاء",
+        "status": "حالة الاستفتاء.",
+        "notEnded": "لم ينتهِ",
+        "multiselect": "إجابات متعددة",
+        "poll": "استفتاء",
+        "disabled": "معطّل",
+        "vote": "تصويت",
+        "ends": "ينتهي",
+        "ended": "منتهٍ"
     },
     "threadDelete": {
-        "channel": "Channel",
-        "title": "Thread Deleted",
-        "description": "{executor} deleted a thread {thread}",
-        "thread": "Thread"
+        "channel": "القناة",
+        "title": "تم حذف ثريد",
+        "description": "قام {executor} بحذف الثريد {thread}",
+        "thread": "ثريد"
     },
     "messageDeleted": {
-        "linksToFiles": "Links to files",
-        "jumpToContext": "Jump to context",
-        "fileExpired": "file too large or expired",
-        "initialReactor": "initial reactor",
-        "sticker": "sticker",
-        "inviteDetected": "Server invite detected",
-        "warning": "WARNING!",
-        "thread": "Thread",
-        "title": "Message Deleted",
-        "filesExpired": "files too large or expired",
-        "linksToEmojis": "Links to emojis",
-        "noContent": "no content",
-        "deletedBy": "Deleted by",
-        "ghostpingDetected": "Ghostping detected",
-        "file": "file",
-        "author": "Message author",
-        "files": "files",
-        "embed": "embed",
-        "channel": "Channel"
+        "linksToFiles": "روابط الملفات",
+        "jumpToContext": "الانتقال للمحتوى",
+        "fileExpired": "الملف كبير جدًا أو منتهي الصلاحية",
+        "initialReactor": "أول من تفاعل",
+        "sticker": "ملصق (Sticker)",
+        "inviteDetected": "تم اكتشاف رابط دعوة",
+        "warning": "تحذير!",
+        "thread": "ثريد",
+        "title": "تم حذف الرسالة",
+        "filesExpired": "الملفات كبيرة جدًا أو منتهية الصلاحية",
+        "linksToEmojis": "روابط الإيموجي",
+        "noContent": "بدون محتوى",
+        "deletedBy": "تم الحذف بواسطة",
+        "ghostpingDetected": "تم اكتشاف إشعار وهمي (Ghostping)",
+        "file": "ملف",
+        "author": "كاتب الرسالة",
+        "files": "ملفات",
+        "embed": "الإيمبد",
+        "channel": "القناة"
     },
     "threadCreate": {
-        "channel": "Channel",
-        "description": "{member} created a new thread {thread}",
-        "title": "Thread Created",
-        "jumpToContext": "Jump to context",
-        "thread": "Thread"
+        "channel": "القناة",
+        "description": "قام {member} بإنشاء ثريد جديد {thread}",
+        "title": "تم إنشاء ثريد",
+        "jumpToContext": "الانتقال للمحتوى",
+        "thread": "ثريد"
     },
     "messageUpdate": {
-        "author": "Message author",
-        "noContent": "no content",
-        "title": "Message Edited",
-        "diffError": "Unable to calculate edits.",
-        "jumpToMessage": "Jump to message",
-        "diff": "Edits",
-        "channel": "Channel",
-        "afterEdit": "After edit",
-        "thread": "Thread",
-        "cannotRetrieveOriginal": "Cannot retrieve original message"
+        "author": "كاتب الرسالة",
+        "noContent": "بدون محتوى",
+        "title": "تم تعديل الرسالة",
+        "diffError": "لا يمكن حساب التعديلات.",
+        "jumpToMessage": "الانتقال إلى الرسالة",
+        "diff": "التعديلات",
+        "channel": "قناة",
+        "afterEdit": "بعد التعديل",
+        "thread": "ثريد",
+        "cannotRetrieveOriginal": "لا يمكن استرجاع الرسالة الأصلية"
     },
     "messageUnpin": {
-        "title": "Message Unpinned",
-        "description": "A message was unpinned by {executor}"
+        "title": "تم إزالة تثبيت الرسالة",
+        "description": "قام {executor} بإزالة تثبيت رسالة"
     },
     "messagePin": {
-        "title": "Message Pinned",
-        "description": "A message was pinned by {executor}"
+        "title": "تم تثبيت الرسالة",
+        "description": "قام {executor} بتثبيت رسالة"
     },
     "attachmentDeleted": {
-        "title": "Attachment Deleted"
+        "title": "تم حذف المرفق"
     },
     "threadUpdated": {
-        "description": "{thread} was modified by {executor}",
-        "title": "Thread Modified"
+        "description": "تم تعديل الثريد {thread} بواسطة {executor}",
+        "title": "تم تعديل الثريد"
     }
 }
