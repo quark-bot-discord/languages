@@ -1,79 +1,79 @@
 {
     "userLeft": {
-        "title": "User Left",
-        "description": "{user} left the server",
-        "serverProfilePicture": "Link to server avatar",
-        "info_kicked": "User kicked",
-        "description_banned": "{user} was banned by {executor}",
-        "info": "Info",
-        "description_kicked": "{user} was kicked by {executor}",
-        "roles": "Roles",
-        "description_banned_no_executor": "{user} was banned",
-        "joined": "Joined",
-        "info_banned": "User banned",
-        "description_kicked_no_executor": "{user} was kicked"
+        "title": "غادر عضو",
+        "description": "{user} غادر السيرفر",
+        "serverProfilePicture": "رابط صورة الملف الشخصي في السيرفر",
+        "info_kicked": "تم طرد العضو",
+        "description_banned": "تم حظر {user} بواسطة {executor}",
+        "info": "معلومات",
+        "description_kicked": "تم طرد {user} بواسطة {executor}",
+        "roles": "الرتب",
+        "description_banned_no_executor": "تم حظر {user}",
+        "joined": "تاريخ الانضمام",
+        "info_banned": "تم حظر العضو",
+        "description_kicked_no_executor": "تم طرد {user}"
     },
     "nicknameUpdate": {
-        "title": "Nickname Updated",
-        "setNick": "{user}'s nickname was set to {newNickname}",
-        "description": "{user}'s nickname was changed from {oldNickname} to {newNickname}",
-        "changedBy": "Changed by",
-        "nickRemoved": "{user}'s nickname of {oldNickname} was removed"
+        "title": "تم تحديث اللقب",
+        "setNick": "تم تعيين لقب {user} إلى {newNickname}",
+        "description": "تم تغيير لقب {user} من {oldNickname} إلى {newNickname}",
+        "changedBy": "تم التغيير بواسطة",
+        "nickRemoved": "تم إزالة لقب {oldNickname} من {user}"
     },
     "memberRoleAdd": {
-        "title_multiple": "Roles Given",
-        "givenBy": "Given by",
-        "dangerousPermissions": "Dangerous permissions granted",
-        "description": "The {role} role was given to {user}",
-        "roles": "Roles",
-        "title": "Role Given",
-        "warning": "WARNING!",
-        "description_multiple": "{user} was given multiple roles"
+        "title_multiple": "تم إعطاء رتب",
+        "givenBy": "بواسطة",
+        "dangerousPermissions": "تم منح صلاحيات خطيرة",
+        "description": "تم إعطاء رتبة {role} إلى {user}",
+        "roles": "الرتب",
+        "title": "تم إعطاء رتبة",
+        "warning": "تحذير!",
+        "description_multiple": "تم إعطاء عدة رتب لـ {user}"
     },
     "avatarUpdate": {
-        "description": "{user} changed their server avatar",
-        "changedBy": "Changed by",
-        "description_removed": "{user} removed their server avatar",
-        "title": "Server Avatar Changed",
-        "linkToNewAvatar": "Link to new avatar",
-        "linkToOldAvatar": "Link to old avatar",
-        "description_added": "{user} added a server avatar"
+        "description": "قام {user} بتغيير صورة حسابه في السيرفر",
+        "changedBy": "تم التغيير بواسطة",
+        "description_removed": "قام {user} بإزالة صورة حسابه في السيرفر",
+        "title": "تم تغيير صورة الحساب في السيرفر",
+        "linkToNewAvatar": "رابط للصورة الجديدة",
+        "linkToOldAvatar": "رابط للصورة السابقة",
+        "description_added": "قام {user} بإضافة صورة حساب للسيرفر"
     },
     "userJoined": {
-        "title": "User Joined",
-        "info": "Info",
-        "noAvatar": "Account has no avatar",
-        "invite": "Invite",
-        "newAccount": "Account is new",
-        "warning": "WARNING!",
-        "rejoined": "Account rejoined",
-        "noBadges": "Account has no badges",
-        "description": "{user} joined the server",
-        "accountCreated": "Account created",
-        "createdBy": "created by {user}",
-        "ban": "Ban"
+        "title": "انضم عضو",
+        "info": "معلومات",
+        "noAvatar": "الحساب لا يحتوي على صورة",
+        "invite": "الدعوة",
+        "newAccount": "الحساب جديد",
+        "warning": "تحذير!",
+        "rejoined": "الحساب انضم مرة أخرى",
+        "noBadges": "الحساب لا يحتوي على شارات",
+        "description": "{user} انضم إلى السيرفر",
+        "accountCreated": "تاريخ إنشاء الحساب",
+        "createdBy": "تم إنشاؤها بواسطة {user}",
+        "ban": "الحظر"
     },
     "botRemoved": {
-        "title": "Bot Removed",
-        "descriptionne": "{bot} was removed from the server",
-        "description": "{bot} was removed from the server by {executor}"
+        "title": "تم إزالة بوت",
+        "descriptionne": "تم إزالة {bot} من السيرفر",
+        "description": "تم إزالة {bot} من السيرفر بواسطة {executor}"
     },
     "botAdded": {
-        "description": "{bot} was added to the server by {executor}",
-        "descriptionne": "{bot} was added to the server",
-        "title": "Bot Added"
+        "description": "تم إضافة {bot} إلى السيرفر بواسطة {executor}",
+        "descriptionne": "تم إضافة {bot} إلى السيرفر",
+        "title": "تم إضافة بوت"
     },
     "memberRoleRemove": {
-        "roles": "Roles",
-        "removedBy": "Removed by",
-        "description": "The {role} role was removed from {user}",
-        "title": "Role Taken",
-        "title_multiple": "Roles Taken",
-        "description_multiple": "Multiple roles were removed from {user}"
+        "roles": "الرتب",
+        "removedBy": "تمت الإزالة بواسطة",
+        "description": "تم إزالة رتبة {role} من {user}",
+        "title": "تم إزالة رتبة",
+        "title_multiple": "تم إزالة رتب",
+        "description_multiple": "تمت إزالة عدة رتب من {user}"
     },
     "memberPrune": {
-        "title": "Members Pruned",
-        "description": "{count} members with at least {time} days of inactivity were pruned by {executor}"
+        "title": "تم تنظيف الأعضاء",
+        "description": "تم تنظيف {count} عضوًا بعد {time} يومًا من عدم النشاط بواسطة {executor}"
     },
-    "members": "Members"
+    "members": "الأعضاء"
 }
