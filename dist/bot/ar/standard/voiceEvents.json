@@ -1,7 +1,7 @@
 {
     "voiceJoin": {
-        "title": "Joined Channel",
-        "description": "{user} joined the {channel} voice channel"
+        "title": "انضم للقناة",
+        "description": "{user} انضم إلى قناة الصوت {channel}"
     },
     "channelStatusUpdate": {
         "title": "Voice Channel Status Updated",
@@ -11,10 +11,10 @@
         "descriptionRemoved": "{executor} removed the status for {channel}"
     },
     "voiceDisconnect": {
-        "voiceChannel": "Voice channel",
-        "title": "Disconnected",
-        "disconnectedBy": "Disconnected by",
-        "description": "{user} was disconnected"
+        "voiceChannel": "قناة صوتية",
+        "title": "تم فصله",
+        "disconnectedBy": "تم فصله بواسطة",
+        "description": "{user} تم فصله"
     },
     "stageEnded": {
         "topic": "Topic",
@@ -54,23 +54,23 @@
     },
     "serverDeafen": {
         "description": "{user} was deafened",
-        "title": "Deafened",
+        "title": "تم الصمم (ديفن)",
         "voiceChannel": "Voice channel",
         "deafenedBy": "Deafened by"
     },
     "voiceSwitch": {
-        "description": "{user} moved from the {channel_old} voice channel to the {channel_new} voice channel",
-        "title": "Changed Channel"
+        "description": "{user} انتقل من قناة الصوت {channel_old} إلى {channel_new}",
+        "title": "تم تغيير القناة"
     },
     "streamStop": {
-        "description": "{user} stopped streaming in the {channel} voice channel",
-        "title": "Stream Ended"
+        "description": "{user} أوقف البث في قناة الصوت {channel}",
+        "title": "تم إنهاء البث"
     },
     "voiceLeave": {
-        "joined": "Joined",
-        "description": "{user} left the {channel} voice channel",
-        "title": "Left Channel",
-        "joinedValue": "{relative} for {relative_fixed}"
+        "joined": "انضم",
+        "description": "{user} غادر قناة الصوت {channel}",
+        "title": "غادر القناة",
+        "joinedValue": "{relative} لمدة {relative_fixed}"
     },
     "stageStarted": {
         "description": "{executor} started a stage in {channel}",
@@ -82,24 +82,24 @@
         "title": "Speaker Invited"
     },
     "videoStart": {
-        "description": "{user} started their video in the {channel} voice channel",
-        "title": "Video Started"
+        "description": "{user} بدأ الفيديو في قناة الصوت {channel}",
+        "title": "تم تشغيل الفيديو"
     },
     "streamStart": {
-        "title": "Stream Started",
-        "description": "{user} started streaming in the {channel} voice channel"
+        "title": "بدأ البث",
+        "description": "{user} بدأ البث في قناة الصوت {channel}"
     },
     "voiceBundle": {
         "title": "Multiple Voice Channel Events"
     },
     "videoStop": {
-        "title": "Video Stopped",
-        "description": "{user} stopped their video in the {channel} voice channel"
+        "title": "تم إيقاف الفيديو",
+        "description": "{user} أوقف الفيديو في قناة الصوت {channel}"
     },
     "voiceMove": {
-        "title": "Moved",
-        "movedBy": "Moved by",
-        "description": "{user} was moved from the {channel_old} voice channel to the {channel_new} voice channel"
+        "title": "تم نقله",
+        "movedBy": "تم نقله بواسطة",
+        "description": "{user} تم نقله من قناة الصوت {channel_old} إلى {channel_new}"
     },
     "stageSpeakerRemove": {
         "description": "{user} is no longer a speaker in the {channel} stage channel",

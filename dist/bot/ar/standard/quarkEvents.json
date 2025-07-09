@@ -20,13 +20,13 @@
         "ignoreBotTargets": "تجاهل الاهداف من البوتات",
         "colour": "اللون",
         "activeIgnore": "تفعيل التجاهل",
-        "enabled": "مفعّل",
+        "enabled": "مفعل",
         "description": "{executor} قام بتحديث لوق {type}",
         "title": "تم تحديث اللوق"
     },
     "tokenRevoked": {
-        "title": "Token Revoked",
-        "description": "{executor} revoked the Quark access token with ID {token}"
+        "title": "تم إلغاء الـToken",
+        "description": "{executor} ألغى Token في Quark بمعرف {token}"
     },
     "reset": {
         "description": "{executor} قام بإعادة ضبط إعدادات هذا السيرفر",
@@ -48,10 +48,10 @@
         "description_added": "{executor} أضاف {target} إلى {type}"
     },
     "tokenAdded": {
-        "unique_id": "Token ID",
+        "unique_id": "معرف الـToken",
         "title": "تم إنشاء Token",
-        "revoke": "Revoke this token",
-        "description": "{executor} generated a Quark access token with {permissions} permissions for this server"
+        "revoke": "إلغاء هذا الـToken",
+        "description": "{executor} أنشأ token في Quark بصلاحيات {permissions} لهذا السيرفر"
     },
     "languageUpdate": {
         "description": "{executor} غيّر اللغة إلى {language}",

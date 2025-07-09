@@ -1,30 +1,30 @@
 {
     "serverBoostRemove": {
-        "description": "{user} stopped boosting this server",
-        "none": "none",
-        "description_withTier": "{user} stopped boosting, causing the server to drop down to tier {tier}",
-        "title": "Server Boost Removed",
-        "description_withTier_noUser": "Someone stopped boosting, causing the server to drop down to tier {tier}",
-        "description_noUser": "Someone stopped boosting this server"
+        "description": "{user} أوقف تعزيز هذا السيرفر",
+        "none": "بدون",
+        "description_withTier": "{user} أوقف التعزيز، مما أدى إلى هبوط السيرفر للمستوى {tier}",
+        "title": "تم إلغاء تعزيز السيرفر",
+        "description_withTier_noUser": "قام شخص ما بإلغاء التعزيز، مما أدى إلى هبوط السيرفر للمستوى {tier}",
+        "description_noUser": "قام شخص ما بإلغاء تعزيز هذا السيرفر"
     },
     "serverBoostAdd": {
-        "none": "none",
-        "description_withTier_noUser": "Someone boosted this server to tier {tier} 🎉",
-        "description_withTier": "{user} boosted this server to tier {tier} 🎉",
-        "description_noUser": "Someone boosted this server 🎉",
-        "description": "{user} boosted this server 🎉",
-        "title": "Server Boosted"
+        "none": "بدون",
+        "description_withTier_noUser": "شخص ما عزز هذا السيرفر إلى المستوى {tier} 🎉",
+        "description_withTier": "{user} عزز هذا السيرفر إلى المستوى {tier} 🎉",
+        "description_noUser": "قام شخص ما بتعزيز هذا السيرفر 🎉",
+        "description": "{user} عزز هذا السيرفر 🎉",
+        "title": "تم تعزيز السيرفر"
     },
     "serverIconUpdated": {
-        "linkToOldIcon": "Link to old icon",
-        "description": "{executor} updated the server icon",
-        "description_added": "{executor} added a server icon",
-        "title": "Server Icon Updated",
-        "description_removed": "{executor} removed the server icon",
-        "linkToNewIcon": "Link to new icon"
+        "linkToOldIcon": "رابط الصورة السابقة",
+        "description": "{executor} غير صورة السيرفر",
+        "description_added": "{executor} أضاف صورة سيرفر",
+        "title": "تم تحديث صورة السيرفر",
+        "description_removed": "{executor} أزال صورة السيرفر",
+        "linkToNewIcon": "رابط الصورة الجديدة"
     },
     "serverModified": {
-        "description": "This server was modified by {executor}",
-        "title": "Server Modified"
+        "description": "{executor} غير إعدادات السيرفر",
+        "title": "تم تعديل السيرفر"
     }
 }
