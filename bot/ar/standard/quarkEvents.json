@@ -49,7 +49,7 @@
     },
     "tokenAdded": {
         "unique_id": "Token ID",
-        "title": "Token Generated",
+        "title": "تم إنشاء Token",
         "revoke": "Revoke this token",
         "description": "{executor} generated a Quark access token with {permissions} permissions for this server"
     },
