@@ -1,34 +1,34 @@
 {
     "roleIconUpdate": {
-        "title": "Role Icon Updated",
-        "description_added": "{executor} added an icon for {role}",
-        "linkToOldIcon": "Link to old icon",
-        "linkToNewIcon": "Link to new icon",
-        "description": "{executor} updated the icon for {role}",
-        "description_removed": "{executor} removed the icon for {role}"
+        "title": "تم تحديث أيقونة الرتبة",
+        "description_added": "{executor} أضاف صورة لـ {role}",
+        "linkToOldIcon": "رابط الصورة السابقة",
+        "linkToNewIcon": "رابط الصورة الجديدة",
+        "description": "{executor} غيّر صورة رتبة {role}",
+        "description_removed": "{executor} حذف صورة {role}"
     },
     "rolePermissionsUpdate": {
-        "viewFullNewPermissions": "View Full New Permissions",
-        "viewFullOldPermissions": "View Full Old Permissions",
-        "warning": "WARNING!",
-        "oldPermissions": "Old Permissions",
-        "title": "Role Permissions Updated",
-        "description": "Permissions for {role} were updated by {executor}",
-        "newPermissions": "New Permissions",
-        "dangerousPermissions": "Dangerous permissions granted"
+        "viewFullNewPermissions": "عرض كل الصلاحيات الجديدة",
+        "viewFullOldPermissions": "عرض كل الصلاحيات السابقة",
+        "warning": "تحذير!",
+        "oldPermissions": "الصلاحيات السابقة",
+        "title": "تم تحديث صلاحيات الرتبة",
+        "description": "{executor} حدث صلاحيات الرتبة {role}",
+        "newPermissions": "الصلاحيات الجديدة",
+        "dangerousPermissions": "تم منح صلاحيات خطيرة"
     },
     "roleCreated": {
-        "title": "Role Created",
-        "description": "{role} was created by {executor}"
+        "title": "تم إنشاء رتبة",
+        "description": "{executor} أنشأ الرتبة {role}"
     },
     "roleUpdated": {
-        "description": "{role} was modified by {executor}",
-        "title": "Role Modified"
+        "description": "{executor} عدّل رتبة {role}",
+        "title": "تم تعديل رتبة"
     },
     "roleDeleted": {
-        "role": "Role",
-        "description": "{role_name} was deleted by {executor}",
-        "linkToRoleIcon": "Link to role icon",
-        "title": "Role Deleted"
+        "role": "رتبة",
+        "description": "{executor} حذف رتبة {role_name}",
+        "linkToRoleIcon": "رابط أيقونة الرتبة",
+        "title": "تم حذف رتبة"
     }
 }
