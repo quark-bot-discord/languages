@@ -4,11 +4,11 @@
         "description": "{user} انضم إلى قناة الصوت {channel}"
     },
     "channelStatusUpdate": {
-        "title": "Voice Channel Status Updated",
-        "status": "Status",
-        "description": "{executor} set the status for {channel}",
-        "linksToEmojis": "Links to emojis",
-        "descriptionRemoved": "{executor} removed the status for {channel}"
+        "title": "تم تحديث حالة القناة الصوتية",
+        "status": "الحالة",
+        "description": "قام {executor} بتعيين الحالة للقناة {channel}",
+        "linksToEmojis": "روابط الإيموجي",
+        "descriptionRemoved": "قام {executor} بإزالة الحالة من القناة {channel}"
     },
     "voiceDisconnect": {
         "voiceChannel": "قناة صوتية",
@@ -17,46 +17,46 @@
         "description": "{user} تم فصله"
     },
     "stageEnded": {
-        "topic": "Topic",
-        "title": "Stage Ended",
-        "none": "none",
-        "description_noExecutor": "The stage in {channel} was ended",
-        "description": "The stage in {channel} was ended by {executor}"
+        "topic": "الموضوع",
+        "title": "انتهى الستيج",
+        "none": "بدون",
+        "description_noExecutor": "تم إنهاء الستيج في {channel}",
+        "description": "تم إنهاء الستيج في {channel} بواسطة {executor}"
     },
     "serverUndeafen": {
-        "description": "{user} was undeafened",
-        "voiceChannel": "Voice channel",
-        "title": "Undeafened",
-        "undeafenedBy": "Undeafened by"
+        "description": "تم إزالة الصمم عن {user}",
+        "voiceChannel": "قناة صوتية",
+        "title": "تم إزالة الصمم",
+        "undeafenedBy": "تم إزالة الصمم بواسطة"
     },
     "serverUnmute": {
-        "description": "{user} was unmuted",
-        "voiceChannel": "Voice channel",
-        "title": "Unmuted",
-        "unmutedBy": "Unmuted by"
+        "description": "تم إزالة كتم الصوت عن {user}",
+        "voiceChannel": "قناة صوتية",
+        "title": "تم إزالة الكتم",
+        "unmutedBy": "تم إزالة الكتم بواسطة"
     },
     "serverMute": {
-        "mutedBy": "Muted by",
-        "title": "Muted",
-        "voiceChannel": "Voice channel",
-        "description": "{user} was muted"
+        "mutedBy": "تم كتم الصوت بواسطة",
+        "title": "تم كتم الصوت",
+        "voiceChannel": "قناة صوتية",
+        "description": "تم كتم صوت {user}"
     },
     "stageUpdated": {
-        "oldTopic": "Old Topic",
-        "title": "Stage Updated",
-        "description": "The stage in {channel} was updated by {executor}",
-        "newTopic": "New Topic"
+        "oldTopic": "الموضوع السابق",
+        "title": "تم تحديث الستيج",
+        "description": "تم تحديث الستيج في {channel} بواسطة {executor}",
+        "newTopic": "الموضوع الجديد"
     },
     "stageSpeakerAdd": {
-        "description": "{user} became a speaker in the {channel} stage channel",
-        "description_inviteAccepted": "{user} accepted the invite to become a speaker in the {channel} stage channel",
-        "title": "New Stage Speaker"
+        "description": "أصبح {user} متحدثًا في قناة الستيج {channel}",
+        "description_inviteAccepted": "قبل {user} الدعوة ليصبح متحدثًا في قناة الستيج {channel}",
+        "title": "متحدث جديد في الستيج"
     },
     "serverDeafen": {
-        "description": "{user} was deafened",
+        "description": "{user} تم صمّه",
         "title": "تم الصمم (ديفن)",
-        "voiceChannel": "Voice channel",
-        "deafenedBy": "Deafened by"
+        "voiceChannel": "قناة صوتية",
+        "deafenedBy": "تم صمّه بواسطة"
     },
     "voiceSwitch": {
         "description": "{user} انتقل من قناة الصوت {channel_old} إلى {channel_new}",
@@ -73,13 +73,13 @@
         "joinedValue": "{relative} لمدة {relative_fixed}"
     },
     "stageStarted": {
-        "description": "{executor} started a stage in {channel}",
-        "topic": "Topic",
-        "title": "Stage Started"
+        "description": "{executor} فتح ستيج في {channel}",
+        "topic": "الموضوع",
+        "title": "بدأ الستيج"
     },
     "stageSpeakerInvited": {
-        "description": "{user} was invited to speak in the {channel} stage channel",
-        "title": "Speaker Invited"
+        "description": "تمت دعوة {user} للتحدث في قناة الستيج {channel}",
+        "title": "تمت دعوته كمتحدث"
     },
     "videoStart": {
         "description": "{user} بدأ الفيديو في قناة الصوت {channel}",
@@ -90,7 +90,7 @@
         "description": "{user} بدأ البث في قناة الصوت {channel}"
     },
     "voiceBundle": {
-        "title": "Multiple Voice Channel Events"
+        "title": "عدة أحداث في القنوات الصوتية"
     },
     "videoStop": {
         "title": "تم إيقاف الفيديو",
@@ -102,7 +102,7 @@
         "description": "{user} تم نقله من قناة الصوت {channel_old} إلى {channel_new}"
     },
     "stageSpeakerRemove": {
-        "description": "{user} is no longer a speaker in the {channel} stage channel",
-        "title": "Stopped Speaking"
+        "description": "لم يعد {user} متحدثًا في قناة الستيج {channel}",
+        "title": "توقف عن التحدث"
     }
 }
