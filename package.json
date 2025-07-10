@@ -1,6 +1,6 @@
 {
   "name": "@quark-bot-discord/languages",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Languages for Quark",
   "main": "index.js",
   "type": "module",
