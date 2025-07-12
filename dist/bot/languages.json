@@ -127,5 +127,13 @@
         "active": true,
         "iconCode": "SI",
         "emoji": "🇸🇮"
+    },
+    "ar": {
+        "code": "ar",
+        "id": 16,
+        "name": "العربية",
+        "active": true,
+        "iconCode": "SA",
+        "emoji": "🇸🇦"
     }
 }
