@@ -8,7 +8,7 @@
         "pluralkitSupport": "دعم PluralKit"
     },
     "serverlogChannelUpdate": {
-        "description_set": "{executor} قام بتعيين قناة اللوق type} إلى {channel}",
+        "description_set": "{executor} قام بتعيين قناة اللوق {type} إلى {channel}",
         "description_unset": "{executor} أزال تعيين قناة اللوق {type}",
         "title": "تم تغيير قناة اللوق",
         "description_category_disable": "{executor} عطّل قناة اللوق {type}"
