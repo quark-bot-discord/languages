@@ -14,7 +14,7 @@
     "channelModificationTypes": {
         "name": "الاسم",
         "user_limit": "الحد الأقصى للمستخدمين",
-        "rate_limit_per_user": "Slowmode",
+        "rate_limit_per_user": "سلو مود",
         "topic": "الموضوع",
         "bitrate": "Bitrate",
         "type": "النوع",
@@ -33,7 +33,7 @@
     },
     "threadModificationTypes": {
         "name": "الاسم",
-        "rate_limit_per_user": "Slowmode",
+        "rate_limit_per_user": "سلو مود",
         "auto_archive_duration": "الأرشفة التلقائية"
     },
     "webhookModificationTypes": {
