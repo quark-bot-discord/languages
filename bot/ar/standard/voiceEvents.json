@@ -1,7 +1,7 @@
 {
     "voiceJoin": {
         "title": "انضم للقناة",
-        "description": "{user} انضم إلى قناة الصوت {channel}"
+        "description": "انضم {user} إلى قناة الصوت {channel}"
     },
     "channelStatusUpdate": {
         "title": "تم تحديث حالة القناة الصوتية",
@@ -14,7 +14,7 @@
         "voiceChannel": "قناة صوتية",
         "title": "تم فصله",
         "disconnectedBy": "تم فصله بواسطة",
-        "description": "{user} تم فصله"
+        "description": "تم قطع الاتصال بـ {user}"
     },
     "stageEnded": {
         "topic": "الموضوع",
@@ -53,22 +53,22 @@
         "title": "متحدث جديد في الستيج"
     },
     "serverDeafen": {
-        "description": "{user} تم صمّه",
+        "description": "تم صمم {user}",
         "title": "تم الصمم (ديفن)",
         "voiceChannel": "قناة صوتية",
         "deafenedBy": "تم صمّه بواسطة"
     },
     "voiceSwitch": {
-        "description": "{user} انتقل من قناة الصوت {channel_old} إلى {channel_new}",
+        "description": "انتقل {user} من قناة الصوت {channel_old} إلى قناة الصوت {channel_new}",
         "title": "تم تغيير القناة"
     },
     "streamStop": {
-        "description": "{user} أوقف البث في قناة الصوت {channel}",
+        "description": "توقف {user} عن البث في قناة الصوت {channel}",
         "title": "تم إنهاء البث"
     },
     "voiceLeave": {
         "joined": "انضم",
-        "description": "{user} غادر قناة الصوت {channel}",
+        "description": "غادر {user} قناة الصوت {channel}",
         "title": "غادر القناة",
         "joinedValue": "{relative} لمدة {relative_fixed}"
     },
@@ -82,24 +82,24 @@
         "title": "تمت دعوته كمتحدث"
     },
     "videoStart": {
-        "description": "{user} بدأ الفيديو في قناة الصوت {channel}",
+        "description": "بدأ {user} بث الفيديو في قناة الصوت {channel}",
         "title": "تم تشغيل الفيديو"
     },
     "streamStart": {
         "title": "بدأ البث",
-        "description": "{user} بدأ البث في قناة الصوت {channel}"
+        "description": "بدأ {user} البث في قناة الصوت {channel}"
     },
     "voiceBundle": {
         "title": "عدة أحداث في القنوات الصوتية"
     },
     "videoStop": {
         "title": "تم إيقاف الفيديو",
-        "description": "{user} أوقف الفيديو في قناة الصوت {channel}"
+        "description": "توقف {user} عن بث الفيديو في قناة الصوت {channel}"
     },
     "voiceMove": {
         "title": "تم نقله",
         "movedBy": "تم نقله بواسطة",
-        "description": "{user} تم نقله من قناة الصوت {channel_old} إلى {channel_new}"
+        "description": "تم نقل {user} من قناة الصوت {channel_old} إلى {channel_new}"
     },
     "stageSpeakerRemove": {
         "description": "لم يعد {user} متحدثًا في قناة الستيج {channel}",
