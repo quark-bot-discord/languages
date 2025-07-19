@@ -1,10 +1,10 @@
 {
     "serverModified": {
-        "title": "Serveur Modifié",
+        "title": "Serveur modifié",
         "description": "Ce serveur a été modifié par {executor}"
     },
     "serverIconUpdated": {
-        "title": "L'icône de Serveur Modifiée",
+        "title": "L'icône de serveur modifiée",
         "description": "{executor} a modifié l'icône du serveur",
         "description_added": "{executor} a ajouté une icône de serveur",
         "description_removed": "{executor} a supprimé l'icône du serveur",
@@ -20,7 +20,7 @@
         "none": "none"
     },
     "serverBoostRemove": {
-        "title": "Boost de Serveur Supprimé",
+        "title": "Boost de serveur supprimé",
         "description": "{user} a arrêté de boost ce serveur",
         "description_noUser": "Quelqu'un a arrêté de boost ce serveur",
         "description_withTier": "{user} a arrêté de boost, causant la descente de ce serveur au niveau {tier}",
