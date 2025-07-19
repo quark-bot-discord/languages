@@ -2,7 +2,7 @@
     "serverEvents": "Membres",
     "serverActions": "Actions",
     "textEvents": "Messages",
-    "voiceEvents": "Voix",
+    "voiceEvents": "Vocal",
     "fileEvents": "Fichiers",
     "generalEvents": "Serveur",
     "roleEvents": "Rôles",
