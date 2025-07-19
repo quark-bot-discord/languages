@@ -1,6 +1,6 @@
 {
     "inviteCreate": {
-        "description_withInviter": "{inviter} أنشأ دعوة {invite} لقناة {channel}",
+        "description_withInviter": "تم إنشاء دعوة {invite} بواسطة {inviter} للقناة {channel}",
         "title": "تم إنشاء دعوة",
         "none": "بدون",
         "maxUses": "الحد الأقصى للاستخدام",
@@ -9,32 +9,32 @@
         "description_withoutInviter": "تم إنشاء دعوة {invite} لقناة {channel}"
     },
     "emojiCreated": {
-        "description": "{emoji} تمت إضافته بواسطة {executor}",
+        "description": "قام {executor} بإضافة {emoji}",
         "title": "تم إنشاء إيموجي"
     },
     "serverEventCreate": {
         "image": "الصورة",
         "eventDescription": "الوصف",
         "starts": "يبدأ",
-        "description_withChannel": "{executor} أنشأ حدثًا {name} في قناة {channel}",
+        "description_withChannel": "قام {executor} بإنشاء الحدث {name} في القناة {channel}",
         "location": "الموقع",
         "title": "تم إنشاء حدث",
-        "description_withoutChannel": "{executor} أنشأ حدثًا {name}"
+        "description_withoutChannel": "قام {executor} بإنشاء الحدث {name}"
     },
     "inviteDelete": {
         "description_withoutExecutor": "تم حذف الدعوة {invite} من قناة {channel}",
         "created": "أنشِئت بواسطة",
-        "description_withExecutor": "{executor} حذف الدعوة {invite} من قناة {channel}",
+        "description_withExecutor": "تم حذف الدعوة {invite} للقناة {channel} بواسطة {executor}",
         "title": "تم حذف الدعوة",
         "none": "بدون",
         "used": "تم استخدامها"
     },
     "emojiUpdated": {
-        "description": "{emoji} تم تعديله بواسطة {executor}",
+        "description": "تم تعديل {emoji} بواسطة {executor}",
         "title": "تم تعديل الإيموجي"
     },
     "serverEventUpdate": {
-        "description": "{executor} حدّث الحدث {name}",
+        "description": "قام {executor} بتحديث الحدث {name}",
         "newLocation": "الموقع الجديد",
         "newImage": "الصورة الجديدة",
         "linkToEventImage": "رابط صورة الحدث السابقة",
@@ -45,11 +45,11 @@
     "serverEventDelete": {
         "title": "تم حذف الحدث",
         "linkToEventImage": "رابط صورة الحدث",
-        "description": "{executor} حذف الحدث {name}"
+        "description": "قام {executor} بحذف الحدث {name}"
     },
     "emojiDeleted": {
         "title": "تم حذف إيموجي",
         "emoji": "إيموجي",
-        "description": "{emoji} تم حذفه بواسطة {executor}"
+        "description": "تم حذف {emoji} بواسطة {executor}"
     }
 }
