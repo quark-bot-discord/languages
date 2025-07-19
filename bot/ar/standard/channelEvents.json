@@ -1,15 +1,15 @@
 {
     "channelCreated": {
-        "description": "{channel} تم إنشاؤها بواسطة {executor}",
-        "descriptionWithCategory": "{channel} تم إنشاؤها بواسطة {executor} تحت فئة {category}.",
+        "description": "تم إنشاء القناة {channel} بواسطة {executor}",
+        "descriptionWithCategory": "تم إنشاء القناة {channel} بواسطة {executor} تحت فئة {category}",
         "title": "تم إنشاء قناة {type}"
     },
     "webhookDelete": {
-        "description": "{executor} حذف Webhook {webhook}",
+        "description": "قام {executor} بحذف Webhook {webhook}",
         "title": "تم حذف Webhook"
     },
     "channelOverwriteUpdate": {
-        "description": "{executor} حدّث الصلاحيات في {channel} لـ {special}",
+        "description": "قام {executor} بتحديث الصلاحيات في {channel} لـ {special}",
         "newPermissions": "الصلاحيات الجديدة",
         "dangerousPermissions": "تم منح صلاحيات خطيرة",
         "warning": "تحذير!",
@@ -19,49 +19,49 @@
     "webhookAvatarUpdate": {
         "title": "تم تحديث صورة Webhook",
         "linkToNewAvatar": "رابط الصورة الجديدة",
-        "description_removed": "{executor} أزال صورة Webhook {webhook}",
+        "description_removed": "قام {executor} بحذف صورة الملف الشخصي لـ {webhook}",
         "linkToOldAvatar": "رابط الصورة السابقة",
-        "description": "{executor} حدّث صورة Webhook {webhook}",
-        "description_added": "{executor} أضاف صورة إلى Webhook {webhook}"
+        "description": "قام {executor} بتحديث صورة الملف الشخصي لـ {webhook}",
+        "description_added": "قام {executor} بإضافة صورة ملف شخصي لـ {webhook}"
     },
     "channelDeleted": {
         "title": "تم حذف قناة {type}",
-        "description": "{channel_name} تم حذفها بواسطة {executor}",
+        "description": "تم حذف القناة {channel_name} بواسطة {executor}",
         "channel": "القناة"
     },
     "statusChannelFollowed": {
         "title": "تم متابعة قناة",
-        "description": "{executor} تابع القناة {name} في {channel}"
+        "description": "قام {executor} بمتابعة القناة {name} في {channel}"
     },
     "channelUpdated": {
         "title": "تم تعديل قناة {type}",
-        "description": "{channel} تم تعديلها بواسطة {executor}"
+        "description": "تم تعديل {channel} بواسطة {executor}"
     },
     "webhookUpdate": {
-        "description": "{executor} عدّل Webhook {webhook}",
+        "description": "قام {executor} بتعديل Webhook {webhook}",
         "title": "تم تعديل Webhook"
     },
     "webhookCreate": {
         "title": "تم إنشاء Webhook",
-        "description": "{executor} أنشأ Webhook {webhook} في {channel}"
+        "description": "قام {executor} بإنشاء Webhook {webhook} في القناة {channel}"
     },
     "channelOverwriteDelete": {
-        "description": "{executor} أزال الصلاحيات من {channel} لـ {special}",
+        "description": "قام {executor} بإزالة الصلاحيات من {channel} لـ {special}",
         "title": "تمت إزالة صلاحيات من قناة {type}"
     },
     "statusChannelUnfollowed": {
         "title": "تم إلغاء متابعة قناة",
-        "description": "{executor} ألغى متابعة القناة {name}"
+        "description": "قام {executor} بإلغاء متابعة القناة {name}"
     },
     "statusChannelUpdated": {
         "title": "تم تحديث قناة المتابعة",
-        "description": "{executor} حدّث قناة المتابعة {name}"
+        "description": "قام {executor} بتحديث القناة المتابعة {name}"
     },
     "general": {
         "unknownChannel": "قناة غير معروفة"
     },
     "channelOverwriteCreate": {
-        "description": "{executor} أضاف صلاحيات إلى {channel} لـ {special}",
+        "description": "قام {executor} بإضافة صلاحيات إلى {channel} لـ {special}",
         "title": "تمت إضافة صلاحيات لقناة {type}"
     }
 }
