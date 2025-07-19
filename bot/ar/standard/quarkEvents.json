@@ -4,14 +4,14 @@
         "title": "تم تحديث إعدادات اللوق",
         "spoilers": "مخفيه بالتشويش (Spoilers)",
         "formatType": "نوع التنسيق",
-        "description": "{executor} قام بتعيين {option} إلى {state}",
+        "description": "قام {executor} بضبط {option} على {state}",
         "pluralkitSupport": "دعم PluralKit"
     },
     "serverlogChannelUpdate": {
-        "description_set": "{executor} قام بتعيين قناة اللوق {type} إلى {channel}",
-        "description_unset": "{executor} أزال تعيين قناة اللوق {type}",
+        "description_set": "قام {executor} بتعيين قناة لوق {type} إلى {channel}",
+        "description_unset": "قام {executor} بإلغاء تعيين قناة لوق {type}",
         "title": "تم تغيير قناة اللوق",
-        "description_category_disable": "{executor} عطّل قناة اللوق {type}"
+        "description_category_disable": "قام {executor} بتعطيل قناة لوق {type}"
     },
     "serverlogLogUpdate": {
         "logFormat": "التنسيق",
@@ -21,44 +21,44 @@
         "colour": "اللون",
         "activeIgnore": "تفعيل التجاهل",
         "enabled": "مفعل",
-        "description": "{executor} قام بتحديث لوق {type}",
+        "description": "قام {executor} بتحديث لوق {type}",
         "title": "تم تحديث اللوق"
     },
     "tokenRevoked": {
         "title": "تم إلغاء الـToken",
-        "description": "{executor} ألغى Token في Quark بمعرف {token}"
+        "description": "قام {executor} بإلغاء Token في Quark بمعرف {token}"
     },
     "reset": {
-        "description": "{executor} قام بإعادة ضبط إعدادات هذا السيرفر",
+        "description": "تمت إعادة ضبط إعدادات هذا السيرفر بواسطة {executor}",
         "title": "إعادة ضبط الإعدادات"
     },
     "tagUpdated": {
-        "description": "{executor} عدّل التاغ {tag}",
+        "description": "تم تحديث التاغ {tag} بواسطة {executor}",
         "title": "تم تعديل التاغ"
     },
     "tagAdded": {
-        "description": "{executor} أنشأ التاغ {tag}",
+        "description": "تم إنشاء تاغ {tag} بواسطة {executor}",
         "title": "تم إنشاء تاغ"
     },
     "serverlogIgnoreUpdate": {
-        "description_unset": "{executor} قام بتعطيل {type}",
-        "description_set": "{executor} قام بتفعيل {type}",
+        "description_unset": "قام {executor} بتعطيل {type}",
+        "description_set": "قام {executor} بتفعيل {type}",
         "title": "تم تحديث إعدادات التجاهل",
-        "description_removed": "{executor} أزال {target} من {type}",
-        "description_added": "{executor} أضاف {target} إلى {type}"
+        "description_removed": "قام {executor} بإزالة {target} من {type}",
+        "description_added": "قام {executor} بإضافة {target} إلى {type}"
     },
     "tokenAdded": {
         "unique_id": "معرف الـToken",
         "title": "تم إنشاء Token",
         "revoke": "إلغاء هذا الـToken",
-        "description": "{executor} أنشأ token في Quark بصلاحيات {permissions} لهذا السيرفر"
+        "description": "قام {executor} بإنشاء token في Quark بصلاحيات {permissions} لهذا السيرفر"
     },
     "languageUpdate": {
-        "description": "{executor} غيّر اللغة إلى {language}",
+        "description": "تم تغيير اللغة إلى {language} بواسطة {executor}",
         "title": "تم تغيير اللغة"
     },
     "tagDeleted": {
-        "description": "{executor} حذف التاغ {tag}",
+        "description": "تم حذف التاغ {tag} بواسطة {executor}",
         "title": "تم حذف التاغ"
     }
 }
