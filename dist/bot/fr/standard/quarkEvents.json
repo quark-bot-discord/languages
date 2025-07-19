@@ -1,6 +1,6 @@
 {
     "serverlogChannelUpdate": {
-        "title": "Salon des Logs Changé",
+        "title": "Salon des logs changé",
         "description_set": "{executor} a défini le salon des logs {type} dans {channel}",
         "description_category_disable": "{executor} a désactivé le salon des logs {type}",
         "description_unset": "{executor} a désactivé le salon des logs {type}"
@@ -8,10 +8,10 @@
     "serverlogOptionsUpdate": {
         "title": "Options de log mises à jour",
         "description": "{executor} a défini {option} sur {state}",
-        "pluralkitSupport": "le Support PluralKit",
-        "spoilers": "les Spoilers",
-        "buttons": "les bouttons",
-        "formatType": "le Type de Format"
+        "pluralkitSupport": "le support PluralKit",
+        "spoilers": "les spoilers",
+        "buttons": "les boutons",
+        "formatType": "le type de format"
     },
     "serverlogLogUpdate": {
         "title": "Log mis à jour",
@@ -20,8 +20,8 @@
         "logFormat": "Format",
         "logChannel": "Salon",
         "colour": "Couleur",
-        "ignoreBotExecutors": "Ignorer les Bots Exécutants",
-        "ignoreBotTargets": "Ignorer les Bots Cibles",
+        "ignoreBotExecutors": "Ignorer les bots exécutants",
+        "ignoreBotTargets": "Ignorer les bots cibles",
         "activeIgnore": "Activer l'exception"
     },
     "serverlogIgnoreUpdate": {
@@ -32,11 +32,11 @@
         "description_removed": "{executor} a supprimé {target} des {type}"
     },
     "languageUpdate": {
-        "title": "Langue Changé",
+        "title": "Langue changé",
         "description": "{executor} a changé la langue en {language}"
     },
     "reset": {
-        "title": "Configuration Réinitialisée",
+        "title": "Configuration réinitialisée",
         "description": "{executor} a réinitialisé la configuration de ce serveur"
     },
     "tagAdded": {
@@ -52,13 +52,13 @@
         "description": "{executor} a supprimé l'étiquette {tag}"
     },
     "tokenAdded": {
-        "title": "Token Généré",
+        "title": "Token généré",
         "description": "{executor} a généré un token d'accès à Quark avec les permissions {permissions} pour ce serveur",
         "unique_id": "ID du token",
         "revoke": "Révoquer ce token"
     },
     "tokenRevoked": {
-        "title": "Token Révoqué",
+        "title": "Token révoqué",
         "description": "{executor} a révoqué le token d'accès à Quark avec l'ID {token}"
     }
 }

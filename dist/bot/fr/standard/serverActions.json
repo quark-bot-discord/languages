@@ -9,7 +9,7 @@
         "none": "none"
     },
     "inviteDelete": {
-        "title": "Invitation Supprimée",
+        "title": "Invitation supprimée",
         "description_withExecutor": "{executor} a supprimé une {invite} pour {channel}",
         "description_withoutExecutor": "Une invitation {invite} a été supprimée pour {channel}",
         "used": "Utilisée",
@@ -21,12 +21,12 @@
         "description": "{emoji} a été ajouté par {executor}"
     },
     "emojiDeleted": {
-        "title": "Emoji Supprimé",
+        "title": "Emoji supprimé",
         "description": "{emoji} a été supprimée par {executor}",
         "emoji": "Emoji"
     },
     "emojiUpdated": {
-        "title": "Emoji Modifié",
+        "title": "Emoji modifié",
         "description": "{emoji} a été modifié par {executor}"
     },
     "serverEventCreate": {
@@ -46,10 +46,10 @@
     "serverEventUpdate": {
         "title": "Événement mis à jour",
         "description": "{executor} a mis à jour l'événement {name}",
-        "newEventDescription": "Nouvelle Description",
-        "newLocation": "Nouvel Emplacement",
-        "newChannel": "Nouveau Salon",
+        "newEventDescription": "Nouvelle description",
+        "newLocation": "Nouvel emplacement",
+        "newChannel": "Nouveau salon",
         "linkToEventImage": "Lien vers l'ancienne image de l'événement",
-        "newImage": "Nouvelle Image"
+        "newImage": "Nouvelle image"
     }
 }

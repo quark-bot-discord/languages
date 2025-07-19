@@ -12,10 +12,10 @@
         "vote": "vote",
         "votes": "votes",
         "noResponses": "Pas de réponse",
-        "pollDeleted": "Sondage Supprimé"
+        "pollDeleted": "Sondage supprimé"
     },
     "messageDeleted": {
-        "title": "Message Supprimé",
+        "title": "Message supprimé",
         "author": "Auteur du message",
         "channel": "Salon",
         "deletedBy": "Supprimé par",
@@ -48,7 +48,7 @@
         "errorText": "Un problème est survenu avec la création d'un fichier texte. Certains messages pourraient être perdus. Si cela persiste, signalez-le dans le serveur support de Quark s'il vous plaît."
     },
     "messageUpdate": {
-        "title": "Message Modifié",
+        "title": "Message modifié",
         "author": "Auteur du message",
         "channel": "Salon",
         "jumpToMessage": "Voir le message",
@@ -60,14 +60,14 @@
         "thread": "Fil"
     },
     "attachmentDeleted": {
-        "title": "Pièce jointe Supprimée"
+        "title": "Pièce jointe supprimée"
     },
     "messagePin": {
-        "title": "Message Epinglé",
+        "title": "Message épinglé",
         "description": "Un message a été épinglé par {executor}"
     },
     "messageUnpin": {
-        "title": "Message Désépinglé",
+        "title": "Message désépinglé",
         "description": "Un message a été désépinglé par {executor}"
     },
     "threadCreate": {
@@ -80,7 +80,7 @@
     "threadDelete": {
         "thread": "Fil",
         "channel": "Salon",
-        "title": "Fil Supprimé",
+        "title": "Fil supprimé",
         "description": "{executor} a supprimé un fil {thread}"
     },
     "messageReactionRemove": {
@@ -92,6 +92,6 @@
     },
     "threadUpdated": {
         "description": "{thread} a été modifié par {executor}",
-        "title": "Fil Modifié"
+        "title": "Fil modifié"
     }
 }

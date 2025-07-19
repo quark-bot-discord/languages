@@ -4,27 +4,27 @@
         "description": "{role} a été créé par {executor}"
     },
     "roleDeleted": {
-        "title": "Rôle Supprimé",
+        "title": "Rôle supprimé",
         "description": "{role_name} a été supprimé par {executor}",
         "role": "Rôle",
         "linkToRoleIcon": "Lien vers l'icône du rôle"
     },
     "roleUpdated": {
-        "title": "Rôle Modifié",
+        "title": "Rôle modifié",
         "description": "{role} a été modifié par {executor}"
     },
     "rolePermissionsUpdate": {
-        "title": "Permissions du Rôle Modifiées",
+        "title": "Permissions du rôle modifiées",
         "description": "Les permissions pour {role} ont été modifiées par {executor}",
-        "newPermissions": "Nouvelles Permissions",
-        "oldPermissions": "Anciennes Permissions",
-        "viewFullNewPermissions": "Voir Toutes Les Nouvelles Permissions",
-        "viewFullOldPermissions": "Voir Toutes Les Anciennes Permissions",
+        "newPermissions": "Nouvelles permissions",
+        "oldPermissions": "Anciennes permissions",
+        "viewFullNewPermissions": "Voir toutes les nouvelles permissions",
+        "viewFullOldPermissions": "Voir toutes les anciennes permissions",
         "warning": "ATTENTION !",
         "dangerousPermissions": "Permissions dangereuses accordées"
     },
     "roleIconUpdate": {
-        "title": "Icône du Rôle Modifiée",
+        "title": "Icône du rôle modifiée",
         "description": "{executor} a modifié l'icône pour {role}",
         "description_added": "{executor} a ajouté une icône pour {role}",
         "description_removed": "{executor} a supprimé l'icône pour {role}",
