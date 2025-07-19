@@ -1,10 +1,10 @@
 {
     "members": "Membres",
     "userJoined": {
-        "title": "Utilisateur Arrivé",
+        "title": "Utilisateur arrivé",
         "description": "{user} est arrivé sur le serveur",
         "noAvatar": "Ce compte n'a pas de photo de profil",
-        "ban": "Banni",
+        "ban": "Bannir",
         "info": "Info",
         "rejoined": "Ce compte est revenu",
         "newAccount": "Ce compte est récent",
@@ -15,7 +15,7 @@
         "createdBy": "créé par {user}"
     },
     "userLeft": {
-        "title": "Utilisateur Parti",
+        "title": "Utilisateur parti",
         "description": "{user} est parti du serveur",
         "joined": "Arrivé",
         "roles": "Rôles",
@@ -29,25 +29,25 @@
         "info_banned": "User banned"
     },
     "botAdded": {
-        "title": "Bot Ajouté",
+        "title": "Bot ajouté",
         "description": "{bot} a été ajouté au serveur par {executor}",
         "descriptionne": "{bot} a été ajouté au serveur"
     },
     "botRemoved": {
-        "title": "Bot Supprimé",
+        "title": "Bot supprimé",
         "description": "{bot} a été supprimé du serveur par {executor}",
         "descriptionne": "{bot} a été supprimé du serveur"
     },
     "nicknameUpdate": {
-        "title": "Surnom Modifié",
+        "title": "Surnom modifié",
         "description": "Le surnom de {user} a été modifié de {oldNickname} en {newNickname}",
         "setNick": "Le surnom de {user} a été remplacé en **{newNickname}**",
         "nickRemoved": "Le surnom **{oldNickname}** de {user} a été supprimé",
         "changedBy": "Changé par"
     },
     "memberRoleAdd": {
-        "title": "Rôle Donné",
-        "title_multiple": "Rôles Donnés",
+        "title": "Rôle donné",
+        "title_multiple": "Rôles donnés",
         "description": "Le rôle {role} a été donné à {user}",
         "description_multiple": "Plusieurs rôles ont été donnés à {user}",
         "givenBy": "Donné(s) par",
@@ -56,19 +56,19 @@
         "dangerousPermissions": "Permissions dangereuses accordées"
     },
     "memberRoleRemove": {
-        "title": "Rôle Enlevé",
-        "title_multiple": "Rôles Enlevés",
+        "title": "Rôle enlevé",
+        "title_multiple": "Rôles enlevés",
         "description": "Le role {role} a été enlevé à {user}",
         "description_multiple": "Plusieurs rôles ont été enlevés à {user}",
         "removedBy": "Enlevé(s) par",
         "roles": "Rôles"
     },
     "memberPrune": {
-        "title": "Membres Congédiés",
+        "title": "Membres congédiés",
         "description": "{count} membres avec au moins {time} jours d'activité ont été congédiés par {executor}"
     },
     "avatarUpdate": {
-        "title": "Photo de Profil du Serveur Modifié",
+        "title": "Photo de profil du serveur modifié",
         "description": "{user} a changé sa photo de profil du serveur",
         "description_added": "{user} s'est ajouté une photo de profil de serveur",
         "description_removed": "{user} a supprimé sa photo de profil de serveur",
