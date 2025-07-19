@@ -1,11 +1,11 @@
 {
     "roleIconUpdate": {
         "title": "تم تحديث أيقونة الرتبة",
-        "description_added": "{executor} أضاف صورة لـ {role}",
-        "linkToOldIcon": "رابط الصورة السابقة",
-        "linkToNewIcon": "رابط الصورة الجديدة",
-        "description": "{executor} غيّر صورة رتبة {role}",
-        "description_removed": "{executor} حذف صورة {role}"
+        "description_added": "قام {executor} بإضافة أيقونة للرتبة {role}",
+        "linkToOldIcon": "رابط الأيقونة السابقة",
+        "linkToNewIcon": "رابط الأيقونة الجديدة",
+        "description": "قام {executor} بتحديث أيقونة الرتبة {role}",
+        "description_removed": "قام {executor} بحذف أيقونة الرتبة {role}"
     },
     "rolePermissionsUpdate": {
         "viewFullNewPermissions": "عرض كل الصلاحيات الجديدة",
@@ -13,21 +13,21 @@
         "warning": "تحذير!",
         "oldPermissions": "الصلاحيات السابقة",
         "title": "تم تحديث صلاحيات الرتبة",
-        "description": "{executor} حدث صلاحيات الرتبة {role}",
+        "description": "قام {executor} بتحديث الصلاحيات للرتبة {role}",
         "newPermissions": "الصلاحيات الجديدة",
         "dangerousPermissions": "تم منح صلاحيات خطيرة"
     },
     "roleCreated": {
         "title": "تم إنشاء رتبة",
-        "description": "{executor} أنشأ الرتبة {role}"
+        "description": "قام {executor} بإنشاء الرتبة {role}"
     },
     "roleUpdated": {
-        "description": "{executor} عدّل رتبة {role}",
+        "description": "قام {executor} بتعديل الرتبة {role}",
         "title": "تم تعديل رتبة"
     },
     "roleDeleted": {
         "role": "رتبة",
-        "description": "{executor} حذف رتبة {role_name}",
+        "description": "قام {executor} بحذف الرتبة {role_name}",
         "linkToRoleIcon": "رابط أيقونة الرتبة",
         "title": "تم حذف رتبة"
     }
