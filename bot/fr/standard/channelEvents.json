@@ -5,24 +5,24 @@
         "descriptionWithCategory": "{channel} a été créé par {executor} dans la catégorie {category}."
     },
     "channelDeleted": {
-        "title": "Salon {type} Supprimé",
+        "title": "Salon {type} supprimé",
         "description": "{channel_name} a été supprimé par {executor}",
         "channel": "Salon"
     },
     "channelUpdated": {
-        "title": "Salon {type} Modifié",
+        "title": "Salon {type} modifié",
         "description": "{channel} a été modifié par {executor}"
     },
     "channelOverwriteCreate": {
-        "title": "Permissions de Salon {type} Ajoutée",
+        "title": "Permissions de salon {type} ajoutée",
         "description": "{executor} a ajouté des permissions à {channel} pour {special}"
     },
     "channelOverwriteDelete": {
-        "title": "Permissions de Salon {type} Supprimée",
+        "title": "Permissions de salon {type} supprimée",
         "description": "{executor} a supprimé des permissions à {channel} pour {special}"
     },
     "channelOverwriteUpdate": {
-        "title": "Permissions de Salon {type} Modifiée",
+        "title": "Permissions de salon {type} modifiée",
         "description": "{executor} a modifié des permissions à {channel} pour {special}",
         "newPermissions": "Nouvelles permissions",
         "viewFullNewPermissions": "Voir toutes les nouvelles permissions",
@@ -30,19 +30,19 @@
         "dangerousPermissions": "Permissions dangereuses accordées"
     },
     "webhookCreate": {
-        "title": "Webhook Créé",
+        "title": "Webhook créé",
         "description": "{executor} a créé le webhook {webhook} dans {channel}"
     },
     "webhookDelete": {
-        "title": "Webhook Suprimé",
+        "title": "Webhook supprimé",
         "description": "{executor} a supprimé le webhook {webhook}"
     },
     "webhookUpdate": {
-        "title": "Webhook Modifié",
+        "title": "Webhook modifié",
         "description": "{executor} a modifié le webhook {webhook}"
     },
     "webhookAvatarUpdate": {
-        "title": "Avatar du Webhook Changé",
+        "title": "Avatar du Webhook changé",
         "description": "{executor} a changé l'avatar de {webhook}",
         "description_added": "{executor} a ajouté un avatar pour {webhook}",
         "description_removed": "{executor} a supprimé l'avatar de {webhook}",
@@ -50,15 +50,15 @@
         "linkToNewAvatar": "Lien vers le nouvel avatar"
     },
     "statusChannelFollowed": {
-        "title": "Salon Suivi",
+        "title": "Salon suivi",
         "description": "{executor} a suivi le salon {name} dans {channel}"
     },
     "statusChannelUnfollowed": {
-        "title": "Salon Plus Suivi",
+        "title": "Salon plus suivi",
         "description": "{executor} a arrêté de suivre le salon {name}"
     },
     "statusChannelUpdated": {
-        "title": "Salon Suivi Mis à Jour",
+        "title": "Salon suivi mis à jour",
         "description": "{executor} a mis à jour le salon suivi {name}"
     },
     "general": {
