@@ -1,7 +1,7 @@
 {
     "userLeft": {
         "title": "غادر عضو",
-        "description": "{user} غادر السيرفر",
+        "description": "غادر {user} السيرفر",
         "serverProfilePicture": "رابط صورة الملف الشخصي في السيرفر",
         "info_kicked": "تم طرد العضو",
         "description_banned": "تم حظر {user} بواسطة {executor}",
@@ -48,7 +48,7 @@
         "warning": "تحذير!",
         "rejoined": "الحساب انضم مرة أخرى",
         "noBadges": "الحساب لا يحتوي على شارات",
-        "description": "{user} انضم إلى السيرفر",
+        "description": "انضم {user} إلى السيرفر",
         "accountCreated": "تاريخ إنشاء الحساب",
         "createdBy": "تم إنشاؤها بواسطة {user}",
         "ban": "الحظر"
