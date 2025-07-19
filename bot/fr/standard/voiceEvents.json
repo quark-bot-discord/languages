@@ -1,14 +1,14 @@
 {
     "streamStart": {
-        "title": "Partage d'écran Démarré",
+        "title": "Partage d'écran démarré",
         "description": "{user} a démarré un partage d'écran dans le salon vocal {channel}"
     },
     "streamStop": {
-        "title": "Partage d'écran Arrêté",
+        "title": "Partage d'écran arrêté",
         "description": "{user} a arrêté son partage d'écran dans le salon vocal {channel}"
     },
     "videoStart": {
-        "title": "Caméra Allumée",
+        "title": "Caméra allumée",
         "description": "{user} a allumé sa caméra dans le salon vocal {channel}"
     },
     "videoStop": {
@@ -16,11 +16,11 @@
         "description": "{user} a éteint sa caméra dans le salon vocal {channel}"
     },
     "voiceSwitch": {
-        "title": "Changement de Salon",
+        "title": "Changement de salon",
         "description": "{user} s'est déplacé du salon vocal {channel_old} vers le salon vocal {channel_new}"
     },
     "voiceMove": {
-        "title": "Utilisateur Déplacé",
+        "title": "Utilisateur déplacé",
         "description": "{user} a été déplacé du salon vocal {channel_old} vers le salon vocal {channel_new}",
         "movedBy": "Déplacé par"
     },
@@ -41,25 +41,25 @@
         "voiceChannel": "Salon vocal"
     },
     "serverDeafen": {
-        "title": "Mis en Sourdine",
+        "title": "Mis en sourdine",
         "description": "{user} a été mis en sourdine",
         "deafenedBy": "Mis en sourdine par",
         "voiceChannel": "Salon vocal"
     },
     "serverMute": {
-        "title": "Rendu Muet",
+        "title": "Rendu muet",
         "description": "{user} a été rendu muet",
         "mutedBy": "Rendu muet par",
         "voiceChannel": "Salon vocal"
     },
     "serverUndeafen": {
-        "title": "Son Rétabli",
+        "title": "Son rétabli",
         "description": "Le son de {user} a été rétabli",
         "undeafenedBy": "Son rétabli par",
         "voiceChannel": "Salon vocal"
     },
     "serverUnmute": {
-        "title": "Voix Rétablie",
+        "title": "Voix rétablie",
         "description": "La voix de {user} a été rétabli",
         "unmutedBy": "Voix rétablie par",
         "voiceChannel": "Salon vocal"
@@ -72,12 +72,12 @@
         "descriptionRemoved": "{executor} a enlevé le statut pour {channel}"
     },
     "stageStarted": {
-        "title": "Conférence Commencée",
+        "title": "Conférence commencée",
         "description": "{executor} a commencé une conférence dans {channel}",
         "topic": "Sujet"
     },
     "stageEnded": {
-        "title": "Conférence Terminée",
+        "title": "Conférence terminée",
         "description": "La conférence dans {channel} a été terminé par {executor}",
         "description_noExecutor": "La conférence dans {channel} a été terminé",
         "topic": "Sujet",
@@ -86,20 +86,20 @@
     "stageUpdated": {
         "title": "Conférence mise à jour",
         "description": "La conférence dans {channel} a été mise à jour par {executor}",
-        "oldTopic": "Ancien Sujet",
-        "newTopic": "Nouveau Sujet"
+        "oldTopic": "Ancien sujet",
+        "newTopic": "Nouveau sujet"
     },
     "stageSpeakerAdd": {
-        "title": "Nouveau Intervenant de la Conférence",
+        "title": "Nouveau intervenant de la conférence",
         "description": "{user} est devenu un intervenant dans le salon de conférence {channel}",
         "description_inviteAccepted": "{user} a accepté la demande de devenir un intervenant dans le salon de conférence {channel}"
     },
     "stageSpeakerRemove": {
-        "title": "Arrêt de l'Intervention",
+        "title": "Arrêt de l'intervention",
         "description": "{user} n'est plus un intervenant dans le salon de conférence {channel}"
     },
     "stageSpeakerInvited": {
-        "title": "Intervenant Invité",
+        "title": "Intervenant invité",
         "description": "{user} a été invité à parler dans le salon de conférence {channel}"
     },
     "voiceBundle": {
