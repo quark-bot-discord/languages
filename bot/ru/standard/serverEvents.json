@@ -20,13 +20,13 @@
         "joined": "Присоединился",
         "roles": "Роли",
         "serverProfilePicture": "Ссылка на серверный аватар",
-        "description_kicked": "{user} was kicked by {executor}",
-        "description_kicked_no_executor": "{user} was kicked",
-        "description_banned": "{user} was banned by {executor}",
-        "description_banned_no_executor": "{user} was banned",
-        "info": "Info",
-        "info_kicked": "User kicked",
-        "info_banned": "User banned"
+        "description_kicked": "{user} был кикнут {executor}",
+        "description_kicked_no_executor": "{user} был кикнут",
+        "description_banned": "{user} был забанен {executor}",
+        "description_banned_no_executor": "{user} был забанен",
+        "info": "Информация",
+        "info_kicked": "Пользователь кикнут",
+        "info_banned": "Пользователь забанен"
     },
     "botAdded": {
         "title": "Бот добавлен",
