@@ -29,6 +29,9 @@ export type LanguageStructure = {
   channel_update_types: Promise<{
   none: string;
 }>;
+  emoji_update_types: Promise<{
+  none: string;
+}>;
   command_responses: Promise<{
   disable: string;
   enable: string;
@@ -258,9 +261,6 @@ export type LanguageStructure = {
   "banButton-banning": string;
   "banButton-cancel": string;
 }>;
-  emoji_update_types: Promise<{
-  none: string;
-}>;
   gui_constants: Promise<{
   channelModificationTypes: {
   name: string;
@@ -336,18 +336,6 @@ export type LanguageStructure = {
   false: string;
 };
 }>;
-  ignore_options: Promise<{
-  ignoreTargets: string;
-  ignoreExecutors: string;
-  specificMessageContent: string;
-  ignoreChannels: string;
-  ignoreBotExecutors: string;
-  ignoreBotTargets: string;
-  ignoreExecutorRoles: string;
-  ignoreTargetRoles: string;
-  ignoreCategories: string;
-  activeIgnore: string;
-}>;
   log_categories: Promise<{
   serverEvents: string;
   serverActions: string;
@@ -360,6 +348,18 @@ export type LanguageStructure = {
   quarkEvents: string;
   modLog: string;
   main: string;
+}>;
+  ignore_options: Promise<{
+  ignoreTargets: string;
+  ignoreExecutors: string;
+  specificMessageContent: string;
+  ignoreChannels: string;
+  ignoreBotExecutors: string;
+  ignoreBotTargets: string;
+  ignoreExecutorRoles: string;
+  ignoreTargetRoles: string;
+  ignoreCategories: string;
+  activeIgnore: string;
 }>;
   log_formats: Promise<{
   "0": string;
@@ -582,10 +582,6 @@ export type LanguageStructure = {
 };
 };
 }>;
-  logging: Promise<{
-  name: string;
-  description: string;
-}>;
   language: Promise<{
   name: string;
   description: string;
@@ -595,6 +591,10 @@ export type LanguageStructure = {
   description: string;
 };
 };
+}>;
+  logging: Promise<{
+  name: string;
+  description: string;
 }>;
   mute: Promise<{
   name: string;
@@ -637,6 +637,10 @@ export type LanguageStructure = {
   name: string;
   description: string;
 }>;
+  privacy: Promise<{
+  name: string;
+  description: string;
+}>;
   purge: Promise<{
   name: string;
   description: string;
@@ -647,9 +651,19 @@ export type LanguageStructure = {
 };
 };
 }>;
-  privacy: Promise<{
+  reason: Promise<{
   name: string;
   description: string;
+  commandOptions: {
+  caseOption: {
+  name: string;
+  description: string;
+};
+  reasonOption: {
+  name: string;
+  description: string;
+};
+};
 }>;
   serverlog: Promise<{
   name: string;
@@ -770,20 +784,6 @@ export type LanguageStructure = {
   description: string;
 };
   helpOption: {
-  name: string;
-  description: string;
-};
-};
-}>;
-  reason: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  caseOption: {
-  name: string;
-  description: string;
-};
-  reasonOption: {
   name: string;
   description: string;
 };
@@ -1375,5 +1375,5 @@ export type LanguageStructure = {
 }>;
 };
 };
-export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "export" | "help" | "initialReactor" | "invite" | "kick" | "logging" | "language" | "mute" | "ping" | "premium" | "purge" | "privacy" | "serverlog" | "tags" | "reason" | "unban" | "unmute";
+export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "export" | "help" | "initialReactor" | "invite" | "kick" | "language" | "logging" | "mute" | "ping" | "premium" | "privacy" | "purge" | "reason" | "serverlog" | "tags" | "unban" | "unmute";
 export type QuarkLanguageCodes = "en_us" | "en_gb" | "tr" | "vi" | "en_pr" | "pl" | "nl" | "es_es" | "it" | "de" | "fr" | "ru" | "el" | "zh_hant" | "ko" | "sl" | "ar";
