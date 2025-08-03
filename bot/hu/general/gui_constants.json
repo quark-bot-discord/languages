@@ -1,1 +1,46 @@
-{}
+{
+    "channelModificationTypes": {
+        "name": "Name",
+        "rate_limit_per_user": "Slowmode",
+        "topic": "Topic",
+        "type": "Type",
+        "position": "Position",
+        "user_limit": "User Limit",
+        "bitrate": "Bitrate",
+        "parent_id": "Category",
+        "nsfw": "NSFW",
+        "rtc_region": "Region"
+    },
+    "guildModificationTypes": {
+        "premium_progress_bar_enabled": "Progress Bar",
+        "description": "Description",
+        "name": "Name",
+        "system_channel_id": "System Channel",
+        "nsfw_level": "NSFW Level",
+        "mfa_level": "MFA Required",
+        "default_message_notifications": "Default Notifications",
+        "explicit_content_filter": "Explicit Content Filter",
+        "verification_level": "Verification Level",
+        "rules_channel_id": "Rule Channel"
+    },
+    "roleModificationTypes": {
+        "name": "Name",
+        "hoist": "Hoisted",
+        "unicode_emoji": "Emoji",
+        "managed": "Managed",
+        "mentionable": "Mentionable",
+        "color": "Color"
+    },
+    "threadModificationTypes": {
+        "name": "Name",
+        "rate_limit_per_user": "Slowmode",
+        "auto_archive_duration": "Automatic Archive"
+    },
+    "webhookModificationTypes": {
+        "channel_id": "Channel",
+        "name": "Name"
+    },
+    "emojiModificationTypes": {
+        "name": "Name"
+    }
+}
