@@ -1,5 +1,5 @@
 {
-  "name": "@quark-bot-discord/languages",
+  "name": "languages",
   "version": "1.0.1",
   "description": "Languages for Quark",
   "main": "index.js",
