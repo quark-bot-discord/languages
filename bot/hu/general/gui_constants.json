@@ -1,46 +1,46 @@
 {
     "channelModificationTypes": {
-        "name": "Name",
-        "rate_limit_per_user": "Slowmode",
-        "topic": "Topic",
-        "type": "Type",
-        "position": "Position",
-        "user_limit": "User Limit",
-        "bitrate": "Bitrate",
-        "parent_id": "Category",
-        "nsfw": "NSFW",
-        "rtc_region": "Region"
+        "name": "Név",
+        "rate_limit_per_user": "Lassított Mód",
+        "topic": "Téma",
+        "type": "Fajta",
+        "position": "Pozíció",
+        "user_limit": "Felhasználó limit",
+        "bitrate": "Bitráta",
+        "parent_id": "Kategória",
+        "nsfw": "Korhatárós",
+        "rtc_region": "Régió"
     },
     "guildModificationTypes": {
-        "premium_progress_bar_enabled": "Progress Bar",
-        "description": "Description",
-        "name": "Name",
-        "system_channel_id": "System Channel",
-        "nsfw_level": "NSFW Level",
-        "mfa_level": "MFA Required",
-        "default_message_notifications": "Default Notifications",
-        "explicit_content_filter": "Explicit Content Filter",
-        "verification_level": "Verification Level",
-        "rules_channel_id": "Rule Channel"
+        "premium_progress_bar_enabled": "Előrehaladás",
+        "description": "Leírás",
+        "name": "Neve",
+        "system_channel_id": "Rendszer Csatorna",
+        "nsfw_level": "NSFW Szint",
+        "mfa_level": "MFA Kötelező",
+        "default_message_notifications": "Alapértelmezett értesítések",
+        "explicit_content_filter": "Explicit Tartalom Filter",
+        "verification_level": "Ellenőrző szint",
+        "rules_channel_id": "Szabály csatorna"
     },
     "roleModificationTypes": {
-        "name": "Name",
-        "hoist": "Hoisted",
-        "unicode_emoji": "Emoji",
-        "managed": "Managed",
-        "mentionable": "Mentionable",
-        "color": "Color"
+        "name": "Neve",
+        "hoist": "Külön megjelenítve",
+        "unicode_emoji": "Emotikon",
+        "managed": "Kezelve",
+        "mentionable": "Említhető",
+        "color": "Szín"
     },
     "threadModificationTypes": {
-        "name": "Name",
-        "rate_limit_per_user": "Slowmode",
-        "auto_archive_duration": "Automatic Archive"
+        "name": "Neve",
+        "rate_limit_per_user": "Lassított Mód",
+        "auto_archive_duration": "Automatikus archiválás"
     },
     "webhookModificationTypes": {
-        "channel_id": "Channel",
-        "name": "Name"
+        "channel_id": "Csatorna",
+        "name": "Neve"
     },
     "emojiModificationTypes": {
-        "name": "Name"
+        "name": "Neve"
     }
 }
