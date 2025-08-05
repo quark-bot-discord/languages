@@ -1,12 +1,12 @@
 {
     "channelCreated": {
-        "description": "{channel} was created by {executor}",
-        "descriptionWithCategory": "{channel} was created by {executor} under the {category} category.",
-        "title": "{type} Channel Created"
+        "description": "{channel} létrehozta: {executor}",
+        "descriptionWithCategory": "{channel} létrehozta: {executor} ez a kategória {category} alatt.",
+        "title": "{type} Csatorna létrehozva"
     },
     "webhookDelete": {
-        "description": "{executor} deleted the webhook {webhook}",
-        "title": "Webhook Deleted"
+        "description": "{executor} törölte a webhookot ezzel a névvel: {webhook}",
+        "title": "Webhook törölve"
     },
     "channelOverwriteUpdate": {
         "description": "{executor} updated permissions for {channel} for {special}",
@@ -17,29 +17,29 @@
         "title": "{type} Channel Permissions Updated"
     },
     "webhookAvatarUpdate": {
-        "title": "Webhook Avatar Updated",
-        "linkToNewAvatar": "Link to new avatar",
-        "description_removed": "{executor} removed the avatar for {webhook}",
-        "linkToOldAvatar": "Link to old avatar",
-        "description": "{executor} updated the avatar for {webhook}",
-        "description_added": "{executor} added an avatar for {webhook}"
+        "title": "Webhook Avatar Frissítve",
+        "linkToNewAvatar": "Új avatár linkje",
+        "description_removed": "{executor} eltávolított egy avatárt a webhookról: {webhook}",
+        "linkToOldAvatar": "Régi avatár linkje",
+        "description": "{executor} frissítette a webhook avatarját: {webhook}",
+        "description_added": "{executor} hozzáadott egy avatárt a webhookhoz: {webhook}"
     },
     "channelDeleted": {
-        "title": "{type} Channel Deleted",
-        "description": "{channel_name} was deleted by {executor}",
-        "channel": "Channel"
+        "title": "{type} Csatorna törölve",
+        "description": "{channel_name} törölve lett {executor} által",
+        "channel": "Csatorna"
     },
     "statusChannelFollowed": {
-        "title": "Channel Followed",
-        "description": "{executor} followed the channel {name} in {channel}"
+        "title": "Csatorna követve",
+        "description": "{executor} követi a csatornát ezzel a névvel: {name} {channel}ban/ben"
     },
     "channelUpdated": {
-        "title": "{type} Channel Modified",
-        "description": "{channel} was modified by {executor}"
+        "title": "{type} Csatorna módosítva",
+        "description": "{channel} módosítotva: {executor} által"
     },
     "webhookUpdate": {
-        "description": "{executor} modified the webhook {webhook}",
-        "title": "Webhook Modified"
+        "description": "{executor} módosította a webhookot ezzel névvel: {webhook}",
+        "title": "Webhook módosítva"
     },
     "webhookCreate": {
         "title": "Webhook Created",
@@ -50,18 +50,18 @@
         "title": "{type} Channel Permissions Removed"
     },
     "statusChannelUnfollowed": {
-        "title": "Channel Unfollowed",
-        "description": "{executor} unfollowed the channel {name}"
+        "title": "Csatorna nem lett követve",
+        "description": "{executor} nem követi tovább a csatornátt ezzel a névvel: {name}"
     },
     "statusChannelUpdated": {
-        "title": "Followed Channel Updated",
-        "description": "{executor} updated the followed channel {name}"
+        "title": "Követett csatorna frissítve",
+        "description": "{executor} frissítette a követett csatornát ezzel a névvel: {name}"
     },
     "general": {
-        "unknownChannel": "Unknown Channel"
+        "unknownChannel": "Ismeretlen Csatorna"
     },
     "channelOverwriteCreate": {
-        "description": "{executor} added permissions to {channel} for {special}",
-        "title": "{type} Channel Permissions Added"
+        "description": "{executor} hozzáadta a jogosultságot {channel}hoz ranggal {special}",
+        "title": "{type} Csatorna Jogosultság hozzáadva"
     }
 }

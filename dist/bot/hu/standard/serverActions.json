@@ -1,55 +1,55 @@
 {
     "emojiCreated": {
-        "description": "{emoji} was added by {executor}",
-        "title": "Emoji Created"
+        "description": "{emoji} hozzáadta: {executor}",
+        "title": "Emoji létrehozva"
     },
     "serverEventCreate": {
-        "image": "Image",
-        "eventDescription": "Description",
-        "starts": "Starts",
-        "description_withChannel": "{executor} created an event {name} in {channel}",
-        "location": "Location",
-        "title": "Event Created",
-        "description_withoutChannel": "{executor} created an event {name}"
+        "image": "Kép",
+        "eventDescription": "Leírás",
+        "starts": "Indul",
+        "description_withChannel": "{executor} létrehozott egy eseményt ezzel a névvel: {name} és csatornával {channel}",
+        "location": "Helyszín",
+        "title": "Esemény létrehozva",
+        "description_withoutChannel": "{executor} létrehozott egy eseményt ezzel a névvel: {name}"
     },
     "emojiUpdated": {
-        "description": "{emoji} was edited by {executor}",
-        "title": "Emoji Edited"
+        "description": "{emoji} módosította: {executor}",
+        "title": "Emoji Módosítva"
     },
     "serverEventUpdate": {
-        "description": "{executor} updated the event {name}",
-        "newLocation": "New Location",
-        "newImage": "New Image",
-        "linkToEventImage": "Link to old event image",
-        "newEventDescription": "New Description",
-        "newChannel": "New Channel",
-        "title": "Event Updated"
+        "description": "{executor} frissítette az eseményt ezzel a névvel: {name}",
+        "newLocation": "Új helyszín",
+        "newImage": "Új kép",
+        "linkToEventImage": "Régi esemény kép linkje",
+        "newEventDescription": "Új leírás",
+        "newChannel": "Új csatorna",
+        "title": "Esemény frissítve"
     },
     "serverEventDelete": {
-        "title": "Event Deleted",
-        "linkToEventImage": "Link to event image",
-        "description": "{executor} deleted the event {name}"
+        "title": "Esemény törölve",
+        "linkToEventImage": "Esemény kép linkje",
+        "description": "{executor} törölte az eseményt ezzel a névvel: {name}"
     },
     "emojiDeleted": {
-        "title": "Emoji Deleted",
+        "title": "Emoji törölve",
         "emoji": "Emoji",
-        "description": "{emoji} was deleted by {executor}"
+        "description": "{emoji} törölve: {executor} által"
     },
     "inviteDelete": {
-        "created": "Created by",
-        "description_withExecutor": "{executor} deleted an invite {invite} for {channel}",
-        "title": "Invite Deleted",
-        "none": "none",
-        "used": "Used",
-        "description_withoutExecutor": "An invite {invite} was deleted for {channel}"
+        "created": "Létrehozta",
+        "description_withExecutor": "{executor} törölte a meghívót {invite} {channel} csatornáról",
+        "title": "Meghívó törölve",
+        "none": "semmi",
+        "used": "Használva",
+        "description_withoutExecutor": "Egy meghívó {invite} törölve lett {channel} csatornáról"
     },
     "inviteCreate": {
-        "maxUses": "Max Uses",
-        "never": "Never",
-        "expires": "Expires",
-        "description_withoutInviter": "An invite {invite} was created for {channel}",
-        "description_withInviter": "{inviter} created an invite {invite} for {channel}",
-        "title": "Invite Created",
-        "none": "none"
+        "maxUses": "Max használat",
+        "never": "Soha",
+        "expires": "Lejár",
+        "description_withoutInviter": "Egy meghívó {invite} létrehozva lett ide: {channel}",
+        "description_withInviter": "{inviter} létrehozott egy meghívót {invite} {channel} csatornára",
+        "title": "Meghívó létrehozva",
+        "none": "semmi"
     }
 }
