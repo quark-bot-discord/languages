@@ -59,8 +59,8 @@
         "title": "Changed Channel"
     },
     "streamStop": {
-        "description": "{user} stopped streaming in the {channel} voice channel",
-        "title": "Stream Ended"
+        "description": "{user} abba hagyta a képernyő megosztását itt: {channel} hangcsatornában",
+        "title": "Élő véget ért"
     },
     "voiceLeave": {
         "joined": "Joined",
@@ -86,8 +86,8 @@
         "title": "Video Started"
     },
     "streamStart": {
-        "title": "Stream Started",
-        "description": "{user} started streaming in the {channel} voice channel"
+        "title": "Élő indult",
+        "description": "{user} el kezdette megosztani a képernyőét itt: {channel} hangcsatornában"
     },
     "voiceBundle": {
         "title": "Multiple Voice Channel Events"
