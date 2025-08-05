@@ -12,23 +12,23 @@
         "viewFullOldPermissions": "View Full Old Permissions",
         "warning": "WARNING!",
         "oldPermissions": "Old Permissions",
-        "title": "Role Permissions Updated",
+        "title": "Rang jogosultságok frissítve",
         "description": "Permissions for {role} were updated by {executor}",
         "newPermissions": "New Permissions",
         "dangerousPermissions": "Dangerous permissions granted"
     },
     "roleCreated": {
-        "title": "Role Created",
-        "description": "{role} was created by {executor}"
+        "title": "Rang létrehozva",
+        "description": "{role} létrehozta: {executor}"
     },
     "roleUpdated": {
-        "description": "{role} was modified by {executor}",
-        "title": "Role Modified"
+        "description": "{role} szerekeztette: {executor}",
+        "title": "Rang szerkeztve"
     },
     "roleDeleted": {
-        "role": "Role",
-        "description": "{role_name} was deleted by {executor}",
-        "linkToRoleIcon": "Link to role icon",
-        "title": "Role Deleted"
+        "role": "Rang",
+        "description": "{role_name} törölve lett {executor} által",
+        "linkToRoleIcon": "Rang ikon linkje",
+        "title": "Rang törölve"
     }
 }
