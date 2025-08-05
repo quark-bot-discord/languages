@@ -6,7 +6,7 @@
     "activeIgnore": "Active Ignore",
     "specificMessageContent": "Ignore Specific Message Content",
     "ignoreCategories": "Ignore Categories",
-    "ignoreTargets": "Ignore Target Users",
+    "ignoreTargets": "Célzott felhasználó Ingorálása",
     "ignoreTargetRoles": "Ignore Target Roles",
     "ignoreChannels": "Ignore Channels"
 }
