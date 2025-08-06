@@ -6,6 +6,8 @@ export interface Locale {
     name: string;
     active: boolean;
     emoji: string;
+    icon?: string;
+    iconCode?: string;
 }
 export type Languages = {
     [key: localeOptions]: Locale;
