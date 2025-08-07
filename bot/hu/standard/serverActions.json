@@ -32,7 +32,7 @@
     },
     "emojiDeleted": {
         "title": "Emoji törölve",
-        "emoji": "Emoji",
+        "emoji": "Emotikon",
         "description": "{emoji} törölve: {executor} által"
     },
     "inviteDelete": {
