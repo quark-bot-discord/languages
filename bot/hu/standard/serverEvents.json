@@ -1,79 +1,79 @@
 {
     "nicknameUpdate": {
-        "setNick": "{user}'s nickname was set to {newNickname}",
-        "title": "Nickname Updated",
-        "description": "{user}'s nickname was changed from {oldNickname} to {newNickname}",
-        "changedBy": "Changed by",
-        "nickRemoved": "{user}'s nickname of {oldNickname} was removed"
+        "setNick": "{user}nak/nek beceneve be lett állítva erre: {newNickname}",
+        "title": "Becenév frissítve",
+        "description": "{user}nak/nek beceneve meg lett változtatva erről {oldNickname} erre {newNickname}",
+        "changedBy": "Megváltoztta",
+        "nickRemoved": "{user}nak/nek beceneve {oldNickname} el lett távolítva"
     },
     "memberRoleAdd": {
-        "title_multiple": "Roles Given",
-        "givenBy": "Given by",
-        "dangerousPermissions": "Dangerous permissions granted",
-        "description": "The {role} role was given to {user}",
-        "roles": "Roles",
-        "title": "Role Given",
-        "warning": "WARNING!",
-        "description_multiple": "{user} was given multiple roles"
+        "title_multiple": "Rangok hozzáadva",
+        "givenBy": "Hozzá adta",
+        "dangerousPermissions": "Veszélyes jogosultságok lettek megadva",
+        "description": "A {role} hozzá lett adva {user}hez",
+        "roles": "Rangok",
+        "title": "Rang hozzáadva",
+        "warning": "FIGYELMEZTETÉS!",
+        "description_multiple": "{user} több rangot kapott"
     },
     "userLeft": {
-        "title": "User Left",
-        "description": "{user} left the server",
-        "serverProfilePicture": "Link to server avatar",
-        "info_kicked": "User kicked",
-        "description_banned": "{user} was banned by {executor}",
-        "info": "Info",
-        "description_kicked": "{user} was kicked by {executor}",
-        "roles": "Roles",
-        "description_banned_no_executor": "{user} was banned",
-        "joined": "Joined",
-        "info_banned": "User banned",
-        "description_kicked_no_executor": "{user} was kicked"
+        "title": "Felhasználó kilépett",
+        "description": "{user} elhagyta a szervert",
+        "serverProfilePicture": "Szerver avatár linkje",
+        "info_kicked": "Felhasználó kirúgva",
+        "description_banned": "{user} kitiltotta {executor}",
+        "info": "Információ",
+        "description_kicked": "{user} kirúgta: {executor}",
+        "roles": "Rangok",
+        "description_banned_no_executor": "{user} ki lett tiltva",
+        "joined": "Csatlakozott",
+        "info_banned": "Felhaszáló kitiltva",
+        "description_kicked_no_executor": "{user} ki lett rúgva"
     },
     "avatarUpdate": {
-        "description": "{user} changed their server avatar",
-        "changedBy": "Changed by",
-        "description_removed": "{user} removed their server avatar",
-        "title": "Server Avatar Changed",
-        "linkToNewAvatar": "Link to new avatar",
-        "linkToOldAvatar": "Link to old avatar",
-        "description_added": "{user} added a server avatar"
+        "description": "{user} megváltoztatta a szerver avatárját",
+        "changedBy": "Megváltoztta",
+        "description_removed": "{user} eltávolította a szerver avatárját",
+        "title": "Szerver avatár vátloztatva",
+        "linkToNewAvatar": "Új avatár linkje",
+        "linkToOldAvatar": "Régi avatár linkje",
+        "description_added": "{user} hozzá adott egy szerver avatárt"
     },
     "userJoined": {
-        "title": "User Joined",
-        "info": "Info",
-        "noAvatar": "Account has no avatar",
-        "invite": "Invite",
-        "newAccount": "Account is new",
-        "warning": "WARNING!",
-        "rejoined": "Account rejoined",
-        "noBadges": "Account has no badges",
-        "description": "{user} joined the server",
-        "accountCreated": "Account created",
-        "createdBy": "created by {user}",
-        "ban": "Ban"
+        "title": "Felhasználó Csatlakozottt",
+        "info": "Információ",
+        "noAvatar": "A fióknak nincsen avatárja",
+        "invite": "Meghívó",
+        "newAccount": "A fiók új",
+        "warning": "FIGYELMEZTETÉS!",
+        "rejoined": "Fiók újra belépett",
+        "noBadges": "A fióknak nincsen jelvényei",
+        "description": "{user} belépett a szerverre",
+        "accountCreated": "Fiók létrehozva",
+        "createdBy": "létrehozta: {user}",
+        "ban": "Kitiltott"
     },
     "botRemoved": {
-        "title": "Bot Removed",
-        "descriptionne": "{bot} was removed from the server",
-        "description": "{bot} was removed from the server by {executor}"
+        "title": "Bot eltávolítva",
+        "descriptionne": "{bot} el lett távolítva a szerverről",
+        "description": "{bot} el lett távolítva a szerverről {executor} által"
     },
     "botAdded": {
-        "description": "{bot} was added to the server by {executor}",
-        "descriptionne": "{bot} was added to the server",
-        "title": "Bot Added"
+        "description": "{bot} hozzá lett adva a szerverhez {executor} által",
+        "descriptionne": "{bot} hozzá lett adva a szeverhez",
+        "title": "Bot hozzáadva"
     },
     "memberRoleRemove": {
-        "roles": "Roles",
-        "removedBy": "Removed by",
-        "description": "The {role} role was removed from {user}",
-        "title": "Role Taken",
-        "title_multiple": "Roles Taken",
-        "description_multiple": "Multiple roles were removed from {user}"
+        "roles": "Rangok",
+        "removedBy": "Eltávolította",
+        "description": "A {role} rangot eltávolíották {user}ról/ről",
+        "title": "Rang eltévolítva",
+        "title_multiple": "Rangok eltávolítva",
+        "description_multiple": "Több rangot elvettek a {user}tól/től"
     },
     "memberPrune": {
-        "title": "Members Pruned",
-        "description": "{count} members with at least {time} days of inactivity were pruned by {executor}"
+        "title": "Tagok ritkitása",
+        "description": "{count} tagok, akik legalább {time} az inaktivitás napjai le lettek rövidítve {executor} által"
     },
-    "members": "Members"
+    "members": "Tagok"
 }
