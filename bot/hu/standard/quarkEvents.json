@@ -1,64 +1,64 @@
 {
     "serverlogOptionsUpdate": {
-        "buttons": "Buttons",
-        "title": "Logging Options Updated",
-        "spoilers": "Spoilers",
-        "formatType": "Format Type",
-        "description": "{executor} set {option} to {state}",
-        "pluralkitSupport": "PluralKit Support"
+        "buttons": "Gombok",
+        "title": "Logolási Opciók frissítve",
+        "spoilers": "Spoilerek",
+        "formatType": "Formázási fajta",
+        "description": "{executor} beállította {option} erre {state}",
+        "pluralkitSupport": "PluralKit támogatás"
     },
     "serverlogChannelUpdate": {
-        "description_set": "{executor} set the {type} logging channel to {channel}",
-        "description_unset": "{executor} unset the {type} logging channel",
-        "title": "Logging Channel Changed",
-        "description_category_disable": "{executor} disabled the {type} logging channel"
+        "description_set": "{executor} beállította a {type} logolási csatornát erre: {channel}",
+        "description_unset": "{executor} kikapcsolta a {type} logolásicsatornát",
+        "title": "Logolási csatorna változás",
+        "description_category_disable": "{executor} letiltotta a {type} logolást"
     },
     "serverlogLogUpdate": {
-        "logFormat": "Format",
-        "logChannel": "Channel",
-        "ignoreBotExecutors": "Ignore Bot Executors",
-        "ignoreBotTargets": "Ignore Bot Targets",
-        "colour": "Color",
-        "activeIgnore": "Active Ignore",
-        "enabled": "Enabled",
-        "description": "{executor} updated the {type} log",
-        "title": "Log Updated"
+        "logFormat": "Formázás",
+        "logChannel": "Csatorna",
+        "ignoreBotExecutors": "Bot végrehajtók figyelmen kívül hagyása",
+        "ignoreBotTargets": "Bot célok figyelmen kívül hagyása",
+        "colour": "Szín",
+        "activeIgnore": "Aktív figyelmen kívül hagyások",
+        "enabled": "Engedélyezve",
+        "description": "{executor} frissítette a {type} logot",
+        "title": "Log frissítve"
     },
     "tokenRevoked": {
-        "title": "Token Revoked",
-        "description": "{executor} revoked the Quark access token with ID {token}"
+        "title": "Token törölve",
+        "description": "{executor} visszavonta a Quark hozzáférési tokent az azonosítóval {token}"
     },
     "reset": {
-        "description": "{executor} reset the configuration for this server",
-        "title": "Configuration Reset"
+        "description": "{executor} visszaállította a konfigurációt a szerveren",
+        "title": "Konfiguráció visszaállítva"
     },
     "tagUpdated": {
-        "description": "{executor} updated the tag {tag}",
-        "title": "Tag Updated"
+        "description": "{executor} frissítette a taget: {tag}",
+        "title": "Tag frissítve"
     },
     "tagAdded": {
-        "description": "{executor} created a tag {tag}",
-        "title": "Tag Added"
+        "description": "{executor} létrehozott egy taget: {tag}",
+        "title": "Tag hozzáadva"
     },
     "serverlogIgnoreUpdate": {
-        "description_unset": "{executor} disabled {type}",
-        "description_set": "{executor} enabled {type}",
-        "title": "Ignore Options Updated",
-        "description_removed": "{executor} removed {target} from {type}",
-        "description_added": "{executor} added {target} to {type}"
+        "description_unset": "{executor} letiltotta {type}",
+        "description_set": "{executor} engedélyezte {type}",
+        "title": "Opciók figyelmen kívül hagyása Frissítve",
+        "description_removed": "{executor} eltávolította {target} {type}ról/ről",
+        "description_added": "{executor} hozzáadta {target}t {type}hoz"
     },
     "tokenAdded": {
-        "unique_id": "Token ID",
-        "title": "Token Generated",
-        "revoke": "Revoke this token",
-        "description": "{executor} generated a Quark access token with {permissions} permissions for this server"
+        "unique_id": "Token Azonosító",
+        "title": "Token generálva",
+        "revoke": "Token törlése",
+        "description": "{executor} generált egy Quark hozzáférési token ezzekel a {permissions} jogosultságokkal ezzen a szerveren"
     },
     "languageUpdate": {
-        "description": "{executor} changed the language to {language}",
-        "title": "Language Changed"
+        "description": "{executor} megváltoztatta a nyelvet erre: {language}",
+        "title": "Nyelv változtatva"
     },
     "tagDeleted": {
-        "description": "{executor} deleted the tag {tag}",
-        "title": "Tag Deleted"
+        "description": "{executor} törölte a taget: {tag}",
+        "title": "Tag törölve"
     }
 }
