@@ -1,21 +1,21 @@
 {
     "roleIconUpdate": {
-        "title": "Role Icon Updated",
-        "description_added": "{executor} added an icon for {role}",
-        "linkToOldIcon": "Link to old icon",
-        "linkToNewIcon": "Link to new icon",
-        "description": "{executor} updated the icon for {role}",
-        "description_removed": "{executor} removed the icon for {role}"
+        "title": "Rang Ikon frissítve",
+        "description_added": "{executor} hozzáadott egy ikon a {role}hoz",
+        "linkToOldIcon": "Régi ikon linkje",
+        "linkToNewIcon": "Új ikon linkje",
+        "description": "{executor} frissítette a rang ikonját {role}nak/nek",
+        "description_removed": "{executor} eltávolította a rang ikont {role}ról/ről"
     },
     "rolePermissionsUpdate": {
-        "viewFullNewPermissions": "View Full New Permissions",
-        "viewFullOldPermissions": "View Full Old Permissions",
-        "warning": "WARNING!",
-        "oldPermissions": "Old Permissions",
+        "viewFullNewPermissions": "Összes új jogosultság megtekintése",
+        "viewFullOldPermissions": "Összes régi jogosultásg megtekintése",
+        "warning": "FIGYELMEZTETÉS!",
+        "oldPermissions": "Régi jogosultságok",
         "title": "Rang jogosultságok frissítve",
-        "description": "Permissions for {role} were updated by {executor}",
-        "newPermissions": "New Permissions",
-        "dangerousPermissions": "Dangerous permissions granted"
+        "description": "{role}nak/nek jogosultságok frissítve lettek {executor} által",
+        "newPermissions": "Új jogosultságok",
+        "dangerousPermissions": "Veszélyes jogosultságok lettek megadva"
     },
     "roleCreated": {
         "title": "Rang létrehozva",
