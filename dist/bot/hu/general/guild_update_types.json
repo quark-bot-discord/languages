@@ -1,29 +1,29 @@
 {
     "verification_level": {
-        "3": "high",
-        "0": "none",
-        "2": "medium",
-        "1": "low",
-        "4": "very_high"
+        "3": "magas",
+        "0": "semmi",
+        "2": "közepes",
+        "1": "alacsony",
+        "4": "nagyon_magas"
     },
     "premium_progress_bar_enabled": {
-        "true": "enabled",
-        "false": "disabled"
+        "true": "engedélyezve",
+        "false": "letiltva"
     },
     "nsfw_level": {
-        "0": "default",
+        "0": "alapértemezett",
         "1": "explicit",
-        "3": "age restricted",
-        "2": "safe"
+        "3": "korhatáros",
+        "2": "biztonságos"
     },
     "none": "Semmi",
     "explicit_content_filter": {
-        "1": "members without roles",
-        "2": "all members",
-        "0": "disabled"
+        "1": "szerepkör nélküli tagok",
+        "2": "összes tagok",
+        "0": "letiltva"
     },
     "default_message_notifications": {
-        "0": "all messages",
-        "1": "only mentions"
+        "0": "összes üzenetek",
+        "1": "csak említések"
     }
 }

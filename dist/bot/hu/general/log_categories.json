@@ -1,13 +1,13 @@
 {
-    "modLog": "Modlogs",
-    "channelEvents": "Channels",
-    "voiceEvents": "Voice",
-    "textEvents": "Messages",
-    "serverActions": "Actions",
-    "roleEvents": "Roles",
-    "serverEvents": "Members",
-    "main": "Main",
-    "fileEvents": "Files",
-    "quarkEvents": "Quark Config",
-    "generalEvents": "Server"
+    "modLog": "Mod logok",
+    "channelEvents": "Csatornák",
+    "voiceEvents": "Hang",
+    "textEvents": "Üzenetek",
+    "serverActions": "Akciók",
+    "roleEvents": "Rangok",
+    "serverEvents": "Tagok",
+    "main": "Fő",
+    "fileEvents": "Fájlok",
+    "quarkEvents": "Quark Konfig",
+    "generalEvents": "Szerver"
 }

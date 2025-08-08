@@ -10,57 +10,57 @@
                 "enableButton": "Tag logok engedélyezése"
             },
             "categoryVoice": {
-                "resetButton": "Reset Voice Logging Channel",
+                "resetButton": "Hang logolási csatorna visszaállítása",
                 "description": "Hangcsatorna műveletek (csatlakozás/kilépés, streamek, némítás/süketítés)",
-                "disableButton": "Disable Voice Logs",
+                "disableButton": "Hang logok letiltása",
                 "title": "Hang",
-                "enableButton": "Enable Voice Logs"
+                "enableButton": "Hang logok engedélyezése"
             },
             "overview": {
-                "title": "Overview",
-                "description": "Overview of main category options"
+                "title": "Áttekintés",
+                "description": "A fő kategória opcióinak áttekintése"
             },
             "categoryServer": {
-                "description": "General actions (server modifications)",
-                "enableButton": "Enable Server Event Logs",
-                "title": "Server Events",
-                "resetButton": "Reset Server Event Logging Channel",
-                "disableButton": "Disable Server Event Logs"
+                "description": "Általános műveletek (szerver módosítások)",
+                "enableButton": "Szerver eseménynaplók engedélyezése",
+                "title": "Szerver események",
+                "resetButton": "Szerver eseménynaplózási csatorna visszaállítása",
+                "disableButton": "Szerver eseménynaplók letiltása"
             },
             "categoryQuark": {
-                "resetButton": "Reset Quark Config Logging Channel",
-                "enableButton": "Enable Quark Config Logs",
-                "title": "Quark Config",
-                "description": "Changes made to Quark's configuration for this server",
-                "disableButton": "Disable Quark Config Logs"
+                "resetButton": "Quark konfigurációs naplózási csatorna visszaállítása",
+                "enableButton": "Quark konfigurációs naplózások engedélyezése",
+                "title": "Quark Konfiguráció",
+                "description": "A Quark konfigurációjában végrehajtott változtatások ezen a szerveren",
+                "disableButton": "Quark konfigurációs naplózások letiltása"
             },
             "categoryChannels": {
-                "enableButton": "Enable Channel Logs",
-                "resetButton": "Reset Channel Logging Channel",
-                "description": "Channel actions (creations/deletions, permissions)",
-                "disableButton": "Disable Channel Logs",
-                "title": "Channels"
+                "enableButton": "Csatorna logok engedélyezése",
+                "resetButton": "Csatorna logolási csatorna visszaállítás",
+                "description": "Csatorna műveletek (létrehozás/törlés, engedélyek)",
+                "disableButton": "Csatorna logok letiltása",
+                "title": "Csatornák"
             },
             "categoryActions": {
-                "resetButton": "Reset Server Actions Logging Channel",
-                "disableButton": "Disable Server Actions Logs",
-                "title": "Server Actions",
-                "description": "Server actions (invite creation/deletion, emojis)",
-                "enableButton": "Enable Server Actions Logs"
+                "resetButton": "Szerver akciók logolási csatorna visszaállítása",
+                "disableButton": "Szerver akciók logok letiltása",
+                "title": "Szerver akciók",
+                "description": "Szerver akciók (meghívó létrehozás/törlés, hangulatjelek)",
+                "enableButton": "Szerver akicók logok engedélyezése"
             },
             "categoryRoles": {
-                "disableButton": "Disable Role Logs",
-                "resetButton": "Reset Role Logging Channel",
-                "enableButton": "Enable Role Logs",
-                "description": "Role actions (creations/deletions, permissions)",
-                "title": "Roles"
+                "disableButton": "Szerepkörök naplózásának letiltása",
+                "resetButton": "Szerepkör naplózási csatorna visszaállítása",
+                "enableButton": "Szerepkörök naplózásának engedélyezése",
+                "description": "Szerepkörökkel kapcsolatos műveletek (létrehozás/törlés, jogosultságok)",
+                "title": "Rangok"
             },
             "categoryModlog": {
-                "title": "Mod Logs",
-                "disableButton": "Disable Modlog Logs",
-                "resetButton": "Reset Modlog Logging Channel",
-                "description": "Moderation actions (bans, kicks, mutes)",
-                "enableButton": "Enable Modlog Logs"
+                "title": "Mod Logok",
+                "disableButton": "Modlog naplózások letiltása",
+                "resetButton": "Modlog naplózási csatorna visszaállítása",
+                "description": "Moderálási intézkedések (kitiltás, kirúgás, némítás)",
+                "enableButton": "Modlog naplózás engedélyezése"
             },
             "categoryText": {
                 "disableButton": "Üzent logok letiltása",
@@ -70,13 +70,13 @@
                 "title": "Üzenetek"
             },
             "categoryFiles": {
-                "description": "Files (deleted attachments)",
-                "title": "Files"
+                "description": "Fájlok (törölt mellékletek)",
+                "title": "Fájlok"
             }
         },
-        "selectChannel": "Set logging channel",
+        "selectChannel": "Log csatorna beállítása",
         "serverLogDesc": "Fő logolási csatorna",
-        "resetChannel": "Reset Main Channel",
+        "resetChannel": "Főcsatorna visszaállítása",
         "notSet": "Nincsen beállítva",
         "formats": {
             "configurable_events": "Konfigurálható események",
@@ -86,10 +86,10 @@
         "selectACategory": "Válasz kategoriát",
         "selection": "Válasszon ki egy kategóriát a menüből a konfiguráció megtekintéséhez.",
         "overview": "Áttekintés",
-        "selectLogType": "Select Log Type",
-        "furtherConfig": "For more control over logs, such as selecting different channels for different log types or preventing certain channels, users or messages from being logged please visit [Quark's web dashboard]",
-        "all": "All",
-        "resetLogChannel": "Reset Log Channel"
+        "selectLogType": "Napló típusának kiválasztása",
+        "furtherConfig": "A naplófájlok jobb ellenőrzése érdekében, például különböző csatornák kiválasztása különböző naplófájltípusokhoz, vagy bizonyos csatornák, felhasználók vagy üzenetek naplózásának megakadályozása érdekében, kérjük, látogasson el a [Quark webes irányítópultjára]",
+        "all": "Összes",
+        "resetLogChannel": "Naplócsatorna visszaállítása"
     },
     "language-set": "Nyelv be lett állítva erre: {language}",
     "error-409-0-type-0": "A felhasználó már ki van tiltva",
@@ -200,7 +200,7 @@
     "help-overview-language": "Nyelv",
     "setserverlog-enable-status-updates-desc": "Kapj értesítést a fejlesztőktől az összes legújabb frissítésről, leállásról és egyéb fontos közleményről!",
     "channel1-command": "csatornák",
-    "help-modify-tags-description": "To create and edit tags, please visit [Quark's web dashboard]",
+    "help-modify-tags-description": "Címkék létrehozásához és szerkesztéséhez látogasson el a [Quark webes irányítópultjára]",
     "error-435-0": "Lehülés aktíválva",
     "error-403-1-type-0": "Nézd meg hogy van-e `Tagok kitiltása` jogom",
     "need-to-vote": "Kattints ide hogy szavaz",
@@ -209,11 +209,11 @@
     "setserverlog-type-text-0": "Szöveges csatorna események",
     "setserverlog-enable-status-updates-desc-1": "Javasoljuk, hogy engedélyezze ezt az egyik csatornáján!",
     "response-customise-2": "[UK, US, EU] Kattints a profilomra a frissítéshez!",
-    "banButton-cancel": "Cancel",
+    "banButton-cancel": "Mégsem",
     "error-432-0": "Nem egy Quark napló(Log)",
     "help-overview-help": "Segítség",
     "setserverlog-type-roles-1": "rang események",
-    "banButton-banning": "Banning {user} {inXSeconds}",
+    "banButton-banning": "{user} kitiltása {inXSeconds} másodpercen belül",
     "response-customise-3": "Tekintsd meg az előfizetéseket... {proLink}",
     "error-406-0": "Nincsen jogod",
     "help-overview-website": "Weboldal",
