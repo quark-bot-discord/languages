@@ -1,30 +1,30 @@
 {
     "serverBoostRemove": {
-        "description": "{user} stopped boosting this server",
-        "none": "none",
-        "description_withTier": "{user} stopped boosting, causing the server to drop down to tier {tier}",
-        "title": "Server Boost Removed",
-        "description_withTier_noUser": "Someone stopped boosting, causing the server to drop down to tier {tier}",
-        "description_noUser": "Someone stopped boosting this server"
+        "description": "{user} abba hagyta boostolni ezt a szervert",
+        "none": "semmi",
+        "description_withTier": "{user} a boostolást abba hagyta és a szerver szintje lesett eggyel {tier}",
+        "title": "Szerver boost eltávolítva",
+        "description_withTier_noUser": "Valaki abbahagyta a boostolást, ami miatt a szerver visszacsúszott a szintre {tier}",
+        "description_noUser": "Valaki abba hagyta a szerver boostolását"
     },
     "serverBoostAdd": {
-        "none": "none",
-        "description_withTier_noUser": "Someone boosted this server to tier {tier} 🎉",
-        "description_withTier": "{user} boosted this server to tier {tier} 🎉",
-        "description_noUser": "Someone boosted this server 🎉",
-        "description": "{user} boosted this server 🎉",
-        "title": "Server Boosted"
+        "none": "semmi",
+        "description_withTier_noUser": "Valaki boostolta a szervert erre a szintre: {tier} 🎉",
+        "description_withTier": "{user} boostolta a szervert erre a szintre: {tier} 🎉",
+        "description_noUser": "Valaki boostolta a szervert 🎉",
+        "description": "{user} boostolta a szervert 🎉",
+        "title": "Szerver boostolva"
     },
     "serverIconUpdated": {
-        "description": "{executor} updated the server icon",
-        "linkToOldIcon": "Link to old icon",
-        "description_added": "{executor} added a server icon",
-        "title": "Server Icon Updated",
-        "description_removed": "{executor} removed the server icon",
-        "linkToNewIcon": "Link to new icon"
+        "description": "{executor} frissítette a szerver ikonját",
+        "linkToOldIcon": "Régi szerver ikon linkje",
+        "description_added": "{executor} hozzáadott egy szerver ikont",
+        "title": "Szerver ikon frissítve",
+        "description_removed": "{executor} eltávollította a szerver ikonját",
+        "linkToNewIcon": "Új szerver ikon linkje"
     },
     "serverModified": {
-        "description": "This server was modified by {executor}",
-        "title": "Server Modified"
+        "description": "A szervert szerkeztette {executor}",
+        "title": "Szerver szerkeztve"
     }
 }
