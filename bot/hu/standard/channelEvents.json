@@ -9,12 +9,12 @@
         "title": "Webhook törölve"
     },
     "channelOverwriteUpdate": {
-        "description": "{executor} updated permissions for {channel} for {special}",
-        "newPermissions": "New Permissions",
-        "dangerousPermissions": "Dangerous permissions granted",
-        "warning": "WARNING!",
-        "viewFullNewPermissions": "View Full New Permissions",
-        "title": "{type} Channel Permissions Updated"
+        "description": "{executor} frissítte a jogokat itt: {channel} {special} ranggal",
+        "newPermissions": "Új jogosultságok",
+        "dangerousPermissions": "Veszélyes jogosultságok lettek megadva",
+        "warning": "FIGYELMEZTETÉS!",
+        "viewFullNewPermissions": "Összes új jogosultságok megtekintése",
+        "title": "{type} Csatorna jogosultságok frissítve"
     },
     "webhookAvatarUpdate": {
         "title": "Webhook Avatar Frissítve",
@@ -42,12 +42,12 @@
         "title": "Webhook módosítva"
     },
     "webhookCreate": {
-        "title": "Webhook Created",
-        "description": "{executor} created a webhook {webhook} in {channel}"
+        "title": "Webhook létrehozva",
+        "description": "{executor} Létrehozott egy webhookot ezzel a névvel: {webhook} és csatornában: {channel}"
     },
     "channelOverwriteDelete": {
-        "description": "{executor} removed permissions from {channel} for {special}",
-        "title": "{type} Channel Permissions Removed"
+        "description": "{executor} eltávolított jogokat innen: {channel} {special} rangtól",
+        "title": "{type} Csatorna jogosultságok eltávolítva"
     },
     "statusChannelUnfollowed": {
         "title": "Csatorna nem lett követve",
