@@ -12,7 +12,7 @@
     },
     "nsfw_level": {
         "0": "alapértemezett",
-        "1": "explicit",
+        "1": "explicit szint",
         "3": "korhatáros",
         "2": "biztonságos"
     },
