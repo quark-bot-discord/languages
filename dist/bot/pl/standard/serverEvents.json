@@ -20,13 +20,13 @@
         "joined": "Dołączył",
         "roles": "Role",
         "serverProfilePicture": "Link do awatara serwera",
-        "description_kicked": "{user} was kicked by {executor}",
-        "description_kicked_no_executor": "{user} was kicked",
-        "description_banned": "{user} was banned by {executor}",
-        "description_banned_no_executor": "{user} was banned",
+        "description_kicked": "{user} został wyrzucony przez {executor}",
+        "description_kicked_no_executor": "{user} został wyrzucony",
+        "description_banned": "{user} został zbanowany przez {executor}",
+        "description_banned_no_executor": "{user} został zbanowany",
         "info": "Info",
-        "info_kicked": "User kicked",
-        "info_banned": "User banned"
+        "info_kicked": "Użytkownik został wyrzucony",
+        "info_banned": "Użytkownik został zbanowany"
     },
     "botAdded": {
         "title": "Bot Został Dodany",
@@ -49,7 +49,7 @@
         "title": "Rola Nadana",
         "title_multiple": "Role Nadane",
         "description": "Rola {role} została nadana użytkownikowi {user}",
-        "description_multiple": "Nadano wiele ról wżytkownikowi {user}",
+        "description_multiple": "{user} otrzymał wiele ról",
         "givenBy": "Nadane przez",
         "roles": "Role",
         "warning": "UWAGA!",
