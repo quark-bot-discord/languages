@@ -29,6 +29,9 @@ export type LanguageStructure = {
   channel_update_types: Promise<{
   none: string;
 }>;
+  emoji_update_types: Promise<{
+  none: string;
+}>;
   command_responses: Promise<{
   disable: string;
   enable: string;
@@ -257,9 +260,6 @@ export type LanguageStructure = {
   "help-modify-tags-description": string;
   "banButton-banning": string;
   "banButton-cancel": string;
-}>;
-  emoji_update_types: Promise<{
-  none: string;
 }>;
   gui_constants: Promise<{
   channelModificationTypes: {
@@ -521,20 +521,6 @@ export type LanguageStructure = {
 };
 };
 }>;
-  help: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  overviewOption: {
-  name: string;
-  description: string;
-};
-  serverlogOption: {
-  name: string;
-  description: string;
-};
-};
-}>;
   export: Promise<{
   name: string;
   description: string;
@@ -561,6 +547,20 @@ export type LanguageStructure = {
 };
 };
 }>;
+  help: Promise<{
+  name: string;
+  description: string;
+  commandOptions: {
+  overviewOption: {
+  name: string;
+  description: string;
+};
+  serverlogOption: {
+  name: string;
+  description: string;
+};
+};
+}>;
   initialReactor: Promise<{
   name: string;
 }>;
@@ -582,10 +582,6 @@ export type LanguageStructure = {
 };
 };
 }>;
-  logging: Promise<{
-  name: string;
-  description: string;
-}>;
   language: Promise<{
   name: string;
   description: string;
@@ -595,6 +591,10 @@ export type LanguageStructure = {
   description: string;
 };
 };
+}>;
+  logging: Promise<{
+  name: string;
+  description: string;
 }>;
   mute: Promise<{
   name: string;
@@ -633,11 +633,11 @@ export type LanguageStructure = {
   name: string;
   description: string;
 }>;
-  privacy: Promise<{
+  premium: Promise<{
   name: string;
   description: string;
 }>;
-  premium: Promise<{
+  privacy: Promise<{
   name: string;
   description: string;
 }>;
@@ -1375,5 +1375,5 @@ export type LanguageStructure = {
 }>;
 };
 };
-export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "help" | "export" | "initialReactor" | "invite" | "kick" | "logging" | "language" | "mute" | "ping" | "privacy" | "premium" | "purge" | "reason" | "serverlog" | "tags" | "unban" | "unmute";
+export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "export" | "help" | "initialReactor" | "invite" | "kick" | "language" | "logging" | "mute" | "ping" | "premium" | "privacy" | "purge" | "reason" | "serverlog" | "tags" | "unban" | "unmute";
 export type QuarkLanguageCodes = "en_us" | "en_gb" | "tr" | "vi" | "en_pr" | "pl" | "nl" | "es_es" | "it" | "de" | "fr" | "ru" | "el" | "zh_hant" | "ko" | "sl" | "ar";
