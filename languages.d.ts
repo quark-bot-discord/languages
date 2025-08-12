@@ -29,9 +29,6 @@ export type LanguageStructure = {
   channel_update_types: Promise<{
   none: string;
 }>;
-  emoji_update_types: Promise<{
-  none: string;
-}>;
   command_responses: Promise<{
   disable: string;
   enable: string;
@@ -260,6 +257,9 @@ export type LanguageStructure = {
   "help-modify-tags-description": string;
   "banButton-banning": string;
   "banButton-cancel": string;
+}>;
+  emoji_update_types: Promise<{
+  none: string;
 }>;
   gui_constants: Promise<{
   channelModificationTypes: {
