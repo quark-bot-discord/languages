@@ -51,7 +51,7 @@
         "description": "{user} belépett a szerverre",
         "accountCreated": "Fiók létrehozva",
         "createdBy": "létrehozta: {user}",
-        "ban": "Kitiltott"
+        "ban": "Kitiltás"
     },
     "botRemoved": {
         "title": "Bot eltávolítva",

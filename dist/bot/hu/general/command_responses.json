@@ -162,7 +162,7 @@
     "setserverlog-type-actions-0": "Akciók",
     "setserverlog-confirm0-set": "Szerver log csatorna beállítva",
     "error-401-1-type-2": "Nem tudom némítani a felhasználót",
-    "error-403-1-type-2": "Nézd meg hogy vane-e `Szerepek kezelése` engedélyt, és hogy a `Némitott` rangom alatt legyen",
+    "error-403-1-type-2": "Nézd meg hogy van-e `Szerepek kezelése` engedélyt, és hogy a `Némitott` rangom alatt legyen",
     "error-409-0-type-3": "A felhasználónak már nincsen némitva",
     "initialreactors-notfound": "Nincsen reakciók találva",
     "error-431-1": "Kérlek írj be egy érvényes üzenet linket",
