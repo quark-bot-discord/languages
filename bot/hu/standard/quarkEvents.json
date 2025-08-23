@@ -55,7 +55,7 @@
     },
     "languageUpdate": {
         "description": "{executor} megváltoztatta a nyelvet erre: {language}",
-        "title": "Nyelv változtatva"
+        "title": "Nyelv megváltoztatva"
     },
     "tagDeleted": {
         "description": "{executor} törölte a taget: {tag}",
