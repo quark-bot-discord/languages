@@ -12,7 +12,7 @@
         "rtc_region": "Régió"
     },
     "guildModificationTypes": {
-        "premium_progress_bar_enabled": "Előrehaladás",
+        "premium_progress_bar_enabled": "Előrehaladás bar",
         "description": "Leírás",
         "name": "Neve",
         "system_channel_id": "Rendszer Csatorna",
