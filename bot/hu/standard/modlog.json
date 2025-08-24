@@ -4,7 +4,7 @@
     "reasonModal": {
         "placeholder": "Nagyon rossz lenni >:(",
         "label": "Indok",
-        "title": "Módosítsa a modlog okát"
+        "title": "Indok módosítása"
     },
     "editReason": "Indok szerkeztése",
     "unban": "Kitiltás feloldva",
