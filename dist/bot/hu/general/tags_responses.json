@@ -20,5 +20,5 @@
     "tag-error-alreadyexists-1": "Ezzel a névvel már létezik egy címke",
     "tags-embedoptions-title": "Embed opciók:",
     "tag-error-noname-0": "Nincs címke neve",
-    "tag-error-limitreached-1": "Ez a szerver elérte a 25 címke limitjét."
+    "tag-error-limitreached-1": "Ez a szerver elérte a 25 címke limitjét"
 }
