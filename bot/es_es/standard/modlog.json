@@ -3,7 +3,7 @@
     "user": "Usuario",
     "reason": "Razón",
     "case": "Caso",
-    "noReason": "Moderador: ejecute {command}",
+    "noReason": "[sin motivo especificado]",
     "noReasonBrief": "Ejecutar {command}",
     "ban": "Prohibición",
     "unban": "Desbanear",
