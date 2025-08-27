@@ -12,7 +12,7 @@
         "vote": "votar",
         "votes": "votos",
         "noResponses": "Sin respuestas",
-        "pollDeleted": "Poll Deleted"
+        "pollDeleted": "Encuesta eliminada"
     },
     "messageDeleted": {
         "title": "Mensaje borrado",
@@ -91,7 +91,7 @@
         "jumpToMessage": "Saltar al mensaje"
     },
     "threadUpdated": {
-        "description": "{thread} was modified by {executor}",
-        "title": "Thread Modified"
+        "description": "{thread} fue modificado por {executor}",
+        "title": "Hilo modificado"
     }
 }
