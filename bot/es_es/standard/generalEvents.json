@@ -22,7 +22,7 @@
     "serverBoostRemove": {
         "title": "Se eliminó el impulso del servidor",
         "description": "{user} dejó de impulsar este servidor",
-        "description_noUser": "Alguien dejó de impulsar este servidor.",
+        "description_noUser": "Alguien dejó de impulsar este servidor",
         "description_withTier": "{user} dejó de impulsarse, lo que provocó que el servidor cayera al nivel {tier}",
         "description_withTier_noUser": "Alguien dejó de impulsar, lo que provocó que el servidor cayera al nivel {tier}",
         "none": "ninguno"
