@@ -63,7 +63,7 @@
                 "enableButton": "Modlog naplózás engedélyezése"
             },
             "categoryText": {
-                "disableButton": "Üzent logok letiltása",
+                "disableButton": "Üzenet logok letiltása",
                 "description": "Üzenetműveletek (törlés, szerkesztés, rögzítés, reakciók)",
                 "resetButton": "Üzenet log csatorna visszaállítása",
                 "enableButton": "Üzenet logok engedélyezése",
@@ -122,7 +122,7 @@
     "setserverlog-confirm0-unset": "Szerver log csatorna ki lett kapcsolva",
     "error-429-0": "Érvénytelen szám",
     "help-overview-manage-premium": "Futtasd {command} a prémiumot kezeld",
-    "setserverlog-confirm1-options-unset": "Szerver {type} mostantól erre a csatornára lesz rögzítve.\n\nA csatorna beállításának megszüntetéséhez futtassa újra a parancsot ebben a csatornában.",
+    "setserverlog-confirm1-options-unset": "Szerver {type} mostantól nem erre a csatornára lesz rögzítve.\n\nA csatorna beállításának megszüntetéséhez futtassa újra a parancsot ebben a csatornában.",
     "response-debug": "Debug napló(log) beállítva!",
     "help-overview-view-options": "Futasd {command} az opció megtekintéséhez",
     "help-overview-view-inv": "Leltár megtekintése",
@@ -162,7 +162,7 @@
     "setserverlog-type-actions-0": "Akciók",
     "setserverlog-confirm0-set": "Szerver log csatorna beállítva",
     "error-401-1-type-2": "Nem tudom némítani a felhasználót",
-    "error-403-1-type-2": "Nézd meg hogy van-e `Szerepek kezelése` engedélyt, és hogy a `Némitott` rangom alatt legyen",
+    "error-403-1-type-2": "Nézd meg hogy van-e `Szerepek kezelése` engedélyem, és hogy a `Némitott` rang alattam legyen",
     "error-409-0-type-3": "A felhasználónak már nincsen némitva",
     "initialreactors-notfound": "Nincsen reakciók találva",
     "error-431-1": "Kérlek írj be egy érvényes üzenet linket",
