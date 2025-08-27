@@ -6,7 +6,7 @@
     "roleDeleted": {
         "title": "Rol eliminado",
         "description": "{role_name} fue eliminado por {executor}",
-        "role": "Role",
+        "role": "Rol",
         "linkToRoleIcon": "Enlace al icono de rol"
     },
     "roleUpdated": {
