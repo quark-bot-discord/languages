@@ -20,8 +20,8 @@
         "oldPermissions": "Permisos antiguos",
         "viewFullNewPermissions": "Ver permisos nuevos completos",
         "viewFullOldPermissions": "Ver permisos antiguos completos",
-        "warning": "WARNING!",
-        "dangerousPermissions": "Dangerous permissions granted"
+        "warning": "ADVERTENCIA!",
+        "dangerousPermissions": "Permisos peligrosos concedidos"
     },
     "roleIconUpdate": {
         "title": "Icono de rol actualizado",
