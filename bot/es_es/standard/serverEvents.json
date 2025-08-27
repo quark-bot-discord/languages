@@ -3,7 +3,7 @@
     "userJoined": {
         "title": "Usuario unido",
         "description": "{user} se unió al servidor",
-        "noAvatar": "La cuenta no tiene avatar.",
+        "noAvatar": "La cuenta no tiene avatar",
         "newAccount": "La cuenta es nueva",
         "noBadges": "La cuenta no tiene insignias",
         "warning": "¡ADVERTENCIA!",
@@ -18,15 +18,15 @@
         "title": "Usuario izquierdo",
         "description": "{user} abandonó el servidor",
         "joined": "Unido",
-        "roles": "Roles",
+        "roles": "Funciones",
         "serverProfilePicture": "Enlace al avatar del servidor",
-        "description_kicked": "{user} was kicked by {executor}",
-        "description_kicked_no_executor": "{user} was kicked",
-        "description_banned": "{user} was banned by {executor}",
-        "description_banned_no_executor": "{user} was banned",
-        "info": "Info",
-        "info_kicked": "User kicked",
-        "info_banned": "User banned"
+        "description_kicked": "{user} fue pateado por {executor}",
+        "description_kicked_no_executor": "{user} fue expulsado",
+        "description_banned": "{user} fue prohibido por {executor}",
+        "description_banned_no_executor": "{user} fue prohibido",
+        "info": "Información",
+        "info_kicked": "Usuario expulsado",
+        "info_banned": "Usuario bloqueado"
     },
     "botAdded": {
         "title": "Bot agregado",
@@ -48,12 +48,12 @@
     "memberRoleAdd": {
         "title": "Rol asignado",
         "title_multiple": "Roles asignados",
-        "description": "A {user} se le asignó el rol {role}",
+        "description": "A {role} se le asignó el rol {user}",
         "description_multiple": "A {user} se le asignaron múltiples roles",
         "givenBy": "Dada por",
         "roles": "Roles",
-        "warning": "WARNING!",
-        "dangerousPermissions": "Dangerous permissions granted"
+        "warning": "ADVERTENCIA!",
+        "dangerousPermissions": "Permisos peligrosos concedidos"
     },
     "memberRoleRemove": {
         "title": "Rol asumido",
