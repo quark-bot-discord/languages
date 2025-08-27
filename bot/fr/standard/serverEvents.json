@@ -20,13 +20,13 @@
         "joined": "Arrivé",
         "roles": "Rôles",
         "serverProfilePicture": "Lien vers sa photo de profil du serveur",
-        "description_kicked": "{user} was kicked by {executor}",
-        "description_kicked_no_executor": "{user} was kicked",
-        "description_banned": "{user} was banned by {executor}",
-        "description_banned_no_executor": "{user} was banned",
+        "description_kicked": "{user} a été expulsé par {executor}",
+        "description_kicked_no_executor": "{user} a été expulsé",
+        "description_banned": "{user} a été banni par {executor}",
+        "description_banned_no_executor": "{user} a été banni",
         "info": "Info",
-        "info_kicked": "User kicked",
-        "info_banned": "User banned"
+        "info_kicked": "Utilisateur expulsé",
+        "info_banned": "Utilisateur banni"
     },
     "botAdded": {
         "title": "Bot ajouté",
