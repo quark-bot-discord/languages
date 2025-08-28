@@ -26,8 +26,8 @@
         "description": "{executor} permisos actualizados para {channel} para {special}",
         "newPermissions": "Nuevos permisos",
         "viewFullNewPermissions": "Ver permisos nuevos completos",
-        "warning": "WARNING!",
-        "dangerousPermissions": "Dangerous permissions granted"
+        "warning": "ADVERTENCIA!",
+        "dangerousPermissions": "Permisos peligrosos concedidos"
     },
     "webhookCreate": {
         "title": "Webhook creado",
@@ -62,6 +62,6 @@
         "description": "{executor} actualizó el canal seguido {name}"
     },
     "general": {
-        "unknownChannel": "Unknown Channel"
+        "unknownChannel": "Canal desconocido"
     }
 }

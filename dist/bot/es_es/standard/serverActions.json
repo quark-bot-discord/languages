@@ -36,7 +36,7 @@
         "eventDescription": "Descripción",
         "location": "Ubicación",
         "starts": "Empieza",
-        "image": "Image"
+        "image": "imagen"
     },
     "serverEventDelete": {
         "title": "Evento eliminado",
@@ -50,6 +50,6 @@
         "newLocation": "Nueva ubicacion",
         "newChannel": "Nuevo canal",
         "linkToEventImage": "Enlace a imagen antigua del evento",
-        "newImage": "New Image"
+        "newImage": "Nueva Imagen"
     }
 }

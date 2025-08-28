@@ -9,7 +9,7 @@
         "title": "Opciones de registro actualizadas",
         "description": "{executor} establece {option} en {state}",
         "pluralkitSupport": "Soporte de PluralKit",
-        "spoilers": "Spoilers",
+        "spoilers": "spoilers",
         "buttons": "Botones",
         "formatType": "Tipo de formato"
     },

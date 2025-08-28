@@ -6,7 +6,7 @@
     "roleDeleted": {
         "title": "Rol eliminado",
         "description": "{role_name} fue eliminado por {executor}",
-        "role": "Role",
+        "role": "Rol",
         "linkToRoleIcon": "Enlace al icono de rol"
     },
     "roleUpdated": {
@@ -20,8 +20,8 @@
         "oldPermissions": "Permisos antiguos",
         "viewFullNewPermissions": "Ver permisos nuevos completos",
         "viewFullOldPermissions": "Ver permisos antiguos completos",
-        "warning": "WARNING!",
-        "dangerousPermissions": "Dangerous permissions granted"
+        "warning": "ADVERTENCIA!",
+        "dangerousPermissions": "Permisos peligrosos concedidos"
     },
     "roleIconUpdate": {
         "title": "Icono de rol actualizado",
