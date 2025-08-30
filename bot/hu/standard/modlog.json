@@ -7,8 +7,8 @@
         "title": "Indok módosítása"
     },
     "editReason": "Indok szerkeztése",
-    "unban": "Kitiltás feloldva",
-    "unmute": "Felfüggesztés visszavonva",
+    "unban": "Kitiltás Feloldva",
+    "unmute": "Felfüggesztés Visszavonva",
     "case": "Ügy",
     "timeoutEnds": "Felfüggesztés véget ér {time} ({duration})",
     "user": "Felhasználó",
