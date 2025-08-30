@@ -1,23 +1,23 @@
 {
     "nicknameUpdate": {
         "setNick": "{user}nak/nek beceneve be lett állítva erre: {newNickname}",
-        "title": "Becenév frissítve",
+        "title": "Becenév Frissítve",
         "description": "{user}nak/nek beceneve meg lett változtatva erről {oldNickname} erre {newNickname}",
         "changedBy": "Megváltoztta",
         "nickRemoved": "{user}nak/nek beceneve {oldNickname} el lett távolítva"
     },
     "memberRoleAdd": {
-        "title_multiple": "Rangok hozzáadva",
+        "title_multiple": "Rangok Hozzáadva",
         "givenBy": "Hozzá adta",
         "dangerousPermissions": "Veszélyes jogosultságok lettek megadva",
         "description": "A {role} hozzá lett adva {user}hez",
         "roles": "Rangok",
-        "title": "Rang hozzáadva",
+        "title": "Rang Hozzáadva",
         "warning": "FIGYELMEZTETÉS!",
         "description_multiple": "{user} több rangot kapott"
     },
     "userLeft": {
-        "title": "Felhasználó kilépett",
+        "title": "Felhasználó Kilépett",
         "description": "{user} elhagyta a szervert",
         "serverProfilePicture": "Szerver avatár linkje",
         "info_kicked": "Felhasználó kirúgva",
@@ -34,7 +34,7 @@
         "description": "{user} megváltoztatta a szerver avatárját",
         "changedBy": "Megváltoztta",
         "description_removed": "{user} eltávolította a szerver avatárját",
-        "title": "Szerver avatár vátloztatva",
+        "title": "Szerver Avatár Vátloztatva",
         "linkToNewAvatar": "Új avatár linkje",
         "linkToOldAvatar": "Régi avatár linkje",
         "description_added": "{user} hozzá adott egy szerver avatárt"
@@ -54,25 +54,25 @@
         "ban": "Kitiltás"
     },
     "botRemoved": {
-        "title": "Bot eltávolítva",
+        "title": "Bot Eltávolítva",
         "descriptionne": "{bot} el lett távolítva a szerverről",
         "description": "{bot} el lett távolítva a szerverről {executor} által"
     },
     "botAdded": {
         "description": "{bot} hozzá lett adva a szerverhez {executor} által",
         "descriptionne": "{bot} hozzá lett adva a szeverhez",
-        "title": "Bot hozzáadva"
+        "title": "Bot Hozzáadva"
     },
     "memberRoleRemove": {
         "roles": "Rangok",
         "removedBy": "Eltávolította",
         "description": "A {role} rangot eltávolíották {user}ról/ről",
-        "title": "Rang eltévolítva",
-        "title_multiple": "Rangok eltávolítva",
+        "title": "Rang Eltávolítva",
+        "title_multiple": "Rangok Eltávolítva",
         "description_multiple": "Több rangot elvettek a {user}tól/től"
     },
     "memberPrune": {
-        "title": "Tagok ritkitása",
+        "title": "Tagok Ritkitva",
         "description": "{count} tagok, akik legalább {time} az inaktivitás napjai le lettek rövidítve {executor} által"
     },
     "members": "Tagok"
