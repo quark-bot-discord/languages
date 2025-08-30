@@ -1,6 +1,6 @@
 {
     "roleIconUpdate": {
-        "title": "Rang Ikon frissítve",
+        "title": "Rang Ikon Frissítve",
         "description_added": "{executor} hozzáadott egy ikon a {role}hoz",
         "linkToOldIcon": "Régi ikon linkje",
         "linkToNewIcon": "Új ikon linkje",
@@ -8,27 +8,27 @@
         "description_removed": "{executor} eltávolította a rang ikont {role}ról/ről"
     },
     "rolePermissionsUpdate": {
-        "viewFullNewPermissions": "Összes új jogosultság megtekintése",
-        "viewFullOldPermissions": "Összes régi jogosultásg megtekintése",
+        "viewFullNewPermissions": "Összes Új Jogosultság Megtekintése",
+        "viewFullOldPermissions": "Összes Régi Jogosultásg Megtekintése",
         "warning": "FIGYELMEZTETÉS!",
-        "oldPermissions": "Régi jogosultságok",
-        "title": "Rang jogosultságok frissítve",
-        "description": "{role}nak/nek jogosultságok frissítve lettek {executor} által",
-        "newPermissions": "Új jogosultságok",
+        "oldPermissions": "Régi Jogosultságok",
+        "title": "Rang Jogosultságok Frissítve",
+        "description": "{role} rangnak jogosultságok frissítve lettek {executor} által",
+        "newPermissions": "Új Jogosultságok",
         "dangerousPermissions": "Veszélyes jogosultságok lettek megadva"
     },
     "roleCreated": {
-        "title": "Rang létrehozva",
-        "description": "{role} létrehozta: {executor}"
+        "title": "Rang Létrehozva",
+        "description": "{role} rangot létrehozta: {executor}"
     },
     "roleUpdated": {
-        "description": "{role} szerekeztette: {executor}",
-        "title": "Rang szerkeztve"
+        "description": "{role} módosítva lett {executor} által",
+        "title": "Rang Módosítva"
     },
     "roleDeleted": {
         "role": "Rang",
         "description": "{role_name} törölve lett {executor} által",
         "linkToRoleIcon": "Rang ikon linkje",
-        "title": "Rang törölve"
+        "title": "Rang Törölve"
     }
 }

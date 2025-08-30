@@ -91,7 +91,7 @@
     "setserverlog-type-channels-0": "Eventos del canal",
     "setserverlog-type-channels-1": "eventos del canal",
     "setserverlog-type-modlogs-0": "Modlogs",
-    "setserverlog-type-modlogs-1": "modlogs",
+    "setserverlog-type-modlogs-1": "Modlogs",
     "setserverlog-type-quark-0": "Eventos de quarks",
     "setserverlog-type-quark-1": "eventos de quarks",
     "setserverlog-enable-status-updates": "¡Habilite las actualizaciones de estado!",
@@ -105,14 +105,14 @@
     "help-overview-view-inv": "Ver inventario",
     "help-overview-help": "Ayuda",
     "help-overview-website": "Sitio web",
-    "help-overview-serverlog": "Registro del servidor",
-    "help-overview-modlog": "Modlog",
+    "help-overview-serverlog": "Registro",
+    "help-overview-modlog": "modlog",
     "help-overview-commands": "Comandos",
     "help-overview-language": "Idioma",
     "help-overview-premium": "De primera calidad",
     "help-overview-inventory": "Inventario",
     "help-overview-channel-isset": "Canal configurado en {channel}",
-    "help-overview-channel-isnotset": "Ejecute {command} en el canal deseado",
+    "help-overview-channel-isnotset": "Ejecute {command} para comenzar",
     "help-overview-view-options": "Ejecute {command} para ver opciones",
     "help-overview-view-options-and-statuses": "Ejecute {command} para ver estados y opciones",
     "help-overview-view-all-commands": "Ejecute {command} para ver los comandos",
@@ -126,16 +126,16 @@
     "help-commands-other": "Otro",
     "help-notes-help": "Ayuda de notas",
     "help-tags-help": "Etiquetas Ayuda",
-    "help-info": "¿Aún necesitas una mano?",
+    "help-info": "¿Aún necesitas ayuda? **¡Únete al servidor de soporte de Quark!**",
     "need-to-vote-title": "¡Debes votar para usar este comando!",
     "need-to-vote": "Haga clic aquí para votar",
     "need-to-vote-footer": "Los votos tardan hasta un minuto en registrarse.",
     "initialreactors-expired": "venció",
     "initialreactors-notfound": "No se encontraron reacciones",
     "configCommand": {
-        "title": "Configuración del registro del servidor",
+        "title": "{quark} Configurador de registro",
         "selection": "Seleccione una categoría en el menú para ver la configuración.",
-        "serverLogDesc": "Canal principal de registro del servidor",
+        "serverLogDesc": "Canal principal de registro",
         "notSet": "No establecido",
         "selectACategory": "Seleccione una categoría",
         "overview": "Descripción general",
@@ -147,58 +147,58 @@
             "categoryMembers": {
                 "title": "Miembros",
                 "description": "Acciones de los miembros (unirse/salir, roles, apodos)",
-                "resetButton": "Reset Member Logging Channel",
-                "disableButton": "Disable Member Logs",
-                "enableButton": "Enable Member Logs"
+                "resetButton": "Restablecer canal de registro de miembros",
+                "disableButton": "Desactivar registros de miembros",
+                "enableButton": "Habilitar registros de miembros"
             },
             "categoryText": {
                 "title": "Mensajes",
                 "description": "Acciones de mensajes (eliminaciones, ediciones, pines, reacciones)",
-                "resetButton": "Reset Message Logging Channel",
-                "disableButton": "Disable Message Logs",
-                "enableButton": "Enable Message Logs"
+                "resetButton": "Restablecer canal de registro de mensajes",
+                "disableButton": "Desactivar registros de mensajes",
+                "enableButton": "Habilitar registros de mensajes"
             },
             "categoryVoice": {
                 "title": "Voz",
                 "description": "Acciones del canal de voz (unirse/salir, transmitir, silenciar/ensordecer)",
-                "resetButton": "Reset Voice Logging Channel",
-                "disableButton": "Disable Voice Logs",
-                "enableButton": "Enable Voice Logs"
+                "resetButton": "Restablecer canal de registro de voz",
+                "disableButton": "Desactivar registros de voz",
+                "enableButton": "Habilitar registros de voz"
             },
             "categoryActions": {
                 "title": "Acciones del servidor",
                 "description": "Acciones del servidor (creación/eliminación de invitaciones, emojis)",
-                "resetButton": "Reset Server Actions Logging Channel",
-                "disableButton": "Disable Server Actions Logs",
-                "enableButton": "Enable Server Actions Logs"
+                "resetButton": "Restablecer canal de registro de acciones del servidor",
+                "disableButton": "Desactivar registros de acciones del servidor",
+                "enableButton": "Habilitar registros de acciones del servidor"
             },
             "categoryChannels": {
                 "title": "Canales",
                 "description": "Acciones del canal (creaciones/eliminaciones, permisos)",
-                "resetButton": "Reset Channel Logging Channel",
-                "disableButton": "Disable Channel Logs",
-                "enableButton": "Enable Channel Logs"
+                "resetButton": "Restablecer registro de canales Canal",
+                "disableButton": "Desactivar registros de canal",
+                "enableButton": "Habilitar registros de canal"
             },
             "categoryServer": {
                 "title": "Eventos del servidor",
                 "description": "Acciones generales (modificaciones del servidor)",
-                "resetButton": "Reset Server Event Logging Channel",
-                "disableButton": "Disable Server Event Logs",
-                "enableButton": "Enable Server Event Logs"
+                "resetButton": "Restablecer canal de registro de eventos del servidor",
+                "disableButton": "Desactivar los registros de eventos del servidor",
+                "enableButton": "Habilitar registros de eventos del servidor"
             },
             "categoryRoles": {
-                "title": "Roles",
+                "title": "Funciones",
                 "description": "Acciones de rol (creaciones/eliminaciones, permisos)",
-                "resetButton": "Reset Role Logging Channel",
-                "disableButton": "Disable Role Logs",
-                "enableButton": "Enable Role Logs"
+                "resetButton": "Restablecer canal de registro de roles",
+                "disableButton": "Desactivar registros de roles",
+                "enableButton": "Habilitar registros de roles"
             },
             "categoryModlog": {
                 "title": "Registros de modificación",
                 "description": "Acciones de moderación (baneos, patadas, silenciamientos)",
-                "resetButton": "Reset Modlog Logging Channel",
-                "disableButton": "Disable Modlog Logs",
-                "enableButton": "Enable Modlog Logs"
+                "resetButton": "Restablecer canal de registro Modlog",
+                "disableButton": "Desactivar registros Modlog",
+                "enableButton": "Habilitar registros Modlog"
             },
             "overview": {
                 "title": "Descripción general",
@@ -207,23 +207,23 @@
             "categoryQuark": {
                 "title": "Configuración de quarks",
                 "description": "Cambios realizados en la configuración de Quark para este servidor.",
-                "resetButton": "Reset Quark Config Logging Channel",
-                "disableButton": "Disable Quark Config Logs",
-                "enableButton": "Enable Quark Config Logs"
+                "resetButton": "Restablecer el canal de registro de configuración de Quark",
+                "disableButton": "Desactivar los registros de configuración de Quark",
+                "enableButton": "Habilitar registros de configuración de Quark"
             },
             "categoryFiles": {
                 "title": "Archivos",
-                "description": "Files (deleted attachments)"
+                "description": "Archivos (archivos adjuntos eliminados)"
             }
         },
-        "selectChannel": "Set logging channel",
-        "all": "All",
-        "resetChannel": "Reset Main Channel",
-        "selectLogType": "Select Log Type",
-        "resetLogChannel": "Reset Log Channel",
-        "furtherConfig": "For more control over logs, such as selecting different channels for different log types or preventing certain channels, users or messages from being logged please visit [Quark's web dashboard]"
+        "selectChannel": "Configurar canal de registro",
+        "all": "Todos",
+        "resetChannel": "Restablecer canal principal",
+        "selectLogType": "Seleccionar tipo de registro",
+        "resetLogChannel": "Restablecer canal de registro",
+        "furtherConfig": "Para obtener más control sobre los registros, como seleccionar diferentes canales para diferentes tipos de registros o impedir que se registren determinados canales, usuarios o mensajes, visite [el panel de control web de Quark]"
     },
-    "help-modify-tags-description": "To create and edit tags, please visit [Quark's web dashboard]",
-    "banButton-banning": "Banning {user} {inXSeconds}",
-    "banButton-cancel": "Cancel"
+    "help-modify-tags-description": "Para crear y editar etiquetas, visite [el panel de control web de Quark]",
+    "banButton-banning": "Prohibición de {user} {inXSeconds}",
+    "banButton-cancel": "Cancelar"
 }

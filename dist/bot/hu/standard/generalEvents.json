@@ -3,7 +3,7 @@
         "description": "{user} abba hagyta boostolni ezt a szervert",
         "none": "semmi",
         "description_withTier": "{user} a boostolást abba hagyta és a szerver szintje lesett eggyel {tier}",
-        "title": "Szerver boost eltávolítva",
+        "title": "Szerver Boost Eltávolítva",
         "description_withTier_noUser": "Valaki abbahagyta a boostolást, ami miatt a szerver visszacsúszott a szintre {tier}",
         "description_noUser": "Valaki abba hagyta a szerver boostolását"
     },
@@ -19,12 +19,12 @@
         "description": "{executor} frissítette a szerver ikonját",
         "linkToOldIcon": "Régi szerver ikon linkje",
         "description_added": "{executor} hozzáadott egy szerver ikont",
-        "title": "Szerver ikon frissítve",
+        "title": "Szerver Ikon Frissítve",
         "description_removed": "{executor} eltávollította a szerver ikonját",
         "linkToNewIcon": "Új szerver ikon linkje"
     },
     "serverModified": {
         "description": "A szervert szerkeztette {executor}",
-        "title": "Szerver szerkeztve"
+        "title": "Szerver Módosítva"
     }
 }

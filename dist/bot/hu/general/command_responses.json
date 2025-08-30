@@ -195,7 +195,7 @@
     "setserverlog-confirm0-options-set": "Szerver log {type} csatorna beállítva",
     "help-overview-channel-isset": "Csatorna be lett állítva ide: {channel}",
     "executor1-command": "végrehajtók",
-    "error-404-0": "Felhasználó nincs megtalálható",
+    "error-404-0": "Felhasználó nem található",
     "error-403-1-type-1": "Nézd meg hogy van-e nekem `Tagok kirúgása, Jóváhagyása és elutasítása ` jogom",
     "help-overview-language": "Nyelv",
     "setserverlog-enable-status-updates-desc": "Kapj értesítést a fejlesztőktől az összes legújabb frissítésről, leállásról és egyéb fontos közleményről!",

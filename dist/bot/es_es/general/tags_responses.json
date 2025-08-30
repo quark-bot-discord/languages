@@ -1,9 +1,9 @@
 {
     "tags-help-description": "Las etiquetas son una forma de presentar información frecuente a los usuarios de manera fácil y eficiente mediante el uso de sus propios comandos.",
-    "create-success": "¡Etiqueta creada!",
-    "edit-success": "Etiqueta editada!",
+    "create-success": "¡Etiqueta creada! ¡Utiliza {tag} para acceder a ella en cualquier momento!",
+    "edit-success": "¡Etiqueta editada! ¡Utiliza {tag} para acceder a ella en cualquier momento!",
     "delete-success": "¡Etiqueta {tag} eliminada! ¡Usa {commandList} para ver todas tus etiquetas restantes!",
-    "notags-list-command": "Hmmm... no hay etiquetas.",
+    "notags-list-command": "Mmmm... no hay etiquetas. Puedes crear una utilizando [el panel de control web de Quark]",
     "tags-list-title": "Etiquetas disponibles",
     "tags-embedoptions-title": "Opciones de inserción:",
     "tags-usageoptions-title": "Opciones de uso de etiquetas:",

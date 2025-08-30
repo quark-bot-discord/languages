@@ -1,16 +1,16 @@
 {
     "serverlogOptionsUpdate": {
         "buttons": "Gombok",
-        "title": "Logolási Opciók frissítve",
+        "title": "Logolási Opciók Frissítve",
         "spoilers": "Spoilerek",
         "formatType": "Formázási fajta",
         "description": "{executor} beállította {option} erre {state}",
-        "pluralkitSupport": "PluralKit támogatás"
+        "pluralkitSupport": "PluralKit Támogatás"
     },
     "serverlogChannelUpdate": {
-        "description_set": "{executor} beállította a {type} logolási csatornát erre: {channel}",
-        "description_unset": "{executor} kikapcsolta a {type} logolásicsatornát",
-        "title": "Logolási csatorna változás",
+        "description_set": "{executor} beállította a {type} logolási csatornát erre: {channel} csatornára",
+        "description_unset": "{executor} kikapcsolta a {type} logolási csatornát",
+        "title": "Logolási Csatorna Változás",
         "description_category_disable": "{executor} letiltotta a {type} logolást"
     },
     "serverlogLogUpdate": {
@@ -22,43 +22,43 @@
         "activeIgnore": "Aktív figyelmen kívül hagyások",
         "enabled": "Engedélyezve",
         "description": "{executor} frissítette a {type} logot",
-        "title": "Log frissítve"
+        "title": "Log Frissítve"
     },
     "tokenRevoked": {
-        "title": "Token törölve",
-        "description": "{executor} visszavonta a Quark hozzáférési tokent az azonosítóval {token}"
+        "title": "Token Törölve",
+        "description": "{executor} visszavonta a Quark hozzáférési tokent ezzel az azonosítóval {token}"
     },
     "reset": {
         "description": "{executor} visszaállította a konfigurációt a szerveren",
-        "title": "Konfiguráció visszaállítva"
+        "title": "Konfiguráció Visszaállítva"
     },
     "tagUpdated": {
-        "description": "{executor} frissítette a taget: {tag}",
-        "title": "Tag frissítve"
+        "description": "{executor} frissítette a címkét: {tag}",
+        "title": "Címke Frissítve"
     },
     "tagAdded": {
-        "description": "{executor} létrehozott egy taget: {tag}",
-        "title": "Tag hozzáadva"
+        "description": "{executor} létrehozott egy címkét: {tag}",
+        "title": "Címke Hozzáadva"
     },
     "serverlogIgnoreUpdate": {
         "description_unset": "{executor} letiltotta {type}",
         "description_set": "{executor} engedélyezte {type}",
-        "title": "Opciók figyelmen kívül hagyása Frissítve",
+        "title": "Opció Figyelmen Kívül Hagyás Frissítve",
         "description_removed": "{executor} eltávolította {target} {type}ról/ről",
         "description_added": "{executor} hozzáadta {target}t {type}hoz"
     },
     "tokenAdded": {
         "unique_id": "Token Azonosító",
-        "title": "Token generálva",
-        "revoke": "Token törlése",
-        "description": "{executor} generált egy Quark hozzáférési token ezzekel a {permissions} jogosultságokkal ezzen a szerveren"
+        "title": "Token Generálva",
+        "revoke": "Token Törlése",
+        "description": "{executor} generált egy Quark hozzáférési tokent ezzekel a {permissions} jogosultságokkal ezzen a szerveren"
     },
     "languageUpdate": {
         "description": "{executor} megváltoztatta a nyelvet erre: {language}",
-        "title": "Nyelv megváltoztatva"
+        "title": "Nyelv Megváltoztatva"
     },
     "tagDeleted": {
-        "description": "{executor} törölte a taget: {tag}",
-        "title": "Tag törölve"
+        "description": "{executor} törölte a címkét: {tag}",
+        "title": "Címke Törölve"
     }
 }

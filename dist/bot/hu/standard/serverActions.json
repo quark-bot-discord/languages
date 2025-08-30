@@ -1,7 +1,7 @@
 {
     "emojiCreated": {
         "description": "{emoji} hozzáadta: {executor}",
-        "title": "Emoji létrehozva"
+        "title": "Emoji Létrehozva"
     },
     "serverEventCreate": {
         "image": "Kép",
@@ -9,7 +9,7 @@
         "starts": "Indul",
         "description_withChannel": "{executor} létrehozott egy eseményt ezzel a névvel: {name} és csatornával {channel}",
         "location": "Helyszín",
-        "title": "Esemény létrehozva",
+        "title": "Esemény Létrehozva",
         "description_withoutChannel": "{executor} létrehozott egy eseményt ezzel a névvel: {name}"
     },
     "emojiUpdated": {
@@ -23,22 +23,22 @@
         "linkToEventImage": "Régi esemény kép linkje",
         "newEventDescription": "Új leírás",
         "newChannel": "Új csatorna",
-        "title": "Esemény frissítve"
+        "title": "Esemény Frissítve"
     },
     "serverEventDelete": {
-        "title": "Esemény törölve",
+        "title": "Esemény Törölve",
         "linkToEventImage": "Esemény kép linkje",
         "description": "{executor} törölte az eseményt ezzel a névvel: {name}"
     },
     "emojiDeleted": {
-        "title": "Emoji törölve",
+        "title": "Emoji Törölve",
         "emoji": "Emotikon",
         "description": "{emoji} törölve: {executor} által"
     },
     "inviteDelete": {
         "created": "Létrehozta",
         "description_withExecutor": "{executor} törölte a meghívót {invite} {channel} csatornáról",
-        "title": "Meghívó törölve",
+        "title": "Meghívó Törölve",
         "none": "semmi",
         "used": "Használva",
         "description_withoutExecutor": "Egy meghívó {invite} törölve lett {channel} csatornáról"
@@ -49,7 +49,7 @@
         "expires": "Lejár",
         "description_withoutInviter": "Egy meghívó {invite} létrehozva lett ide: {channel}",
         "description_withInviter": "{inviter} létrehozott egy meghívót {invite} {channel} csatornára",
-        "title": "Meghívó létrehozva",
+        "title": "Meghívó Létrehozva",
         "none": "semmi"
     }
 }
