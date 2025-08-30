@@ -65,7 +65,7 @@
     "voiceLeave": {
         "joined": "Csatlakozott",
         "description": "{user} kilépett a {channel} hang csatornából",
-        "title": "Csatorna kilépés",
+        "title": "Felhasználó kilépett a hangból",
         "joinedValue": "{relative}({relative_fixed})"
     },
     "stageStarted": {
@@ -78,7 +78,7 @@
         "title": "Beszélő meghíva"
     },
     "voiceJoin": {
-        "title": "Csatlakozott csatorna",
+        "title": "Felhasználó csatlakozott egy hang csatornába",
         "description": "{user} csatlakozott a {channel} hang csatornába"
     },
     "videoStart": {
