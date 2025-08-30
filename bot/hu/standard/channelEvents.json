@@ -2,11 +2,11 @@
     "channelCreated": {
         "description": "{channel} létrehozta: {executor}",
         "descriptionWithCategory": "{channel} létrehozta: {executor} ez a kategória {category} alatt.",
-        "title": "{type} Csatorna létrehozva"
+        "title": "{type} Csatorna Létrehozva"
     },
     "webhookDelete": {
         "description": "{executor} törölte a webhookot ezzel a névvel: {webhook}",
-        "title": "Webhook törölve"
+        "title": "Webhook Törölve"
     },
     "channelOverwriteUpdate": {
         "description": "{executor} frissítte a jogokat itt: {channel} {special} ranggal",
@@ -14,7 +14,7 @@
         "dangerousPermissions": "Veszélyes jogosultságok lettek megadva",
         "warning": "FIGYELMEZTETÉS!",
         "viewFullNewPermissions": "Összes új jogosultságok megtekintése",
-        "title": "{type} Csatorna jogosultságok frissítve"
+        "title": "{type} Csatorna Jogosultságok Frissítve"
     },
     "webhookAvatarUpdate": {
         "title": "Webhook Avatar Frissítve",
@@ -25,36 +25,36 @@
         "description_added": "{executor} hozzáadott egy avatárt a webhookhoz: {webhook}"
     },
     "channelDeleted": {
-        "title": "{type} Csatorna törölve",
+        "title": "{type} Csatorna Törölve",
         "description": "{channel_name} törölve lett {executor} által",
         "channel": "Csatorna"
     },
     "statusChannelFollowed": {
-        "title": "Csatorna követve",
+        "title": "Csatorna Követve",
         "description": "{executor} követi a csatornát ezzel a névvel: {name} {channel}ban/ben"
     },
     "channelUpdated": {
-        "title": "{type} Csatorna módosítva",
+        "title": "{type} Csatorna Módosítva",
         "description": "{channel} módosítotva: {executor} által"
     },
     "webhookUpdate": {
         "description": "{executor} módosította a webhookot ezzel névvel: {webhook}",
-        "title": "Webhook módosítva"
+        "title": "Webhook Módosítva"
     },
     "webhookCreate": {
-        "title": "Webhook létrehozva",
+        "title": "Webhook Létrehozva",
         "description": "{executor} Létrehozott egy webhookot ezzel a névvel: {webhook} és csatornában: {channel}"
     },
     "channelOverwriteDelete": {
         "description": "{executor} eltávolított jogokat innen: {channel} {special} rangtól",
-        "title": "{type} Csatorna jogosultságok eltávolítva"
+        "title": "{type} Csatorna Jogosultságok Eltávolítva"
     },
     "statusChannelUnfollowed": {
-        "title": "Csatorna nem lett követve",
+        "title": "Csatorna Követés Eltávolítva",
         "description": "{executor} nem követi tovább a csatornátt ezzel a névvel: {name}"
     },
     "statusChannelUpdated": {
-        "title": "Követett csatorna frissítve",
+        "title": "Követett Csatorna Frissítve",
         "description": "{executor} frissítette a követett csatornát ezzel a névvel: {name}"
     },
     "general": {
@@ -62,6 +62,6 @@
     },
     "channelOverwriteCreate": {
         "description": "{executor} hozzáadta a jogosultságot {channel}hoz ranggal {special}",
-        "title": "{type} Csatorna Jogosultság hozzáadva"
+        "title": "{type} Csatorna Jogosultság Hozzáadva"
     }
 }
