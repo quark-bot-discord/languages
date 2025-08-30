@@ -4,7 +4,7 @@
         "inviteDetected": "Szerver Meghívó észlelve",
         "warning": "FIGYELMEZTETÉS!",
         "thread": "Gondolatmenet",
-        "title": "Üzenet törölve",
+        "title": "Üzenet Törölve",
         "filesExpired": "fájlok túl nagyok vagy lejártak",
         "linksToEmojis": "Emojik linkje",
         "noContent": "nincsen tartalom",
@@ -24,22 +24,22 @@
         "description": "{executor} törölte a gondolatmenetet {thread}",
         "thread": "Gondolatmenet",
         "channel": "Csatorna",
-        "title": "Gondolatmenet törölve"
+        "title": "Gondolatmenet Törölve"
     },
     "messageUpdate": {
         "author": "Üzenet készítője",
         "noContent": "nincs tartalom",
-        "title": "Üzenet szerkeztve",
+        "title": "Üzenet Szerkeztve",
         "diffError": "A módosítások kiszámítása nem lehetséges.",
         "jumpToMessage": "Üzenethez ugrás",
         "diff": "Szerkeztések",
         "channel": "Csatorna",
         "afterEdit": "Szerkeztés után",
         "thread": "Gondolatmenet",
-        "cannotRetrieveOriginal": "Nem lehet megszerzni a eredeti üzenetet"
+        "cannotRetrieveOriginal": "Nem lehet megszerezni a eredeti üzenetet"
     },
     "messageReactionRemove": {
-        "title": "Reakció eltávolítva",
+        "title": "Reakció Eltávolítva",
         "jumpToMessage": "Üzenethez ugrás",
         "linkToEmoji": "Emoji linkje",
         "emoji": "Emotikon",
@@ -47,7 +47,7 @@
     },
     "polls": {
         "votes": "szavazatok",
-        "pollDeleted": "Szavazás törölve",
+        "pollDeleted": "Szavazás Törölve",
         "status": "Szavazásnak van státusza.",
         "notEnded": "nem ért véget",
         "multiselect": "Több választos",
@@ -61,7 +61,7 @@
         "pollDescriptor": "[szavazás]"
     },
     "messageUnpin": {
-        "title": "Üzenet kitüzése eltávolítva",
+        "title": "Üzenet Kitüzése Eltávolítva",
         "description": "Az üzenet kitüzését eltávolította {executor}"
     },
     "messagePin": {
@@ -82,16 +82,16 @@
     },
     "threadCreate": {
         "description": "{member} létrehozott egy új gondolatmenetet {thread}",
-        "title": "Gondolatmenet létrehozva",
+        "title": "Gondolatmenet Létrehozva",
         "jumpToContext": "Kontextushoz ugráss",
         "thread": "Gondolatmenet",
         "channel": "Csatorna"
     },
     "attachmentDeleted": {
-        "title": "Csatolmány törölve"
+        "title": "Csatolmány Törölve"
     },
     "threadUpdated": {
         "description": "{thread} szerkeztte a gondolatmenetet {executor}",
-        "title": "Gondolatmenet szerkeztve"
+        "title": "Gondolatmenet Módosítva"
     }
 }
