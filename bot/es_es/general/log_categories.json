@@ -5,9 +5,9 @@
     "voiceEvents": "Voz",
     "fileEvents": "Archivos",
     "generalEvents": "Servidor",
-    "roleEvents": "Roles",
+    "roleEvents": "Funciones",
     "channelEvents": "Canales",
     "quarkEvents": "Configuración de quarks",
-    "modLog": "Modlogs",
+    "modLog": "Registros de módulos",
     "main": "Principal"
 }
