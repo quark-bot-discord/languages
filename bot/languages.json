@@ -135,5 +135,13 @@
     "active": true,
     "iconCode": "SA",
     "emoji": "🇸🇦"
+  },
+  "hu": {
+    "code": "hu",
+    "id": 17,
+    "name": "Magyar",
+    "active": true,
+    "iconCode": "HU",
+    "emoji": "🇭🇺"
   }
 }
