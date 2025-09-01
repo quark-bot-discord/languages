@@ -1,9 +1,9 @@
 {
     "VIEW_GUILD_INSIGHTS": "A Server Insights megtekintése",
-    "MANAGE_CHANNELS": "Csatornák kezelése",
+    "MANAGE_CHANNELS": "Csatornák Kezelése",
     "READ_MESSAGE_HISTORY": "Üzenetelőzmények visszaolvasása",
     "PRIORITY_SPEAKER": "Elsőbbségi megszólaló",
-    "VIEW_AUDIT_LOG": "Vizsgálati napló megtekintése",
+    "VIEW_AUDIT_LOG": "Vizsgálati Napló Megtekintése",
     "ADMINISTRATOR": "Rendszergazda",
     "CHANGE_NICKNAME": "Becenév megváltoztatása",
     "MENTION_EVERYONE": "Everyone, here és minden rang megemlítése",
@@ -13,7 +13,7 @@
     "USE_EMBEDDED_ACTIVITIES": "Tevékenységek használata",
     "USE_EXTERNAL_SOUNDS": "Külső hangok használata",
     "SEND_POLLS": "Szavazások létrehozása",
-    "CREATE_INSTANT_INVITE": "Meghívó létrehozása",
+    "CREATE_INSTANT_INVITE": "Meghívó Létrehozása",
     "MANAGE_WEBHOOKS": "Webhookok kezelése",
     "SEND_MESSAGES": "Üzenetek küldése",
     "MANAGE_THREADS": "Gondolatmenetek kezelése",
@@ -23,7 +23,7 @@
     "USE_PRIVATE_THREADS": "Privát gondolatmenetek létrehozása",
     "MOVE_MEMBERS": "Tagok áthelyezése",
     "ATTACH_FILES": "Fájlok csatolása",
-    "ADD_REACTIONS": "Reakciók hozzáadása",
+    "ADD_REACTIONS": "Reakciók Hozzáadása",
     "VIEW_CREATOR_MONETIZATION_ANALYTICS": "Alkotói bevételszerzési statisztikák megtekintése",
     "SPEAK": "Beszéd",
     "MUTE_MEMBERS": "Tagok némitása",
@@ -35,7 +35,7 @@
     "EMBED_LINKS": "Hivatkozások beágyazása",
     "CONNECT": "Csatlakozás",
     "MANAGE_MESSAGES": "Üzenetek kezelése",
-    "BAN_MEMBERS": "Tagok kitiltása",
+    "BAN_MEMBERS": "Tagok Kitiltása",
     "MODERATE_MEMBERS": "Tagok felfüggesztése",
     "REQUEST_TO_SPEAK": "Szó kérése",
     "VIEW_CHANNEL": "Csatorna Megtekintése",
@@ -43,7 +43,7 @@
     "MANAGE_ROLES": "Szerepek kezelése",
     "SEND_TTS_MESSAGES": "Hang üzenetek küldése",
     "CREATE_EVENTS": "Események létrehozása",
-    "MANAGE_GUILD": "Szerver kezelése",
+    "MANAGE_GUILD": "Szerver Kezelése",
     "CREATE_GUILD_EXPRESSIONS": "Kifejezések létrehozása",
-    "KICK_MEMBERS": "Tagok kirugása, jóváhagyása és elutasítása"
+    "KICK_MEMBERS": "Tagok Kirugása, Jóváhagyása és Elutasítása"
 }
