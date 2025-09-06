@@ -3,7 +3,7 @@
         "name": "Név",
         "rate_limit_per_user": "Lassított Mód",
         "topic": "Téma",
-        "type": "Fajta",
+        "type": "Típus",
         "position": "Pozíció",
         "user_limit": "Felhasználó limit",
         "bitrate": "Bitráta",
@@ -12,9 +12,9 @@
         "rtc_region": "Régió"
     },
     "guildModificationTypes": {
-        "premium_progress_bar_enabled": "Előrehaladás bar",
+        "premium_progress_bar_enabled": "Előrehaladási bar",
         "description": "Leírás",
-        "name": "Neve",
+        "name": "Név",
         "system_channel_id": "Rendszer Csatorna",
         "nsfw_level": "NSFW Szint",
         "mfa_level": "MFA Kötelező",
@@ -24,7 +24,7 @@
         "rules_channel_id": "Szabály csatorna"
     },
     "roleModificationTypes": {
-        "name": "Neve",
+        "name": "Név",
         "hoist": "Külön megjelenítve",
         "unicode_emoji": "Emotikon",
         "managed": "Kezelve",
@@ -32,15 +32,15 @@
         "color": "Szín"
     },
     "threadModificationTypes": {
-        "name": "Neve",
+        "name": "Név",
         "rate_limit_per_user": "Lassított Mód",
         "auto_archive_duration": "Automatikus archiválás"
     },
     "webhookModificationTypes": {
         "channel_id": "Csatorna",
-        "name": "Neve"
+        "name": "Név"
     },
     "emojiModificationTypes": {
-        "name": "Neve"
+        "name": "Név"
     }
 }
