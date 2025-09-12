@@ -368,6 +368,38 @@ export type LanguageStructure = {
   "3": string;
   "4": string;
 }>;
+  role_update_types: Promise<{
+  enabled: string;
+  disabled: string;
+  none: string;
+}>;
+  tags_responses: Promise<{
+  "tags-help-description": string;
+  "create-success": string;
+  "edit-success": string;
+  "delete-success": string;
+  "notags-list-command": string;
+  "tags-list-title": string;
+  "tags-embedoptions-title": string;
+  "tags-usageoptions-title": string;
+  "tags-display-title": string;
+  "tag-error-noname-0": string;
+  "tag-error-noname-1": string;
+  "tag-error-nocontent-0": string;
+  "tag-error-nocontent-1": string;
+  "tag-error-invalidname-0": string;
+  "tag-error-invalidname-1": string;
+  "tag-error-doesnotexist-0": string;
+  "tag-error-doesnotexist-1": string;
+  "tag-error-alreadyexists-0": string;
+  "tag-error-alreadyexists-1": string;
+  "tag-error-limitreached-0": string;
+  "tag-error-limitreached-1": string;
+  "tag-createdby": string;
+}>;
+  thread_update_types: Promise<{
+  none: string;
+}>;
   permissions: Promise<{
   CREATE_INSTANT_INVITE: string;
   KICK_MEMBERS: string;
@@ -417,35 +449,6 @@ export type LanguageStructure = {
   SEND_VOICE_MESSAGES: string;
   SEND_POLLS: string;
 }>;
-  role_update_types: Promise<{
-  enabled: string;
-  disabled: string;
-  none: string;
-}>;
-  tags_responses: Promise<{
-  "tags-help-description": string;
-  "create-success": string;
-  "edit-success": string;
-  "delete-success": string;
-  "notags-list-command": string;
-  "tags-list-title": string;
-  "tags-embedoptions-title": string;
-  "tags-usageoptions-title": string;
-  "tags-display-title": string;
-  "tag-error-noname-0": string;
-  "tag-error-noname-1": string;
-  "tag-error-nocontent-0": string;
-  "tag-error-nocontent-1": string;
-  "tag-error-invalidname-0": string;
-  "tag-error-invalidname-1": string;
-  "tag-error-doesnotexist-0": string;
-  "tag-error-doesnotexist-1": string;
-  "tag-error-alreadyexists-0": string;
-  "tag-error-alreadyexists-1": string;
-  "tag-error-limitreached-0": string;
-  "tag-error-limitreached-1": string;
-  "tag-createdby": string;
-}>;
   time: Promise<{
   second: string;
   "second-plural": string;
@@ -461,9 +464,6 @@ export type LanguageStructure = {
   "month-plural": string;
   year: string;
   "year-plural": string;
-}>;
-  thread_update_types: Promise<{
-  none: string;
 }>;
 };
   slash_commands: {
@@ -561,12 +561,12 @@ export type LanguageStructure = {
 };
 };
 }>;
+  initialReactor: Promise<{
+  name: string;
+}>;
   invite: Promise<{
   name: string;
   description: string;
-}>;
-  initialReactor: Promise<{
-  name: string;
 }>;
   kick: Promise<{
   name: string;
@@ -651,6 +651,20 @@ export type LanguageStructure = {
 };
 };
 }>;
+  reason: Promise<{
+  name: string;
+  description: string;
+  commandOptions: {
+  caseOption: {
+  name: string;
+  description: string;
+};
+  reasonOption: {
+  name: string;
+  description: string;
+};
+};
+}>;
   serverlog: Promise<{
   name: string;
   description: string;
@@ -704,20 +718,6 @@ export type LanguageStructure = {
   description: string;
 };
   spoilersOption: {
-  name: string;
-  description: string;
-};
-};
-}>;
-  reason: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  caseOption: {
-  name: string;
-  description: string;
-};
-  reasonOption: {
   name: string;
   description: string;
 };
@@ -1375,5 +1375,5 @@ export type LanguageStructure = {
 }>;
 };
 };
-export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "export" | "help" | "invite" | "initialReactor" | "kick" | "language" | "logging" | "mute" | "ping" | "premium" | "privacy" | "purge" | "serverlog" | "reason" | "tags" | "unban" | "unmute";
+export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "export" | "help" | "initialReactor" | "invite" | "kick" | "language" | "logging" | "mute" | "ping" | "premium" | "privacy" | "purge" | "reason" | "serverlog" | "tags" | "unban" | "unmute";
 export type QuarkLanguageCodes = "en_us" | "en_gb" | "tr" | "vi" | "en_pr" | "pl" | "nl" | "es_es" | "it" | "de" | "fr" | "ru" | "el" | "zh_hant" | "ko" | "sl" | "ar" | "hu";

@@ -9,7 +9,7 @@
         "title": "Webhook Törölve"
     },
     "channelOverwriteUpdate": {
-        "description": "{executor} frissítte a jogokat itt: {channel} {special} ranggal",
+        "description": "{executor} frissítte a jogokat a(z) {channel} csatornában {special} ranghoz",
         "newPermissions": "Új jogosultságok",
         "dangerousPermissions": "Veszélyes jogosultságok lettek megadva",
         "warning": "FIGYELMEZTETÉS!",
@@ -43,10 +43,10 @@
     },
     "webhookCreate": {
         "title": "Webhook Létrehozva",
-        "description": "{executor} Létrehozott egy webhookot ezzel a névvel: {webhook} és csatornában: {channel}"
+        "description": "{executor} létrehozott egy webhookot ezzel a névvel: {webhook} csatornában: {channel}"
     },
     "channelOverwriteDelete": {
-        "description": "{executor} eltávolított jogokat innen: {channel} {special} rangtól",
+        "description": "{executor} eltávolított jogosultságokat a(z) {channel} ról/ről {special} rangtól",
         "title": "{type} Csatorna Jogosultságok Eltávolítva"
     },
     "statusChannelUnfollowed": {
@@ -61,7 +61,7 @@
         "unknownChannel": "Ismeretlen Csatorna"
     },
     "channelOverwriteCreate": {
-        "description": "{executor} hozzáadta a jogosultságot {channel}hoz ranggal {special}",
+        "description": "{executor} hozzáadta a jogosultságot a(z) {channel}hoz {special} ranghoz",
         "title": "{type} Csatorna Jogosultság Hozzáadva"
     }
 }
