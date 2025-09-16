@@ -368,38 +368,6 @@ export type LanguageStructure = {
   "3": string;
   "4": string;
 }>;
-  role_update_types: Promise<{
-  enabled: string;
-  disabled: string;
-  none: string;
-}>;
-  tags_responses: Promise<{
-  "tags-help-description": string;
-  "create-success": string;
-  "edit-success": string;
-  "delete-success": string;
-  "notags-list-command": string;
-  "tags-list-title": string;
-  "tags-embedoptions-title": string;
-  "tags-usageoptions-title": string;
-  "tags-display-title": string;
-  "tag-error-noname-0": string;
-  "tag-error-noname-1": string;
-  "tag-error-nocontent-0": string;
-  "tag-error-nocontent-1": string;
-  "tag-error-invalidname-0": string;
-  "tag-error-invalidname-1": string;
-  "tag-error-doesnotexist-0": string;
-  "tag-error-doesnotexist-1": string;
-  "tag-error-alreadyexists-0": string;
-  "tag-error-alreadyexists-1": string;
-  "tag-error-limitreached-0": string;
-  "tag-error-limitreached-1": string;
-  "tag-createdby": string;
-}>;
-  thread_update_types: Promise<{
-  none: string;
-}>;
   permissions: Promise<{
   CREATE_INSTANT_INVITE: string;
   KICK_MEMBERS: string;
@@ -448,6 +416,38 @@ export type LanguageStructure = {
   USE_EXTERNAL_SOUNDS: string;
   SEND_VOICE_MESSAGES: string;
   SEND_POLLS: string;
+}>;
+  role_update_types: Promise<{
+  enabled: string;
+  disabled: string;
+  none: string;
+}>;
+  tags_responses: Promise<{
+  "tags-help-description": string;
+  "create-success": string;
+  "edit-success": string;
+  "delete-success": string;
+  "notags-list-command": string;
+  "tags-list-title": string;
+  "tags-embedoptions-title": string;
+  "tags-usageoptions-title": string;
+  "tags-display-title": string;
+  "tag-error-noname-0": string;
+  "tag-error-noname-1": string;
+  "tag-error-nocontent-0": string;
+  "tag-error-nocontent-1": string;
+  "tag-error-invalidname-0": string;
+  "tag-error-invalidname-1": string;
+  "tag-error-doesnotexist-0": string;
+  "tag-error-doesnotexist-1": string;
+  "tag-error-alreadyexists-0": string;
+  "tag-error-alreadyexists-1": string;
+  "tag-error-limitreached-0": string;
+  "tag-error-limitreached-1": string;
+  "tag-createdby": string;
+}>;
+  thread_update_types: Promise<{
+  none: string;
 }>;
   time: Promise<{
   second: string;
@@ -629,11 +629,11 @@ export type LanguageStructure = {
 };
 };
 }>;
-  ping: Promise<{
+  premium: Promise<{
   name: string;
   description: string;
 }>;
-  premium: Promise<{
+  ping: Promise<{
   name: string;
   description: string;
 }>;
@@ -1375,5 +1375,5 @@ export type LanguageStructure = {
 }>;
 };
 };
-export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "export" | "help" | "initialReactor" | "invite" | "kick" | "language" | "logging" | "mute" | "ping" | "premium" | "privacy" | "purge" | "reason" | "serverlog" | "tags" | "unban" | "unmute";
+export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "export" | "help" | "initialReactor" | "invite" | "kick" | "language" | "logging" | "mute" | "premium" | "ping" | "privacy" | "purge" | "reason" | "serverlog" | "tags" | "unban" | "unmute";
 export type QuarkLanguageCodes = "en_us" | "en_gb" | "tr" | "vi" | "en_pr" | "pl" | "nl" | "es_es" | "it" | "de" | "fr" | "ru" | "el" | "zh_hant" | "ko" | "sl" | "ar" | "hu";
