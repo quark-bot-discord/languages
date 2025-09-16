@@ -8,18 +8,18 @@
         "pluralkitSupport": "PluralKit Támogatás"
     },
     "serverlogChannelUpdate": {
-        "description_set": "{executor} beállította a {type} logolási csatornát erre: {channel} csatornára",
+        "description_set": "{executor} beállította a {type} logolási csatornát {channel} csatornára",
         "description_unset": "{executor} kikapcsolta a {type} logolási csatornát",
         "title": "Logolási Csatorna Változás",
-        "description_category_disable": "{executor} letiltotta a {type} logolást"
+        "description_category_disable": "{executor} letiltotta a {type} logolást csatornát"
     },
     "serverlogLogUpdate": {
         "logFormat": "Formázás",
         "logChannel": "Csatorna",
-        "ignoreBotExecutors": "Bot végrehajtók figyelmen kívül hagyása",
-        "ignoreBotTargets": "Bot célok figyelmen kívül hagyása",
+        "ignoreBotExecutors": "Bot Végrehajtók Figyelmen Kívül Hagyása",
+        "ignoreBotTargets": "Bot Célok Figyelmen Kívül Hagyása",
         "colour": "Szín",
-        "activeIgnore": "Aktív figyelmen kívül hagyások",
+        "activeIgnore": "Aktív Figyelmen Kívül Hagyások",
         "enabled": "Engedélyezve",
         "description": "{executor} frissítette a {type} logot",
         "title": "Log Frissítve"
@@ -33,18 +33,18 @@
         "title": "Konfiguráció Visszaállítva"
     },
     "tagUpdated": {
-        "description": "{executor} frissítette a címkét: {tag}",
+        "description": "{executor} frissítette a címkét {tag}",
         "title": "Címke Frissítve"
     },
     "tagAdded": {
-        "description": "{executor} létrehozott egy címkét: {tag}",
+        "description": "{executor} létrehozott egy címkét {tag}",
         "title": "Címke Hozzáadva"
     },
     "serverlogIgnoreUpdate": {
         "description_unset": "{executor} letiltotta {type}",
         "description_set": "{executor} engedélyezte {type}",
         "title": "Opció Figyelmen Kívül Hagyás Frissítve",
-        "description_removed": "{executor} eltávolította {target} {type}ról/ről",
+        "description_removed": "{executor} eltávolította {target}t {type}ról/ről",
         "description_added": "{executor} hozzáadta {target}t {type}hoz"
     },
     "tokenAdded": {
@@ -54,11 +54,11 @@
         "description": "{executor} generált egy Quark hozzáférési tokent ezzekel a {permissions} jogosultságokkal ezzen a szerveren"
     },
     "languageUpdate": {
-        "description": "{executor} megváltoztatta a nyelvet erre: {language}",
+        "description": "{executor} megváltoztatta a nyelvet {language}",
         "title": "Nyelv Megváltoztatva"
     },
     "tagDeleted": {
-        "description": "{executor} törölte a címkét: {tag}",
+        "description": "{executor} törölte a címkét {tag}",
         "title": "Címke Törölve"
     }
 }
