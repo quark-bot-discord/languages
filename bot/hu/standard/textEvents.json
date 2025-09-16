@@ -1,7 +1,7 @@
 {
     "messageDeleted": {
         "sticker": "matrica",
-        "inviteDetected": "Szerver Meghívó észlelve",
+        "inviteDetected": "Szerver meghívó észlelve",
         "warning": "FIGYELMEZTETÉS!",
         "thread": "Gondolatmenet",
         "title": "Üzenet Törölve",
@@ -11,7 +11,7 @@
         "deletedBy": "Törlő",
         "ghostpingDetected": "Ghostping észelelve",
         "file": "fájl",
-        "author": "Üzenet készítője",
+        "author": "Üzenet írója",
         "files": "fájlok",
         "embed": "beágyazás",
         "channel": "Csatorna",
@@ -27,7 +27,7 @@
         "title": "Gondolatmenet Törölve"
     },
     "messageUpdate": {
-        "author": "Üzenet készítője",
+        "author": "Üzenet írója",
         "noContent": "nincs tartalom",
         "title": "Üzenet Szerkeztve",
         "diffError": "A módosítások kiszámítása nem lehetséges.",
@@ -36,7 +36,7 @@
         "channel": "Csatorna",
         "afterEdit": "Szerkeztés után",
         "thread": "Gondolatmenet",
-        "cannotRetrieveOriginal": "Nem lehet megszerezni a eredeti üzenetet"
+        "cannotRetrieveOriginal": "Nem lehet megszerezni az eredeti üzenetet"
     },
     "messageReactionRemove": {
         "title": "Reakció Eltávolítva",
@@ -62,7 +62,7 @@
     },
     "messageUnpin": {
         "title": "Üzenet Kitüzése Eltávolítva",
-        "description": "Az üzenet kitüzését eltávolította {executor}"
+        "description": "Az üzenet kitüzés el lett távolítva {executor} által"
     },
     "messagePin": {
         "title": "Üzenet Kitüzve",
@@ -72,11 +72,11 @@
         "more": "több",
         "errorFile": "Probléma merült fel a fájlok visszaállításával. Ha ez folyamatosan előfordul, kérjük, jelezze nekünk a Quark támogatási szerverén.",
         "embed": "beágyazás",
-        "uncachedMessage": "uncached üzenet",
-        "uncachedChannel": "uncached csatorna",
-        "uncachedUser": "uncached felhasználó",
-        "title": "Több üzenet törölve",
-        "deletedBy": "törlő",
+        "uncachedMessage": "uncachelt üzenet",
+        "uncachedChannel": "uncachelt csatorna",
+        "uncachedUser": "uncachelt felhasználó",
+        "title": "Több Üzenet Törölve",
+        "deletedBy": "Törlő",
         "errorText": "Probléma merült fel a szövegfájl létrehozásával. Előfordulhat, hogy egyes üzenetek elvesznek. Ha ez folyamatosan előfordul, kérjük, jelezze nekünk a Quark támogatási szerverén.",
         "channel": "Csatorna"
     },
@@ -91,7 +91,7 @@
         "title": "Csatolmány Törölve"
     },
     "threadUpdated": {
-        "description": "{thread} szerkeztte a gondolatmenetet {executor}",
+        "description": "{thread} módosítva lett {executor} által",
         "title": "Gondolatmenet Módosítva"
     }
 }
