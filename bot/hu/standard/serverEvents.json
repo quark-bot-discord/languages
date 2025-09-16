@@ -1,6 +1,6 @@
 {
     "nicknameUpdate": {
-        "setNick": "{user}nak/nek beceneve be lett állítva erre: {newNickname}",
+        "setNick": "{user}nak/nek beceneve be lett állítva erre {newNickname}",
         "title": "Becenév Frissítve",
         "description": "{user}nak/nek beceneve meg lett változtatva erről {oldNickname} erre {newNickname}",
         "changedBy": "Megváltoztta",
@@ -21,13 +21,13 @@
         "description": "{user} elhagyta a szervert",
         "serverProfilePicture": "Szerver avatár linkje",
         "info_kicked": "Felhasználó kirúgva",
-        "description_banned": "{user} kitiltotta {executor}",
+        "description_banned": "{user} ki lett tiltva {executor} által",
         "info": "Információ",
-        "description_kicked": "{user} kirúgta: {executor}",
+        "description_kicked": "{user} ki lett rúgva {executor} által",
         "roles": "Rangok",
         "description_banned_no_executor": "{user} ki lett tiltva",
         "joined": "Csatlakozott",
-        "info_banned": "Felhaszáló kitiltva",
+        "info_banned": "Felhasználó kitiltva",
         "description_kicked_no_executor": "{user} ki lett rúgva"
     },
     "avatarUpdate": {
@@ -50,7 +50,7 @@
         "noBadges": "A fióknak nincsen jelvényei",
         "description": "{user} belépett a szerverre",
         "accountCreated": "Fiók létrehozva",
-        "createdBy": "létrehozta: {user}",
+        "createdBy": "létrehozva {user} által",
         "ban": "Kitiltás"
     },
     "botRemoved": {
@@ -73,7 +73,7 @@
     },
     "memberPrune": {
         "title": "Tagok Ritkitva",
-        "description": "{count} tagok, akik legalább {time} az inaktivitás napjai le lettek rövidítve {executor} által"
+        "description": "{count} tagok, akik legalább {time} az inaktivitás napjai le lettek ritkítva {executor} által"
     },
     "members": "Tagok"
 }
