@@ -10,19 +10,19 @@
     },
     "channelOverwriteUpdate": {
         "description": "{executor} frissítte a jogokat a(z) {channel} csatornában {special} ranghoz",
-        "newPermissions": "Új jogosultságok",
+        "newPermissions": "Új Jogosultságok",
         "dangerousPermissions": "Veszélyes jogosultságok lettek megadva",
         "warning": "FIGYELMEZTETÉS!",
-        "viewFullNewPermissions": "Összes új jogosultságok megtekintése",
+        "viewFullNewPermissions": "Összes Új Jogosultságok Megtekintése",
         "title": "{type} Csatorna Jogosultságok Frissítve"
     },
     "webhookAvatarUpdate": {
         "title": "Webhook Avatar Frissítve",
         "linkToNewAvatar": "Új avatár linkje",
-        "description_removed": "{executor} eltávolított egy avatárt a webhookról: {webhook}",
+        "description_removed": "{executor} eltávolított egy avatárt a webhookról {webhook}",
         "linkToOldAvatar": "Régi avatár linkje",
-        "description": "{executor} frissítette a webhook avatarját: {webhook}",
-        "description_added": "{executor} hozzáadott egy avatárt a webhookhoz: {webhook}"
+        "description": "{executor} frissítette a webhook avatarját {webhook}",
+        "description_added": "{executor} hozzáadott egy avatárt a webhookhoz {webhook}"
     },
     "channelDeleted": {
         "title": "{type} Csatorna Törölve",
@@ -31,14 +31,14 @@
     },
     "statusChannelFollowed": {
         "title": "Csatorna Követve",
-        "description": "{executor} követi a csatornát ezzel a névvel: {name} {channel}ban/ben"
+        "description": "{executor} követi a csatornát {name} {channel}ban/ben"
     },
     "channelUpdated": {
         "title": "{type} Csatorna Módosítva",
-        "description": "{channel} módosítotva: {executor} által"
+        "description": "{channel} módosítva lett {executor} által"
     },
     "webhookUpdate": {
-        "description": "{executor} módosította a webhookot ezzel névvel: {webhook}",
+        "description": "{executor} módosította a webhookot {webhook}",
         "title": "Webhook Módosítva"
     },
     "webhookCreate": {
@@ -51,11 +51,11 @@
     },
     "statusChannelUnfollowed": {
         "title": "Csatorna Követés Eltávolítva",
-        "description": "{executor} nem követi tovább a csatornátt ezzel a névvel: {name}"
+        "description": "{executor} nem követi tovább a csatornát {name}"
     },
     "statusChannelUpdated": {
         "title": "Követett Csatorna Frissítve",
-        "description": "{executor} frissítette a követett csatornát ezzel a névvel: {name}"
+        "description": "{executor} frissítette a követett csatornát {name}"
     },
     "general": {
         "unknownChannel": "Ismeretlen Csatorna"
