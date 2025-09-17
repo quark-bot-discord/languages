@@ -9,11 +9,11 @@
     },
     "serverBoostAdd": {
         "none": "semmi",
-        "description_withTier_noUser": "Valaki boostolta a szervert erre a szintre: {tier} 🎉",
-        "description_withTier": "{user} boostolta a szervert erre a szintre: {tier} 🎉",
+        "description_withTier_noUser": "Valaki boostolta a szervert erre a szintre {tier} 🎉",
+        "description_withTier": "{user} boostolta a szervert erre a szintre {tier} 🎉",
         "description_noUser": "Valaki boostolta a szervert 🎉",
         "description": "{user} boostolta a szervert 🎉",
-        "title": "Szerver boostolva"
+        "title": "Szerver Boostolva"
     },
     "serverIconUpdated": {
         "description": "{executor} frissítette a szerver ikonját",
@@ -24,7 +24,7 @@
         "linkToNewIcon": "Új szerver ikon linkje"
     },
     "serverModified": {
-        "description": "A szervert szerkeztette {executor}",
+        "description": "A szervert módosította {executor}",
         "title": "Szerver Módosítva"
     }
 }

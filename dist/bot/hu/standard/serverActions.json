@@ -1,23 +1,23 @@
 {
     "emojiCreated": {
-        "description": "{emoji} hozzáadta: {executor}",
+        "description": "{emoji} hozzá lett adva {executor} által",
         "title": "Emoji Létrehozva"
     },
     "serverEventCreate": {
         "image": "Kép",
         "eventDescription": "Leírás",
         "starts": "Indul",
-        "description_withChannel": "{executor} létrehozott egy eseményt ezzel a névvel: {name} és csatornával {channel}",
+        "description_withChannel": "{executor} létrehozott egy eseményt {name} {channel} csatornához",
         "location": "Helyszín",
         "title": "Esemény Létrehozva",
-        "description_withoutChannel": "{executor} létrehozott egy eseményt ezzel a névvel: {name}"
+        "description_withoutChannel": "{executor} létrehozott egy eseményt {name}"
     },
     "emojiUpdated": {
-        "description": "{emoji} módosította: {executor}",
-        "title": "Emoji Módosítva"
+        "description": "{emoji} szerkesztve lett {executor} által",
+        "title": "Emoji Szerkeztve"
     },
     "serverEventUpdate": {
-        "description": "{executor} frissítette az eseményt ezzel a névvel: {name}",
+        "description": "{executor} frissítette az eseményt {name}",
         "newLocation": "Új helyszín",
         "newImage": "Új kép",
         "linkToEventImage": "Régi esemény kép linkje",
@@ -28,12 +28,12 @@
     "serverEventDelete": {
         "title": "Esemény Törölve",
         "linkToEventImage": "Esemény kép linkje",
-        "description": "{executor} törölte az eseményt ezzel a névvel: {name}"
+        "description": "{executor} törölte az eseményt {name}"
     },
     "emojiDeleted": {
         "title": "Emoji Törölve",
         "emoji": "Emotikon",
-        "description": "{emoji} törölve: {executor} által"
+        "description": "{emoji} törölve lett {executor} által"
     },
     "inviteDelete": {
         "created": "Létrehozta",
@@ -47,7 +47,7 @@
         "maxUses": "Max használat",
         "never": "Soha",
         "expires": "Lejár",
-        "description_withoutInviter": "Egy meghívó {invite} létrehozva lett ide: {channel}",
+        "description_withoutInviter": "Egy meghívó {invite} létrehozva lett ide {channel}",
         "description_withInviter": "{inviter} létrehozott egy meghívót {invite} {channel} csatornára",
         "title": "Meghívó Létrehozva",
         "none": "semmi"
