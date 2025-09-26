@@ -37,17 +37,17 @@
     },
     "inviteDelete": {
         "created": "Létrehozta",
-        "description_withExecutor": "{executor} törölte a meghívót {invite} {channel} csatornáról",
+        "description_withExecutor": "{executor} törölte a meghívót {invite} a(z) {channel} csatornáról",
         "title": "Meghívó Törölve",
         "none": "semmi",
         "used": "Használva",
         "description_withoutExecutor": "Egy meghívó {invite} törölve lett {channel} csatornáról"
     },
     "inviteCreate": {
-        "maxUses": "Max használat",
+        "maxUses": "Max Használat",
         "never": "Soha",
         "expires": "Lejár",
-        "description_withoutInviter": "Egy meghívó {invite} létrehozva lett ide {channel}",
+        "description_withoutInviter": "Egy meghívó {invite} lett létrehozva a(z) {channel} csatornára",
         "description_withInviter": "{inviter} létrehozott egy meghívót {invite} {channel} csatornára",
         "title": "Meghívó Létrehozva",
         "none": "semmi"

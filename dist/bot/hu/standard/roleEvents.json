@@ -13,13 +13,13 @@
         "warning": "FIGYELMEZTETÉS!",
         "oldPermissions": "Régi Jogosultságok",
         "title": "Rang Jogosultságok Frissítve",
-        "description": "{role} rangnak jogosultságok frissítve lettek {executor} által",
+        "description": "{role} jogosultságai frissítve lettek {executor} által",
         "newPermissions": "Új Jogosultságok",
         "dangerousPermissions": "Veszélyes jogosultságok lettek megadva"
     },
     "roleCreated": {
         "title": "Rang Létrehozva",
-        "description": "{role} rangot létre lett hozva {executor} által"
+        "description": "{role} létre lett hozva {executor} által"
     },
     "roleUpdated": {
         "description": "{role} módosítva lett {executor} által",
