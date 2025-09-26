@@ -56,7 +56,7 @@
         "vote": "szavazatt",
         "ends": "Véget ér",
         "ended": "véget ért",
-        "noResponses": "NIncsen válaszok",
+        "noResponses": "Nincsenek válaszok",
         "enabled": "engedélyezve",
         "pollDescriptor": "[szavazás]"
     },
