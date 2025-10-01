@@ -1,7 +1,7 @@
 {
     "inviteCreate": {
         "description_withInviter": "{inviter} created an invite {invite} for {channel}",
-        "title": "Invite Created",
+        "title": "招待を作成しました",
         "none": "none",
         "maxUses": "Max Uses",
         "never": "Never",
