@@ -1,1 +1,79 @@
-{}
+{
+    "nicknameUpdate": {
+        "setNick": "{user}'s nickname was set to {newNickname}",
+        "title": "Nickname Updated",
+        "description": "{user}'s nickname was changed from {oldNickname} to {newNickname}",
+        "changedBy": "Changed by",
+        "nickRemoved": "{user}'s nickname of {oldNickname} was removed"
+    },
+    "memberRoleAdd": {
+        "title_multiple": "Roles Given",
+        "givenBy": "Given by",
+        "dangerousPermissions": "Dangerous permissions granted",
+        "description": "The {role} role was given to {user}",
+        "roles": "Roles",
+        "title": "Role Given",
+        "warning": "WARNING!",
+        "description_multiple": "{user} was given multiple roles"
+    },
+    "userLeft": {
+        "title": "User Left",
+        "description": "{user} left the server",
+        "serverProfilePicture": "Link to server avatar",
+        "info_kicked": "User kicked",
+        "description_banned": "{user} was banned by {executor}",
+        "info": "Info",
+        "description_kicked": "{user} was kicked by {executor}",
+        "roles": "Roles",
+        "description_banned_no_executor": "{user} was banned",
+        "joined": "Joined",
+        "info_banned": "User banned",
+        "description_kicked_no_executor": "{user} was kicked"
+    },
+    "avatarUpdate": {
+        "description": "{user} changed their server avatar",
+        "changedBy": "Changed by",
+        "description_removed": "{user} removed their server avatar",
+        "title": "Server Avatar Changed",
+        "linkToNewAvatar": "Link to new avatar",
+        "linkToOldAvatar": "Link to old avatar",
+        "description_added": "{user} added a server avatar"
+    },
+    "botRemoved": {
+        "title": "Bot Removed",
+        "descriptionne": "{bot} was removed from the server",
+        "description": "{bot} was removed from the server by {executor}"
+    },
+    "userJoined": {
+        "title": "User Joined",
+        "info": "Info",
+        "noAvatar": "Account has no avatar",
+        "invite": "Invite",
+        "newAccount": "Account is new",
+        "warning": "WARNING!",
+        "rejoined": "Account rejoined",
+        "noBadges": "Account has no badges",
+        "description": "{user} joined the server",
+        "accountCreated": "Account created",
+        "createdBy": "created by {user}",
+        "ban": "Ban"
+    },
+    "botAdded": {
+        "description": "{bot} was added to the server by {executor}",
+        "descriptionne": "{bot} was added to the server",
+        "title": "Bot Added"
+    },
+    "memberRoleRemove": {
+        "roles": "Roles",
+        "removedBy": "Removed by",
+        "description": "The {role} role was removed from {user}",
+        "title": "Role Taken",
+        "title_multiple": "Roles Taken",
+        "description_multiple": "Multiple roles were removed from {user}"
+    },
+    "memberPrune": {
+        "title": "Members Pruned",
+        "description": "{count} members with at least {time} days of inactivity were pruned by {executor}"
+    },
+    "members": "Members"
+}
