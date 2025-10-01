@@ -1,0 +1,20 @@
+{
+    "ban": "Ban",
+    "noReasonBrief": "Run {command}",
+    "reason": "Reason",
+    "kick": "Kick",
+    "moderator": "Moderator",
+    "mute": "Timeout",
+    "reasonModal": {
+        "placeholder": "Being very bad >:(",
+        "label": "Reason",
+        "title": "Modify modlog reason"
+    },
+    "editReason": "Edit Reason",
+    "unban": "Unban",
+    "case": "Case",
+    "timeoutEnds": "Timeout ends {time} ({duration})",
+    "user": "User",
+    "noReason": "[no reason provided]",
+    "unmute": "Timeout Removed"
+}
