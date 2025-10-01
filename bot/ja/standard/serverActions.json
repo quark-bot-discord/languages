@@ -5,8 +5,8 @@
         "none": "none",
         "maxUses": "Max Uses",
         "never": "Never",
-        "expires": "Expires",
-        "description_withoutInviter": "An invite {invite} was created for {channel}"
+        "expires": "期限",
+        "description_withoutInviter": "{チャンネル}宛に招待{invite}が作成されました"
     },
     "serverEventCreate": {
         "image": "Image",
