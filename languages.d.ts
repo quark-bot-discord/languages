@@ -819,36 +819,6 @@ export type LanguageStructure = {
 }>;
 };
   standard: {
-  generalEvents: Promise<{
-  serverModified: {
-  title: string;
-  description: string;
-};
-  serverIconUpdated: {
-  title: string;
-  description: string;
-  description_added: string;
-  description_removed: string;
-  linkToOldIcon: string;
-  linkToNewIcon: string;
-};
-  serverBoostAdd: {
-  title: string;
-  description: string;
-  description_noUser: string;
-  description_withTier: string;
-  description_withTier_noUser: string;
-  none: string;
-};
-  serverBoostRemove: {
-  title: string;
-  description: string;
-  description_noUser: string;
-  description_withTier: string;
-  description_withTier_noUser: string;
-  none: string;
-};
-}>;
   channelEvents: Promise<{
   channelCreated: {
   title: string;
@@ -914,6 +884,36 @@ export type LanguageStructure = {
 };
   general: {
   unknownChannel: string;
+};
+}>;
+  generalEvents: Promise<{
+  serverModified: {
+  title: string;
+  description: string;
+};
+  serverIconUpdated: {
+  title: string;
+  description: string;
+  description_added: string;
+  description_removed: string;
+  linkToOldIcon: string;
+  linkToNewIcon: string;
+};
+  serverBoostAdd: {
+  title: string;
+  description: string;
+  description_noUser: string;
+  description_withTier: string;
+  description_withTier_noUser: string;
+  none: string;
+};
+  serverBoostRemove: {
+  title: string;
+  description: string;
+  description_noUser: string;
+  description_withTier: string;
+  description_withTier_noUser: string;
+  none: string;
 };
 }>;
   modlog: Promise<{
@@ -1089,6 +1089,85 @@ export type LanguageStructure = {
   newImage: string;
 };
 }>;
+  serverEvents: Promise<{
+  members: string;
+  userJoined: {
+  title: string;
+  description: string;
+  noAvatar: string;
+  newAccount: string;
+  noBadges: string;
+  warning: string;
+  accountCreated: string;
+  invite: string;
+  createdBy: string;
+  ban: string;
+  info: string;
+  rejoined: string;
+};
+  userLeft: {
+  title: string;
+  description: string;
+  joined: string;
+  roles: string;
+  serverProfilePicture: string;
+  description_kicked: string;
+  description_kicked_no_executor: string;
+  description_banned: string;
+  description_banned_no_executor: string;
+  info: string;
+  info_kicked: string;
+  info_banned: string;
+};
+  botAdded: {
+  title: string;
+  description: string;
+  descriptionne: string;
+};
+  botRemoved: {
+  title: string;
+  description: string;
+  descriptionne: string;
+};
+  nicknameUpdate: {
+  title: string;
+  description: string;
+  setNick: string;
+  nickRemoved: string;
+  changedBy: string;
+};
+  memberRoleAdd: {
+  title: string;
+  title_multiple: string;
+  description: string;
+  description_multiple: string;
+  givenBy: string;
+  roles: string;
+  warning: string;
+  dangerousPermissions: string;
+};
+  memberRoleRemove: {
+  title: string;
+  title_multiple: string;
+  description: string;
+  description_multiple: string;
+  removedBy: string;
+  roles: string;
+};
+  memberPrune: {
+  title: string;
+  description: string;
+};
+  avatarUpdate: {
+  title: string;
+  description: string;
+  description_added: string;
+  description_removed: string;
+  changedBy: string;
+  linkToOldAvatar: string;
+  linkToNewAvatar: string;
+};
+}>;
   textEvents: Promise<{
   polls: {
   poll: string;
@@ -1184,85 +1263,6 @@ export type LanguageStructure = {
   threadUpdated: {
   description: string;
   title: string;
-};
-}>;
-  serverEvents: Promise<{
-  members: string;
-  userJoined: {
-  title: string;
-  description: string;
-  noAvatar: string;
-  newAccount: string;
-  noBadges: string;
-  warning: string;
-  accountCreated: string;
-  invite: string;
-  createdBy: string;
-  ban: string;
-  info: string;
-  rejoined: string;
-};
-  userLeft: {
-  title: string;
-  description: string;
-  joined: string;
-  roles: string;
-  serverProfilePicture: string;
-  description_kicked: string;
-  description_kicked_no_executor: string;
-  description_banned: string;
-  description_banned_no_executor: string;
-  info: string;
-  info_kicked: string;
-  info_banned: string;
-};
-  botAdded: {
-  title: string;
-  description: string;
-  descriptionne: string;
-};
-  botRemoved: {
-  title: string;
-  description: string;
-  descriptionne: string;
-};
-  nicknameUpdate: {
-  title: string;
-  description: string;
-  setNick: string;
-  nickRemoved: string;
-  changedBy: string;
-};
-  memberRoleAdd: {
-  title: string;
-  title_multiple: string;
-  description: string;
-  description_multiple: string;
-  givenBy: string;
-  roles: string;
-  warning: string;
-  dangerousPermissions: string;
-};
-  memberRoleRemove: {
-  title: string;
-  title_multiple: string;
-  description: string;
-  description_multiple: string;
-  removedBy: string;
-  roles: string;
-};
-  memberPrune: {
-  title: string;
-  description: string;
-};
-  avatarUpdate: {
-  title: string;
-  description: string;
-  description_added: string;
-  description_removed: string;
-  changedBy: string;
-  linkToOldAvatar: string;
-  linkToNewAvatar: string;
 };
 }>;
   voiceEvents: Promise<{
