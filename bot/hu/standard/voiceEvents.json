@@ -8,9 +8,9 @@
     },
     "voiceDisconnect": {
         "voiceChannel": "Hang csatorna",
-        "title": "Felhasználó Hangcsatornából Kirúgás",
-        "disconnectedBy": "Kidobta",
-        "description": "{user} ki lett dobva"
+        "title": "Leválasztás",
+        "disconnectedBy": "Leválasztotta",
+        "description": "{user} le lett választva"
     },
     "stageEnded": {
         "topic": "Téma",
@@ -32,7 +32,7 @@
         "unmutedBy": "Vissza vonó"
     },
     "serverMute": {
-        "mutedBy": "Le némitotta",
+        "mutedBy": "Lenémitotta",
         "title": "Némitva",
         "voiceChannel": "Hang csatorna",
         "description": "{user} le lett némítva"
@@ -56,17 +56,17 @@
     },
     "voiceSwitch": {
         "description": "{user} váltott {channel_old}ról/ről {channel_new} hang csatornába",
-        "title": "Felhasználó Hangcsatornát Váltott"
+        "title": "Hangcsatornát Váltott"
     },
     "streamStop": {
-        "description": "{user} abba hagyta a képernyő megosztását {channel} hangcsatornában",
+        "description": "{user} abba hagyta az élőt a(z) {channel} hangcsatornában",
         "title": "Élő Lezárva"
     },
     "voiceLeave": {
         "joined": "Csatlakozott",
-        "description": "{user} kilépett a {channel} hangcsatornából",
-        "title": "Felhasználó Kilépett Hang Csatornából",
-        "joinedValue": "{relative}({relative_fixed})"
+        "description": "{user} kilépett a(z) {channel} hangcsatornából",
+        "title": "Kilépett Hang Csatornából",
+        "joinedValue": "{relative} ideig {relative_fixed}"
     },
     "stageStarted": {
         "description": "{executor} elindította a szakaszt a(z) {channel} csatornán",
@@ -78,8 +78,8 @@
         "title": "Beszélő Meghíva"
     },
     "voiceJoin": {
-        "title": "Felhasználó Csatlakozott Hang Csatornába",
-        "description": "{user} csatlakozott a {channel} hangcsatornába"
+        "title": "Csatlakozott Hang Csatornába",
+        "description": "{user} csatlakozott a(z) {channel} hangcsatornába"
     },
     "videoStart": {
         "description": "{user} elkezdett videózni a {channel} hangcsatornában",
@@ -87,19 +87,19 @@
     },
     "streamStart": {
         "title": "Élő Indult",
-        "description": "{user} el kezdette megosztani a képernyőét {channel} hangcsatornában"
+        "description": "{user} el kezdte az élőt a(z) {channel} hangcsatornában"
     },
     "voiceBundle": {
         "title": "Több Hangcsatornás Események"
     },
     "videoStop": {
         "title": "Videó Leállítva",
-        "description": "{user} megállította a videózást {channel} hangcsatornában"
+        "description": "{user} megállította a videózást a(z) {channel} hangcsatornában"
     },
     "voiceMove": {
-        "title": "Felhasználó Áthelyeztve",
+        "title": "Áthelyezve",
         "movedBy": "Áthelyeztte",
-        "description": "{user} át helyezték a {channel_old} hangcsatornából a {channel_new} hangcsatornába"
+        "description": "{user} át helyezték a(z) {channel_old} hangcsatornából a(z) {channel_new} hangcsatornába"
     },
     "stageSpeakerRemove": {
         "description": "{user} többé nem beszél a {channel} csatornában",
