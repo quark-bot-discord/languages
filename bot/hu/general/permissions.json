@@ -6,7 +6,7 @@
     "VIEW_AUDIT_LOG": "Vizsgálati Napló Megtekintése",
     "ADMINISTRATOR": "Rendszergazda",
     "CHANGE_NICKNAME": "Becenév Megváltoztatása",
-    "MENTION_EVERYONE": "Everyone, Here és Minden Rang Megemlítése",
+    "MENTION_EVERYONE": "Mindenki Említése",
     "SEND_MESSAGES_IN_THREADS": "Üzenetek Küldése a Gondolatmenetekben",
     "USE_SOUNDBOARD": "A Soundboard Használata",
     "USE_EXTERNAL_STICKERS": "Külső Matricák Használata",
@@ -28,7 +28,7 @@
     "SPEAK": "Beszéd",
     "MUTE_MEMBERS": "Tagok Némitása",
     "MANAGE_NICKNAMES": "Becenevek Kezelése",
-    "USE_VAD": "Voice Activity Használata",
+    "USE_VAD": "VAD Használata",
     "USE_EXTERNAL_EMOJIS": "Külső Emotikon Használata",
     "USE_SLASH_COMMANDS": "Alkalmazásparancsok Használata",
     "MANAGE_EMOJIS": "Kifejezések Kezelése",
@@ -36,7 +36,7 @@
     "CONNECT": "Csatlakozás",
     "MANAGE_MESSAGES": "Üzenetek Kezelése",
     "BAN_MEMBERS": "Tagok Kitiltása",
-    "MODERATE_MEMBERS": "Tagok Felfüggesztése",
+    "MODERATE_MEMBERS": "Tagok Moderálása",
     "REQUEST_TO_SPEAK": "Szó Kérése",
     "VIEW_CHANNEL": "Csatorna Megtekintése",
     "USE_PUBLIC_THREADS": "Nyilvános Gondolatmenetek Létrehozása",
@@ -45,5 +45,5 @@
     "CREATE_EVENTS": "Események Létrehozása",
     "MANAGE_GUILD": "Szerver Kezelése",
     "CREATE_GUILD_EXPRESSIONS": "Kifejezések Létrehozása",
-    "KICK_MEMBERS": "Tagok Kirugása, Jóváhagyása és Elutasítása"
+    "KICK_MEMBERS": "Tagok Kirugása"
 }
