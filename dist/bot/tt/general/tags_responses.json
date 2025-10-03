@@ -1,1 +1,24 @@
-{}
+{
+    "tag-error-nocontent-1": "Please include content which should be sent in the tag",
+    "delete-success": "{tag} tag deleted! Use {commandList} to see all your remaining tags!",
+    "tag-error-nocontent-0": "No tag content",
+    "notags-list-command": "Hmmm… there are no tags. You can create one using [Quark's web dashboard]",
+    "tag-error-noname-1": "Please specify the tag name",
+    "tag-error-invalidname-0": "Invalid tag name",
+    "tag-createdby": "Created by {user}",
+    "tag-error-doesnotexist-0": "Tag does not exist",
+    "tags-list-title": "Available Tags",
+    "create-success": "Tag created! Use {tag} to access it at any time!",
+    "tag-error-invalidname-1": "A tag with this name cannot be created",
+    "tag-error-limitreached-0": "Tag limit reached",
+    "tag-error-alreadyexists-0": "Invalid tag name",
+    "tags-help-description": "Tags are a way of easily and efficiently presenting frequent information to users, by using your own commands.",
+    "edit-success": "Tag edited! Use {tag} to access it at any time!",
+    "tags-usageoptions-title": "Tag usage options:",
+    "tags-display-title": "Display Tags",
+    "tag-error-doesnotexist-1": "Please enter a valid tag name",
+    "tag-error-alreadyexists-1": "A tag with this name already exists",
+    "tags-embedoptions-title": "Embed options:",
+    "tag-error-noname-0": "No tag name",
+    "tag-error-limitreached-1": "This server has reached the limit of 25 tags"
+}
