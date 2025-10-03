@@ -1,1 +1,97 @@
-{}
+{
+    "messageDeleted": {
+        "embed": "embed",
+        "channel": "Channel",
+        "noContent": "no content",
+        "deletedBy": "Deleted by",
+        "ghostpingDetected": "Ghostping detected",
+        "file": "file",
+        "author": "Message author",
+        "files": "files",
+        "linksToFiles": "Links to files",
+        "jumpToContext": "Jump to context",
+        "fileExpired": "file too large or expired",
+        "initialReactor": "initial reactor",
+        "sticker": "sticker",
+        "inviteDetected": "Server invite detected",
+        "warning": "WARNING!",
+        "thread": "Thread",
+        "title": "Message Deleted",
+        "filesExpired": "files too large or expired",
+        "linksToEmojis": "Links to emojis"
+    },
+    "threadCreate": {
+        "thread": "Thread",
+        "jumpToContext": "Jump to context",
+        "channel": "Channel",
+        "description": "{member} created a new thread {thread}",
+        "title": "Thread Created"
+    },
+    "messageReactionRemove": {
+        "linkToEmoji": "Link to emoji",
+        "emoji": "Emoji",
+        "description": "{executor} removed a reaction from a message",
+        "title": "Reaction Removed",
+        "jumpToMessage": "Jump to message"
+    },
+    "threadDelete": {
+        "thread": "Thread",
+        "channel": "Channel",
+        "title": "Thread Deleted",
+        "description": "{executor} deleted a thread {thread}"
+    },
+    "polls": {
+        "multiselect": "Multiselect",
+        "poll": "Poll",
+        "disabled": "disabled",
+        "vote": "vote",
+        "ends": "Ends",
+        "ended": "ended",
+        "noResponses": "No responses",
+        "enabled": "enabled",
+        "pollDescriptor": "[poll]",
+        "votes": "votes",
+        "pollDeleted": "Poll Deleted",
+        "status": "Poll has status.",
+        "notEnded": "not ended"
+    },
+    "messageUpdate": {
+        "jumpToMessage": "Jump to message",
+        "diff": "Edits",
+        "channel": "Channel",
+        "afterEdit": "After edit",
+        "thread": "Thread",
+        "cannotRetrieveOriginal": "Cannot retrieve original message",
+        "author": "Message author",
+        "noContent": "no content",
+        "title": "Message Edited",
+        "diffError": "Unable to calculate edits."
+    },
+    "threadUpdated": {
+        "description": "{thread} was modified by {executor}",
+        "title": "Thread Modified"
+    },
+    "messageUnpin": {
+        "description": "A message was unpinned by {executor}",
+        "title": "Message Unpinned"
+    },
+    "messagesBulkDeleted": {
+        "uncachedUser": "uncached user",
+        "title": "Multiple Messages Deleted",
+        "deletedBy": "Deleted by",
+        "errorText": "There was an issue with creating a text file. Some messages may be lost. If this happens persistently, please make us aware in Quark's support server.",
+        "channel": "Channel",
+        "more": "more",
+        "errorFile": "There was an issue with recovering the files. If this happens persistently, please make us aware in Quark's support server.",
+        "embed": "embed",
+        "uncachedMessage": "uncached message",
+        "uncachedChannel": "uncached channel"
+    },
+    "messagePin": {
+        "title": "Message Pinned",
+        "description": "A message was pinned by {executor}"
+    },
+    "attachmentDeleted": {
+        "title": "Attachment Deleted"
+    }
+}
