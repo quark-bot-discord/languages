@@ -45,5 +45,6 @@
     "CREATE_EVENTS": "Créer des événements",
     "USE_EXTERNAL_SOUNDS": "Utiliser des sons externes",
     "SEND_VOICE_MESSAGES": "Envoyer des messages vocaux",
-    "SEND_POLLS": "Créer des sondages"
+    "SEND_POLLS": "Créer des sondages",
+    "USE_EXTERNAL_APPS": "Use External Apps"
 }
