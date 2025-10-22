@@ -46,5 +46,6 @@
     "USE_EXTERNAL_SOUNDS": "Użyj Zewnętrznych Dźwięków",
     "SEND_VOICE_MESSAGES": "Wyślij Wiadomości Głosowe",
     "SEND_POLLS": "Wyślij Ankiety",
-    "USE_EXTERNAL_APPS": "Use External Apps"
+    "USE_EXTERNAL_APPS": "Use External Apps",
+    "PIN_MESSAGES": "Pin Messages"
 }
