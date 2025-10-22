@@ -46,5 +46,6 @@
     "USE_EXTERNAL_SOUNDS": "Externe Sounds verwenden",
     "SEND_VOICE_MESSAGES": "Sprachnachrichten senden",
     "SEND_POLLS": "Umfragen erstellen",
-    "USE_EXTERNAL_APPS": "Use External Apps"
+    "USE_EXTERNAL_APPS": "Use External Apps",
+    "PIN_MESSAGES": "Pin Messages"
 }

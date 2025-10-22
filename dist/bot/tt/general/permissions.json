@@ -46,5 +46,6 @@
     "MANAGE_GUILD": "Manage Guild",
     "CREATE_GUILD_EXPRESSIONS": "Create Guild Expressions",
     "KICK_MEMBERS": "Kick Members",
-    "USE_EXTERNAL_APPS": "Use External Apps"
+    "USE_EXTERNAL_APPS": "Use External Apps",
+    "PIN_MESSAGES": "Pin Messages"
 }
