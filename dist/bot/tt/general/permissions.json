@@ -45,5 +45,6 @@
     "CREATE_EVENTS": "Create Events",
     "MANAGE_GUILD": "Manage Guild",
     "CREATE_GUILD_EXPRESSIONS": "Create Guild Expressions",
-    "KICK_MEMBERS": "Kick Members"
+    "KICK_MEMBERS": "Kick Members",
+    "USE_EXTERNAL_APPS": "Use External Apps"
 }

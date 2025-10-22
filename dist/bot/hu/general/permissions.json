@@ -45,5 +45,6 @@
     "CREATE_EVENTS": "Események Létrehozása",
     "MANAGE_GUILD": "Szerver Kezelése",
     "CREATE_GUILD_EXPRESSIONS": "Kifejezések Létrehozása",
-    "KICK_MEMBERS": "Tagok Kirugása"
+    "KICK_MEMBERS": "Tagok Kirugása",
+    "USE_EXTERNAL_APPS": "Use External Apps"
 }
