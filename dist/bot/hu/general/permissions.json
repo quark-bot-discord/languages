@@ -46,6 +46,6 @@
     "MANAGE_GUILD": "Szerver Kezelése",
     "CREATE_GUILD_EXPRESSIONS": "Kifejezések Létrehozása",
     "KICK_MEMBERS": "Tagok Kirugása",
-    "USE_EXTERNAL_APPS": "Use External Apps",
-    "PIN_MESSAGES": "Pin Messages"
+    "USE_EXTERNAL_APPS": "Külső Alkamazások Használata",
+    "PIN_MESSAGES": "Üzenetek Kitüzése"
 }
