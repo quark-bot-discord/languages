@@ -1,14 +1,14 @@
 {
     "serverlogOptionsUpdate": {
-        "buttons": "Gombok",
+        "buttons": "Gombokat",
         "title": "Logolási Opciók Frissítve",
-        "spoilers": "Spoilerek",
-        "formatType": "Formázási fajta",
-        "description": "{executor} beállította {option} erre {state}",
+        "spoilers": "Spoilereket",
+        "formatType": "Formázási Típus",
+        "description": "{executor} beállította a {option} erre {state}",
         "pluralkitSupport": "PluralKit Támogatás"
     },
     "serverlogChannelUpdate": {
-        "description_set": "{executor} beállította a {type} logolási csatornát {channel} csatornára",
+        "description_set": "{executor} beállította a(z) {type} logolási csatornát {channel} csatornára",
         "description_unset": "{executor} kikapcsolta a {type} logolási csatornát",
         "title": "Logolási Csatorna Változás",
         "description_category_disable": "{executor} letiltotta a {type} logolást csatornát"
@@ -44,8 +44,8 @@
         "description_unset": "{executor} letiltotta {type}",
         "description_set": "{executor} engedélyezte {type}",
         "title": "Opció Figyelmen Kívül Hagyás Frissítve",
-        "description_removed": "{executor} eltávolította {target}t {type}ról/ről",
-        "description_added": "{executor} hozzáadta {target}t {type}hoz"
+        "description_removed": "{executor} eltávolította {target}t {type}ból/ből",
+        "description_added": "{executor} hozzáadta {target}t {type}hez/hoz"
     },
     "tokenAdded": {
         "unique_id": "Token Azonosító",
