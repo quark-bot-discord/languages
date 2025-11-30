@@ -16,7 +16,7 @@
         "topic": "Téma",
         "title": "Szakasz Véget Ért",
         "none": "semmi",
-        "description_noExecutor": "A szakasz {channel} véget ért",
+        "description_noExecutor": "A szakasz {channel} ban/ben véget ért",
         "description": "A szakaszt ebben a(z) {channel} csatornában {executor} leállította"
     },
     "serverUndeafen": {
@@ -82,7 +82,7 @@
         "description": "{user} csatlakozott a(z) {channel} hangcsatornába"
     },
     "videoStart": {
-        "description": "{user} elkezdett videózni a {channel} hangcsatornában",
+        "description": "{user} elkezdett videózni a(z) {channel} hangcsatornában",
         "title": "Videó Elindítva"
     },
     "streamStart": {
@@ -102,7 +102,7 @@
         "description": "{user} át helyezték a(z) {channel_old} hangcsatornából a(z) {channel_new} hangcsatornába"
     },
     "stageSpeakerRemove": {
-        "description": "{user} többé nem beszél a {channel} csatornában",
+        "description": "{user} többé nem beszél a(z) {channel} csatornában",
         "title": "Beszélő Abbahagyta A Beszédett"
     }
 }
