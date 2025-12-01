@@ -10,7 +10,7 @@
         "title_multiple": "Rangok Hozzáadva",
         "givenBy": "Hozzá adta",
         "dangerousPermissions": "Veszélyes jogosultságok lettek megadva",
-        "description": "A {role} hozzá lett adva {user}hez",
+        "description": "A(z) {role} hozzá lett adva {user}hez",
         "roles": "Rangok",
         "title": "Rang Hozzáadva",
         "warning": "FIGYELMEZTETÉS!",
@@ -66,10 +66,10 @@
     "memberRoleRemove": {
         "roles": "Rangok",
         "removedBy": "Eltávolította",
-        "description": "A {role} rangot eltávolíották {user}ról/ről",
+        "description": "A(z) {role} rangot eltávolíották {user}ról/ről",
         "title": "Rang Eltávolítva",
         "title_multiple": "Rangok Eltávolítva",
-        "description_multiple": "Több rangot elvettek a {user}tól/től"
+        "description_multiple": "Több rangot elvettek {user}tól/től"
     },
     "memberPrune": {
         "title": "Tagok Ritkitva",
