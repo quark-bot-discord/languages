@@ -47,5 +47,6 @@
     "SEND_VOICE_MESSAGES": "Sprachnachrichten senden",
     "SEND_POLLS": "Umfragen erstellen",
     "USE_EXTERNAL_APPS": "Use External Apps",
-    "PIN_MESSAGES": "Pin Messages"
+    "PIN_MESSAGES": "Pin Messages",
+    "BYPASS_SLOWMODE": "Bypass Slowmode"
 }
