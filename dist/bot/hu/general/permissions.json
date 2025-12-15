@@ -48,5 +48,6 @@
     "KICK_MEMBERS": "Tagok Kirugása",
     "USE_EXTERNAL_APPS": "Külső Alkamazások Használata",
     "PIN_MESSAGES": "Üzenetek Kitüzése",
-    "BYPASS_SLOWMODE": "Bypass Slowmode"
+    "BYPASS_SLOWMODE": "Bypass Slowmode",
+    "MANAGE_EVENTS": "Manage Events"
 }

@@ -419,6 +419,7 @@ export type LanguageStructure = {
   USE_EXTERNAL_APPS: string;
   PIN_MESSAGES: string;
   BYPASS_SLOWMODE: string;
+  MANAGE_EVENTS: string;
 }>;
   role_update_types: Promise<{
   enabled: string;
@@ -567,10 +568,6 @@ export type LanguageStructure = {
   initialReactor: Promise<{
   name: string;
 }>;
-  invite: Promise<{
-  name: string;
-  description: string;
-}>;
   kick: Promise<{
   name: string;
   description: string;
@@ -584,6 +581,10 @@ export type LanguageStructure = {
   description: string;
 };
 };
+}>;
+  invite: Promise<{
+  name: string;
+  description: string;
 }>;
   language: Promise<{
   name: string;
@@ -654,6 +655,20 @@ export type LanguageStructure = {
 };
 };
 }>;
+  reason: Promise<{
+  name: string;
+  description: string;
+  commandOptions: {
+  caseOption: {
+  name: string;
+  description: string;
+};
+  reasonOption: {
+  name: string;
+  description: string;
+};
+};
+}>;
   serverlog: Promise<{
   name: string;
   description: string;
@@ -707,20 +722,6 @@ export type LanguageStructure = {
   description: string;
 };
   spoilersOption: {
-  name: string;
-  description: string;
-};
-};
-}>;
-  reason: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  caseOption: {
-  name: string;
-  description: string;
-};
-  reasonOption: {
   name: string;
   description: string;
 };
@@ -792,7 +793,7 @@ export type LanguageStructure = {
 };
 };
 }>;
-  unban: Promise<{
+  unmute: Promise<{
   name: string;
   description: string;
   commandOptions: {
@@ -806,7 +807,7 @@ export type LanguageStructure = {
 };
 };
 }>;
-  unmute: Promise<{
+  unban: Promise<{
   name: string;
   description: string;
   commandOptions: {
@@ -919,40 +920,6 @@ export type LanguageStructure = {
   none: string;
 };
 }>;
-  roleEvents: Promise<{
-  roleCreated: {
-  title: string;
-  description: string;
-};
-  roleDeleted: {
-  title: string;
-  description: string;
-  role: string;
-  linkToRoleIcon: string;
-};
-  roleUpdated: {
-  title: string;
-  description: string;
-};
-  rolePermissionsUpdate: {
-  title: string;
-  description: string;
-  newPermissions: string;
-  oldPermissions: string;
-  viewFullNewPermissions: string;
-  viewFullOldPermissions: string;
-  warning: string;
-  dangerousPermissions: string;
-};
-  roleIconUpdate: {
-  title: string;
-  description: string;
-  description_added: string;
-  description_removed: string;
-  linkToOldIcon: string;
-  linkToNewIcon: string;
-};
-}>;
   modlog: Promise<{
   moderator: string;
   user: string;
@@ -1035,6 +1002,40 @@ export type LanguageStructure = {
   tokenRevoked: {
   title: string;
   description: string;
+};
+}>;
+  roleEvents: Promise<{
+  roleCreated: {
+  title: string;
+  description: string;
+};
+  roleDeleted: {
+  title: string;
+  description: string;
+  role: string;
+  linkToRoleIcon: string;
+};
+  roleUpdated: {
+  title: string;
+  description: string;
+};
+  rolePermissionsUpdate: {
+  title: string;
+  description: string;
+  newPermissions: string;
+  oldPermissions: string;
+  viewFullNewPermissions: string;
+  viewFullOldPermissions: string;
+  warning: string;
+  dangerousPermissions: string;
+};
+  roleIconUpdate: {
+  title: string;
+  description: string;
+  description_added: string;
+  description_removed: string;
+  linkToOldIcon: string;
+  linkToNewIcon: string;
 };
 }>;
   serverEvents: Promise<{
@@ -1378,5 +1379,5 @@ export type LanguageStructure = {
 }>;
 };
 };
-export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "export" | "help" | "initialReactor" | "invite" | "kick" | "language" | "logging" | "mute" | "ping" | "premium" | "privacy" | "purge" | "serverlog" | "reason" | "tags" | "unban" | "unmute";
+export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "export" | "help" | "initialReactor" | "kick" | "invite" | "language" | "logging" | "mute" | "ping" | "premium" | "privacy" | "purge" | "reason" | "serverlog" | "tags" | "unmute" | "unban";
 export type QuarkLanguageCodes = "en_us" | "en_gb" | "tr" | "vi" | "en_pr" | "pl" | "nl" | "es_es" | "it" | "de" | "fr" | "ru" | "el" | "zh_hant" | "ko" | "sl" | "ar" | "hu";
