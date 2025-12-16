@@ -18,15 +18,15 @@
         "title": "Usuario izquierdo",
         "description": "{user} abandonó el servidor",
         "joined": "Unido",
-        "roles": "Funciones",
+        "roles": "Roles",
         "serverProfilePicture": "Enlace al avatar del servidor",
-        "description_kicked": "{user} fue pateado por {executor}",
+        "description_kicked": "{user} fue expulsado por {executor}",
         "description_kicked_no_executor": "{user} fue expulsado",
-        "description_banned": "{user} fue prohibido por {executor}",
-        "description_banned_no_executor": "{user} fue prohibido",
+        "description_banned": "{user} fue baneado por {executor}",
+        "description_banned_no_executor": "{user} fue baneado",
         "info": "Información",
         "info_kicked": "Usuario expulsado",
-        "info_banned": "Usuario bloqueado"
+        "info_banned": "Usuario baneado"
     },
     "botAdded": {
         "title": "Bot agregado",
@@ -48,7 +48,7 @@
     "memberRoleAdd": {
         "title": "Rol asignado",
         "title_multiple": "Roles asignados",
-        "description": "A {role} se le asignó el rol {user}",
+        "description": "A {user} se le asignó el rol {role}",
         "description_multiple": "A {user} se le asignaron múltiples roles",
         "givenBy": "Dada por",
         "roles": "Roles",
