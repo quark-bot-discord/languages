@@ -36,7 +36,7 @@
         "eventDescription": "Descripción",
         "location": "Ubicación",
         "starts": "Empieza",
-        "image": "imagen"
+        "image": "Imagen"
     },
     "serverEventDelete": {
         "title": "Evento eliminado",
