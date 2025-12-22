@@ -48,6 +48,6 @@
     "SEND_POLLS": "Enviar Encuestas",
     "USE_EXTERNAL_APPS": "Use External Apps",
     "PIN_MESSAGES": "Pin Messages",
-    "BYPASS_SLOWMODE": "Bypass Slowmode",
-    "MANAGE_EVENTS": "Manage Events"
+    "BYPASS_SLOWMODE": "Omitir el modo lento",
+    "MANAGE_EVENTS": "Administrar eventos"
 }
