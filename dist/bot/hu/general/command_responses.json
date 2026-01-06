@@ -134,7 +134,7 @@
     "error-401-0": "Parancs hiba",
     "error-433-1": "A kezdő üzenetnek régebbinek kell lennie, mint a végüzenetnek",
     "target1-command": "célpontok",
-    "error-403-0": "Elégtelen engedélyek",
+    "error-403-0": "Elégtelen jogosultságok",
     "serverlog-web-promote": "...vagy nézze meg webes irányítópultunkat!",
     "help-overview-serverlog": "Logolás",
     "help-overview-website-description": "A Quarkot könnyedén beállíthatja és kezelheti a [webes irányítópultról]!",
