@@ -46,8 +46,8 @@
     "USE_EXTERNAL_SOUNDS": "Использовать внешние звуки",
     "SEND_VOICE_MESSAGES": "Отправлять голосовые сообщения",
     "SEND_POLLS": "Отправлять опросы",
-    "USE_EXTERNAL_APPS": "Use External Apps",
-    "PIN_MESSAGES": "Pin Messages",
-    "BYPASS_SLOWMODE": "Bypass Slowmode",
-    "MANAGE_EVENTS": "Manage Events"
+    "USE_EXTERNAL_APPS": "Использовать Внешние Приложения",
+    "PIN_MESSAGES": "Закрепить Сообщения",
+    "BYPASS_SLOWMODE": "Обойти Медленный Режим",
+    "MANAGE_EVENTS": "Управлять Ивентами"
 }
