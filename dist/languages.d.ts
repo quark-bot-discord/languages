@@ -633,15 +633,15 @@ export type LanguageStructure = {
 };
 };
 }>;
-  ping: Promise<{
-  name: string;
-  description: string;
-}>;
   premium: Promise<{
   name: string;
   description: string;
 }>;
   privacy: Promise<{
+  name: string;
+  description: string;
+}>;
+  ping: Promise<{
   name: string;
   description: string;
 }>;
@@ -940,77 +940,6 @@ export type LanguageStructure = {
   title: string;
 };
 }>;
-  quarkEvents: Promise<{
-  serverlogChannelUpdate: {
-  title: string;
-  description_set: string;
-  description_category_disable: string;
-  description_unset: string;
-};
-  serverlogOptionsUpdate: {
-  title: string;
-  description: string;
-  pluralkitSupport: string;
-  spoilers: string;
-  buttons: string;
-  formatType: string;
-};
-  serverlogLogUpdate: {
-  title: string;
-  description: string;
-  enabled: string;
-  logFormat: string;
-  logChannel: string;
-  colour: string;
-  ignoreBotExecutors: string;
-  ignoreBotTargets: string;
-  activeIgnore: string;
-};
-  serverlogIgnoreUpdate: {
-  title: string;
-  description_set: string;
-  description_unset: string;
-  description_added: string;
-  description_removed: string;
-};
-  languageUpdate: {
-  title: string;
-  description: string;
-};
-  reset: {
-  title: string;
-  description: string;
-};
-  tagAdded: {
-  title: string;
-  description: string;
-};
-  tagUpdated: {
-  title: string;
-  description: string;
-};
-  tagDeleted: {
-  title: string;
-  description: string;
-};
-  tokenAdded: {
-  title: string;
-  description: string;
-  unique_id: string;
-  revoke: string;
-};
-  tokenRevoked: {
-  title: string;
-  description: string;
-};
-  guildSubscriptionUpdate: {
-  title_applied: string;
-  title_removed: string;
-  description_applied: string;
-  description_removed: string;
-  quark_pro: string;
-};
-}>;
   roleEvents: Promise<{
   roleCreated: {
   title: string;
@@ -1098,6 +1027,78 @@ export type LanguageStructure = {
   newChannel: string;
   linkToEventImage: string;
   newImage: string;
+};
+}>;
+  quarkEvents: Promise<{
+  serverlogChannelUpdate: {
+  title: string;
+  description_set: string;
+  description_category_disable: string;
+  description_unset: string;
+};
+  serverlogOptionsUpdate: {
+  title: string;
+  description: string;
+  pluralkitSupport: string;
+  spoilers: string;
+  buttons: string;
+  formatType: string;
+};
+  serverlogLogUpdate: {
+  title: string;
+  description: string;
+  enabled: string;
+  logFormat: string;
+  logChannel: string;
+  colour: string;
+  ignoreBotExecutors: string;
+  ignoreBotTargets: string;
+  activeIgnore: string;
+};
+  serverlogIgnoreUpdate: {
+  title: string;
+  description_set: string;
+  description_unset: string;
+  description_added: string;
+  description_removed: string;
+};
+  languageUpdate: {
+  title: string;
+  description: string;
+};
+  reset: {
+  title: string;
+  description: string;
+};
+  tagAdded: {
+  title: string;
+  description: string;
+};
+  tagUpdated: {
+  title: string;
+  description: string;
+};
+  tagDeleted: {
+  title: string;
+  description: string;
+};
+  tokenAdded: {
+  title: string;
+  description: string;
+  unique_id: string;
+  revoke: string;
+};
+  tokenRevoked: {
+  title: string;
+  description: string;
+};
+  guildSubscriptionUpdate: {
+  title_applied: string;
+  title_removed: string;
+  description_applied: string;
+  description_removed: string;
+  quark_pro: string;
+  quark_prolite: string;
 };
 }>;
   serverEvents: Promise<{
@@ -1386,5 +1387,5 @@ export type LanguageStructure = {
 }>;
 };
 };
-export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "export" | "help" | "initialReactor" | "invite" | "kick" | "language" | "logging" | "mute" | "ping" | "premium" | "privacy" | "purge" | "reason" | "serverlog" | "tags" | "unban" | "unmute";
+export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "export" | "help" | "initialReactor" | "invite" | "kick" | "language" | "logging" | "mute" | "premium" | "privacy" | "ping" | "purge" | "reason" | "serverlog" | "tags" | "unban" | "unmute";
 export type QuarkLanguageCodes = "en_us" | "en_gb" | "tr" | "vi" | "en_pr" | "pl" | "nl" | "es_es" | "it" | "de" | "fr" | "ru" | "el" | "zh_hant" | "ko" | "sl" | "ar" | "hu";
