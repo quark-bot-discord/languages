@@ -63,6 +63,7 @@
     },
     "guildSubscriptionUpdate": {
         "title_applied": "Server Upgraded",
-        "title_removed": "Server Downgraded"
+        "title_removed": "Server Downgraded",
+        "description_applied": "This server now has [type] features enabled! 🎉"
     }
 }
