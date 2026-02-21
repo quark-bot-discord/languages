@@ -68,7 +68,8 @@
         "description_removed": "This server is now using Quark's free tier",
         "quark_pro": "Quark Pro",
         "quark_prolite": "Quark Pro Lite",
-        "none": "none"
+        "none": "none",
+        "executor": "Given by"
     },
     "guildSubscriptionsUpdate": {
         "teaser_pro": "Enjoy extended message logging (up to 4 weeks), fully customizable logs, the Pro bot, and more... 🚀"
