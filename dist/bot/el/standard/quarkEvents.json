@@ -64,6 +64,7 @@
     "guildSubscriptionUpdate": {
         "title_applied": "Server Upgraded",
         "title_removed": "Server Downgraded",
-        "description_applied": "This server now has [type] features enabled! 🎉"
+        "description_applied": "This server now has [type] features enabled! 🎉",
+        "description_removed": "This server is now using Quark's free tier"
     }
 }
