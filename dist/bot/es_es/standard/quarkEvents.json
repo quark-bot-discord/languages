@@ -71,8 +71,5 @@
         "none": "none",
         "executor": "Given by",
         "teaser_pro": "Enjoy extended message logging (up to 4 weeks), fully customizable logs, the Pro bot, and more... 🚀"
-    },
-    "guildSubscriptionsUpdate": {
-        "teaser_pro": "Enjoy extended message logging (up to 4 weeks), fully customizable logs, the Pro bot, and more... 🚀"
     }
 }
