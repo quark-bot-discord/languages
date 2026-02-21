@@ -69,5 +69,8 @@
         "quark_pro": "Quark Pro",
         "quark_prolite": "Quark Pro Lite",
         "none": "none"
+    },
+    "guildSubscriptionsUpdate": {
+        "executor": "Given by"
     }
 }
