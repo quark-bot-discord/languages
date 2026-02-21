@@ -1014,6 +1014,7 @@ export type LanguageStructure = {
 };
   guildSubscriptionsUpdate: {
   executor: string;
+  teaser_pro: string;
 };
 }>;
   roleEvents: Promise<{
