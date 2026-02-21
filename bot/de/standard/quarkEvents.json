@@ -62,6 +62,7 @@
         "description": "{executor} hat den Quark Berechtigungsschlüssel mit der ID {token} widerrufen"
     },
     "guildSubscriptionUpdate": {
-        "title_applied": "Server Upgraded"
+        "title_applied": "Server Upgraded",
+        "title_removed": "Server Downgraded"
     }
 }
