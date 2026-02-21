@@ -60,5 +60,8 @@
     "tokenRevoked": {
         "title": "Token erfolgreich widerrufen",
         "description": "{executor} hat den Quark Berechtigungsschlüssel mit der ID {token} widerrufen"
+    },
+    "guildSubscriptionUpdate": {
+        "title_applied": "Server Upgraded"
     }
 }
