@@ -60,5 +60,8 @@
     "tagDeleted": {
         "description": "تم حذف التاغ {tag} بواسطة {executor}",
         "title": "تم حذف التاغ"
+    },
+    "guildSubscriptionUpdate": {
+        "title_applied": "Server Upgraded"
     }
 }
