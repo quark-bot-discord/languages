@@ -60,5 +60,8 @@
     "tagDeleted": {
         "description": "{executor} törölte a címkét {tag}",
         "title": "Címke Törölve"
+    },
+    "guildSubscriptionUpdate": {
+        "title_applied": "Server Upgraded"
     }
 }

@@ -60,5 +60,8 @@
     "tagDeleted": {
         "description": "{executor} deleted the tag {tag}",
         "title": "Tag Deleted"
+    },
+    "guildSubscriptionUpdate": {
+        "title_applied": "Server Upgraded"
     }
 }

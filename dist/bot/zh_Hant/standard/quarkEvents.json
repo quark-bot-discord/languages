@@ -60,5 +60,8 @@
     "tokenRevoked": {
         "title": "Token 已撤銷",
         "description": "{executor} 已撤銷 ID 為 {token} 的 Quark 存取 Token"
+    },
+    "guildSubscriptionUpdate": {
+        "title_applied": "Server Upgraded"
     }
 }

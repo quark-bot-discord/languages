@@ -60,5 +60,8 @@
     "tokenRevoked": {
         "title": "Token révoqué",
         "description": "{executor} a révoqué le token d'accès à Quark avec l'ID {token}"
+    },
+    "guildSubscriptionUpdate": {
+        "title_applied": "Server Upgraded"
     }
 }
