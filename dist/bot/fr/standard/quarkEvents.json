@@ -68,5 +68,8 @@
         "description_removed": "This server is now using Quark's free tier",
         "quark_pro": "Quark Pro",
         "quark_prolite": "Quark Pro Lite"
+    },
+    "guildSubscriptionsUpdate": {
+        "none": "none"
     }
 }
