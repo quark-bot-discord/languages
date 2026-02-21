@@ -67,6 +67,7 @@
         "description_applied": "This server now has [type] features enabled! 🎉",
         "description_removed": "This server is now using Quark's free tier",
         "quark_pro": "Quark Pro",
-        "quark_prolite": "Quark Pro Lite"
+        "quark_prolite": "Quark Pro Lite",
+        "none": "none"
     }
 }
