@@ -1011,9 +1011,6 @@ export type LanguageStructure = {
   quark_pro: string;
   quark_prolite: string;
 };
-  guildSubscriptionsUpdate: {
-  none: string;
-};
 }>;
   roleEvents: Promise<{
   roleCreated: {
