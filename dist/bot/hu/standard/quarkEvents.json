@@ -62,14 +62,14 @@
         "title": "Címke Törölve"
     },
     "guildSubscriptionUpdate": {
-        "title_applied": "Server Upgraded",
-        "title_removed": "Server Downgraded",
-        "description_applied": "This server now has [type] features enabled! 🎉",
-        "description_removed": "This server is now using Quark's free tier",
+        "title_applied": "Szerver Fejlesztve",
+        "title_removed": "Szerver Lefejlödőtt",
+        "description_applied": "Ez a szerver most már {type} funkciókkal rendelkezik!✨",
+        "description_removed": "Ez a szerver most már a Quark ingyenes tiert használja",
         "quark_pro": "Quark Pro",
         "quark_prolite": "Quark Pro Lite",
-        "none": "none",
-        "executor": "Given by",
-        "teaser_pro": "Enjoy extended message logging (up to 4 weeks), fully customizable logs, the Pro bot, and more... 🚀"
+        "none": "semmi",
+        "executor": "Hozzáadta",
+        "teaser_pro": "Élvezd a kiterjesztett üzenet logolást (legfejebb 4 hétig), Tejlesen testreszabható logok, a Pro bot, és több... 🚀"
     }
 }
