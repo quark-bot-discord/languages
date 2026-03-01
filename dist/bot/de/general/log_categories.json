@@ -9,5 +9,6 @@
     "channelEvents": "Kanäle",
     "quarkEvents": "Quark Konfiguration",
     "modLog": "Mod-Logs",
-    "main": "Haupt"
+    "main": "Haupt",
+    "category_actions": "Actions"
 }

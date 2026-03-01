@@ -9,5 +9,6 @@
     "main": "الرئيسية",
     "fileEvents": "الملفات",
     "quarkEvents": "إعدادات Quark",
-    "generalEvents": "السيرفر"
+    "generalEvents": "السيرفر",
+    "category_actions": "Actions"
 }

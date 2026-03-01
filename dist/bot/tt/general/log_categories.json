@@ -9,5 +9,6 @@
     "main": "Main",
     "fileEvents": "Files",
     "quarkEvents": "Quark Config",
-    "generalEvents": "Server"
+    "generalEvents": "Server",
+    "category_actions": "Actions"
 }
