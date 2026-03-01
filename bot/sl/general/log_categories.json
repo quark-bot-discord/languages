@@ -9,5 +9,6 @@
     "modLog": "Modlogs",
     "channelEvents": "Channels",
     "voiceEvents": "Voice",
-    "textEvents": "Messages"
+    "textEvents": "Messages",
+    "category_actions": "Actions"
 }
