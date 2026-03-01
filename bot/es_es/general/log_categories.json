@@ -9,5 +9,6 @@
     "channelEvents": "Canales",
     "quarkEvents": "Configuración de quarks",
     "modLog": "Registros de módulos",
-    "main": "Principal"
+    "main": "Principal",
+    "category_actions": "Actions"
 }
