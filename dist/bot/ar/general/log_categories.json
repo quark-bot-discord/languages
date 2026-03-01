@@ -19,5 +19,6 @@
     "category_roles": "Roles",
     "category_server": "Server",
     "category_text": "Text",
-    "category_voice": "Voice"
+    "category_voice": "Voice",
+    "main_channel": "Main"
 }
