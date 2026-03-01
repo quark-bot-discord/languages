@@ -1,5 +1,9 @@
 export type LanguageStructure = {
   general: {
+  access_token: Promise<{
+  "1": string;
+  "2": string;
+}>;
   buttons: Promise<{
   userID: string;
   supportServer: string;
@@ -8,10 +12,6 @@ export type LanguageStructure = {
   serverlog: string;
   dashboard: string;
   pro: string;
-}>;
-  access_token: Promise<{
-  "1": string;
-  "2": string;
 }>;
   channel_types: Promise<{
   "0": string;
@@ -31,6 +31,52 @@ export type LanguageStructure = {
 }>;
   emoji_update_types: Promise<{
   none: string;
+}>;
+  gui_constants: Promise<{
+  channelModificationTypes: {
+  name: string;
+  type: string;
+  position: string;
+  topic: string;
+  rate_limit_per_user: string;
+  parent_id: string;
+  bitrate: string;
+  user_limit: string;
+  rtc_region: string;
+  nsfw: string;
+};
+  roleModificationTypes: {
+  name: string;
+  color: string;
+  hoist: string;
+  managed: string;
+  mentionable: string;
+  unicode_emoji: string;
+};
+  emojiModificationTypes: {
+  name: string;
+};
+  guildModificationTypes: {
+  name: string;
+  description: string;
+  system_channel_id: string;
+  rules_channel_id: string;
+  mfa_level: string;
+  verification_level: string;
+  default_message_notifications: string;
+  explicit_content_filter: string;
+  nsfw_level: string;
+  premium_progress_bar_enabled: string;
+};
+  webhookModificationTypes: {
+  name: string;
+  channel_id: string;
+};
+  threadModificationTypes: {
+  rate_limit_per_user: string;
+  auto_archive_duration: string;
+  name: string;
+};
 }>;
   command_responses: Promise<{
   disable: string;
@@ -261,51 +307,34 @@ export type LanguageStructure = {
   "banButton-banning": string;
   "banButton-cancel": string;
 }>;
-  gui_constants: Promise<{
-  channelModificationTypes: {
-  name: string;
-  type: string;
-  position: string;
-  topic: string;
-  rate_limit_per_user: string;
-  parent_id: string;
-  bitrate: string;
-  user_limit: string;
-  rtc_region: string;
-  nsfw: string;
-};
-  roleModificationTypes: {
-  name: string;
-  color: string;
-  hoist: string;
-  managed: string;
-  mentionable: string;
-  unicode_emoji: string;
-};
-  emojiModificationTypes: {
-  name: string;
-};
-  guildModificationTypes: {
-  name: string;
-  description: string;
-  system_channel_id: string;
-  rules_channel_id: string;
-  mfa_level: string;
-  verification_level: string;
-  default_message_notifications: string;
-  explicit_content_filter: string;
-  nsfw_level: string;
-  premium_progress_bar_enabled: string;
-};
-  webhookModificationTypes: {
-  name: string;
-  channel_id: string;
-};
-  threadModificationTypes: {
-  rate_limit_per_user: string;
-  auto_archive_duration: string;
-  name: string;
-};
+  ignore_options: Promise<{
+  ignoreTargets: string;
+  ignoreExecutors: string;
+  specificMessageContent: string;
+  ignoreChannels: string;
+  ignoreBotExecutors: string;
+  ignoreBotTargets: string;
+  ignoreExecutorRoles: string;
+  ignoreTargetRoles: string;
+  ignoreCategories: string;
+  activeIgnore: string;
+}>;
+  log_categories: Promise<{
+  serverEvents: string;
+  serverActions: string;
+  textEvents: string;
+  voiceEvents: string;
+  fileEvents: string;
+  generalEvents: string;
+  roleEvents: string;
+  channelEvents: string;
+  quarkEvents: string;
+  modLog: string;
+  main: string;
+  category_actions: string;
+  category_channels: string;
+  category_files: string;
+  category_members: string;
 }>;
   guild_update_types: Promise<{
   none: string;
@@ -335,34 +364,6 @@ export type LanguageStructure = {
   true: string;
   false: string;
 };
-}>;
-  log_categories: Promise<{
-  serverEvents: string;
-  serverActions: string;
-  textEvents: string;
-  voiceEvents: string;
-  fileEvents: string;
-  generalEvents: string;
-  roleEvents: string;
-  channelEvents: string;
-  quarkEvents: string;
-  modLog: string;
-  main: string;
-  category_actions: string;
-  category_channels: string;
-  category_files: string;
-}>;
-  ignore_options: Promise<{
-  ignoreTargets: string;
-  ignoreExecutors: string;
-  specificMessageContent: string;
-  ignoreChannels: string;
-  ignoreBotExecutors: string;
-  ignoreBotTargets: string;
-  ignoreExecutorRoles: string;
-  ignoreTargetRoles: string;
-  ignoreCategories: string;
-  activeIgnore: string;
 }>;
   log_formats: Promise<{
   "0": string;
@@ -474,10 +475,6 @@ export type LanguageStructure = {
 }>;
 };
   slash_commands: {
-  commands: Promise<{
-  name: string;
-  description: string;
-}>;
   ban: Promise<{
   name: string;
   description: string;
@@ -495,6 +492,10 @@ export type LanguageStructure = {
   description: string;
 };
 };
+}>;
+  commands: Promise<{
+  name: string;
+  description: string;
 }>;
   config: Promise<{
   name: string;
@@ -528,20 +529,6 @@ export type LanguageStructure = {
 };
 };
 }>;
-  help: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  overviewOption: {
-  name: string;
-  description: string;
-};
-  serverlogOption: {
-  name: string;
-  description: string;
-};
-};
-}>;
   export: Promise<{
   name: string;
   description: string;
@@ -568,12 +555,22 @@ export type LanguageStructure = {
 };
 };
 }>;
-  initialReactor: Promise<{
-  name: string;
-}>;
-  invite: Promise<{
+  help: Promise<{
   name: string;
   description: string;
+  commandOptions: {
+  overviewOption: {
+  name: string;
+  description: string;
+};
+  serverlogOption: {
+  name: string;
+  description: string;
+};
+};
+}>;
+  initialReactor: Promise<{
+  name: string;
 }>;
   kick: Promise<{
   name: string;
@@ -589,7 +586,7 @@ export type LanguageStructure = {
 };
 };
 }>;
-  logging: Promise<{
+  invite: Promise<{
   name: string;
   description: string;
 }>;
@@ -602,6 +599,10 @@ export type LanguageStructure = {
   description: string;
 };
 };
+}>;
+  logging: Promise<{
+  name: string;
+  description: string;
 }>;
   mute: Promise<{
   name: string;
@@ -648,16 +649,6 @@ export type LanguageStructure = {
   name: string;
   description: string;
 }>;
-  purge: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  countOption: {
-  name: string;
-  description: string;
-};
-};
-}>;
   reason: Promise<{
   name: string;
   description: string;
@@ -667,6 +658,16 @@ export type LanguageStructure = {
   description: string;
 };
   reasonOption: {
+  name: string;
+  description: string;
+};
+};
+}>;
+  purge: Promise<{
+  name: string;
+  description: string;
+  commandOptions: {
+  countOption: {
   name: string;
   description: string;
 };
@@ -923,26 +924,6 @@ export type LanguageStructure = {
   none: string;
 };
 }>;
-  modlog: Promise<{
-  moderator: string;
-  user: string;
-  reason: string;
-  case: string;
-  noReason: string;
-  noReasonBrief: string;
-  ban: string;
-  unban: string;
-  kick: string;
-  mute: string;
-  unmute: string;
-  timeoutEnds: string;
-  editReason: string;
-  reasonModal: {
-  label: string;
-  placeholder: string;
-  title: string;
-};
-}>;
   quarkEvents: Promise<{
   serverlogChannelUpdate: {
   title: string;
@@ -1016,6 +997,26 @@ export type LanguageStructure = {
   none: string;
   executor: string;
   teaser_pro: string;
+};
+}>;
+  modlog: Promise<{
+  moderator: string;
+  user: string;
+  reason: string;
+  case: string;
+  noReason: string;
+  noReasonBrief: string;
+  ban: string;
+  unban: string;
+  kick: string;
+  mute: string;
+  unmute: string;
+  timeoutEnds: string;
+  editReason: string;
+  reasonModal: {
+  label: string;
+  placeholder: string;
+  title: string;
 };
 }>;
   roleEvents: Promise<{
@@ -1393,5 +1394,5 @@ export type LanguageStructure = {
 }>;
 };
 };
-export type SlashCommandNames = "commands" | "ban" | "config" | "dashboard" | "debug" | "help" | "export" | "initialReactor" | "invite" | "kick" | "logging" | "language" | "mute" | "ping" | "premium" | "privacy" | "purge" | "reason" | "serverlog" | "tags" | "unban" | "unmute";
+export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "export" | "help" | "initialReactor" | "kick" | "invite" | "language" | "logging" | "mute" | "ping" | "premium" | "privacy" | "reason" | "purge" | "serverlog" | "tags" | "unban" | "unmute";
 export type QuarkLanguageCodes = "en_us" | "en_gb" | "tr" | "vi" | "en_pr" | "pl" | "nl" | "es_es" | "it" | "de" | "fr" | "ru" | "el" | "zh_hant" | "ko" | "sl" | "ar" | "hu";

@@ -12,5 +12,6 @@
     "generalEvents": "Szerver",
     "category_actions": "Actions",
     "category_channels": "Channels",
-    "category_files": "Files"
+    "category_files": "Files",
+    "category_members": "Members"
 }
