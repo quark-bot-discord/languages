@@ -10,5 +10,6 @@
     "quarkEvents": "Настройки Quark",
     "modLog": "Логи модерации",
     "main": "Основные",
-    "category_actions": "Actions"
+    "category_actions": "Actions",
+    "category_channels": "Channels"
 }

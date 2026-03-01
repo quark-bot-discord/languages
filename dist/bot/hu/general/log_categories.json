@@ -10,5 +10,6 @@
     "fileEvents": "Fájlok",
     "quarkEvents": "Quark Konfig",
     "generalEvents": "Szerver",
-    "category_actions": "Actions"
+    "category_actions": "Actions",
+    "category_channels": "Channels"
 }

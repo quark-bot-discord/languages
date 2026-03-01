@@ -10,5 +10,6 @@
     "quarkEvents": "Konfiguracja quark'a",
     "modLog": "Dzienniki moderacji",
     "main": "Głowne",
-    "category_actions": "Actions"
+    "category_actions": "Actions",
+    "category_channels": "Channels"
 }

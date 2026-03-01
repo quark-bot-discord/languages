@@ -10,5 +10,6 @@
     "quarkEvents": "Quark Konfiguration",
     "modLog": "Mod-Logs",
     "main": "Haupt",
-    "category_actions": "Actions"
+    "category_actions": "Actions",
+    "category_channels": "Channels"
 }
