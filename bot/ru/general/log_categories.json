@@ -9,5 +9,6 @@
     "channelEvents": "Каналы",
     "quarkEvents": "Настройки Quark",
     "modLog": "Логи модерации",
-    "main": "Основные"
+    "main": "Основные",
+    "category_actions": "Actions"
 }
