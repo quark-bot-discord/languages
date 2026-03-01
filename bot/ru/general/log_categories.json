@@ -11,5 +11,6 @@
     "modLog": "Логи модерации",
     "main": "Основные",
     "category_actions": "Actions",
-    "category_channels": "Channels"
+    "category_channels": "Channels",
+    "category_files": "Files"
 }
