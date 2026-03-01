@@ -9,5 +9,6 @@
     "main": "Fő",
     "fileEvents": "Fájlok",
     "quarkEvents": "Quark Konfig",
-    "generalEvents": "Szerver"
+    "generalEvents": "Szerver",
+    "category_actions": "Actions"
 }
