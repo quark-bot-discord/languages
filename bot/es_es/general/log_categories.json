@@ -10,5 +10,6 @@
     "quarkEvents": "Configuración de quarks",
     "modLog": "Registros de módulos",
     "main": "Principal",
-    "category_actions": "Actions"
+    "category_actions": "Actions",
+    "category_channels": "Channels"
 }
