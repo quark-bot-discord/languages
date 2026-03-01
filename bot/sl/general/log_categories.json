@@ -10,5 +10,6 @@
     "channelEvents": "Channels",
     "voiceEvents": "Voice",
     "textEvents": "Messages",
-    "category_actions": "Actions"
+    "category_actions": "Actions",
+    "category_channels": "Channels"
 }
