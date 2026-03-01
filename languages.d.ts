@@ -336,18 +336,6 @@ export type LanguageStructure = {
   false: string;
 };
 }>;
-  ignore_options: Promise<{
-  ignoreTargets: string;
-  ignoreExecutors: string;
-  specificMessageContent: string;
-  ignoreChannels: string;
-  ignoreBotExecutors: string;
-  ignoreBotTargets: string;
-  ignoreExecutorRoles: string;
-  ignoreTargetRoles: string;
-  ignoreCategories: string;
-  activeIgnore: string;
-}>;
   log_categories: Promise<{
   serverEvents: string;
   serverActions: string;
@@ -366,6 +354,19 @@ export type LanguageStructure = {
   category_members: string;
   category_modlog: string;
   category_quark: string;
+  category_roles: string;
+}>;
+  ignore_options: Promise<{
+  ignoreTargets: string;
+  ignoreExecutors: string;
+  specificMessageContent: string;
+  ignoreChannels: string;
+  ignoreBotExecutors: string;
+  ignoreBotTargets: string;
+  ignoreExecutorRoles: string;
+  ignoreTargetRoles: string;
+  ignoreCategories: string;
+  activeIgnore: string;
 }>;
   log_formats: Promise<{
   "0": string;
@@ -578,6 +579,16 @@ export type LanguageStructure = {
   name: string;
   description: string;
 }>;
+  language: Promise<{
+  name: string;
+  description: string;
+  commandOptions: {
+  languageOption: {
+  name: string;
+  description: string;
+};
+};
+}>;
   kick: Promise<{
   name: string;
   description: string;
@@ -592,15 +603,9 @@ export type LanguageStructure = {
 };
 };
 }>;
-  language: Promise<{
+  logging: Promise<{
   name: string;
   description: string;
-  commandOptions: {
-  languageOption: {
-  name: string;
-  description: string;
-};
-};
 }>;
   mute: Promise<{
   name: string;
@@ -635,10 +640,6 @@ export type LanguageStructure = {
 };
 };
 }>;
-  logging: Promise<{
-  name: string;
-  description: string;
-}>;
   ping: Promise<{
   name: string;
   description: string;
@@ -650,6 +651,20 @@ export type LanguageStructure = {
   privacy: Promise<{
   name: string;
   description: string;
+}>;
+  reason: Promise<{
+  name: string;
+  description: string;
+  commandOptions: {
+  caseOption: {
+  name: string;
+  description: string;
+};
+  reasonOption: {
+  name: string;
+  description: string;
+};
+};
 }>;
   purge: Promise<{
   name: string;
@@ -714,20 +729,6 @@ export type LanguageStructure = {
   description: string;
 };
   spoilersOption: {
-  name: string;
-  description: string;
-};
-};
-}>;
-  reason: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  caseOption: {
-  name: string;
-  description: string;
-};
-  reasonOption: {
   name: string;
   description: string;
 };
@@ -896,6 +897,26 @@ export type LanguageStructure = {
   unknownChannel: string;
 };
 }>;
+  modlog: Promise<{
+  moderator: string;
+  user: string;
+  reason: string;
+  case: string;
+  noReason: string;
+  noReasonBrief: string;
+  ban: string;
+  unban: string;
+  kick: string;
+  mute: string;
+  unmute: string;
+  timeoutEnds: string;
+  editReason: string;
+  reasonModal: {
+  label: string;
+  placeholder: string;
+  title: string;
+};
+}>;
   generalEvents: Promise<{
   serverModified: {
   title: string;
@@ -924,26 +945,6 @@ export type LanguageStructure = {
   description_withTier: string;
   description_withTier_noUser: string;
   none: string;
-};
-}>;
-  modlog: Promise<{
-  moderator: string;
-  user: string;
-  reason: string;
-  case: string;
-  noReason: string;
-  noReasonBrief: string;
-  ban: string;
-  unban: string;
-  kick: string;
-  mute: string;
-  unmute: string;
-  timeoutEnds: string;
-  editReason: string;
-  reasonModal: {
-  label: string;
-  placeholder: string;
-  title: string;
 };
 }>;
   quarkEvents: Promise<{
@@ -1021,6 +1022,40 @@ export type LanguageStructure = {
   teaser_pro: string;
 };
 }>;
+  roleEvents: Promise<{
+  roleCreated: {
+  title: string;
+  description: string;
+};
+  roleDeleted: {
+  title: string;
+  description: string;
+  role: string;
+  linkToRoleIcon: string;
+};
+  roleUpdated: {
+  title: string;
+  description: string;
+};
+  rolePermissionsUpdate: {
+  title: string;
+  description: string;
+  newPermissions: string;
+  oldPermissions: string;
+  viewFullNewPermissions: string;
+  viewFullOldPermissions: string;
+  warning: string;
+  dangerousPermissions: string;
+};
+  roleIconUpdate: {
+  title: string;
+  description: string;
+  description_added: string;
+  description_removed: string;
+  linkToOldIcon: string;
+  linkToNewIcon: string;
+};
+}>;
   serverActions: Promise<{
   inviteCreate: {
   title: string;
@@ -1074,40 +1109,6 @@ export type LanguageStructure = {
   newChannel: string;
   linkToEventImage: string;
   newImage: string;
-};
-}>;
-  roleEvents: Promise<{
-  roleCreated: {
-  title: string;
-  description: string;
-};
-  roleDeleted: {
-  title: string;
-  description: string;
-  role: string;
-  linkToRoleIcon: string;
-};
-  roleUpdated: {
-  title: string;
-  description: string;
-};
-  rolePermissionsUpdate: {
-  title: string;
-  description: string;
-  newPermissions: string;
-  oldPermissions: string;
-  viewFullNewPermissions: string;
-  viewFullOldPermissions: string;
-  warning: string;
-  dangerousPermissions: string;
-};
-  roleIconUpdate: {
-  title: string;
-  description: string;
-  description_added: string;
-  description_removed: string;
-  linkToOldIcon: string;
-  linkToNewIcon: string;
 };
 }>;
   serverEvents: Promise<{
@@ -1396,5 +1397,5 @@ export type LanguageStructure = {
 }>;
 };
 };
-export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "export" | "help" | "initialReactor" | "invite" | "kick" | "language" | "mute" | "logging" | "ping" | "premium" | "privacy" | "purge" | "serverlog" | "reason" | "unban" | "tags" | "unmute";
+export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "export" | "help" | "initialReactor" | "invite" | "language" | "kick" | "logging" | "mute" | "ping" | "premium" | "privacy" | "reason" | "purge" | "serverlog" | "unban" | "tags" | "unmute";
 export type QuarkLanguageCodes = "en_us" | "en_gb" | "tr" | "vi" | "en_pr" | "pl" | "nl" | "es_es" | "it" | "de" | "fr" | "ru" | "el" | "zh_hant" | "ko" | "sl" | "ar" | "hu";
