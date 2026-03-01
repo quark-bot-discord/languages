@@ -11,5 +11,6 @@
     "modLog": "Logs de modération",
     "main": "Principal",
     "category_actions": "Actions",
-    "category_channels": "Channels"
+    "category_channels": "Channels",
+    "category_files": "Files"
 }

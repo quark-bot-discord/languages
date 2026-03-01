@@ -11,5 +11,6 @@
     "quarkEvents": "Quark Config",
     "generalEvents": "Server",
     "category_actions": "Actions",
-    "category_channels": "Channels"
+    "category_channels": "Channels",
+    "category_files": "Files"
 }
