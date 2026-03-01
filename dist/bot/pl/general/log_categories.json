@@ -14,5 +14,6 @@
     "category_channels": "Channels",
     "category_files": "Files",
     "category_members": "Members",
-    "category_modlog": "Modlog"
+    "category_modlog": "Modlog",
+    "category_quark": "Quark Config"
 }
