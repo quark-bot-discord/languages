@@ -11,5 +11,6 @@
     "voiceEvents": "Voice",
     "textEvents": "Messages",
     "category_actions": "Actions",
-    "category_channels": "Channels"
+    "category_channels": "Channels",
+    "category_files": "Files"
 }
