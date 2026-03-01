@@ -9,5 +9,6 @@
     "channelEvents": "Salon",
     "quarkEvents": "Configuration de Quark",
     "modLog": "Logs de modération",
-    "main": "Principal"
+    "main": "Principal",
+    "category_actions": "Actions"
 }
