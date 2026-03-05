@@ -19,10 +19,10 @@
     },
     "channelOverwriteDelete": {
         "title": "{type} Kanal İzinleri Kaldırıldı",
-        "description": "{executor} removed permissions from {channel} for {special}"
+        "description": "{executor}, {channel} kanalından {special} için izinleri kaldırdı"
     },
     "channelOverwriteUpdate": {
-        "title": "{type} Channel Permissions Updated",
+        "title": "{type} Kanal İzinleri Güncellendi",
         "description": "{executor} updated permissions for {channel} for {special}",
         "newPermissions": "New Permissions",
         "viewFullNewPermissions": "View Full New Permissions",
