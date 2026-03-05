@@ -1,46 +1,46 @@
 {
     "channelModificationTypes": {
-        "name": "Name",
-        "type": "Type",
-        "position": "Position",
-        "topic": "Topic",
-        "rate_limit_per_user": "Slowmode",
-        "parent_id": "Category",
-        "bitrate": "Bitrate",
-        "user_limit": "User Limit",
-        "rtc_region": "Region",
-        "nsfw": "NSFW"
+        "name": "名稱",
+        "type": "類型",
+        "position": "位置",
+        "topic": "主題",
+        "rate_limit_per_user": "緩慢模式",
+        "parent_id": "類別",
+        "bitrate": "位元率",
+        "user_limit": "用戶限制",
+        "rtc_region": "地區",
+        "nsfw": "NSFW（腥膻色內容）"
     },
     "roleModificationTypes": {
-        "name": "Name",
-        "color": "Color",
-        "hoist": "Hoisted",
-        "managed": "Managed",
-        "mentionable": "Mentionable",
-        "unicode_emoji": "Emoji"
+        "name": "名稱",
+        "color": "顏色",
+        "hoist": "吊掛",
+        "managed": "管理",
+        "mentionable": "可提及的",
+        "unicode_emoji": "表情符號"
     },
     "emojiModificationTypes": {
-        "name": "Name"
+        "name": "名稱"
     },
     "guildModificationTypes": {
-        "name": "Name",
-        "description": "Description",
-        "system_channel_id": "System Channel",
-        "rules_channel_id": "Rule Channel",
-        "mfa_level": "MFA Required",
-        "verification_level": "Verification Level",
-        "default_message_notifications": "Default Notifications",
-        "explicit_content_filter": "Explicit Content Filter",
-        "nsfw_level": "NSFW Level",
-        "premium_progress_bar_enabled": "Progress Bar"
+        "name": "名稱",
+        "description": "簡介",
+        "system_channel_id": "系統頻道",
+        "rules_channel_id": "規則頻道",
+        "mfa_level": "需要MFA",
+        "verification_level": "認證等級",
+        "default_message_notifications": "預設通知",
+        "explicit_content_filter": "明確內容過濾器",
+        "nsfw_level": "NSFW 等級",
+        "premium_progress_bar_enabled": "進度條"
     },
     "webhookModificationTypes": {
-        "name": "Name",
-        "channel_id": "Channel"
+        "name": "名稱",
+        "channel_id": "頻道"
     },
     "threadModificationTypes": {
-        "rate_limit_per_user": "Slowmode",
-        "auto_archive_duration": "Automatic Archive",
-        "name": "Name"
+        "rate_limit_per_user": "緩慢模式",
+        "auto_archive_duration": "自動歸檔",
+        "name": "名稱"
     }
 }

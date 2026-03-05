@@ -1,7 +1,7 @@
 {
-    "0": "Standard",
-    "1": "Compact",
-    "2": "Standard (no embed)",
-    "3": "Compact (no embed)",
-    "4": "json"
+    "0": "標準的",
+    "1": "小型的",
+    "2": "標準的 (沒有嵌入)",
+    "3": "小型的 (沒有嵌入)",
+    "4": "json（java語言）"
 }
