@@ -1,20 +1,20 @@
 {
     "channelCreated": {
-        "title": "{type} Channel Created",
-        "description": "{channel} was created by {executor}",
-        "descriptionWithCategory": "{channel} was created by {executor} under the {category} category."
+        "title": "{type} Kanalı Oluşturuldu",
+        "description": "{channel}, {executor} tarafından oluşturuldu",
+        "descriptionWithCategory": "{channel}, {executor} tarafından {category} kategorisi altında oluşturuldu."
     },
     "channelDeleted": {
-        "title": "{type} Channel Deleted",
-        "description": "{channel_name} was deleted by {executor}",
-        "channel": "Channel"
+        "title": "{type} Kanalı Silindi",
+        "description": "{channel_name}, {executor} tarafından silindi",
+        "channel": "Kanal"
     },
     "channelUpdated": {
-        "title": "{type} Channel Modified",
-        "description": "{channel} was modified by {executor}"
+        "title": "{type} Kanalı Düzenlendi",
+        "description": "{channel}, {executor} tarafından değiştirildi"
     },
     "channelOverwriteCreate": {
-        "title": "{type} Channel Permissions Added",
+        "title": "{type} Kanal İzinleri Eklendi",
         "description": "{executor} added permissions to {channel} for {special}"
     },
     "channelOverwriteDelete": {
