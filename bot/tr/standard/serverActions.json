@@ -10,46 +10,46 @@
     },
     "inviteDelete": {
         "title": "Davet Silindi",
-        "description_withExecutor": "{executor}, {channel} için bir {invite} davetini sildi",
+        "description_withExecutor": "{executor}, {channel} kanalına ait {invite} davetini sildi",
         "description_withoutExecutor": "An invite {invite} was deleted for {channel}",
         "used": "Used",
-        "created": "Created by",
+        "created": "Oluşturan",
         "none": "none"
     },
     "emojiCreated": {
-        "title": "Emoji Created",
+        "title": "Emoji Eklendi",
         "description": "{emoji} was added by {executor}"
     },
     "emojiDeleted": {
         "title": "Emoji Deleted",
-        "description": "{emoji} was deleted by {executor}",
+        "description": "{emoji}, {executor} tarafından silindi",
         "emoji": "Emoji"
     },
     "emojiUpdated": {
-        "title": "Emoji Edited",
-        "description": "{emoji} was edited by {executor}"
+        "title": "Emoji Düzenlendi",
+        "description": "{emoji}, {executor} tarafından düzenlendi"
     },
     "serverEventCreate": {
-        "description_withoutChannel": "{executor} created an event {name}",
-        "title": "Event Created",
-        "description_withChannel": "{executor} created an event {name} in {channel}",
-        "eventDescription": "Description",
-        "location": "Location",
-        "starts": "Starts",
-        "image": "Image"
+        "description_withoutChannel": "{executor}, {name} adında bir etkinlik oluşturdu",
+        "title": "Etkinlik Oluşturuldu",
+        "description_withChannel": "{executor}, {channel} kanalında {name} adında bir etkinlik oluşturdu",
+        "eventDescription": "Açıklama",
+        "location": "Lokasyon",
+        "starts": "Başlama Tarihi",
+        "image": "Görsel"
     },
     "serverEventUpdate": {
-        "linkToEventImage": "Link to old event image",
-        "title": "Event Updated",
-        "description": "{executor} updated the event {name}",
-        "newEventDescription": "New Description",
-        "newLocation": "New Location",
-        "newChannel": "New Channel",
-        "newImage": "New Image"
+        "linkToEventImage": "Eski etkinlik görseli linki",
+        "title": "Etkinlik Güncellendi",
+        "description": "{executor}, {name} adlı etkinliği güncelledi",
+        "newEventDescription": "Yeni Açıklama",
+        "newLocation": "Yeni Lokasyon",
+        "newChannel": "Yeni Kanal",
+        "newImage": "Yeni Görsel"
     },
     "serverEventDelete": {
-        "title": "Event Deleted",
-        "description": "{executor} deleted the event {name}",
-        "linkToEventImage": "Link to event image"
+        "title": "Etkinlik Silindi",
+        "description": "{executor}, {name} adlı etkinliği sildi",
+        "linkToEventImage": "Etkinlik görseline link"
     }
 }
