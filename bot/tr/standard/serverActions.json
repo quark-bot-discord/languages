@@ -11,17 +11,17 @@
     "inviteDelete": {
         "title": "Davet Silindi",
         "description_withExecutor": "{executor}, {channel} kanalına ait {invite} davetini sildi",
-        "description_withoutExecutor": "An invite {invite} was deleted for {channel}",
-        "used": "Used",
+        "description_withoutExecutor": "{channel} için bir davet {invite} silindi",
+        "used": "Kullanılmış",
         "created": "Oluşturan",
-        "none": "none"
+        "none": "hiçbiri"
     },
     "emojiCreated": {
         "title": "Emoji Eklendi",
-        "description": "{emoji} was added by {executor}"
+        "description": "{emoji}, {executor} tarafından eklendi"
     },
     "emojiDeleted": {
-        "title": "Emoji Deleted",
+        "title": "Emoji Silindi",
         "description": "{emoji}, {executor} tarafından silindi",
         "emoji": "Emoji"
     },
