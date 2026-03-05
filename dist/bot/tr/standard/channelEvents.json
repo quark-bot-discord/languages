@@ -14,15 +14,15 @@
         "description": "{channel}, {executor} tarafından değiştirildi"
     },
     "channelOverwriteCreate": {
-        "title": "{type} Kanal İzinleri Eklendi",
+        "title": "{type} Kanalı İzinleri Eklendi",
         "description": "{executor} added permissions to {channel} for {special}"
     },
     "channelOverwriteDelete": {
-        "title": "{type} Channel Permissions Removed",
-        "description": "{executor} removed permissions from {channel} for {special}"
+        "title": "{type} Kanalı İzinleri Kaldırıldı",
+        "description": "{executor}, {channel} kanalından {special} için izinleri kaldırdı"
     },
     "channelOverwriteUpdate": {
-        "title": "{type} Channel Permissions Updated",
+        "title": "{type} Kanal İzinleri Güncellendi",
         "description": "{executor} updated permissions for {channel} for {special}",
         "newPermissions": "New Permissions",
         "viewFullNewPermissions": "View Full New Permissions",
