@@ -1,8 +1,8 @@
 {
     "channelCreated": {
-        "title": "{type} Channel Created",
-        "description": "{channel} was created by {executor}",
-        "descriptionWithCategory": "{channel} was created by {executor} under the {category} category."
+        "title": "{type} Kanalı Oluşturuldu",
+        "description": "{channel}, {executor} tarafından oluşturuldu",
+        "descriptionWithCategory": "{channel}, {executor} tarafından {category} kategorisi altında oluşturuldu."
     },
     "channelDeleted": {
         "title": "{type} Channel Deleted",
