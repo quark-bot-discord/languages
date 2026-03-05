@@ -18,7 +18,7 @@
         "description": "{executor} added permissions to {channel} for {special}"
     },
     "channelOverwriteDelete": {
-        "title": "{type} Kanal İzinleri Kaldırıldı",
+        "title": "{type} Kanalı İzinleri Kaldırıldı",
         "description": "{executor}, {channel} kanalından {special} için izinleri kaldırdı"
     },
     "channelOverwriteUpdate": {
