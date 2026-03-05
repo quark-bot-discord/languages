@@ -1,5 +1,5 @@
 {
-    "enabled": "enabled",
-    "disabled": "disabled",
+    "enabled": "aktifleştirildi",
+    "disabled": "devre dışı bırakıldı",
     "none": "hiçbiri"
 }
