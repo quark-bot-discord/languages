@@ -7,11 +7,11 @@
     "channelDeleted": {
         "title": "{type} Kanalı Silindi",
         "description": "{channel_name} {executor} tarafından silindi",
-        "channel": "Channel"
+        "channel": "Kanal"
     },
     "channelUpdated": {
-        "title": "{type} Channel Modified",
-        "description": "{channel} was modified by {executor}"
+        "title": "{type} Kanalı Düzenlendi",
+        "description": "{channel} {executor} tarafından değiştirildi"
     },
     "channelOverwriteCreate": {
         "title": "{type} Channel Permissions Added",
