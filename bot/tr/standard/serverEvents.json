@@ -1,5 +1,5 @@
 {
-    "members": "Members",
+    "members": "Üyeler",
     "userJoined": {
         "title": "Kullanıcı Katıldı",
         "description": "{user} sunucuya katıldı",
@@ -8,25 +8,25 @@
         "noBadges": "Hesapta rozet yok",
         "warning": "UYARI!",
         "accountCreated": "Hesap oluşturuldu",
-        "invite": "Invite",
-        "createdBy": "created by {user}",
+        "invite": "Davet",
+        "createdBy": "{user} tarafından oluşturuldu",
         "ban": "Ban",
-        "info": "Info",
-        "rejoined": "Account rejoined"
+        "info": "Bilgi",
+        "rejoined": "Hesap yeniden katıldı"
     },
     "userLeft": {
         "title": "Kullanıcı Ayrıldı",
         "description": "{user} sunucudan ayrıldı",
         "joined": "Katıldı",
-        "roles": "Roles",
-        "serverProfilePicture": "Link to server avatar",
-        "description_kicked": "{user} was kicked by {executor}",
-        "description_kicked_no_executor": "{user} was kicked",
-        "description_banned": "{user} was banned by {executor}",
-        "description_banned_no_executor": "{user} was banned",
-        "info": "Info",
-        "info_kicked": "User kicked",
-        "info_banned": "User banned"
+        "roles": "Roller",
+        "serverProfilePicture": "Sunucu avatarı linki",
+        "description_kicked": "{user}, {executor} tarafından atıldı",
+        "description_kicked_no_executor": "{user} atıldı",
+        "description_banned": "{user}, {executor} tarafından engellendi",
+        "description_banned_no_executor": "{user} engellendi",
+        "info": "Bilgi",
+        "info_kicked": "Üye Atıldı",
+        "info_banned": "Kullanıcı engellendi"
     },
     "botAdded": {
         "title": "Bot Eklendi",
@@ -39,41 +39,41 @@
         "descriptionne": "{bot} sunucudan kaldırıldı"
     },
     "nicknameUpdate": {
-        "title": "Nickname Updated",
-        "description": "{user}'s nickname was changed from {oldNickname} to {newNickname}",
+        "title": "Takma Ad Güncellendi",
+        "description": "{user} kullanıcısının takma adı {oldNickname} adından {newNickname} adı olarak değiştirildi",
         "setNick": "{user}'s nickname was set to **{newNickname}**",
         "nickRemoved": "{user}'s nickname of **{oldNickname}** was removed",
-        "changedBy": "Changed by"
+        "changedBy": "Değiştiren"
     },
     "memberRoleAdd": {
-        "title": "Role Given",
-        "description": "{user} was given the {role} role",
-        "description_multiple": "{user} was given multiple roles",
-        "givenBy": "Given by",
-        "roles": "Roles",
-        "title_multiple": "Roles Given",
-        "warning": "WARNING!",
-        "dangerousPermissions": "Dangerous permissions granted"
+        "title": "Rol Eklendi",
+        "description": "{user} kullanıcısına {role} rolü verildi",
+        "description_multiple": "{user} kullanıcısına birçok rol verildi",
+        "givenBy": "Veren",
+        "roles": "Roller",
+        "title_multiple": "Verilen Roller",
+        "warning": "UYARI!",
+        "dangerousPermissions": "Tehlikeli izinler verildi"
     },
     "memberRoleRemove": {
-        "title": "Role Taken",
-        "title_multiple": "Roles Taken",
-        "description_multiple": "Multiple roles were removed from {user}",
-        "removedBy": "Removed by",
-        "roles": "Roles",
-        "description": "The {role} role was removed from {user}"
+        "title": "Rol Alındı",
+        "title_multiple": "Alınan Roller",
+        "description_multiple": "{user} kullanıcısından birçok rol alındı",
+        "removedBy": "Alan",
+        "roles": "Roller",
+        "description": "{role} rolü {user} kullanıcısından alındı"
     },
     "memberPrune": {
-        "title": "Members Pruned",
-        "description": "{count} members with at least {time} days of inactivity were pruned by {executor}"
+        "title": "Kullanıcılar Çıkarıldı",
+        "description": "En az {time} gün inaktif olan {count} adet üye {executor} tarafından çıkarıldı"
     },
     "avatarUpdate": {
-        "title": "Server Avatar Changed",
-        "description": "{user} changed their server avatar",
-        "description_removed": "{user} removed their server avatar",
-        "changedBy": "Changed by",
-        "linkToOldAvatar": "Link to old avatar",
-        "linkToNewAvatar": "Link to new avatar",
-        "description_added": "{user} added a server avatar"
+        "title": "Sunucu Avatarı Güncellendi",
+        "description": "{user} sunucu avatarını güncelledi",
+        "description_removed": "{user} sunucu avatarını sildi",
+        "changedBy": "Değiştiren",
+        "linkToOldAvatar": "Eski avatar linki",
+        "linkToNewAvatar": "Yeni avatar linki",
+        "description_added": "{user} yeni bir sunucu avatarı ekledi"
     }
 }
