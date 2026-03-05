@@ -6,7 +6,7 @@
     },
     "channelDeleted": {
         "title": "{type} Kanalı Silindi",
-        "description": "{channel_name} {executor} tarafından silindi",
+        "description": "{channel_name}, {executor} tarafından silindi",
         "channel": "Kanal"
     },
     "channelUpdated": {
