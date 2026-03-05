@@ -23,9 +23,9 @@
     },
     "channelOverwriteUpdate": {
         "title": "{type} Kanalı İzinleri Güncellendi",
-        "description": "{executor} updated permissions for {channel} for {special}",
-        "newPermissions": "New Permissions",
-        "viewFullNewPermissions": "View Full New Permissions",
+        "description": "{executor}, {special} için {channel} izinlerini güncelledi",
+        "newPermissions": "Yeni İzinler",
+        "viewFullNewPermissions": "Yeni İzinlerin Tamamını Görüntüle",
         "warning": "UYARI!",
         "dangerousPermissions": "Tehlikeli izinler verildi"
     },
