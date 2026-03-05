@@ -14,7 +14,7 @@
         "description": "{channel} {executor} tarafından değiştirildi"
     },
     "channelOverwriteCreate": {
-        "title": "{type} Channel Permissions Added",
+        "title": "{type} Kanal İzinleri Eklendi",
         "description": "{executor} added permissions to {channel} for {special}"
     },
     "channelOverwriteDelete": {
