@@ -15,53 +15,53 @@
     },
     "channelOverwriteCreate": {
         "title": "{type} Kanalı İzinleri Eklendi",
-        "description": "{executor} added permissions to {channel} for {special}"
+        "description": "{executor}, {channel} kanalı için {special} rolüne izinler ekledi"
     },
     "channelOverwriteDelete": {
         "title": "{type} Kanalı İzinleri Kaldırıldı",
         "description": "{executor}, {channel} kanalından {special} için izinleri kaldırdı"
     },
     "channelOverwriteUpdate": {
-        "title": "{type} Kanal İzinleri Güncellendi",
-        "description": "{executor} updated permissions for {channel} for {special}",
-        "newPermissions": "New Permissions",
-        "viewFullNewPermissions": "View Full New Permissions",
-        "warning": "WARNING!",
-        "dangerousPermissions": "Dangerous permissions granted"
+        "title": "{type} Kanalı İzinleri Güncellendi",
+        "description": "{executor}, {special} için {channel} izinlerini güncelledi",
+        "newPermissions": "Yeni İzinler",
+        "viewFullNewPermissions": "Yeni İzinlerin Tamamını Görüntüle",
+        "warning": "UYARI!",
+        "dangerousPermissions": "Tehlikeli izinler verildi"
     },
     "webhookAvatarUpdate": {
-        "title": "Webhook Avatar Updated",
-        "linkToNewAvatar": "Link to new avatar",
-        "linkToOldAvatar": "Link to old avatar",
-        "description": "{executor} updated the avatar for {webhook}",
-        "description_added": "{executor} added an avatar for {webhook}",
-        "description_removed": "{executor} removed the avatar for {webhook}"
+        "title": "Entegrasyon Avatarı Güncellendi",
+        "linkToNewAvatar": "Yeni avatar linki",
+        "linkToOldAvatar": "Eski avatar linki",
+        "description": "{executor}, {webhook} entegrasyonunun avatarını güncelledi",
+        "description_added": "{executor}, {webhook} entegrasyonu için bir avatar ekledi",
+        "description_removed": "{executor}, {webhook} entegrasyonunun avatarını kaldırdı"
     },
     "statusChannelFollowed": {
-        "title": "Channel Followed",
-        "description": "{executor} followed the channel {name} in {channel}"
+        "title": "Kanal Takip Edilmeye Başlandı",
+        "description": "{executor}, {name} adlı kanalı {channel} kanalında takip etmeye başladı"
     },
     "webhookUpdate": {
-        "description": "{executor} modified the webhook {webhook}",
-        "title": "Webhook Modified"
+        "description": "{executor}, {webhook} entegrasyonunu güncelledi",
+        "title": "Entegrasyon Güncellendi"
     },
     "webhookCreate": {
-        "title": "Webhook Created",
-        "description": "{executor} created a webhook {webhook} in {channel}"
+        "title": "Entegrasyon Oluşturuldu",
+        "description": "{executor}, {channel} kanalında {webhook} entregasyonunu oluşturdu"
     },
     "statusChannelUnfollowed": {
-        "title": "Channel Unfollowed",
-        "description": "{executor} unfollowed the channel {name}"
+        "title": "Kanal Takibi Bırakıldı",
+        "description": "{executor}, {name} adlı kanalı takip etmeyi bıraktı"
     },
     "statusChannelUpdated": {
-        "title": "Followed Channel Updated",
-        "description": "{executor} updated the followed channel {name}"
+        "title": "Takip Edilen Kanal Güncellendi",
+        "description": "{executor}, {name} adlı takip edilen kanalı güncelledi"
     },
     "webhookDelete": {
-        "title": "Webhook Deleted",
-        "description": "{executor} deleted the webhook {webhook}"
+        "title": "Entegrasyon Silindi",
+        "description": "{executor}, {webhook} entegrasyonunu sildi"
     },
     "general": {
-        "unknownChannel": "Unknown Channel"
+        "unknownChannel": "Bilinmeyen Kanal"
     }
 }

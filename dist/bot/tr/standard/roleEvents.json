@@ -1,34 +1,34 @@
 {
     "roleCreated": {
-        "title": "Role Created",
-        "description": "{role} was created by {executor}"
+        "title": "Rol Oluşturuldu",
+        "description": "{role}, {executor} tarafından oluşturuldu"
     },
     "roleDeleted": {
-        "title": "Role Deleted",
-        "description": "{role_name} was deleted by {executor}",
-        "role": "Role",
-        "linkToRoleIcon": "Link to role icon"
+        "title": "Rol Silindi",
+        "description": "{role_name}, {executor} tarafından silindi",
+        "role": "Rol",
+        "linkToRoleIcon": "Rol simgesinin linki"
     },
     "roleUpdated": {
-        "title": "Role Modified",
-        "description": "{role} was modified by {executor}"
+        "title": "Rol Güncellendi",
+        "description": "{role}, {executor} tarafından güncellendi"
     },
     "rolePermissionsUpdate": {
-        "title": "Role Permissions Updated",
-        "description": "Permissions for {role} were updated by {executor}",
-        "newPermissions": "New Permissions",
-        "oldPermissions": "Old Permissions",
-        "viewFullOldPermissions": "View Full Old Permissions",
-        "viewFullNewPermissions": "View Full New Permissions",
-        "warning": "WARNING!",
-        "dangerousPermissions": "Dangerous permissions granted"
+        "title": "Rol İzinleri Güncellendi",
+        "description": "{role} izinleri, {executor} tarafından güncellendi",
+        "newPermissions": "Yeni İzinler",
+        "oldPermissions": "Eski İzinler",
+        "viewFullOldPermissions": "Eski İzinlerin Tamamını Gör",
+        "viewFullNewPermissions": "Yeni İzinlerin Tamamını Gör",
+        "warning": "UYARI!",
+        "dangerousPermissions": "Tehlikeli izinler verildi"
     },
     "roleIconUpdate": {
-        "title": "Role Icon Updated",
-        "description": "{executor} updated the icon for {role}",
-        "description_added": "{executor} added an icon for {role}",
-        "linkToOldIcon": "Link to old icon",
-        "linkToNewIcon": "Link to new icon",
-        "description_removed": "{executor} removed the icon for {role}"
+        "title": "Rol Simgesi Güncellendi",
+        "description": "{executor}, {role} rolünün simgesini güncelledi",
+        "description_added": "{executor}, {role} rolü için bir simge ekledi",
+        "linkToOldIcon": "Eski simge linki",
+        "linkToNewIcon": "Yeni simge linki",
+        "description_removed": "{executor}, {role} rolünün simgesini sildi"
     }
 }

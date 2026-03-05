@@ -15,7 +15,7 @@
     "error-404-1": "Please @mention a user, paste their ID or type their username",
     "error-405-0": "Excuse me?",
     "error-405-1": "I'm not gonna do that lol",
-    "error-406-0": "You do not have permission",
+    "error-406-0": "İznin yok",
     "error-407-0": "You do not have the power to do this",
     "error-409-0-type-0": "That user is already banned",
     "error-409-0-type-1": "That user is already muted",
@@ -66,7 +66,7 @@
     "serverlog-select": "Select serverlog channel",
     "setserverlog-confirm0-set": "Server-Log Channel Set",
     "setserverlog-confirm0-unset": "Server-Log Channel Unset",
-    "setserverlog-confirm1-set": "All server-log events will now be recorded in this channel ({channel}).\n\n[**Visit Quark's web dashboard for more configuration options!**]({quark_website_url}/dashboard/{guild_id})",
+    "setserverlog-confirm1-set": "Bütün sunucu kayıtları ({channel}) kanalında tutulacak\n\n[**Daha fazla yapılandırma seçenekleri için Quark'ın kontrol panelini ziyaret edin!**]({quark_website_url}/dashboard/{guild_id})",
     "setserverlog-confirm1-unset": "You will no longer receive messages about events that occur in this server unless you have other channels set to output the events to.",
     "setserverlog-confirm0-options-set": "Server-Log {type} Channel Set",
     "setserverlog-confirm0-options-unset": "Server-Log {type} Channel Unset",
@@ -103,14 +103,14 @@
     "help-overview-view-inv": "View Inventory",
     "help-overview-help": "Help",
     "help-overview-website": "Website",
-    "help-overview-serverlog": "Serverlog",
+    "help-overview-serverlog": "Günlük Kaydı",
     "help-overview-modlog": "Modlog",
     "help-overview-commands": "Commands",
     "help-overview-language": "Language",
     "help-overview-premium": "Premium",
     "help-overview-inventory": "Inventory",
     "help-overview-channel-isset": "Channel set to {channel}",
-    "help-overview-channel-isnotset": "Run {command} in the desired channel",
+    "help-overview-channel-isnotset": "Başlamak için {command} komutunu kullanın",
     "help-overview-view-options": "Run {command} to see options",
     "help-overview-view-options-and-statuses": "Run {command} to see statuses and options",
     "help-overview-view-all-commands": "Run {command} to see commands",
@@ -129,9 +129,9 @@
     "need-to-vote": "Click here to vote",
     "need-to-vote-footer": "Votes take up to a minute to be registered",
     "configCommand": {
-        "title": "Serverlog Configuration",
+        "title": "{quark} Günlük Yapılandırıcısı",
         "selection": "Select a category in the menu to view configuration.",
-        "serverLogDesc": "Serverlog Channel",
+        "serverLogDesc": "Sunucu Günlüğü Kanalı",
         "notSet": "Not set",
         "selectACategory": "Select a category",
         "formats": {
@@ -140,90 +140,90 @@
         },
         "categories": {
             "categoryMembers": {
-                "title": "Members",
-                "description": "Member actions (join/leave, roles, nicknames)",
-                "resetButton": "Reset Member Logging Channel",
-                "disableButton": "Disable Member Logs",
-                "enableButton": "Enable Member Logs"
+                "title": "Üyeler",
+                "description": "Üye hareketleri (giriş/çıkış, roller, takma adlar)",
+                "resetButton": "Üye Günlüğü Kanalını Sıfırla",
+                "disableButton": "Üye Günlüğünü Devre Dışı Bırak",
+                "enableButton": "Üye Günlüğünü Aktifleştir"
             },
             "categoryText": {
-                "title": "Messages",
-                "description": "Message actions (deletions, edits, pins, reactions)",
-                "resetButton": "Reset Message Logging Channel",
-                "disableButton": "Disable Message Logs",
-                "enableButton": "Enable Message Logs"
+                "title": "Mesajlar",
+                "description": "Mesaj hareketleri (silme, düzenleme, sabitleme, tepki)",
+                "resetButton": "Mesaj Günlüğü Kanalını Sıfırla",
+                "disableButton": "Mesaj Günlüğünü Devre Dışı Bırak",
+                "enableButton": "Mesaj Günlüğünü Aktifleştir"
             },
             "categoryVoice": {
-                "title": "Voice",
-                "description": "Voice channel actions (join/leave, streams, mute/deafens)",
-                "resetButton": "Reset Voice Logging Channel",
-                "disableButton": "Disable Voice Logs",
-                "enableButton": "Enable Voice Logs"
+                "title": "Ses",
+                "description": "Ses kanalı hareketleri (katılma/ayrılma, yayınlar, susturmalar/sağırlaştırmalar)",
+                "resetButton": "Ses Günlüğünü Sıfırla",
+                "disableButton": "Ses Günlüğünü Devre Dışı Bırak",
+                "enableButton": "Ses Günlüğünü Aktifleştir"
             },
             "categoryActions": {
-                "title": "Server Actions",
-                "description": "Server actions (invite creation/deletion, emojis)",
-                "resetButton": "Reset Server Actions Logging Channel",
-                "disableButton": "Disable Server Actions Logs",
-                "enableButton": "Enable Server Actions Logs"
+                "title": "Sunucu Hareketleri",
+                "description": "Sunucu hareketleri (davet oluşturma/silme, emojiler)",
+                "resetButton": "Sunucu Hareketleri Günlüğü Kanalını Sıfırla",
+                "disableButton": "Sunucu Hareketleri Günlüğünü Devre Dışı Bırak",
+                "enableButton": "Sunucu Hareketleri Günlüğünü Aktifleştir"
             },
             "categoryChannels": {
-                "title": "Channels",
-                "description": "Channel actions (creations/deletions, permissions)",
-                "resetButton": "Reset Channel Logging Channel",
-                "disableButton": "Disable Channel Logs",
-                "enableButton": "Enable Channel Logs"
+                "title": "Kanallar",
+                "description": "Kanal Hareketleri (oluşturma/silme, izinler)",
+                "resetButton": "Kanal Hareketleri Günlüğü Kanalını Sıfırla",
+                "disableButton": "Kanal Hareketleri Günlüğünü Devre Dışı Bırak",
+                "enableButton": "Kanal Hareketleri Günlüğünü Aktifleştir"
             },
             "categoryServer": {
-                "title": "Server Events",
-                "description": "General actions (server modifications)",
-                "resetButton": "Reset Server Event Logging Channel",
-                "disableButton": "Disable Server Event Logs",
-                "enableButton": "Enable Server Event Logs"
+                "title": "Sunucu Etkinlikleri",
+                "description": "Genel hareketler (sunucu modifikasyonları)",
+                "resetButton": "Sunucu Hareketleri Günlüğü Kanalını Sıfırla",
+                "disableButton": "Sunucu Hareketleri Günlüğünü Devre Dışı Bırak",
+                "enableButton": "Sunucu Hareketleri Günlüğünü Aktifleştir"
             },
             "categoryRoles": {
-                "title": "Roles",
-                "description": "Role actions (creations/deletions, permissions)",
-                "resetButton": "Reset Role Logging Channel",
-                "disableButton": "Disable Role Logs",
-                "enableButton": "Enable Role Logs"
+                "title": "Roller",
+                "description": "Rol hareketleri (oluşturma/silme, izinler)",
+                "resetButton": "Rol Günlüğü Kanalını Sıfırla",
+                "disableButton": "Rol Günlüğünü Devre Dışı Bırak",
+                "enableButton": "Rol Günlüğünü Aktifleştir"
             },
             "categoryModlog": {
-                "title": "Mod Logs",
-                "description": "Moderation actions (bans, kicks, mutes)",
-                "resetButton": "Reset Modlog Logging Channel",
-                "disableButton": "Disable Modlog Logs",
-                "enableButton": "Enable Modlog Logs"
+                "title": "Moderatör Günlüğü",
+                "description": "Moderasyon hareketleri (engellemeler, atmalar, susturmalar)",
+                "resetButton": "Moderasyon Günlüğü Kanalını Sıfırla",
+                "disableButton": "Moderasyon Günlüğünü Devre Dışı Bırak",
+                "enableButton": "Moderasyon Günlüğünü Aktifleştir"
             },
             "overview": {
                 "title": "Overview",
                 "description": "Overview of main category options"
             },
             "categoryFiles": {
-                "title": "Files",
-                "description": "Files (deleted attachments)"
+                "title": "Dosyalar",
+                "description": "Dosyalar (Silinen ekler)"
             },
             "categoryQuark": {
-                "title": "Quark Config",
-                "description": "Changes made to Quark's configuration for this server",
-                "resetButton": "Reset Quark Config Logging Channel",
-                "disableButton": "Disable Quark Config Logs",
-                "enableButton": "Enable Quark Config Logs"
+                "title": "Quark Yapılandırması",
+                "description": "Bu sunucu için yapılan Quark değişiklikleri",
+                "resetButton": "Quark Yapılandırması Günlüğü Kanalını Sıfırla",
+                "disableButton": "Quark Yapılandırması Günlüğünü Devre Dışı Bırak",
+                "enableButton": "Quark Yapılandırması Günlüğünü Aktifleştir"
             }
         },
-        "overview": "Overview",
+        "overview": "Genel Bakış",
         "selectChannel": "Set logging channel",
-        "all": "All",
-        "resetChannel": "Reset Main Channel",
-        "selectLogType": "Select Log Type",
-        "resetLogChannel": "Reset Log Channel",
-        "furtherConfig": "For more control over logs, such as selecting different channels for different log types or preventing certain channels, users or messages from being logged please visit [Quark's web dashboard]"
+        "all": "Hepsi",
+        "resetChannel": "Ana Kanalı Sıfırla",
+        "selectLogType": "Günlük Tipi Seç",
+        "resetLogChannel": "Günlük Kanalını Sıfırla",
+        "furtherConfig": "Günlükler üzerinde daha fazla kontrol için -farklı günlük tiplerine göre farklı kanallar seçmek veya belirli kanalların, üyelerin yahut mesajların günlüğünün tutulmaması gibi- lütfen [Quark'ın Web Kontrol Panelini] ziyaret edin"
     },
-    "setserverlog-type-quark-0": "Quark Events",
-    "setserverlog-type-quark-1": "quark events",
-    "initialreactors-expired": "expired",
-    "initialreactors-notfound": "No reactions found",
-    "help-modify-tags-description": "To create and edit tags, please visit [Quark's web dashboard]",
-    "banButton-banning": "Banning {user} {inXSeconds}",
-    "banButton-cancel": "Cancel"
+    "setserverlog-type-quark-0": "Quark Etkinlikleri",
+    "setserverlog-type-quark-1": "quark etkinlikleri",
+    "initialreactors-expired": "süresi bitmiş",
+    "initialreactors-notfound": "Tepki bulunamadı",
+    "help-modify-tags-description": "Etiket oluşturmak ve düzenlemek için lütfen [Quark'ın Web Kontrol Panelini] ziyaret edin",
+    "banButton-banning": "{user} kullanıcısı {inXSeconds} saniye içinde engellenecek",
+    "banButton-cancel": "İptal"
 }
