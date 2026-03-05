@@ -3,8 +3,8 @@
         "title": "Davet Oluşturuldu",
         "description_withInviter": "{inviter}, {channel} için {invite} adlı bir davet oluşturdu",
         "description_withoutInviter": "{kanal} için bir davet {davet} oluşturuldu",
-        "expires": "Expires",
-        "never": "Never",
+        "expires": "Sona Erme Süresi",
+        "never": "Asla",
         "maxUses": "Maksimum Kullanım",
         "none": "hiçbiri"
     },
