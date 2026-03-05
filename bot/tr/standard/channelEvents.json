@@ -5,8 +5,8 @@
         "descriptionWithCategory": "{channel}, {executor} tarafından {category} kategorisi altında oluşturuldu."
     },
     "channelDeleted": {
-        "title": "{type} Channel Deleted",
-        "description": "{channel_name} was deleted by {executor}",
+        "title": "{type} Kanalı Silindi",
+        "description": "{channel_name} {executor} tarafından silindi",
         "channel": "Channel"
     },
     "channelUpdated": {
