@@ -1,16 +1,16 @@
 {
     "inviteCreate": {
-        "title": "Invite Created",
-        "description_withInviter": "{inviter} created an invite {invite} for {channel}",
-        "description_withoutInviter": "An invite {invite} was created for {channel}",
+        "title": "Davet Oluşturuldu",
+        "description_withInviter": "{inviter}, {channel} için {invite} adlı bir davet oluşturdu",
+        "description_withoutInviter": "{kanal} için bir davet {davet} oluşturuldu",
         "expires": "Expires",
         "never": "Never",
-        "maxUses": "Max Uses",
-        "none": "none"
+        "maxUses": "Maksimum Kullanım",
+        "none": "hiçbiri"
     },
     "inviteDelete": {
-        "title": "Invite Deleted",
-        "description_withExecutor": "{executor} deleted an invite {invite} for {channel}",
+        "title": "Davet Silindi",
+        "description_withExecutor": "{executor}, {channel} için bir {invite} davetini sildi",
         "description_withoutExecutor": "An invite {invite} was deleted for {channel}",
         "used": "Used",
         "created": "Created by",
