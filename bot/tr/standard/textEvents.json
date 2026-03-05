@@ -1,18 +1,18 @@
 {
     "polls": {
-        "poll": "Poll",
+        "poll": "Anket",
         "pollDescriptor": "[poll]",
-        "status": "Poll has status.",
-        "ended": "ended",
-        "notEnded": "not ended",
-        "multiselect": "Multiselect",
-        "enabled": "enabled",
-        "disabled": "disabled",
-        "ends": "Ends",
-        "vote": "vote",
-        "votes": "votes",
-        "noResponses": "No responses",
-        "pollDeleted": "Poll Deleted"
+        "status": "Anketin durumu belli oldu.",
+        "ended": "sona erdi",
+        "notEnded": "sona ermedi",
+        "multiselect": "Çoklu Seçim",
+        "enabled": "etkinleştirildi",
+        "disabled": "devre dışı bırakıldı",
+        "ends": "Sona Erme Tarihi",
+        "vote": "oy",
+        "votes": "oylar",
+        "noResponses": "Yanıt yok",
+        "pollDeleted": "Anket Silindi"
     },
     "messageDeleted": {
         "title": "Mesaj Silindi",
@@ -28,12 +28,12 @@
         "files": "dosyalar",
         "fileExpired": "dosya çok büyük veya süresi dolmuş",
         "filesExpired": "dosya çok büyük veya süresi dolmuş",
-        "sticker": "sticker",
-        "noContent": "no content",
-        "thread": "Thread",
+        "sticker": "çıkartma",
+        "noContent": "içerik yok",
+        "thread": "Alt Konu",
         "embed": "embed",
-        "initialReactor": "initial reactor",
-        "ghostpingDetected": "Ghostping detected"
+        "initialReactor": "ilk tepki veren",
+        "ghostpingDetected": "Ghostping algılandı"
     },
     "messagesBulkDeleted": {
         "title": "Birden Fazla Mesaj Silindi",
@@ -53,45 +53,45 @@
         "channel": "Kanal",
         "jumpToMessage": "Mesaja atla",
         "afterEdit": "Düzenlemeden sonra",
-        "diff": "Edits",
-        "diffError": "Unable to calculate edits.",
+        "diff": "Düzenlemeler",
+        "diffError": "Düzenlemeler hesaplanamadı.",
         "cannotRetrieveOriginal": "Orijinal mesaj alınamıyore",
-        "noContent": "no content",
-        "thread": "Thread"
+        "noContent": "içerik yok",
+        "thread": "Alt Başlık"
     },
     "attachmentDeleted": {
-        "title": "Attachment Deleted"
+        "title": "Ek Silindi"
     },
     "messagePin": {
-        "title": "Message Pinned",
-        "description": "A message was pinned by {executor}"
+        "title": "Mesaj Sabitlendi",
+        "description": "Bir mesaj {executor} tarafından sabitlendi"
     },
     "messageUnpin": {
-        "title": "Message Unpinned",
-        "description": "A message was unpinned by {executor}"
+        "title": "Mesaj Sabitlemesi Kaldırıldı",
+        "description": "Bir mesajın sabitlenmesi {executor} tarafından kaldırıldı"
     },
     "threadCreate": {
-        "thread": "Thread",
+        "thread": "Alt Başlık",
         "channel": "Kanal",
         "jumpToContext": "Bağlama atla",
-        "title": "Thread Created",
-        "description": "{member} created a new thread {thread}"
+        "title": "Alt Başlık Oluşturuldu",
+        "description": "{member}, {thread} adında bir alt başlık oluşturdu"
     },
     "threadDelete": {
-        "thread": "Thread",
+        "thread": "Alt Başlık",
         "channel": "Kanal",
-        "title": "Thread Deleted",
-        "description": "{executor} deleted a thread {thread}"
+        "title": "Alt Başlık Silindi",
+        "description": "{executor}, {thread} adlı alt başlığı sildi"
     },
     "messageReactionRemove": {
-        "description": "{executor} removed a reaction from a message",
+        "description": "{executor}, bir mesajdan tepki sildi",
         "emoji": "Emoji",
-        "linkToEmoji": "Link to emoji",
-        "jumpToMessage": "Jump to message",
-        "title": "Reaction Removed"
+        "linkToEmoji": "Emoji linki",
+        "jumpToMessage": "Mesaja atla",
+        "title": "Tepki Kaldırıldı"
     },
     "threadUpdated": {
-        "description": "{thread} was modified by {executor}",
-        "title": "Thread Modified"
+        "description": "{thread}, {executor} tarafından güncellendi",
+        "title": "Alt Başlık Güncellendi"
     }
 }
