@@ -1,108 +1,108 @@
 {
     "videoStart": {
-        "title": "Video Started",
-        "description": "{user} started their video in the {channel} voice channel"
+        "title": "視訊已開始",
+        "description": "{user} 在 {channel} 語音聊天室開啟了視訊"
     },
     "videoStop": {
-        "title": "Video Stopped",
-        "description": "{user} stopped their video in the {channel} voice channel"
+        "title": "視訊已結束",
+        "description": "{user} 停止了在 {channel} 語音聊天室的視訊"
     },
     "voiceSwitch": {
-        "title": "Changed Channel",
-        "description": "{user} moved from the {channel_old} voice channel to the {channel_new} voice channel"
+        "title": "更換了頻道",
+        "description": "使用者 {user} 從 {channel_old} 語音頻道遷移到 {channel_new} 語音頻道"
     },
     "streamStart": {
-        "title": "Stream Started",
-        "description": "{user} started streaming in the {channel} voice channel"
+        "title": "直播已開始",
+        "description": "{user} 在 {channel} 語音聊天室開啟了直播"
     },
     "voiceMove": {
-        "title": "Moved",
-        "description": "{user} was moved from the {channel_old} voice channel to the {channel_new} voice channel",
-        "movedBy": "Moved by"
+        "title": "移動了",
+        "description": "使用者 {user} 已從 {channel_old} 語音頻道移至 {channel_new} 語音頻道",
+        "movedBy": "移動者"
     },
     "voiceJoin": {
-        "title": "Joined Channel",
-        "description": "{user} joined the {channel} voice channel"
+        "title": "加入了頻道",
+        "description": "{user} 加入了語音頻道 {channel}"
     },
     "voiceLeave": {
-        "title": "Left Channel",
-        "description": "{user} left the {channel} voice channel",
-        "joined": "Joined",
-        "joinedValue": "{relative} for {relative_fixed}"
+        "title": "離開了頻道",
+        "description": "{user} 離開了語音頻道 {channel}",
+        "joined": "加入了",
+        "joinedValue": "{relative} 用於 {relative_fixed}"
     },
     "voiceDisconnect": {
-        "title": "Disconnected",
-        "description": "{user} was disconnected",
-        "disconnectedBy": "Disconnected by",
-        "voiceChannel": "Voice channel"
+        "title": "斷開了連接",
+        "description": "{user} 已斷開連接",
+        "disconnectedBy": "斷開者",
+        "voiceChannel": "語音頻道"
     },
     "serverDeafen": {
-        "title": "Deafened",
-        "description": "{user} was deafened",
-        "deafenedBy": "Deafened by",
-        "voiceChannel": "Voice channel"
+        "title": "已拒聽",
+        "description": "{user} 已開啟了拒聽",
+        "deafenedBy": "開啟者",
+        "voiceChannel": "語音頻道"
     },
     "serverMute": {
-        "title": "Muted",
-        "description": "{user} was muted",
-        "mutedBy": "Muted by",
-        "voiceChannel": "Voice channel"
+        "title": "已靜音",
+        "description": "{user} 已開啟了靜音",
+        "mutedBy": "開啟者",
+        "voiceChannel": "語音頻道"
     },
     "serverUndeafen": {
-        "title": "Undeafened",
-        "description": "{user} was undeafened",
-        "undeafenedBy": "Undeafened by",
-        "voiceChannel": "Voice channel"
+        "title": "取消拒聽",
+        "description": "{user} 關閉了拒聽",
+        "undeafenedBy": "關閉者",
+        "voiceChannel": "語音頻道"
     },
     "serverUnmute": {
-        "title": "Unmuted",
-        "description": "{user} was unmuted",
-        "unmutedBy": "Unmuted by",
-        "voiceChannel": "Voice channel"
+        "title": "取消靜音",
+        "description": "{user} 已被取消靜音",
+        "unmutedBy": "取消者",
+        "voiceChannel": "語音頻道"
     },
     "channelStatusUpdate": {
-        "title": "Voice Channel Status Updated",
-        "description": "{executor} set the status for {channel}",
-        "status": "Status",
-        "linksToEmojis": "Links to emojis",
-        "descriptionRemoved": "{executor} removed the status for {channel}"
+        "title": "語音頻道狀態已更新",
+        "description": "{executor} 更改了語音頻道 {channel} 的狀態",
+        "status": "狀態",
+        "linksToEmojis": "表情符號鏈接",
+        "descriptionRemoved": "{executor} 移除了語音頻道 {channel} 的狀態"
     },
     "stageStarted": {
-        "title": "Stage Started",
-        "description": "{executor} started a stage in {channel}",
-        "topic": "Topic"
+        "title": "舞台已開始",
+        "description": "{executor} 在 {channel} 開啟了舞台",
+        "topic": "主題"
     },
     "stageEnded": {
-        "title": "Stage Ended",
-        "description": "The stage in {channel} was ended by {executor}",
-        "description_noExecutor": "The stage in {channel} was ended",
-        "topic": "Topic",
-        "none": "none"
+        "title": "舞台已結束",
+        "description": "{channel} 的舞台已被 {executor} 結束",
+        "description_noExecutor": "{channel} 的舞台已結束",
+        "topic": "主題",
+        "none": "無"
     },
     "stageUpdated": {
-        "title": "Stage Updated",
-        "description": "The stage in {channel} was updated by {executor}",
-        "oldTopic": "Old Topic",
-        "newTopic": "New Topic"
+        "title": "舞台已更新",
+        "description": "{channel} 的舞台已被 {executor} 更新",
+        "oldTopic": "舊主題",
+        "newTopic": "新主題"
     },
     "stageSpeakerAdd": {
-        "title": "New Stage Speaker",
-        "description": "{user} became a speaker in the {channel} stage channel",
-        "description_inviteAccepted": "{user} accepted the invite to become a speaker in the {channel} stage channel"
+        "title": "新的舞台演講者",
+        "description": "{user} 在 {channel} 的舞台成為了演講者",
+        "description_inviteAccepted": "{user} 接受了邀請，成為 {channel} 舞台頻道的演講者"
     },
     "stageSpeakerRemove": {
-        "title": "Stopped Speaking",
-        "description": "{user} is no longer a speaker in the {channel} stage channel"
+        "title": "停止了說話",
+        "description": "{user} 已不再是 {channel} 的舞台的演講者"
     },
     "stageSpeakerInvited": {
-        "title": "Speaker Invited",
-        "description": "{user} was invited to speak in the {channel} stage channel"
+        "title": "演講者已邀請",
+        "description": "{user} 已被邀請到 {channel} 的舞台成為演講者"
     },
     "voiceBundle": {
-        "title": "Multiple Voice Channel Events"
+        "title": "多個語音聊天室活動"
     },
     "streamStop": {
-        "title": "Stream Ended",
-        "description": "{user} stopped streaming in the {channel} voice channel"
+        "title": "直播結束",
+        "description": "{user} 停止了在 {channel} 語音聊天室的直播"
     }
 }
