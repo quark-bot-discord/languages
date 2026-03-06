@@ -1,55 +1,55 @@
 {
     "inviteCreate": {
-        "title": "Invite Created",
-        "description_withInviter": "{inviter} created an invite {invite} for {channel}",
-        "description_withoutInviter": "An invite {invite} was created for {channel}",
-        "expires": "Expires",
-        "never": "Never",
-        "maxUses": "Max Uses",
-        "none": "none"
+        "title": "邀請鏈接已創建",
+        "description_withInviter": "{inviter} 在 {channel} 創建了一個邀請鏈接 {invite}",
+        "description_withoutInviter": "{channel} 新建了一個邀請鏈接 {invite}",
+        "expires": "過期失效",
+        "never": "永不",
+        "maxUses": "已經達到最大使用次數",
+        "none": "無"
     },
     "inviteDelete": {
-        "title": "Invite Deleted",
-        "description_withExecutor": "{executor} deleted an invite {invite} for {channel}",
-        "description_withoutExecutor": "An invite {invite} was deleted for {channel}",
-        "used": "Used",
-        "created": "Created by",
-        "none": "none"
+        "title": "邀請鏈接已刪除",
+        "description_withExecutor": "{executor} 在 {channel} 刪除了一個邀請鏈接 {invite}",
+        "description_withoutExecutor": "{channel} 的邀請鏈接 {invite} 已經被刪除了",
+        "used": "已使用",
+        "created": "創建者",
+        "none": "無"
     },
     "emojiCreated": {
-        "title": "Emoji Created",
-        "description": "{emoji} was added by {executor}"
+        "title": "表情符號已創建",
+        "description": "{emoji} 已被 {executor} 創建"
     },
     "emojiDeleted": {
-        "title": "Emoji Deleted",
-        "description": "{emoji} was deleted by {executor}",
-        "emoji": "Emoji"
+        "title": "表情符號已刪除",
+        "description": "{emoji} 已經被 {executor} 刪除了",
+        "emoji": "表情符號"
     },
     "emojiUpdated": {
-        "title": "Emoji Edited",
-        "description": "{emoji} was edited by {executor}"
+        "title": "表情符號已修改",
+        "description": "{emoji} 已經被 {executor} 修改了"
     },
     "serverEventCreate": {
-        "title": "Event Created",
-        "description_withChannel": "{executor} created an event {name} in {channel}",
-        "description_withoutChannel": "{executor} created an event {name}",
-        "eventDescription": "Description",
-        "location": "Location",
-        "starts": "Starts",
-        "image": "Image"
+        "title": "活動已創建",
+        "description_withChannel": "{executor} 在 {channel} 創建了名為 {name} 的活動",
+        "description_withoutChannel": "{executor} 創建了名為 {name} 的活動",
+        "eventDescription": "簡介",
+        "location": "地點",
+        "starts": "開始時間",
+        "image": "圖片"
     },
     "serverEventDelete": {
-        "title": "Event Deleted",
-        "description": "{executor} deleted the event {name}",
-        "linkToEventImage": "Link to event image"
+        "title": "活動已刪除",
+        "description": "{executor} 刪除了名為 {name} 的活動",
+        "linkToEventImage": "活動圖片連結"
     },
     "serverEventUpdate": {
-        "title": "Event Updated",
-        "description": "{executor} updated the event {name}",
-        "newEventDescription": "New Description",
-        "newLocation": "New Location",
-        "newChannel": "New Channel",
-        "linkToEventImage": "Link to old event image",
-        "newImage": "New Image"
+        "title": "活動已更新",
+        "description": "{executor} 更新了名為 {name} 的活動",
+        "newEventDescription": "新的簡介",
+        "newLocation": "新的地點",
+        "newChannel": "新的頻道",
+        "linkToEventImage": "舊活動圖片鏈接",
+        "newImage": "新的圖片"
     }
 }
