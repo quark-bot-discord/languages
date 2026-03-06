@@ -62,14 +62,14 @@
         "description": "{executor} 已撤銷 ID 為 {token} 的 Quark 存取 Token"
     },
     "guildSubscriptionUpdate": {
-        "title_applied": "Server Upgraded",
-        "title_removed": "Server Downgraded",
-        "description_applied": "This server now has [type] features enabled! 🎉",
-        "description_removed": "This server is now using Quark's free tier",
-        "quark_pro": "Quark Pro",
-        "quark_prolite": "Quark Pro Lite",
-        "none": "none",
-        "executor": "Given by",
-        "teaser_pro": "Enjoy extended message logging (up to 4 weeks), fully customizable logs, the Pro bot, and more... 🚀"
+        "title_applied": "伺服器已升級",
+        "title_removed": "伺服器已降級",
+        "description_applied": "伺服器現在啟用了 [type] 功能！ 🎉",
+        "description_removed": "伺服器現在正在使用Quark的免費等級",
+        "quark_pro": "Quark 高級版",
+        "quark_prolite": "Quark 高級輕量版",
+        "none": "無",
+        "executor": "給予者",
+        "teaser_pro": "享受更長的訊息記錄時間（長達 4 週）、完全自訂的日誌、專業版機器人等等…🚀"
     }
 }
