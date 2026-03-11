@@ -11,14 +11,14 @@
     "modLog": "Logs de modération",
     "main": "Principal",
     "category_actions": "Actions",
-    "category_channels": "Channels",
+    "category_channels": "Salons",
     "category_files": "Files",
-    "category_members": "Members",
-    "category_modlog": "Modlog",
-    "category_quark": "Quark Config",
-    "category_roles": "Roles",
-    "category_server": "Server",
-    "category_text": "Text",
-    "category_voice": "Voice",
-    "main_channel": "Main"
+    "category_members": "Membres",
+    "category_modlog": "Logs de modération",
+    "category_quark": "Configuration de Quark",
+    "category_roles": "Rôles",
+    "category_server": "Serveur",
+    "category_text": "Texte",
+    "category_voice": "Vocale",
+    "main_channel": "Principal"
 }
