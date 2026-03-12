@@ -1,12 +1,12 @@
 {
-    "ignoreBotExecutors": "Ignore Bot Executors",
-    "ignoreExecutorRoles": "Ignore Executor Roles",
-    "ignoreBotTargets": "Ignore Bot Targets",
-    "ignoreExecutors": "Ignore Target Executors",
-    "activeIgnore": "Active Ignore",
-    "specificMessageContent": "Ignore Specific Message Content",
-    "ignoreCategories": "Ignore Categories",
-    "ignoreTargets": "Ignore Target Users",
-    "ignoreTargetRoles": "Ignore Target Roles",
-    "ignoreChannels": "Ignore Channels"
+    "ignoreTargets": "対象ユーザーを無視する",
+    "ignoreExecutors": "実行者を無視する",
+    "specificMessageContent": "特定のメッセージ内容を無視する",
+    "ignoreChannels": "チャンネルを無視する",
+    "ignoreBotExecutors": "Bot の実行者を無視する",
+    "ignoreBotTargets": "Bot の対象を無視する",
+    "ignoreExecutorRoles": "実行者のロールを無視する",
+    "ignoreTargetRoles": "対象のロールを無視する",
+    "ignoreCategories": "カテゴリを無視する",
+    "activeIgnore": "有効な除外設定"
 }

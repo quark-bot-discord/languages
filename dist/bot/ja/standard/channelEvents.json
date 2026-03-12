@@ -1,67 +1,67 @@
 {
     "channelCreated": {
-        "description": "{channel} was created by {executor}",
-        "descriptionWithCategory": "{channel} was created by {executor} under the {category} category.",
-        "title": "{type} Channel Created"
-    },
-    "webhookDelete": {
-        "description": "{executor} deleted the webhook {webhook}",
-        "title": "Webhook Deleted"
-    },
-    "channelOverwriteUpdate": {
-        "description": "{executor} updated permissions for {channel} for {special}",
-        "newPermissions": "New Permissions",
-        "dangerousPermissions": "Dangerous permissions granted",
-        "warning": "WARNING!",
-        "viewFullNewPermissions": "View Full New Permissions",
-        "title": "{type} Channel Permissions Updated"
-    },
-    "webhookAvatarUpdate": {
-        "title": "Webhook Avatar Updated",
-        "linkToNewAvatar": "Link to new avatar",
-        "description_removed": "{executor} removed the avatar for {webhook}",
-        "linkToOldAvatar": "Link to old avatar",
-        "description": "{executor} updated the avatar for {webhook}",
-        "description_added": "{executor} added an avatar for {webhook}"
+        "title": "{type} チャンネルが作成されました",
+        "description": "{channel} は {executor} によって作成されました",
+        "descriptionWithCategory": "{channel} は、{executor} によって {category} カテゴリに作成されました。"
     },
     "channelDeleted": {
-        "title": "{type} Channel Deleted",
-        "description": "{channel_name} was deleted by {executor}",
-        "channel": "Channel"
-    },
-    "statusChannelFollowed": {
-        "title": "Channel Followed",
-        "description": "{executor} followed the channel {name} in {channel}"
+        "title": "{type} チャンネルが削除されました",
+        "description": "{channel_name} は {executor} によって削除されました",
+        "channel": "チャンネル"
     },
     "channelUpdated": {
-        "title": "{type} Channel Modified",
-        "description": "{channel} was modified by {executor}"
-    },
-    "webhookUpdate": {
-        "description": "{executor} modified the webhook {webhook}",
-        "title": "Webhook Modified"
-    },
-    "webhookCreate": {
-        "title": "Webhook Created",
-        "description": "{executor} created a webhook {webhook} in {channel}"
-    },
-    "channelOverwriteDelete": {
-        "description": "{executor} removed permissions from {channel} for {special}",
-        "title": "{type} Channel Permissions Removed"
-    },
-    "statusChannelUnfollowed": {
-        "title": "Channel Unfollowed",
-        "description": "{executor} unfollowed the channel {name}"
-    },
-    "statusChannelUpdated": {
-        "title": "Followed Channel Updated",
-        "description": "{executor} updated the followed channel {name}"
-    },
-    "general": {
-        "unknownChannel": "Unknown Channel"
+        "title": "{type} チャンネルが変更されました",
+        "description": "{channel} は {executor} によって変更されました"
     },
     "channelOverwriteCreate": {
-        "description": "{executor} added permissions to {channel} for {special}",
-        "title": "{type} Channel Permissions Added"
+        "title": "{type} チャンネル権限が追加されました",
+        "description": "{executor} は、{channel} に {special} の権限を追加しました"
+    },
+    "channelOverwriteDelete": {
+        "title": "{type} チャンネル権限が削除されました",
+        "description": "{executor} は、{channel} から {special} の権限を削除しました"
+    },
+    "channelOverwriteUpdate": {
+        "title": "{type} チャンネル権限が更新されました",
+        "description": "{executor} が {special} の {channel} の権限を更新しました",
+        "newPermissions": "新しい権限",
+        "viewFullNewPermissions": "新しい権限をすべて表示する",
+        "warning": "警告！",
+        "dangerousPermissions": "危険な権限が付与されています"
+    },
+    "webhookCreate": {
+        "title": "Webhookが作成されました",
+        "description": "{executor} が {channel} に Webhook {webhook} を作成しました"
+    },
+    "webhookDelete": {
+        "title": "Webhookが削除されました",
+        "description": "{executor} が Webhook {webhook} を削除しました"
+    },
+    "webhookUpdate": {
+        "title": "Webhookが変更されました",
+        "description": "{executor} が Webhook {webhook} を変更しました"
+    },
+    "webhookAvatarUpdate": {
+        "title": "Webhook アバターが更新されました",
+        "description": "{executor} が {webhook} のアバターを更新しました",
+        "description_added": "{executor} が {webhook} のアバターを追加しました",
+        "description_removed": "{executor} が {webhook} のアバターを削除しました",
+        "linkToOldAvatar": "古いアバターへのリンク",
+        "linkToNewAvatar": "新しいアバターへのリンク"
+    },
+    "statusChannelFollowed": {
+        "title": "チャンネルがフォローされました",
+        "description": "{executor} が {channel} でチャンネル {name} をフォローしました"
+    },
+    "statusChannelUnfollowed": {
+        "title": "チャンネルのフォローが解除されました",
+        "description": "{executor} がチャンネル {name} のフォローを解除しました"
+    },
+    "statusChannelUpdated": {
+        "title": "フォロー中のチャンネルが更新されました",
+        "description": "{executor} がフォロー中のチャンネル {name} を更新しました"
+    },
+    "general": {
+        "unknownChannel": "不明なチャンネル"
     }
 }
