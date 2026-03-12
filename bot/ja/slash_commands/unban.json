@@ -1,0 +1,14 @@
+{
+    "name": "BAN解除",
+    "description": "ユーザーのBANを解除する",
+    "commandOptions": {
+        "userOption": {
+            "name": "ユーザーID",
+            "description": "BANを解除するユーザーのID"
+        },
+        "reasonOption": {
+            "name": "理由",
+            "description": "ユーザーのBANを解除する理由"
+        }
+    }
+}

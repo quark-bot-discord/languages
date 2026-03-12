@@ -1,0 +1,10 @@
+{
+    "name": "パージ",
+    "description": "チャンネルメッセージを削除します。",
+    "commandOptions": {
+        "countOption": {
+            "name": "数",
+            "description": "削除するメッセージの数 (2 ～ 100)"
+        }
+    }
+}

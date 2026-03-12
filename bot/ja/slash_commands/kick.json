@@ -1,0 +1,14 @@
+{
+    "name": "キック",
+    "description": "ユーザーをキックする",
+    "commandOptions": {
+        "userOption": {
+            "name": "ユーザー",
+            "description": "キックするユーザー"
+        },
+        "reasonOption": {
+            "name": "理由",
+            "description": "ユーザーをキックする理由"
+        }
+    }
+}

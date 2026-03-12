@@ -1,46 +1,46 @@
 {
-    "guildModificationTypes": {
-        "premium_progress_bar_enabled": "Progress Bar",
-        "description": "Description",
-        "name": "Name",
-        "system_channel_id": "System Channel",
-        "nsfw_level": "NSFW Level",
-        "mfa_level": "MFA Required",
-        "default_message_notifications": "Default Notifications",
-        "explicit_content_filter": "Explicit Content Filter",
-        "verification_level": "Verification Level",
-        "rules_channel_id": "Rule Channel"
-    },
     "channelModificationTypes": {
-        "name": "Name",
-        "user_limit": "User Limit",
-        "rate_limit_per_user": "Slowmode",
-        "topic": "Topic",
-        "bitrate": "Bitrate",
-        "type": "Type",
-        "position": "Position",
-        "parent_id": "Category",
-        "nsfw": "NSFW",
-        "rtc_region": "Region"
+        "name": "名前",
+        "type": "タイプ",
+        "position": "位置",
+        "topic": "トピック",
+        "rate_limit_per_user": "スローモード",
+        "parent_id": "カテゴリ",
+        "bitrate": "ビットレート",
+        "user_limit": "ユーザー制限",
+        "rtc_region": "地域",
+        "nsfw": "NSFW"
     },
     "roleModificationTypes": {
-        "name": "Name",
-        "hoist": "Hoisted",
-        "unicode_emoji": "Emoji",
-        "managed": "Managed",
-        "mentionable": "Mentionable",
-        "color": "Color"
-    },
-    "threadModificationTypes": {
-        "name": "Name",
-        "rate_limit_per_user": "Slowmode",
-        "auto_archive_duration": "Automatic Archive"
-    },
-    "webhookModificationTypes": {
-        "channel_id": "Channel",
-        "name": "Name"
+        "name": "名前",
+        "color": "色",
+        "hoist": "ロールを表示",
+        "managed": "外部管理",
+        "mentionable": "メンション可能",
+        "unicode_emoji": "絵文字"
     },
     "emojiModificationTypes": {
-        "name": "Name"
+        "name": "名前"
+    },
+    "guildModificationTypes": {
+        "name": "名前",
+        "description": "説明",
+        "system_channel_id": "システムチャンネル",
+        "rules_channel_id": "ルールチャンネル",
+        "mfa_level": "MFA 必須",
+        "verification_level": "認証レベル",
+        "default_message_notifications": "デフォルトの通知",
+        "explicit_content_filter": "露骨なコンテンツフィルター",
+        "nsfw_level": "NSFWレベル",
+        "premium_progress_bar_enabled": "プログレスバー"
+    },
+    "webhookModificationTypes": {
+        "name": "名前",
+        "channel_id": "チャンネル"
+    },
+    "threadModificationTypes": {
+        "rate_limit_per_user": "スローモード",
+        "auto_archive_duration": "自動アーカイブ",
+        "name": "名前"
     }
 }

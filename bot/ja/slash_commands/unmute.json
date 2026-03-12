@@ -1,0 +1,14 @@
+{
+    "name": "ミュート解除",
+    "description": "ユーザーのミュートを解除する",
+    "commandOptions": {
+        "userOption": {
+            "name": "ユーザー",
+            "description": "ミュートを解除するユーザー"
+        },
+        "reasonOption": {
+            "name": "理由",
+            "description": "ユーザーのミュートを解除する理由"
+        }
+    }
+}

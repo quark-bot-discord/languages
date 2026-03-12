@@ -1,0 +1,10 @@
+{
+    "name": "言語",
+    "description": "Quarkの言語を変更する",
+    "commandOptions": {
+        "languageOption": {
+            "name": "言語",
+            "description": "このサーバーのボット言語を設定する"
+        }
+    }
+}

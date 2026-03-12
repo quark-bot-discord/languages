@@ -1,75 +1,75 @@
 {
-    "serverlogOptionsUpdate": {
-        "buttons": "Buttons",
-        "title": "Logging Options Updated",
-        "spoilers": "Spoilers",
-        "formatType": "Format Type",
-        "description": "{executor} set {option} to {state}",
-        "pluralkitSupport": "PluralKit Support"
-    },
     "serverlogChannelUpdate": {
-        "description_set": "{executor} set the {type} logging channel to {channel}",
-        "description_unset": "{executor} unset the {type} logging channel",
-        "title": "Logging Channel Changed",
-        "description_category_disable": "{executor} disabled the {type} logging channel"
+        "title": "ロギングチャンネルが変更されました",
+        "description_set": "{executor} が {type} ロギングチャンネルを {channel} に設定しました",
+        "description_category_disable": "{executor} が {type} ロギングチャンネルを無効にしました",
+        "description_unset": "{executor} が {type} ロギングチャンネルの設定を解除しました"
+    },
+    "serverlogOptionsUpdate": {
+        "title": "ログオプションが更新されました",
+        "description": "{executor} が {option} を {state} に設定しました",
+        "pluralkitSupport": "PluralKitのサポート",
+        "spoilers": "ネタバレ",
+        "buttons": "ボタン",
+        "formatType": "フォーマットタイプ"
     },
     "serverlogLogUpdate": {
-        "logFormat": "Format",
-        "logChannel": "Channel",
-        "ignoreBotExecutors": "Ignore Bot Executors",
-        "ignoreBotTargets": "Ignore Bot Targets",
-        "colour": "Color",
-        "activeIgnore": "Active Ignore",
-        "enabled": "Enabled",
-        "description": "{executor} updated the {type} log",
-        "title": "Log Updated"
-    },
-    "tokenRevoked": {
-        "title": "Token Revoked",
-        "description": "{executor} revoked the Quark access token with ID {token}"
-    },
-    "reset": {
-        "description": "{executor} reset the configuration for this server",
-        "title": "Configuration Reset"
-    },
-    "tagUpdated": {
-        "description": "{executor} updated the tag {tag}",
-        "title": "Tag Updated"
-    },
-    "tagAdded": {
-        "description": "{executor} created a tag {tag}",
-        "title": "Tag Added"
+        "title": "ログが更新されました",
+        "description": "{executor} が {type} ログを更新しました",
+        "enabled": "有効",
+        "logFormat": "形式",
+        "logChannel": "チャンネル",
+        "colour": "色",
+        "ignoreBotExecutors": "ボット実行者を無視",
+        "ignoreBotTargets": "ボット対象を無視",
+        "activeIgnore": "無視リスト"
     },
     "serverlogIgnoreUpdate": {
-        "description_unset": "{executor} disabled {type}",
-        "description_set": "{executor} enabled {type}",
-        "title": "Ignore Options Updated",
-        "description_removed": "{executor} removed {target} from {type}",
-        "description_added": "{executor} added {target} to {type}"
-    },
-    "tokenAdded": {
-        "unique_id": "Token ID",
-        "title": "Token Generated",
-        "revoke": "Revoke this token",
-        "description": "{executor} generated a Quark access token with {permissions} permissions for this server"
+        "title": "無視オプションが更新されました",
+        "description_set": "{executor} が {type} を有効にしました",
+        "description_unset": "{executor} が {type} を無効にしました",
+        "description_added": "{executor} が {target} を {type} に追加しました",
+        "description_removed": "{executor} が {type} から {target} を削除しました"
     },
     "languageUpdate": {
-        "description": "{executor} changed the language to {language}",
-        "title": "Language Changed"
+        "title": "言語が変更されました",
+        "description": "{executor} が言語を {language} に変更しました"
+    },
+    "reset": {
+        "title": "設定がリセットされました",
+        "description": "{executor} がこのサーバーの設定をリセットしました"
+    },
+    "tagAdded": {
+        "title": "タグが追加されました",
+        "description": "{executor} がタグ {tag} を作成しました"
+    },
+    "tagUpdated": {
+        "title": "タグが更新されました",
+        "description": "{executor} がタグ {tag} を更新しました"
     },
     "tagDeleted": {
-        "description": "{executor} deleted the tag {tag}",
-        "title": "Tag Deleted"
+        "title": "タグが削除されました",
+        "description": "{executor} がタグ {tag} を削除しました"
+    },
+    "tokenAdded": {
+        "title": "トークンが生成されました",
+        "description": "{executor} がこのサーバーに対して {permissions} 権限を持つ Quark アクセストークンを生成しました",
+        "unique_id": "トークン ID",
+        "revoke": "このトークンを取り消す"
+    },
+    "tokenRevoked": {
+        "title": "トークンが取り消されました",
+        "description": "{executor} が ID {token} の Quark アクセストークンを取り消しました"
     },
     "guildSubscriptionUpdate": {
-        "title_applied": "Server Upgraded",
-        "title_removed": "Server Downgraded",
-        "description_applied": "This server now has [type] features enabled! 🎉",
-        "description_removed": "This server is now using Quark's free tier",
+        "title_applied": "サーバーがアップグレードされました",
+        "title_removed": "サーバーがダウングレードされました",
+        "description_applied": "このサーバーでは、{type} 機能が有効になりました！ ✨",
+        "description_removed": "このサーバーは現在、Quark の無料枠を使用しています。",
         "quark_pro": "Quark Pro",
         "quark_prolite": "Quark Pro Lite",
-        "none": "none",
-        "executor": "Given by",
-        "teaser_pro": "Enjoy extended message logging (up to 4 weeks), fully customizable logs, the Pro bot, and more... 🚀"
+        "none": "なし",
+        "executor": "付与者",
+        "teaser_pro": "最大4週間の拡張メッセージログ、完全カスタマイズ可能なログ、Proボットなどをお楽しみください... 🚀"
     }
 }
