@@ -1,34 +1,34 @@
 {
-    "roleIconUpdate": {
-        "title": "Role Icon Updated",
-        "description_added": "{executor} added an icon for {role}",
-        "linkToOldIcon": "Link to old icon",
-        "linkToNewIcon": "Link to new icon",
-        "description": "{executor} updated the icon for {role}",
-        "description_removed": "{executor} removed the icon for {role}"
-    },
-    "rolePermissionsUpdate": {
-        "viewFullNewPermissions": "View Full New Permissions",
-        "viewFullOldPermissions": "View Full Old Permissions",
-        "warning": "WARNING!",
-        "oldPermissions": "Old Permissions",
-        "title": "Role Permissions Updated",
-        "description": "Permissions for {role} were updated by {executor}",
-        "newPermissions": "New Permissions",
-        "dangerousPermissions": "Dangerous permissions granted"
-    },
     "roleCreated": {
-        "title": "Role Created",
-        "description": "{role} was created by {executor}"
-    },
-    "roleUpdated": {
-        "description": "{role} was modified by {executor}",
-        "title": "Role Modified"
+        "title": "ロールが作成されました",
+        "description": "{role} は {executor} によって作成されました"
     },
     "roleDeleted": {
-        "role": "Role",
-        "description": "{role_name} was deleted by {executor}",
-        "linkToRoleIcon": "Link to role icon",
-        "title": "Role Deleted"
+        "title": "ロールが削除されました",
+        "description": "{role_name} は {executor} によって削除されました",
+        "role": "ロール",
+        "linkToRoleIcon": "ロールアイコンへのリンク"
+    },
+    "roleUpdated": {
+        "title": "ロールが変更されました",
+        "description": "{role} は {executor} によって変更されました"
+    },
+    "rolePermissionsUpdate": {
+        "title": "ロールの権限が更新されました",
+        "description": "{role} の権限が {executor} によって更新されました",
+        "newPermissions": "新しい権限",
+        "oldPermissions": "古い権限",
+        "viewFullNewPermissions": "新しい権限をすべて表示する",
+        "viewFullOldPermissions": "古い権限をすべて表示する",
+        "warning": "警告！",
+        "dangerousPermissions": "危険な権限が付与されています"
+    },
+    "roleIconUpdate": {
+        "title": "ロールアイコンが更新されました",
+        "description": "{executor} が {role} のアイコンを更新しました",
+        "description_added": "{executor} が {role} のアイコンを追加しました",
+        "description_removed": "{executor} が {role} のアイコンを削除しました",
+        "linkToOldIcon": "古いアイコンへのリンク",
+        "linkToNewIcon": "新しいアイコンへのリンク"
     }
 }

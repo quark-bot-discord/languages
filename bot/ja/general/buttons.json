@@ -1,9 +1,9 @@
 {
-    "dashboard": "Dashboard",
-    "customise": "Customize",
-    "supportServer": "Support Server",
-    "pro": "Quark Pro",
-    "overview": "Overview",
-    "serverlog": "Serverlog",
-    "userID": "User ID"
+    "userID": "ユーザー ID",
+    "supportServer": "サポートサーバー",
+    "customise": "カスタマイズ",
+    "overview": "概要",
+    "serverlog": "サーバーログ",
+    "dashboard": "ダッシュボード",
+    "pro": "Quark Pro"
 }

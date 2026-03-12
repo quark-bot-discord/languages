@@ -1,108 +1,108 @@
 {
-    "voiceMove": {
-        "title": "Moved",
-        "movedBy": "Moved by",
-        "description": "{user} was moved from the {channel_old} voice channel to the {channel_new} voice channel"
-    },
-    "serverUndeafen": {
-        "description": "{user} was undeafened",
-        "voiceChannel": "Voice channel",
-        "title": "Undeafened",
-        "undeafenedBy": "Undeafened by"
-    },
-    "serverMute": {
-        "mutedBy": "Muted by",
-        "title": "Muted",
-        "voiceChannel": "Voice channel",
-        "description": "{user} was muted"
-    },
-    "serverDeafen": {
-        "voiceChannel": "Voice channel",
-        "deafenedBy": "Deafened by",
-        "description": "{user} was deafened",
-        "title": "Deafened"
-    },
-    "stageStarted": {
-        "topic": "Topic",
-        "description": "{executor} started a stage in {channel}",
-        "title": "Stage Started"
-    },
-    "channelStatusUpdate": {
-        "title": "Voice Channel Status Updated",
-        "status": "Status",
-        "description": "{executor} set the status for {channel}",
-        "linksToEmojis": "Links to emojis",
-        "descriptionRemoved": "{executor} removed the status for {channel}"
-    },
-    "voiceDisconnect": {
-        "voiceChannel": "Voice channel",
-        "title": "Disconnected",
-        "disconnectedBy": "Disconnected by",
-        "description": "{user} was disconnected"
-    },
-    "stageEnded": {
-        "topic": "Topic",
-        "title": "Stage Ended",
-        "none": "none",
-        "description_noExecutor": "The stage in {channel} was ended",
-        "description": "The stage in {channel} was ended by {executor}"
-    },
-    "serverUnmute": {
-        "description": "{user} was unmuted",
-        "voiceChannel": "Voice channel",
-        "title": "Unmuted",
-        "unmutedBy": "Unmuted by"
-    },
-    "stageUpdated": {
-        "oldTopic": "Old Topic",
-        "title": "Stage Updated",
-        "description": "The stage in {channel} was updated by {executor}",
-        "newTopic": "New Topic"
-    },
-    "stageSpeakerAdd": {
-        "description": "{user} became a speaker in the {channel} stage channel",
-        "description_inviteAccepted": "{user} accepted the invite to become a speaker in the {channel} stage channel",
-        "title": "New Stage Speaker"
-    },
-    "voiceSwitch": {
-        "description": "{user} moved from the {channel_old} voice channel to the {channel_new} voice channel",
-        "title": "Changed Channel"
+    "streamStart": {
+        "title": "ストリームが開始されました",
+        "description": "{user} が {channel} ボイスチャンネルでストリーミングを開始しました"
     },
     "streamStop": {
-        "description": "{user} stopped streaming in the {channel} voice channel",
-        "title": "Stream Ended"
-    },
-    "voiceLeave": {
-        "joined": "Joined",
-        "description": "{user} left the {channel} voice channel",
-        "title": "Left Channel",
-        "joinedValue": "{relative} for {relative_fixed}"
-    },
-    "stageSpeakerInvited": {
-        "description": "{user} was invited to speak in the {channel} stage channel",
-        "title": "Speaker Invited"
-    },
-    "voiceJoin": {
-        "title": "Joined Channel",
-        "description": "{user} joined the {channel} voice channel"
+        "title": "ストリームが終了しました",
+        "description": "{user} が {channel} ボイスチャンネルでの配信を終了しました"
     },
     "videoStart": {
-        "description": "{user} started their video in the {channel} voice channel",
-        "title": "Video Started"
-    },
-    "streamStart": {
-        "title": "Stream Started",
-        "description": "{user} started streaming in the {channel} voice channel"
-    },
-    "voiceBundle": {
-        "title": "Multiple Voice Channel Events"
+        "title": "ビデオが開始されました",
+        "description": "{user} が {channel} ボイスチャンネルでビデオを開始しました"
     },
     "videoStop": {
-        "title": "Video Stopped",
-        "description": "{user} stopped their video in the {channel} voice channel"
+        "title": "ビデオが停止しました",
+        "description": "{user} が {channel} ボイスチャンネルでのビデオを停止しました"
+    },
+    "voiceSwitch": {
+        "title": "チャンネルを変更しました",
+        "description": "{user} は {channel_old} ボイスチャンネルから {channel_new} ボイスチャンネルに移動しました"
+    },
+    "voiceMove": {
+        "title": "移動しました",
+        "description": "{user} は {channel_old} ボイスチャンネルから {channel_new} ボイスチャンネルへ移動させられました",
+        "movedBy": "移動者"
+    },
+    "voiceJoin": {
+        "title": "チャンネルに参加しました",
+        "description": "{user} が {channel} ボイスチャンネルに参加しました"
+    },
+    "voiceLeave": {
+        "title": "チャンネルから退出しました",
+        "description": "{user} が {channel} ボイスチャンネルから退出しました",
+        "joined": "参加日時",
+        "joinedValue": "{relative} ({relative_fixed})"
+    },
+    "voiceDisconnect": {
+        "title": "切断されました",
+        "description": "{user} が切断されました",
+        "disconnectedBy": "切断者",
+        "voiceChannel": "音声チャンネル"
+    },
+    "serverDeafen": {
+        "title": "サーバースピーカーミュート",
+        "description": "{user} がスピーカーミュートされました",
+        "deafenedBy": "スピーカーミュート実行者",
+        "voiceChannel": "音声チャンネル"
+    },
+    "serverMute": {
+        "title": "サーバーミュート",
+        "description": "{user} がミュートされました",
+        "mutedBy": "ミュート実行者",
+        "voiceChannel": "音声チャンネル"
+    },
+    "serverUndeafen": {
+        "title": "サーバースピーカーミュート解除",
+        "description": "{user} のスピーカーミュートが解除されました",
+        "undeafenedBy": "スピーカーミュート解除者",
+        "voiceChannel": "音声チャンネル"
+    },
+    "serverUnmute": {
+        "title": "ミュート解除",
+        "description": "{user} のミュートが解除されました",
+        "unmutedBy": "ミュート解除者",
+        "voiceChannel": "音声チャンネル"
+    },
+    "channelStatusUpdate": {
+        "title": "ボイスチャンネルのステータスが更新されました",
+        "description": "{executor} が {channel} のステータスを設定しました",
+        "status": "状態",
+        "linksToEmojis": "絵文字へのリンク",
+        "descriptionRemoved": "{executor} が {channel} のステータスを削除しました"
+    },
+    "stageStarted": {
+        "title": "ステージが開始されました",
+        "description": "{executor} が {channel} でステージを開始しました",
+        "topic": "トピック"
+    },
+    "stageEnded": {
+        "title": "ステージが終了しました",
+        "description": "{channel} のステージが {executor} によって終了しました",
+        "description_noExecutor": "{channel} のステージが終了しました",
+        "topic": "トピック",
+        "none": "なし"
+    },
+    "stageUpdated": {
+        "title": "ステージが更新されました",
+        "description": "{channel} のステージが {executor} によって更新されました",
+        "oldTopic": "古いトピック",
+        "newTopic": "新しいトピック"
+    },
+    "stageSpeakerAdd": {
+        "title": "新しいステージスピーカー",
+        "description": "{user} が {channel} ステージチャンネルのスピーカーになりました",
+        "description_inviteAccepted": "{user} が {channel} ステージチャンネルのスピーカーになるための招待を受け入れました"
     },
     "stageSpeakerRemove": {
-        "description": "{user} is no longer a speaker in the {channel} stage channel",
-        "title": "Stopped Speaking"
+        "title": "スピーカーから外されました",
+        "description": "{user} は {channel} ステージチャンネルのスピーカーではなくなりました"
+    },
+    "stageSpeakerInvited": {
+        "title": "スピーカーに招待されました",
+        "description": "{user} が {channel} ステージチャンネルでのスピーカーに招待されました"
+    },
+    "voiceBundle": {
+        "title": "複数のボイスチャンネルイベント"
     }
 }

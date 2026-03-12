@@ -1,30 +1,30 @@
 {
-    "serverBoostRemove": {
-        "description": "{user} stopped boosting this server",
-        "none": "none",
-        "description_withTier": "{user} stopped boosting, causing the server to drop down to tier {tier}",
-        "title": "Server Boost Removed",
-        "description_withTier_noUser": "Someone stopped boosting, causing the server to drop down to tier {tier}",
-        "description_noUser": "Someone stopped boosting this server"
-    },
-    "serverBoostAdd": {
-        "none": "none",
-        "description_withTier_noUser": "Someone boosted this server to tier {tier} 🎉",
-        "description_withTier": "{user} boosted this server to tier {tier} 🎉",
-        "description_noUser": "Someone boosted this server 🎉",
-        "description": "{user} boosted this server 🎉",
-        "title": "Server Boosted"
+    "serverModified": {
+        "title": "サーバーが変更されました",
+        "description": "このサーバーは {executor} によって変更されました"
     },
     "serverIconUpdated": {
-        "description": "{executor} updated the server icon",
-        "linkToOldIcon": "Link to old icon",
-        "description_added": "{executor} added a server icon",
-        "title": "Server Icon Updated",
-        "description_removed": "{executor} removed the server icon",
-        "linkToNewIcon": "Link to new icon"
+        "title": "サーバーアイコンが更新されました",
+        "description": "{executor} がサーバーアイコンを更新しました",
+        "description_added": "{executor} がサーバーアイコンを追加しました",
+        "description_removed": "{executor} がサーバーアイコンを削除しました",
+        "linkToOldIcon": "古いアイコンへのリンク",
+        "linkToNewIcon": "新しいアイコンへのリンク"
     },
-    "serverModified": {
-        "description": "This server was modified by {executor}",
-        "title": "Server Modified"
+    "serverBoostAdd": {
+        "title": "サーバーが強化されました",
+        "description": "{user} がこのサーバーをブーストしました 🎉",
+        "description_noUser": "誰かがこのサーバーをブーストしました 🎉",
+        "description_withTier": "{user} がこのサーバーをティア {tier} にブーストしました 🎉",
+        "description_withTier_noUser": "誰かがこのサーバーをティア {tier} にブーストしました 🎉",
+        "none": "なし"
+    },
+    "serverBoostRemove": {
+        "title": "サーバーブーストが削除されました",
+        "description": "{user} がこのサーバーのブーストを停止しました",
+        "description_noUser": "誰かがこのサーバーのブーストを停止しました",
+        "description_withTier": "{user} がブーストを停止したため、サーバーのレベルがティア {tier} に下がりました",
+        "description_withTier_noUser": "誰かがブーストを停止したため、サーバーのレベルがティア {tier} に下がりました",
+        "none": "なし"
     }
 }

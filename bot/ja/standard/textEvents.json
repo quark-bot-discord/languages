@@ -1,97 +1,97 @@
 {
-    "messageReactionRemove": {
-        "emoji": "Emoji",
-        "description": "{executor} removed a reaction from a message",
-        "title": "Reaction Removed",
-        "jumpToMessage": "Jump to message",
-        "linkToEmoji": "Link to emoji"
-    },
-    "messagesBulkDeleted": {
-        "deletedBy": "Deleted by",
-        "errorText": "There was an issue with creating a text file. Some messages may be lost. If this happens persistently, please make us aware in Quark's support server.",
-        "channel": "Channel",
-        "more": "more",
-        "errorFile": "There was an issue with recovering the files. If this happens persistently, please make us aware in Quark's support server.",
-        "embed": "embed",
-        "uncachedMessage": "uncached message",
-        "uncachedChannel": "uncached channel",
-        "uncachedUser": "uncached user",
-        "title": "Multiple Messages Deleted"
-    },
     "polls": {
-        "noResponses": "No responses",
-        "enabled": "enabled",
-        "pollDescriptor": "[poll]",
-        "votes": "votes",
-        "pollDeleted": "Poll Deleted",
-        "status": "Poll has status.",
-        "notEnded": "not ended",
-        "multiselect": "Multiselect",
-        "poll": "Poll",
-        "disabled": "disabled",
-        "vote": "vote",
-        "ends": "Ends",
-        "ended": "ended"
-    },
-    "threadDelete": {
-        "channel": "Channel",
-        "title": "Thread Deleted",
-        "description": "{executor} deleted a thread {thread}",
-        "thread": "Thread"
+        "poll": "投票",
+        "pollDescriptor": "[投票]",
+        "status": "投票にはステータスがあります",
+        "ended": "終了済み",
+        "notEnded": "進行中",
+        "multiselect": "複数選択",
+        "enabled": "有効",
+        "disabled": "無効",
+        "ends": "終了日時",
+        "vote": "票",
+        "votes": "票",
+        "noResponses": "応答なし",
+        "pollDeleted": "投票は削除されました"
     },
     "messageDeleted": {
-        "linksToFiles": "Links to files",
-        "jumpToContext": "Jump to context",
-        "fileExpired": "file too large or expired",
-        "initialReactor": "initial reactor",
-        "sticker": "sticker",
-        "inviteDetected": "Server invite detected",
-        "warning": "WARNING!",
-        "thread": "Thread",
-        "title": "Message Deleted",
-        "filesExpired": "files too large or expired",
-        "linksToEmojis": "Links to emojis",
-        "noContent": "no content",
-        "deletedBy": "Deleted by",
-        "ghostpingDetected": "Ghostping detected",
-        "file": "file",
-        "author": "Message author",
-        "files": "files",
-        "embed": "embed",
-        "channel": "Channel"
+        "title": "メッセージが削除されました",
+        "author": "メッセージの作成者",
+        "channel": "チャンネル",
+        "deletedBy": "削除者",
+        "jumpToContext": "コンテキストにジャンプ",
+        "warning": "警告！",
+        "linksToEmojis": "絵文字へのリンク",
+        "linksToFiles": "ファイルへのリンク",
+        "inviteDetected": "サーバーの招待が検出されました",
+        "ghostpingDetected": "ゴーストピングが検出されました",
+        "file": "ファイル",
+        "files": "ファイル",
+        "fileExpired": "ファイルが大きすぎるか期限切れです",
+        "filesExpired": "ファイルが大きすぎるか期限切れです",
+        "sticker": "ステッカー",
+        "noContent": "内容がありません",
+        "embed": "埋め込み",
+        "thread": "スレッド",
+        "initialReactor": "最初にリアクションした人"
     },
-    "threadCreate": {
-        "channel": "Channel",
-        "description": "{member} created a new thread {thread}",
-        "title": "Thread Created",
-        "jumpToContext": "Jump to context",
-        "thread": "Thread"
+    "messagesBulkDeleted": {
+        "title": "複数のメッセージが削除されました",
+        "deletedBy": "削除者",
+        "channel": "チャンネル",
+        "more": "他",
+        "uncachedUser": "キャッシュされていないユーザー",
+        "uncachedChannel": "キャッシュされていないチャンネル",
+        "uncachedMessage": "キャッシュされていないメッセージ",
+        "embed": "埋め込み",
+        "errorFile": "ファイルの回復中に問題が発生しました。この問題が繰り返し発生する場合は、Quark のサポートサーバーにお知らせください。",
+        "errorText": "テキストファイルの作成中に問題が発生しました。一部のメッセージが失われる可能性があります。この問題が繰り返し発生する場合は、Quark のサポートサーバーにお知らせください。"
     },
     "messageUpdate": {
-        "author": "Message author",
-        "noContent": "no content",
-        "title": "Message Edited",
-        "diffError": "Unable to calculate edits.",
-        "jumpToMessage": "Jump to message",
-        "diff": "Edits",
-        "channel": "Channel",
-        "afterEdit": "After edit",
-        "thread": "Thread",
-        "cannotRetrieveOriginal": "Cannot retrieve original message"
-    },
-    "messageUnpin": {
-        "title": "Message Unpinned",
-        "description": "A message was unpinned by {executor}"
-    },
-    "messagePin": {
-        "title": "Message Pinned",
-        "description": "A message was pinned by {executor}"
+        "title": "メッセージが編集されました",
+        "author": "メッセージの作成者",
+        "channel": "チャンネル",
+        "jumpToMessage": "メッセージへジャンプ",
+        "afterEdit": "編集後",
+        "diff": "編集",
+        "diffError": "編集を計算できません。",
+        "cannotRetrieveOriginal": "元のメッセージを取得できません",
+        "noContent": "内容がありません",
+        "thread": "スレッド"
     },
     "attachmentDeleted": {
-        "title": "Attachment Deleted"
+        "title": "添付ファイルが削除されました"
+    },
+    "messagePin": {
+        "title": "メッセージが固定されました",
+        "description": "メッセージが {executor} によって固定されました"
+    },
+    "messageUnpin": {
+        "title": "メッセージの固定が解除されました",
+        "description": "メッセージが {executor} によって固定を解除されました"
+    },
+    "threadCreate": {
+        "thread": "スレッド",
+        "channel": "チャンネル",
+        "jumpToContext": "コンテキストにジャンプ",
+        "title": "スレッドが作成されました",
+        "description": "{member} が新しいスレッド {thread} を作成しました"
+    },
+    "threadDelete": {
+        "thread": "スレッド",
+        "channel": "チャンネル",
+        "title": "スレッドが削除されました",
+        "description": "{executor} がスレッド {thread} を削除しました"
+    },
+    "messageReactionRemove": {
+        "title": "リアクションが削除されました",
+        "description": "{executor} がメッセージからリアクションを削除しました",
+        "emoji": "絵文字",
+        "linkToEmoji": "絵文字へのリンク",
+        "jumpToMessage": "メッセージへジャンプ"
     },
     "threadUpdated": {
-        "description": "{thread} was modified by {executor}",
-        "title": "Thread Modified"
+        "description": "{thread} は {executor} によって変更されました",
+        "title": "スレッドが変更されました"
     }
 }

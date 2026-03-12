@@ -1,29 +1,29 @@
 {
+    "none": "なし",
     "verification_level": {
-        "3": "high",
-        "0": "none",
-        "2": "medium",
-        "1": "low",
-        "4": "very_high"
-    },
-    "premium_progress_bar_enabled": {
-        "true": "enabled",
-        "false": "disabled"
-    },
-    "nsfw_level": {
-        "0": "default",
-        "1": "explicit",
-        "3": "age restricted",
-        "2": "safe"
-    },
-    "none": "none",
-    "explicit_content_filter": {
-        "1": "members without roles",
-        "2": "all members",
-        "0": "disabled"
+        "0": "なし",
+        "1": "低い",
+        "2": "中",
+        "3": "高い",
+        "4": "非常に高い"
     },
     "default_message_notifications": {
-        "0": "all messages",
-        "1": "only mentions"
+        "0": "すべてのメッセージ",
+        "1": "言及のみ"
+    },
+    "explicit_content_filter": {
+        "0": "無効",
+        "1": "ロールのないメンバー",
+        "2": "メンバー全員"
+    },
+    "nsfw_level": {
+        "0": "デフォルト",
+        "1": "明示的",
+        "2": "安全",
+        "3": "年齢制限あり"
+    },
+    "premium_progress_bar_enabled": {
+        "true": "有効",
+        "false": "無効"
     }
 }
