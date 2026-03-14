@@ -143,5 +143,13 @@
     "active": true,
     "iconCode": "HU",
     "emoji": "🇭🇺"
+  },
+  "ja": {
+    "code": "ja",
+    "id": 18,
+    "name": "日本語",
+    "active": true,
+    "iconCode": "JP",
+    "emoji": "🇯🇵"
   }
 }
