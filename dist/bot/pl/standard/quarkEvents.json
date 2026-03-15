@@ -62,14 +62,14 @@
         "description": "{executor} unieważnił token dostępu quark'a o ID {token}"
     },
     "guildSubscriptionUpdate": {
-        "title_applied": "Server Upgraded",
-        "title_removed": "Server Downgraded",
-        "description_applied": "This server now has [type] features enabled! 🎉",
-        "description_removed": "This server is now using Quark's free tier",
+        "title_applied": "Serwer Został Ulepszony",
+        "title_removed": "Server Został Obniżony",
+        "description_applied": "Ten serwer ma teraz włączone funkcje [type]! 🎉",
+        "description_removed": "Ten serwer używa teraz darmowego planu Quark",
         "quark_pro": "Quark Pro",
         "quark_prolite": "Quark Pro Lite",
-        "none": "none",
-        "executor": "Given by",
-        "teaser_pro": "Enjoy extended message logging (up to 4 weeks), fully customizable logs, the Pro bot, and more... 🚀"
+        "none": "nic",
+        "executor": "Dodany przez",
+        "teaser_pro": "Korzystaj z rozszerzonego logowania wiadomości (do 4 tygodni), w pełni konfigurowalnych logów, bota Pro i nie tylko... 🚀"
     }
 }
