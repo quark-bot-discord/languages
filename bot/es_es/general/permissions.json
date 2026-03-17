@@ -46,8 +46,8 @@
     "USE_EXTERNAL_SOUNDS": "Usar Sonidos Externos",
     "SEND_VOICE_MESSAGES": "Enviar Mensajes De Voz",
     "SEND_POLLS": "Enviar Encuestas",
-    "USE_EXTERNAL_APPS": "Use External Apps",
-    "PIN_MESSAGES": "Pin Messages",
+    "USE_EXTERNAL_APPS": "Usar Aplicaciones Externas",
+    "PIN_MESSAGES": "Mensajes Figados",
     "BYPASS_SLOWMODE": "Omitir el modo lento",
     "MANAGE_EVENTS": "Administrar eventos"
 }
