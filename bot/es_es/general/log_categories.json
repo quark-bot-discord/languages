@@ -10,15 +10,15 @@
     "quarkEvents": "Configuración de quarks",
     "modLog": "Registros de módulos",
     "main": "Principal",
-    "category_actions": "Actions",
-    "category_channels": "Channels",
-    "category_files": "Files",
-    "category_members": "Members",
+    "category_actions": "Acciones",
+    "category_channels": "Canales",
+    "category_files": "Archivos",
+    "category_members": "Miembros",
     "category_modlog": "Modlog",
-    "category_quark": "Quark Config",
+    "category_quark": "Configuración de Quark",
     "category_roles": "Roles",
     "category_server": "Server",
-    "category_text": "Text",
-    "category_voice": "Voice",
-    "main_channel": "Main"
+    "category_text": "Texto",
+    "category_voice": "Voz",
+    "main_channel": "Principal"
 }
