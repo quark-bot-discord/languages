@@ -41,6 +41,6 @@
     "threadModificationTypes": {
         "rate_limit_per_user": "Modo lento",
         "auto_archive_duration": "Archivo automático",
-        "name": "Name"
+        "name": "Nombre"
     }
 }
