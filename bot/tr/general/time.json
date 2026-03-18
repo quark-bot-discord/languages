@@ -1,7 +1,7 @@
 {
     "hour": "{time} hour",
-    "minute-plural": "{time} minutes",
-    "second": "{time} second",
+    "minute-plural": "{time} dakika",
+    "second": "{time} saniye",
     "hour-plural": "{time} hours",
     "month": "{time} month",
     "year": "{time} year",
@@ -9,8 +9,8 @@
     "month-plural": "{time} months",
     "year-plural": "{time} years",
     "week": "{time} week",
-    "second-plural": "{time} seconds",
+    "second-plural": "{time} saniye",
     "day-plural": "{time} days",
     "day": "{time} day",
-    "minute": "{time} minute"
+    "minute": "{time} dakika"
 }
