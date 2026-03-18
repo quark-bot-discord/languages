@@ -31,8 +31,8 @@
     "voiceLeave": {
         "title": "Kanaldan Ayrıldı",
         "description": "{user}, {channel} ses kanalından ayrıldı",
-        "joined": "Joined",
-        "joinedValue": "{relative} for {relative_fixed}"
+        "joined": "Katıldı",
+        "joinedValue": "{relative} süre önce katıldı ve {relative_fixed} süre kanalda kaldı"
     },
     "voiceDisconnect": {
         "title": "Bağlantı kesildi",
@@ -65,44 +65,44 @@
         "voiceChannel": "Ses kanalı"
     },
     "channelStatusUpdate": {
-        "title": "Voice Channel Status Updated",
-        "description": "{executor} set the status for {channel}",
-        "status": "Status",
-        "linksToEmojis": "Links to emojis",
-        "descriptionRemoved": "{executor} removed the status for {channel}"
+        "title": "Ses Kanalı Durumu Güncellendi",
+        "description": "{executor}, {channel} için kanal durumu belirledi",
+        "status": "Durum",
+        "linksToEmojis": "Emojilerin linkleri",
+        "descriptionRemoved": "{executor}, {channel} için kanal durumunu kaldırdı"
     },
     "stageEnded": {
-        "description": "The stage in {channel} was ended by {executor}",
-        "title": "Stage Ended",
-        "description_noExecutor": "The stage in {channel} was ended",
-        "topic": "Topic",
-        "none": "none"
+        "description": "{channel} kanalındaki sahne {executor} tarafından sona erdirildi",
+        "title": "Sahne Sona Erdi",
+        "description_noExecutor": "{channel} kanalındaki sahne sona erdi",
+        "topic": "Konu",
+        "none": "hiçbiri"
     },
     "stageSpeakerAdd": {
-        "description": "{user} became a speaker in the {channel} stage channel",
-        "title": "New Stage Speaker",
-        "description_inviteAccepted": "{user} accepted the invite to become a speaker in the {channel} stage channel"
+        "description": "{user}, {channel} sahne kanalında bir konuşmacı oldu",
+        "title": "Yeni Sahne Konuşmacısı",
+        "description_inviteAccepted": "{user}, {channel} sahne kanalında konuşma davetini kabul etti"
     },
     "stageSpeakerInvited": {
-        "description": "{user} was invited to speak in the {channel} stage channel",
-        "title": "Speaker Invited"
+        "description": "{user}, {channel} sahne kanalına konuşmacı olarak davet edildi",
+        "title": "Konuşmacı Davet Edildi"
     },
     "stageStarted": {
-        "title": "Stage Started",
-        "description": "{executor} started a stage in {channel}",
-        "topic": "Topic"
+        "title": "Sahne Başladı",
+        "description": "{executor}, {channel} kanalında sahneyi başlattı",
+        "topic": "Konu"
     },
     "stageUpdated": {
-        "title": "Stage Updated",
-        "description": "The stage in {channel} was updated by {executor}",
-        "oldTopic": "Old Topic",
-        "newTopic": "New Topic"
+        "title": "Sahne Güncellendi",
+        "description": "{channel} kanalındaki sahne {executor} tarafından güncellendi",
+        "oldTopic": "Eski Konu",
+        "newTopic": "Yeni Konu"
     },
     "stageSpeakerRemove": {
-        "title": "Stopped Speaking",
-        "description": "{user} is no longer a speaker in the {channel} stage channel"
+        "title": "Konuşmayı Bıraktı",
+        "description": "{user}, artık {channel} sahne kanalında bir konuşmacı değil"
     },
     "voiceBundle": {
-        "title": "Multiple Voice Channel Events"
+        "title": "Birçok Ses Kanalı Olayları"
     }
 }

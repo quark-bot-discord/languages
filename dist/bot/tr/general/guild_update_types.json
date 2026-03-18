@@ -1,29 +1,29 @@
 {
     "verification_level": {
-        "3": "high",
-        "0": "none",
-        "2": "medium",
-        "1": "low",
-        "4": "very_high"
+        "3": "yüksek",
+        "0": "hiçbiri",
+        "2": "orta",
+        "1": "düşük",
+        "4": "çok_yüksek"
     },
     "premium_progress_bar_enabled": {
-        "true": "enabled",
-        "false": "disabled"
+        "true": "aktifleştirilmiş",
+        "false": "devre dışı bırakılmış"
     },
     "nsfw_level": {
-        "0": "default",
-        "1": "explicit",
-        "3": "age restricted",
-        "2": "safe"
+        "0": "varsayılan",
+        "1": "+18 içerik",
+        "3": "yaş kısıtlanmış",
+        "2": "güvenli"
     },
     "none": "hiçbiri",
     "explicit_content_filter": {
-        "1": "members without roles",
-        "2": "all members",
-        "0": "disabled"
+        "1": "rolü olmayan üyeler",
+        "2": "bütün üyeler",
+        "0": "devre dışı bırakılmış"
     },
     "default_message_notifications": {
-        "0": "all messages",
-        "1": "only mentions"
+        "0": "bütün mesajlar",
+        "1": "sadece bahsetme içeren mesajlar"
     }
 }
