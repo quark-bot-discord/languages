@@ -1,7 +1,7 @@
 {
     "polls": {
         "poll": "Anket",
-        "pollDescriptor": "[poll]",
+        "pollDescriptor": "[anket]",
         "status": "Anketin durumu belli oldu.",
         "ended": "sona erdi",
         "notEnded": "sona ermedi",
@@ -31,7 +31,7 @@
         "sticker": "çıkartma",
         "noContent": "içerik yok",
         "thread": "Alt Konu",
-        "embed": "embed",
+        "embed": "gömülü mesaj",
         "initialReactor": "ilk tepki veren",
         "ghostpingDetected": "Ghostping algılandı"
     },
