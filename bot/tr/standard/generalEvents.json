@@ -5,7 +5,7 @@
     },
     "serverIconUpdated": {
         "description_added": "{executor}, bir sunucu simgesi ekledi",
-        "description_removed": "{executor} removed the server icon",
+        "description_removed": "{executor} sunucu simgesini kaldırdı",
         "linkToOldIcon": "Link to old icon",
         "linkToNewIcon": "Link to new icon",
         "title": "Sunucu Simgesi Güncellendi",
