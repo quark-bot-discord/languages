@@ -3,7 +3,7 @@
         "title": "Kayıt Kanalı Değiştirildi",
         "description_set": "{executor}, {type} günlüğünün kanalını {channel} olarak ayarladı",
         "description_category_disable": "{executor}, {type} günlük kanalını devre dışı bıraktı",
-        "description_unset": "{executor} {type} günlük kanalını ayarladı"
+        "description_unset": "{executor}, tarafından {type} günlük kanalı devre dışı bıraktı"
     },
     "serverlogOptionsUpdate": {
         "title": "Günlüğe Kaydetme Seçenekleri Güncellendi",
