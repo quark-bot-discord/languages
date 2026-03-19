@@ -6,70 +6,70 @@
         "description_unset": "{executor}, tarafından {type} günlük kanalı devre dışı bıraktı"
     },
     "serverlogOptionsUpdate": {
-        "title": "Günlüğe Kaydetme Seçenekleri Güncellendi",
-        "description": "{executor} set {option} to {state}",
-        "pluralkitSupport": "PluralKit Support",
-        "spoilers": "Spoilers",
-        "buttons": "Buttons",
-        "formatType": "Format Type"
+        "title": "Günlük Kaydı Seçenekleri Güncellendi",
+        "description": "{executor}, {option} seçeneğini {state} olarak ayarladı",
+        "pluralkitSupport": "PluralKit Desteği",
+        "spoilers": "Spoilerlar",
+        "buttons": "Düğmeler",
+        "formatType": "Biçim Türü"
     },
     "serverlogLogUpdate": {
-        "title": "Log Updated",
-        "description": "{executor} updated the {type} log",
-        "enabled": "Enabled",
-        "logFormat": "Format",
-        "logChannel": "Channel",
-        "colour": "Color",
-        "ignoreBotExecutors": "Ignore Bot Executors",
-        "ignoreBotTargets": "Ignore Bot Targets",
-        "activeIgnore": "Active Ignore"
+        "title": "Günlük Güncellendi",
+        "description": "{executor}, {type} günlüğünü güncelledi",
+        "enabled": "Aktifleştirilmiş",
+        "logFormat": "Biçim",
+        "logChannel": "Kanal",
+        "colour": "Renk",
+        "ignoreBotExecutors": "Bot Yöneticilerini Yoksay",
+        "ignoreBotTargets": "Bot Hedeflerini Yoksay",
+        "activeIgnore": "Aktif Yoksayımlar"
     },
     "serverlogIgnoreUpdate": {
-        "title": "Ignore Options Updated",
-        "description_set": "{executor} enabled {type}",
-        "description_unset": "{executor} disabled {type}",
-        "description_added": "{executor} added {target} to {type}",
-        "description_removed": "{executor} removed {target} from {type}"
+        "title": "Yoksayma Ayarları Güncellendi",
+        "description_set": "{executor}, {type} tipini etkinleştirdi",
+        "description_unset": "{executor}, {type} tipini devre dışı bıraktı",
+        "description_added": "{executor}, {target} türünü {type} tipine ekledi",
+        "description_removed": "{executor}, {target} türünü {type} tipinden kaldırdı"
     },
     "languageUpdate": {
-        "title": "Language Changed",
-        "description": "{executor} changed the language to {language}"
+        "title": "Dil Değiştirildi",
+        "description": "{executor}, dili {language} olarak değiştirdi"
     },
     "reset": {
-        "title": "Configuration Reset",
-        "description": "{executor} reset the configuration for this server"
+        "title": "Konfigürasyon Sıfırlaması",
+        "description": "{executor}, bu sunucunun konfigürasyonunu sıfırladı"
     },
     "tagAdded": {
-        "title": "Tag Added",
-        "description": "{executor} created a tag {tag}"
+        "title": "Etiket Eklendi",
+        "description": "{executor}, {tag} etiketini ekledi"
     },
     "tagUpdated": {
-        "title": "Tag Updated",
-        "description": "{executor} updated the tag {tag}"
+        "title": "Etiket Güncellendi",
+        "description": "{executor}, {tag} etiketini güncelledi"
     },
     "tagDeleted": {
-        "title": "Tag Deleted",
-        "description": "{executor} deleted the tag {tag}"
+        "title": "Etiket Silindi",
+        "description": "{executor}, {tag} etiketini sildi"
     },
     "tokenAdded": {
-        "title": "Token Generated",
-        "description": "{executor} generated a Quark access token with {permissions} permissions for this server",
-        "unique_id": "Token ID",
-        "revoke": "Revoke this token"
+        "title": "Token Oluşturuldu",
+        "description": "{executor}, bu sunucu için {permissions} yetkileriyle bir Quark erişim tokeni oluşturdu",
+        "unique_id": "Token ID'si",
+        "revoke": "Token'i iptal et"
     },
     "tokenRevoked": {
-        "title": "Token Revoked",
-        "description": "{executor} revoked the Quark access token with ID {token}"
+        "title": "Token İptal Edildi",
+        "description": "{executor}, {token} ID'li Quark erişim tokenini iptal etti"
     },
     "guildSubscriptionUpdate": {
-        "title_applied": "Server Upgraded",
-        "title_removed": "Server Downgraded",
-        "description_applied": "This server now has [type] features enabled! 🎉",
-        "description_removed": "This server is now using Quark's free tier",
+        "title_applied": "Sunucu Yükseltildi",
+        "title_removed": "Sunucu Düşürüldü",
+        "description_applied": "Artık bu sunucunun {type} özellikleri aktif🎉",
+        "description_removed": "Bu sunucu artık Quark'ın beleş paketini kullanıyor",
         "quark_pro": "Quark Pro",
         "quark_prolite": "Quark Pro Lite",
-        "none": "none",
-        "executor": "Given by",
-        "teaser_pro": "Enjoy extended message logging (up to 4 weeks), fully customizable logs, the Pro bot, and more... 🚀"
+        "none": "hiçbiri",
+        "executor": "Veren",
+        "teaser_pro": "4 haftaya kadar genişletilmiş mesaj günlüğü, tamamen özelleştirilebilir günlükler, botun pro versiyonu ve daha fazlasının keyfini çıkarın 🚀"
     }
 }
