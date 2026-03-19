@@ -1,9 +1,9 @@
 {
     "serverlogChannelUpdate": {
         "title": "Kayıt Kanalı Değiştirildi",
-        "description_set": "{executor}, {type} günlük kanalını {channel} olarak ayarladı",
-        "description_category_disable": "{executor} disabled the {type} logging channel",
-        "description_unset": "{executor} unset the {type} logging channel"
+        "description_set": "{executor}, {type} günlüğünün kanalını {channel} olarak ayarladı",
+        "description_category_disable": "{executor}, {type} günlük kanalını devre dışı bıraktı",
+        "description_unset": "{executor} {type} günlük kanalını ayarladı"
     },
     "serverlogOptionsUpdate": {
         "title": "Logging Options Updated",
