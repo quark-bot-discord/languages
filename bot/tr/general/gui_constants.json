@@ -3,7 +3,7 @@
         "name": "İsim",
         "hoist": "Kaldırıldı",
         "unicode_emoji": "Emoji",
-        "managed": "Managed",
+        "managed": "Yönetilen",
         "mentionable": "Bahsedilebilir",
         "color": "Renk"
     },
@@ -36,7 +36,7 @@
         "name": "İsim"
     },
     "emojiModificationTypes": {
-        "name": "Name"
+        "name": "İsim"
     },
     "threadModificationTypes": {
         "rate_limit_per_user": "Yavaş Mod",
