@@ -1,15 +1,15 @@
 {
     "serverModified": {
-        "title": "Server Modified",
-        "description": "This server was modified by {executor}"
+        "title": "Sunucu Düzenlendi",
+        "description": "Bu sunucu {executor} tarafından düzenlendi"
     },
     "serverIconUpdated": {
-        "description_added": "{executor} added a server icon",
-        "description_removed": "{executor} removed the server icon",
+        "description_added": "{executor}, bir sunucu simgesi ekledi",
+        "description_removed": "{executor} sunucu simgesini kaldırdı",
         "linkToOldIcon": "Link to old icon",
         "linkToNewIcon": "Link to new icon",
-        "title": "Server Icon Updated",
-        "description": "{executor} updated the server icon"
+        "title": "Sunucu Simgesi Güncellendi",
+        "description": "{executor}, sunucu simgesini güncelledi"
     },
     "serverBoostAdd": {
         "title": "Server Boosted",
