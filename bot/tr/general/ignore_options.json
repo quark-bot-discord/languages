@@ -4,7 +4,7 @@
     "ignoreBotTargets": "Bot Hedeflerini Yoksay",
     "ignoreExecutors": "Hedef Yöneticileri Yoksay",
     "activeIgnore": "Aktif Yoksaymalar",
-    "specificMessageContent": "Ignore Specific Message Content",
+    "specificMessageContent": "Belirli Mesaj İçeriklerini Yoksay",
     "ignoreCategories": "Kategorileri Yoksay",
     "ignoreTargets": "Hedef Kullanıcıları Yoksay",
     "ignoreTargetRoles": "Hedef Rolleri Yoksay",
