@@ -8,7 +8,7 @@
         "color": "Renk"
     },
     "channelModificationTypes": {
-        "nsfw": "NSFW",
+        "nsfw": "Yaş Sınırı",
         "name": "İsim",
         "user_limit": "Kullanıcı Limiti",
         "rate_limit_per_user": "Yavaş mod",
