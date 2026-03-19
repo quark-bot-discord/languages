@@ -5,26 +5,26 @@
     },
     "serverIconUpdated": {
         "description_added": "{executor}, bir sunucu simgesi ekledi",
-        "description_removed": "{executor} sunucu simgesini kaldırdı",
-        "linkToOldIcon": "Link to old icon",
-        "linkToNewIcon": "Link to new icon",
+        "description_removed": "{executor}, sunucu simgesini kaldırdı",
+        "linkToOldIcon": "Eski simge bağlantısı",
+        "linkToNewIcon": "Yeni simge bağlantısı",
         "title": "Sunucu Simgesi Güncellendi",
         "description": "{executor}, sunucu simgesini güncelledi"
     },
     "serverBoostAdd": {
-        "title": "Server Boosted",
-        "description": "{user} boosted this server 🎉",
-        "description_noUser": "Someone boosted this server 🎉",
-        "description_withTier": "{user} boosted this server to tier {tier} 🎉",
-        "description_withTier_noUser": "Someone boosted this server to tier {tier} 🎉",
-        "none": "none"
+        "title": "Sunucuya Takviye Yapıldı",
+        "description": "{user}, bu sunucuya takviye yaptı🎉",
+        "description_noUser": "Biri bu sunucuya takviye yaptı🎉",
+        "description_withTier": "{user}, takviyesiyle bu sunucuyu {tier} seviyesine ulaştırdı🎉",
+        "description_withTier_noUser": "Birisi takviyesiyle bu sunucuyu {tier} seviyesine ulaştırdı🎉",
+        "none": "hiçbiri"
     },
     "serverBoostRemove": {
-        "title": "Server Boost Removed",
-        "description": "{user} stopped boosting this server",
-        "description_noUser": "Someone stopped boosting this server",
-        "description_withTier": "{user} stopped boosting, causing the server to drop down to tier {tier}",
-        "description_withTier_noUser": "Someone stopped boosting, causing the server to drop down to tier {tier}",
-        "none": "none"
+        "title": "Sunucu Takviyesi Kaldırıldı",
+        "description": "{user}, bu sunucuya takviye yapmayı bıraktı",
+        "description_noUser": "Birisi sunucuya takviye yapmayı bıraktı",
+        "description_withTier": "{user}, takviye vermeyi bırakarak sunucunun {tier} seviyesine düşmesine sebep oldu",
+        "description_withTier_noUser": "Birisi takviye vermeyi bırakarak sunucunun {tier} seviyesine düşmesine sebep oldu",
+        "none": "hiçbiri"
     }
 }
