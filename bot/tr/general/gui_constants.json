@@ -1,10 +1,10 @@
 {
     "roleModificationTypes": {
         "name": "İsim",
-        "hoist": "Kaldırılmış",
+        "hoist": "Kaldırıldı",
         "unicode_emoji": "Emoji",
         "managed": "Managed",
-        "mentionable": "Mentionable",
+        "mentionable": "Bahsedilebilir",
         "color": "Renk"
     },
     "channelModificationTypes": {
@@ -20,27 +20,27 @@
         "rtc_region": "Bölge"
     },
     "guildModificationTypes": {
-        "premium_progress_bar_enabled": "Progress Bar",
-        "description": "Description",
-        "name": "Name",
-        "system_channel_id": "System Channel",
-        "nsfw_level": "NSFW Level",
-        "mfa_level": "MFA Required",
-        "default_message_notifications": "Default Notifications",
-        "explicit_content_filter": "Explicit Content Filter",
-        "verification_level": "Verification Level",
-        "rules_channel_id": "Rule Channel"
+        "premium_progress_bar_enabled": "Takviye İlerleme Çubuğu",
+        "description": "Açıklama",
+        "name": "İsim",
+        "system_channel_id": "Sistem Mesajları Kanalı",
+        "nsfw_level": "Hassas İçerik Seviyesi",
+        "mfa_level": "İki Aşamalı Doğrulama Gerekli",
+        "default_message_notifications": "Varsayılan Bildirimler",
+        "explicit_content_filter": "Hassas İçerik Filtresi",
+        "verification_level": "Doğrulama Seviyesi",
+        "rules_channel_id": "Kurallar Kanalı"
     },
     "webhookModificationTypes": {
-        "channel_id": "Channel",
-        "name": "Name"
+        "channel_id": "Kanal",
+        "name": "İsim"
     },
     "emojiModificationTypes": {
         "name": "Name"
     },
     "threadModificationTypes": {
-        "rate_limit_per_user": "Slowmode",
-        "auto_archive_duration": "Automatic Archive",
-        "name": "Name"
+        "rate_limit_per_user": "Yavaş Mod",
+        "auto_archive_duration": "Otomatik Arşiv",
+        "name": "aİsim"
     }
 }
