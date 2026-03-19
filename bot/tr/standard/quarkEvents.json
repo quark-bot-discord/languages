@@ -6,7 +6,7 @@
         "description_unset": "{executor} {type} günlük kanalını ayarladı"
     },
     "serverlogOptionsUpdate": {
-        "title": "Logging Options Updated",
+        "title": "Günlüğe Kaydetme Seçenekleri Güncellendi",
         "description": "{executor} set {option} to {state}",
         "pluralkitSupport": "PluralKit Support",
         "spoilers": "Spoilers",
