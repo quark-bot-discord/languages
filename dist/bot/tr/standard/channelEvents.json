@@ -15,7 +15,7 @@
     },
     "channelOverwriteCreate": {
         "title": "{type} Kanalı İzinleri Eklendi",
-        "description": "{executor}, {channel} kanalı için {special} rolüne izinler ekledi"
+        "description": "{executor}, {special} için {channel} kanalına izinler ekledi"
     },
     "channelOverwriteDelete": {
         "title": "{type} Kanalı İzinleri Kaldırıldı",

@@ -3,18 +3,18 @@
     "user": "Kullanıcı",
     "reason": "Sebep",
     "case": "Vaka, olay",
-    "noReason": "Moderatör: Lütfen {command} yapın",
+    "noReason": "[hiçbir sebep belirtilmedi]",
     "noReasonBrief": "{command} yap",
     "ban": "Yasaklamak",
     "unban": "Yasağı kaldır",
     "kick": "Atmak",
     "mute": "Sustur",
     "unmute": "Susturmayı kaldır",
-    "timeoutEnds": "Timeout ends {time} ({duration})",
+    "timeoutEnds": "Zaman aşımı {time} ({duration}) tarihinde sona eriyor",
     "reasonModal": {
-        "label": "Reason",
-        "placeholder": "Being very bad >:(",
-        "title": "Modify modlog reason"
+        "label": "Sebep",
+        "placeholder": "Kötü bir çocuk olmak >:(",
+        "title": "Moderatör Günlüğü sebebini değiştir"
     },
-    "editReason": "Edit Reason"
+    "editReason": "Nedeni Düzenle"
 }
