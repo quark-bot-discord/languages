@@ -4,12 +4,12 @@
         "description": "Bu sunucu {executor} tarafından düzenlendi"
     },
     "serverIconUpdated": {
-        "description_added": "{executor} added a server icon",
+        "description_added": "{executor}, bir sunucu simgesi ekledi",
         "description_removed": "{executor} removed the server icon",
         "linkToOldIcon": "Link to old icon",
         "linkToNewIcon": "Link to new icon",
         "title": "Sunucu Simgesi Güncellendi",
-        "description": "{executor} sunucu simgesini güncelledi"
+        "description": "{executor}, sunucu simgesini güncelledi"
     },
     "serverBoostAdd": {
         "title": "Server Boosted",
