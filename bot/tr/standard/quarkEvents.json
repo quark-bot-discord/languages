@@ -8,13 +8,13 @@
     "serverlogOptionsUpdate": {
         "title": "Günlük Kaydı Seçenekleri Güncellendi",
         "description": "{executor}, {option} seçeneğini {state} olarak ayarladı",
-        "pluralkitSupport": "PluralKit Support",
+        "pluralkitSupport": "PluralKit Desteği",
         "spoilers": "Spoilerlar",
         "buttons": "Düğmeler",
         "formatType": "Biçim Türü"
     },
     "serverlogLogUpdate": {
-        "title": "Log Updated",
+        "title": "Günlük Güncellendi",
         "description": "{executor}, {type} günlüğünü güncelledi",
         "enabled": "Aktifleştirilmiş",
         "logFormat": "Biçim",
