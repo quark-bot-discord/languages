@@ -1,9 +1,9 @@
 {
-    "userID": "User ID",
-    "supportServer": "Support Server",
-    "customise": "Customise",
-    "overview": "Overview",
-    "serverlog": "Serverlog",
-    "dashboard": "Dashboard",
+    "userID": "Kullanıcı ID'si",
+    "supportServer": "Destek Sunucusu",
+    "customise": "Özelleştir",
+    "overview": "Genel Bakış",
+    "serverlog": "Sunucu Günlüğü",
+    "dashboard": "Kontrol Paneli",
     "pro": "Quark Pro"
 }

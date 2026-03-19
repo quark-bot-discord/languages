@@ -1,23 +1,23 @@
 {
     "roleModificationTypes": {
-        "name": "Name",
-        "hoist": "Hoisted",
+        "name": "İsim",
+        "hoist": "Kaldırılmış",
         "unicode_emoji": "Emoji",
         "managed": "Managed",
         "mentionable": "Mentionable",
-        "color": "Color"
+        "color": "Renk"
     },
     "channelModificationTypes": {
-        "nsfw": "NSFW",
-        "name": "Name",
-        "user_limit": "User Limit",
-        "rate_limit_per_user": "Slowmode",
-        "topic": "Topic",
-        "bitrate": "Bitrate",
-        "type": "Type",
-        "position": "Position",
-        "parent_id": "Category",
-        "rtc_region": "Region"
+        "nsfw": "Yaş Sınırı",
+        "name": "İsim",
+        "user_limit": "Kullanıcı Limiti",
+        "rate_limit_per_user": "Yavaş mod",
+        "topic": "Başlık",
+        "bitrate": "Bit hızı",
+        "type": "Tip",
+        "position": "Pozisyon",
+        "parent_id": "Kategori",
+        "rtc_region": "Bölge"
     },
     "guildModificationTypes": {
         "premium_progress_bar_enabled": "Progress Bar",
