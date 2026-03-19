@@ -1,5 +1,5 @@
 {
-    "disable": "Devre Dışı Bırak",
+    "disable": "Etkinleştirilmiş",
     "enable": "Etkinleştir",
     "error-401-0": "Komut başarısız oldu",
     "error-401-1-type-0": "O kullanıcıyı engelleyemiyorum",
