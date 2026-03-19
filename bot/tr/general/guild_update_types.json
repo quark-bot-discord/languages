@@ -24,6 +24,6 @@
     },
     "default_message_notifications": {
         "0": "bütün mesajlar",
-        "1": "sadece bahsetme içeren mesajlar"
+        "1": "sadece bahsetmeler"
     }
 }
