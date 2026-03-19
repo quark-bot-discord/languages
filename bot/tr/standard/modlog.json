@@ -13,8 +13,8 @@
     "timeoutEnds": "Zaman aşımı {time} ({duration}) tarihinde sona eriyor",
     "reasonModal": {
         "label": "Sebep",
-        "placeholder": "Being very bad >:(",
-        "title": "Modify modlog reason"
+        "placeholder": "Kötü bir çocuk olmak >:(",
+        "title": "Moderatör Günlüğü sebebini değiştir"
     },
     "editReason": "Nedeni Düzenle"
 }
