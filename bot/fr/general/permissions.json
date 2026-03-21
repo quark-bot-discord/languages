@@ -49,5 +49,6 @@
     "USE_EXTERNAL_APPS": "Use External Apps",
     "PIN_MESSAGES": "Messages épinglés",
     "BYPASS_SLOWMODE": "Contourner le mode lent",
-    "MANAGE_EVENTS": "Gérer les évènements"
+    "MANAGE_EVENTS": "Gérer les évènements",
+    "MANAGE_GUILD_EXPRESSIONS": "Manage Expressions"
 }
