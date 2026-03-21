@@ -49,5 +49,6 @@
     "USE_EXTERNAL_APPS": "外部アプリを使用する",
     "PIN_MESSAGES": "メッセージをピン留めする",
     "BYPASS_SLOWMODE": "スローモードをバイパスする",
-    "MANAGE_EVENTS": "イベントの管理"
+    "MANAGE_EVENTS": "イベントの管理",
+    "MANAGE_GUILD_EXPRESSIONS": "Manage Expressions"
 }
