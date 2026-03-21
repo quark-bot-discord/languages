@@ -49,5 +49,6 @@
     "USE_EXTERNAL_APPS": "Külső Alkamazások Használata",
     "PIN_MESSAGES": "Üzenetek Kitüzése",
     "BYPASS_SLOWMODE": "Lassított Mód Megkerülése",
-    "MANAGE_EVENTS": "Események Kezelése"
+    "MANAGE_EVENTS": "Események Kezelése",
+    "MANAGE_GUILD_EXPRESSIONS": "Manage Expressions"
 }
