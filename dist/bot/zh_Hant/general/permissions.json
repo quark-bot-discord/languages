@@ -49,5 +49,6 @@
     "USE_EXTERNAL_APPS": "使用外部應用程式（機器人）",
     "PIN_MESSAGES": "釘選訊息",
     "BYPASS_SLOWMODE": "繞過慢速模式",
-    "MANAGE_EVENTS": "管理活動"
+    "MANAGE_EVENTS": "管理活動",
+    "MANAGE_GUILD_EXPRESSIONS": "Manage Expressions"
 }

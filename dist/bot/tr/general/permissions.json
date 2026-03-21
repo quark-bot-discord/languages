@@ -49,5 +49,6 @@
     "USE_EXTERNAL_APPS": "Harici Uygulamaları Kullan",
     "PIN_MESSAGES": "Mesajları Sabitle",
     "BYPASS_SLOWMODE": "Yavaş Modu Atla",
-    "MANAGE_EVENTS": "Etkinlikleri Yönet"
+    "MANAGE_EVENTS": "Etkinlikleri Yönet",
+    "MANAGE_GUILD_EXPRESSIONS": "Manage Expressions"
 }
