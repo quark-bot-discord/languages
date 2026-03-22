@@ -49,6 +49,7 @@
         "tags": "Tags"
     },
     "soundboardSoundModificationTypes": {
-        "name": "Name"
+        "name": "Name",
+        "volume": "Volume"
     }
 }
