@@ -55,7 +55,8 @@
     "stickerCreated": {
         "title": "Matrica Létrehozva",
         "description": "{sticker} hozzá lett adva {executor} által",
-        "stickerDescription": "Description"
+        "stickerDescription": "Description",
+        "stickerEmoji": "Related Emoji"
     },
     "stickerDeleted": {
         "title": "Matrica Törölve",
