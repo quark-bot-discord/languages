@@ -42,5 +42,8 @@
     },
     "emojiModificationTypes": {
         "name": "الاسم"
+    },
+    "stickerModificationTypes": {
+        "name": "Name"
     }
 }

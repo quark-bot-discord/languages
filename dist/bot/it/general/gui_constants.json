@@ -42,5 +42,8 @@
     "webhookModificationTypes": {
         "name": "Nome",
         "channel_id": "Canale"
+    },
+    "stickerModificationTypes": {
+        "name": "Name"
     }
 }
