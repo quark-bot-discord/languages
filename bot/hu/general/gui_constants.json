@@ -47,5 +47,8 @@
         "name": "Név",
         "description": "Leírás",
         "tags": "Címkék"
+    },
+    "soundboardSoundModificationTypes": {
+        "name": "Name"
     }
 }
