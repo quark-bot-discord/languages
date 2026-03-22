@@ -54,7 +54,8 @@
     },
     "stickerCreated": {
         "title": "Sticker Created",
-        "description": "{sticker} was added by {executor}"
+        "description": "{sticker} was added by {executor}",
+        "stickerDescription": "Description"
     },
     "stickerDeleted": {
         "title": "Sticker Deleted",

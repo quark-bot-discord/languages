@@ -438,12 +438,12 @@ export type LanguageStructure = {
   MANAGE_EVENTS: string;
   MANAGE_GUILD_EXPRESSIONS: string;
 }>;
+  sticker_update_types: Promise<{
+  none: string;
+}>;
   role_update_types: Promise<{
   enabled: string;
   disabled: string;
-  none: string;
-}>;
-  sticker_update_types: Promise<{
   none: string;
 }>;
   thread_update_types: Promise<{
@@ -940,40 +940,6 @@ export type LanguageStructure = {
   none: string;
 };
 }>;
-  roleEvents: Promise<{
-  roleCreated: {
-  title: string;
-  description: string;
-};
-  roleDeleted: {
-  title: string;
-  description: string;
-  role: string;
-  linkToRoleIcon: string;
-};
-  roleUpdated: {
-  title: string;
-  description: string;
-};
-  rolePermissionsUpdate: {
-  title: string;
-  description: string;
-  newPermissions: string;
-  oldPermissions: string;
-  viewFullNewPermissions: string;
-  viewFullOldPermissions: string;
-  warning: string;
-  dangerousPermissions: string;
-};
-  roleIconUpdate: {
-  title: string;
-  description: string;
-  description_added: string;
-  description_removed: string;
-  linkToOldIcon: string;
-  linkToNewIcon: string;
-};
-}>;
   modlog: Promise<{
   moderator: string;
   user: string;
@@ -1069,6 +1035,40 @@ export type LanguageStructure = {
   teaser_pro: string;
 };
 }>;
+  roleEvents: Promise<{
+  roleCreated: {
+  title: string;
+  description: string;
+};
+  roleDeleted: {
+  title: string;
+  description: string;
+  role: string;
+  linkToRoleIcon: string;
+};
+  roleUpdated: {
+  title: string;
+  description: string;
+};
+  rolePermissionsUpdate: {
+  title: string;
+  description: string;
+  newPermissions: string;
+  oldPermissions: string;
+  viewFullNewPermissions: string;
+  viewFullOldPermissions: string;
+  warning: string;
+  dangerousPermissions: string;
+};
+  roleIconUpdate: {
+  title: string;
+  description: string;
+  description_added: string;
+  description_removed: string;
+  linkToOldIcon: string;
+  linkToNewIcon: string;
+};
+}>;
   serverActions: Promise<{
   inviteCreate: {
   title: string;
@@ -1126,6 +1126,7 @@ export type LanguageStructure = {
   stickerCreated: {
   title: string;
   description: string;
+  stickerDescription: string;
 };
   stickerDeleted: {
   title: string;
