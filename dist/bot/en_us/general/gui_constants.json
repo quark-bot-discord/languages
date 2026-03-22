@@ -47,5 +47,8 @@
         "name": "Name",
         "description": "Description",
         "tags": "Emoji"
+    },
+    "soundboardSoundModificationTypes": {
+        "name": "Name"
     }
 }
