@@ -74,5 +74,8 @@
     "soundboardSoundDeleted": {
         "title": "{sound} was deleted by {executor}",
         "description": "{sound} was deleted by {executor}"
+    },
+    "soundboardSoundUpdated": {
+        "title": "Soundboard Sound Updated"
     }
 }
