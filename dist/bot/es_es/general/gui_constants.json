@@ -45,6 +45,7 @@
     },
     "stickerModificationTypes": {
         "name": "Name",
-        "description": "Description"
+        "description": "Description",
+        "tags": "Tags"
     }
 }

@@ -309,6 +309,7 @@ export type LanguageStructure = {
   stickerModificationTypes: {
   name: string;
   description: string;
+  tags: string;
 };
 }>;
   guild_update_types: Promise<{
@@ -340,6 +341,18 @@ export type LanguageStructure = {
   false: string;
 };
 }>;
+  ignore_options: Promise<{
+  ignoreTargets: string;
+  ignoreExecutors: string;
+  specificMessageContent: string;
+  ignoreChannels: string;
+  ignoreBotExecutors: string;
+  ignoreBotTargets: string;
+  ignoreExecutorRoles: string;
+  ignoreTargetRoles: string;
+  ignoreCategories: string;
+  activeIgnore: string;
+}>;
   log_categories: Promise<{
   serverEvents: string;
   serverActions: string;
@@ -363,18 +376,6 @@ export type LanguageStructure = {
   category_text: string;
   category_voice: string;
   main_channel: string;
-}>;
-  ignore_options: Promise<{
-  ignoreTargets: string;
-  ignoreExecutors: string;
-  specificMessageContent: string;
-  ignoreChannels: string;
-  ignoreBotExecutors: string;
-  ignoreBotTargets: string;
-  ignoreExecutorRoles: string;
-  ignoreTargetRoles: string;
-  ignoreCategories: string;
-  activeIgnore: string;
 }>;
   log_formats: Promise<{
   "0": string;
@@ -527,10 +528,6 @@ export type LanguageStructure = {
 };
 };
 }>;
-  dashboard: Promise<{
-  name: string;
-  description: string;
-}>;
   debug: Promise<{
   name: string;
   description: string;
@@ -540,6 +537,10 @@ export type LanguageStructure = {
   description: string;
 };
 };
+}>;
+  dashboard: Promise<{
+  name: string;
+  description: string;
 }>;
   export: Promise<{
   name: string;
@@ -581,6 +582,10 @@ export type LanguageStructure = {
 };
 };
 }>;
+  invite: Promise<{
+  name: string;
+  description: string;
+}>;
   initialReactor: Promise<{
   name: string;
 }>;
@@ -598,10 +603,6 @@ export type LanguageStructure = {
 };
 };
 }>;
-  invite: Promise<{
-  name: string;
-  description: string;
-}>;
   language: Promise<{
   name: string;
   description: string;
@@ -613,6 +614,10 @@ export type LanguageStructure = {
 };
 }>;
   logging: Promise<{
+  name: string;
+  description: string;
+}>;
+  ping: Promise<{
   name: string;
   description: string;
 }>;
@@ -649,15 +654,11 @@ export type LanguageStructure = {
 };
 };
 }>;
-  ping: Promise<{
+  privacy: Promise<{
   name: string;
   description: string;
 }>;
   premium: Promise<{
-  name: string;
-  description: string;
-}>;
-  privacy: Promise<{
   name: string;
   description: string;
 }>;
@@ -1418,5 +1419,5 @@ export type LanguageStructure = {
 }>;
 };
 };
-export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "export" | "help" | "initialReactor" | "kick" | "invite" | "language" | "logging" | "mute" | "ping" | "premium" | "privacy" | "purge" | "reason" | "serverlog" | "tags" | "unban" | "unmute";
+export type SlashCommandNames = "ban" | "commands" | "config" | "debug" | "dashboard" | "export" | "help" | "invite" | "initialReactor" | "kick" | "language" | "logging" | "ping" | "mute" | "privacy" | "premium" | "purge" | "reason" | "serverlog" | "tags" | "unban" | "unmute";
 export type QuarkLanguageCodes = "en_us" | "en_gb" | "tr" | "vi" | "en_pr" | "pl" | "nl" | "es_es" | "it" | "de" | "fr" | "ru" | "el" | "zh_hant" | "ko" | "sl" | "ar" | "hu" | "ja";
