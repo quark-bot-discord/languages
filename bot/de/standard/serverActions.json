@@ -53,6 +53,7 @@
         "newImage": "Neues Bild"
     },
     "stickerCreated": {
-        "title": "Sticker Created"
+        "title": "Sticker Created",
+        "description": "{sticker} was added by {executor}"
     }
 }
