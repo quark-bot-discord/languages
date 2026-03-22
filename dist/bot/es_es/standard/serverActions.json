@@ -57,6 +57,7 @@
         "description": "{sticker} was added by {executor}"
     },
     "stickerDeleted": {
-        "title": "Sticker Deleted"
+        "title": "Sticker Deleted",
+        "description": "{sticker} was deleted by {executor}"
     }
 }
