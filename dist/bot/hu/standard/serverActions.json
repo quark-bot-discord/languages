@@ -53,6 +53,7 @@
         "none": "semmi"
     },
     "stickerCreated": {
-        "title": "Sticker Created"
+        "title": "Sticker Created",
+        "description": "{sticker} was added by {executor}"
     }
 }
