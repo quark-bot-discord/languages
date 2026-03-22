@@ -51,5 +51,8 @@
         "newChannel": "新しいチャンネル",
         "linkToEventImage": "旧イベント画像へのリンク",
         "newImage": "新しい画像"
+    },
+    "stickerCreated": {
+        "title": "Sticker Created"
     }
 }

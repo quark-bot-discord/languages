@@ -51,5 +51,8 @@
         "newChannel": "Nouveau salon",
         "linkToEventImage": "Lien vers l'ancienne image de l'événement",
         "newImage": "Nouvelle image"
+    },
+    "stickerCreated": {
+        "title": "Sticker Created"
     }
 }

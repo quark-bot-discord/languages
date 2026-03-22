@@ -51,5 +51,8 @@
         "title": "Etkinlik Silindi",
         "description": "{executor}, {name} adlı etkinliği sildi",
         "linkToEventImage": "Etkinlik görseline link"
+    },
+    "stickerCreated": {
+        "title": "Sticker Created"
     }
 }

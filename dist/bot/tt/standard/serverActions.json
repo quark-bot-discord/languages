@@ -51,5 +51,8 @@
         "title": "Emoji Deleted",
         "emoji": "Emoji",
         "description": "{emoji} was deleted by {executor}"
+    },
+    "stickerCreated": {
+        "title": "Sticker Created"
     }
 }
