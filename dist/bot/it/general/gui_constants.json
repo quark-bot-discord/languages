@@ -44,6 +44,7 @@
         "channel_id": "Canale"
     },
     "stickerModificationTypes": {
-        "name": "Name"
+        "name": "Name",
+        "description": "Description"
     }
 }

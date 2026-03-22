@@ -44,6 +44,7 @@
         "name": "aİsim"
     },
     "stickerModificationTypes": {
-        "name": "Name"
+        "name": "Name",
+        "description": "Description"
     }
 }

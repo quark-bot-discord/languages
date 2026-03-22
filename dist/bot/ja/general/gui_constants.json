@@ -44,6 +44,7 @@
         "name": "名前"
     },
     "stickerModificationTypes": {
-        "name": "Name"
+        "name": "Name",
+        "description": "Description"
     }
 }
