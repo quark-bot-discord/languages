@@ -13,6 +13,22 @@ export type LanguageStructure = {
   dashboard: string;
   pro: string;
 }>;
+  channel_types: Promise<{
+  "0": string;
+  "2": string;
+  "4": string;
+  "5": string;
+  "10": string;
+  "11": string;
+  "12": string;
+  "13": string;
+  "14": string;
+  "15": string;
+  "16": string;
+}>;
+  channel_update_types: Promise<{
+  none: string;
+}>;
   command_responses: Promise<{
   disable: string;
   enable: string;
@@ -291,19 +307,6 @@ export type LanguageStructure = {
   name: string;
 };
 }>;
-  channel_types: Promise<{
-  "0": string;
-  "2": string;
-  "4": string;
-  "5": string;
-  "10": string;
-  "11": string;
-  "12": string;
-  "13": string;
-  "14": string;
-  "15": string;
-  "16": string;
-}>;
   guild_update_types: Promise<{
   none: string;
   verification_level: {
@@ -333,8 +336,17 @@ export type LanguageStructure = {
   false: string;
 };
 }>;
-  channel_update_types: Promise<{
-  none: string;
+  ignore_options: Promise<{
+  ignoreTargets: string;
+  ignoreExecutors: string;
+  specificMessageContent: string;
+  ignoreChannels: string;
+  ignoreBotExecutors: string;
+  ignoreBotTargets: string;
+  ignoreExecutorRoles: string;
+  ignoreTargetRoles: string;
+  ignoreCategories: string;
+  activeIgnore: string;
 }>;
   log_categories: Promise<{
   serverEvents: string;
@@ -359,18 +371,6 @@ export type LanguageStructure = {
   category_text: string;
   category_voice: string;
   main_channel: string;
-}>;
-  ignore_options: Promise<{
-  ignoreTargets: string;
-  ignoreExecutors: string;
-  specificMessageContent: string;
-  ignoreChannels: string;
-  ignoreBotExecutors: string;
-  ignoreBotTargets: string;
-  ignoreExecutorRoles: string;
-  ignoreTargetRoles: string;
-  ignoreCategories: string;
-  activeIgnore: string;
 }>;
   log_formats: Promise<{
   "0": string;
@@ -523,6 +523,10 @@ export type LanguageStructure = {
 };
 };
 }>;
+  dashboard: Promise<{
+  name: string;
+  description: string;
+}>;
   debug: Promise<{
   name: string;
   description: string;
@@ -580,10 +584,6 @@ export type LanguageStructure = {
   name: string;
   description: string;
 }>;
-  dashboard: Promise<{
-  name: string;
-  description: string;
-}>;
   kick: Promise<{
   name: string;
   description: string;
@@ -612,6 +612,39 @@ export type LanguageStructure = {
   name: string;
   description: string;
 }>;
+  mute: Promise<{
+  name: string;
+  description: string;
+  commandOptions: {
+  userOption: {
+  name: string;
+  description: string;
+};
+  timeOption: {
+  name: string;
+  description: string;
+};
+  typeOption: {
+  name: string;
+  description: string;
+  choices: {
+  minutes: {
+  name: string;
+};
+  hours: {
+  name: string;
+};
+  days: {
+  name: string;
+};
+};
+};
+  reasonOption: {
+  name: string;
+  description: string;
+};
+};
+}>;
   ping: Promise<{
   name: string;
   description: string;
@@ -623,6 +656,16 @@ export type LanguageStructure = {
   privacy: Promise<{
   name: string;
   description: string;
+}>;
+  purge: Promise<{
+  name: string;
+  description: string;
+  commandOptions: {
+  countOption: {
+  name: string;
+  description: string;
+};
+};
 }>;
   reason: Promise<{
   name: string;
@@ -790,51 +833,75 @@ export type LanguageStructure = {
 };
 };
 }>;
-  purge: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  countOption: {
-  name: string;
-  description: string;
-};
-};
-}>;
-  mute: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  userOption: {
-  name: string;
-  description: string;
-};
-  timeOption: {
-  name: string;
-  description: string;
-};
-  typeOption: {
-  name: string;
-  description: string;
-  choices: {
-  minutes: {
-  name: string;
-};
-  hours: {
-  name: string;
-};
-  days: {
-  name: string;
-};
-};
-};
-  reasonOption: {
-  name: string;
-  description: string;
-};
-};
-}>;
 };
   standard: {
+  channelEvents: Promise<{
+  channelCreated: {
+  title: string;
+  description: string;
+  descriptionWithCategory: string;
+};
+  channelDeleted: {
+  title: string;
+  description: string;
+  channel: string;
+};
+  channelUpdated: {
+  title: string;
+  description: string;
+};
+  channelOverwriteCreate: {
+  title: string;
+  description: string;
+};
+  channelOverwriteDelete: {
+  title: string;
+  description: string;
+};
+  channelOverwriteUpdate: {
+  title: string;
+  description: string;
+  newPermissions: string;
+  viewFullNewPermissions: string;
+  warning: string;
+  dangerousPermissions: string;
+};
+  webhookCreate: {
+  title: string;
+  description: string;
+};
+  webhookDelete: {
+  title: string;
+  description: string;
+};
+  webhookUpdate: {
+  title: string;
+  description: string;
+};
+  webhookAvatarUpdate: {
+  title: string;
+  description: string;
+  description_added: string;
+  description_removed: string;
+  linkToOldAvatar: string;
+  linkToNewAvatar: string;
+};
+  statusChannelFollowed: {
+  title: string;
+  description: string;
+};
+  statusChannelUnfollowed: {
+  title: string;
+  description: string;
+};
+  statusChannelUpdated: {
+  title: string;
+  description: string;
+};
+  general: {
+  unknownChannel: string;
+};
+}>;
   generalEvents: Promise<{
   serverModified: {
   title: string;
@@ -960,73 +1027,6 @@ export type LanguageStructure = {
   teaser_pro: string;
 };
 }>;
-  channelEvents: Promise<{
-  channelCreated: {
-  title: string;
-  description: string;
-  descriptionWithCategory: string;
-};
-  channelDeleted: {
-  title: string;
-  description: string;
-  channel: string;
-};
-  channelUpdated: {
-  title: string;
-  description: string;
-};
-  channelOverwriteCreate: {
-  title: string;
-  description: string;
-};
-  channelOverwriteDelete: {
-  title: string;
-  description: string;
-};
-  channelOverwriteUpdate: {
-  title: string;
-  description: string;
-  newPermissions: string;
-  viewFullNewPermissions: string;
-  warning: string;
-  dangerousPermissions: string;
-};
-  webhookCreate: {
-  title: string;
-  description: string;
-};
-  webhookDelete: {
-  title: string;
-  description: string;
-};
-  webhookUpdate: {
-  title: string;
-  description: string;
-};
-  webhookAvatarUpdate: {
-  title: string;
-  description: string;
-  description_added: string;
-  description_removed: string;
-  linkToOldAvatar: string;
-  linkToNewAvatar: string;
-};
-  statusChannelFollowed: {
-  title: string;
-  description: string;
-};
-  statusChannelUnfollowed: {
-  title: string;
-  description: string;
-};
-  statusChannelUpdated: {
-  title: string;
-  description: string;
-};
-  general: {
-  unknownChannel: string;
-};
-}>;
   roleEvents: Promise<{
   roleCreated: {
   title: string;
@@ -1118,6 +1118,9 @@ export type LanguageStructure = {
   stickerCreated: {
   title: string;
   description: string;
+};
+  stickerDeleted: {
+  title: string;
 };
 }>;
   serverEvents: Promise<{
@@ -1406,5 +1409,5 @@ export type LanguageStructure = {
 }>;
 };
 };
-export type SlashCommandNames = "ban" | "commands" | "config" | "debug" | "export" | "help" | "initialReactor" | "invite" | "dashboard" | "kick" | "language" | "logging" | "ping" | "premium" | "privacy" | "reason" | "serverlog" | "tags" | "unban" | "unmute" | "purge" | "mute";
+export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "export" | "help" | "initialReactor" | "invite" | "kick" | "language" | "logging" | "mute" | "ping" | "premium" | "privacy" | "purge" | "reason" | "serverlog" | "tags" | "unban" | "unmute";
 export type QuarkLanguageCodes = "en_us" | "en_gb" | "tr" | "vi" | "en_pr" | "pl" | "nl" | "es_es" | "it" | "de" | "fr" | "ru" | "el" | "zh_hant" | "ko" | "sl" | "ar" | "hu" | "ja";

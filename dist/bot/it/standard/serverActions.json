@@ -55,5 +55,8 @@
     "stickerCreated": {
         "title": "Sticker Created",
         "description": "{sticker} was added by {executor}"
+    },
+    "stickerDeleted": {
+        "title": "Sticker Deleted"
     }
 }
