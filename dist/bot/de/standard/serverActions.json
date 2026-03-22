@@ -61,6 +61,7 @@
         "description": "{sticker} was deleted by {executor}"
     },
     "stickerUpdated": {
-        "title": "Sticker Edited"
+        "title": "Sticker Edited",
+        "description": "{emoji} was edited by {executor}"
     }
 }
