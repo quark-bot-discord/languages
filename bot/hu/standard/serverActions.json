@@ -54,7 +54,8 @@
     },
     "stickerCreated": {
         "title": "Matrica Létrehozva",
-        "description": "{sticker} hozzá lett adva {executor} által"
+        "description": "{sticker} hozzá lett adva {executor} által",
+        "stickerDescription": "Description"
     },
     "stickerDeleted": {
         "title": "Matrica Törölve",
