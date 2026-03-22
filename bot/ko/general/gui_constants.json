@@ -42,5 +42,8 @@
         "user_limit": "User Limit",
         "rtc_region": "Region",
         "nsfw": "NSFW"
+    },
+    "stickerModificationTypes": {
+        "name": "Name"
     }
 }
