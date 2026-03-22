@@ -50,6 +50,7 @@
     },
     "soundboardSoundModificationTypes": {
         "name": "Name",
-        "volume": "Volume"
+        "volume": "Volume",
+        "emoji": "Emoji"
     }
 }
