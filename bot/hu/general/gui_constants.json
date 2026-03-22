@@ -44,6 +44,7 @@
         "name": "Név"
     },
     "stickerModificationTypes": {
-        "name": "Name"
+        "name": "Name",
+        "description": "Description"
     }
 }
