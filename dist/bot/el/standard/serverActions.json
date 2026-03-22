@@ -55,7 +55,8 @@
     "stickerCreated": {
         "title": "Sticker Created",
         "description": "{sticker} was added by {executor}",
-        "stickerDescription": "Description"
+        "stickerDescription": "Description",
+        "stickerEmoji": "Related Emoji"
     },
     "stickerDeleted": {
         "title": "Sticker Deleted",
