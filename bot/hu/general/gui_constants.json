@@ -42,5 +42,8 @@
     },
     "emojiModificationTypes": {
         "name": "Név"
+    },
+    "stickerModificationTypes": {
+        "name": "Name"
     }
 }
