@@ -53,15 +53,15 @@
         "none": "semmi"
     },
     "stickerCreated": {
-        "title": "Sticker Created",
-        "description": "{sticker} was added by {executor}"
+        "title": "Matrica Létrehozva",
+        "description": "{sticker} hozzá lett adva {executor} által"
     },
     "stickerDeleted": {
-        "title": "Sticker Deleted",
-        "description": "{sticker} was deleted by {executor}"
+        "title": "Matrica Törölve",
+        "description": "{sticker} törölve lett {executor} által"
     },
     "stickerUpdated": {
-        "title": "Sticker Edited",
-        "description": "{emoji} was edited by {executor}"
+        "title": "Matrica Szerkesztve",
+        "description": "{emoji} szerkesztve lett {executor} által"
     }
 }
