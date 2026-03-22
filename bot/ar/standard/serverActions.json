@@ -51,5 +51,8 @@
         "title": "تم حذف إيموجي",
         "emoji": "إيموجي",
         "description": "تم حذف {emoji} بواسطة {executor}"
+    },
+    "stickerCreated": {
+        "title": "Sticker Created"
     }
 }
