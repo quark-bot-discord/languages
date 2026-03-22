@@ -67,6 +67,7 @@
         "description": "{emoji} szerkesztve lett {executor} által"
     },
     "soundboardSoundCreated": {
-        "title": "Soundboard Sound Added"
+        "title": "Soundboard Sound Added",
+        "description": "{sound} was added by {executor}"
     }
 }
