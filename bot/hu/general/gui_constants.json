@@ -49,6 +49,7 @@
         "tags": "Címkék"
     },
     "soundboardSoundModificationTypes": {
-        "name": "Name"
+        "name": "Name",
+        "volume": "Volume"
     }
 }
