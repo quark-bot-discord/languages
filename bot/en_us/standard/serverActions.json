@@ -72,6 +72,7 @@
         "soundEmoji": "Emoji"
     },
     "soundboardSoundDeleted": {
-        "title": "{sound} was deleted by {executor}"
+        "title": "Soundboard Sound Deleted",
+        "description": "{sound} was deleted by {executor}"
     }
 }
