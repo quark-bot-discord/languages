@@ -53,6 +53,7 @@
         "description": "{emoji} was deleted by {executor}"
     },
     "stickerCreated": {
-        "title": "Sticker Created"
+        "title": "Sticker Created",
+        "description": "{sticker} was added by {executor}"
     }
 }
