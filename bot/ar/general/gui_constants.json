@@ -44,6 +44,8 @@
         "name": "الاسم"
     },
     "stickerModificationTypes": {
-        "name": "Name"
+        "name": "Name",
+        "description": "Description",
+        "tags": "Tags"
     }
 }
