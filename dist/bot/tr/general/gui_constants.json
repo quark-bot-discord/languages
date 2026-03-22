@@ -42,5 +42,8 @@
         "rate_limit_per_user": "Yavaş Mod",
         "auto_archive_duration": "Otomatik Arşiv",
         "name": "aİsim"
+    },
+    "stickerModificationTypes": {
+        "name": "Name"
     }
 }

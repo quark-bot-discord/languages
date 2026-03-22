@@ -42,5 +42,8 @@
         "rate_limit_per_user": "Медленный режим",
         "auto_archive_duration": "Автоматическая архивация",
         "name": "Название"
+    },
+    "stickerModificationTypes": {
+        "name": "Name"
     }
 }
