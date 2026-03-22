@@ -65,5 +65,8 @@
     "stickerUpdated": {
         "title": "Matrica Szerkesztve",
         "description": "{emoji} szerkesztve lett {executor} által"
+    },
+    "soundboardSoundCreated": {
+        "title": "Soundboard Sound Added"
     }
 }

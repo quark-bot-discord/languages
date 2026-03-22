@@ -65,5 +65,8 @@
     "stickerUpdated": {
         "title": "Sticker Edited",
         "description": "{emoji} was edited by {executor}"
+    },
+    "soundboardSoundCreated": {
+        "title": "Soundboard Sound Added"
     }
 }
