@@ -51,5 +51,8 @@
         "newChannel": "新的頻道",
         "linkToEventImage": "舊活動圖片鏈接",
         "newImage": "新的圖片"
+    },
+    "stickerCreated": {
+        "title": "Sticker Created"
     }
 }
