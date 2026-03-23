@@ -32,7 +32,7 @@
     "MANAGE_EMOJIS": "管理表情符號",
     "USE_SLASH_COMMANDS": "使用斜線指令",
     "REQUEST_TO_SPEAK": "請求發言",
-    "MANAGE_THREADS": "管理訊息串",
+    "MANAGE_THREADS": "管理訊息串以及貼文",
     "USE_PUBLIC_THREADS": "使用公共訊息串",
     "USE_PRIVATE_THREADS": "使用私人訊息串",
     "USE_EXTERNAL_STICKERS": "使用外部貼圖",
@@ -41,7 +41,7 @@
     "MODERATE_MEMBERS": "管理員",
     "VIEW_CREATOR_MONETIZATION_ANALYTICS": "查看伺服器分析",
     "USE_SOUNDBOARD": "使用音效板",
-    "CREATE_GUILD_EXPRESSIONS": "創建伺服器表情",
+    "CREATE_GUILD_EXPRESSIONS": "創建表情",
     "CREATE_EVENTS": "創建表情符號",
     "USE_EXTERNAL_SOUNDS": "使用外部音效",
     "SEND_VOICE_MESSAGES": "傳送語音訊息",
@@ -50,5 +50,5 @@
     "PIN_MESSAGES": "釘選訊息",
     "BYPASS_SLOWMODE": "繞過慢速模式",
     "MANAGE_EVENTS": "管理活動",
-    "MANAGE_GUILD_EXPRESSIONS": "Manage Expressions"
+    "MANAGE_GUILD_EXPRESSIONS": "管理表情"
 }
