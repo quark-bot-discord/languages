@@ -46,11 +46,11 @@
     "stickerModificationTypes": {
         "name": "Név",
         "description": "Leírás",
-        "tags": "Címkék"
+        "tags": "Emoji"
     },
     "soundboardSoundModificationTypes": {
-        "name": "Name",
-        "volume": "Volume",
+        "name": "Név",
+        "volume": "Hangerő",
         "emoji": "Emoji"
     }
 }

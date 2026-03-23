@@ -66,8 +66,8 @@
         "title_removed": "Szerver Lefejlödőtt",
         "description_applied": "Ez a szerver most már {type} funkciókkal rendelkezik!✨",
         "description_removed": "Ez a szerver most már a Quark ingyenes tiert használja",
-        "quark_pro": "Quark Pro",
-        "quark_prolite": "Quark Pro Lite",
+        "quark_pro": "Quark Professzionális",
+        "quark_prolite": "Quark Professzionális Lite",
         "none": "semmi",
         "executor": "Hozzáadta",
         "teaser_pro": "Élvezd a kiterjesztett üzenet logolást (legfejebb 4 hétig), Tejlesen testreszabható logok, a Pro bot, és több... 🚀"
