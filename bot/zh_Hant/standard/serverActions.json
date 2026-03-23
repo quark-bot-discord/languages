@@ -53,30 +53,30 @@
         "newImage": "新的圖片"
     },
     "stickerCreated": {
-        "title": "Sticker Created",
-        "description": "{sticker} was added by {executor}",
-        "stickerDescription": "Description",
-        "stickerEmoji": "Related Emoji"
+        "title": "貼圖已創建",
+        "description": "{executor} 創建了貼圖 {sticker}",
+        "stickerDescription": "簡介",
+        "stickerEmoji": "相關的表情符號"
     },
     "stickerDeleted": {
-        "title": "Sticker Deleted",
-        "description": "{sticker} was deleted by {executor}"
+        "title": "貼圖已刪除",
+        "description": "{sticker} 貼圖已被 {executor} 刪除"
     },
     "stickerUpdated": {
-        "title": "Sticker Edited",
-        "description": "{emoji} was edited by {executor}"
+        "title": "貼圖已更改",
+        "description": "{emoji} 貼圖已被 {executor} 更改"
     },
     "soundboardSoundCreated": {
-        "title": "Soundboard Sound Added",
-        "description": "{sound} was added by {executor}",
-        "soundEmoji": "Emoji"
+        "title": "音效板音效已添加",
+        "description": "{sound} 被 {executor} 所添加",
+        "soundEmoji": "表情符號"
     },
     "soundboardSoundDeleted": {
-        "title": "{sound} was deleted by {executor}",
-        "description": "{sound} was deleted by {executor}"
+        "title": "{sound} 被 {executor} 所刪除",
+        "description": "{sound} 已被 {executor} 刪除"
     },
     "soundboardSoundUpdated": {
-        "title": "Soundboard Sound Updated",
-        "description": "{sound} was updated by {executor}"
+        "title": "音效板音效已更新",
+        "description": "{sound} 已被 {executor} 更改"
     }
 }
