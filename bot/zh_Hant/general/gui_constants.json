@@ -44,13 +44,13 @@
         "name": "名稱"
     },
     "stickerModificationTypes": {
-        "name": "Name",
-        "description": "Description",
-        "tags": "Tags"
+        "name": "名稱",
+        "description": "簡介",
+        "tags": "標籤"
     },
     "soundboardSoundModificationTypes": {
-        "name": "Name",
-        "volume": "Volume",
-        "emoji": "Emoji"
+        "name": "名稱",
+        "volume": "音量",
+        "emoji": "表情符號"
     }
 }
