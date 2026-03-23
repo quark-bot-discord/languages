@@ -55,8 +55,8 @@
     "stickerCreated": {
         "title": "Matrica Létrehozva",
         "description": "{sticker} hozzá lett adva {executor} által",
-        "stickerDescription": "Description",
-        "stickerEmoji": "Related Emoji"
+        "stickerDescription": "Leírás",
+        "stickerEmoji": "Kapcsolódó Emoji"
     },
     "stickerDeleted": {
         "title": "Matrica Törölve",
@@ -64,19 +64,19 @@
     },
     "stickerUpdated": {
         "title": "Matrica Szerkesztve",
-        "description": "{emoji} szerkesztve lett {executor} által"
+        "description": "{sticker} szerkesztve lett {executor} által"
     },
     "soundboardSoundCreated": {
-        "title": "Soundboard Sound Added",
-        "description": "{sound} was added by {executor}",
+        "title": "Soundboard Hang Hozzáadva",
+        "description": "{sound} hozzá lett adva {executor} által",
         "soundEmoji": "Emoji"
     },
     "soundboardSoundDeleted": {
-        "title": "{sound} was deleted by {executor}",
-        "description": "{sound} was deleted by {executor}"
+        "title": "Soundboard Hang Törölve",
+        "description": "{sound} törölve lett {executor} által"
     },
     "soundboardSoundUpdated": {
-        "title": "Soundboard Sound Updated",
-        "description": "{sound} was updated by {executor}"
+        "title": "Soundboard Hang Frissítve",
+        "description": "{sound} frissítve lett {executor} által"
     }
 }
