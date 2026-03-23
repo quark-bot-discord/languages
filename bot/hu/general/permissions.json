@@ -16,7 +16,7 @@
     "CREATE_INSTANT_INVITE": "Meghívó Létrehozása",
     "MANAGE_WEBHOOKS": "Webhookok Kezelése",
     "SEND_MESSAGES": "Üzenetek Küldése",
-    "MANAGE_THREADS": "Gondolatmenetek Kezelése",
+    "MANAGE_THREADS": "Gondolatmenetek és Bejegyzések Kezelése",
     "STREAM": "Videó",
     "SEND_VOICE_MESSAGES": "Hangüzenetek Küldése",
     "DEAFEN_MEMBERS": "Tagok Süketítése",
