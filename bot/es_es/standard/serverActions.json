@@ -53,30 +53,30 @@
         "newImage": "Nueva Imagen"
     },
     "stickerCreated": {
-        "title": "Sticker Created",
-        "description": "{sticker} was added by {executor}",
-        "stickerDescription": "Description",
-        "stickerEmoji": "Related Emoji"
+        "title": "Sticker creado",
+        "description": "{sticker} fue añadido por {executor}",
+        "stickerDescription": "Descripción",
+        "stickerEmoji": "Emoji Relacionado"
     },
     "stickerDeleted": {
-        "title": "Sticker Deleted",
-        "description": "{sticker} was deleted by {executor}"
+        "title": "Sticker Eliminado",
+        "description": "{sticker} fue eliminado por {executor}"
     },
     "stickerUpdated": {
-        "title": "Sticker Edited",
-        "description": "{emoji} was edited by {executor}"
+        "title": "Sticker Editado",
+        "description": "{sticker} fue editado por {executor}"
     },
     "soundboardSoundCreated": {
-        "title": "Soundboard Sound Added",
-        "description": "{sound} was added by {executor}",
+        "title": "Sonido de Mesa de Mezclas Añadido",
+        "description": "{sound} fue añadido por {executor}",
         "soundEmoji": "Emoji"
     },
     "soundboardSoundDeleted": {
-        "title": "{sound} was deleted by {executor}",
-        "description": "{sound} was deleted by {executor}"
+        "title": "{sound} fue eliminado por {executor}",
+        "description": "{sound} fue eliminado por {executor}"
     },
     "soundboardSoundUpdated": {
-        "title": "Soundboard Sound Updated",
-        "description": "{sound} was updated by {executor}"
+        "title": "Sonido de la Mesa de Mezclas Actualizado",
+        "description": "{sound} fue actualizado por {executor}"
     }
 }
