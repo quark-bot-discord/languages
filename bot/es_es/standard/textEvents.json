@@ -44,8 +44,8 @@
         "uncachedChannel": "canal sin caché",
         "uncachedMessage": "mensaje sin caché",
         "embed": "empotrar",
-        "errorFile": "Hubo un problema con la recuperación de los archivos. ",
-        "errorText": "Hubo un problema con la creación de un archivo de texto. "
+        "errorFile": "Hubo un problema con la recuperación de los archivos.",
+        "errorText": "Hubo un problema con la creación de un archivo de texto."
     },
     "messageUpdate": {
         "title": "Mensaje editado",
