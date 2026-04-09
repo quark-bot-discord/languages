@@ -7,7 +7,7 @@
     "noReasonBrief": "Ejecutar {command}",
     "ban": "Ban",
     "unban": "Desbanear",
-    "kick": "Expulsión",
+    "kick": "Expulsar",
     "mute": "Timeout",
     "unmute": "Timeout Eliminado",
     "timeoutEnds": "El Timeout finaliza en {time} ({duration})",
