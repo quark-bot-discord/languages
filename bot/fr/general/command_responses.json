@@ -1,6 +1,6 @@
 {
     "disable": "Désactivé",
-    "enable": "Activé",
+    "enable": "Activer",
     "error-401-0": "La commande a échoué",
     "error-401-1-type-0": "Je ne parviens pas à bannir cet utilisateur",
     "error-401-1-type-1": "Je ne parviens pas à expulser cet utilisateur",
