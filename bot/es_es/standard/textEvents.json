@@ -15,12 +15,12 @@
         "pollDeleted": "Encuesta eliminada"
     },
     "messageDeleted": {
-        "title": "Mensaje borrado",
+        "title": "Mensaje Eliminado",
         "author": "Autor del mensaje",
         "channel": "Canal",
         "deletedBy": "Eliminado por",
         "jumpToContext": "Saltar al contexto",
-        "warning": "¡ADVERTENCIA!",
+        "warning": "ADVERTENCIA!",
         "linksToEmojis": "Enlaces a emojis",
         "linksToFiles": "Enlaces a archivos",
         "inviteDetected": "Invitación al servidor detectada",
