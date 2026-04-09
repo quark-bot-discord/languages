@@ -1,5 +1,5 @@
 {
-    "tags-help-description": "標籤是一種使用你自己的指令，輕鬆又有效率地來向使用者呈現頻繁的資訊的方法",
+    "tags-help-description": "標籤是一種使用你自己的指令，輕鬆又有效率地來向使用者呈現頻繁的資訊的方法。",
     "create-success": "標籤創建完成! 用 {tag} 可以讓你在任何時候存取它!",
     "edit-success": "標籤編輯完成! 用 {tag} 可以讓你在任何時候存取它!",
     "delete-success": "{tag} 標籤刪除完成! 用 {commandList} 來檢視你所有剩下的標籤!",
