@@ -7,7 +7,7 @@
     "channelCreated": {
         "title": "{type} 頻道已創建",
         "description": "{channel} 是被 {executor} 創建的",
-        "descriptionWithCategory": "{channel}是被 {executor} 在 {category} 類別創建的"
+        "descriptionWithCategory": "{channel}是被 {executor} 在 {category} 類別創建的。"
     },
     "channelUpdated": {
         "title": "{type} 頻道已修改",
