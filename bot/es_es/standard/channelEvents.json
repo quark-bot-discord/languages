@@ -1,44 +1,44 @@
 {
     "channelCreated": {
-        "title": "{type} Canal creado",
+        "title": "{type} Canal Creado",
         "description": "{channel} fue creado por {executor}",
         "descriptionWithCategory": "{channel} fue creado por {executor} en la categoría {category}."
     },
     "channelDeleted": {
-        "title": "{type} Canal eliminado",
+        "title": "{type} Canal Eliminado",
         "description": "{channel_name} fue eliminado por {executor}",
         "channel": "Canal"
     },
     "channelUpdated": {
-        "title": "{type} Canal modificado",
+        "title": "{type} Canal Modificado",
         "description": "{channel} fue modificado por {executor}"
     },
     "channelOverwriteCreate": {
-        "title": "{type} Permisos de canal agregados",
+        "title": "{type} Permisos de Canal Agregados",
         "description": "{executor} agregó permisos a {channel} para {special}"
     },
     "channelOverwriteDelete": {
-        "title": "{type} Permisos de canal eliminados",
+        "title": "{type} Permisos de Canal Eliminados",
         "description": "{executor} eliminó permisos de {channel} para {special}"
     },
     "channelOverwriteUpdate": {
-        "title": "{type} Permisos de canal actualizados",
+        "title": "{type} Permisos de Canal Actualizados",
         "description": "{executor} permisos actualizados para {channel} para {special}",
-        "newPermissions": "Nuevos permisos",
-        "viewFullNewPermissions": "Ver permisos nuevos completos",
+        "newPermissions": "Nuevos Permisos",
+        "viewFullNewPermissions": "Ver Nuevos Permisos Completos",
         "warning": "ADVERTENCIA!",
         "dangerousPermissions": "Permisos peligrosos concedidos"
     },
     "webhookCreate": {
-        "title": "Webhook creado",
+        "title": "Webhook Creado",
         "description": "{executor} creó un webhook {webhook} en {channel}"
     },
     "webhookDelete": {
-        "title": "Webhook eliminado",
+        "title": "Webhook Eliminado",
         "description": "{executor} eliminó el webhook {webhook}"
     },
     "webhookUpdate": {
-        "title": "Webhook modificado",
+        "title": "Webhook Modificado",
         "description": "{executor} modificó el webhook {webhook}"
     },
     "webhookAvatarUpdate": {
@@ -50,15 +50,15 @@
         "linkToNewAvatar": "Enlace al nuevo avatar"
     },
     "statusChannelFollowed": {
-        "title": "Canal seguido",
+        "title": "Canal Seguido",
         "description": "{executor} siguió el canal {name} en {channel}"
     },
     "statusChannelUnfollowed": {
-        "title": "Canal no seguido",
+        "title": "Canal No Seguido",
         "description": "{executor} dejó de seguir el canal {name}"
     },
     "statusChannelUpdated": {
-        "title": "Canal seguido actualizado",
+        "title": "Canal Seguido Actualizado",
         "description": "{executor} actualizó el canal seguido {name}"
     },
     "general": {
