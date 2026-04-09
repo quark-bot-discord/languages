@@ -12,20 +12,20 @@
         "rtc_region": "Régió"
     },
     "guildModificationTypes": {
-        "premium_progress_bar_enabled": "Előrehaladási bar",
+        "premium_progress_bar_enabled": "Előrehaladási Bar",
         "description": "Leírás",
         "name": "Név",
         "system_channel_id": "Rendszer Csatorna",
         "nsfw_level": "NSFW Szint",
         "mfa_level": "MFA Kötelező",
-        "default_message_notifications": "Alapértelmezett értesítések",
+        "default_message_notifications": "Alapértelmezett Értesítések",
         "explicit_content_filter": "Explicit Tartalom Filter",
-        "verification_level": "Ellenőrző szint",
+        "verification_level": "Ellenőrző Szint",
         "rules_channel_id": "Szabály csatorna"
     },
     "roleModificationTypes": {
         "name": "Név",
-        "hoist": "Külön megjelenítve",
+        "hoist": "Külön Megjelenítve",
         "unicode_emoji": "Emotikon",
         "managed": "Kezelve",
         "mentionable": "Említhető",
@@ -34,7 +34,7 @@
     "threadModificationTypes": {
         "name": "Név",
         "rate_limit_per_user": "Lassított Mód",
-        "auto_archive_duration": "Automatikus archiválás"
+        "auto_archive_duration": "Automatikus Archiválás"
     },
     "webhookModificationTypes": {
         "channel_id": "Csatorna",
