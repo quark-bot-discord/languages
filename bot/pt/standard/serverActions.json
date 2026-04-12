@@ -1,1 +1,82 @@
-{}
+{
+    "inviteCreate": {
+        "none": "none",
+        "description_withInviter": "{inviter} created an invite {invite} for {channel}",
+        "title": "Invite Created",
+        "maxUses": "Max Uses",
+        "never": "Never",
+        "expires": "Expires",
+        "description_withoutInviter": "An invite {invite} was created for {channel}"
+    },
+    "stickerCreated": {
+        "stickerDescription": "Description",
+        "title": "Sticker Created",
+        "description": "{sticker} was added by {executor}",
+        "stickerEmoji": "Related Emoji"
+    },
+    "emojiCreated": {
+        "description": "{emoji} was added by {executor}",
+        "title": "Emoji Created"
+    },
+    "stickerUpdated": {
+        "title": "Sticker Edited",
+        "description": "{sticker} was edited by {executor}"
+    },
+    "serverEventCreate": {
+        "image": "Image",
+        "eventDescription": "Description",
+        "starts": "Starts",
+        "description_withChannel": "{executor} created an event {name} in {channel}",
+        "location": "Location",
+        "title": "Event Created",
+        "description_withoutChannel": "{executor} created an event {name}"
+    },
+    "soundboardSoundUpdated": {
+        "title": "Soundboard Sound Updated",
+        "description": "{sound} was updated by {executor}"
+    },
+    "soundboardSoundCreated": {
+        "description": "{sound} was added by {executor}",
+        "title": "Soundboard Sound Added",
+        "soundEmoji": "Emoji"
+    },
+    "inviteDelete": {
+        "description_withoutExecutor": "An invite {invite} was deleted for {channel}",
+        "created": "Created by",
+        "description_withExecutor": "{executor} deleted an invite {invite} for {channel}",
+        "title": "Invite Deleted",
+        "none": "none",
+        "used": "Used"
+    },
+    "emojiUpdated": {
+        "description": "{emoji} was edited by {executor}",
+        "title": "Emoji Edited"
+    },
+    "serverEventUpdate": {
+        "description": "{executor} updated the event {name}",
+        "newLocation": "New Location",
+        "newImage": "New Image",
+        "linkToEventImage": "Link to old event image",
+        "newEventDescription": "New Description",
+        "newChannel": "New Channel",
+        "title": "Event Updated"
+    },
+    "soundboardSoundDeleted": {
+        "description": "{sound} was deleted by {executor}",
+        "title": "Soundboard Sound Deleted"
+    },
+    "stickerDeleted": {
+        "title": "Sticker Deleted",
+        "description": "{sticker} was deleted by {executor}"
+    },
+    "serverEventDelete": {
+        "title": "Event Deleted",
+        "linkToEventImage": "Link to event image",
+        "description": "{executor} deleted the event {name}"
+    },
+    "emojiDeleted": {
+        "title": "Emoji Deleted",
+        "emoji": "Emoji",
+        "description": "{emoji} was deleted by {executor}"
+    }
+}
