@@ -1,0 +1,97 @@
+{
+    "messageUpdate": {
+        "cannotRetrieveOriginal": "無法找回原始訊息",
+        "noContent": "無內容",
+        "thread": "討論串",
+        "title": "訊息已變更",
+        "author": "訊息發出者",
+        "channel": "頻道",
+        "jumpToMessage": "移動到訊息",
+        "afterEdit": "變更後",
+        "diff": "變更",
+        "diffError": "無法計算修改次數。"
+    },
+    "attachmentDeleted": {
+        "title": "附件已刪除"
+    },
+    "messagePin": {
+        "title": "訊息已釘選",
+        "description": "一個訊息已被 {executor} 釘選"
+    },
+    "messageUnpin": {
+        "title": "訊息已取消釘選",
+        "description": "一個訊息已被 {executor} 取消釘選"
+    },
+    "threadCreate": {
+        "thread": "討論串",
+        "channel": "頻道",
+        "jumpToContext": "移動到上下文",
+        "title": "討論串已創建",
+        "description": "{member} 創建了一個新的討論串 {thread}"
+    },
+    "threadDelete": {
+        "thread": "討論串",
+        "channel": "頻道",
+        "title": "討論串已被刪除",
+        "description": "{executor} 刪除了一個討論串 {thread}"
+    },
+    "messageReactionRemove": {
+        "title": "反應已被移除",
+        "description": "{executor} 在一個訊息移除了一個反應",
+        "emoji": "表情符號",
+        "linkToEmoji": "表情符號鏈接",
+        "jumpToMessage": "移動到訊息"
+    },
+    "threadUpdated": {
+        "description": "{thread} 已被 {executor} 修改",
+        "title": "討論串已被修改"
+    },
+    "polls": {
+        "poll": "民意調查",
+        "pollDescriptor": "民意調查[poll]",
+        "status": "民意調查有狀態。",
+        "ended": "已結束",
+        "notEnded": "尚未結束",
+        "multiselect": "多重選擇",
+        "enabled": "已啟用",
+        "disabled": "已禁用",
+        "ends": "結束",
+        "vote": "投票",
+        "votes": "投票",
+        "noResponses": "沒有回應",
+        "pollDeleted": "民意調查已刪除"
+    },
+    "messageDeleted": {
+        "title": "訊息已刪除",
+        "author": "訊息發出人",
+        "channel": "頻道",
+        "deletedBy": "刪除者",
+        "jumpToContext": "移動到內容",
+        "warning": "警告！",
+        "linksToEmojis": "表情符號鏈接",
+        "linksToFiles": "文件鏈接",
+        "inviteDetected": "已偵測到伺服器邀請鏈接",
+        "ghostpingDetected": "已偵測到靜音提及",
+        "file": "文件",
+        "files": "文件",
+        "fileExpired": "文件太大或已過期",
+        "filesExpired": "文件太大或已過期",
+        "sticker": "貼圖",
+        "noContent": "沒有內容",
+        "embed": "已嵌入",
+        "thread": "討論串",
+        "initialReactor": "初始反應者"
+    },
+    "messagesBulkDeleted": {
+        "title": "多個訊息已被刪除",
+        "deletedBy": "刪除者",
+        "channel": "頻道",
+        "more": "更多",
+        "uncachedUser": "未記錄的用戶",
+        "uncachedChannel": "未記錄的頻道",
+        "uncachedMessage": "未記錄的訊息",
+        "embed": "已嵌入",
+        "errorFile": "文件恢復出現問題。如果此問題持續發生，請在 Quark 的支援伺服器上告知我們。",
+        "errorText": "建立文字檔案時出現問題，部分訊息可能會遺失。如果此問題持續發生，請在 Quark 支援伺服器上告知我們。"
+    }
+}

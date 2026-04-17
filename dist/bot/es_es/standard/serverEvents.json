@@ -6,16 +6,16 @@
         "noAvatar": "La cuenta no tiene avatar",
         "newAccount": "La cuenta es nueva",
         "noBadges": "La cuenta no tiene insignias",
-        "warning": "¡ADVERTENCIA!",
+        "warning": "ADVERTENCIA!",
         "accountCreated": "Cuenta creada",
         "invite": "Invitar",
         "createdBy": "creado por {user}",
-        "ban": "Prohibición",
+        "ban": "Ban",
         "info": "Información",
         "rejoined": "Cuenta reincorporada"
     },
     "userLeft": {
-        "title": "Usuario izquierdo",
+        "title": "Usuario se ha ido",
         "description": "{user} abandonó el servidor",
         "joined": "Unido",
         "roles": "Roles",
@@ -56,15 +56,15 @@
         "dangerousPermissions": "Permisos peligrosos concedidos"
     },
     "memberRoleRemove": {
-        "title": "Rol asumido",
-        "title_multiple": "Roles asumidos",
+        "title": "Rol tomado",
+        "title_multiple": "Roles tomados",
         "description": "El rol {role} fue eliminado de {user}",
         "description_multiple": "Se eliminaron varios roles de {user}",
         "removedBy": "Eliminado por",
         "roles": "Roles"
     },
     "memberPrune": {
-        "title": "Miembros podados",
+        "title": "Miembros purgados",
         "description": "{count} miembros con al menos {time} días de inactividad fueron eliminados por {executor}"
     },
     "avatarUpdate": {

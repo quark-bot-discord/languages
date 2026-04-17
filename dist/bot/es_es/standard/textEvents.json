@@ -15,12 +15,12 @@
         "pollDeleted": "Encuesta eliminada"
     },
     "messageDeleted": {
-        "title": "Mensaje borrado",
+        "title": "Mensaje Eliminado",
         "author": "Autor del mensaje",
         "channel": "Canal",
         "deletedBy": "Eliminado por",
         "jumpToContext": "Saltar al contexto",
-        "warning": "¡ADVERTENCIA!",
+        "warning": "ADVERTENCIA!",
         "linksToEmojis": "Enlaces a emojis",
         "linksToFiles": "Enlaces a archivos",
         "inviteDetected": "Invitación al servidor detectada",
@@ -44,8 +44,8 @@
         "uncachedChannel": "canal sin caché",
         "uncachedMessage": "mensaje sin caché",
         "embed": "empotrar",
-        "errorFile": "Hubo un problema con la recuperación de los archivos. ",
-        "errorText": "Hubo un problema con la creación de un archivo de texto. "
+        "errorFile": "Hubo un problema con la recuperación de los archivos.",
+        "errorText": "Hubo un problema con la creación de un archivo de texto."
     },
     "messageUpdate": {
         "title": "Mensaje editado",

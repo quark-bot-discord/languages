@@ -1,6 +1,6 @@
 {
     "inviteCreate": {
-        "title": "Invitación creada",
+        "title": "Invitación Creada",
         "description_withInviter": "{inviter} creó una invitación {invite} para {channel}",
         "description_withoutInviter": "Se creó una invitación {invite} para {channel}",
         "expires": "Vence",
@@ -9,7 +9,7 @@
         "none": "ninguno"
     },
     "inviteDelete": {
-        "title": "Invitación eliminada",
+        "title": "Invitación Eliminada",
         "description_withExecutor": "{executor} eliminó una invitación {invite} para {channel}",
         "description_withoutExecutor": "Se eliminó una invitación {invite} para {channel}",
         "used": "Usado",
@@ -21,16 +21,16 @@
         "description": "{emoji} fue agregado por {executor}"
     },
     "emojiDeleted": {
-        "title": "Emoji eliminado",
+        "title": "Emoji Eliminado",
         "description": "{emoji} fue eliminado por {executor}",
-        "emoji": "emojis"
+        "emoji": "Emoji"
     },
     "emojiUpdated": {
-        "title": "Emoji editado",
+        "title": "Emoji Editado",
         "description": "{emoji} fue editado por {executor}"
     },
     "serverEventCreate": {
-        "title": "Evento creado",
+        "title": "Evento Creado",
         "description_withChannel": "{executor} creó un evento {name} en {channel}",
         "description_withoutChannel": "{executor} creó un evento {name}",
         "eventDescription": "Descripción",
@@ -39,16 +39,16 @@
         "image": "Imagen"
     },
     "serverEventDelete": {
-        "title": "Evento eliminado",
+        "title": "Evento Eliminado",
         "description": "{executor} eliminó el evento {name}",
         "linkToEventImage": "Enlace a la imagen del evento"
     },
     "serverEventUpdate": {
-        "title": "Evento actualizado",
+        "title": "Evento Actualizado",
         "description": "{executor} actualizó el evento {name}",
-        "newEventDescription": "Nueva descripción",
-        "newLocation": "Nueva ubicacion",
-        "newChannel": "Nuevo canal",
+        "newEventDescription": "Nueva Descripción",
+        "newLocation": "Nueva Ubicación",
+        "newChannel": "Nuevo Canal",
         "linkToEventImage": "Enlace a imagen antigua del evento",
         "newImage": "Nueva Imagen"
     },

@@ -10,7 +10,7 @@
     "serverlogChannelUpdate": {
         "description_set": "{executor} beállította a(z) {type} logolási csatornát {channel} csatornára",
         "description_unset": "{executor} kikapcsolta a {type} logolási csatornát",
-        "title": "Logolási Csatorna Változás",
+        "title": "Logolási Csatorna Változott",
         "description_category_disable": "{executor} letiltotta a {type} logolást csatornát"
     },
     "serverlogLogUpdate": {

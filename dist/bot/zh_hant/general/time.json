@@ -1,0 +1,16 @@
+{
+    "second": "{time} 秒",
+    "second-plural": "{time} 秒",
+    "minute": "{time} 分鐘",
+    "minute-plural": "{time} 分鐘",
+    "hour": "{time} 小時",
+    "hour-plural": "{time} 小時",
+    "day": "{time} 天",
+    "day-plural": "{time} 天",
+    "week": "{time} 星期",
+    "week-plural": "{time} 星期",
+    "month": "{time} 月",
+    "month-plural": "{time} 月",
+    "year": "{time} 年",
+    "year-plural": "{time} 年"
+}

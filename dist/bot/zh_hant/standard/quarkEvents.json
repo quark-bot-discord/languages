@@ -1,0 +1,75 @@
+{
+    "serverlogOptionsUpdate": {
+        "pluralkitSupport": "PluralKit 支援",
+        "spoilers": "暴雷內容",
+        "title": "日誌選項已更新",
+        "description": "{executor} 將 {option} 設為 {state}",
+        "buttons": "按鈕",
+        "formatType": "格式類型"
+    },
+    "serverlogLogUpdate": {
+        "activeIgnore": "啟用忽略",
+        "title": "日誌已更新",
+        "description": "{executor} 更新了 {type} 日誌",
+        "enabled": "已啟用",
+        "logFormat": "格式",
+        "logChannel": "頻道",
+        "colour": "顏色",
+        "ignoreBotExecutors": "忽略機器人執行者",
+        "ignoreBotTargets": "忽略機器人目標"
+    },
+    "serverlogChannelUpdate": {
+        "title": "日誌記錄頻道已更改",
+        "description_set": "{executor} 設置 {type} 日誌頻道到 {channel}",
+        "description_category_disable": "{executor} 已停用 {type} 日誌頻道",
+        "description_unset": "{executor} 取消設定 {type} 日誌頻道"
+    },
+    "tokenAdded": {
+        "unique_id": "Token ID",
+        "title": "Token已建立",
+        "description": "{executor} 在這個伺服器裡建立了一個 Quark 存取 Token，權限為 {permissions}",
+        "revoke": "撤銷這個Token"
+    },
+    "serverlogIgnoreUpdate": {
+        "title": "忽略選項已更新",
+        "description_set": "{executor} 啟用了 {type}",
+        "description_unset": "{executor} 停用了 {type}",
+        "description_added": "{executor} 將 {target} 加入了 {type}",
+        "description_removed": "{executor} 將 {target} 從 {type} 移除"
+    },
+    "languageUpdate": {
+        "title": "語言已更改",
+        "description": "{executor} 把語言改成 {language}"
+    },
+    "reset": {
+        "title": "設定已重置為預設值",
+        "description": "{executor} 把設定重置為預設值"
+    },
+    "tagAdded": {
+        "title": "標籤已增加",
+        "description": "{executor} 創建了一個標籤 {tag}"
+    },
+    "tagUpdated": {
+        "title": "標籤已更新",
+        "description": "{executor} 更新了標籤 {tag}"
+    },
+    "tagDeleted": {
+        "title": "標籤已刪除",
+        "description": "{executor} 刪除了標籤 {tag}"
+    },
+    "tokenRevoked": {
+        "title": "Token 已撤銷",
+        "description": "{executor} 已撤銷 ID 為 {token} 的 Quark 存取 Token"
+    },
+    "guildSubscriptionUpdate": {
+        "title_applied": "伺服器已升級",
+        "title_removed": "伺服器已降級",
+        "description_applied": "伺服器現在啟用了 [type] 功能！ 🎉",
+        "description_removed": "伺服器現在正在使用Quark的免費等級",
+        "quark_pro": "Quark 高級版",
+        "quark_prolite": "Quark 高級輕量版",
+        "none": "無",
+        "executor": "給予者",
+        "teaser_pro": "享受更長的訊息記錄時間（長達 4 週）、完全自訂的日誌、專業版機器人等等…🚀"
+    }
+}

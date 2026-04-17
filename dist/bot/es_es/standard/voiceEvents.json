@@ -22,7 +22,7 @@
     "voiceMove": {
         "title": "Movido",
         "description": "{user} fue movido del canal de voz {channel_old} al canal de voz {channel_new}",
-        "movedBy": "Llevado por"
+        "movedBy": "Movido por"
     },
     "voiceJoin": {
         "title": "Canal unido",

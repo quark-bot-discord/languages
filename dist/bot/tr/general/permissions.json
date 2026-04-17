@@ -32,7 +32,7 @@
     "MANAGE_EMOJIS": "İfadeleri Yönet",
     "USE_SLASH_COMMANDS": "Uygulama Komutlarını Kullan",
     "REQUEST_TO_SPEAK": "Konuşmayı Talep Et",
-    "MANAGE_THREADS": "Alt Başlıkları Yönet",
+    "MANAGE_THREADS": "Alt Başlıkları ve Gönderileri Yönet",
     "USE_PUBLIC_THREADS": "Herkese Açık Alt Başlık Oluştur",
     "USE_PRIVATE_THREADS": "Özel Alt Başlık Oluştur",
     "USE_EXTERNAL_STICKERS": "Harici Çıkartma Kullan",
@@ -41,7 +41,7 @@
     "MODERATE_MEMBERS": "Üyeleri Yönet",
     "VIEW_CREATOR_MONETIZATION_ANALYTICS": "İçerik Oluşturucu Gelir Analizlerini Görüntüle",
     "USE_SOUNDBOARD": "Ses Panelini Kullan",
-    "CREATE_GUILD_EXPRESSIONS": "Sunucu İfadeleri Oluştur",
+    "CREATE_GUILD_EXPRESSIONS": "İfade Oluştur",
     "CREATE_EVENTS": "Etkinlik Oluştur",
     "USE_EXTERNAL_SOUNDS": "Harici Sesler Kullan",
     "SEND_VOICE_MESSAGES": "Sesli Mesaj Gönder",
@@ -50,5 +50,5 @@
     "PIN_MESSAGES": "Mesajları Sabitle",
     "BYPASS_SLOWMODE": "Yavaş Modu Atla",
     "MANAGE_EVENTS": "Etkinlikleri Yönet",
-    "MANAGE_GUILD_EXPRESSIONS": "Manage Expressions"
+    "MANAGE_GUILD_EXPRESSIONS": "İfadeleri Yönet"
 }
