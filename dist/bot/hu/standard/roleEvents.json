@@ -1,7 +1,7 @@
 {
     "roleIconUpdate": {
         "title": "Rang Ikon Frissítve",
-        "description_added": "{executor} hozzáadott egy ikon a {role}hoz",
+        "description_added": "{executor} hozzáadott egy ikon a(z) {role}hez/hoz",
         "linkToOldIcon": "Régi ikon linkje",
         "linkToNewIcon": "Új ikon linkje",
         "description": "{executor} frissítette a rang ikonját {role}nak/nek",

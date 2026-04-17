@@ -10,7 +10,7 @@
         "title_multiple": "Rangok Hozzáadva",
         "givenBy": "Hozzá adta",
         "dangerousPermissions": "Veszélyes jogosultságok lettek megadva",
-        "description": "A(z) {role} hozzá lett adva {user}hez",
+        "description": "A(z) {role} hozzá lett adva {user}hoz/hez",
         "roles": "Rangok",
         "title": "Rang Hozzáadva",
         "warning": "FIGYELMEZTETÉS!",

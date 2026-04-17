@@ -1,12 +1,12 @@
 {
-    "ignoreBotExecutors": "Bot végrehajtók figyelmen kívül hagyása",
-    "ignoreExecutorRoles": "Végrehajtói szerepkörök figyelmen kívül hagyása",
-    "ignoreBotTargets": "Bot célok figyelmen kívül hagyása",
-    "ignoreExecutors": "Célpont végrehajtók ingorálása",
-    "activeIgnore": "Aktív figyelmen kívül hagyás",
-    "specificMessageContent": "Egy megadott üzenet tartalom ingorálása",
-    "ignoreCategories": "Kategóriák figyelmen kívül hagyása",
-    "ignoreTargets": "Célzott felhasználó Ingorálása",
-    "ignoreTargetRoles": "Célszerepek figyelmen kívül hagyása",
-    "ignoreChannels": "Csatornák ingorlása"
+    "ignoreBotExecutors": "Bot Végrehajtók Figyelmen Kívül Hagyása",
+    "ignoreExecutorRoles": "Végrehajtói Rangok Figyelmen kívül Hagyása",
+    "ignoreBotTargets": "Bot Célok Figyelmen Kívül Hagyása",
+    "ignoreExecutors": "Célpont Végrehajtók Ingorálása",
+    "activeIgnore": "Aktív Figyelmen Kívül Hagyások",
+    "specificMessageContent": "Egy Megadott Üzenet Tartalom Ingorálása",
+    "ignoreCategories": "Kategóriák Figyelmen Kívül Hagyása",
+    "ignoreTargets": "Célzott Felhasználók Ingorálása",
+    "ignoreTargetRoles": "Célrangok Figyelmen Kívül Hagyása",
+    "ignoreChannels": "Csatornák Ingorlása"
 }

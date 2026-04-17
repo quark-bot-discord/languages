@@ -18,11 +18,11 @@
     },
     "serverEventUpdate": {
         "description": "{executor} frissítette az eseményt {name}",
-        "newLocation": "Új helyszín",
-        "newImage": "Új kép",
+        "newLocation": "Új Helyszín",
+        "newImage": "Új Kép",
         "linkToEventImage": "Régi esemény kép linkje",
-        "newEventDescription": "Új leírás",
-        "newChannel": "Új csatorna",
+        "newEventDescription": "Új Leírás",
+        "newChannel": "Új Csatorna",
         "title": "Esemény Frissítve"
     },
     "serverEventDelete": {
