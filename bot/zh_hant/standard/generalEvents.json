@@ -1,0 +1,30 @@
+{
+    "serverModified": {
+        "title": "伺服器已修改",
+        "description": "此伺服器被 {executor} 修改了"
+    },
+    "serverIconUpdated": {
+        "title": "伺服器圖示已更新",
+        "description": "{executor} 更新了伺服器圖示",
+        "description_added": "{executor} 增加了一個伺服器圖示",
+        "description_removed": "{executor} 移除了伺服器圖示",
+        "linkToOldIcon": "連結至舊圖示",
+        "linkToNewIcon": "連結至新圖示"
+    },
+    "serverBoostAdd": {
+        "title": "伺服器已加成",
+        "description": "{user} 加成了這個伺服器 🎉",
+        "description_noUser": "有某人加成了這個伺服器 🎉",
+        "description_withTier": "{user} 把這個伺服器加成到等級 {tier} 🎉",
+        "description_withTier_noUser": "有某人把這個伺服器加成到等級 {tier} 🎉",
+        "none": "無"
+    },
+    "serverBoostRemove": {
+        "title": "伺服器加成已被移除",
+        "description": "{user} 停止加成這個伺服器了",
+        "description_noUser": "有某人停止加成這個伺服器了",
+        "description_withTier": "{user} 停止了加成, 讓這個伺服器掉到等級 {tier}",
+        "description_withTier_noUser": "有某人停止了加成, 讓這個伺服器掉到等級 {tier}",
+        "none": "無"
+    }
+}

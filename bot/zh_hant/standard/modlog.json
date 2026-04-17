@@ -1,0 +1,20 @@
+{
+    "kick": "踢出",
+    "mute": "禁言",
+    "unmute": "已移除禁言",
+    "timeoutEnds": "禁言結束{time} ({duration})",
+    "editReason": "編輯理由",
+    "reasonModal": {
+        "label": "理由",
+        "placeholder": "你很壞欸 >:(",
+        "title": "修改MOD紀錄理由"
+    },
+    "moderator": "版主",
+    "user": "使用者",
+    "reason": "理由",
+    "case": "案件",
+    "noReason": "[沒有任何理由]",
+    "noReasonBrief": "運行 {command}",
+    "ban": "停權",
+    "unban": "取消停權"
+}

@@ -1,0 +1,79 @@
+{
+    "members": "成員",
+    "userJoined": {
+        "title": "用戶已加入",
+        "description": "{user} 加入了伺服器",
+        "noAvatar": "賬號沒有頭像",
+        "newAccount": "賬號是新的",
+        "noBadges": "賬號沒有徽章",
+        "warning": "警告！",
+        "accountCreated": "賬號已創建",
+        "invite": "邀請",
+        "createdBy": "被 {user} 所創建",
+        "ban": "停權",
+        "info": "資料",
+        "rejoined": "賬號已重新加入"
+    },
+    "botRemoved": {
+        "description": "{bot} 已被 {executor} 移除了",
+        "descriptionne": "{bot} 已被從伺服器移除",
+        "title": "機器人已被移除"
+    },
+    "nicknameUpdate": {
+        "title": "暱稱已更新",
+        "description": "{user} 的暱稱已經從 {oldNickname} 改為 {newNickname}",
+        "setNick": "{user} 的暱稱已改為 {newNickname}",
+        "nickRemoved": "{user} 的舊暱稱 {oldNickname} 已被移除",
+        "changedBy": "更改者"
+    },
+    "userLeft": {
+        "title": "用戶離開了",
+        "description": "{user} 離開了伺服器",
+        "joined": "加入了",
+        "roles": "身份組",
+        "serverProfilePicture": "伺服器頭像鏈接",
+        "description_kicked": "{user} 已被 {executor} 踢出",
+        "description_kicked_no_executor": "{user} 已被踢出",
+        "description_banned": "{user} 已被 {executor} 停權",
+        "description_banned_no_executor": "{user} 已被停權",
+        "info": "資訊",
+        "info_kicked": "用戶已被踢出",
+        "info_banned": "用戶已被停權"
+    },
+    "botAdded": {
+        "title": "機器人已添加",
+        "description": "{bot} 已經被 {executor} 添加到伺服器",
+        "descriptionne": "{bot} 已被添加到伺服器"
+    },
+    "memberRoleAdd": {
+        "title": "身份組已添加",
+        "title_multiple": "身份組已被添加",
+        "description": "身份組 {role} 已被添加到 {user}",
+        "description_multiple": "多個身份組已被添加到 {user}",
+        "givenBy": "給予者",
+        "roles": "身份組",
+        "warning": "警告！",
+        "dangerousPermissions": "授予危險權限"
+    },
+    "memberRoleRemove": {
+        "title": "身份組已被移除",
+        "title_multiple": "身份組已被移除",
+        "description": "{user} 的 {role} 身份組已被移除",
+        "description_multiple": "{user} 的多個身份組已被移除",
+        "removedBy": "移除者",
+        "roles": "身份組"
+    },
+    "memberPrune": {
+        "title": "成員移除",
+        "description": "{executor} 刪除了至少有 {time} 天不活躍的 {count} 個成員"
+    },
+    "avatarUpdate": {
+        "title": "伺服器頭像已更改",
+        "description": "{user} 更改了他們的伺服器頭像",
+        "description_added": "{user} 新增了伺服器頭像",
+        "description_removed": "{user} 移除了他們的伺服器頭像",
+        "changedBy": "更改者",
+        "linkToOldAvatar": "舊頭像鏈接",
+        "linkToNewAvatar": "新頭像鏈接"
+    }
+}
