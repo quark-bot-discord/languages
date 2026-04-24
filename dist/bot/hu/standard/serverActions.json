@@ -7,7 +7,7 @@
         "image": "Kép",
         "eventDescription": "Leírás",
         "starts": "Indul",
-        "description_withChannel": "{executor} létrehozott egy eseményt {name} {channel} csatornához",
+        "description_withChannel": "{executor} létrehozott egy eseményt {name} a(z) {channel} csatornához",
         "location": "Helyszín",
         "title": "Esemény Létrehozva",
         "description_withoutChannel": "{executor} létrehozott egy eseményt {name}"
@@ -39,18 +39,18 @@
         "created": "Létrehozta",
         "description_withExecutor": "{executor} törölte a meghívót {invite} a(z) {channel} csatornáról",
         "title": "Meghívó Törölve",
-        "none": "semmi",
+        "none": "Semmi",
         "used": "Használva",
-        "description_withoutExecutor": "Egy meghívó {invite} törölve lett {channel} csatornáról"
+        "description_withoutExecutor": "Egy meghívó {invite} törölve lett a(z) {channel} csatornáról"
     },
     "inviteCreate": {
         "maxUses": "Max Használat",
         "never": "Soha",
         "expires": "Lejár",
         "description_withoutInviter": "Egy meghívó {invite} lett létrehozva a(z) {channel} csatornára",
-        "description_withInviter": "{inviter} létrehozott egy meghívót {invite} {channel} csatornára",
+        "description_withInviter": "{inviter} létrehozott egy meghívót {invite} a(z) {channel} csatornára",
         "title": "Meghívó Létrehozva",
-        "none": "semmi"
+        "none": "Semmi"
     },
     "stickerCreated": {
         "title": "Matrica Létrehozva",

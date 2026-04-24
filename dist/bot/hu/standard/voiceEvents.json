@@ -15,21 +15,21 @@
     "stageEnded": {
         "topic": "Téma",
         "title": "Szakasz Véget Ért",
-        "none": "semmi",
+        "none": "Semmi",
         "description_noExecutor": "A szakasz {channel} ban/ben véget ért",
         "description": "A szakaszt ebben a(z) {channel} csatornában {executor} leállította"
     },
     "serverUndeafen": {
-        "description": "{user} le vették a süketítését",
+        "description": "{user}nak/nek le vették a süketítését",
         "voiceChannel": "Hang csatorna",
-        "title": "Süketítés Visszavonva",
+        "title": "Süketítés Feoldva",
         "undeafenedBy": "Le vette"
     },
     "serverUnmute": {
         "description": "{user} némitását le vették",
         "voiceChannel": "Hang csatorna",
-        "title": "Némitás Visszavonva",
-        "unmutedBy": "Vissza vonó"
+        "title": "Némitás Feloldva",
+        "unmutedBy": "Feloldotta"
     },
     "serverMute": {
         "mutedBy": "Lenémitotta",
@@ -45,7 +45,7 @@
     },
     "stageSpeakerAdd": {
         "description": "{user} beszélő lett a(z) {channel} csatornán",
-        "description_inviteAccepted": "{user} elfogadta a meghívást, hogy beszélő legyen a {channel} csatornán",
+        "description_inviteAccepted": "{user} elfogadta a meghívást, hogy beszélő legyen a(z) {channel} csatornán",
         "title": "Új Szakasz Beszélő"
     },
     "serverDeafen": {
@@ -55,7 +55,7 @@
         "deafenedBy": "Le süketítette"
     },
     "voiceSwitch": {
-        "description": "{user} váltott {channel_old}ról/ről {channel_new} hang csatornába",
+        "description": "{user} váltott {channel_old}ról/ről a(z) {channel_new} hang csatornába",
         "title": "Hangcsatornát Váltott"
     },
     "streamStop": {
@@ -66,7 +66,7 @@
         "joined": "Csatlakozott",
         "description": "{user} kilépett a(z) {channel} hangcsatornából",
         "title": "Kilépett Hang Csatornából",
-        "joinedValue": "{relative} ideig {relative_fixed}"
+        "joinedValue": "{relative} ({relative_fixed})"
     },
     "stageStarted": {
         "description": "{executor} elindította a szakaszt a(z) {channel} csatornán",
@@ -103,6 +103,6 @@
     },
     "stageSpeakerRemove": {
         "description": "{user} többé nem beszél a(z) {channel} csatornában",
-        "title": "Beszélő Abbahagyta A Beszédett"
+        "title": "Abbahagyta a Beszédet"
     }
 }
