@@ -3,18 +3,18 @@
     "configCommand": {
         "categories": {
             "categoryMembers": {
-                "description": "Tagok tevékenységek (csatlakozás/kilépés, szerepkörök, becenevek)",
-                "resetButton": "Tag logolási csatorna visszaállítása",
+                "description": "Tagok tevékenységek (csatlakozás/kilépés, rangok, becenevek)",
+                "resetButton": "Tag Logolási Csatorna Visszaállítása",
                 "title": "Tagok",
-                "disableButton": "Tag logok letiltása",
-                "enableButton": "Tag logok engedélyezése"
+                "disableButton": "Tag Logok Letiltása",
+                "enableButton": "Tag Logok Engedélyezése"
             },
             "categoryVoice": {
-                "resetButton": "Hang logolási csatorna visszaállítása",
+                "resetButton": "Hang Logolási Csatorna Visszaállítása",
                 "description": "Hangcsatorna műveletek (csatlakozás/kilépés, streamek, némítás/süketítés)",
-                "disableButton": "Hang logok letiltása",
+                "disableButton": "Hang Logok Letiltása",
                 "title": "Hang",
-                "enableButton": "Hang logok engedélyezése"
+                "enableButton": "Hang Logok Engedélyezése"
             },
             "overview": {
                 "title": "Áttekintés",
@@ -22,10 +22,10 @@
             },
             "categoryServer": {
                 "description": "Általános műveletek (szerver módosítások)",
-                "enableButton": "Szerver eseménynaplók engedélyezése",
-                "title": "Szerver események",
-                "resetButton": "Szerver eseménynaplózási csatorna visszaállítása",
-                "disableButton": "Szerver eseménynaplók letiltása"
+                "enableButton": "Szerver Esemény Logok Engedélyezése",
+                "title": "Szerver Események",
+                "resetButton": "Szerver Esemény Logolási Csatorna Visszaállítása",
+                "disableButton": "Szerver Esemény Logok Letiltása"
             },
             "categoryQuark": {
                 "resetButton": "Quark konfigurációs naplózási csatorna visszaállítása",
@@ -35,38 +35,38 @@
                 "disableButton": "Quark konfigurációs naplózások letiltása"
             },
             "categoryChannels": {
-                "enableButton": "Csatorna logok engedélyezése",
-                "resetButton": "Csatorna logolási csatorna visszaállítás",
-                "description": "Csatorna műveletek (létrehozás/törlés, engedélyek)",
-                "disableButton": "Csatorna logok letiltása",
+                "enableButton": "Csatorna Logok Engedélyezése",
+                "resetButton": "Csatorna Logolási Csatorna Visszaállítása",
+                "description": "Csatorna műveletek (létrehozás/törlés, jogosultságok)",
+                "disableButton": "Csatorna Logok Letiltása",
                 "title": "Csatornák"
             },
             "categoryActions": {
-                "resetButton": "Szerver akciók logolási csatorna visszaállítása",
-                "disableButton": "Szerver akciók logok letiltása",
-                "title": "Szerver akciók",
+                "resetButton": "Szerver Akciók Logolási Csatorna Visszaállítása",
+                "disableButton": "Szerver Akciók Logok Letiltása",
+                "title": "Szerver Akciók",
                 "description": "Szerver akciók (meghívó létrehozás/törlés, hangulatjelek)",
-                "enableButton": "Szerver akicók logok engedélyezése"
+                "enableButton": "Szerver Akicók Logok Engedélyezése"
             },
             "categoryRoles": {
-                "disableButton": "Szerepkörök naplózásának letiltása",
-                "resetButton": "Szerepkör naplózási csatorna visszaállítása",
-                "enableButton": "Szerepkörök naplózásának engedélyezése",
-                "description": "Szerepkörökkel kapcsolatos műveletek (létrehozás/törlés, jogosultságok)",
+                "disableButton": "Rang Logok Letiltása",
+                "resetButton": "Rang Logolási Csatorna Visszaállítása",
+                "enableButton": "Rang Logok Engedélyezése",
+                "description": "Rangakkal kapcsolatos műveletek (létrehozás/törlés, jogosultságok)",
                 "title": "Rangok"
             },
             "categoryModlog": {
                 "title": "Mod Logok",
-                "disableButton": "Modlog naplózások letiltása",
-                "resetButton": "Modlog naplózási csatorna visszaállítása",
+                "disableButton": "Modlog Logok Letiltása",
+                "resetButton": "Modlog Logolási Csatorna Visszaállítása",
                 "description": "Moderálási intézkedések (kitiltás, kirúgás, némítás)",
-                "enableButton": "Modlog naplózás engedélyezése"
+                "enableButton": "Modlog Logok Engedélyezése"
             },
             "categoryText": {
-                "disableButton": "Üzenet logok letiltása",
+                "disableButton": "Üzenet Logok Letiltása",
                 "description": "Üzenetműveletek (törlés, szerkesztés, rögzítés, reakciók)",
-                "resetButton": "Üzenet log csatorna visszaállítása",
-                "enableButton": "Üzenet logok engedélyezése",
+                "resetButton": "Üzenet Log Csatorna Visszaállítása",
+                "enableButton": "Üzenet Logok Engedélyezése",
                 "title": "Üzenetek"
             },
             "categoryFiles": {
@@ -75,14 +75,14 @@
             }
         },
         "selectChannel": "Log csatorna beállítása",
-        "serverLogDesc": "Fő logolási csatorna",
+        "serverLogDesc": "Fő Logolási Csatorna",
         "resetChannel": "Főcsatorna visszaállítása",
         "notSet": "Nincsen beállítva",
         "formats": {
-            "configurable_events": "Konfigurálható események",
-            "log_channels": "Log csatornák"
+            "configurable_events": "Konfigurálható Események",
+            "log_channels": "Log Csatornák"
         },
-        "title": "{quark} Logolási konfigurátor",
+        "title": "{quark} Logolási Konfigurátor",
         "selectACategory": "Válasz kategoriát",
         "selection": "Válasszon ki egy kategóriát a menüből a konfiguráció megtekintéséhez.",
         "overview": "Áttekintés",
@@ -91,10 +91,10 @@
         "all": "Összes",
         "resetLogChannel": "Naplócsatorna visszaállítása"
     },
-    "language-set": "Nyelv be lett állítva erre: {language}",
+    "language-set": "Nyelv be lett állítva erre {language}",
     "error-409-0-type-0": "A felhasználó már ki van tiltva",
     "error-432-1": "Ez a üzenet nem egy érvényes Quark Napló(Log)",
-    "festive-title": "Ingyenes ünnepi ajándék!",
+    "festive-title": "Ingyenes Ünnepi Ajándék!",
     "setserverlog-type-roles-0": "Rang Események",
     "setserverlog-confirm1-unset": "Ezen a szerveren bekövetkező eseményekről többé nem fogsz üzeneteket kapni, kivéve, ha más csatornákat állítottál be az események kimenetére.",
     "error-no-modlog": "Nem egy modlog csatorna",
@@ -121,14 +121,14 @@
     "setserverlog-type-modlogs-1": "mod logok",
     "setserverlog-confirm0-unset": "Szerver Log Csatorna Ki Lett Kapcsolva",
     "error-429-0": "Érvénytelen szám",
-    "help-overview-manage-premium": "Futtasd {command} a prémiumot kezeld",
+    "help-overview-manage-premium": "Futtasd {command} hogy a prémiumot kezeld",
     "setserverlog-confirm1-options-unset": "Szerver {type} mostantól nem erre a csatornára lesz rögzítve.\n\nA csatorna beállításának megszüntetéséhez futtassa újra a parancsot ebben a csatornában.",
     "response-debug": "Debug napló(log) elküldve!",
-    "help-overview-view-options": "Futasd {command} az opció megtekintéséhez",
-    "help-overview-view-inv": "Leltár megtekintése",
-    "help-tags-help": "Tagek súgója",
+    "help-overview-view-options": "Futasd {command} az opciók megtekintéséhez",
+    "help-overview-view-inv": "Leltár Megtekintése",
+    "help-tags-help": "Címkék Súgója",
     "error-435-1": "Ez a parancs csak 15 perceként lehet használni",
-    "help-commands-tags": "Tagek",
+    "help-commands-tags": "Címkék",
     "response-ban": "Kitiltva",
     "setserverlog-type-server-1": "szerver",
     "error-401-0": "Parancs hiba",
@@ -172,7 +172,7 @@
     "error-invalid-log": "Modlog ügy nem található",
     "response-customise-dash": "A testreszabási beállítások átkerültek a Quark [webes irányítópultjára]!",
     "help-overview-view-options-and-statuses": "Futtasd {command} az állapotok és opciók megtekintéséhez",
-    "help-notes-help": "Jegyzet súgója",
+    "help-notes-help": "Jegyzet Súgója",
     "setserverlog-confirm0-options-unset": "Szerver Log {type} Kikapcsolva",
     "response-mute": "Némitva",
     "serverlog-select": "Válasz ki egy szerver log csatornát",
@@ -193,7 +193,7 @@
     "setserverlog-type-files-1": "fájlok",
     "response-customise-4": "Próbálja ki ingyenesen a színszabás lehetőségét a {inventoryLink}en",
     "setserverlog-confirm0-options-set": "Szerver Log {type} Csatorna Beállítva",
-    "help-overview-channel-isset": "Csatorna be lett állítva ide: {channel}",
+    "help-overview-channel-isset": "Csatorna be lett állítva ide {channel}",
     "executor1-command": "executors",
     "error-404-0": "Felhasználó nem található",
     "error-403-1-type-1": "Nézd meg hogy van-e nekem `Tagok kirúgása ` jogom",
@@ -224,6 +224,6 @@
     "help-overview-inventory-description": "Kezelje előfizetéseit, vagy szerezzen be néhány [Quark Pro] funkciót ingyen!",
     "error-401-1-type-3": "Nem tudom visszavoni a némítast a felhasználóról",
     "setserverlog-type-members-1": "tagok",
-    "help-commands-help": "Parancsok súgója",
+    "help-commands-help": "Parancsok Súgója",
     "error-404-1": "Kérlek @említsd a felhasználót, másold be a IDját vagy írd be a felhasználónevét"
 }
