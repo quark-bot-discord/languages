@@ -19,9 +19,9 @@
         "nsfw_level": "NSFW Szint",
         "mfa_level": "MFA Kötelező",
         "default_message_notifications": "Alapértelmezett Értesítések",
-        "explicit_content_filter": "Explicit Tartalom Filter",
-        "verification_level": "Ellenőrző Szint",
-        "rules_channel_id": "Szabály csatorna"
+        "explicit_content_filter": "Explicit Tartalom Szűrő",
+        "verification_level": "Hitelesítési Szint",
+        "rules_channel_id": "Szabály Csatorna"
     },
     "roleModificationTypes": {
         "name": "Név",
@@ -46,11 +46,11 @@
     "stickerModificationTypes": {
         "name": "Név",
         "description": "Leírás",
-        "tags": "Emoji"
+        "tags": "Emotikon"
     },
     "soundboardSoundModificationTypes": {
         "name": "Név",
         "volume": "Hangerő",
-        "emoji": "Emoji"
+        "emoji": "Emotikon"
     }
 }
