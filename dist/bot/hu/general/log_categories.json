@@ -1,5 +1,5 @@
 {
-    "modLog": "Mod logok",
+    "modLog": "Mod Logok",
     "channelEvents": "Csatornák",
     "voiceEvents": "Hang",
     "textEvents": "Üzenetek",
@@ -14,9 +14,9 @@
     "category_channels": "Csatornák",
     "category_files": "Fájlok",
     "category_members": "Tagok",
-    "category_modlog": "Moderátori Log",
+    "category_modlog": "Mod Logok",
     "category_quark": "Quark Konfig",
-    "category_roles": "Rang",
+    "category_roles": "Rangok",
     "category_server": "Szerver",
     "category_text": "Üzenet",
     "category_voice": "Hang",
