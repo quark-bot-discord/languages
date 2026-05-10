@@ -53,30 +53,30 @@
         "newImage": "新しい画像"
     },
     "stickerCreated": {
-        "title": "Sticker Created",
-        "description": "{sticker} was added by {executor}",
-        "stickerDescription": "Description",
-        "stickerEmoji": "Related Emoji"
+        "title": "ステッカーを作成",
+        "description": "{sticker} は {executor} によって追加されました",
+        "stickerDescription": "説明",
+        "stickerEmoji": "関連絵文字"
     },
     "stickerDeleted": {
-        "title": "Sticker Deleted",
-        "description": "{sticker} was deleted by {executor}"
+        "title": "ステッカーを削除",
+        "description": "{sticker}は{executor}によって削除されました"
     },
     "stickerUpdated": {
-        "title": "Sticker Edited",
-        "description": "{emoji} was edited by {executor}"
+        "title": "ステッカーを編集",
+        "description": "{emoji}は{executor}によって編集されました"
     },
     "soundboardSoundCreated": {
-        "title": "Soundboard Sound Added",
-        "description": "{sound} was added by {executor}",
-        "soundEmoji": "Emoji"
+        "title": "サウンドボードサウンド追加",
+        "description": "{sound}は{executor}によって追加されました",
+        "soundEmoji": "絵文字"
     },
     "soundboardSoundDeleted": {
-        "title": "{sound} was deleted by {executor}",
-        "description": "{sound} was deleted by {executor}"
+        "title": "{sound}は{executor}によって削除されました",
+        "description": "{sound}は{executor}によって削除されました"
     },
     "soundboardSoundUpdated": {
-        "title": "Soundboard Sound Updated",
-        "description": "{sound} was updated by {executor}"
+        "title": "サウンドボードのサウンド更新",
+        "description": "{sound}は{executor}によって更新されました"
     }
 }
