@@ -9,7 +9,7 @@
         "bitrate": "ビットレート",
         "user_limit": "ユーザー制限",
         "rtc_region": "地域",
-        "nsfw": "NSFW"
+        "nsfw": "成人向け"
     },
     "roleModificationTypes": {
         "name": "名前",
@@ -44,13 +44,13 @@
         "name": "名前"
     },
     "stickerModificationTypes": {
-        "name": "Name",
-        "description": "Description",
-        "tags": "Tags"
+        "name": "名前",
+        "description": "説明",
+        "tags": "タグ"
     },
     "soundboardSoundModificationTypes": {
-        "name": "Name",
-        "volume": "Volume",
-        "emoji": "Emoji"
+        "name": "名前",
+        "volume": "音量",
+        "emoji": "絵文字"
     }
 }
