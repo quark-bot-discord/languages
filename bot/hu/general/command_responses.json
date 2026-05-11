@@ -28,11 +28,11 @@
                 "disableButton": "Szerver Esemény Logok Letiltása"
             },
             "categoryQuark": {
-                "resetButton": "Quark konfigurációs naplózási csatorna visszaállítása",
-                "enableButton": "Quark konfigurációs naplózások engedélyezése",
+                "resetButton": "Quark Konfigurációs Logolási Csatorna Visszaállítása",
+                "enableButton": "Quark Konfigurációs Logok Engedélyezése",
                 "title": "Quark Konfiguráció",
                 "description": "A Quark konfigurációjában végrehajtott változtatások ezen a szerveren",
-                "disableButton": "Quark konfigurációs naplózások letiltása"
+                "disableButton": "Quark Konfigurációs Logok Letiltása"
             },
             "categoryChannels": {
                 "enableButton": "Csatorna Logok Engedélyezése",
@@ -70,13 +70,13 @@
                 "title": "Üzenetek"
             },
             "categoryFiles": {
-                "description": "Fájlok (törölt mellékletek)",
+                "description": "Fájlok (törölt csatolmányok)",
                 "title": "Fájlok"
             }
         },
-        "selectChannel": "Log csatorna beállítása",
+        "selectChannel": "Log Csatorna Beállítása",
         "serverLogDesc": "Fő Logolási Csatorna",
-        "resetChannel": "Főcsatorna visszaállítása",
+        "resetChannel": "Fő Csatorna Visszaállítása",
         "notSet": "Nincsen beállítva",
         "formats": {
             "configurable_events": "Konfigurálható Események",
@@ -86,10 +86,10 @@
         "selectACategory": "Válasz kategoriát",
         "selection": "Válasszon ki egy kategóriát a menüből a konfiguráció megtekintéséhez.",
         "overview": "Áttekintés",
-        "selectLogType": "Napló típusának kiválasztása",
+        "selectLogType": "Log Típus Kiválasztása",
         "furtherConfig": "A naplófájlok jobb ellenőrzése érdekében, például különböző csatornák kiválasztása különböző naplófájltípusokhoz, vagy bizonyos csatornák, felhasználók vagy üzenetek naplózásának megakadályozása érdekében, kérjük, látogasson el a [Quark webes irányítópultjára]",
         "all": "Összes",
-        "resetLogChannel": "Naplócsatorna visszaállítása"
+        "resetLogChannel": "Log Csatorna Visszaállítása"
     },
     "language-set": "Nyelv be lett állítva erre {language}",
     "error-409-0-type-0": "A felhasználó már ki van tiltva",
@@ -108,7 +108,7 @@
     "setserverlog-confirm1-options-stoplog": "Szerver {type} mostantól továbbra is a fő szervernapló csatornára lesznek naplózva (ha van ilyen beállítás).\n\nA csatorna beállításának megszüntetéséhez futtassa újra a parancsot ebben a csatornában.",
     "error-timeout-period-too-long-1": "A felüggesztés időszaknak nem lehet hosszabb 28 napnál",
     "error-405-0": "Elnézést?",
-    "response-unban": "Kitiltás feoldva",
+    "response-unban": "Kitiltás feloldva",
     "setserverlog-type-text-1": "szöveges csatorna események",
     "help-overview-inventory": "Leltár",
     "help-info": "Kell egy kéz? **Lépj be a Support szerverre!**",
@@ -140,7 +140,7 @@
     "help-overview-website-description": "A Quarkot könnyedén beállíthatja és kezelheti a [webes irányítópultról]!",
     "executor0-command": "executor",
     "error-timeout-period-too-long-0": "A felfüggesztés ideje túl hosszú",
-    "response-unmute": "Némitás feoldva",
+    "response-unmute": "Némitás feloldva",
     "setserverlog-check-permissions": "Kérjük, győződjön meg arról, hogy a Quark rendelkezik engedéllyel üzenetek küldésére ebben a csatornában, különben a csatorna beállítása megszűnik.",
     "error-try-help-again": "Probáld újra futtatni a help parancsot...",
     "target0-command": "target",
