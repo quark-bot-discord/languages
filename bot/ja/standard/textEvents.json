@@ -2,7 +2,7 @@
     "polls": {
         "poll": "投票",
         "pollDescriptor": "[投票]",
-        "status": "投票にはステータスがあります",
+        "status": "投票にはステータスがあります。",
         "ended": "終了済み",
         "notEnded": "進行中",
         "multiselect": "複数選択",
