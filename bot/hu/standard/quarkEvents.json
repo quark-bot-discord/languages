@@ -3,15 +3,15 @@
         "buttons": "Gombokat",
         "title": "Logolási Opciók Frissítve",
         "spoilers": "Spoilereket",
-        "formatType": "Formázási Típus",
+        "formatType": "Formázási Típust",
         "description": "{executor} beállította a {option} erre {state}",
-        "pluralkitSupport": "PluralKit Támogatás"
+        "pluralkitSupport": "PluralKit Támogatást"
     },
     "serverlogChannelUpdate": {
         "description_set": "{executor} beállította a(z) {type} logolási csatornát {channel} csatornára",
-        "description_unset": "{executor} kikapcsolta a {type} logolási csatornát",
+        "description_unset": "{executor} kikapcsolta a(z) {type} logolási csatornát",
         "title": "Logolási Csatorna Változott",
-        "description_category_disable": "{executor} letiltotta a {type} logolást csatornát"
+        "description_category_disable": "{executor} letiltotta a(z) {type} logolást csatornát"
     },
     "serverlogLogUpdate": {
         "logFormat": "Formázás",
@@ -21,7 +21,7 @@
         "colour": "Szín",
         "activeIgnore": "Aktív Figyelmen Kívül Hagyások",
         "enabled": "Engedélyezve",
-        "description": "{executor} frissítette a {type} logot",
+        "description": "{executor} frissítette a(z) {type} logot",
         "title": "Log Frissítve"
     },
     "tokenRevoked": {
@@ -68,7 +68,7 @@
         "description_removed": "Ez a szerver most már a Quark ingyenes tiert használja",
         "quark_pro": "Quark Professzionális",
         "quark_prolite": "Quark Professzionális Lite",
-        "none": "semmi",
+        "none": "Semmi",
         "executor": "Hozzáadta",
         "teaser_pro": "Élvezd a kiterjesztett üzenet logolást (legfejebb 4 hétig), Tejlesen testreszabható logok, a Pro bot, és több... 🚀"
     }
