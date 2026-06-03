@@ -78,5 +78,8 @@
     "soundboardSoundUpdated": {
         "title": "サウンドボードのサウンド更新",
         "description": "{sound}は{executor}によって更新されました"
+    },
+    "autoModerationRuleCreated": {
+        "title": "Auto Moderation Rule Created"
     }
 }

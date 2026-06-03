@@ -78,5 +78,8 @@
         "title": "Emoji Deleted",
         "emoji": "Emoji",
         "description": "{emoji} was deleted by {executor}"
+    },
+    "autoModerationRuleCreated": {
+        "title": "Auto Moderation Rule Created"
     }
 }

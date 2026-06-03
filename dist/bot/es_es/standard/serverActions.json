@@ -78,5 +78,8 @@
     "soundboardSoundUpdated": {
         "title": "Sonido de la Mesa de Mezclas Actualizado",
         "description": "{sound} fue actualizado por {executor}"
+    },
+    "autoModerationRuleCreated": {
+        "title": "Auto Moderation Rule Created"
     }
 }
