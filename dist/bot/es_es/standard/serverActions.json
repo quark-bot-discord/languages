@@ -80,6 +80,7 @@
         "description": "{sound} fue actualizado por {executor}"
     },
     "autoModerationRuleCreated": {
-        "title": "Auto Moderation Rule Created"
+        "title": "Auto Moderation Rule Created",
+        "description": "Rule {name} was created by {executor}"
     }
 }
