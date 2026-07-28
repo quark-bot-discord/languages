@@ -53,36 +53,36 @@
         "linkToEventImage": "Etkinlik görseline link"
     },
     "stickerCreated": {
-        "title": "Sticker Created",
-        "description": "{sticker} was added by {executor}",
-        "stickerDescription": "Description",
-        "stickerEmoji": "Related Emoji"
+        "title": "Çıkartma Oluşturuldu",
+        "description": "{sticker}, {executor} tarafından eklendi",
+        "stickerDescription": "Açıklama",
+        "stickerEmoji": "İlgili Emoji"
     },
     "stickerDeleted": {
-        "title": "Sticker Deleted",
-        "description": "{sticker} was deleted by {executor}"
+        "title": "Çıkartma Silindi",
+        "description": "{sticker}, {executor} tarafından silindi"
     },
     "stickerUpdated": {
-        "title": "Sticker Edited",
-        "description": "{emoji} was edited by {executor}"
+        "title": "Çıkartma Güncellendi",
+        "description": "{sticker}, {executor} tarafından güncellendi"
     },
     "soundboardSoundCreated": {
-        "title": "Soundboard Sound Added",
-        "description": "{sound} was added by {executor}",
+        "title": "Ses Paneline Ekleme Yapıldı",
+        "description": "{sound}, {executor} tarafından eklendi",
         "soundEmoji": "Emoji"
     },
     "soundboardSoundDeleted": {
-        "title": "{sound} was deleted by {executor}",
-        "description": "{sound} was deleted by {executor}"
+        "title": "Ses Panelinden Silindi",
+        "description": "{sound}, {executor} tarafından silindi"
     },
     "soundboardSoundUpdated": {
-        "title": "Soundboard Sound Updated",
-        "description": "{sound} was updated by {executor}"
+        "title": "Ses Panelinde Güncelleme Yapıldı",
+        "description": "{sound}, {executor} tarafından güncellendi"
     },
     "autoModerationRuleCreated": {
-        "title": "Auto Moderation Rule Created",
-        "description": "Rule {name} was created by {executor}",
-        "exemptRoles": "Excluded Roles",
-        "exemptChannels": "Excluded Channels"
+        "title": "AutoMod Kuralı Oluşturuldu",
+        "description": "{name} kuralı, {executor} tarafından oluşturuldu",
+        "exemptRoles": "Muaf Roller",
+        "exemptChannels": "Muaf Kanallar"
     }
 }
