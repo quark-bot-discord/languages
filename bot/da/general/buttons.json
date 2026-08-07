@@ -1,1 +1,9 @@
-{}
+{
+    "dashboard": "Dashboard",
+    "customise": "Customize",
+    "supportServer": "Support Server",
+    "pro": "Quark Pro",
+    "overview": "Overview",
+    "serverlog": "Serverlog",
+    "userID": "User ID"
+}
