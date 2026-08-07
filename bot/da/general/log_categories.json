@@ -1,1 +1,24 @@
-{}
+{
+    "modLog": "Modlogs",
+    "category_modlog": "Modlog",
+    "category_actions": "Actions",
+    "category_voice": "Voice",
+    "category_members": "Members",
+    "category_server": "Server",
+    "channelEvents": "Channels",
+    "voiceEvents": "Voice",
+    "main_channel": "Main",
+    "textEvents": "Messages",
+    "category_roles": "Roles",
+    "serverActions": "Actions",
+    "roleEvents": "Roles",
+    "serverEvents": "Members",
+    "main": "Main",
+    "category_files": "Files",
+    "category_quark": "Quark Config",
+    "fileEvents": "Files",
+    "category_text": "Text",
+    "quarkEvents": "Quark Config",
+    "generalEvents": "Server",
+    "category_channels": "Channels"
+}
