@@ -1,13 +1,13 @@
 {
-    "2": "Voice",
-    "12": "Private Thread",
-    "5": "Announcement",
+    "2": "Stemme",
+    "12": "Privat Tråd",
+    "5": "Meddelse",
     "15": "Forum",
-    "4": "Category",
-    "13": "Stage",
-    "10": "Announcement Thread",
+    "4": "Kategori",
+    "13": "Scene",
+    "10": "Meddelelses tråd",
     "14": "Directory",
-    "11": "Public Thread",
+    "11": "Offentlig Tråd",
     "16": "Media",
-    "0": "Text"
+    "0": "Tekst"
 }
