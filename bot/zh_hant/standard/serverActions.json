@@ -64,7 +64,7 @@
     },
     "stickerUpdated": {
         "title": "貼圖已更改",
-        "description": "{emoji} 貼圖已被 {executor} 更改"
+        "description": "{sticker} 貼圖已被 {executor} 更改"
     },
     "soundboardSoundCreated": {
         "title": "音效板音效已添加",
