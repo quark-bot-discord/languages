@@ -64,7 +64,7 @@
     },
     "stickerUpdated": {
         "title": "ステッカーを編集",
-        "description": "{emoji}は{executor}によって編集されました"
+        "description": "{sticker}は{executor}によって編集されました"
     },
     "soundboardSoundCreated": {
         "title": "サウンドボードサウンド追加",
