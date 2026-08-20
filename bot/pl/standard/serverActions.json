@@ -72,7 +72,7 @@
         "soundEmoji": "Emotka"
     },
     "soundboardSoundDeleted": {
-        "title": "{sound} został usunięty przez {executor}",
+        "title": "Soundboard Sound Deleted",
         "description": "{sound} został usunięty przez {executor}"
     },
     "soundboardSoundUpdated": {
