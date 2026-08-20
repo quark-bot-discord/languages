@@ -72,7 +72,7 @@
         "soundEmoji": "絵文字"
     },
     "soundboardSoundDeleted": {
-        "title": "{sound}は{executor}によって削除されました",
+        "title": "Soundboard Sound Deleted",
         "description": "{sound}は{executor}によって削除されました"
     },
     "soundboardSoundUpdated": {
