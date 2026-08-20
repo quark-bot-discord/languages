@@ -64,7 +64,7 @@
     },
     "stickerUpdated": {
         "title": "Zedytowano Naklejkę",
-        "description": "{emoji} została zedytowana przez {executor}"
+        "description": "{sticker} została zedytowana przez {executor}"
     },
     "soundboardSoundCreated": {
         "title": "Dodano Dźwięk  Do Tablicy Dźwięków",
