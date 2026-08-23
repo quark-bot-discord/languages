@@ -23,6 +23,11 @@
         "nsfw": "NSFW",
         "rtc_region": "Region"
     },
+    "stickerModificationTypes": {
+        "tags": "Emoji",
+        "name": "Name",
+        "description": "Description"
+    },
     "roleModificationTypes": {
         "name": "Name",
         "hoist": "Hoisted",
@@ -31,26 +36,21 @@
         "mentionable": "Mentionable",
         "color": "Color"
     },
+    "threadModificationTypes": {
+        "name": "Name",
+        "rate_limit_per_user": "Slowmode",
+        "auto_archive_duration": "Automatic Archive"
+    },
+    "soundboardSoundModificationTypes": {
+        "emoji": "Emoji",
+        "volume": "Volume",
+        "name": "Name"
+    },
     "webhookModificationTypes": {
         "channel_id": "Channel",
         "name": "Name"
     },
     "emojiModificationTypes": {
         "name": "Name"
-    },
-    "threadModificationTypes": {
-        "rate_limit_per_user": "Slowmode",
-        "auto_archive_duration": "Automatic Archive",
-        "name": "Name"
-    },
-    "stickerModificationTypes": {
-        "name": "Name",
-        "description": "Description",
-        "tags": "Emoji"
-    },
-    "soundboardSoundModificationTypes": {
-        "name": "Name",
-        "volume": "Volume",
-        "emoji": "Emoji"
     }
 }

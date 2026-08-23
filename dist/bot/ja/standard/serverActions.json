@@ -64,7 +64,7 @@
     },
     "stickerUpdated": {
         "title": "ステッカーを編集",
-        "description": "{emoji}は{executor}によって編集されました"
+        "description": "{sticker}は{executor}によって編集されました"
     },
     "soundboardSoundCreated": {
         "title": "サウンドボードサウンド追加",
@@ -72,7 +72,7 @@
         "soundEmoji": "絵文字"
     },
     "soundboardSoundDeleted": {
-        "title": "{sound}は{executor}によって削除されました",
+        "title": "Soundboard Sound Deleted",
         "description": "{sound}は{executor}によって削除されました"
     },
     "soundboardSoundUpdated": {

@@ -64,7 +64,7 @@
     },
     "stickerUpdated": {
         "title": "貼圖已更改",
-        "description": "{emoji} 貼圖已被 {executor} 更改"
+        "description": "{sticker} 貼圖已被 {executor} 更改"
     },
     "soundboardSoundCreated": {
         "title": "音效板音效已添加",
@@ -72,7 +72,7 @@
         "soundEmoji": "表情符號"
     },
     "soundboardSoundDeleted": {
-        "title": "{sound} 被 {executor} 所刪除",
+        "title": "Soundboard Sound Deleted",
         "description": "{sound} 已被 {executor} 刪除"
     },
     "soundboardSoundUpdated": {

@@ -46,7 +46,7 @@
     "stickerModificationTypes": {
         "name": "Name",
         "description": "Description",
-        "tags": "Tags"
+        "tags": "Emoji"
     },
     "soundboardSoundModificationTypes": {
         "name": "Name",

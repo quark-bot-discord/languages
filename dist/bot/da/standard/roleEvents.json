@@ -1,0 +1,34 @@
+{
+    "roleIconUpdate": {
+        "title": "Role Icon Updated",
+        "description_added": "{executor} added an icon for {role}",
+        "linkToOldIcon": "Link to old icon",
+        "linkToNewIcon": "Link to new icon",
+        "description": "{executor} updated the icon for {role}",
+        "description_removed": "{executor} removed the icon for {role}"
+    },
+    "rolePermissionsUpdate": {
+        "viewFullNewPermissions": "View Full New Permissions",
+        "viewFullOldPermissions": "View Full Old Permissions",
+        "warning": "WARNING!",
+        "oldPermissions": "Old Permissions",
+        "title": "Role Permissions Updated",
+        "description": "Permissions for {role} were updated by {executor}",
+        "newPermissions": "New Permissions",
+        "dangerousPermissions": "Dangerous permissions granted"
+    },
+    "roleCreated": {
+        "title": "Role Created",
+        "description": "{role} was created by {executor}"
+    },
+    "roleUpdated": {
+        "description": "{role} was modified by {executor}",
+        "title": "Role Modified"
+    },
+    "roleDeleted": {
+        "role": "Role",
+        "description": "{role_name} was deleted by {executor}",
+        "linkToRoleIcon": "Link to role icon",
+        "title": "Role Deleted"
+    }
+}

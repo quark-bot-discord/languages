@@ -72,7 +72,7 @@
         "soundEmoji": "Emoji"
     },
     "soundboardSoundDeleted": {
-        "title": "{sound} fue eliminado por {executor}",
+        "title": "Soundboard Sound Deleted",
         "description": "{sound} fue eliminado por {executor}"
     },
     "soundboardSoundUpdated": {
@@ -80,9 +80,9 @@
         "description": "{sound} fue actualizado por {executor}"
     },
     "autoModerationRuleCreated": {
-        "title": "Auto Moderation Rule Created",
-        "description": "Rule {name} was created by {executor}",
-        "exemptRoles": "Excluded Roles",
-        "exemptChannels": "Excluded Channels"
+        "title": "Regla de moderación automática creada",
+        "description": "La regla {name} fue creada por {executor}",
+        "exemptRoles": "Roles excluidos",
+        "exemptChannels": "Canales excluidos"
     }
 }

@@ -64,7 +64,7 @@
     },
     "stickerUpdated": {
         "title": "Sticker Edited",
-        "description": "{emoji} was edited by {executor}"
+        "description": "{sticker} was edited by {executor}"
     },
     "soundboardSoundCreated": {
         "title": "Soundboard Sound Added",
@@ -72,7 +72,7 @@
         "soundEmoji": "Emoji"
     },
     "soundboardSoundDeleted": {
-        "title": "{sound} was deleted by {executor}",
+        "title": "Soundboard Sound Deleted",
         "description": "{sound} was deleted by {executor}"
     },
     "soundboardSoundUpdated": {
