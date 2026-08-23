@@ -64,13 +64,19 @@ export const getLocaleFromDatabaseCode = (databaseCode: number): DiscordLocaleKe
 
 const readObject = (obj: { [key: string]: any }, cursor = "") => {
   if (!obj) return undefined;
-  const cursorPath = cursor.split(".");
-  for (let i = 0; i < cursorPath.length; i++)
-    if (cursorPath[i] && Object.keys(obj).includes(cursorPath[i])) {
-      if (typeof obj[cursorPath[i]] !== "object") return obj[cursorPath[i]];
-      else obj = (obj as { [key: string]: object })[cursorPath[i]];
+  const cursorPath = cursor.split(".").filter(Boolean);
+  let current: unknown = obj;
+  for (const segment of cursorPath) {
+    if (
+      current === null ||
+      typeof current !== "object" ||
+      !Object.prototype.hasOwnProperty.call(current, segment)
+    ) {
+      return undefined;
     }
-  return obj;
+    current = (current as { [key: string]: unknown })[segment];
+  }
+  return current;
 };
 
 const returnNextProperty = (
@@ -94,17 +100,22 @@ const returnNextProperty = (
         ];
       },
       get(target, prop1) {
-        if (prop1 === "then")
-          return returnNextProperty(
-            languagesStringsToUse,
-            fallbackLanguagesStrings
-          );
+        if (prop1 === "then") return undefined;
+        if (
+          typeof prop1 === "symbol" ||
+          prop1 === "toString" ||
+          prop1 === "valueOf" ||
+          prop1 === "constructor"
+        ) {
+          return Reflect.get(target, prop1) as unknown;
+        }
         const currentCursor = cursor
           ? `${cursor}.${String(prop1)}`
           : String(prop1);
         const toReturn = readObject(languagesStringsToUse, currentCursor)
           ? readObject(languagesStringsToUse, currentCursor)
           : readObject(fallbackLanguagesStrings, currentCursor);
+        if (toReturn === undefined || toReturn === null) return undefined;
         switch (typeof toReturn) {
           case "string":
             return toReturn;
@@ -136,7 +147,20 @@ const languageTypeProxy = (
   return new Proxy(
     {},
     {
-      async get(target, prop) {
+      get(target, prop) {
+        // Deliberately NOT an `async get`: in an async trap every guard below
+        // would be wrapped in a promise, so `toString` would answer with a
+        // promise rather than a function and stringifying would throw again.
+        if (prop === "then") return undefined;
+        if (
+          typeof prop === "symbol" ||
+          prop === "toString" ||
+          prop === "valueOf" ||
+          prop === "constructor"
+        ) {
+          return Reflect.get(target, prop) as unknown;
+        }
+        return (async () => {
         const selectedLanguagesStrings = await import(
           `./bot/${language}/${type}/${String(prop)}.json`,
           { with: { type: "json" } }
@@ -144,7 +168,7 @@ const languageTypeProxy = (
         const fallbackLanguagesStrings = !noFallback
           ? await import(`./bot/en_us/${type}/${String(prop)}.json`, {
               with: { type: "json" },
-            })
+            }).catch(() => null)
           : null;
         const languagesStringsToUse = selectedLanguagesStrings?.default
           ? selectedLanguagesStrings.default
@@ -153,6 +177,7 @@ const languageTypeProxy = (
           languagesStringsToUse,
           fallbackLanguagesStrings?.default
         );
+        })();
       },
     }
   );
@@ -166,6 +191,15 @@ export default function languageProxy(
     {},
     {
       get(target, prop) {
+        if (prop === "then") return undefined;
+        if (
+          typeof prop === "symbol" ||
+          prop === "toString" ||
+          prop === "valueOf" ||
+          prop === "constructor"
+        ) {
+          return Reflect.get(target, prop) as unknown;
+        }
         if (validLanguages.includes(language)) {
           return languageTypeProxy(language, String(prop), noFallback);
         } else if (!noFallback) {

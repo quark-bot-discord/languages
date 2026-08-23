@@ -41,18 +41,38 @@ export const getLocaleFromDatabaseCode = (databaseCode) => {
             return key;
     throw new Error(`Language ${databaseCode} not found`);
 };
+/**
+ * Walk a dotted path, or return undefined.
+ *
+ * The previous implementation skipped path segments it could not find and
+ * returned whatever `obj` happened to be at that point — for a missing key,
+ * the *parent object*. Two consequences, both bugs:
+ *
+ *   1. A missing key produced a truthy object rather than undefined. The proxy
+ *      above then wrapped it, and stringifying that wrapper threw
+ *      "TypeError: object is not a function". That is what destroyed roughly
+ *      half of serverlog's threadUpdate logs, plus channelUpdate and
+ *      guildUpdate, whenever Discord sent an audit-log change key with no
+ *      entry in the language JSON.
+ *   2. The en_us fallback never ran. `readObject(selected, cursor)` returned a
+ *      truthy parent object for a key the translation was missing, so the
+ *      ternary that was supposed to fall back to English always took the first
+ *      branch. Translations silently rendered the wrong string.
+ */
 const readObject = (obj, cursor = "") => {
     if (!obj)
         return undefined;
-    const cursorPath = cursor.split(".");
-    for (let i = 0; i < cursorPath.length; i++)
-        if (cursorPath[i] && Object.keys(obj).includes(cursorPath[i])) {
-            if (typeof obj[cursorPath[i]] !== "object")
-                return obj[cursorPath[i]];
-            else
-                obj = obj[cursorPath[i]];
+    const cursorPath = cursor.split(".").filter(Boolean);
+    let current = obj;
+    for (const segment of cursorPath) {
+        if (current === null ||
+            typeof current !== "object" ||
+            !Object.prototype.hasOwnProperty.call(current, segment)) {
+            return undefined;
         }
-    return obj;
+        current = current[segment];
+    }
+    return current;
 };
 const returnNextProperty = (languagesStringsToUse, fallbackLanguagesStrings, cursor = "") => {
     return new Proxy({}, {
@@ -69,14 +89,39 @@ const returnNextProperty = (languagesStringsToUse, fallbackLanguagesStrings, cur
             ];
         },
         get(target, prop1) {
+            // Never answer JavaScript's own internals with a language lookup.
+            //
+            // This trap used to return a proxy for *every* property. So
+            // `String(value)` looked up `toString`, got an object instead of a
+            // function, and threw "TypeError: object is not a function" — which is
+            // what destroyed roughly half of all threadUpdate logs in serverlog,
+            // plus channelUpdate and guildUpdate. It fired whenever an audit-log
+            // change key was absent from the language JSON and the gui interpolated
+            // the result into a template literal.
+            //
+            // `then` must be undefined specifically: every `await` probes it, and a
+            // truthy non-callable `then` makes the value look thenable when it is
+            // not.
             if (prop1 === "then")
-                return returnNextProperty(languagesStringsToUse, fallbackLanguagesStrings);
+                return undefined;
+            if (typeof prop1 === "symbol" ||
+                prop1 === "toString" ||
+                prop1 === "valueOf" ||
+                prop1 === "constructor") {
+                return Reflect.get(target, prop1);
+            }
             const currentCursor = cursor
                 ? `${cursor}.${String(prop1)}`
                 : String(prop1);
             const toReturn = readObject(languagesStringsToUse, currentCursor)
                 ? readObject(languagesStringsToUse, currentCursor)
                 : readObject(fallbackLanguagesStrings, currentCursor);
+            // A key that exists in neither the selected language nor the fallback is
+            // absent, not an empty branch. Returning a proxy for it made the gui
+            // truthiness guards (`types[c.key] ? ... : ""`) pass, so a missing
+            // string rendered as "[object Object]" in the log body.
+            if (toReturn === undefined || toReturn === null)
+                return undefined;
             switch (typeof toReturn) {
                 case "string":
                     return toReturn;
@@ -96,23 +141,47 @@ const returnNextProperty = (languagesStringsToUse, fallbackLanguagesStrings, cur
 };
 const languageTypeProxy = (language, type, noFallback) => {
     return new Proxy({}, {
-        async get(target, prop) {
-            const selectedLanguagesStrings = await import(`./bot/${language}/${type}/${String(prop)}.json`, { with: { type: "json" } }).catch(() => null);
-            const fallbackLanguagesStrings = !noFallback
-                ? await import(`./bot/en_us/${type}/${String(prop)}.json`, {
-                    with: { type: "json" },
-                })
-                : null;
-            const languagesStringsToUse = (selectedLanguagesStrings === null || selectedLanguagesStrings === void 0 ? void 0 : selectedLanguagesStrings.default)
-                ? selectedLanguagesStrings.default
-                : fallbackLanguagesStrings === null || fallbackLanguagesStrings === void 0 ? void 0 : fallbackLanguagesStrings.default;
-            return returnNextProperty(languagesStringsToUse, fallbackLanguagesStrings === null || fallbackLanguagesStrings === void 0 ? void 0 : fallbackLanguagesStrings.default);
+        get(target, prop) {
+            // Deliberately NOT an `async get`: in an async trap every guard below
+            // would be wrapped in a promise, so `toString` would answer with a
+            // promise rather than a function and stringifying would throw again.
+            if (prop === "then")
+                return undefined;
+            if (typeof prop === "symbol" ||
+                prop === "toString" ||
+                prop === "valueOf" ||
+                prop === "constructor") {
+                return Reflect.get(target, prop);
+            }
+            return (async () => {
+                const selectedLanguagesStrings = await import(`./bot/${language}/${type}/${String(prop)}.json`, { with: { type: "json" } }).catch(() => null);
+                // The fallback was unguarded, so a key with no JSON file anywhere threw
+                // ERR_MODULE_NOT_FOUND from inside a proxy trap — an unhandled
+                // rejection with no useful stack, far from the call site.
+                const fallbackLanguagesStrings = !noFallback
+                    ? await import(`./bot/en_us/${type}/${String(prop)}.json`, {
+                        with: { type: "json" },
+                    }).catch(() => null)
+                    : null;
+                const languagesStringsToUse = (selectedLanguagesStrings === null || selectedLanguagesStrings === void 0 ? void 0 : selectedLanguagesStrings.default)
+                    ? selectedLanguagesStrings.default
+                    : fallbackLanguagesStrings === null || fallbackLanguagesStrings === void 0 ? void 0 : fallbackLanguagesStrings.default;
+                return returnNextProperty(languagesStringsToUse, fallbackLanguagesStrings === null || fallbackLanguagesStrings === void 0 ? void 0 : fallbackLanguagesStrings.default);
+            })();
         },
     });
 };
 export default function languageProxy(language, noFallback = false) {
     return new Proxy({}, {
         get(target, prop) {
+            if (prop === "then")
+                return undefined;
+            if (typeof prop === "symbol" ||
+                prop === "toString" ||
+                prop === "valueOf" ||
+                prop === "constructor") {
+                return Reflect.get(target, prop);
+            }
             if (validLanguages.includes(language)) {
                 return languageTypeProxy(language, String(prop), noFallback);
             }
