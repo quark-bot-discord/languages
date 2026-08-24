@@ -77,6 +77,7 @@
         "unknownAuthor": "Unknown",
         "contentUnavailable": "content no longer cached",
         "hiddenExecutor": "Hidden",
-        "messageRetention": "Quark keeps message content for 12 hours. Quark Pro keeps it for 30 days, so deletions and edits like this one are logged with their content."
+        "messageRetention": "Quark keeps message content for 12 hours. Quark Pro keeps it for 30 days, so deletions and edits like this one are logged with their content.",
+        "voiceModeration": "Quark Pro shows which moderator server-muted or deafened a member."
     }
 }
