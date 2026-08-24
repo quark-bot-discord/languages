@@ -84,6 +84,7 @@
         "digestTitle": "Not logged in full today",
         "digestMessageRetention": "{count} deleted or edited messages had no cached content.",
         "digestVoiceModeration": "{count} server mutes or deafens had no moderator shown.",
-        "digestFooter": "Quark Pro keeps message content for 30 days and shows who muted or deafened a member."
+        "digestFooter": "Quark Pro keeps message content for 30 days and shows who muted or deafened a member.",
+        "upgradeToView": "Upgrade to Quark Pro to view"
     }
 }
