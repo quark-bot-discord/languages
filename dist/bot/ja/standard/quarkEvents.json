@@ -71,5 +71,8 @@
         "none": "なし",
         "executor": "付与者",
         "teaser_pro": "最大4週間の拡張メッセージログ、完全カスタマイズ可能なログ、Proボットなどをお楽しみください... 🚀"
+    },
+    "proPromotion": {
+        "title": "Not logged in full"
     }
 }

@@ -71,5 +71,8 @@
     "tagDeleted": {
         "description": "{executor} deleted the tag {tag}",
         "title": "Tag Deleted"
+    },
+    "proPromotion": {
+        "title": "Not logged in full"
     }
 }

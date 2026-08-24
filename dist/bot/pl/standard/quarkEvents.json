@@ -71,5 +71,8 @@
         "none": "nic",
         "executor": "Dodany przez",
         "teaser_pro": "Korzystaj z rozszerzonego logowania wiadomości (do 4 tygodni), w pełni konfigurowalnych logów, bota Pro i nie tylko... 🚀"
+    },
+    "proPromotion": {
+        "title": "Not logged in full"
     }
 }
