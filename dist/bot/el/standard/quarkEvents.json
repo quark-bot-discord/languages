@@ -76,6 +76,7 @@
         "title": "Not logged in full",
         "unknownAuthor": "Unknown",
         "contentUnavailable": "content no longer cached",
-        "hiddenExecutor": "Hidden"
+        "hiddenExecutor": "Hidden",
+        "messageRetention": "Quark keeps message content for 12 hours. Quark Pro keeps it for 30 days, so deletions and edits like this one are logged with their content."
     }
 }
