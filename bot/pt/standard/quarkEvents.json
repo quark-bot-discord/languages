@@ -73,6 +73,7 @@
         "title": "Tag Deleted"
     },
     "proPromotion": {
-        "title": "Not logged in full"
+        "title": "Not logged in full",
+        "unknownAuthor": "Unknown"
     }
 }
