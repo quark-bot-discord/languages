@@ -73,6 +73,7 @@
         "teaser_pro": "4 haftaya kadar genişletilmiş mesaj günlüğü, tamamen özelleştirilebilir günlükler, botun pro versiyonu ve daha fazlasının keyfini çıkarın 🚀"
     },
     "proPromotion": {
-        "title": "Not logged in full"
+        "title": "Not logged in full",
+        "unknownAuthor": "Unknown"
     }
 }
