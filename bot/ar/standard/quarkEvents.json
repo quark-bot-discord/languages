@@ -73,6 +73,7 @@
         "teaser_pro": "Enjoy extended message logging (up to 4 weeks), fully customizable logs, the Pro bot, and more... 🚀"
     },
     "proPromotion": {
-        "title": "Not logged in full"
+        "title": "Not logged in full",
+        "unknownAuthor": "Unknown"
     }
 }
