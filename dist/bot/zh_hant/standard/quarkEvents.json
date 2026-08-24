@@ -73,6 +73,7 @@
         "teaser_pro": "享受更長的訊息記錄時間（長達 4 週）、完全自訂的日誌、專業版機器人等等…🚀"
     },
     "proPromotion": {
-        "title": "Not logged in full"
+        "title": "Not logged in full",
+        "unknownAuthor": "Unknown"
     }
 }

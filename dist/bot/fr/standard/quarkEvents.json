@@ -73,6 +73,7 @@
         "teaser_pro": "Profitez d'un enregistrement étendu des messages (jusqu'à 4 semaines), de journaux entièrement personnalisables, du bot Pro et plus encore... 🚀"
     },
     "proPromotion": {
-        "title": "Not logged in full"
+        "title": "Not logged in full",
+        "unknownAuthor": "Unknown"
     }
 }
