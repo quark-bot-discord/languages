@@ -81,6 +81,7 @@
         "voiceModeration": "Quark Pro shows which moderator server-muted or deafened a member.",
         "cta": "See Quark Pro",
         "alsoSuppressed": "{count} more were affected since this notice was last shown.",
-        "digestTitle": "Not logged in full today"
+        "digestTitle": "Not logged in full today",
+        "digestMessageRetention": "{count} deleted or edited messages had no cached content."
     }
 }
