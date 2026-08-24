@@ -75,6 +75,7 @@
     "proPromotion": {
         "title": "Not logged in full",
         "unknownAuthor": "Unknown",
-        "contentUnavailable": "content no longer cached"
+        "contentUnavailable": "content no longer cached",
+        "hiddenExecutor": "Hidden"
     }
 }
