@@ -85,6 +85,7 @@
         "digestMessageRetention": "{count} deleted or edited messages had no cached content.",
         "digestVoiceModeration": "{count} server mutes or deafens had no moderator shown.",
         "digestFooter": "Quark Pro keeps message content for 30 days and shows who muted or deafened a member.",
-        "upgradeToView": "Upgrade to Quark Pro to view"
+        "upgradeToView": "Upgrade to Quark Pro to view",
+        "messageRetentionEdit": "Quark keeps message content for 12 hours. Quark Pro keeps it for 30 days, so edits like this one are logged with the original message."
     }
 }
