@@ -82,6 +82,7 @@
         "cta": "See Quark Pro",
         "alsoSuppressed": "{count} more were affected since this notice was last shown.",
         "digestTitle": "Not logged in full today",
-        "digestMessageRetention": "{count} deleted or edited messages had no cached content."
+        "digestMessageRetention": "{count} deleted or edited messages had no cached content.",
+        "digestVoiceModeration": "{count} server mutes or deafens had no moderator shown."
     }
 }
