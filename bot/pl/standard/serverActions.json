@@ -88,7 +88,8 @@
     "autoModerationRule": {
         "trigger": {
             "key": {
-                "keyword_filter": "Keywords"
+                "keyword_filter": "Keywords",
+                "regex_patterns": "Regex"
             }
         }
     }
