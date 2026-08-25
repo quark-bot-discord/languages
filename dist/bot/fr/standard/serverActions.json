@@ -90,7 +90,8 @@
             "key": {
                 "keyword_filter": "Keywords",
                 "regex_patterns": "Regex",
-                "presets": "Keyword Categories"
+                "presets": "Keyword Categories",
+                "allow_list": "Allowed"
             },
             "value": {
                 "presets": {
