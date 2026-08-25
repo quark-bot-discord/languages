@@ -73,21 +73,21 @@
         "teaser_pro": "Élvezd a kiterjesztett üzenet logolást (legfejebb 4 hétig), Tejlesen testreszabható logok, a Pro bot, és több... 🚀"
     },
     "proPromotion": {
-        "title": "Not logged in full",
-        "unknownAuthor": "Unknown",
-        "contentUnavailable": "content no longer cached",
-        "hiddenExecutor": "Hidden",
-        "messageRetention": "Quark keeps message content for 12 hours. Quark Pro keeps it for 30 days, so deletions and edits like this one are logged with their content.",
-        "voiceModeration": "Quark Pro shows which moderator server-muted or deafened a member.",
-        "cta": "See Quark Pro",
-        "alsoSuppressed": "{count} more were affected since this notice was last shown.",
-        "digestTitle": "Not logged in full today",
-        "digestMessageRetention": "{count} deleted or edited messages had no cached content.",
-        "digestVoiceModeration": "{count} server mutes or deafens had no moderator shown.",
-        "digestFooter": "Quark Pro keeps message content for 30 days and shows who muted or deafened a member.",
-        "upgradeToView": "Upgrade to Quark Pro to view",
-        "messageRetentionEdit": "Quark keeps message content for 12 hours. Quark Pro keeps it for 30 days, so edits like this one are logged with the original message.",
-        "messageRetentionDelete": "Quark keeps message content for 12 hours. Quark Pro keeps it for 30 days, so deletions like this one are logged with their content.",
-        "sentAgo": "Message sent {time}"
+        "title": "Nincsen bejelentkezve teljesen",
+        "unknownAuthor": "Ismeretlen",
+        "contentUnavailable": "a tartalom nem lesz gyorsítótárazva",
+        "hiddenExecutor": "Elrejtett",
+        "messageRetention": "A Quark 12 órán át tárolja az üzenetek tartalmát. A Quark Pro 30 napig tárolja azokat, így az ilyen törléseket és szerkesztéseket a tartalmukkal együtt rögzíti.",
+        "voiceModeration": "A Quark Pro megmutatja, melyik moderátor némította el vagy szüketítette le egy tagot a szerveren.",
+        "cta": "Lásd Quark Pro-t",
+        "alsoSuppressed": "A közlemény legutóbbi megjelenése óta további {count} tagot érintett a helyzet.",
+        "digestTitle": "Nincsen teljesen bejelentkezve a mai napon",
+        "digestMessageRetention": "A(z) {count} törölt vagy szerkesztett üzenetnek nem volt gyorsítótárazott tartalma.",
+        "digestVoiceModeration": "A(z) {count} szerveres némítás vagy szüketítés esetében nem volt megjelölve moderátor.",
+        "digestFooter": "A Quark Pro 30 napig megőrzi az üzenetek tartalmát, és megmutatja, ki némította el vagy szüktetítette egy tagot.",
+        "upgradeToView": "Frissíts a Quark Pro-ra hogy megtekintsd",
+        "messageRetentionEdit": "A Quark 12 órán át tárolja az üzenetek tartalmát. A Quark Pro 30 napig tárolja azokat, így az ilyen jellegű szerkesztéseket az eredeti üzenettel együtt rögzíti.",
+        "messageRetentionDelete": "A Quark 12 órán át tárolja az üzenetek tartalmát. A Quark Pro 30 napig tárolja azokat, ezért az ilyen törléseket a tartalmukkal együtt rögzítik.",
+        "sentAgo": "Üzenet elküldve ekkor: {time}"
     }
 }
