@@ -84,7 +84,8 @@
         "description": "{name} kuralı, {executor} tarafından oluşturuldu",
         "exemptRoles": "Muaf Roller",
         "exemptChannels": "Muaf Kanallar",
-        "conditions": "Conditions"
+        "conditions": "Conditions",
+        "actions": "Actions"
     },
     "autoModerationRule": {
         "trigger": {
