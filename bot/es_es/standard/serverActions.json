@@ -84,7 +84,8 @@
         "description": "La regla {name} fue creada por {executor}",
         "exemptRoles": "Roles excluidos",
         "exemptChannels": "Canales excluidos",
-        "conditions": "Conditions"
+        "conditions": "Conditions",
+        "actions": "Actions"
     },
     "autoModerationRule": {
         "trigger": {
