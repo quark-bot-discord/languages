@@ -89,7 +89,10 @@
         "trigger": {
             "key": {
                 "keyword_filter": "Keywords",
-                "regex_patterns": "Regex"
+                "regex_patterns": "Regex",
+                "presets": {
+                    "1": "Profanity"
+                }
             }
         }
     }
