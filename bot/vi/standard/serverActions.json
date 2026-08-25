@@ -94,7 +94,8 @@
             },
             "value": {
                 "presets": {
-                    "1": "Profanity"
+                    "1": "Profanity",
+                    "2": "Sexual Content"
                 }
             }
         }
