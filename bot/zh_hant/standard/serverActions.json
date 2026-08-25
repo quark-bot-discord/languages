@@ -84,7 +84,8 @@
         "description": "{executor} 創建了規則 {name}",
         "exemptRoles": "豁免的身份組",
         "exemptChannels": "豁免的頻道",
-        "conditions": "Conditions"
+        "conditions": "Conditions",
+        "actions": "Actions"
     },
     "autoModerationRule": {
         "trigger": {
