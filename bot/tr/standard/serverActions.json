@@ -84,5 +84,12 @@
         "description": "{name} kuralı, {executor} tarafından oluşturuldu",
         "exemptRoles": "Muaf Roller",
         "exemptChannels": "Muaf Kanallar"
+    },
+    "autoModerationRule": {
+        "trigger": {
+            "key": {
+                "keyword_filter": "Keywords"
+            }
+        }
     }
 }
