@@ -89,7 +89,8 @@
         "trigger": {
             "key": {
                 "keyword_filter": "Keywords",
-                "regex_patterns": "Regex"
+                "regex_patterns": "Regex",
+                "presets": "Keyword Categories"
             }
         }
     }
