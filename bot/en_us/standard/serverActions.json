@@ -84,7 +84,8 @@
         "description": "Rule {name} was created by {executor}",
         "exemptRoles": "Excluded Roles",
         "exemptChannels": "Excluded Channels",
-        "conditions": "Conditions"
+        "conditions": "Conditions",
+        "actions": "Actions"
     },
     "autoModerationRule": {
         "trigger": {
