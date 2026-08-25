@@ -65,7 +65,8 @@
         "exemptRoles": "Excluded Roles",
         "exemptChannels": "Excluded Channels",
         "description": "Rule {name} was created by {executor}",
-        "title": "Auto Moderation Rule Created"
+        "title": "Auto Moderation Rule Created",
+        "conditions": "Conditions"
     },
     "soundboardSoundDeleted": {
         "description": "{sound} was deleted by {executor}",
