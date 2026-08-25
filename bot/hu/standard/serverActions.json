@@ -84,24 +84,24 @@
         "description": "Szabály {name} létre lett hozva {executor} által",
         "exemptRoles": "Figyelmen Kívül Hagyott Rangok",
         "exemptChannels": "Figyelmen Kívül Hagyott Csatornák",
-        "conditions": "Conditions",
-        "actions": "Actions"
+        "conditions": "Kondicíók",
+        "actions": "Műveletek"
     },
     "autoModerationRule": {
         "trigger": {
             "key": {
-                "keyword_filter": "Keywords",
-                "regex_patterns": "Regex",
-                "presets": "Keyword Categories",
-                "allow_list": "Allowed",
-                "mention_total_limit": "Maximum Mentions",
-                "mention_raid_protection_enabled": "Auto Detect Mention Raids"
+                "keyword_filter": "Letiltott Kulcsszavak",
+                "regex_patterns": "Letiltott Regex-ek",
+                "presets": "Letiltott Kulcsszó Kategóriák",
+                "allow_list": "Szabad",
+                "mention_total_limit": "Maximális Említések",
+                "mention_raid_protection_enabled": "Automatikusan Észlelje a Említési Raid-eket"
             },
             "value": {
                 "presets": {
-                    "1": "Profanity",
-                    "2": "Sexual Content",
-                    "3": "Slurs"
+                    "1": "Káromkodás",
+                    "2": "Felnőtt Tartalom",
+                    "3": "Sértő Kifejezések"
                 }
             }
         }
