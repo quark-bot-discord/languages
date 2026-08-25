@@ -84,5 +84,12 @@
         "description": "Szabály {name} létre lett hozva {executor} által",
         "exemptRoles": "Figyelmen Kívül Hagyott Rangok",
         "exemptChannels": "Figyelmen Kívül Hagyott Csatornák"
+    },
+    "autoModerationRule": {
+        "trigger": {
+            "key": {
+                "keyword_filter": "Keywords"
+            }
+        }
     }
 }

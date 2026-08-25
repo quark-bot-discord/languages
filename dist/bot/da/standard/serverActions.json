@@ -84,5 +84,12 @@
         "title": "Emoji Deleted",
         "emoji": "Emoji",
         "description": "{emoji} was deleted by {executor}"
+    },
+    "autoModerationRule": {
+        "trigger": {
+            "key": {
+                "keyword_filter": "Keywords"
+            }
+        }
     }
 }
