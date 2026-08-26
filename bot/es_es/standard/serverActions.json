@@ -81,7 +81,11 @@
     },
     "autoModerationRuleCreated": {
         "title": "Regla de moderación automática creada",
-        "description": "La regla {name} fue creada por {executor}",
+        "description": {
+            "type": {
+                "message_send": "messages"
+            }
+        },
         "exemptRoles": "Roles excluidos",
         "exemptChannels": "Canales excluidos",
         "conditions": "Conditions",
