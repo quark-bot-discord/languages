@@ -127,7 +127,8 @@
         "conditions": "Conditions",
         "exemptRoles": "Excluded Roles",
         "exemptChannels": "Excluded Channels",
-        "actions": "Actions"
+        "actions": "Actions",
+        "description_noexecutor": "Rule {name} was deleted"
     },
     "autoModerationRuleUpdated": {
         "title": "Auto Moderation Rule Updated",
