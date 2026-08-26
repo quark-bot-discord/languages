@@ -71,7 +71,8 @@
             "message_send": "messages",
             "member_update": "member profiles"
         },
-        "description": "{executor} created rule {name} for {type}"
+        "description": "{executor} created rule {name} for {type}",
+        "description_noexecutor": "Rule {name} was created for {type}"
     },
     "soundboardSoundDeleted": {
         "description": "{sound} was deleted by {executor}",
