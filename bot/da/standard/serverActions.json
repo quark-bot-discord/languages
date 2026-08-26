@@ -66,7 +66,8 @@
         "exemptChannels": "Excluded Channels",
         "description": {
             "type": {
-                "message_send": "messages"
+                "message_send": "messages",
+                "member_update": "member profiles"
             }
         },
         "title": "Auto Moderation Rule Created",
