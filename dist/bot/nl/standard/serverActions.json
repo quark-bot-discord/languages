@@ -100,7 +100,8 @@
                 "allow_list": "Allowed",
                 "mention_total_limit": "Maximum Mentions",
                 "mention_raid_protection_enabled": "Auto Detect Mention Raids",
-                "spam": "Spam"
+                "spam": "Spam",
+                "keyword_preset": "Flagged Words"
             },
             "value": {
                 "presets": {

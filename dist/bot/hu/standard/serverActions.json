@@ -100,7 +100,8 @@
                 "allow_list": "Szabad",
                 "mention_total_limit": "Maximális Említések",
                 "mention_raid_protection_enabled": "Automatikusan Észlelje a Említési Raid-eket",
-                "spam": "Spam"
+                "spam": "Spam",
+                "keyword_preset": "Flagged Words"
             },
             "value": {
                 "presets": {
