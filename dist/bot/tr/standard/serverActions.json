@@ -104,6 +104,11 @@
                     "3": "Slurs"
                 }
             }
+        },
+        "action": {
+            "type": {
+                "block_message": "Block Message"
+            }
         }
     }
 }
