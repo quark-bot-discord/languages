@@ -109,7 +109,8 @@
             "type": {
                 "block_message": "Block Message",
                 "send_alert_message": "Send Alert Message",
-                "timeout": "Timeout"
+                "timeout": "Timeout",
+                "block_member_interaction": "Block Member Interaction"
             }
         }
     }
