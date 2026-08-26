@@ -64,11 +64,6 @@
     "autoModerationRuleCreated": {
         "exemptRoles": "Excluded Roles",
         "exemptChannels": "Excluded Channels",
-        "description": {
-            "type": {
-                "member_update": "member profiles"
-            }
-        },
         "title": "Auto Moderation Rule Created",
         "conditions": "Conditions",
         "actions": "Actions",

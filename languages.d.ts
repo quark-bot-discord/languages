@@ -13,9 +13,6 @@ export type LanguageStructure = {
   dashboard: string;
   pro: string;
 }>;
-  channel_update_types: Promise<{
-  none: string;
-}>;
   channel_types: Promise<{
   "0": string;
   "2": string;
@@ -29,7 +26,7 @@ export type LanguageStructure = {
   "15": string;
   "16": string;
 }>;
-  emoji_update_types: Promise<{
+  channel_update_types: Promise<{
   none: string;
 }>;
   command_responses: Promise<{
@@ -261,6 +258,38 @@ export type LanguageStructure = {
   "banButton-banning": string;
   "banButton-cancel": string;
 }>;
+  emoji_update_types: Promise<{
+  none: string;
+}>;
+  guild_update_types: Promise<{
+  none: string;
+  verification_level: {
+  "0": string;
+  "1": string;
+  "2": string;
+  "3": string;
+  "4": string;
+};
+  default_message_notifications: {
+  "0": string;
+  "1": string;
+};
+  explicit_content_filter: {
+  "0": string;
+  "1": string;
+  "2": string;
+};
+  nsfw_level: {
+  "0": string;
+  "1": string;
+  "2": string;
+  "3": string;
+};
+  premium_progress_bar_enabled: {
+  true: string;
+  false: string;
+};
+}>;
   gui_constants: Promise<{
   channelModificationTypes: {
   name: string;
@@ -315,35 +344,6 @@ export type LanguageStructure = {
   name: string;
   volume: string;
   emoji: string;
-};
-}>;
-  guild_update_types: Promise<{
-  none: string;
-  verification_level: {
-  "0": string;
-  "1": string;
-  "2": string;
-  "3": string;
-  "4": string;
-};
-  default_message_notifications: {
-  "0": string;
-  "1": string;
-};
-  explicit_content_filter: {
-  "0": string;
-  "1": string;
-  "2": string;
-};
-  nsfw_level: {
-  "0": string;
-  "1": string;
-  "2": string;
-  "3": string;
-};
-  premium_progress_bar_enabled: {
-  true: string;
-  false: string;
 };
 }>;
   ignore_options: Promise<{
@@ -451,6 +451,9 @@ export type LanguageStructure = {
   soundboard_sound_update_types: Promise<{
   none: string;
 }>;
+  sticker_update_types: Promise<{
+  none: string;
+}>;
   tags_responses: Promise<{
   "tags-help-description": string;
   "create-success": string;
@@ -474,9 +477,6 @@ export type LanguageStructure = {
   "tag-error-limitreached-0": string;
   "tag-error-limitreached-1": string;
   "tag-createdby": string;
-}>;
-  sticker_update_types: Promise<{
-  none: string;
 }>;
   thread_update_types: Promise<{
   none: string;
@@ -918,26 +918,6 @@ export type LanguageStructure = {
   unknownChannel: string;
 };
 }>;
-  modlog: Promise<{
-  moderator: string;
-  user: string;
-  reason: string;
-  case: string;
-  noReason: string;
-  noReasonBrief: string;
-  ban: string;
-  unban: string;
-  kick: string;
-  mute: string;
-  unmute: string;
-  timeoutEnds: string;
-  editReason: string;
-  reasonModal: {
-  label: string;
-  placeholder: string;
-  title: string;
-};
-}>;
   generalEvents: Promise<{
   serverModified: {
   title: string;
@@ -966,6 +946,26 @@ export type LanguageStructure = {
   description_withTier: string;
   description_withTier_noUser: string;
   none: string;
+};
+}>;
+  modlog: Promise<{
+  moderator: string;
+  user: string;
+  reason: string;
+  case: string;
+  noReason: string;
+  noReasonBrief: string;
+  ban: string;
+  unban: string;
+  kick: string;
+  mute: string;
+  unmute: string;
+  timeoutEnds: string;
+  editReason: string;
+  reasonModal: {
+  label: string;
+  placeholder: string;
+  title: string;
 };
 }>;
   quarkEvents: Promise<{
@@ -1178,11 +1178,6 @@ export type LanguageStructure = {
 };
   autoModerationRuleCreated: {
   title: string;
-  description: {
-  type: {
-  member_update: string;
-};
-};
   exemptRoles: string;
   exemptChannels: string;
   conditions: string;

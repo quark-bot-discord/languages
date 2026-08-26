@@ -81,11 +81,6 @@
     },
     "autoModerationRuleCreated": {
         "title": "Auto Moderációs Szabály Létrehozva",
-        "description": {
-            "type": {
-                "member_update": "member profiles"
-            }
-        },
         "exemptRoles": "Figyelmen Kívül Hagyott Rangok",
         "exemptChannels": "Figyelmen Kívül Hagyott Csatornák",
         "conditions": "Kondicíók",
