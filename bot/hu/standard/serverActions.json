@@ -83,7 +83,8 @@
         "title": "Auto Moderációs Szabály Létrehozva",
         "description": {
             "type": {
-                "message_send": "messages"
+                "message_send": "messages",
+                "member_update": "member profiles"
             }
         },
         "exemptRoles": "Figyelmen Kívül Hagyott Rangok",
