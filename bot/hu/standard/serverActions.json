@@ -104,6 +104,11 @@
                     "3": "Sértő Kifejezések"
                 }
             }
+        },
+        "action": {
+            "type": {
+                "block_message": "Block Message"
+            }
         }
     }
 }
