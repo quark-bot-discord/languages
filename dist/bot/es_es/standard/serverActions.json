@@ -88,7 +88,8 @@
         "description_type": {
             "message_send": "messages",
             "member_update": "member profiles"
-        }
+        },
+        "description": "{executor} created rule {name} for {type}"
     },
     "autoModerationRule": {
         "trigger": {
