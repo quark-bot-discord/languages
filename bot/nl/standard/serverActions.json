@@ -129,6 +129,7 @@
         "actions": "Actions"
     },
     "autoModerationRuleUpdated": {
-        "title": "Auto Moderation Rule Updated"
+        "title": "Auto Moderation Rule Updated",
+        "description": "{executor} updated the rule {name}"
     }
 }
