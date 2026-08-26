@@ -81,11 +81,6 @@
     },
     "autoModerationRuleCreated": {
         "title": "Regla de moderación automática creada",
-        "description": {
-            "type": {
-                "member_update": "member profiles"
-            }
-        },
         "exemptRoles": "Roles excluidos",
         "exemptChannels": "Canales excluidos",
         "conditions": "Conditions",
