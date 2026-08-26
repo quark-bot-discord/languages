@@ -130,6 +130,7 @@
     },
     "autoModerationRuleUpdated": {
         "title": "Auto Moderation Rule Updated",
-        "description": "{executor} updated the rule {name}"
+        "description": "{executor} updated the rule {name}",
+        "description_noexecutor": "Rule {name} was updated"
     }
 }
