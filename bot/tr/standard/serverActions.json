@@ -81,11 +81,6 @@
     },
     "autoModerationRuleCreated": {
         "title": "AutoMod Kuralı Oluşturuldu",
-        "description": {
-            "type": {
-                "member_update": "member profiles"
-            }
-        },
         "exemptRoles": "Muaf Roller",
         "exemptChannels": "Muaf Kanallar",
         "conditions": "Conditions",
