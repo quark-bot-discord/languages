@@ -91,7 +91,8 @@
         "conditions": "Conditions",
         "actions": "Actions",
         "description_type": {
-            "message_send": "messages"
+            "message_send": "messages",
+            "member_update": "member profiles"
         }
     },
     "autoModerationRule": {
