@@ -98,7 +98,7 @@
     "autoModerationRule": {
         "trigger": {
             "key": {
-                "keyword_filter": "Keywords",
+                "keyword_filter": "Disallowed Keywords",
                 "regex_patterns": "Regex",
                 "presets": "Keyword Categories",
                 "allow_list": "Allowed",
