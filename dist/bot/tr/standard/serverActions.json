@@ -83,7 +83,8 @@
         "title": "AutoMod Kuralı Oluşturuldu",
         "description": {
             "type": {
-                "message_send": "messages"
+                "message_send": "messages",
+                "member_update": "member profiles"
             }
         },
         "exemptRoles": "Muaf Roller",
