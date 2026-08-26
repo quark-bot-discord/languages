@@ -83,7 +83,6 @@
         "title": "AutoMod Kuralı Oluşturuldu",
         "description": {
             "type": {
-                "message_send": "messages",
                 "member_update": "member profiles"
             }
         },

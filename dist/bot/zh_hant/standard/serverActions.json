@@ -83,7 +83,6 @@
         "title": "自動審查規則已建立",
         "description": {
             "type": {
-                "message_send": "messages",
                 "member_update": "member profiles"
             }
         },

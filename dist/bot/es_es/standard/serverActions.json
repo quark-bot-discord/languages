@@ -83,7 +83,6 @@
         "title": "Regla de moderación automática creada",
         "description": {
             "type": {
-                "message_send": "messages",
                 "member_update": "member profiles"
             }
         },

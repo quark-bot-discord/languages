@@ -83,7 +83,6 @@
         "title": "Auto Moderációs Szabály Létrehozva",
         "description": {
             "type": {
-                "message_send": "messages",
                 "member_update": "member profiles"
             }
         },
