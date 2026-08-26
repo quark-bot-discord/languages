@@ -98,9 +98,9 @@
     "autoModerationRule": {
         "trigger": {
             "key": {
-                "keyword_filter": "Keywords",
+                "keyword_filter": "Disallowed Keywords",
                 "regex_patterns": "Regex",
-                "presets": "Keyword Categories",
+                "presets": "Disallowed Keyword Categories",
                 "allow_list": "Allowed",
                 "mention_total_limit": "Maximum Mentions",
                 "mention_raid_protection_enabled": "Auto Detect Mention Raids"
