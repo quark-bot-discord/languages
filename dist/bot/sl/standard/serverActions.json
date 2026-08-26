@@ -99,7 +99,8 @@
                 "presets": "Disallowed Keyword Categories",
                 "allow_list": "Allowed",
                 "mention_total_limit": "Maximum Mentions",
-                "mention_raid_protection_enabled": "Auto Detect Mention Raids"
+                "mention_raid_protection_enabled": "Auto Detect Mention Raids",
+                "spam": "Spam"
             },
             "value": {
                 "presets": {
