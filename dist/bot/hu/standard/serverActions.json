@@ -124,6 +124,7 @@
         "title": "Auto Moderation Rule Deleted",
         "description": "{executor} deleted the rule {name}",
         "conditions": "Conditions",
-        "exemptRoles": "Excluded Roles"
+        "exemptRoles": "Excluded Roles",
+        "exemptChannels": "Excluded Channels"
     }
 }
