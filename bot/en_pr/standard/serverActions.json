@@ -123,6 +123,7 @@
     "autoModerationRuleDeleted": {
         "title": "Auto Moderation Rule Deleted",
         "description": "{executor} deleted the rule {name}",
-        "conditions": "Conditions"
+        "conditions": "Conditions",
+        "exemptRoles": "Excluded Roles"
     }
 }
