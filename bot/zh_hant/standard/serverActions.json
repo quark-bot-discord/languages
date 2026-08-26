@@ -81,7 +81,11 @@
     },
     "autoModerationRuleCreated": {
         "title": "自動審查規則已建立",
-        "description": "{executor} 創建了規則 {name}",
+        "description": {
+            "type": {
+                "message_send": "messages"
+            }
+        },
         "exemptRoles": "豁免的身份組",
         "exemptChannels": "豁免的頻道",
         "conditions": "Conditions",
