@@ -70,7 +70,8 @@
         "description_type": {
             "message_send": "messages",
             "member_update": "member profiles"
-        }
+        },
+        "description": "{executor} created rule {name} for {type}"
     },
     "soundboardSoundDeleted": {
         "description": "{sound} was deleted by {executor}",
