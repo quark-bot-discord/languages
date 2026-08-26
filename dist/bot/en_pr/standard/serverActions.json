@@ -99,8 +99,8 @@
         "trigger": {
             "key": {
                 "keyword_filter": "Disallowed Keywords",
-                "regex_patterns": "Regex",
-                "presets": "Keyword Categories",
+                "regex_patterns": "Disallowed Regex",
+                "presets": "Disallowed Keyword Categories",
                 "allow_list": "Allowed",
                 "mention_total_limit": "Maximum Mentions",
                 "mention_raid_protection_enabled": "Auto Detect Mention Raids"
