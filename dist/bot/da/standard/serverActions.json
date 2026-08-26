@@ -107,7 +107,8 @@
         },
         "action": {
             "type": {
-                "block_message": "Block Message"
+                "block_message": "Block Message",
+                "send_alert_message": "Send Alert Message"
             }
         }
     }
