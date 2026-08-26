@@ -66,7 +66,6 @@
         "exemptChannels": "Excluded Channels",
         "description": {
             "type": {
-                "message_send": "messages",
                 "member_update": "member profiles"
             }
         },
