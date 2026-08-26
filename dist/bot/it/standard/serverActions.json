@@ -125,6 +125,7 @@
         "description": "{executor} deleted the rule {name}",
         "conditions": "Conditions",
         "exemptRoles": "Excluded Roles",
-        "exemptChannels": "Excluded Channels"
+        "exemptChannels": "Excluded Channels",
+        "actions": "Actions"
     }
 }
