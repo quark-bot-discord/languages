@@ -127,5 +127,8 @@
         "exemptRoles": "Excluded Roles",
         "exemptChannels": "Excluded Channels",
         "actions": "Actions"
+    },
+    "autoModerationRuleUpdated": {
+        "title": "Auto Moderation Rule Updated"
     }
 }
