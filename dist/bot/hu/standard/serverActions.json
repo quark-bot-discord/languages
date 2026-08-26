@@ -90,7 +90,10 @@
         "exemptRoles": "Figyelmen Kívül Hagyott Rangok",
         "exemptChannels": "Figyelmen Kívül Hagyott Csatornák",
         "conditions": "Kondicíók",
-        "actions": "Műveletek"
+        "actions": "Műveletek",
+        "description_type": {
+            "message_send": "messages"
+        }
     },
     "autoModerationRule": {
         "trigger": {

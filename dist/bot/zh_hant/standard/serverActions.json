@@ -90,7 +90,10 @@
         "exemptRoles": "豁免的身份組",
         "exemptChannels": "豁免的頻道",
         "conditions": "Conditions",
-        "actions": "Actions"
+        "actions": "Actions",
+        "description_type": {
+            "message_send": "messages"
+        }
     },
     "autoModerationRule": {
         "trigger": {
