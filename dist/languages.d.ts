@@ -4,6 +4,15 @@ export type LanguageStructure = {
   "1": string;
   "2": string;
 }>;
+  buttons: Promise<{
+  userID: string;
+  supportServer: string;
+  customise: string;
+  overview: string;
+  serverlog: string;
+  dashboard: string;
+  pro: string;
+}>;
   channel_types: Promise<{
   "0": string;
   "2": string;
@@ -19,15 +28,6 @@ export type LanguageStructure = {
 }>;
   channel_update_types: Promise<{
   none: string;
-}>;
-  buttons: Promise<{
-  userID: string;
-  supportServer: string;
-  customise: string;
-  overview: string;
-  serverlog: string;
-  dashboard: string;
-  pro: string;
 }>;
   command_responses: Promise<{
   disable: string;
@@ -258,6 +258,9 @@ export type LanguageStructure = {
   "banButton-banning": string;
   "banButton-cancel": string;
 }>;
+  emoji_update_types: Promise<{
+  none: string;
+}>;
   gui_constants: Promise<{
   channelModificationTypes: {
   name: string;
@@ -313,9 +316,6 @@ export type LanguageStructure = {
   volume: string;
   emoji: string;
 };
-}>;
-  emoji_update_types: Promise<{
-  none: string;
 }>;
   guild_update_types: Promise<{
   none: string;
@@ -389,6 +389,11 @@ export type LanguageStructure = {
   "3": string;
   "4": string;
 }>;
+  role_update_types: Promise<{
+  enabled: string;
+  disabled: string;
+  none: string;
+}>;
   permissions: Promise<{
   CREATE_INSTANT_INVITE: string;
   KICK_MEMBERS: string;
@@ -442,11 +447,6 @@ export type LanguageStructure = {
   BYPASS_SLOWMODE: string;
   MANAGE_EVENTS: string;
   MANAGE_GUILD_EXPRESSIONS: string;
-}>;
-  role_update_types: Promise<{
-  enabled: string;
-  disabled: string;
-  none: string;
 }>;
   soundboard_sound_update_types: Promise<{
   none: string;
@@ -614,6 +614,10 @@ export type LanguageStructure = {
   name: string;
   description: string;
 }>;
+  logging: Promise<{
+  name: string;
+  description: string;
+}>;
   language: Promise<{
   name: string;
   description: string;
@@ -624,7 +628,7 @@ export type LanguageStructure = {
 };
 };
 }>;
-  logging: Promise<{
+  ping: Promise<{
   name: string;
   description: string;
 }>;
@@ -661,27 +665,9 @@ export type LanguageStructure = {
 };
 };
 }>;
-  ping: Promise<{
-  name: string;
-  description: string;
-}>;
   premium: Promise<{
   name: string;
   description: string;
-}>;
-  privacy: Promise<{
-  name: string;
-  description: string;
-}>;
-  purge: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  countOption: {
-  name: string;
-  description: string;
-};
-};
 }>;
   reason: Promise<{
   name: string;
@@ -692,6 +678,20 @@ export type LanguageStructure = {
   description: string;
 };
   reasonOption: {
+  name: string;
+  description: string;
+};
+};
+}>;
+  privacy: Promise<{
+  name: string;
+  description: string;
+}>;
+  purge: Promise<{
+  name: string;
+  description: string;
+  commandOptions: {
+  countOption: {
   name: string;
   description: string;
 };
@@ -948,26 +948,6 @@ export type LanguageStructure = {
   none: string;
 };
 }>;
-  modlog: Promise<{
-  moderator: string;
-  user: string;
-  reason: string;
-  case: string;
-  noReason: string;
-  noReasonBrief: string;
-  ban: string;
-  unban: string;
-  kick: string;
-  mute: string;
-  unmute: string;
-  timeoutEnds: string;
-  editReason: string;
-  reasonModal: {
-  label: string;
-  placeholder: string;
-  title: string;
-};
-}>;
   quarkEvents: Promise<{
   serverlogChannelUpdate: {
   title: string;
@@ -1059,6 +1039,26 @@ export type LanguageStructure = {
   messageRetentionEdit: string;
   messageRetentionDelete: string;
   sentAgo: string;
+};
+}>;
+  modlog: Promise<{
+  moderator: string;
+  user: string;
+  reason: string;
+  case: string;
+  noReason: string;
+  noReasonBrief: string;
+  ban: string;
+  unban: string;
+  kick: string;
+  mute: string;
+  unmute: string;
+  timeoutEnds: string;
+  editReason: string;
+  reasonModal: {
+  label: string;
+  placeholder: string;
+  title: string;
 };
 }>;
   roleEvents: Promise<{
@@ -1220,6 +1220,7 @@ export type LanguageStructure = {
   autoModerationRuleDeleted: {
   title: string;
   description: string;
+  conditions: string;
 };
 }>;
   serverEvents: Promise<{
@@ -1508,5 +1509,5 @@ export type LanguageStructure = {
 }>;
 };
 };
-export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "export" | "help" | "initialReactor" | "kick" | "invite" | "language" | "logging" | "mute" | "ping" | "premium" | "privacy" | "purge" | "reason" | "serverlog" | "tags" | "unban" | "unmute";
+export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "export" | "help" | "initialReactor" | "kick" | "invite" | "logging" | "language" | "ping" | "mute" | "premium" | "reason" | "privacy" | "purge" | "serverlog" | "tags" | "unban" | "unmute";
 export type QuarkLanguageCodes = "en_us" | "en_gb" | "tr" | "vi" | "en_pr" | "pl" | "nl" | "es_es" | "it" | "de" | "fr" | "ru" | "el" | "zh_hant" | "ko" | "sl" | "ar" | "hu" | "ja";

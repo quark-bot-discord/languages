@@ -122,6 +122,7 @@
     },
     "autoModerationRuleDeleted": {
         "title": "Auto Moderation Rule Deleted",
-        "description": "{executor} deleted the rule {name}"
+        "description": "{executor} deleted the rule {name}",
+        "conditions": "Conditions"
     }
 }
