@@ -81,11 +81,6 @@
     },
     "autoModerationRuleCreated": {
         "title": "Auto Moderation Rule Created",
-        "description": {
-            "type": {
-                "member_update": "member profiles"
-            }
-        },
         "exemptRoles": "Excluded Roles",
         "exemptChannels": "Excluded Channels",
         "conditions": "Conditions",
