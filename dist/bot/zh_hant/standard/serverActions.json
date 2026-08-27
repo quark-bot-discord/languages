@@ -74,7 +74,8 @@
     },
     "soundboardSoundDeleted": {
         "title": "音效板音效已被刪除",
-        "description": "{sound} 已被 {executor} 刪除"
+        "description": "{sound} 已被 {executor} 刪除",
+        "description_noexecutor": "{sound} was deleted"
     },
     "soundboardSoundUpdated": {
         "title": "音效板音效已更新",

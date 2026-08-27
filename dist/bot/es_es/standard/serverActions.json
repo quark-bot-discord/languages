@@ -74,7 +74,8 @@
     },
     "soundboardSoundDeleted": {
         "title": "Soundboard Sound Deleted",
-        "description": "{sound} fue eliminado por {executor}"
+        "description": "{sound} fue eliminado por {executor}",
+        "description_noexecutor": "{sound} was deleted"
     },
     "soundboardSoundUpdated": {
         "title": "Sonido de la Mesa de Mezclas Actualizado",
