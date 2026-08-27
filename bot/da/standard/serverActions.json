@@ -78,7 +78,8 @@
     },
     "soundboardSoundDeleted": {
         "description": "{sound} was deleted by {executor}",
-        "title": "Soundboard Sound Deleted"
+        "title": "Soundboard Sound Deleted",
+        "description_noexecutor": "{sound} was deleted"
     },
     "stickerDeleted": {
         "title": "Sticker Deleted",
