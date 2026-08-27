@@ -69,7 +69,8 @@
     "soundboardSoundCreated": {
         "title": "Sonido de Mesa de Mezclas Añadido",
         "description": "{sound} fue añadido por {executor}",
-        "soundEmoji": "Emoji"
+        "soundEmoji": "Emoji",
+        "description_noexecutor": "{sound} was added"
     },
     "soundboardSoundDeleted": {
         "title": "Soundboard Sound Deleted",
