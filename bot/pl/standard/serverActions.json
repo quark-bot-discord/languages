@@ -69,7 +69,8 @@
     "soundboardSoundCreated": {
         "title": "Dodano Dźwięk  Do Tablicy Dźwięków",
         "description": "{sound} został zedytowany przez {executor}",
-        "soundEmoji": "Emotka"
+        "soundEmoji": "Emotka",
+        "description_noexecutor": "{sound} was added"
     },
     "soundboardSoundDeleted": {
         "title": "Soundboard Sound Deleted",
