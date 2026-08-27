@@ -74,7 +74,8 @@
     },
     "soundboardSoundDeleted": {
         "title": "Soundboard Sound Deleted",
-        "description": "{sound} został usunięty przez {executor}"
+        "description": "{sound} został usunięty przez {executor}",
+        "description_noexecutor": "{sound} was deleted"
     },
     "soundboardSoundUpdated": {
         "title": "Dźwięk Tablicy Dźwięków Został Zaktualizowany",
