@@ -38,7 +38,8 @@
     "soundboardSoundCreated": {
         "description": "{sound} was added by {executor}",
         "title": "Soundboard Sound Added",
-        "soundEmoji": "Emoji"
+        "soundEmoji": "Emoji",
+        "description_noexecutor": "{sound} was added"
     },
     "inviteDelete": {
         "description_withoutExecutor": "An invite {invite} was deleted for {channel}",
