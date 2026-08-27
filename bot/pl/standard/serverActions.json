@@ -78,7 +78,8 @@
     },
     "soundboardSoundUpdated": {
         "title": "Dźwięk Tablicy Dźwięków Został Zaktualizowany",
-        "description": "{sound} został zaktualizowany przez {executor}"
+        "description": "{sound} został zaktualizowany przez {executor}",
+        "description_noexecutor": "{sound} was updated"
     },
     "autoModerationRuleCreated": {
         "title": "Auto Moderation Rule Created",
