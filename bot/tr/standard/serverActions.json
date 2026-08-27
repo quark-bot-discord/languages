@@ -78,7 +78,8 @@
     },
     "soundboardSoundUpdated": {
         "title": "Ses Panelinde Güncelleme Yapıldı",
-        "description": "{sound}, {executor} tarafından güncellendi"
+        "description": "{sound}, {executor} tarafından güncellendi",
+        "description_noexecutor": "{sound} was updated"
     },
     "autoModerationRuleCreated": {
         "title": "AutoMod Kuralı Oluşturuldu",
