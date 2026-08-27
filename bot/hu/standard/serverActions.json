@@ -69,7 +69,8 @@
     "soundboardSoundCreated": {
         "title": "Soundboard Hang Hozzáadva",
         "description": "{sound} hozzá lett adva {executor} által",
-        "soundEmoji": "Emoji"
+        "soundEmoji": "Emoji",
+        "description_noexecutor": "{sound} was added"
     },
     "soundboardSoundDeleted": {
         "title": "Soundboard Hang Törölve",
