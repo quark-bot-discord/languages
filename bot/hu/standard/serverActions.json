@@ -74,7 +74,8 @@
     },
     "soundboardSoundDeleted": {
         "title": "Soundboard Hang Törölve",
-        "description": "{sound} törölve lett {executor} által"
+        "description": "{sound} törölve lett {executor} által",
+        "description_noexecutor": "{sound} was deleted"
     },
     "soundboardSoundUpdated": {
         "title": "Soundboard Hang Frissítve",
