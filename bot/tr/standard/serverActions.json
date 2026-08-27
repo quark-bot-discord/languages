@@ -74,7 +74,8 @@
     },
     "soundboardSoundDeleted": {
         "title": "Ses Panelinden Silindi",
-        "description": "{sound}, {executor} tarafından silindi"
+        "description": "{sound}, {executor} tarafından silindi",
+        "description_noexecutor": "{sound} was deleted"
     },
     "soundboardSoundUpdated": {
         "title": "Ses Panelinde Güncelleme Yapıldı",
