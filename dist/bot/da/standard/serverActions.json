@@ -20,7 +20,8 @@
     },
     "soundboardSoundUpdated": {
         "title": "Soundboard Sound Updated",
-        "description": "{sound} was updated by {executor}"
+        "description": "{sound} was updated by {executor}",
+        "description_noexecutor": "{sound} was updated"
     },
     "soundboardSoundCreated": {
         "description": "{sound} was added by {executor}",

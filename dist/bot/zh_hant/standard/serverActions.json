@@ -78,7 +78,8 @@
     },
     "soundboardSoundUpdated": {
         "title": "音效板音效已更新",
-        "description": "{sound} 已被 {executor} 更改"
+        "description": "{sound} 已被 {executor} 更改",
+        "description_noexecutor": "{sound} was updated"
     },
     "autoModerationRuleCreated": {
         "title": "自動審查規則已建立",

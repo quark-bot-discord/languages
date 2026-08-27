@@ -78,7 +78,8 @@
     },
     "soundboardSoundUpdated": {
         "title": "Soundboard Hang Frissítve",
-        "description": "{sound} frissítve lett {executor} által"
+        "description": "{sound} frissítve lett {executor} által",
+        "description_noexecutor": "{sound} was updated"
     },
     "autoModerationRuleCreated": {
         "title": "Auto Moderációs Szabály Létrehozva",
