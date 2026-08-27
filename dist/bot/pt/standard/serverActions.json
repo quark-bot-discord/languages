@@ -38,7 +38,8 @@
     "soundboardSoundCreated": {
         "description": "{sound} was added by {executor}",
         "title": "Soundboard Sound Added",
-        "soundEmoji": "Emoji"
+        "soundEmoji": "Emoji",
+        "description_noexecutor": "{sound} was added"
     },
     "inviteDelete": {
         "description_withoutExecutor": "An invite {invite} was deleted for {channel}",
@@ -89,7 +90,8 @@
             "message_send": "messages",
             "member_update": "member profiles"
         },
-        "description": "{executor} created rule {name} for {type}"
+        "description": "{executor} created rule {name} for {type}",
+        "description_noexecutor": "Rule {name} was created for {type}"
     },
     "autoModerationRule": {
         "trigger": {
@@ -126,7 +128,8 @@
         "conditions": "Conditions",
         "exemptRoles": "Excluded Roles",
         "exemptChannels": "Excluded Channels",
-        "actions": "Actions"
+        "actions": "Actions",
+        "description_noexecutor": "Rule {name} was deleted"
     },
     "autoModerationRuleUpdated": {
         "title": "Auto Moderation Rule Updated",

@@ -69,7 +69,8 @@
     "soundboardSoundCreated": {
         "title": "音效板音效已添加",
         "description": "{sound} 被 {executor} 所添加",
-        "soundEmoji": "表情符號"
+        "soundEmoji": "表情符號",
+        "description_noexecutor": "{sound} was added"
     },
     "soundboardSoundDeleted": {
         "title": "音效板音效已被刪除",
@@ -89,7 +90,8 @@
             "message_send": "messages",
             "member_update": "member profiles"
         },
-        "description": "{executor} created rule {name} for {type}"
+        "description": "{executor} created rule {name} for {type}",
+        "description_noexecutor": "Rule {name} was created for {type}"
     },
     "autoModerationRule": {
         "trigger": {
@@ -126,7 +128,8 @@
         "conditions": "Conditions",
         "exemptRoles": "Excluded Roles",
         "exemptChannels": "Excluded Channels",
-        "actions": "Actions"
+        "actions": "Actions",
+        "description_noexecutor": "Rule {name} was deleted"
     },
     "autoModerationRuleUpdated": {
         "title": "Auto Moderation Rule Updated",

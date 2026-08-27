@@ -382,6 +382,13 @@ export type LanguageStructure = {
   category_voice: string;
   main_channel: string;
 }>;
+  log_formats: Promise<{
+  "0": string;
+  "1": string;
+  "2": string;
+  "3": string;
+  "4": string;
+}>;
   permissions: Promise<{
   CREATE_INSTANT_INVITE: string;
   KICK_MEMBERS: string;
@@ -441,13 +448,6 @@ export type LanguageStructure = {
   disabled: string;
   none: string;
 }>;
-  log_formats: Promise<{
-  "0": string;
-  "1": string;
-  "2": string;
-  "3": string;
-  "4": string;
-}>;
   soundboard_sound_update_types: Promise<{
   none: string;
 }>;
@@ -478,6 +478,9 @@ export type LanguageStructure = {
   "tag-error-limitreached-1": string;
   "tag-createdby": string;
 }>;
+  thread_update_types: Promise<{
+  none: string;
+}>;
   time: Promise<{
   second: string;
   "second-plural": string;
@@ -493,9 +496,6 @@ export type LanguageStructure = {
   "month-plural": string;
   year: string;
   "year-plural": string;
-}>;
-  thread_update_types: Promise<{
-  none: string;
 }>;
 };
   slash_commands: {
@@ -553,20 +553,6 @@ export type LanguageStructure = {
 };
 };
 }>;
-  help: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  overviewOption: {
-  name: string;
-  description: string;
-};
-  serverlogOption: {
-  name: string;
-  description: string;
-};
-};
-}>;
   export: Promise<{
   name: string;
   description: string;
@@ -590,6 +576,20 @@ export type LanguageStructure = {
   name: string;
 };
 };
+};
+};
+}>;
+  help: Promise<{
+  name: string;
+  description: string;
+  commandOptions: {
+  overviewOption: {
+  name: string;
+  description: string;
+};
+  serverlogOption: {
+  name: string;
+  description: string;
 };
 };
 }>;
@@ -673,6 +673,16 @@ export type LanguageStructure = {
   name: string;
   description: string;
 }>;
+  purge: Promise<{
+  name: string;
+  description: string;
+  commandOptions: {
+  countOption: {
+  name: string;
+  description: string;
+};
+};
+}>;
   reason: Promise<{
   name: string;
   description: string;
@@ -754,16 +764,6 @@ export type LanguageStructure = {
   description: string;
 };
   reasonOption: {
-  name: string;
-  description: string;
-};
-};
-}>;
-  purge: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  countOption: {
   name: string;
   description: string;
 };
@@ -1061,38 +1061,143 @@ export type LanguageStructure = {
   sentAgo: string;
 };
 }>;
-  roleEvents: Promise<{
-  roleCreated: {
+  serverActions: Promise<{
+  inviteCreate: {
+  title: string;
+  description_withInviter: string;
+  description_withoutInviter: string;
+  expires: string;
+  never: string;
+  maxUses: string;
+  none: string;
+};
+  inviteDelete: {
+  title: string;
+  description_withExecutor: string;
+  description_withoutExecutor: string;
+  used: string;
+  created: string;
+  none: string;
+};
+  emojiCreated: {
   title: string;
   description: string;
 };
-  roleDeleted: {
+  emojiDeleted: {
   title: string;
   description: string;
-  role: string;
-  linkToRoleIcon: string;
+  emoji: string;
 };
-  roleUpdated: {
+  emojiUpdated: {
   title: string;
   description: string;
 };
-  rolePermissionsUpdate: {
+  serverEventCreate: {
   title: string;
-  description: string;
-  newPermissions: string;
-  oldPermissions: string;
-  viewFullNewPermissions: string;
-  viewFullOldPermissions: string;
-  warning: string;
-  dangerousPermissions: string;
+  description_withChannel: string;
+  description_withoutChannel: string;
+  eventDescription: string;
+  location: string;
+  starts: string;
+  image: string;
 };
-  roleIconUpdate: {
+  serverEventDelete: {
   title: string;
   description: string;
-  description_added: string;
-  description_removed: string;
-  linkToOldIcon: string;
-  linkToNewIcon: string;
+  linkToEventImage: string;
+};
+  serverEventUpdate: {
+  title: string;
+  description: string;
+  newEventDescription: string;
+  newLocation: string;
+  newChannel: string;
+  linkToEventImage: string;
+  newImage: string;
+};
+  stickerCreated: {
+  title: string;
+  description: string;
+  stickerDescription: string;
+  stickerEmoji: string;
+};
+  stickerDeleted: {
+  title: string;
+  description: string;
+};
+  stickerUpdated: {
+  title: string;
+  description: string;
+};
+  soundboardSoundCreated: {
+  title: string;
+  description: string;
+  soundEmoji: string;
+  description_noexecutor: string;
+};
+  soundboardSoundDeleted: {
+  title: string;
+  description: string;
+};
+  soundboardSoundUpdated: {
+  title: string;
+  description: string;
+};
+  autoModerationRuleCreated: {
+  title: string;
+  exemptRoles: string;
+  exemptChannels: string;
+  conditions: string;
+  actions: string;
+  description_type: {
+  message_send: string;
+  member_update: string;
+};
+  description: string;
+  description_noexecutor: string;
+};
+  autoModerationRule: {
+  trigger: {
+  key: {
+  keyword_filter: string;
+  regex_patterns: string;
+  presets: string;
+  allow_list: string;
+  mention_total_limit: string;
+  mention_raid_protection_enabled: string;
+  spam: string;
+  keyword_preset: string;
+};
+  value: {
+  presets: {
+  "1": string;
+  "2": string;
+  "3": string;
+};
+};
+};
+  action: {
+  type: {
+  block_message: string;
+  send_alert_message: string;
+  timeout: string;
+  block_member_interaction: string;
+};
+};
+};
+  autoModerationRuleDeleted: {
+  title: string;
+  description: string;
+  conditions: string;
+  exemptRoles: string;
+  exemptChannels: string;
+  actions: string;
+  description_noexecutor: string;
+};
+  autoModerationRuleUpdated: {
+  title: string;
+  description: string;
+  description_noexecutor: string;
 };
 }>;
   serverEvents: Promise<{
@@ -1174,140 +1279,38 @@ export type LanguageStructure = {
   linkToNewAvatar: string;
 };
 }>;
-  serverActions: Promise<{
-  inviteCreate: {
-  title: string;
-  description_withInviter: string;
-  description_withoutInviter: string;
-  expires: string;
-  never: string;
-  maxUses: string;
-  none: string;
-};
-  inviteDelete: {
-  title: string;
-  description_withExecutor: string;
-  description_withoutExecutor: string;
-  used: string;
-  created: string;
-  none: string;
-};
-  emojiCreated: {
+  roleEvents: Promise<{
+  roleCreated: {
   title: string;
   description: string;
 };
-  emojiDeleted: {
+  roleDeleted: {
   title: string;
   description: string;
-  emoji: string;
+  role: string;
+  linkToRoleIcon: string;
 };
-  emojiUpdated: {
-  title: string;
-  description: string;
-};
-  serverEventCreate: {
-  title: string;
-  description_withChannel: string;
-  description_withoutChannel: string;
-  eventDescription: string;
-  location: string;
-  starts: string;
-  image: string;
-};
-  serverEventDelete: {
-  title: string;
-  description: string;
-  linkToEventImage: string;
-};
-  serverEventUpdate: {
-  title: string;
-  description: string;
-  newEventDescription: string;
-  newLocation: string;
-  newChannel: string;
-  linkToEventImage: string;
-  newImage: string;
-};
-  stickerCreated: {
-  title: string;
-  description: string;
-  stickerDescription: string;
-  stickerEmoji: string;
-};
-  stickerDeleted: {
+  roleUpdated: {
   title: string;
   description: string;
 };
-  stickerUpdated: {
+  rolePermissionsUpdate: {
   title: string;
   description: string;
+  newPermissions: string;
+  oldPermissions: string;
+  viewFullNewPermissions: string;
+  viewFullOldPermissions: string;
+  warning: string;
+  dangerousPermissions: string;
 };
-  soundboardSoundCreated: {
+  roleIconUpdate: {
   title: string;
   description: string;
-  soundEmoji: string;
-};
-  soundboardSoundDeleted: {
-  title: string;
-  description: string;
-};
-  soundboardSoundUpdated: {
-  title: string;
-  description: string;
-};
-  autoModerationRuleCreated: {
-  title: string;
-  exemptRoles: string;
-  exemptChannels: string;
-  conditions: string;
-  actions: string;
-  description_type: {
-  message_send: string;
-  member_update: string;
-};
-  description: string;
-};
-  autoModerationRule: {
-  trigger: {
-  key: {
-  keyword_filter: string;
-  regex_patterns: string;
-  presets: string;
-  allow_list: string;
-  mention_total_limit: string;
-  mention_raid_protection_enabled: string;
-  spam: string;
-  keyword_preset: string;
-};
-  value: {
-  presets: {
-  "1": string;
-  "2": string;
-  "3": string;
-};
-};
-};
-  action: {
-  type: {
-  block_message: string;
-  send_alert_message: string;
-  timeout: string;
-  block_member_interaction: string;
-};
-};
-};
-  autoModerationRuleDeleted: {
-  title: string;
-  description: string;
-  conditions: string;
-  exemptRoles: string;
-  exemptChannels: string;
-  actions: string;
-};
-  autoModerationRuleUpdated: {
-  title: string;
-  description: string;
-  description_noexecutor: string;
+  description_added: string;
+  description_removed: string;
+  linkToOldIcon: string;
+  linkToNewIcon: string;
 };
 }>;
   textEvents: Promise<{
@@ -1517,5 +1520,5 @@ export type LanguageStructure = {
 }>;
 };
 };
-export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "help" | "export" | "initialReactor" | "invite" | "kick" | "language" | "logging" | "mute" | "ping" | "premium" | "privacy" | "reason" | "serverlog" | "unban" | "purge" | "tags" | "unmute";
+export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "export" | "help" | "initialReactor" | "invite" | "kick" | "language" | "logging" | "mute" | "ping" | "premium" | "privacy" | "purge" | "reason" | "serverlog" | "unban" | "tags" | "unmute";
 export type QuarkLanguageCodes = "en_us" | "en_gb" | "tr" | "vi" | "en_pr" | "pl" | "nl" | "es_es" | "it" | "de" | "fr" | "ru" | "el" | "zh_hant" | "ko" | "sl" | "ar" | "hu" | "ja";
