@@ -69,7 +69,8 @@
     "soundboardSoundCreated": {
         "title": "サウンドボードサウンド追加",
         "description": "{sound}は{executor}によって追加されました",
-        "soundEmoji": "絵文字"
+        "soundEmoji": "絵文字",
+        "description_noexecutor": "{sound} was added"
     },
     "soundboardSoundDeleted": {
         "title": "Soundboard Sound Deleted",
