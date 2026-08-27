@@ -25,7 +25,8 @@
     "soundboardSoundCreated": {
         "description": "{sound} was added by {executor}",
         "title": "Soundboard Sound Added",
-        "soundEmoji": "Emoji"
+        "soundEmoji": "Emoji",
+        "description_noexecutor": "{sound} was added"
     },
     "inviteCreate": {
         "description_withInviter": "{inviter} created an invite {invite} for {channel}",
