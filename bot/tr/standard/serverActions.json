@@ -69,7 +69,8 @@
     "soundboardSoundCreated": {
         "title": "Ses Paneline Ekleme Yapıldı",
         "description": "{sound}, {executor} tarafından eklendi",
-        "soundEmoji": "Emoji"
+        "soundEmoji": "Emoji",
+        "description_noexecutor": "{sound} was added"
     },
     "soundboardSoundDeleted": {
         "title": "Ses Panelinden Silindi",
