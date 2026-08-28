@@ -70,17 +70,17 @@
         "title": "Soundboard Hang Hozzáadva",
         "description": "{sound} hozzá lett adva {executor} által",
         "soundEmoji": "Emoji",
-        "description_noexecutor": "{sound} was added"
+        "description_noexecutor": "{sound} hozzá lett adva"
     },
     "soundboardSoundDeleted": {
         "title": "Soundboard Hang Törölve",
         "description": "{sound} törölve lett {executor} által",
-        "description_noexecutor": "{sound} was deleted"
+        "description_noexecutor": "{sound} törölve lett"
     },
     "soundboardSoundUpdated": {
         "title": "Soundboard Hang Frissítve",
         "description": "{sound} frissítve lett {executor} által",
-        "description_noexecutor": "{sound} was updated"
+        "description_noexecutor": "{sound} frissítve lett"
     },
     "autoModerationRuleCreated": {
         "title": "Auto Moderációs Szabály Létrehozva",
@@ -89,11 +89,11 @@
         "conditions": "Kondicíók",
         "actions": "Műveletek",
         "description_type": {
-            "message_send": "messages",
-            "member_update": "member profiles"
+            "message_send": "üzenetek",
+            "member_update": "tagok profilja"
         },
-        "description": "{executor} created rule {name} for {type}",
-        "description_noexecutor": "Rule {name} was created for {type}"
+        "description": "{executor} létrehozta a(z) {name} szabályt {type} típussal",
+        "description_noexecutor": "Szabály {name} létre lett hozva {type} típussal"
     },
     "autoModerationRule": {
         "trigger": {
@@ -105,7 +105,7 @@
                 "mention_total_limit": "Maximális Említések",
                 "mention_raid_protection_enabled": "Automatikusan Észlelje a Említési Raid-eket",
                 "spam": "Spam",
-                "keyword_preset": "Flagged Words"
+                "keyword_preset": "Jelölt Szavak"
             },
             "value": {
                 "presets": {
@@ -117,25 +117,25 @@
         },
         "action": {
             "type": {
-                "block_message": "Block Message",
-                "send_alert_message": "Send Alert Message",
-                "timeout": "Timeout",
-                "block_member_interaction": "Block Member Interaction"
+                "block_message": "Üzenet Tiltása",
+                "send_alert_message": "Értesítő Üzenet Küldése",
+                "timeout": "Felfüggesztés",
+                "block_member_interaction": "Tag Interakció Tiltása"
             }
         }
     },
     "autoModerationRuleDeleted": {
-        "title": "Auto Moderation Rule Deleted",
-        "description": "{executor} deleted the rule {name}",
-        "conditions": "Conditions",
-        "exemptRoles": "Excluded Roles",
-        "exemptChannels": "Excluded Channels",
-        "actions": "Actions",
-        "description_noexecutor": "Rule {name} was deleted"
+        "title": "Auto Moderációs Szabály Törölve",
+        "description": "{executor} törölte ezt a szabályt {name}",
+        "conditions": "Kondíciók",
+        "exemptRoles": "Figyelmen Kívül Hagyot Rangok",
+        "exemptChannels": "Figyelmen Kívül Hagyot Csatornák",
+        "actions": "Műveletek",
+        "description_noexecutor": "Szabály {name} törölve lett"
     },
     "autoModerationRuleUpdated": {
-        "title": "Auto Moderation Rule Updated",
-        "description": "{executor} updated the rule {name}",
-        "description_noexecutor": "Rule {name} was updated"
+        "title": "Auto Moderációs Szabály Frissítve",
+        "description": "{executor} frissítette ezt a szabályt {name}",
+        "description_noexecutor": "Szabály {name} frissítve lett"
     }
 }
