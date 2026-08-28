@@ -154,7 +154,8 @@
         "emptyLiveHint": "Logs appear here the moment they happen. Leave this page open and watch your server live.",
         "emptyLiveBadge": "Live · nothing stored",
         "realtimeOnly": "realtime only",
-        "historyLocked": "Log history is a Quark Pro feature"
+        "historyLocked": "Log history is a Quark Pro feature.",
+        "historyLockedCta": "See what Pro adds"
     },
     "deliveryReason": {
         "local_rate_limit": "This channel is over Discord's rate limit",
