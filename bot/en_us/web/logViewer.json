@@ -194,7 +194,9 @@
     "applyRange": "Apply range",
     "clearRange": "Clear",
     "rangeTooEarly": "Only the last {window} is kept.",
-    "exporting": "Preparing CSV…"
+    "exporting": "Preparing CSV…",
+    "newEntry": "{count} new entry — jump to top",
+    "wallTitleOne": "That's the only entry from this session"
   },
   "deliveryReason": {
     "local_rate_limit": "This channel is over Discord's rate limit",
