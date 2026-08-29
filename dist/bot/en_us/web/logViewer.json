@@ -222,6 +222,7 @@
         "newEntry": "{count} new entry — jump to top",
         "noLogTypeMatches": "No log types match",
         "notDelivered": "Not delivered to Discord",
+        "offline": "Offline",
         "openInDiscord": "Open in Discord",
         "openLogMessage": "Open the log message",
         "paused": "Paused",
