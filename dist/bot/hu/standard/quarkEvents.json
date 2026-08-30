@@ -89,5 +89,8 @@
         "messageRetentionEdit": "A Quark 12 órán át tárolja az üzenetek tartalmát. A Quark Pro 30 napig tárolja azokat, így az ilyen jellegű szerkesztéseket az eredeti üzenettel együtt rögzíti.",
         "messageRetentionDelete": "A Quark 12 órán át tárolja az üzenetek tartalmát. A Quark Pro 30 napig tárolja azokat, ezért az ilyen törléseket a tartalmukkal együtt rögzítik.",
         "sentAgo": "Üzenet elküldve ekkor: {time}"
+    },
+    "dashboardAccessUpdate": {
+        "title": "Dashboard Access Changed"
     }
 }
