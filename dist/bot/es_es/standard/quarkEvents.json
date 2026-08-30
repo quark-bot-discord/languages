@@ -92,6 +92,7 @@
     },
     "dashboardAccessUpdate": {
         "title": "Dashboard Access Changed",
-        "description_created": "{executor} gave {subject} dashboard access: {capabilities}"
+        "description_created": "{executor} gave {subject} dashboard access: {capabilities}",
+        "description_updated": "{executor} changed {subject}'s dashboard access to: {capabilities}"
     }
 }
