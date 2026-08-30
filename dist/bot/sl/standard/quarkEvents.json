@@ -91,6 +91,7 @@
         "sentAgo": "Message sent {time}"
     },
     "dashboardAccessUpdate": {
-        "title": "Dashboard Access Changed"
+        "title": "Dashboard Access Changed",
+        "description_created": "{executor} gave {subject} dashboard access: {capabilities}"
     }
 }

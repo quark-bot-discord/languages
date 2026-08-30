@@ -382,13 +382,6 @@ export type LanguageStructure = {
   category_voice: string;
   main_channel: string;
 }>;
-  log_formats: Promise<{
-  "0": string;
-  "1": string;
-  "2": string;
-  "3": string;
-  "4": string;
-}>;
   permissions: Promise<{
   CREATE_INSTANT_INVITE: string;
   KICK_MEMBERS: string;
@@ -443,9 +436,19 @@ export type LanguageStructure = {
   MANAGE_EVENTS: string;
   MANAGE_GUILD_EXPRESSIONS: string;
 }>;
+  log_formats: Promise<{
+  "0": string;
+  "1": string;
+  "2": string;
+  "3": string;
+  "4": string;
+}>;
   role_update_types: Promise<{
   enabled: string;
   disabled: string;
+  none: string;
+}>;
+  soundboard_sound_update_types: Promise<{
   none: string;
 }>;
   sticker_update_types: Promise<{
@@ -475,9 +478,6 @@ export type LanguageStructure = {
   "tag-error-limitreached-1": string;
   "tag-createdby": string;
 }>;
-  soundboard_sound_update_types: Promise<{
-  none: string;
-}>;
   thread_update_types: Promise<{
   none: string;
 }>;
@@ -499,6 +499,10 @@ export type LanguageStructure = {
 }>;
 };
   slash_commands: {
+  commands: Promise<{
+  name: string;
+  description: string;
+}>;
   ban: Promise<{
   name: string;
   description: string;
@@ -516,10 +520,6 @@ export type LanguageStructure = {
   description: string;
 };
 };
-}>;
-  commands: Promise<{
-  name: string;
-  description: string;
 }>;
   config: Promise<{
   name: string;
@@ -600,6 +600,24 @@ export type LanguageStructure = {
   name: string;
   description: string;
 }>;
+  language: Promise<{
+  name: string;
+  description: string;
+  commandOptions: {
+  languageOption: {
+  name: string;
+  description: string;
+};
+};
+}>;
+  logging: Promise<{
+  name: string;
+  description: string;
+}>;
+  ping: Promise<{
+  name: string;
+  description: string;
+}>;
   kick: Promise<{
   name: string;
   description: string;
@@ -614,17 +632,11 @@ export type LanguageStructure = {
 };
 };
 }>;
-  language: Promise<{
+  premium: Promise<{
   name: string;
   description: string;
-  commandOptions: {
-  languageOption: {
-  name: string;
-  description: string;
-};
-};
 }>;
-  logging: Promise<{
+  privacy: Promise<{
   name: string;
   description: string;
 }>;
@@ -661,13 +673,19 @@ export type LanguageStructure = {
 };
 };
 }>;
-  ping: Promise<{
+  reason: Promise<{
   name: string;
   description: string;
-}>;
-  privacy: Promise<{
+  commandOptions: {
+  caseOption: {
   name: string;
   description: string;
+};
+  reasonOption: {
+  name: string;
+  description: string;
+};
+};
 }>;
   purge: Promise<{
   name: string;
@@ -678,10 +696,6 @@ export type LanguageStructure = {
   description: string;
 };
 };
-}>;
-  premium: Promise<{
-  name: string;
-  description: string;
 }>;
   serverlog: Promise<{
   name: string;
@@ -741,15 +755,11 @@ export type LanguageStructure = {
 };
 };
 }>;
-  reason: Promise<{
+  troubleshoot: Promise<{
   name: string;
   description: string;
   commandOptions: {
-  caseOption: {
-  name: string;
-  description: string;
-};
-  reasonOption: {
+  shareOption: {
   name: string;
   description: string;
 };
@@ -816,16 +826,6 @@ export type LanguageStructure = {
   description: string;
 };
   helpOption: {
-  name: string;
-  description: string;
-};
-};
-}>;
-  troubleshoot: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  shareOption: {
   name: string;
   description: string;
 };
@@ -1072,6 +1072,7 @@ export type LanguageStructure = {
 };
   dashboardAccessUpdate: {
   title: string;
+  description_created: string;
 };
 }>;
   roleEvents: Promise<{
@@ -1797,5 +1798,5 @@ export type LanguageStructure = {
 }>;
 };
 };
-export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "export" | "help" | "initialReactor" | "invite" | "kick" | "language" | "logging" | "mute" | "ping" | "privacy" | "purge" | "premium" | "serverlog" | "reason" | "tags" | "troubleshoot" | "unban" | "unmute";
+export type SlashCommandNames = "commands" | "ban" | "config" | "dashboard" | "debug" | "export" | "help" | "initialReactor" | "invite" | "language" | "logging" | "ping" | "kick" | "premium" | "privacy" | "mute" | "reason" | "purge" | "serverlog" | "troubleshoot" | "tags" | "unban" | "unmute";
 export type QuarkLanguageCodes = "en_us" | "en_gb" | "tr" | "vi" | "en_pr" | "pl" | "nl" | "es_es" | "it" | "de" | "fr" | "ru" | "el" | "zh_hant" | "ko" | "sl" | "ar" | "hu" | "ja";
