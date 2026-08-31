@@ -73,27 +73,27 @@
         "teaser_pro": "享受更長的訊息記錄時間（長達 4 週）、完全自訂的日誌、專業版機器人等等…🚀"
     },
     "proPromotion": {
-        "title": "Not logged in full",
-        "unknownAuthor": "Unknown",
-        "contentUnavailable": "content no longer cached",
-        "hiddenExecutor": "Hidden",
-        "messageRetention": "Quark keeps message content for 12 hours. Quark Pro keeps it for 30 days, so deletions and edits like this one are logged with their content.",
-        "voiceModeration": "Quark Pro shows which moderator server-muted or deafened a member.",
-        "cta": "See Quark Pro",
-        "alsoSuppressed": "{count} more were affected since this notice was last shown.",
-        "digestTitle": "Not logged in full today",
-        "digestMessageRetention": "{count} deleted or edited messages had no cached content.",
-        "digestVoiceModeration": "{count} server mutes or deafens had no moderator shown.",
-        "digestFooter": "Quark Pro keeps message content for 30 days and shows who muted or deafened a member.",
-        "upgradeToView": "Upgrade to Quark Pro to view",
-        "messageRetentionEdit": "Quark keeps message content for 12 hours. Quark Pro keeps it for 30 days, so edits like this one are logged with the original message.",
-        "messageRetentionDelete": "Quark keeps message content for 12 hours. Quark Pro keeps it for 30 days, so deletions like this one are logged with their content.",
-        "sentAgo": "Message sent {time}"
+        "title": "未完全記錄",
+        "unknownAuthor": "未知",
+        "contentUnavailable": "內容已清除快取",
+        "hiddenExecutor": "已隱藏",
+        "messageRetention": "Quark 會將訊息內容保留 12 小時。 Quark Pro 會保留 30 天，因此像這樣的刪除和編輯操作都會與其內容一起記錄下來。",
+        "voiceModeration": "Quark Pro 會顯示是哪個管理員會將某個成員從伺服器靜音或封鎖。",
+        "cta": "請參閱 Quark Pro",
+        "alsoSuppressed": "自上次顯示此通知以來，又有 {count} 人受到影響。",
+        "digestTitle": "今天未完全記錄",
+        "digestMessageRetention": "{count} 筆已刪除或編輯的訊息沒有快取內容。",
+        "digestVoiceModeration": "{count} 個伺服器靜音或封鎖操作未顯示管理員資訊。",
+        "digestFooter": "Quark Pro 會將訊息內容保留 30 天，並顯示是誰將成員靜音或封鎖。",
+        "upgradeToView": "升級到 Quark Pro 即可查看",
+        "messageRetentionEdit": "Quark 會將訊息內容保留 12 小時。 Quark Pro 會保留 30 天，因此像這樣的編輯會與原始訊息一起記錄下來。",
+        "messageRetentionDelete": "Quark 會將訊息內容保留 12 小時。 Quark Pro 會保留 30 天，因此像這樣的刪除操作會連同訊息內容一起被記錄下來。",
+        "sentAgo": "訊息已發送 {time}"
     },
     "dashboardAccessUpdate": {
-        "title": "Dashboard Access Changed",
-        "description_created": "{executor} gave {subject} dashboard access: {capabilities}",
-        "description_updated": "{executor} changed {subject}'s dashboard access to: {capabilities}",
-        "description_revoked": "{executor} removed {subject}'s dashboard access"
+        "title": "控制面板存取權限已更改",
+        "description_created": "執行人授予主體控制面板存取權限：{capbilities}",
+        "description_updated": "{executor} 將 {subject} 的控制面板存取權限變更為：{capabilities}",
+        "description_revoked": "{executor} 移除了 {subject} 的控制面板存取權限"
     }
 }
