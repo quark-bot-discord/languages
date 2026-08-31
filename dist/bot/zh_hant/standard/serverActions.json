@@ -70,72 +70,72 @@
         "title": "音效板音效已添加",
         "description": "{sound} 被 {executor} 所添加",
         "soundEmoji": "表情符號",
-        "description_noexecutor": "{sound} was added"
+        "description_noexecutor": "{sound} 已創建"
     },
     "soundboardSoundDeleted": {
         "title": "音效板音效已被刪除",
         "description": "{sound} 已被 {executor} 刪除",
-        "description_noexecutor": "{sound} was deleted"
+        "description_noexecutor": "{sound} 已刪除"
     },
     "soundboardSoundUpdated": {
         "title": "音效板音效已更新",
         "description": "{sound} 已被 {executor} 更改",
-        "description_noexecutor": "{sound} was updated"
+        "description_noexecutor": "{sound} 已更新"
     },
     "autoModerationRuleCreated": {
         "title": "自動審查規則已建立",
         "exemptRoles": "豁免的身份組",
         "exemptChannels": "豁免的頻道",
-        "conditions": "Conditions",
-        "actions": "Actions",
+        "conditions": "狀況",
+        "actions": "操作",
         "description_type": {
-            "message_send": "messages",
-            "member_update": "member profiles"
+            "message_send": "訊息",
+            "member_update": "成員個人資料"
         },
-        "description": "{executor} created rule {name} for {type}",
-        "description_noexecutor": "Rule {name} was created for {type}"
+        "description": "{executor} 創建了名為 {name} 的 {type} 規則",
+        "description_noexecutor": "{type} 類型的規則 {name} 已創建"
     },
     "autoModerationRule": {
         "trigger": {
             "key": {
-                "keyword_filter": "Disallowed Keywords",
-                "regex_patterns": "Disallowed Regex",
-                "presets": "Disallowed Keyword Categories",
-                "allow_list": "Allowed",
-                "mention_total_limit": "Maximum Mentions",
-                "mention_raid_protection_enabled": "Auto Detect Mention Raids",
-                "spam": "Spam",
-                "keyword_preset": "Flagged Words"
+                "keyword_filter": "禁用的關鍵字",
+                "regex_patterns": "禁用的正規表示式",
+                "presets": "禁用的關鍵字類別",
+                "allow_list": "已允許",
+                "mention_total_limit": "最高提及次數",
+                "mention_raid_protection_enabled": "自動偵測提及突襲",
+                "spam": "垃圾訊息",
+                "keyword_preset": "已標記的詞語"
             },
             "value": {
                 "presets": {
-                    "1": "Profanity",
-                    "2": "Sexual Content",
-                    "3": "Slurs"
+                    "1": "褻瀆",
+                    "2": "色情內容",
+                    "3": "侮辱"
                 }
             }
         },
         "action": {
             "type": {
-                "block_message": "Block Message",
-                "send_alert_message": "Send Alert Message",
-                "timeout": "Timeout",
-                "block_member_interaction": "Block Member Interaction"
+                "block_message": "封鎖訊息",
+                "send_alert_message": "發送提醒訊息",
+                "timeout": "禁言",
+                "block_member_interaction": "禁止的成員互動"
             }
         }
     },
     "autoModerationRuleDeleted": {
-        "title": "Auto Moderation Rule Deleted",
-        "description": "{executor} deleted the rule {name}",
-        "conditions": "Conditions",
-        "exemptRoles": "Excluded Roles",
-        "exemptChannels": "Excluded Channels",
-        "actions": "Actions",
-        "description_noexecutor": "Rule {name} was deleted"
+        "title": "自動審核規則已刪除",
+        "description": "{executor} 刪除了 {name} 規則",
+        "conditions": "狀況",
+        "exemptRoles": "豁免的身份組",
+        "exemptChannels": "豁免的頻道",
+        "actions": "操作",
+        "description_noexecutor": "規則 {name} 已被刪除"
     },
     "autoModerationRuleUpdated": {
-        "title": "Auto Moderation Rule Updated",
-        "description": "{executor} updated the rule {name}",
-        "description_noexecutor": "Rule {name} was updated"
+        "title": "自動審核規則已更新",
+        "description": "{executor} 更新了 {name} 規則",
+        "description_noexecutor": "{name} 規則已更新"
     }
 }
