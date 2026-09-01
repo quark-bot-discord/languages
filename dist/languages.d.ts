@@ -454,9 +454,6 @@ export type LanguageStructure = {
   sticker_update_types: Promise<{
   none: string;
 }>;
-  thread_update_types: Promise<{
-  none: string;
-}>;
   tags_responses: Promise<{
   "tags-help-description": string;
   "create-success": string;
@@ -480,6 +477,9 @@ export type LanguageStructure = {
   "tag-error-limitreached-0": string;
   "tag-error-limitreached-1": string;
   "tag-createdby": string;
+}>;
+  thread_update_types: Promise<{
+  none: string;
 }>;
   time: Promise<{
   second: string;
