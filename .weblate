@@ -1,2 +1,0 @@
-[weblate]
-source_flags = placeholders:r"\{[a-zA-Z0-9_\-]+\}"
