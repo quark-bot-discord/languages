@@ -93,5 +93,8 @@
     "threadUpdated": {
         "description": "{thread} módosítva lett {executor} által",
         "title": "Gondolatmenet Módosítva"
+    },
+    "reactionBundle": {
+        "title": "Multiple Reactions Removed"
     }
 }
