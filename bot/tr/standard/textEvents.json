@@ -93,5 +93,8 @@
     "threadUpdated": {
         "description": "{thread}, {executor} tarafından güncellendi",
         "title": "Alt Başlık Güncellendi"
+    },
+    "reactionBundle": {
+        "title": "Multiple Reactions Removed"
     }
 }
