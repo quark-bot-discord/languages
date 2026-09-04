@@ -93,5 +93,8 @@
     "threadUpdated": {
         "description": "{thread} was modified by {executor}",
         "title": "Thread Modified"
+    },
+    "reactionBundle": {
+        "title": "Multiple Reactions Removed"
     }
 }
