@@ -93,5 +93,8 @@
     "threadUpdated": {
         "description": "تم تعديل الثريد {thread} بواسطة {executor}",
         "title": "تم تعديل الثريد"
+    },
+    "reactionBundle": {
+        "title": "Multiple Reactions Removed"
     }
 }

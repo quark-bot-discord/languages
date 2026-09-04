@@ -93,5 +93,8 @@
     "threadUpdated": {
         "description": "{thread} は {executor} によって変更されました",
         "title": "スレッドが変更されました"
+    },
+    "reactionBundle": {
+        "title": "Multiple Reactions Removed"
     }
 }
