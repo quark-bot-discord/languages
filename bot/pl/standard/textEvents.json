@@ -93,5 +93,8 @@
     "threadUpdated": {
         "description": "{thread} został zmodifikowany przez {executor}",
         "title": "Wątek Zmodyfikowany"
+    },
+    "reactionBundle": {
+        "title": "Multiple Reactions Removed"
     }
 }
