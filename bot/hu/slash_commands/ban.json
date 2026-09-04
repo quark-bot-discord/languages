@@ -1,1 +1,18 @@
-{}
+{
+    "name": "ban",
+    "description": "Felhasználó kitiltása",
+    "commandOptions": {
+        "userOption": {
+            "name": "user",
+            "description": "A felhasználó akit kitiltasz"
+        },
+        "reasonOption": {
+            "name": "reason",
+            "description": "Az indok amiért kitiltottod a felhasználót"
+        },
+        "deleteMessageDaysOption": {
+            "name": "delete",
+            "description": "A napok száma amennyi törölve legyen a felhasználó üzeneteiből"
+        }
+    }
+}
