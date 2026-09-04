@@ -91,9 +91,9 @@
         "sentAgo": "Üzenet elküldve ekkor: {time}"
     },
     "dashboardAccessUpdate": {
-        "title": "Dashboard Access Changed",
-        "description_created": "{executor} gave {subject} dashboard access: {capabilities}",
-        "description_updated": "{executor} changed {subject}'s dashboard access to: {capabilities}",
-        "description_revoked": "{executor} removed {subject}'s dashboard access"
+        "title": "Kezelőfelület Hozzáférés Megváltozott",
+        "description_created": "{executor} adott {subject} kezelőfelülethez hozzáférést: {capabilities}",
+        "description_updated": "{executor} megváltoztatta {subject} nak/nek kezelőfelület hozzáférését erre: {capabilities}",
+        "description_revoked": "{executor} törölte  {subject} nak/nek kezelőfelület hozzáférését"
     }
 }
