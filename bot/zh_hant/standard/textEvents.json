@@ -93,5 +93,8 @@
         "embed": "已嵌入",
         "errorFile": "文件恢復出現問題。如果此問題持續發生，請在 Quark 的支援伺服器上告知我們。",
         "errorText": "建立文字檔案時出現問題，部分訊息可能會遺失。如果此問題持續發生，請在 Quark 支援伺服器上告知我們。"
+    },
+    "reactionBundle": {
+        "title": "Multiple Reactions Removed"
     }
 }
