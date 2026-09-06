@@ -94,6 +94,6 @@
         "title": "Kezelőfelület Hozzáférés Megváltozott",
         "description_created": "{executor} adott {subject} kezelőfelülethez hozzáférést: {capabilities}",
         "description_updated": "{executor} megváltoztatta {subject} nak/nek kezelőfelület hozzáférését erre: {capabilities}",
-        "description_revoked": "{executor} törölte  {subject} nak/nek kezelőfelület hozzáférését"
+        "description_revoked": "{executor} törölte {subject} nak/nek kezelőfelület hozzáférését"
     }
 }
