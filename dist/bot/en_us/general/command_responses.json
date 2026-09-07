@@ -35,7 +35,7 @@
     "error-434-1": "The start message and end message must belong to the same channel",
     "error-435-0": "Cooldown active",
     "error-435-1": "This command can only be used every 15 minutes",
-    "error-try-help-again": "Try running the help command again...",
+    "error-try-help-again": "Try running the help command again…",
     "error-no-modlog": "No modlog channel",
     "error-invalid-log": "Modlog case not found",
     "error-timeout-period-too-long-0": "Timeout period too long",
