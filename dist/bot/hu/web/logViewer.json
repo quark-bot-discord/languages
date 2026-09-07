@@ -114,5 +114,10 @@
         "76": "{subject} frissítette a logolási opciókat",
         "77": "{subject} frissítette a log típust",
         "78": "{subject} visszaállította a konfigurációt"
+    },
+    "ui": {
+        "clear": "törlés",
+        "clearAll": "Összes törlése",
+        "clearRange": "Törlés"
     }
 }
