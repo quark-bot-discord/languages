@@ -89,7 +89,8 @@
         "messageRetentionEdit": "Quark keeps message content for 12 hours. Quark Pro keeps it for 30 days, so edits like this one are logged with the original message.",
         "messageRetentionDelete": "Quark keeps message content for 12 hours. Quark Pro keeps it for 30 days, so deletions like this one are logged with their content.",
         "sentAgo": "Message sent {time}",
-        "messageAgeDelete": "This message was {age} old. Quark keeps content for 12 hours; Quark Pro keeps it for 30 days, so it would have been logged in full."
+        "messageAgeDelete": "This message was {age} old. Quark keeps content for 12 hours; Quark Pro keeps it for 30 days, so it would have been logged in full.",
+        "messageAgeEdit": "The original was {age} old. Quark keeps content for 12 hours; Quark Pro keeps it for 30 days, so it would have been logged."
     },
     "dashboardAccessUpdate": {
         "title": "Dashboard Access Changed",
