@@ -88,7 +88,9 @@
         "upgradeToView": "升級到 Quark Pro 即可查看",
         "messageRetentionEdit": "Quark 會將訊息內容保留 12 小時。 Quark Pro 會保留 30 天，因此像這樣的編輯會與原始訊息一起記錄下來。",
         "messageRetentionDelete": "Quark 會將訊息內容保留 12 小時。 Quark Pro 會保留 30 天，因此像這樣的刪除操作會連同訊息內容一起被記錄下來。",
-        "sentAgo": "訊息已發送 {time}"
+        "sentAgo": "訊息已發送 {time}",
+        "messageAgeDelete": "This message was {age} old. Quark keeps content for 12 hours; Quark Pro keeps it for 30 days, so it would have been logged in full.",
+        "messageAgeEdit": "The original was {age} old. Quark keeps content for 12 hours; Quark Pro keeps it for 30 days, so it would have been logged."
     },
     "dashboardAccessUpdate": {
         "title": "控制面板存取權限已更改",

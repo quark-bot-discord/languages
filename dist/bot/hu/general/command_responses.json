@@ -142,7 +142,7 @@
     "error-timeout-period-too-long-0": "A felfüggesztés ideje túl hosszú",
     "response-unmute": "Némitás feloldva",
     "setserverlog-check-permissions": "Kérjük, győződjön meg arról, hogy a Quark rendelkezik engedéllyel üzenetek küldésére ebben a csatornában, különben a csatorna beállítása megszűnik.",
-    "error-try-help-again": "Probáld újra futtatni a help parancsot...",
+    "error-try-help-again": "Probáld újra futtatni a help parancsot…",
     "target0-command": "target",
     "response-kick": "Kirúgva",
     "setserverlog-type-actions-1": "akciók",
