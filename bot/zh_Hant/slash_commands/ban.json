@@ -1,1 +1,18 @@
-{}
+{
+    "name": "停權",
+    "description": "停權一個用戶",
+    "commandOptions": {
+        "userOption": {
+            "name": "用戶",
+            "description": "停權的用戶"
+        },
+        "reasonOption": {
+            "name": "原因",
+            "description": "停權該成員的原因"
+        },
+        "deleteMessageDaysOption": {
+            "name": "刪除",
+            "description": "要刪除的用戶訊息天數"
+        }
+    }
+}
