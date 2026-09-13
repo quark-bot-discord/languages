@@ -1,1 +1,10 @@
-{}
+{
+    "summary": {
+        "0": "{subject} [在 #{channel} ]刪除了他們自己的附件",
+        "0_actor": "{executor} [在 #{channel}] 刪除了 {target} 的附件",
+        "0_passive": "{subject} [在 #{channel}] 的附件被刪除了",
+        "1": "{subject} 加入了伺服器",
+        "2": "{subject} 離開了伺服器",
+        "3": "{subject} [在 ${channel}] 刪除了 {count} 則訊息"
+    }
+}

@@ -35,7 +35,7 @@
     "error-434-1": "開始訊息和結尾訊息必須屬於同一個頻道",
     "error-435-0": "冷卻",
     "error-435-1": "該指令只能每隔15分鐘使用一次",
-    "error-try-help-again": "請嘗試重新使用help指令...",
+    "error-try-help-again": "請嘗試重新使用help指令…",
     "error-no-modlog": "沒有管理員日誌頻道",
     "error-invalid-log": "未發現管理員日誌案件",
     "error-timeout-period-too-long-0": "禁言時數過長",
