@@ -90,7 +90,8 @@
         "messageRetentionDelete": "Quark хранит содержимое сообщений в течение 12 часов. Quark Pro — в течение 30 дней, поэтому удаления, подобные этому, сохраняются в логах вместе с содержимым.",
         "sentAgo": "Message sent {time}",
         "messageAgeDelete": "This message was {age} old. Quark keeps content for 12 hours; Quark Pro keeps it for 30 days, so it would have been logged in full.",
-        "messageAgeEdit": "The original was {age} old. Quark keeps content for 12 hours; Quark Pro keeps it for 30 days, so it would have been logged."
+        "messageAgeEdit": "The original was {age} old. Quark keeps content for 12 hours; Quark Pro keeps it for 30 days, so it would have been logged.",
+        "optOutLink": "Turn off upsell logs"
     },
     "dashboardAccessUpdate": {
         "title": "Dashboard Access Changed",
