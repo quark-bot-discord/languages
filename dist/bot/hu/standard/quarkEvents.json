@@ -90,7 +90,8 @@
         "messageRetentionDelete": "A Quark 12 órán át tárolja az üzenetek tartalmát. A Quark Pro 30 napig tárolja azokat, ezért az ilyen törléseket a tartalmukkal együtt rögzítik.",
         "sentAgo": "Üzenet elküldve ekkor: {time}",
         "messageAgeDelete": "Ez az üzenet {age} régi volt. A Quark 12 óráig tartja a tartalmat; A Quark Pro pedig 30 napig tartja, így teljes egészében rögzítésre került volna.",
-        "messageAgeEdit": "Ez a hivatalos üzenet {age} régi volt. A Quark 12 óráig tartja a tartalmat; A Quark Pro pedig 30 napig tartja, így teljes egészében rögzítésre került volna."
+        "messageAgeEdit": "Ez a hivatalos üzenet {age} régi volt. A Quark 12 óráig tartja a tartalmat; A Quark Pro pedig 30 napig tartja, így teljes egészében rögzítésre került volna.",
+        "optOutLink": "Turn off upsell logs"
     },
     "dashboardAccessUpdate": {
         "title": "Kezelőfelület Hozzáférés Megváltozott",
