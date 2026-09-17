@@ -226,5 +226,6 @@
     "help-modify-tags-description": "如果想要創建或更改標籤，請訪問 [Quark's web dashboard]",
     "banButton-banning": "正在停權 {user} {inXSeconds}",
     "banButton-cancel": "取消",
-    "setserverlog-live-title": "Logging is on in {channel}"
+    "setserverlog-live-title": "Logging is on in {channel}",
+    "setserverlog-live-desc": "Quark will post here when messages are deleted or edited, members join or leave, roles and channels change, and moderators take action."
 }
