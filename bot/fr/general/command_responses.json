@@ -225,5 +225,6 @@
     "help-overview-help": "Aide",
     "help-modify-tags-description": "Pour créer et modifier des étiquettes, merci de visiter le [dashboard de Quark]",
     "banButton-banning": "Ban {user} {inXSeconds}",
-    "banButton-cancel": "Annuler"
+    "banButton-cancel": "Annuler",
+    "setserverlog-live-title": "Logging is on in {channel}"
 }
