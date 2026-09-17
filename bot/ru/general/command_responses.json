@@ -225,5 +225,6 @@
     "initialreactors-notfound": "Реакции не найдены",
     "help-modify-tags-description": "Для создания и редактирования тегов... [Веб-панель Quark]",
     "banButton-banning": "Бан {user} через {inXSeconds}",
-    "banButton-cancel": "Отмена"
+    "banButton-cancel": "Отмена",
+    "setserverlog-live-title": "Logging is on in {channel}"
 }
