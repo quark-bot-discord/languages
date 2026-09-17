@@ -225,5 +225,6 @@
     "error-401-1-type-3": "Nem tudom visszavoni a némítast a felhasználóról",
     "setserverlog-type-members-1": "tagok",
     "help-commands-help": "Parancsok Súgója",
-    "error-404-1": "Kérlek @említsd a felhasználót, másold be a IDját vagy írd be a felhasználónevét"
+    "error-404-1": "Kérlek @említsd a felhasználót, másold be a IDját vagy írd be a felhasználónevét",
+    "setserverlog-live-title": "Logging is on in {channel}"
 }
