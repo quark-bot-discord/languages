@@ -225,5 +225,6 @@
     "need-to-vote-footer": "Votes take up to a minute to be registered",
     "initialreactors-expired": "expired",
     "initialreactors-notfound": "No reactions found",
-    "banButton-banning": "Banning {user} {inXSeconds}"
+    "banButton-banning": "Banning {user} {inXSeconds}",
+    "setserverlog-live-title": "Logging is on in {channel}"
 }
