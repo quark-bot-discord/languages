@@ -225,5 +225,6 @@
     "initialreactors-notfound": "No reactions found",
     "help-modify-tags-description": "To create and edit tags, please visit [Quark's web dashboard]",
     "banButton-banning": "Banning {user} {inXSeconds}",
-    "banButton-cancel": "Cancel"
+    "banButton-cancel": "Cancel",
+    "setserverlog-live-title": "Logging is on in {channel}"
 }
