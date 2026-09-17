@@ -226,5 +226,6 @@
     "help-modify-tags-description": "Для создания и редактирования тегов... [Веб-панель Quark]",
     "banButton-banning": "Бан {user} через {inXSeconds}",
     "banButton-cancel": "Отмена",
-    "setserverlog-live-title": "Logging is on in {channel}"
+    "setserverlog-live-title": "Logging is on in {channel}",
+    "setserverlog-live-desc": "Quark will post here when messages are deleted or edited, members join or leave, roles and channels change, and moderators take action."
 }
