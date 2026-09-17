@@ -226,5 +226,6 @@
     "error-401-1-type-3": "I am unable to unmute that user",
     "help-commands-help": "Commands Help",
     "error-404-1": "Please @mention a user, paste their ID or type their username",
-    "setserverlog-live-title": "Logging is on in {channel}"
+    "setserverlog-live-title": "Logging is on in {channel}",
+    "setserverlog-live-desc": "Quark will post here when messages are deleted or edited, members join or leave, roles and channels change, and moderators take action."
 }
