@@ -230,5 +230,7 @@
     "help-modify-tags-description": "To create and edit tags, please visit [Quark's web dashboard]",
     "banButton-banning": "Banning {user} {inXSeconds}",
     "banButton-cancel": "Cancel",
-    "setserverlog-live-title": "Logging is on in {channel}"
+    "setserverlog-live-title": "Logging is on in {channel}",
+    "setserverlog-live-desc": "Quark will post here when messages are deleted or edited, members join or leave, roles and channels change, and moderators take action.",
+    "setserverlog-live-try": "**Try it now:** delete any message in this server and the log appears here within a second."
 }

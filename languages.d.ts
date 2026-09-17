@@ -29,9 +29,6 @@ export type LanguageStructure = {
   channel_update_types: Promise<{
   none: string;
 }>;
-  emoji_update_types: Promise<{
-  none: string;
-}>;
   command_responses: Promise<{
   disable: string;
   enable: string;
@@ -261,6 +258,11 @@ export type LanguageStructure = {
   "banButton-banning": string;
   "banButton-cancel": string;
   "setserverlog-live-title": string;
+  "setserverlog-live-desc": string;
+  "setserverlog-live-try": string;
+}>;
+  emoji_update_types: Promise<{
+  none: string;
 }>;
   gui_constants: Promise<{
   channelModificationTypes: {
@@ -444,15 +446,15 @@ export type LanguageStructure = {
   MANAGE_EVENTS: string;
   MANAGE_GUILD_EXPRESSIONS: string;
 }>;
-  soundboard_sound_update_types: Promise<{
-  none: string;
-}>;
   role_update_types: Promise<{
   enabled: string;
   disabled: string;
   none: string;
 }>;
   sticker_update_types: Promise<{
+  none: string;
+}>;
+  soundboard_sound_update_types: Promise<{
   none: string;
 }>;
   tags_responses: Promise<{
