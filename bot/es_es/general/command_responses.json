@@ -226,5 +226,6 @@
     "help-modify-tags-description": "Para crear y editar etiquetas, visite [el panel de control web de Quark]",
     "banButton-banning": "Prohibición de {user} {inXSeconds}",
     "banButton-cancel": "Cancelar",
-    "setserverlog-live-title": "Logging is on in {channel}"
+    "setserverlog-live-title": "Logging is on in {channel}",
+    "setserverlog-live-desc": "Quark will post here when messages are deleted or edited, members join or leave, roles and channels change, and moderators take action."
 }
