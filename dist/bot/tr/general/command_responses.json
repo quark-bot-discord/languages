@@ -225,5 +225,6 @@
     "initialreactors-notfound": "Tepki bulunamadı",
     "help-modify-tags-description": "Etiket oluşturmak ve düzenlemek için lütfen [Quark'ın Web Kontrol Panelini] ziyaret edin",
     "banButton-banning": "{user} kullanıcısı {inXSeconds} saniye içinde engellenecek",
-    "banButton-cancel": "İptal"
+    "banButton-cancel": "İptal",
+    "setserverlog-live-title": "Logging is on in {channel}"
 }

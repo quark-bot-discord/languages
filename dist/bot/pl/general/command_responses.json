@@ -225,5 +225,6 @@
     "setserverlog-type-quark-1": "Wydarzenia Quark",
     "help-modify-tags-description": "Aby tworzyć i edytować tagi, proszę odwiedź [Quark's web dashboard]",
     "banButton-banning": "Banowanie {user} {inXSeconds}",
-    "banButton-cancel": "Anuluj"
+    "banButton-cancel": "Anuluj",
+    "setserverlog-live-title": "Logging is on in {channel}"
 }

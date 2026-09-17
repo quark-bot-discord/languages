@@ -225,5 +225,6 @@
     },
     "help-modify-tags-description": "لإنشاء وتعديل التاغ (Tags)، يرجى زيارة [لوحة تحكم Quark على الويب]",
     "banButton-banning": "جاري حظر {user} {inXSeconds}",
-    "banButton-cancel": "إلغاء"
+    "banButton-cancel": "إلغاء",
+    "setserverlog-live-title": "Logging is on in {channel}"
 }

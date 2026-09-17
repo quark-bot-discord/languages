@@ -225,5 +225,6 @@
     },
     "help-modify-tags-description": "タグの作成や編集は、[Quark の Webダッシュボード] から行えます。",
     "banButton-banning": "{user} を {inXSeconds} 後にBANします",
-    "banButton-cancel": "キャンセル"
+    "banButton-cancel": "キャンセル",
+    "setserverlog-live-title": "Logging is on in {channel}"
 }

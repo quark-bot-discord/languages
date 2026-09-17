@@ -225,5 +225,6 @@
     "error-401-1-type-3": "I am unable to unmute that user",
     "setserverlog-type-members-1": "members",
     "help-commands-help": "Commands Help",
-    "error-404-1": "Please @mention a user, paste their ID or type their username"
+    "error-404-1": "Please @mention a user, paste their ID or type their username",
+    "setserverlog-live-title": "Logging is on in {channel}"
 }

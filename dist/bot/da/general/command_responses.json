@@ -225,5 +225,6 @@
     "initialreactors-expired": "expired",
     "initialreactors-notfound": "No reactions found",
     "need-to-vote-footer": "Votes take up to a minute to be registered",
-    "need-to-vote": "Click here to vote"
+    "need-to-vote": "Click here to vote",
+    "setserverlog-live-title": "Logging is on in {channel}"
 }
