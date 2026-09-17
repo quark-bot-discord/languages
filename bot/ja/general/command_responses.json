@@ -227,5 +227,6 @@
     "banButton-banning": "{user} を {inXSeconds} 後にBANします",
     "banButton-cancel": "キャンセル",
     "setserverlog-live-title": "Logging is on in {channel}",
-    "setserverlog-live-desc": "Quark will post here when messages are deleted or edited, members join or leave, roles and channels change, and moderators take action."
+    "setserverlog-live-desc": "Quark will post here when messages are deleted or edited, members join or leave, roles and channels change, and moderators take action.",
+    "setserverlog-live-try": "**Try it now:** delete any message in this server and the log appears here within a second."
 }
