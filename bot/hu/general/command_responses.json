@@ -226,5 +226,6 @@
     "setserverlog-type-members-1": "tagok",
     "help-commands-help": "Parancsok Súgója",
     "error-404-1": "Kérlek @említsd a felhasználót, másold be a IDját vagy írd be a felhasználónevét",
-    "setserverlog-live-title": "Logging is on in {channel}"
+    "setserverlog-live-title": "Logging is on in {channel}",
+    "setserverlog-live-desc": "Quark will post here when messages are deleted or edited, members join or leave, roles and channels change, and moderators take action."
 }
