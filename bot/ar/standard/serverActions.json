@@ -83,14 +83,14 @@
         "description_noexecutor": "{sound} was updated"
     },
     "autoModerationRuleCreated": {
-        "title": "Auto Moderation Rule Created",
-        "exemptRoles": "Excluded Roles",
-        "exemptChannels": "Excluded Channels",
-        "conditions": "Conditions",
-        "actions": "Actions",
+        "title": "تم إنشاء قاعدة الإشراف",
+        "exemptRoles": "الأدوار المستبعدة",
+        "exemptChannels": "القنوات المستبعدة",
+        "conditions": "الشروط",
+        "actions": "الإجراءات",
         "description_type": {
-            "message_send": "messages",
-            "member_update": "member profiles"
+            "message_send": "رسائل",
+            "member_update": "ملفات الأعضاء"
         },
         "description": "{executor} created rule {name} for {type}",
         "description_noexecutor": "Rule {name} was created for {type}"
@@ -98,19 +98,19 @@
     "autoModerationRule": {
         "trigger": {
             "key": {
-                "keyword_filter": "Disallowed Keywords",
-                "regex_patterns": "Disallowed Regex",
-                "presets": "Disallowed Keyword Categories",
-                "allow_list": "Allowed",
-                "mention_total_limit": "Maximum Mentions",
-                "mention_raid_protection_enabled": "Auto Detect Mention Raids",
+                "keyword_filter": "الكلمات المحظورة",
+                "regex_patterns": "التعبير المنمطي المحظور",
+                "presets": "فئات الكلمات الممنوعة",
+                "allow_list": "مسموح",
+                "mention_total_limit": "أقصى عدد للإشارات",
+                "mention_raid_protection_enabled": "اكتشاف هجمات الإشارات التلقائي",
                 "spam": "Spam",
                 "keyword_preset": "Flagged Words"
             },
             "value": {
                 "presets": {
-                    "1": "Profanity",
-                    "2": "Sexual Content",
+                    "1": "كلام قبيح",
+                    "2": "محتوى إباحي",
                     "3": "Slurs"
                 }
             }
