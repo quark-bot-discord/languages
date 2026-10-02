@@ -95,7 +95,8 @@
         "optOut": "Nem érdekel? {link}",
         "retainedMessage": "Message kept for {age} by {plan}",
         "retainedFiles": "Files kept for {age} by {plan}",
-        "retainedOriginal": "Original kept for {age} by {plan}"
+        "retainedOriginal": "Original kept for {age} by {plan}",
+        "executorShown": "Moderator shown by {plan}"
     },
     "dashboardAccessUpdate": {
         "title": "Kezelőfelület Hozzáférés Megváltozott",
