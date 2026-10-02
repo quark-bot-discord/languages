@@ -92,7 +92,8 @@
         "messageAgeDelete": "Ez az üzenet {age} régi volt. A Quark 12 óráig tartja a tartalmat; A Quark Pro pedig 30 napig tartja, így teljes egészében rögzítésre került volna.",
         "messageAgeEdit": "Ez a hivatalos üzenet {age} régi volt. A Quark 12 óráig tartja a tartalmat; A Quark Pro pedig 30 napig tartja, így teljes egészében rögzítésre került volna.",
         "optOutLink": "Promóció kikapcsolása",
-        "optOut": "Nem érdekel? {link}"
+        "optOut": "Nem érdekel? {link}",
+        "retainedMessage": "Message kept for {age} by {plan}"
     },
     "dashboardAccessUpdate": {
         "title": "Kezelőfelület Hozzáférés Megváltozott",
