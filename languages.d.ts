@@ -29,9 +29,6 @@ export type LanguageStructure = {
   channel_update_types: Promise<{
   none: string;
 }>;
-  emoji_update_types: Promise<{
-  none: string;
-}>;
   command_responses: Promise<{
   disable: string;
   enable: string;
@@ -268,46 +265,8 @@ export type LanguageStructure = {
   "setserverlog-live-support": string;
   "setserverlog-live-status": string;
 }>;
-  guild_update_types: Promise<{
+  emoji_update_types: Promise<{
   none: string;
-  verification_level: {
-  "0": string;
-  "1": string;
-  "2": string;
-  "3": string;
-  "4": string;
-};
-  default_message_notifications: {
-  "0": string;
-  "1": string;
-};
-  explicit_content_filter: {
-  "0": string;
-  "1": string;
-  "2": string;
-};
-  nsfw_level: {
-  "0": string;
-  "1": string;
-  "2": string;
-  "3": string;
-};
-  premium_progress_bar_enabled: {
-  true: string;
-  false: string;
-};
-}>;
-  ignore_options: Promise<{
-  ignoreTargets: string;
-  ignoreExecutors: string;
-  specificMessageContent: string;
-  ignoreChannels: string;
-  ignoreBotExecutors: string;
-  ignoreBotTargets: string;
-  ignoreExecutorRoles: string;
-  ignoreTargetRoles: string;
-  ignoreCategories: string;
-  activeIgnore: string;
 }>;
   gui_constants: Promise<{
   channelModificationTypes: {
@@ -364,6 +323,47 @@ export type LanguageStructure = {
   volume: string;
   emoji: string;
 };
+}>;
+  guild_update_types: Promise<{
+  none: string;
+  verification_level: {
+  "0": string;
+  "1": string;
+  "2": string;
+  "3": string;
+  "4": string;
+};
+  default_message_notifications: {
+  "0": string;
+  "1": string;
+};
+  explicit_content_filter: {
+  "0": string;
+  "1": string;
+  "2": string;
+};
+  nsfw_level: {
+  "0": string;
+  "1": string;
+  "2": string;
+  "3": string;
+};
+  premium_progress_bar_enabled: {
+  true: string;
+  false: string;
+};
+}>;
+  ignore_options: Promise<{
+  ignoreTargets: string;
+  ignoreExecutors: string;
+  specificMessageContent: string;
+  ignoreChannels: string;
+  ignoreBotExecutors: string;
+  ignoreBotTargets: string;
+  ignoreExecutorRoles: string;
+  ignoreTargetRoles: string;
+  ignoreCategories: string;
+  activeIgnore: string;
 }>;
   log_categories: Promise<{
   serverEvents: string;
@@ -485,9 +485,6 @@ export type LanguageStructure = {
   "tag-error-limitreached-1": string;
   "tag-createdby": string;
 }>;
-  thread_update_types: Promise<{
-  none: string;
-}>;
   time: Promise<{
   second: string;
   "second-plural": string;
@@ -503,6 +500,9 @@ export type LanguageStructure = {
   "month-plural": string;
   year: string;
   "year-plural": string;
+}>;
+  thread_update_types: Promise<{
+  none: string;
 }>;
 };
   slash_commands: {
@@ -528,6 +528,10 @@ export type LanguageStructure = {
   name: string;
   description: string;
 }>;
+  dashboard: Promise<{
+  name: string;
+  description: string;
+}>;
   config: Promise<{
   name: string;
   description: string;
@@ -545,10 +549,6 @@ export type LanguageStructure = {
 };
 };
 };
-}>;
-  dashboard: Promise<{
-  name: string;
-  description: string;
 }>;
   debug: Promise<{
   name: string;
@@ -1087,6 +1087,7 @@ export type LanguageStructure = {
   retainedMessage: string;
   retainedFiles: string;
   retainedOriginal: string;
+  executorShown: string;
 };
   dashboardAccessUpdate: {
   title: string;
@@ -1821,5 +1822,5 @@ export type LanguageStructure = {
 }>;
 };
 };
-export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "export" | "help" | "initialReactor" | "invite" | "kick" | "language" | "logging" | "mute" | "ping" | "premium" | "privacy" | "purge" | "reason" | "serverlog" | "tags" | "troubleshoot" | "unban" | "unmute" | "vote";
+export type SlashCommandNames = "ban" | "commands" | "dashboard" | "config" | "debug" | "export" | "help" | "initialReactor" | "invite" | "kick" | "language" | "logging" | "mute" | "ping" | "premium" | "privacy" | "purge" | "reason" | "serverlog" | "tags" | "troubleshoot" | "unban" | "unmute" | "vote";
 export type QuarkLanguageCodes = "en_us" | "en_gb" | "tr" | "vi" | "en_pr" | "pl" | "nl" | "es_es" | "it" | "de" | "fr" | "ru" | "el" | "zh_hant" | "ko" | "sl" | "ar" | "hu" | "ja";
