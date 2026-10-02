@@ -396,6 +396,11 @@ export type LanguageStructure = {
   "3": string;
   "4": string;
 }>;
+  role_update_types: Promise<{
+  enabled: string;
+  disabled: string;
+  none: string;
+}>;
   permissions: Promise<{
   CREATE_INSTANT_INVITE: string;
   KICK_MEMBERS: string;
@@ -449,11 +454,6 @@ export type LanguageStructure = {
   BYPASS_SLOWMODE: string;
   MANAGE_EVENTS: string;
   MANAGE_GUILD_EXPRESSIONS: string;
-}>;
-  role_update_types: Promise<{
-  enabled: string;
-  disabled: string;
-  none: string;
 }>;
   soundboard_sound_update_types: Promise<{
   none: string;
@@ -1084,6 +1084,7 @@ export type LanguageStructure = {
   messageAgeEdit: string;
   optOutLink: string;
   optOut: string;
+  retainedMessage: string;
 };
   dashboardAccessUpdate: {
   title: string;
