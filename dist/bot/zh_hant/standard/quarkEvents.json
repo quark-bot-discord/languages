@@ -93,7 +93,9 @@
         "messageAgeEdit": "The original was {age} old. Quark keeps content for 12 hours; Quark Pro keeps it for 30 days, so it would have been logged.",
         "optOutLink": "Turn off upsell logs",
         "optOut": "Not interested? {link}",
-        "retainedMessage": "Message kept for {age} by {plan}"
+        "retainedMessage": "Message kept for {age} by {plan}",
+        "retainedFiles": "Files kept for {age} by {plan}",
+        "retainedOriginal": "Original kept for {age} by {plan}"
     },
     "dashboardAccessUpdate": {
         "title": "控制面板存取權限已更改",
