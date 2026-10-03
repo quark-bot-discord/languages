@@ -6,7 +6,8 @@
         "description": "{executor} 將 {option} 設為 {state}",
         "buttons": "按鈕",
         "formatType": "格式類型",
-        "modlogLockAfter": "Modlog reason editing"
+        "modlogLockAfter": "Modlog reason editing",
+        "modlogLockAfterAlways": "Always editable"
     },
     "serverlogLogUpdate": {
         "activeIgnore": "啟用忽略",
