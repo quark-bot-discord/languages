@@ -33,7 +33,8 @@
         "description": "{user} hat den Kanal {channel} verlassen",
         "joined": "Beigetreten",
         "joinedValue": "{relative} für {relative_fixed}",
-        "channels": "Channels"
+        "channels": "Channels",
+        "channelDuration": "{channel} for {duration}"
     },
     "voiceDisconnect": {
         "title": "Verbindung getrennt",
