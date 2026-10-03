@@ -12,7 +12,8 @@
         "spoilers": "ネタバレ",
         "buttons": "ボタン",
         "formatType": "フォーマットタイプ",
-        "modlogLockAfter": "Modlog reason editing"
+        "modlogLockAfter": "Modlog reason editing",
+        "modlogLockAfterAlways": "Always editable"
     },
     "serverlogLogUpdate": {
         "title": "ログが更新されました",
