@@ -19,5 +19,6 @@
     "editReason": "Nedeni Düzenle",
     "usingBot": "using {bot}",
     "lock": "Lock",
-    "unlock": "Unlock"
+    "unlock": "Unlock",
+    "history": "History"
 }
