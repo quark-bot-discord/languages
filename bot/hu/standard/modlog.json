@@ -19,5 +19,6 @@
     "kick": "Kirúgás",
     "usingBot": "using {bot}",
     "lock": "Lock",
-    "unlock": "Unlock"
+    "unlock": "Unlock",
+    "history": "History"
 }
