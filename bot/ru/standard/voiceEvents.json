@@ -23,7 +23,8 @@
     },
     "voiceSwitch": {
         "title": "Смена канала",
-        "description": "{user} перешел из {channel_old} в {channel_new}"
+        "description": "{user} перешел из {channel_old} в {channel_new}",
+        "timeInPrevious": "Time in {channel}"
     },
     "voiceMove": {
         "title": "Перемещен",
