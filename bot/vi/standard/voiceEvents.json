@@ -17,7 +17,8 @@
     },
     "voiceSwitch": {
         "title": "Thay đổi Kênh",
-        "description": "{user} chuyển từ kênh thoại {channel_old} sang kênh thoại {channel_new}"
+        "description": "{user} chuyển từ kênh thoại {channel_old} sang kênh thoại {channel_new}",
+        "timeInPrevious": "Time in {channel}"
     },
     "voiceMove": {
         "title": "Di chuyển",
