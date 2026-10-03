@@ -17,5 +17,6 @@
         "placeholder": "Rất tệ >:(",
         "title": "Sửa đổi lý do modlog"
     },
-    "usingBot": "using {bot}"
+    "usingBot": "using {bot}",
+    "lock": "Lock"
 }
