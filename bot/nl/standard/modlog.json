@@ -20,5 +20,6 @@
     "usingBot": "using {bot}",
     "lock": "Lock",
     "unlock": "Unlock",
-    "history": "History"
+    "history": "History",
+    "editedBy": "Edited by {user} {time}"
 }
