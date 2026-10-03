@@ -18,5 +18,6 @@
         "title": "Verändere Mod-Log Grund"
     },
     "usingBot": "using {bot}",
-    "lock": "Lock"
+    "lock": "Lock",
+    "unlock": "Unlock"
 }
