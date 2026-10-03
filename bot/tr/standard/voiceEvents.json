@@ -32,7 +32,8 @@
         "title": "Kanaldan Ayrıldı",
         "description": "{user}, {channel} ses kanalından ayrıldı",
         "joined": "Katıldı",
-        "joinedValue": "{relative} süre önce katıldı ve {relative_fixed} süre kanalda kaldı"
+        "joinedValue": "{relative} süre önce katıldı ve {relative_fixed} süre kanalda kaldı",
+        "channels": "Channels"
     },
     "voiceDisconnect": {
         "title": "Bağlantı kesildi",
