@@ -29,7 +29,8 @@
     "voiceMove": {
         "title": "Перемещен",
         "description": "{user} перемещен из {channel_old} в {channel_new}",
-        "movedBy": "Переместил"
+        "movedBy": "Переместил",
+        "timeInPrevious": "Time in {channel}"
     },
     "stageSpeakerInvited": {
         "title": "Приглашение спикера",
