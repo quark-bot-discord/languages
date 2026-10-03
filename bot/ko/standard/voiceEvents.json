@@ -23,7 +23,8 @@
     "voiceMove": {
         "title": "Moved",
         "description": "{user} was moved from the {channel_old} voice channel to the {channel_new} voice channel",
-        "movedBy": "Moved by"
+        "movedBy": "Moved by",
+        "timeInPrevious": "Time in {channel}"
     },
     "voiceJoin": {
         "title": "Joined Channel",
