@@ -19,5 +19,6 @@
     "unmute": "Timeout Removed",
     "usingBot": "using {bot}",
     "lock": "Lock",
-    "unlock": "Unlock"
+    "unlock": "Unlock",
+    "history": "History"
 }
