@@ -7,7 +7,8 @@
         "description": "{executor} beállította a {option} erre {state}",
         "pluralkitSupport": "PluralKit Támogatást",
         "modlogLockAfter": "Modlog reason editing",
-        "modlogLockAfterAlways": "Always editable"
+        "modlogLockAfterAlways": "Always editable",
+        "modlogLockAfterNever": "Never editable"
     },
     "serverlogChannelUpdate": {
         "description_set": "{executor} beállította a(z) {type} logolási csatornát {channel} csatornára",
