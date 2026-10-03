@@ -17,7 +17,8 @@
     },
     "voiceSwitch": {
         "title": "Changed Cabin",
-        "description": "{user} went from th' {channel_old} cabin to th' {channel_new} cabin"
+        "description": "{user} went from th' {channel_old} cabin to th' {channel_new} cabin",
+        "timeInPrevious": "Time in {channel}"
     },
     "voiceMove": {
         "title": "Ordered T' Move",
