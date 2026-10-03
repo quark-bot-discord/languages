@@ -26,5 +26,7 @@
     "lockedManual": "This modlog is locked.",
     "lockedDisabled": "Modlog reasons can't be edited on this server.",
     "lockedExpired": "This modlog locked {time} and its reason can no longer be edited.",
-    "historyTitle": "Modlog history"
+    "historyTitle": "Modlog history",
+    "historyEdited": "{time} {user} edited the reason",
+    "historyLocked": "{time} {user} locked this modlog"
 }
