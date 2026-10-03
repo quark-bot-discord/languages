@@ -29,7 +29,8 @@
         "description": "{user} 離開了語音頻道 {channel}",
         "joined": "加入了",
         "joinedValue": "{relative} 用於 {relative_fixed}",
-        "channels": "Channels"
+        "channels": "Channels",
+        "channelDuration": "{channel} for {duration}"
     },
     "voiceDisconnect": {
         "title": "斷開了連接",
