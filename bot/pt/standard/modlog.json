@@ -16,5 +16,6 @@
     "mute": "Timeout",
     "editReason": "Edit Reason",
     "unban": "Unban",
-    "unmute": "Timeout Removed"
+    "unmute": "Timeout Removed",
+    "usingBot": "using {bot}"
 }
