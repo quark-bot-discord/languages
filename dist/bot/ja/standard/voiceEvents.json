@@ -23,7 +23,8 @@
     "voiceMove": {
         "title": "移動しました",
         "description": "{user} は {channel_old} ボイスチャンネルから {channel_new} ボイスチャンネルへ移動させられました",
-        "movedBy": "移動者"
+        "movedBy": "移動者",
+        "timeInPrevious": "Time in {channel}"
     },
     "voiceJoin": {
         "title": "チャンネルに参加しました",

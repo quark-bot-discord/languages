@@ -19,7 +19,8 @@
     "voiceMove": {
         "title": "移動了",
         "description": "使用者 {user} 已從 {channel_old} 語音頻道移至 {channel_new} 語音頻道",
-        "movedBy": "移動者"
+        "movedBy": "移動者",
+        "timeInPrevious": "Time in {channel}"
     },
     "voiceJoin": {
         "title": "加入了頻道",

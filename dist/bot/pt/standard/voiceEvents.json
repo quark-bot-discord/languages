@@ -102,7 +102,8 @@
     "voiceMove": {
         "title": "Moved",
         "movedBy": "Moved by",
-        "description": "{user} was moved from the {channel_old} voice channel to the {channel_new} voice channel"
+        "description": "{user} was moved from the {channel_old} voice channel to the {channel_new} voice channel",
+        "timeInPrevious": "Time in {channel}"
     },
     "stageSpeakerRemove": {
         "description": "{user} is no longer a speaker in the {channel} stage channel",

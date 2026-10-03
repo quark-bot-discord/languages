@@ -23,7 +23,8 @@
     "voiceMove": {
         "title": "Przeniesienie z Kanału Głosowego",
         "description": "{user} został przeniesiony z kanału głosowego {channel_old} na kanał głosowy {channel_new}",
-        "movedBy": "Przeniesiony przez"
+        "movedBy": "Przeniesiony przez",
+        "timeInPrevious": "Time in {channel}"
     },
     "voiceJoin": {
         "title": "Dołączenie do Kanału Głosowego",

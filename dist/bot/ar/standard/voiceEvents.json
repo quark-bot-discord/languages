@@ -102,7 +102,8 @@
     "voiceMove": {
         "title": "تم نقله",
         "movedBy": "تم نقله بواسطة",
-        "description": "تم نقل {user} من قناة الصوت {channel_old} إلى {channel_new}"
+        "description": "تم نقل {user} من قناة الصوت {channel_old} إلى {channel_new}",
+        "timeInPrevious": "Time in {channel}"
     },
     "stageSpeakerRemove": {
         "description": "لم يعد {user} متحدثًا في قناة الستيج {channel}",
