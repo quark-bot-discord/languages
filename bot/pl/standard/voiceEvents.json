@@ -17,7 +17,8 @@
     },
     "voiceSwitch": {
         "title": "Zmiana Kanału Głosowego",
-        "description": "{user} przeszedł z kanału głosowego {channel_old} na kanał {channel_new}"
+        "description": "{user} przeszedł z kanału głosowego {channel_old} na kanał {channel_new}",
+        "timeInPrevious": "Time in {channel}"
     },
     "voiceMove": {
         "title": "Przeniesienie z Kanału Głosowego",
