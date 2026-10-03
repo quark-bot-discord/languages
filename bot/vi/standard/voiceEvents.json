@@ -23,7 +23,8 @@
     "voiceMove": {
         "title": "Di chuyển",
         "description": "{user} đã được di chuyển từ kênh thoại {channel_old} sang kênh thoại {channel_new}",
-        "movedBy": "Di chuyển bởi"
+        "movedBy": "Di chuyển bởi",
+        "timeInPrevious": "Time in {channel}"
     },
     "voiceJoin": {
         "title": "Tham gia Kênh",
