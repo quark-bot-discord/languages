@@ -18,5 +18,7 @@
     "reason": "Indok",
     "kick": "Kirúgás",
     "usingBot": "using {bot}",
-    "lock": "Lock"
+    "lock": "Lock",
+    "unlock": "Unlock",
+    "history": "History"
 }

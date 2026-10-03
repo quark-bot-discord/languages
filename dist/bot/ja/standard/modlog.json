@@ -18,5 +18,7 @@
         "title": "モデレーションログ の理由を変更"
     },
     "usingBot": "using {bot}",
-    "lock": "Lock"
+    "lock": "Lock",
+    "unlock": "Unlock",
+    "history": "History"
 }

@@ -18,5 +18,7 @@
     "unban": "Unban",
     "unmute": "Timeout Removed",
     "usingBot": "using {bot}",
-    "lock": "Lock"
+    "lock": "Lock",
+    "unlock": "Unlock",
+    "history": "History"
 }

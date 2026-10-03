@@ -18,5 +18,7 @@
         "title": "Modifie la raison du log de modération"
     },
     "usingBot": "using {bot}",
-    "lock": "Lock"
+    "lock": "Lock",
+    "unlock": "Unlock",
+    "history": "History"
 }

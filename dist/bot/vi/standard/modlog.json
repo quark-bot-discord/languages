@@ -18,5 +18,7 @@
         "title": "Sửa đổi lý do modlog"
     },
     "usingBot": "using {bot}",
-    "lock": "Lock"
+    "lock": "Lock",
+    "unlock": "Unlock",
+    "history": "History"
 }

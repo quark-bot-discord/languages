@@ -18,5 +18,7 @@
         "title": "Reden modlog wijzigen"
     },
     "usingBot": "using {bot}",
-    "lock": "Lock"
+    "lock": "Lock",
+    "unlock": "Unlock",
+    "history": "History"
 }

@@ -18,5 +18,7 @@
     "unban": "رفع الحظر",
     "unmute": "إزالة تايم آوت",
     "usingBot": "using {bot}",
-    "lock": "Lock"
+    "lock": "Lock",
+    "unlock": "Unlock",
+    "history": "History"
 }

@@ -18,5 +18,7 @@
         "title": "Zmodyfikuj powód w modlogu"
     },
     "usingBot": "using {bot}",
-    "lock": "Lock"
+    "lock": "Lock",
+    "unlock": "Unlock",
+    "history": "History"
 }
