@@ -11,7 +11,8 @@
         "pluralkitSupport": "Поддержка PluralKit",
         "spoilers": "Спойлеры",
         "buttons": "Кнопки",
-        "formatType": "Тип форматирования"
+        "formatType": "Тип форматирования",
+        "modlogLockAfter": "Modlog reason editing"
     },
     "serverlogLogUpdate": {
         "title": "Лог обновлён",
