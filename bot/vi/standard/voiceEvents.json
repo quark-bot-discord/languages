@@ -32,7 +32,8 @@
         "title": "Rời khỏi Kênh",
         "description": "{user} đã rời khỏi kênh thoại {channel}",
         "joined": "Tham gia",
-        "joinedValue": "{relative} cho {relative_fixed}"
+        "joinedValue": "{relative} cho {relative_fixed}",
+        "channels": "Channels"
     },
     "voiceDisconnect": {
         "title": "Ngắt kết nối",
