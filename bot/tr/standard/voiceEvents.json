@@ -17,7 +17,8 @@
     },
     "voiceSwitch": {
         "title": "Kanal Değiştirildi",
-        "description": "{user}, {channel_old} ses kanalından {channel_new} ses kanalına geçti"
+        "description": "{user}, {channel_old} ses kanalından {channel_new} ses kanalına geçti",
+        "timeInPrevious": "Time in {channel}"
     },
     "voiceMove": {
         "title": "Taşındı",
