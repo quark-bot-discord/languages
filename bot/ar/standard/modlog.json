@@ -17,5 +17,6 @@
     "editReason": "تعديل السبب",
     "unban": "رفع الحظر",
     "unmute": "إزالة تايم آوت",
-    "usingBot": "using {bot}"
+    "usingBot": "using {bot}",
+    "lock": "Lock"
 }
