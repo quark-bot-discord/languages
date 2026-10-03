@@ -32,7 +32,8 @@
         "title": "Kanaal Verlaten",
         "description": "{user} heeft het {channel} voice kanaal verlaten",
         "joined": "Joined",
-        "joinedValue": "{relative} for {relative_fixed}"
+        "joinedValue": "{relative} for {relative_fixed}",
+        "channels": "Channels"
     },
     "voiceDisconnect": {
         "title": "Verbinding Verbroken",
