@@ -11,7 +11,8 @@
         "pluralkitSupport": "PluralKit Desteği",
         "spoilers": "Spoilerlar",
         "buttons": "Düğmeler",
-        "formatType": "Biçim Türü"
+        "formatType": "Biçim Türü",
+        "modlogLockAfter": "Modlog reason editing"
     },
     "serverlogLogUpdate": {
         "title": "Günlük Güncellendi",
