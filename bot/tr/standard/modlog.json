@@ -17,5 +17,6 @@
         "title": "Moderatör Günlüğü sebebini değiştir"
     },
     "editReason": "Nedeni Düzenle",
-    "usingBot": "using {bot}"
+    "usingBot": "using {bot}",
+    "lock": "Lock"
 }
