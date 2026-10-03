@@ -43,7 +43,8 @@
         "description": "{user} вышел из {channel}",
         "joined": "Подключился",
         "joinedValue": "{relative} {relative_fixed}",
-        "channels": "Channels"
+        "channels": "Channels",
+        "channelDuration": "{channel} for {duration}"
     },
     "voiceDisconnect": {
         "title": "Отключен",
