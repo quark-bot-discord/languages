@@ -23,7 +23,8 @@
     "voiceMove": {
         "title": "Verschoben",
         "description": "{user} wurde aus den Kanal {channel_old} in den Sprachkanal {channel_new} verschoben",
-        "movedBy": "Verschoben von"
+        "movedBy": "Verschoben von",
+        "timeInPrevious": "Time in {channel}"
     },
     "voiceJoin": {
         "title": "Kanal beigetreten",
