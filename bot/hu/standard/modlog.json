@@ -17,5 +17,6 @@
     "noReasonBrief": "Futtasd {command}",
     "reason": "Indok",
     "kick": "Kirúgás",
-    "usingBot": "using {bot}"
+    "usingBot": "using {bot}",
+    "lock": "Lock"
 }
