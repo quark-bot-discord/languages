@@ -11,7 +11,8 @@
         "pluralkitSupport": "PluralKit Unterstützung",
         "spoilers": "Spoiler",
         "buttons": "Schaltflächen",
-        "formatType": "Format Type"
+        "formatType": "Format Type",
+        "modlogLockAfter": "Modlog reason editing"
     },
     "serverlogLogUpdate": {
         "title": "Protokoll aktualisiert",
