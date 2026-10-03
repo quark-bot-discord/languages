@@ -9,7 +9,8 @@
     },
     "voiceSwitch": {
         "title": "更換了頻道",
-        "description": "使用者 {user} 從 {channel_old} 語音頻道遷移到 {channel_new} 語音頻道"
+        "description": "使用者 {user} 從 {channel_old} 語音頻道遷移到 {channel_new} 語音頻道",
+        "timeInPrevious": "Time in {channel}"
     },
     "streamStart": {
         "title": "直播已開始",
