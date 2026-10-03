@@ -17,5 +17,6 @@
         "placeholder": "Estando muy mal >:(",
         "title": "Modificar el motivo del modlog"
     },
-    "usingBot": "using {bot}"
+    "usingBot": "using {bot}",
+    "lock": "Lock"
 }
