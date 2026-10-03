@@ -23,7 +23,8 @@
     "voiceMove": {
         "title": "Utilisateur déplacé",
         "description": "{user} a été déplacé du salon vocal {channel_old} vers le salon vocal {channel_new}",
-        "movedBy": "Déplacé par"
+        "movedBy": "Déplacé par",
+        "timeInPrevious": "Time in {channel}"
     },
     "voiceJoin": {
         "title": "Salon rejoint",
