@@ -28,5 +28,6 @@
     "lockedExpired": "This modlog locked {time} and its reason can no longer be edited.",
     "historyTitle": "Modlog history",
     "historyEdited": "{time} {user} edited the reason",
-    "historyLocked": "{time} {user} locked this modlog"
+    "historyLocked": "{time} {user} locked this modlog",
+    "historyUnlocked": "{time} {user} unlocked this modlog"
 }
