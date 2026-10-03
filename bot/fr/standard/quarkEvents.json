@@ -12,7 +12,8 @@
         "spoilers": "les spoilers",
         "buttons": "les boutons",
         "formatType": "le type de format",
-        "modlogLockAfter": "Modlog reason editing"
+        "modlogLockAfter": "Modlog reason editing",
+        "modlogLockAfterAlways": "Always editable"
     },
     "serverlogLogUpdate": {
         "title": "Log mis à jour",
