@@ -5,7 +5,8 @@
         "spoilers": "Spoilereket",
         "formatType": "Formázási Típust",
         "description": "{executor} beállította a {option} erre {state}",
-        "pluralkitSupport": "PluralKit Támogatást"
+        "pluralkitSupport": "PluralKit Támogatást",
+        "modlogLockAfter": "Modlog reason editing"
     },
     "serverlogChannelUpdate": {
         "description_set": "{executor} beállította a(z) {type} logolási csatornát {channel} csatornára",
