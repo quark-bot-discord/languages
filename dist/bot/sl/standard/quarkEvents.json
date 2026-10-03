@@ -8,7 +8,8 @@
         "pluralkitSupport": "PluralKit Support",
         "modlogLockAfter": "Modlog reason editing",
         "modlogLockAfterAlways": "Always editable",
-        "modlogLockAfterNever": "Never editable"
+        "modlogLockAfterNever": "Never editable",
+        "modlogLockAfterTimed": "Locks after {duration}"
     },
     "serverlogChannelUpdate": {
         "description_set": "{executor} set the {type} logging channel to {channel}",

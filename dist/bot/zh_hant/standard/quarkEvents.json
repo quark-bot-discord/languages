@@ -8,7 +8,8 @@
         "formatType": "格式類型",
         "modlogLockAfter": "Modlog reason editing",
         "modlogLockAfterAlways": "Always editable",
-        "modlogLockAfterNever": "Never editable"
+        "modlogLockAfterNever": "Never editable",
+        "modlogLockAfterTimed": "Locks after {duration}"
     },
     "serverlogLogUpdate": {
         "activeIgnore": "啟用忽略",

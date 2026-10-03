@@ -31,7 +31,8 @@
         "formatType": "Format Type",
         "modlogLockAfter": "Modlog reason editing",
         "modlogLockAfterAlways": "Always editable",
-        "modlogLockAfterNever": "Never editable"
+        "modlogLockAfterNever": "Never editable",
+        "modlogLockAfterTimed": "Locks after {duration}"
     },
     "serverlogIgnoreUpdate": {
         "title": "Ignore Options Updated",

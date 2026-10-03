@@ -14,7 +14,8 @@
         "formatType": "Тип форматирования",
         "modlogLockAfter": "Modlog reason editing",
         "modlogLockAfterAlways": "Always editable",
-        "modlogLockAfterNever": "Never editable"
+        "modlogLockAfterNever": "Never editable",
+        "modlogLockAfterTimed": "Locks after {duration}"
     },
     "serverlogLogUpdate": {
         "title": "Лог обновлён",
