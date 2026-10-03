@@ -5,7 +5,8 @@
         "title": "日誌選項已更新",
         "description": "{executor} 將 {option} 設為 {state}",
         "buttons": "按鈕",
-        "formatType": "格式類型"
+        "formatType": "格式類型",
+        "modlogLockAfter": "Modlog reason editing"
     },
     "serverlogLogUpdate": {
         "activeIgnore": "啟用忽略",
