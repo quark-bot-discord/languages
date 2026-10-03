@@ -23,7 +23,8 @@
     "voiceMove": {
         "title": "Taşındı",
         "description": "{user}, {channel_old} ses kanalından {channel_new} ses kanalına taşındı",
-        "movedBy": "Taşıyan"
+        "movedBy": "Taşıyan",
+        "timeInPrevious": "Time in {channel}"
     },
     "voiceJoin": {
         "title": "Kanala Katıldı",
