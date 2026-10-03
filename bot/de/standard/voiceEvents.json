@@ -17,7 +17,8 @@
     },
     "voiceSwitch": {
         "title": "Kanal gewechselt",
-        "description": "{user} ist von {channel_old} in den Sprachkanal {channel_new} gewechselt"
+        "description": "{user} ist von {channel_old} in den Sprachkanal {channel_new} gewechselt",
+        "timeInPrevious": "Time in {channel}"
     },
     "voiceMove": {
         "title": "Verschoben",
