@@ -32,7 +32,8 @@
         "title": "Salon quitté",
         "description": "{user} a quitté le salon vocal {channel}",
         "joined": "Rejoint",
-        "joinedValue": "{relative} pendant {relative_fixed}"
+        "joinedValue": "{relative} pendant {relative_fixed}",
+        "channels": "Channels"
     },
     "voiceDisconnect": {
         "title": "Déconnecté",
