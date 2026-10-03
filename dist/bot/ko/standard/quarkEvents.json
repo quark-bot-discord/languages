@@ -29,7 +29,8 @@
         "buttons": "Buttons",
         "formatType": "Format Type",
         "modlogLockAfter": "Modlog reason editing",
-        "modlogLockAfterAlways": "Always editable"
+        "modlogLockAfterAlways": "Always editable",
+        "modlogLockAfterNever": "Never editable"
     },
     "serverlogLogUpdate": {
         "title": "Log Updated",

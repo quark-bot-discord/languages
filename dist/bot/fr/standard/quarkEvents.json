@@ -13,7 +13,8 @@
         "buttons": "les boutons",
         "formatType": "le type de format",
         "modlogLockAfter": "Modlog reason editing",
-        "modlogLockAfterAlways": "Always editable"
+        "modlogLockAfterAlways": "Always editable",
+        "modlogLockAfterNever": "Never editable"
     },
     "serverlogLogUpdate": {
         "title": "Log mis à jour",

@@ -13,7 +13,8 @@
         "buttons": "Кнопки",
         "formatType": "Тип форматирования",
         "modlogLockAfter": "Modlog reason editing",
-        "modlogLockAfterAlways": "Always editable"
+        "modlogLockAfterAlways": "Always editable",
+        "modlogLockAfterNever": "Never editable"
     },
     "serverlogLogUpdate": {
         "title": "Лог обновлён",
