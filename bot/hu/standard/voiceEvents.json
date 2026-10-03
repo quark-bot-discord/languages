@@ -102,7 +102,8 @@
     "voiceMove": {
         "title": "Áthelyezve",
         "movedBy": "Áthelyeztte",
-        "description": "{user} át helyezték a(z) {channel_old} hangcsatornából a(z) {channel_new} hangcsatornába"
+        "description": "{user} át helyezték a(z) {channel_old} hangcsatornából a(z) {channel_new} hangcsatornába",
+        "timeInPrevious": "Time in {channel}"
     },
     "stageSpeakerRemove": {
         "description": "{user} többé nem beszél a(z) {channel} csatornában",
