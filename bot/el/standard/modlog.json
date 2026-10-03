@@ -22,5 +22,6 @@
     "unlock": "Unlock",
     "history": "History",
     "editedBy": "Edited by {user} {time}",
-    "editedByMany": "Edited {count} times, last by {user} {time}"
+    "editedByMany": "Edited {count} times, last by {user} {time}",
+    "lockedManual": "This modlog is locked."
 }
