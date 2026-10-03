@@ -16,5 +16,6 @@
         "label": "Reden",
         "placeholder": "Heel stoutie woutie zijn >:3",
         "title": "Reden modlog wijzigen"
-    }
+    },
+    "usingBot": "using {bot}"
 }
