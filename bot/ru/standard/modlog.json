@@ -29,5 +29,6 @@
     "historyTitle": "Modlog history",
     "historyEdited": "{time} {user} edited the reason",
     "historyLocked": "{time} {user} locked this modlog",
-    "historyUnlocked": "{time} {user} unlocked this modlog"
+    "historyUnlocked": "{time} {user} unlocked this modlog",
+    "historyEarlier": "+{count} earlier changes"
 }
