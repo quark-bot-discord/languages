@@ -32,7 +32,8 @@
         "title": "チャンネルから退出しました",
         "description": "{user} が {channel} ボイスチャンネルから退出しました",
         "joined": "参加日時",
-        "joinedValue": "{relative} ({relative_fixed})"
+        "joinedValue": "{relative} ({relative_fixed})",
+        "channels": "Channels"
     },
     "voiceDisconnect": {
         "title": "切断されました",
