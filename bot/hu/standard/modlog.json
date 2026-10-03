@@ -31,5 +31,6 @@
     "historyLocked": "{time} {user} locked this modlog",
     "historyUnlocked": "{time} {user} unlocked this modlog",
     "historyEarlier": "+{count} earlier changes",
-    "historyEarlierOne": "+1 earlier change"
+    "historyEarlierOne": "+1 earlier change",
+    "historyUpsell": "{proLink} shows the full history, with what each reason said before."
 }
