@@ -56,7 +56,8 @@
     },
     "voiceSwitch": {
         "description": "{user} váltott {channel_old}ról/ről a(z) {channel_new} hang csatornába",
-        "title": "Hangcsatornát Váltott"
+        "title": "Hangcsatornát Váltott",
+        "timeInPrevious": "Time in {channel}"
     },
     "streamStop": {
         "description": "{user} abba hagyta az élőt a(z) {channel} hangcsatornában",
