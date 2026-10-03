@@ -17,5 +17,6 @@
         "placeholder": "Being very bad >:(",
         "title": "Modify modlog reason"
     },
-    "usingBot": "using {bot}"
+    "usingBot": "using {bot}",
+    "lock": "Lock"
 }
