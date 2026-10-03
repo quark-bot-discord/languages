@@ -17,5 +17,6 @@
         "placeholder": "Être très méchant > :(",
         "title": "Modifie la raison du log de modération"
     },
-    "usingBot": "using {bot}"
+    "usingBot": "using {bot}",
+    "lock": "Lock"
 }
