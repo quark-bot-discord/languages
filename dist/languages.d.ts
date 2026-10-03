@@ -29,9 +29,6 @@ export type LanguageStructure = {
   channel_update_types: Promise<{
   none: string;
 }>;
-  emoji_update_types: Promise<{
-  none: string;
-}>;
   command_responses: Promise<{
   disable: string;
   enable: string;
@@ -267,6 +264,10 @@ export type LanguageStructure = {
   "setserverlog-live-troubleshoot": string;
   "setserverlog-live-support": string;
   "setserverlog-live-status": string;
+  "setserverlog-type-nsfw-0": string;
+}>;
+  emoji_update_types: Promise<{
+  none: string;
 }>;
   gui_constants: Promise<{
   channelModificationTypes: {
@@ -390,6 +391,13 @@ export type LanguageStructure = {
   main_channel: string;
   category_nsfw: string;
 }>;
+  log_formats: Promise<{
+  "0": string;
+  "1": string;
+  "2": string;
+  "3": string;
+  "4": string;
+}>;
   permissions: Promise<{
   CREATE_INSTANT_INVITE: string;
   KICK_MEMBERS: string;
@@ -444,13 +452,6 @@ export type LanguageStructure = {
   MANAGE_EVENTS: string;
   MANAGE_GUILD_EXPRESSIONS: string;
 }>;
-  log_formats: Promise<{
-  "0": string;
-  "1": string;
-  "2": string;
-  "3": string;
-  "4": string;
-}>;
   role_update_types: Promise<{
   enabled: string;
   disabled: string;
@@ -486,9 +487,6 @@ export type LanguageStructure = {
   "tag-error-limitreached-1": string;
   "tag-createdby": string;
 }>;
-  thread_update_types: Promise<{
-  none: string;
-}>;
   time: Promise<{
   second: string;
   "second-plural": string;
@@ -505,8 +503,15 @@ export type LanguageStructure = {
   year: string;
   "year-plural": string;
 }>;
+  thread_update_types: Promise<{
+  none: string;
+}>;
 };
   slash_commands: {
+  commands: Promise<{
+  name: string;
+  description: string;
+}>;
   ban: Promise<{
   name: string;
   description: string;
@@ -524,10 +529,6 @@ export type LanguageStructure = {
   description: string;
 };
 };
-}>;
-  commands: Promise<{
-  name: string;
-  description: string;
 }>;
   config: Promise<{
   name: string;
@@ -604,10 +605,6 @@ export type LanguageStructure = {
   initialReactor: Promise<{
   name: string;
 }>;
-  invite: Promise<{
-  name: string;
-  description: string;
-}>;
   kick: Promise<{
   name: string;
   description: string;
@@ -621,6 +618,10 @@ export type LanguageStructure = {
   description: string;
 };
 };
+}>;
+  invite: Promise<{
+  name: string;
+  description: string;
 }>;
   language: Promise<{
   name: string;
@@ -673,6 +674,10 @@ export type LanguageStructure = {
   name: string;
   description: string;
 }>;
+  premium: Promise<{
+  name: string;
+  description: string;
+}>;
   privacy: Promise<{
   name: string;
   description: string;
@@ -686,10 +691,6 @@ export type LanguageStructure = {
   description: string;
 };
 };
-}>;
-  premium: Promise<{
-  name: string;
-  description: string;
 }>;
   reason: Promise<{
   name: string;
@@ -1849,5 +1850,5 @@ export type LanguageStructure = {
 }>;
 };
 };
-export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "export" | "help" | "initialReactor" | "invite" | "kick" | "language" | "logging" | "mute" | "ping" | "privacy" | "purge" | "premium" | "reason" | "serverlog" | "tags" | "troubleshoot" | "unban" | "unmute" | "vote";
+export type SlashCommandNames = "commands" | "ban" | "config" | "dashboard" | "debug" | "export" | "help" | "initialReactor" | "kick" | "invite" | "language" | "logging" | "mute" | "ping" | "premium" | "privacy" | "purge" | "reason" | "serverlog" | "tags" | "troubleshoot" | "unban" | "unmute" | "vote";
 export type QuarkLanguageCodes = "en_us" | "en_gb" | "tr" | "vi" | "en_pr" | "pl" | "nl" | "es_es" | "it" | "de" | "fr" | "ru" | "el" | "zh_hant" | "ko" | "sl" | "ar" | "hu" | "ja";

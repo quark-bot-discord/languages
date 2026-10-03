@@ -232,5 +232,6 @@
     "setserverlog-live-customise": "Szerkesztd mi legyen logolva",
     "setserverlog-live-troubleshoot": "Nem látod a logokat?",
     "setserverlog-live-support": "Támogatói szerver",
-    "setserverlog-live-status": "Fejlesztői frissítések beállítása"
+    "setserverlog-live-status": "Fejlesztői frissítések beállítása",
+    "setserverlog-type-nsfw-0": "Age-Restricted Channel Events"
 }
