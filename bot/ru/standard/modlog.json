@@ -18,5 +18,6 @@
         "title": "Изменить причину в журнале"
     },
     "usingBot": "using {bot}",
-    "lock": "Lock"
+    "lock": "Lock",
+    "unlock": "Unlock"
 }
