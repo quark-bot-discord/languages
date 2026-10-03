@@ -28,7 +28,8 @@
         "pluralkitSupport": "PluralKit Support",
         "spoilers": "Spoilers",
         "buttons": "Buttons",
-        "formatType": "Format Type"
+        "formatType": "Format Type",
+        "modlogLockAfter": "Modlog reason editing"
     },
     "serverlogIgnoreUpdate": {
         "title": "Ignore Options Updated",
