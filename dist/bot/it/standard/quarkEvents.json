@@ -11,7 +11,9 @@
         "description": "{executor} set {option} to {state}",
         "pluralkitSupport": "PluralKit Support",
         "buttons": "Buttons",
-        "formatType": "Format Type"
+        "formatType": "Format Type",
+        "modlogLockAfter": "Modlog reason editing",
+        "modlogLockAfterAlways": "Always editable"
     },
     "serverlogLogUpdate": {
         "title": "Log Updated",

@@ -5,7 +5,9 @@
         "spoilers": "مخفيه بالتشويش (Spoilers)",
         "formatType": "نوع التنسيق",
         "description": "قام {executor} بضبط {option} على {state}",
-        "pluralkitSupport": "دعم PluralKit"
+        "pluralkitSupport": "دعم PluralKit",
+        "modlogLockAfter": "Modlog reason editing",
+        "modlogLockAfterAlways": "Always editable"
     },
     "serverlogChannelUpdate": {
         "description_set": "قام {executor} بتعيين قناة لوق {type} إلى {channel}",

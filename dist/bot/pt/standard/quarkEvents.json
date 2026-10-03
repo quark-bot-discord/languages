@@ -5,7 +5,9 @@
         "spoilers": "Spoilers",
         "formatType": "Format Type",
         "description": "{executor} set {option} to {state}",
-        "pluralkitSupport": "PluralKit Support"
+        "pluralkitSupport": "PluralKit Support",
+        "modlogLockAfter": "Modlog reason editing",
+        "modlogLockAfterAlways": "Always editable"
     },
     "serverlogChannelUpdate": {
         "description_set": "{executor} set the {type} logging channel to {channel}",

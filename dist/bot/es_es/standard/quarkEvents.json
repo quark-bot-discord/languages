@@ -11,7 +11,9 @@
         "pluralkitSupport": "Soporte de PluralKit",
         "spoilers": "spoilers",
         "buttons": "Botones",
-        "formatType": "Tipo de formato"
+        "formatType": "Tipo de formato",
+        "modlogLockAfter": "Modlog reason editing",
+        "modlogLockAfterAlways": "Always editable"
     },
     "serverlogLogUpdate": {
         "title": "Registro actualizado",

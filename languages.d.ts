@@ -635,39 +635,6 @@ export type LanguageStructure = {
   name: string;
   description: string;
 }>;
-  mute: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  userOption: {
-  name: string;
-  description: string;
-};
-  timeOption: {
-  name: string;
-  description: string;
-};
-  typeOption: {
-  name: string;
-  description: string;
-  choices: {
-  minutes: {
-  name: string;
-};
-  hours: {
-  name: string;
-};
-  days: {
-  name: string;
-};
-};
-};
-  reasonOption: {
-  name: string;
-  description: string;
-};
-};
-}>;
   ping: Promise<{
   name: string;
   description: string;
@@ -697,6 +664,39 @@ export type LanguageStructure = {
   caseOption: {
   name: string;
   description: string;
+};
+  reasonOption: {
+  name: string;
+  description: string;
+};
+};
+}>;
+  mute: Promise<{
+  name: string;
+  description: string;
+  commandOptions: {
+  userOption: {
+  name: string;
+  description: string;
+};
+  timeOption: {
+  name: string;
+  description: string;
+};
+  typeOption: {
+  name: string;
+  description: string;
+  choices: {
+  minutes: {
+  name: string;
+};
+  hours: {
+  name: string;
+};
+  days: {
+  name: string;
+};
+};
 };
   reasonOption: {
   name: string;
@@ -1021,6 +1021,8 @@ export type LanguageStructure = {
   spoilers: string;
   buttons: string;
   formatType: string;
+  modlogLockAfter: string;
+  modlogLockAfterAlways: string;
 };
   serverlogLogUpdate: {
   title: string;
@@ -1844,5 +1846,5 @@ export type LanguageStructure = {
 }>;
 };
 };
-export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "export" | "help" | "initialReactor" | "invite" | "kick" | "language" | "logging" | "mute" | "ping" | "premium" | "privacy" | "purge" | "reason" | "serverlog" | "tags" | "troubleshoot" | "unban" | "unmute" | "vote";
+export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "export" | "help" | "initialReactor" | "invite" | "kick" | "language" | "logging" | "ping" | "premium" | "privacy" | "purge" | "reason" | "mute" | "serverlog" | "tags" | "troubleshoot" | "unban" | "unmute" | "vote";
 export type QuarkLanguageCodes = "en_us" | "en_gb" | "tr" | "vi" | "en_pr" | "pl" | "nl" | "es_es" | "it" | "de" | "fr" | "ru" | "el" | "zh_hant" | "ko" | "sl" | "ar" | "hu" | "ja";

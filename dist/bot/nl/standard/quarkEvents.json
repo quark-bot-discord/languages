@@ -11,7 +11,9 @@
         "pluralkitSupport": "PluralKit Ondersteuning",
         "spoilers": "Spoilers",
         "buttons": "Knoppen",
-        "formatType": "Formaat Type"
+        "formatType": "Formaat Type",
+        "modlogLockAfter": "Modlog reason editing",
+        "modlogLockAfterAlways": "Always editable"
     },
     "serverlogLogUpdate": {
         "title": "Log Bijgewerkt",
