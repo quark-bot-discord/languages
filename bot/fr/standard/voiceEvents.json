@@ -17,7 +17,8 @@
     },
     "voiceSwitch": {
         "title": "Changement de salon",
-        "description": "{user} s'est déplacé du salon vocal {channel_old} vers le salon vocal {channel_new}"
+        "description": "{user} s'est déplacé du salon vocal {channel_old} vers le salon vocal {channel_new}",
+        "timeInPrevious": "Time in {channel}"
     },
     "voiceMove": {
         "title": "Utilisateur déplacé",
