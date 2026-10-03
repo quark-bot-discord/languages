@@ -12,7 +12,8 @@
         "spoilers": "Spoilerlar",
         "buttons": "Düğmeler",
         "formatType": "Biçim Türü",
-        "modlogLockAfter": "Modlog reason editing"
+        "modlogLockAfter": "Modlog reason editing",
+        "modlogLockAfterAlways": "Always editable"
     },
     "serverlogLogUpdate": {
         "title": "Günlük Güncellendi",
