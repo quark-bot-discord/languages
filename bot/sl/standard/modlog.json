@@ -18,5 +18,6 @@
         "title": "Modify modlog reason"
     },
     "usingBot": "using {bot}",
-    "lock": "Lock"
+    "lock": "Lock",
+    "unlock": "Unlock"
 }
