@@ -20,5 +20,6 @@
     "category_server": "伺服器",
     "category_text": "文字",
     "category_voice": "語音",
-    "main_channel": "主要的"
+    "main_channel": "主要的",
+    "category_nsfw": "Age-restricted channels"
 }

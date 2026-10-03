@@ -20,5 +20,6 @@
     "category_server": "Szerver",
     "category_text": "Üzenet",
     "category_voice": "Hang",
-    "main_channel": "Fő"
+    "main_channel": "Fő",
+    "category_nsfw": "Age-restricted channels"
 }

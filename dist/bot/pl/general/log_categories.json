@@ -20,5 +20,6 @@
     "category_server": "Serwer",
     "category_text": "Tekstowy",
     "category_voice": "Głosowy",
-    "main_channel": "Głowny"
+    "main_channel": "Głowny",
+    "category_nsfw": "Age-restricted channels"
 }

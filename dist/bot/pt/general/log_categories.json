@@ -20,5 +20,6 @@
     "category_text": "Text",
     "quarkEvents": "Quark Config",
     "generalEvents": "Server",
-    "category_channels": "Channels"
+    "category_channels": "Channels",
+    "category_nsfw": "Age-restricted channels"
 }

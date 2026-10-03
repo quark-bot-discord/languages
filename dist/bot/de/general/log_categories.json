@@ -20,5 +20,6 @@
     "category_server": "Server",
     "category_text": "Text",
     "category_voice": "Voice",
-    "main_channel": "Main"
+    "main_channel": "Main",
+    "category_nsfw": "Age-restricted channels"
 }

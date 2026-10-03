@@ -20,5 +20,6 @@
     "category_server": "Sunucu",
     "category_text": "Metin",
     "category_voice": "Ses",
-    "main_channel": "Ana"
+    "main_channel": "Ana",
+    "category_nsfw": "Age-restricted channels"
 }
