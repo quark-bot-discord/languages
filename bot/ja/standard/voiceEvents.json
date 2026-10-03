@@ -17,7 +17,8 @@
     },
     "voiceSwitch": {
         "title": "チャンネルを変更しました",
-        "description": "{user} は {channel_old} ボイスチャンネルから {channel_new} ボイスチャンネルに移動しました"
+        "description": "{user} は {channel_old} ボイスチャンネルから {channel_new} ボイスチャンネルに移動しました",
+        "timeInPrevious": "Time in {channel}"
     },
     "voiceMove": {
         "title": "移動しました",
