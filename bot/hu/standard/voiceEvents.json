@@ -67,7 +67,8 @@
         "description": "{user} kilépett a(z) {channel} hangcsatornából",
         "title": "Kilépett Hang Csatornából",
         "joinedValue": "{relative} ({relative_fixed})",
-        "channels": "Channels"
+        "channels": "Channels",
+        "channelDuration": "{channel} for {duration}"
     },
     "stageStarted": {
         "description": "{executor} elindította a szakaszt a(z) {channel} csatornán",
