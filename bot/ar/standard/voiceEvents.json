@@ -60,7 +60,8 @@
     },
     "voiceSwitch": {
         "description": "انتقل {user} من قناة الصوت {channel_old} إلى قناة الصوت {channel_new}",
-        "title": "تم تغيير القناة"
+        "title": "تم تغيير القناة",
+        "timeInPrevious": "Time in {channel}"
     },
     "streamStop": {
         "description": "توقف {user} عن البث في قناة الصوت {channel}",
