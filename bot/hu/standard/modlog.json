@@ -32,5 +32,6 @@
     "historyUnlocked": "{time} {user} unlocked this modlog",
     "historyEarlier": "+{count} earlier changes",
     "historyEarlierOne": "+1 earlier change",
-    "historyUpsell": "{proLink} shows the full history, with what each reason said before."
+    "historyUpsell": "{proLink} shows the full history, with what each reason said before.",
+    "historyEmpty": "No changes have been recorded for this modlog."
 }
