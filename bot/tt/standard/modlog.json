@@ -21,5 +21,6 @@
     "lock": "Lock",
     "unlock": "Unlock",
     "history": "History",
-    "editedBy": "Edited by {user} {time}"
+    "editedBy": "Edited by {user} {time}",
+    "editedByMany": "Edited {count} times, last by {user} {time}"
 }
