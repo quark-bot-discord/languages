@@ -20,5 +20,6 @@
     "category_server": "サーバー",
     "category_text": "テキスト",
     "category_voice": "ボイス",
-    "main_channel": "メイン"
+    "main_channel": "メイン",
+    "category_nsfw": "Age-restricted channels"
 }
