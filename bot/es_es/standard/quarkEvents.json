@@ -13,7 +13,8 @@
         "buttons": "Botones",
         "formatType": "Tipo de formato",
         "modlogLockAfter": "Modlog reason editing",
-        "modlogLockAfterAlways": "Always editable"
+        "modlogLockAfterAlways": "Always editable",
+        "modlogLockAfterNever": "Never editable"
     },
     "serverlogLogUpdate": {
         "title": "Registro actualizado",
