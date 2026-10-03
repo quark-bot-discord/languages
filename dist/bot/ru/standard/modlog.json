@@ -16,5 +16,7 @@
         "label": "Причина",
         "placeholder": "Нарушение правил >:(",
         "title": "Изменить причину в журнале"
-    }
+    },
+    "usingBot": "using {bot}",
+    "lock": "Lock"
 }

@@ -16,5 +16,7 @@
     "noReason": "[沒有任何理由]",
     "noReasonBrief": "運行 {command}",
     "ban": "停權",
-    "unban": "取消停權"
+    "unban": "取消停權",
+    "usingBot": "using {bot}",
+    "lock": "Lock"
 }

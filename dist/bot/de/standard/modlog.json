@@ -16,5 +16,7 @@
         "label": "Grund",
         "placeholder": "Bin sehr böse >:(",
         "title": "Verändere Mod-Log Grund"
-    }
+    },
+    "usingBot": "using {bot}",
+    "lock": "Lock"
 }

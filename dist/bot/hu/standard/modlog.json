@@ -16,5 +16,7 @@
     "ban": "Kitiltás",
     "noReasonBrief": "Futtasd {command}",
     "reason": "Indok",
-    "kick": "Kirúgás"
+    "kick": "Kirúgás",
+    "usingBot": "using {bot}",
+    "lock": "Lock"
 }

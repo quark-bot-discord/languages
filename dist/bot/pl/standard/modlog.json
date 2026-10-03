@@ -16,5 +16,7 @@
         "label": "Powód",
         "placeholder": "Bardzo złe zachowanie >:(",
         "title": "Zmodyfikuj powód w modlogu"
-    }
+    },
+    "usingBot": "using {bot}",
+    "lock": "Lock"
 }
