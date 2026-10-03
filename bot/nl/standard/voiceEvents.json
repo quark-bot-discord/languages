@@ -23,7 +23,8 @@
     "voiceMove": {
         "title": "Verplaatst",
         "description": "{user} is verplaatst van het {channel_old} voice kanaal naar het {channel_new} voice kanaal",
-        "movedBy": "Verplaatst door"
+        "movedBy": "Verplaatst door",
+        "timeInPrevious": "Time in {channel}"
     },
     "voiceJoin": {
         "title": "Kanaal Toegetreden",
