@@ -11,7 +11,8 @@
         "pluralkitSupport": "PluralKitのサポート",
         "spoilers": "ネタバレ",
         "buttons": "ボタン",
-        "formatType": "フォーマットタイプ"
+        "formatType": "フォーマットタイプ",
+        "modlogLockAfter": "Modlog reason editing"
     },
     "serverlogLogUpdate": {
         "title": "ログが更新されました",
