@@ -17,5 +17,6 @@
         "placeholder": "理由を入力してください",
         "title": "モデレーションログ の理由を変更"
     },
-    "usingBot": "using {bot}"
+    "usingBot": "using {bot}",
+    "lock": "Lock"
 }
