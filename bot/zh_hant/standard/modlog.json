@@ -30,5 +30,6 @@
     "historyEdited": "{time} {user} edited the reason",
     "historyLocked": "{time} {user} locked this modlog",
     "historyUnlocked": "{time} {user} unlocked this modlog",
-    "historyEarlier": "+{count} earlier changes"
+    "historyEarlier": "+{count} earlier changes",
+    "historyEarlierOne": "+1 earlier change"
 }
