@@ -70,7 +70,8 @@
         "joined": "انضم",
         "description": "غادر {user} قناة الصوت {channel}",
         "title": "غادر القناة",
-        "joinedValue": "{relative} لمدة {relative_fixed}"
+        "joinedValue": "{relative} لمدة {relative_fixed}",
+        "channels": "Channels"
     },
     "stageStarted": {
         "description": "{executor} فتح ستيج في {channel}",
