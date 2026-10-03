@@ -12,7 +12,8 @@
         "spoilers": "Спойлеры",
         "buttons": "Кнопки",
         "formatType": "Тип форматирования",
-        "modlogLockAfter": "Modlog reason editing"
+        "modlogLockAfter": "Modlog reason editing",
+        "modlogLockAfterAlways": "Always editable"
     },
     "serverlogLogUpdate": {
         "title": "Лог обновлён",
