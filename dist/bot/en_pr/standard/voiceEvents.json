@@ -17,7 +17,8 @@
     },
     "voiceSwitch": {
         "title": "Changed Cabin",
-        "description": "{user} went from th' {channel_old} cabin to th' {channel_new} cabin"
+        "description": "{user} went from th' {channel_old} cabin to th' {channel_new} cabin",
+        "timeInPrevious": "Time in {channel}"
     },
     "voiceMove": {
         "title": "Ordered T' Move",
@@ -33,7 +34,8 @@
         "description": "{user} departed from the {channel} cabin",
         "joined": "Present",
         "joinedValue": "{relative} for {relative_fixed}",
-        "channels": "Channels"
+        "channels": "Channels",
+        "channelDuration": "{channel} for {duration}"
     },
     "voiceDisconnect": {
         "title": "Thrown Out",

@@ -17,7 +17,8 @@
     },
     "voiceSwitch": {
         "title": "チャンネルを変更しました",
-        "description": "{user} は {channel_old} ボイスチャンネルから {channel_new} ボイスチャンネルに移動しました"
+        "description": "{user} は {channel_old} ボイスチャンネルから {channel_new} ボイスチャンネルに移動しました",
+        "timeInPrevious": "Time in {channel}"
     },
     "voiceMove": {
         "title": "移動しました",
@@ -33,7 +34,8 @@
         "description": "{user} が {channel} ボイスチャンネルから退出しました",
         "joined": "参加日時",
         "joinedValue": "{relative} ({relative_fixed})",
-        "channels": "Channels"
+        "channels": "Channels",
+        "channelDuration": "{channel} for {duration}"
     },
     "voiceDisconnect": {
         "title": "切断されました",

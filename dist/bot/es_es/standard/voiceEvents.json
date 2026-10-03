@@ -17,7 +17,8 @@
     },
     "voiceSwitch": {
         "title": "Canal cambiado",
-        "description": "{user} pasó del canal de voz {channel_old} al canal de voz {channel_new}"
+        "description": "{user} pasó del canal de voz {channel_old} al canal de voz {channel_new}",
+        "timeInPrevious": "Time in {channel}"
     },
     "voiceMove": {
         "title": "Movido",
@@ -33,7 +34,8 @@
         "description": "{user} abandonó el canal de voz {channel}",
         "joined": "Unido",
         "joinedValue": "{relative} para {relative_fixed}",
-        "channels": "Channels"
+        "channels": "Channels",
+        "channelDuration": "{channel} for {duration}"
     },
     "voiceDisconnect": {
         "title": "Desconectado",

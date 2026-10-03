@@ -23,7 +23,8 @@
     },
     "voiceSwitch": {
         "title": "Смена канала",
-        "description": "{user} перешел из {channel_old} в {channel_new}"
+        "description": "{user} перешел из {channel_old} в {channel_new}",
+        "timeInPrevious": "Time in {channel}"
     },
     "voiceMove": {
         "title": "Перемещен",
@@ -43,7 +44,8 @@
         "description": "{user} вышел из {channel}",
         "joined": "Подключился",
         "joinedValue": "{relative} {relative_fixed}",
-        "channels": "Channels"
+        "channels": "Channels",
+        "channelDuration": "{channel} for {duration}"
     },
     "voiceDisconnect": {
         "title": "Отключен",

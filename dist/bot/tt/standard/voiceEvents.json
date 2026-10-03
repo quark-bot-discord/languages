@@ -56,7 +56,8 @@
     },
     "voiceSwitch": {
         "description": "{user} moved from the {channel_old} voice channel to the {channel_new} voice channel",
-        "title": "Changed Channel"
+        "title": "Changed Channel",
+        "timeInPrevious": "Time in {channel}"
     },
     "streamStop": {
         "description": "{user} stopped streaming in the {channel} voice channel",
@@ -67,7 +68,8 @@
         "description": "{user} left the {channel} voice channel",
         "title": "Left Channel",
         "joinedValue": "{relative} for {relative_fixed}",
-        "channels": "Channels"
+        "channels": "Channels",
+        "channelDuration": "{channel} for {duration}"
     },
     "stageStarted": {
         "description": "{executor} started a stage in {channel}",

@@ -17,7 +17,8 @@
     },
     "voiceSwitch": {
         "title": "Kanaal Gewijzigd",
-        "description": "{user} is verhuisd van het {channel_old} voice kanaal naar het {channel_new} voice kanaal"
+        "description": "{user} is verhuisd van het {channel_old} voice kanaal naar het {channel_new} voice kanaal",
+        "timeInPrevious": "Time in {channel}"
     },
     "voiceMove": {
         "title": "Verplaatst",
@@ -33,7 +34,8 @@
         "description": "{user} heeft het {channel} voice kanaal verlaten",
         "joined": "Joined",
         "joinedValue": "{relative} for {relative_fixed}",
-        "channels": "Channels"
+        "channels": "Channels",
+        "channelDuration": "{channel} for {duration}"
     },
     "voiceDisconnect": {
         "title": "Verbinding Verbroken",

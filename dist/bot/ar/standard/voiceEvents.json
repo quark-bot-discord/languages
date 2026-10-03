@@ -60,7 +60,8 @@
     },
     "voiceSwitch": {
         "description": "انتقل {user} من قناة الصوت {channel_old} إلى قناة الصوت {channel_new}",
-        "title": "تم تغيير القناة"
+        "title": "تم تغيير القناة",
+        "timeInPrevious": "Time in {channel}"
     },
     "streamStop": {
         "description": "توقف {user} عن البث في قناة الصوت {channel}",
@@ -71,7 +72,8 @@
         "description": "غادر {user} قناة الصوت {channel}",
         "title": "غادر القناة",
         "joinedValue": "{relative} لمدة {relative_fixed}",
-        "channels": "Channels"
+        "channels": "Channels",
+        "channelDuration": "{channel} for {duration}"
     },
     "stageStarted": {
         "description": "{executor} فتح ستيج في {channel}",

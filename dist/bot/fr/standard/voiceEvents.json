@@ -17,7 +17,8 @@
     },
     "voiceSwitch": {
         "title": "Changement de salon",
-        "description": "{user} s'est déplacé du salon vocal {channel_old} vers le salon vocal {channel_new}"
+        "description": "{user} s'est déplacé du salon vocal {channel_old} vers le salon vocal {channel_new}",
+        "timeInPrevious": "Time in {channel}"
     },
     "voiceMove": {
         "title": "Utilisateur déplacé",
@@ -33,7 +34,8 @@
         "description": "{user} a quitté le salon vocal {channel}",
         "joined": "Rejoint",
         "joinedValue": "{relative} pendant {relative_fixed}",
-        "channels": "Channels"
+        "channels": "Channels",
+        "channelDuration": "{channel} for {duration}"
     },
     "voiceDisconnect": {
         "title": "Déconnecté",

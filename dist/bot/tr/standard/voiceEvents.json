@@ -17,7 +17,8 @@
     },
     "voiceSwitch": {
         "title": "Kanal Değiştirildi",
-        "description": "{user}, {channel_old} ses kanalından {channel_new} ses kanalına geçti"
+        "description": "{user}, {channel_old} ses kanalından {channel_new} ses kanalına geçti",
+        "timeInPrevious": "Time in {channel}"
     },
     "voiceMove": {
         "title": "Taşındı",
@@ -33,7 +34,8 @@
         "description": "{user}, {channel} ses kanalından ayrıldı",
         "joined": "Katıldı",
         "joinedValue": "{relative} süre önce katıldı ve {relative_fixed} süre kanalda kaldı",
-        "channels": "Channels"
+        "channels": "Channels",
+        "channelDuration": "{channel} for {duration}"
     },
     "voiceDisconnect": {
         "title": "Bağlantı kesildi",

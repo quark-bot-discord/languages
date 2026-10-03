@@ -17,7 +17,8 @@
     },
     "voiceSwitch": {
         "title": "Thay đổi Kênh",
-        "description": "{user} chuyển từ kênh thoại {channel_old} sang kênh thoại {channel_new}"
+        "description": "{user} chuyển từ kênh thoại {channel_old} sang kênh thoại {channel_new}",
+        "timeInPrevious": "Time in {channel}"
     },
     "voiceMove": {
         "title": "Di chuyển",
@@ -33,7 +34,8 @@
         "description": "{user} đã rời khỏi kênh thoại {channel}",
         "joined": "Tham gia",
         "joinedValue": "{relative} cho {relative_fixed}",
-        "channels": "Channels"
+        "channels": "Channels",
+        "channelDuration": "{channel} for {duration}"
     },
     "voiceDisconnect": {
         "title": "Ngắt kết nối",

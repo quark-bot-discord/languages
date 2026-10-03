@@ -56,7 +56,8 @@
     },
     "voiceSwitch": {
         "description": "{user} váltott {channel_old}ról/ről a(z) {channel_new} hang csatornába",
-        "title": "Hangcsatornát Váltott"
+        "title": "Hangcsatornát Váltott",
+        "timeInPrevious": "Time in {channel}"
     },
     "streamStop": {
         "description": "{user} abba hagyta az élőt a(z) {channel} hangcsatornában",
@@ -67,7 +68,8 @@
         "description": "{user} kilépett a(z) {channel} hangcsatornából",
         "title": "Kilépett Hang Csatornából",
         "joinedValue": "{relative} ({relative_fixed})",
-        "channels": "Channels"
+        "channels": "Channels",
+        "channelDuration": "{channel} for {duration}"
     },
     "stageStarted": {
         "description": "{executor} elindította a szakaszt a(z) {channel} csatornán",
