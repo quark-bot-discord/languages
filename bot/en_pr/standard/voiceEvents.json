@@ -23,7 +23,8 @@
     "voiceMove": {
         "title": "Ordered T' Move",
         "description": "{user} was ordered t' move from th' {channel_old} cabin to the {channel_new} cabin",
-        "movedBy": "Ordered by"
+        "movedBy": "Ordered by",
+        "timeInPrevious": "Time in {channel}"
     },
     "voiceJoin": {
         "title": "Entered Cabin",
