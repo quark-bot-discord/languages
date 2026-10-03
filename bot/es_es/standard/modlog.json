@@ -16,5 +16,6 @@
         "label": "Razón",
         "placeholder": "Estando muy mal >:(",
         "title": "Modificar el motivo del modlog"
-    }
+    },
+    "usingBot": "using {bot}"
 }
