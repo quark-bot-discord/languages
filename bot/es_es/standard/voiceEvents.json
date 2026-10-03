@@ -32,7 +32,8 @@
         "title": "Canal izquierdo",
         "description": "{user} abandonó el canal de voz {channel}",
         "joined": "Unido",
-        "joinedValue": "{relative} para {relative_fixed}"
+        "joinedValue": "{relative} para {relative_fixed}",
+        "channels": "Channels"
     },
     "voiceDisconnect": {
         "title": "Desconectado",
