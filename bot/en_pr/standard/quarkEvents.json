@@ -11,7 +11,8 @@
         "pluralkitSupport": "PluralKit Support",
         "spoilers": "Spoilers",
         "buttons": "Buttons",
-        "formatType": "Format Type"
+        "formatType": "Format Type",
+        "modlogLockAfter": "Modlog reason editing"
     },
     "serverlogLogUpdate": {
         "title": "Log Updated",
