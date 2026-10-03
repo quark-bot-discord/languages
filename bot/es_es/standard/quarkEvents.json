@@ -12,7 +12,8 @@
         "spoilers": "spoilers",
         "buttons": "Botones",
         "formatType": "Tipo de formato",
-        "modlogLockAfter": "Modlog reason editing"
+        "modlogLockAfter": "Modlog reason editing",
+        "modlogLockAfterAlways": "Always editable"
     },
     "serverlogLogUpdate": {
         "title": "Registro actualizado",
