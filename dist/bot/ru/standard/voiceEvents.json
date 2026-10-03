@@ -42,7 +42,8 @@
         "title": "Выход из голосового канала",
         "description": "{user} вышел из {channel}",
         "joined": "Подключился",
-        "joinedValue": "{relative} {relative_fixed}"
+        "joinedValue": "{relative} {relative_fixed}",
+        "channels": "Channels"
     },
     "voiceDisconnect": {
         "title": "Отключен",

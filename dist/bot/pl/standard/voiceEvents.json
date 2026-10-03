@@ -32,7 +32,8 @@
         "title": "Opuszczenie Kanału Głosowego",
         "description": "{user} opuścił kanał głosowy {channel}",
         "joinedValue": "{relative} dla {relative_fixed}",
-        "joined": "Dołączył"
+        "joined": "Dołączył",
+        "channels": "Channels"
     },
     "voiceDisconnect": {
         "title": "Rozłączenie z Kanału Głosowego",
