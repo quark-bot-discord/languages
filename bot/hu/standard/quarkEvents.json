@@ -19,7 +19,8 @@
         "automationRuleSwitchedOn": "Switched on",
         "automationRuleDryOff": "Dry run off",
         "automationRuleSwitchedOff": "Switched off",
-        "automationRuleDoes": "{state} — it {actions}"
+        "automationRuleDoes": "{state} — it {actions}",
+        "automationRuleDoes_alert": "tells a channel"
     },
     "serverlogChannelUpdate": {
         "description_set": "{executor} beállította a(z) {type} logolási csatornát {channel} csatornára",
