@@ -17,7 +17,8 @@
         "uncachedChannel": "قناة غير مخزَّنة مؤقتًا",
         "uncachedUser": "مستخدم غير مخزَّن مؤقتًا",
         "title": "تم حذف رسائل متعددة",
-        "embedAuthor": "Author"
+        "embedAuthor": "Author",
+        "embedTitle": "Title"
     },
     "polls": {
         "noResponses": "لا توجد استجابات",
