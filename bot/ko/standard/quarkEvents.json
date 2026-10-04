@@ -36,7 +36,8 @@
         "automationRuleCreated": "Created",
         "automationRuleDeleted": "Deleted",
         "automationRuleEdited": "Edited",
-        "automationRuleRenamed": "Renamed from {name}"
+        "automationRuleRenamed": "Renamed from {name}",
+        "automationRuleDryOn": "Dry run on"
     },
     "serverlogLogUpdate": {
         "title": "Log Updated",
