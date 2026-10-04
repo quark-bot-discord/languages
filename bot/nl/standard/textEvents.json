@@ -46,7 +46,8 @@
         "embed": "embed",
         "errorFile": "Er was een probleem met het herstellen van de bestanden. Als dit aanhoudt, laat het ons dan weten in Quark's supportserver.",
         "errorText": "Er was een probleem met het maken van een tekstbestand. Sommige berichten kunnen verloren gaan. Als dit aanhoudt, laat het ons dan weten in Quark's supportserver.",
-        "embedAuthor": "Author"
+        "embedAuthor": "Author",
+        "embedTitle": "Title"
     },
     "messageUpdate": {
         "title": "Bericht Gewijzigd",
