@@ -16,7 +16,8 @@
         "automationRuleEdited": "Edited",
         "automationRuleRenamed": "Renamed from {name}",
         "automationRuleDryOn": "Dry run on",
-        "automationRuleSwitchedOn": "Switched on"
+        "automationRuleSwitchedOn": "Switched on",
+        "automationRuleDryOff": "Dry run off"
     },
     "serverlogLogUpdate": {
         "activeIgnore": "啟用忽略",
