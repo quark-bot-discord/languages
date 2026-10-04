@@ -17,7 +17,8 @@
         "modlogLockAfterNever": "Never editable",
         "modlogLockAfterTimed": "Locks after {duration}",
         "automationRule": "Automation rule {name}",
-        "automationRuleCreated": "Created"
+        "automationRuleCreated": "Created",
+        "automationRuleDeleted": "Deleted"
     },
     "serverlogLogUpdate": {
         "title": "Log Bijgewerkt",
