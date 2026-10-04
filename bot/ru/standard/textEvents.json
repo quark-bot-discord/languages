@@ -48,7 +48,8 @@
         "errorText": "Возникла проблема с созданием текстового файла. Некоторые сообщения могут быть потеряны. Если это происходит постоянно, сообщите нам на сервере поддержки Quark.",
         "embedAuthor": "Author",
         "embedTitle": "Title",
-        "embedImage": "Image"
+        "embedImage": "Image",
+        "embedThumbnail": "Thumbnail"
     },
     "messageUpdate": {
         "title": "Сообщение изменено",
