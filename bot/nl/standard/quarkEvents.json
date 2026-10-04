@@ -24,7 +24,8 @@
         "automationRuleDryOn": "Dry run on",
         "automationRuleSwitchedOn": "Switched on",
         "automationRuleDryOff": "Dry run off",
-        "automationRuleSwitchedOff": "Switched off"
+        "automationRuleSwitchedOff": "Switched off",
+        "automationRuleDoes": "{state} — it {actions}"
     },
     "serverlogLogUpdate": {
         "title": "Log Bijgewerkt",
