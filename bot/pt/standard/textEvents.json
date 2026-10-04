@@ -47,7 +47,8 @@
         "uncachedUser": "uncached user",
         "title": "Multiple Messages Deleted",
         "embedAuthor": "Author",
-        "embedTitle": "Title"
+        "embedTitle": "Title",
+        "embedImage": "Image"
     },
     "messageUpdate": {
         "diff": "Edits",
