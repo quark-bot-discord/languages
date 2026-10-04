@@ -30,7 +30,8 @@
         "automationRuleDoes_timeout": "times members out",
         "automationRuleDoes_skip": "holds the log back",
         "automationRuleDoes_kick": "kicks members",
-        "automationRuleDoes_ban": "bans members"
+        "automationRuleDoes_ban": "bans members",
+        "automationRuleDoes_delmsg": "deletes messages"
     },
     "serverlogLogUpdate": {
         "title": "Log Bijgewerkt",
