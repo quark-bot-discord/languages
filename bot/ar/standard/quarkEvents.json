@@ -26,7 +26,8 @@
         "automationRuleDoes_kick": "kicks members",
         "automationRuleDoes_ban": "bans members",
         "automationRuleDoes_delmsg": "deletes messages",
-        "automationRuleDoes_notice": "adds a notice to the log"
+        "automationRuleDoes_notice": "adds a notice to the log",
+        "automationRuleDoes_role": "gives or takes roles"
     },
     "serverlogChannelUpdate": {
         "description_set": "قام {executor} بتعيين قناة لوق {type} إلى {channel}",
