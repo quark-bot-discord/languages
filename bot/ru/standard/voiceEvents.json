@@ -11,7 +11,8 @@
     },
     "streamStop": {
         "title": "Трансляция завершена",
-        "description": "{user} закончил трансляцию в {channel}"
+        "description": "{user} закончил трансляцию в {channel}",
+        "streamedFor": "Streamed for"
     },
     "videoStart": {
         "title": "Веб-камера включена",
