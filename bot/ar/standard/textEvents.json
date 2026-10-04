@@ -21,7 +21,8 @@
         "embedTitle": "Title",
         "embedImage": "Image",
         "embedThumbnail": "Thumbnail",
-        "embedVideo": "Video"
+        "embedVideo": "Video",
+        "embedFooter": "Footer"
     },
     "polls": {
         "noResponses": "لا توجد استجابات",
