@@ -85,7 +85,8 @@
         "errorFile": "There was an issue with recovering the files. If this happens persistently, please make us aware in Quark's support server.",
         "embed": "embed",
         "uncachedMessage": "uncached message",
-        "uncachedChannel": "uncached channel"
+        "uncachedChannel": "uncached channel",
+        "embedAuthor": "Author"
     },
     "messagePin": {
         "title": "Message Pinned",
