@@ -22,7 +22,8 @@
         "automationRuleDoes": "{state} — it {actions}",
         "automationRuleDoes_alert": "tells a channel",
         "automationRuleDoes_timeout": "times members out",
-        "automationRuleDoes_skip": "holds the log back"
+        "automationRuleDoes_skip": "holds the log back",
+        "automationRuleDoes_kick": "kicks members"
     },
     "serverlogLogUpdate": {
         "activeIgnore": "啟用忽略",
