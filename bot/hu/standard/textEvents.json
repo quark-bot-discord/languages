@@ -80,7 +80,8 @@
         "errorText": "Probléma merült fel a szövegfájl létrehozásával. Előfordulhat, hogy egyes üzenetek elvesznek. Ha ez folyamatosan előfordul, kérjük, jelezze nekünk a Quark támogatási szerverén.",
         "channel": "Csatorna",
         "embedAuthor": "Author",
-        "embedTitle": "Title"
+        "embedTitle": "Title",
+        "embedImage": "Image"
     },
     "threadCreate": {
         "description": "{member} létrehozott egy új gondolatmenetet {thread}",
