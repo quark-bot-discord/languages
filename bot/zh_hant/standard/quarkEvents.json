@@ -126,7 +126,8 @@
         "description_revoked": "{executor} 移除了 {subject} 的控制面板存取權限",
         "capability_viewLogs": "View logs",
         "capability_viewLogHistory": "View log history",
-        "capability_exportLogs": "Export logs"
+        "capability_exportLogs": "Export logs",
+        "capability_viewConfig": "View configuration"
     },
     "ruleNotice": "Notice",
     "ruleAction": {
