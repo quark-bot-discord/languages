@@ -32,7 +32,8 @@
         "modlogLockAfterAlways": "Always editable",
         "modlogLockAfterNever": "Never editable",
         "modlogLockAfterTimed": "Locks after {duration}",
-        "automationRule": "Automation rule {name}"
+        "automationRule": "Automation rule {name}",
+        "automationRuleCreated": "Created"
     },
     "serverlogLogUpdate": {
         "title": "Log Updated",
