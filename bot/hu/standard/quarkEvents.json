@@ -125,7 +125,8 @@
         "description_updated": "{executor} megváltoztatta {subject} nak/nek kezelőfelület hozzáférését erre: {capabilities}",
         "description_revoked": "{executor} törölte {subject} nak/nek kezelőfelület hozzáférését",
         "capability_viewLogs": "View logs",
-        "capability_viewLogHistory": "View log history"
+        "capability_viewLogHistory": "View log history",
+        "capability_exportLogs": "Export logs"
     },
     "ruleNotice": "Notice",
     "ruleAction": {
