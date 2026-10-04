@@ -12,7 +12,8 @@
         "modlogLockAfterTimed": "Locks after {duration}",
         "automationRule": "Automation rule {name}",
         "automationRuleCreated": "Created",
-        "automationRuleDeleted": "Deleted"
+        "automationRuleDeleted": "Deleted",
+        "automationRuleEdited": "Edited"
     },
     "serverlogChannelUpdate": {
         "description_set": "{executor} beállította a(z) {type} logolási csatornát {channel} csatornára",
