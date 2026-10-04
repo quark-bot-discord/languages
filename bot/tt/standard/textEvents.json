@@ -86,7 +86,8 @@
         "embed": "embed",
         "uncachedMessage": "uncached message",
         "uncachedChannel": "uncached channel",
-        "embedAuthor": "Author"
+        "embedAuthor": "Author",
+        "embedTitle": "Title"
     },
     "messagePin": {
         "title": "Message Pinned",
