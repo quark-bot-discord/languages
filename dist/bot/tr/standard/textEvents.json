@@ -45,7 +45,8 @@
         "uncachedMessage": "önbelleğe alınmamış mesaj",
         "embed": "gömülü mesaj",
         "errorFile": "Dosyaları kurtarırken bir sorun oluştu. Bu sürekli olarak olursa, lütfen bizi destek sunucumuzda bilgilendirin.",
-        "errorText": "Bir metin dosyası oluştururken bir sorun oluştu. Bazı mesajlar kaybolabilir. Bu sürekli olarak olursa, lütfen bizi destek sunucumuzda bilgilendirin."
+        "errorText": "Bir metin dosyası oluştururken bir sorun oluştu. Bazı mesajlar kaybolabilir. Bu sürekli olarak olursa, lütfen bizi destek sunucumuzda bilgilendirin.",
+        "embedAuthor": "Author"
     },
     "messageUpdate": {
         "title": "Mesaj Düzenlendi",

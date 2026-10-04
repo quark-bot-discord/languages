@@ -5,7 +5,8 @@
     },
     "streamStop": {
         "title": "Entertainment Ended",
-        "description": "Th' crew had enough, so {user} stopped entertaining th' crew in the {channel} cabin"
+        "description": "Th' crew had enough, so {user} stopped entertaining th' crew in the {channel} cabin",
+        "streamedFor": "Streamed for"
     },
     "videoStart": {
         "title": "Video Entertainment Started",

@@ -5,7 +5,8 @@
     },
     "streamStop": {
         "title": "Stream beendet",
-        "description": "{user} hat den Stream in {channel} gestoppt"
+        "description": "{user} hat den Stream in {channel} gestoppt",
+        "streamedFor": "Streamed for"
     },
     "videoStart": {
         "title": "Kamera eingeschaltet",

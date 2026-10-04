@@ -1,5 +1,6 @@
 {
     "enabled": "aktifleştirildi",
     "disabled": "devre dışı bırakıldı",
-    "none": "hiçbiri"
+    "none": "hiçbiri",
+    "holographic": "holographic"
 }

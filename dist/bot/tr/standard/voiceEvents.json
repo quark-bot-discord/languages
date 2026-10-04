@@ -5,7 +5,8 @@
     },
     "streamStop": {
         "title": "Yayın Bitti",
-        "description": "{user}, {channel} ses kanalında videoyu durdurdu"
+        "description": "{user}, {channel} ses kanalında videoyu durdurdu",
+        "streamedFor": "Streamed for"
     },
     "videoStart": {
         "title": "Video Başladı",

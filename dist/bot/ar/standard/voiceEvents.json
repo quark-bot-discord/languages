@@ -65,7 +65,8 @@
     },
     "streamStop": {
         "description": "توقف {user} عن البث في قناة الصوت {channel}",
-        "title": "تم إنهاء البث"
+        "title": "تم إنهاء البث",
+        "streamedFor": "Streamed for"
     },
     "voiceLeave": {
         "joined": "انضم",

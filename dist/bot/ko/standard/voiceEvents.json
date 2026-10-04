@@ -5,7 +5,8 @@
     },
     "streamStop": {
         "title": "Stream Ended",
-        "description": "{user} stopped streaming in the {channel} voice channel"
+        "description": "{user} stopped streaming in the {channel} voice channel",
+        "streamedFor": "Streamed for"
     },
     "videoStart": {
         "title": "Video Started",

@@ -107,6 +107,7 @@
     },
     "streamStop": {
         "title": "直播結束",
-        "description": "{user} 停止了在 {channel} 語音聊天室的直播"
+        "description": "{user} 停止了在 {channel} 語音聊天室的直播",
+        "streamedFor": "Streamed for"
     }
 }

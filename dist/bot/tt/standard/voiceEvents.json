@@ -61,7 +61,8 @@
     },
     "streamStop": {
         "description": "{user} stopped streaming in the {channel} voice channel",
-        "title": "Stream Ended"
+        "title": "Stream Ended",
+        "streamedFor": "Streamed for"
     },
     "voiceLeave": {
         "joined": "Joined",

@@ -5,7 +5,8 @@
     },
     "streamStop": {
         "title": "ストリームが終了しました",
-        "description": "{user} が {channel} ボイスチャンネルでの配信を終了しました"
+        "description": "{user} が {channel} ボイスチャンネルでの配信を終了しました",
+        "streamedFor": "Streamed for"
     },
     "videoStart": {
         "title": "ビデオが開始されました",
