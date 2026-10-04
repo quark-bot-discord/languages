@@ -82,7 +82,8 @@
         "embedAuthor": "Author",
         "embedTitle": "Title",
         "embedImage": "Image",
-        "embedThumbnail": "Thumbnail"
+        "embedThumbnail": "Thumbnail",
+        "embedVideo": "Video"
     },
     "threadCreate": {
         "description": "{member} létrehozott egy új gondolatmenetet {thread}",
