@@ -61,7 +61,8 @@
         "embedAuthor": "Author",
         "embedTitle": "Title",
         "embedImage": "Image",
-        "embedThumbnail": "Thumbnail"
+        "embedThumbnail": "Thumbnail",
+        "embedVideo": "Video"
     },
     "attachmentDeleted": {
         "title": "Attachment Deleted"
