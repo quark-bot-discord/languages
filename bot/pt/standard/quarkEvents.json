@@ -134,7 +134,8 @@
         "capability_manageSettings": "Manage server settings",
         "capability_viewAnalytics": "View analytics",
         "capability_manageAccess": "Manage access",
-        "capability_manageAutomations": "Manage automations"
+        "capability_manageAutomations": "Manage automations",
+        "capability_other": "{count} more"
     },
     "ruleNotice": "Notice",
     "ruleAction": {
