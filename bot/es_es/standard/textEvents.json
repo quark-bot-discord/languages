@@ -46,7 +46,8 @@
         "embed": "empotrar",
         "errorFile": "Hubo un problema con la recuperación de los archivos.",
         "errorText": "Hubo un problema con la creación de un archivo de texto.",
-        "embedAuthor": "Author"
+        "embedAuthor": "Author",
+        "embedTitle": "Title"
     },
     "messageUpdate": {
         "title": "Mensaje editado",
