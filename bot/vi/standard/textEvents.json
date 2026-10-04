@@ -48,7 +48,8 @@
         "errorText": "Có vấn đề khi tạo tệp văn bản. Một số tin nhắn có thể bị mất. Nếu điều này xảy ra liên tục, hãy thông báo cho chúng tôi trong máy chủ hỗ trợ của chúng tôi.",
         "embedAuthor": "Author",
         "embedTitle": "Title",
-        "embedImage": "Image"
+        "embedImage": "Image",
+        "embedThumbnail": "Thumbnail"
     },
     "messageUpdate": {
         "title": "Tin nhắn đã chỉnh sửa",
