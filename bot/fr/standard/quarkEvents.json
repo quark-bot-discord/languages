@@ -18,7 +18,8 @@
         "modlogLockAfterTimed": "Locks after {duration}",
         "automationRule": "Automation rule {name}",
         "automationRuleCreated": "Created",
-        "automationRuleDeleted": "Deleted"
+        "automationRuleDeleted": "Deleted",
+        "automationRuleEdited": "Edited"
     },
     "serverlogLogUpdate": {
         "title": "Log mis à jour",
