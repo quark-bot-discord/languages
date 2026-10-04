@@ -135,7 +135,8 @@
         "capability_viewAnalytics": "View analytics",
         "capability_manageAccess": "Manage access",
         "capability_manageAutomations": "Manage automations",
-        "capability_other": "{count} more"
+        "capability_other": "{count} more",
+        "capability_none": "nothing"
     },
     "ruleNotice": "Notice",
     "ruleAction": {
