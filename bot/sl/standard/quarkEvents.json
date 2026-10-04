@@ -139,7 +139,8 @@
         "capability_none": "nothing",
         "preset_logViewer": "Log viewer",
         "preset_logAnalyst": "Log analyst",
-        "preset_moderator": "Moderator"
+        "preset_moderator": "Moderator",
+        "preset_logConfigurator": "Log configurator"
     },
     "ruleNotice": "Notice",
     "ruleAction": {
