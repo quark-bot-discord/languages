@@ -38,7 +38,8 @@
         "automationRuleDeleted": "Deleted",
         "automationRuleEdited": "Edited",
         "automationRuleRenamed": "Renamed from {name}",
-        "automationRuleDryOn": "Dry run on"
+        "automationRuleDryOn": "Dry run on",
+        "automationRuleSwitchedOn": "Switched on"
     },
     "serverlogIgnoreUpdate": {
         "title": "Ignore Options Updated",
