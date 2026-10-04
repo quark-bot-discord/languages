@@ -264,7 +264,9 @@
         "wallCta": "Get log history with Pro",
         "wallFine": "Logs keep posting to your channels either way — nothing changes in Discord.",
         "wallTitle": "That's everything from this session",
-        "wallTitleOne": "That's the only entry from this session"
+        "wallTitleOne": "That's the only entry from this session",
+        "heldBackByRule": "Held back by rule {name}",
+        "ruleNotices": "Notices added by rules"
     },
     "deliveryReason": {
         "local_rate_limit": "This channel is over Discord's rate limit",
