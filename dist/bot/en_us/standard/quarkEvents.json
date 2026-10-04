@@ -133,7 +133,12 @@
         "capability_manageTags": "Manage tags",
         "capability_manageSettings": "Manage server settings",
         "capability_viewAnalytics": "View analytics",
-        "capability_manageAccess": "Manage access"
+        "capability_manageAccess": "Manage access",
+        "capability_manageAutomations": "Manage automations",
+        "capability_other": "{count} more",
+        "capability_none": "nothing",
+        "preset_logViewer": "Log viewer",
+        "preset_logAnalyst": "Log analyst"
     },
     "ruleNotice": "Notice",
     "ruleAction": {
