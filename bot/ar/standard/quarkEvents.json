@@ -125,7 +125,8 @@
         "description_updated": "{executor} changed {subject}'s dashboard access to: {capabilities}",
         "description_revoked": "{executor} removed {subject}'s dashboard access",
         "capability_viewLogs": "View logs",
-        "capability_viewLogHistory": "View log history"
+        "capability_viewLogHistory": "View log history",
+        "capability_exportLogs": "Export logs"
     },
     "ruleNotice": "Notice",
     "ruleAction": {
