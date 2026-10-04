@@ -140,7 +140,8 @@
         "preset_logViewer": "Log viewer",
         "preset_logAnalyst": "Log analyst",
         "preset_moderator": "Moderator",
-        "preset_logConfigurator": "Log configurator"
+        "preset_logConfigurator": "Log configurator",
+        "preset_full": "Full access"
     },
     "ruleNotice": "Notice",
     "ruleAction": {
