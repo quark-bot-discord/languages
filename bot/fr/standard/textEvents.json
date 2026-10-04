@@ -48,7 +48,8 @@
         "errorText": "Un problème est survenu avec la création d'un fichier texte. Certains messages pourraient être perdus. Si cela persiste, signalez-le dans le serveur support de Quark s'il vous plaît.",
         "embedAuthor": "Author",
         "embedTitle": "Title",
-        "embedImage": "Image"
+        "embedImage": "Image",
+        "embedThumbnail": "Thumbnail"
     },
     "messageUpdate": {
         "title": "Message modifié",
