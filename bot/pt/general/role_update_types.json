@@ -1,5 +1,6 @@
 {
     "enabled": "enabled",
     "none": "none",
-    "disabled": "disabled"
+    "disabled": "disabled",
+    "holographic": "holographic"
 }
