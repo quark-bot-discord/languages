@@ -81,7 +81,8 @@
         "channel": "Csatorna",
         "embedAuthor": "Author",
         "embedTitle": "Title",
-        "embedImage": "Image"
+        "embedImage": "Image",
+        "embedThumbnail": "Thumbnail"
     },
     "threadCreate": {
         "description": "{member} létrehozott egy új gondolatmenetet {thread}",
