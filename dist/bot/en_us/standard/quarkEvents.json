@@ -130,7 +130,10 @@
         "capability_viewConfig": "View configuration",
         "capability_manageLogChannels": "Manage log channels",
         "capability_manageLogSettings": "Manage log settings",
-        "capability_manageTags": "Manage tags"
+        "capability_manageTags": "Manage tags",
+        "capability_manageSettings": "Manage server settings",
+        "capability_viewAnalytics": "View analytics",
+        "capability_manageAccess": "Manage access"
     },
     "ruleNotice": "Notice",
     "ruleAction": {
