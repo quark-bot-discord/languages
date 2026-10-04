@@ -118,6 +118,7 @@
         "description_delmsg": "The rule {rule} deleted a message from {member} in {channel}",
         "description_budget": "The rule {rule} reached its hourly limit, so some of what it does was skipped",
         "description_flag_no_permission": "The rule {rule} could not act: Quark is missing a permission it needs",
-        "description_flag_hierarchy": "The rule {rule} could not act on {member}: they own the server, or their highest role is not below Quark's"
+        "description_flag_hierarchy": "The rule {rule} could not act on {member}: they own the server, or their highest role is not below Quark's",
+        "description_flag": "The rule {rule} could not do what it says"
     }
 }
