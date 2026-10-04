@@ -5,7 +5,8 @@
     },
     "streamStop": {
         "title": "Kết thúc Stream",
-        "description": "{user} kết thúc stream trong kênh thoại {channel}"
+        "description": "{user} kết thúc stream trong kênh thoại {channel}",
+        "streamedFor": "Streamed for"
     },
     "videoStart": {
         "title": "Bắt đầu Video",
