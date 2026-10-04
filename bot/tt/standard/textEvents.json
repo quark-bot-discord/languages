@@ -91,7 +91,8 @@
         "embedImage": "Image",
         "embedThumbnail": "Thumbnail",
         "embedVideo": "Video",
-        "embedFooter": "Footer"
+        "embedFooter": "Footer",
+        "embedTimestamp": "Timestamp"
     },
     "messagePin": {
         "title": "Message Pinned",
