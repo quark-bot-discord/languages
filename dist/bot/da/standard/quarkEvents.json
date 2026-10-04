@@ -14,7 +14,13 @@
         "automationRuleCreated": "Created",
         "automationRuleDeleted": "Deleted",
         "automationRuleEdited": "Edited",
-        "automationRuleRenamed": "Renamed from {name}"
+        "automationRuleRenamed": "Renamed from {name}",
+        "automationRuleDryOn": "Dry run on",
+        "automationRuleSwitchedOn": "Switched on",
+        "automationRuleDryOff": "Dry run off",
+        "automationRuleSwitchedOff": "Switched off",
+        "automationRuleDoes": "{state} — it {actions}",
+        "automationRuleDoes_alert": "tells a channel"
     },
     "serverlogChannelUpdate": {
         "description_set": "{executor} set the {type} logging channel to {channel}",
