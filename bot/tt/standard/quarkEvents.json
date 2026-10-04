@@ -116,6 +116,7 @@
         "description_kick": "The rule {rule} kicked {member}",
         "description_ban": "The rule {rule} banned {member}",
         "description_delmsg": "The rule {rule} deleted a message from {member} in {channel}",
-        "description_budget": "The rule {rule} reached its hourly limit, so some of what it does was skipped"
+        "description_budget": "The rule {rule} reached its hourly limit, so some of what it does was skipped",
+        "description_flag_no_permission": "The rule {rule} could not act: Quark is missing a permission it needs"
     }
 }
