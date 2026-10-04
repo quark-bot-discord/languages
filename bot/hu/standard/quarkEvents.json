@@ -108,5 +108,8 @@
         "description_updated": "{executor} megváltoztatta {subject} nak/nek kezelőfelület hozzáférését erre: {capabilities}",
         "description_revoked": "{executor} törölte {subject} nak/nek kezelőfelület hozzáférését"
     },
-    "ruleNotice": "Notice"
+    "ruleNotice": "Notice",
+    "ruleAction": {
+        "title": "Rule Action"
+    }
 }
