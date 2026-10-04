@@ -27,7 +27,8 @@
         "automationRuleSwitchedOff": "Switched off",
         "automationRuleDoes": "{state} — it {actions}",
         "automationRuleDoes_alert": "tells a channel",
-        "automationRuleDoes_timeout": "times members out"
+        "automationRuleDoes_timeout": "times members out",
+        "automationRuleDoes_skip": "holds the log back"
     },
     "serverlogLogUpdate": {
         "title": "ログが更新されました",
