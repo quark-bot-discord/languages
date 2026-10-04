@@ -89,7 +89,8 @@
         "embedAuthor": "Author",
         "embedTitle": "Title",
         "embedImage": "Image",
-        "embedThumbnail": "Thumbnail"
+        "embedThumbnail": "Thumbnail",
+        "embedVideo": "Video"
     },
     "messagePin": {
         "title": "Message Pinned",
