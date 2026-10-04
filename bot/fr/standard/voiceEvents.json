@@ -5,7 +5,8 @@
     },
     "streamStop": {
         "title": "Partage d'écran arrêté",
-        "description": "{user} a arrêté son partage d'écran dans le salon vocal {channel}"
+        "description": "{user} a arrêté son partage d'écran dans le salon vocal {channel}",
+        "streamedFor": "Streamed for"
     },
     "videoStart": {
         "title": "Caméra allumée",
