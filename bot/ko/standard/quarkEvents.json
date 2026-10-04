@@ -112,6 +112,7 @@
     "ruleAction": {
         "title": "Rule Action",
         "description_alert": "The rule {rule} sent an alert to {channel}",
-        "description_timeout": "The rule {rule} timed out {member} for {duration}"
+        "description_timeout": "The rule {rule} timed out {member} for {duration}",
+        "description_kick": "The rule {rule} kicked {member}"
     }
 }
