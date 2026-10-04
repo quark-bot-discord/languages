@@ -97,7 +97,8 @@
         "embedTitle": "Title",
         "embedImage": "Image",
         "embedThumbnail": "Thumbnail",
-        "embedVideo": "Video"
+        "embedVideo": "Video",
+        "embedFooter": "Footer"
     },
     "reactionBundle": {
         "title": "Multiple Reactions Removed"
