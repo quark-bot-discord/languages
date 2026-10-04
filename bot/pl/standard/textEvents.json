@@ -48,7 +48,8 @@
         "errorText": "Wystąpił problem z utworzeniem pliku tekstowego. Niektóre wiadomości mogły zostać utracone. Jeśli problem będzie się powtarzał, prosimy o informację na serwerze wsparcia Quark'a.",
         "embedAuthor": "Author",
         "embedTitle": "Title",
-        "embedImage": "Image"
+        "embedImage": "Image",
+        "embedThumbnail": "Thumbnail"
     },
     "messageUpdate": {
         "title": "Wiadomość Zedytowana",
