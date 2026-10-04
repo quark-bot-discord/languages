@@ -132,7 +132,8 @@
         "capability_manageLogSettings": "Manage log settings",
         "capability_manageTags": "Manage tags",
         "capability_manageSettings": "Manage server settings",
-        "capability_viewAnalytics": "View analytics"
+        "capability_viewAnalytics": "View analytics",
+        "capability_manageAccess": "Manage access"
     },
     "ruleNotice": "Notice",
     "ruleAction": {
