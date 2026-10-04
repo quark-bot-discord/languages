@@ -35,7 +35,8 @@
         "modlogLockAfterTimed": "Locks after {duration}",
         "automationRule": "Automation rule {name}",
         "automationRuleCreated": "Created",
-        "automationRuleDeleted": "Deleted"
+        "automationRuleDeleted": "Deleted",
+        "automationRuleEdited": "Edited"
     },
     "serverlogIgnoreUpdate": {
         "title": "Ignore Options Updated",
