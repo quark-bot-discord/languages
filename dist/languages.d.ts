@@ -462,6 +462,9 @@ export type LanguageStructure = {
   soundboard_sound_update_types: Promise<{
   none: string;
 }>;
+  sticker_update_types: Promise<{
+  none: string;
+}>;
   tags_responses: Promise<{
   "tags-help-description": string;
   "create-success": string;
@@ -485,9 +488,6 @@ export type LanguageStructure = {
   "tag-error-limitreached-0": string;
   "tag-error-limitreached-1": string;
   "tag-createdby": string;
-}>;
-  sticker_update_types: Promise<{
-  none: string;
 }>;
   thread_update_types: Promise<{
   none: string;
@@ -635,6 +635,10 @@ export type LanguageStructure = {
 };
 };
 }>;
+  logging: Promise<{
+  name: string;
+  description: string;
+}>;
   mute: Promise<{
   name: string;
   description: string;
@@ -667,10 +671,6 @@ export type LanguageStructure = {
   description: string;
 };
 };
-}>;
-  logging: Promise<{
-  name: string;
-  description: string;
 }>;
   ping: Promise<{
   name: string;
@@ -856,10 +856,6 @@ export type LanguageStructure = {
 };
 };
 }>;
-  vote: Promise<{
-  name: string;
-  description: string;
-}>;
   unmute: Promise<{
   name: string;
   description: string;
@@ -873,6 +869,10 @@ export type LanguageStructure = {
   description: string;
 };
 };
+}>;
+  vote: Promise<{
+  name: string;
+  description: string;
 }>;
 };
   standard: {
@@ -1137,6 +1137,10 @@ export type LanguageStructure = {
   description_created: string;
   description_updated: string;
   description_revoked: string;
+  capability_viewLogs: string;
+  capability_viewLogHistory: string;
+  capability_exportLogs: string;
+  capability_viewConfig: string;
 };
   ruleNotice: string;
   ruleAction: {
@@ -1912,5 +1916,5 @@ export type LanguageStructure = {
 }>;
 };
 };
-export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "export" | "help" | "initialReactor" | "invite" | "kick" | "language" | "mute" | "logging" | "ping" | "premium" | "privacy" | "purge" | "reason" | "serverlog" | "tags" | "troubleshoot" | "unban" | "vote" | "unmute";
+export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "export" | "help" | "initialReactor" | "invite" | "kick" | "language" | "logging" | "mute" | "ping" | "premium" | "privacy" | "purge" | "reason" | "serverlog" | "tags" | "troubleshoot" | "unban" | "unmute" | "vote";
 export type QuarkLanguageCodes = "en_us" | "en_gb" | "tr" | "vi" | "en_pr" | "pl" | "nl" | "es_es" | "it" | "de" | "fr" | "ru" | "el" | "zh_hant" | "ko" | "sl" | "ar" | "hu" | "ja";
