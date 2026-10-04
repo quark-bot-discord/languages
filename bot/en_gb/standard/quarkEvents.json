@@ -111,6 +111,7 @@
     "ruleNotice": "Notice",
     "ruleAction": {
         "title": "Rule Action",
-        "description_alert": "The rule {rule} sent an alert to {channel}"
+        "description_alert": "The rule {rule} sent an alert to {channel}",
+        "description_timeout": "The rule {rule} timed out {member} for {duration}"
     }
 }
