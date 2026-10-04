@@ -95,7 +95,8 @@
         "errorText": "建立文字檔案時出現問題，部分訊息可能會遺失。如果此問題持續發生，請在 Quark 支援伺服器上告知我們。",
         "embedAuthor": "Author",
         "embedTitle": "Title",
-        "embedImage": "Image"
+        "embedImage": "Image",
+        "embedThumbnail": "Thumbnail"
     },
     "reactionBundle": {
         "title": "Multiple Reactions Removed"
