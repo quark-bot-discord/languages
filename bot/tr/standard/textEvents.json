@@ -48,7 +48,8 @@
         "errorText": "Bir metin dosyası oluştururken bir sorun oluştu. Bazı mesajlar kaybolabilir. Bu sürekli olarak olursa, lütfen bizi destek sunucumuzda bilgilendirin.",
         "embedAuthor": "Author",
         "embedTitle": "Title",
-        "embedImage": "Image"
+        "embedImage": "Image",
+        "embedThumbnail": "Thumbnail"
     },
     "messageUpdate": {
         "title": "Mesaj Düzenlendi",
