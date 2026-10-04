@@ -11,7 +11,8 @@
         "modlogLockAfterNever": "Never editable",
         "modlogLockAfterTimed": "Locks after {duration}",
         "automationRule": "Automation rule {name}",
-        "automationRuleCreated": "Created"
+        "automationRuleCreated": "Created",
+        "automationRuleDeleted": "Deleted"
     },
     "serverlogChannelUpdate": {
         "description_set": "قام {executor} بتعيين قناة لوق {type} إلى {channel}",
