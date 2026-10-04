@@ -18,7 +18,8 @@
         "uncachedUser": "مستخدم غير مخزَّن مؤقتًا",
         "title": "تم حذف رسائل متعددة",
         "embedAuthor": "Author",
-        "embedTitle": "Title"
+        "embedTitle": "Title",
+        "embedImage": "Image"
     },
     "polls": {
         "noResponses": "لا توجد استجابات",
