@@ -123,7 +123,8 @@
         "title": "控制面板存取權限已更改",
         "description_created": "執行人授予主體控制面板存取權限：{capbilities}",
         "description_updated": "{executor} 將 {subject} 的控制面板存取權限變更為：{capabilities}",
-        "description_revoked": "{executor} 移除了 {subject} 的控制面板存取權限"
+        "description_revoked": "{executor} 移除了 {subject} 的控制面板存取權限",
+        "capability_viewLogs": "View logs"
     },
     "ruleNotice": "Notice",
     "ruleAction": {
