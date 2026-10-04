@@ -5,7 +5,8 @@
     },
     "streamStop": {
         "title": "Stream Gestopt",
-        "description": "{user} is gestopt met streamen in het {channel} voice kanaal"
+        "description": "{user} is gestopt met streamen in het {channel} voice kanaal",
+        "streamedFor": "Streamed for"
     },
     "videoStart": {
         "title": "Video Gestart",
