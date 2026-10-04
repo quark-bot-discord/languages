@@ -9,7 +9,12 @@
         "modlogLockAfter": "Modlog reason editing",
         "modlogLockAfterAlways": "Always editable",
         "modlogLockAfterNever": "Never editable",
-        "modlogLockAfterTimed": "Locks after {duration}"
+        "modlogLockAfterTimed": "Locks after {duration}",
+        "automationRule": "Automation rule {name}",
+        "automationRuleCreated": "Created",
+        "automationRuleDeleted": "Deleted",
+        "automationRuleEdited": "Edited",
+        "automationRuleRenamed": "Renamed from {name}"
     },
     "serverlogLogUpdate": {
         "activeIgnore": "啟用忽略",
