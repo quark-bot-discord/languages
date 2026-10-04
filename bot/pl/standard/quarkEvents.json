@@ -122,6 +122,7 @@
         "description_flag": "The rule {rule} could not do what it says",
         "description_flag_error": "The rule {rule} could not be checked, and was skipped",
         "member_unknown": "a member",
-        "channel_unknown": "a channel"
+        "channel_unknown": "a channel",
+        "trigger": "Set off by: {log}"
     }
 }
