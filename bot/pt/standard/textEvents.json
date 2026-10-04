@@ -48,7 +48,8 @@
         "title": "Multiple Messages Deleted",
         "embedAuthor": "Author",
         "embedTitle": "Title",
-        "embedImage": "Image"
+        "embedImage": "Image",
+        "embedThumbnail": "Thumbnail"
     },
     "messageUpdate": {
         "diff": "Edits",
