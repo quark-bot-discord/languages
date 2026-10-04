@@ -108,5 +108,8 @@
         "description_updated": "{executor} changed {subject}'s dashboard access to: {capabilities}",
         "description_revoked": "{executor} removed {subject}'s dashboard access"
     },
-    "ruleNotice": "Notice"
+    "ruleNotice": "Notice",
+    "ruleAction": {
+        "title": "Rule Action"
+    }
 }
