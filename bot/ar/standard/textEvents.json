@@ -19,7 +19,8 @@
         "title": "تم حذف رسائل متعددة",
         "embedAuthor": "Author",
         "embedTitle": "Title",
-        "embedImage": "Image"
+        "embedImage": "Image",
+        "embedThumbnail": "Thumbnail"
     },
     "polls": {
         "noResponses": "لا توجد استجابات",
