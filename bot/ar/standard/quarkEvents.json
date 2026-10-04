@@ -20,7 +20,8 @@
         "automationRuleDryOff": "Dry run off",
         "automationRuleSwitchedOff": "Switched off",
         "automationRuleDoes": "{state} — it {actions}",
-        "automationRuleDoes_alert": "tells a channel"
+        "automationRuleDoes_alert": "tells a channel",
+        "automationRuleDoes_timeout": "times members out"
     },
     "serverlogChannelUpdate": {
         "description_set": "قام {executor} بتعيين قناة لوق {type} إلى {channel}",
