@@ -61,7 +61,8 @@
     },
     "streamStop": {
         "description": "{user} abba hagyta az élőt a(z) {channel} hangcsatornában",
-        "title": "Élő Lezárva"
+        "title": "Élő Lezárva",
+        "streamedFor": "Streamed for"
     },
     "voiceLeave": {
         "joined": "Csatlakozott",
