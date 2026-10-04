@@ -152,7 +152,10 @@
         "101_flag_error": "The rule “{name}” could not be checked, and was skipped",
         "101_flag_budget": "The rule “{name}” reached its hourly limit, so some of what it does was skipped",
         "101_flag": "The rule “{name}” could not do what it says",
-        "101_role_give": "The rule “{name}” gave {role}[ to {value}]"
+        "101_role_give": "The rule “{name}” gave {role}[ to {value}]",
+        "101_role_take": "The rule “{name}” took {role}[ from {value}]",
+        "101_dm": "The rule “{name}” sent a direct message[ to {value}]",
+        "101_flag_role": "The rule “{name}” could not give or take a role[ ({role})]: it is gone, is managed by an integration, or is not below Quark's highest role"
     },
     "ui": {
         "allChannels": "All channels",
