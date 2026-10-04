@@ -46,7 +46,8 @@
         "embed": "埋め込み",
         "errorFile": "ファイルの回復中に問題が発生しました。この問題が繰り返し発生する場合は、Quark のサポートサーバーにお知らせください。",
         "errorText": "テキストファイルの作成中に問題が発生しました。一部のメッセージが失われる可能性があります。この問題が繰り返し発生する場合は、Quark のサポートサーバーにお知らせください。",
-        "embedAuthor": "Author"
+        "embedAuthor": "Author",
+        "embedTitle": "Title"
     },
     "messageUpdate": {
         "title": "メッセージが編集されました",
