@@ -127,7 +127,10 @@
         "capability_viewLogs": "View logs",
         "capability_viewLogHistory": "View log history",
         "capability_exportLogs": "Export logs",
-        "capability_viewConfig": "View configuration"
+        "capability_viewConfig": "View configuration",
+        "capability_manageLogChannels": "Manage log channels",
+        "capability_manageLogSettings": "Manage log settings",
+        "capability_manageTags": "Manage tags"
     },
     "ruleNotice": "Notice",
     "ruleAction": {
