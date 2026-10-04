@@ -20,7 +20,8 @@
         "embedAuthor": "Author",
         "embedTitle": "Title",
         "embedImage": "Image",
-        "embedThumbnail": "Thumbnail"
+        "embedThumbnail": "Thumbnail",
+        "embedVideo": "Video"
     },
     "polls": {
         "noResponses": "No responses",
