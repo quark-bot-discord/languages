@@ -115,6 +115,7 @@
         "description_timeout": "The rule {rule} timed out {member} for {duration}",
         "description_kick": "The rule {rule} kicked {member}",
         "description_ban": "The rule {rule} banned {member}",
-        "description_delmsg": "The rule {rule} deleted a message from {member} in {channel}"
+        "description_delmsg": "The rule {rule} deleted a message from {member} in {channel}",
+        "description_budget": "The rule {rule} reached its hourly limit, so some of what it does was skipped"
     }
 }
