@@ -138,7 +138,10 @@
         "capability_other": "{count} more",
         "capability_none": "nothing",
         "preset_logViewer": "Log viewer",
-        "preset_logAnalyst": "Log analyst"
+        "preset_logAnalyst": "Log analyst",
+        "preset_moderator": "Moderator",
+        "preset_logConfigurator": "Log configurator",
+        "preset_full": "Full access"
     },
     "ruleNotice": "Notice",
     "ruleAction": {
