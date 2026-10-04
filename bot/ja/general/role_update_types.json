@@ -1,5 +1,6 @@
 {
     "enabled": "有効",
     "disabled": "無効",
-    "none": "なし"
+    "none": "なし",
+    "holographic": "holographic"
 }
