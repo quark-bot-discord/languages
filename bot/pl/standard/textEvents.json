@@ -45,7 +45,8 @@
         "uncachedMessage": "niezapisana wiadomość",
         "embed": "osadzone",
         "errorFile": "Wystąpił problem z odzyskaniem plików. Jeśli problem będzie się powtarzał, prosimy o informację na serwerze wsparcia Quark'a.",
-        "errorText": "Wystąpił problem z utworzeniem pliku tekstowego. Niektóre wiadomości mogły zostać utracone. Jeśli problem będzie się powtarzał, prosimy o informację na serwerze wsparcia Quark'a."
+        "errorText": "Wystąpił problem z utworzeniem pliku tekstowego. Niektóre wiadomości mogły zostać utracone. Jeśli problem będzie się powtarzał, prosimy o informację na serwerze wsparcia Quark'a.",
+        "embedAuthor": "Author"
     },
     "messageUpdate": {
         "title": "Wiadomość Zedytowana",
