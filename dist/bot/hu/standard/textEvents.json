@@ -79,7 +79,11 @@
         "deletedBy": "Törlő",
         "errorText": "Probléma merült fel a szövegfájl létrehozásával. Előfordulhat, hogy egyes üzenetek elvesznek. Ha ez folyamatosan előfordul, kérjük, jelezze nekünk a Quark támogatási szerverén.",
         "channel": "Csatorna",
-        "embedAuthor": "Author"
+        "embedAuthor": "Author",
+        "embedTitle": "Title",
+        "embedImage": "Image",
+        "embedThumbnail": "Thumbnail",
+        "embedVideo": "Video"
     },
     "threadCreate": {
         "description": "{member} létrehozott egy új gondolatmenetet {thread}",

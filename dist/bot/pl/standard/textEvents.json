@@ -46,7 +46,11 @@
         "embed": "osadzone",
         "errorFile": "Wystąpił problem z odzyskaniem plików. Jeśli problem będzie się powtarzał, prosimy o informację na serwerze wsparcia Quark'a.",
         "errorText": "Wystąpił problem z utworzeniem pliku tekstowego. Niektóre wiadomości mogły zostać utracone. Jeśli problem będzie się powtarzał, prosimy o informację na serwerze wsparcia Quark'a.",
-        "embedAuthor": "Author"
+        "embedAuthor": "Author",
+        "embedTitle": "Title",
+        "embedImage": "Image",
+        "embedThumbnail": "Thumbnail",
+        "embedVideo": "Video"
     },
     "messageUpdate": {
         "title": "Wiadomość Zedytowana",

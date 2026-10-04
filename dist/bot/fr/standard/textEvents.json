@@ -46,7 +46,11 @@
         "embed": "embed",
         "errorFile": "Un problème est survenu avec la récupération des fichiers. Si cela persiste, signalez-le dans le serveur support de Quark s'il vous plaît.",
         "errorText": "Un problème est survenu avec la création d'un fichier texte. Certains messages pourraient être perdus. Si cela persiste, signalez-le dans le serveur support de Quark s'il vous plaît.",
-        "embedAuthor": "Author"
+        "embedAuthor": "Author",
+        "embedTitle": "Title",
+        "embedImage": "Image",
+        "embedThumbnail": "Thumbnail",
+        "embedVideo": "Video"
     },
     "messageUpdate": {
         "title": "Message modifié",

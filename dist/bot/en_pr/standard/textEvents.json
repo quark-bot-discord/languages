@@ -46,7 +46,11 @@
         "embed": "embed",
         "errorFile": "There was an issue with recovering the files. If this happens persistently, please make us aware in Quark's support server.",
         "errorText": "There was an issue with creating a text file. Some messages may be lost. If this happens persistently, please make us aware in Quark's support server.",
-        "embedAuthor": "Author"
+        "embedAuthor": "Author",
+        "embedTitle": "Title",
+        "embedImage": "Image",
+        "embedThumbnail": "Thumbnail",
+        "embedVideo": "Video"
     },
     "messageUpdate": {
         "title": "Message Rewritten",

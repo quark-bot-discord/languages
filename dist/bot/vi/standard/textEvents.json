@@ -46,7 +46,11 @@
         "embed": "nhúng",
         "errorFile": "Có vấn đề khi khôi phục các tệp tin. Nếu điều này xảy ra liên tục, hãy thông báo cho chúng tôi trong máy chủ hỗ trợ của chúng tôi.",
         "errorText": "Có vấn đề khi tạo tệp văn bản. Một số tin nhắn có thể bị mất. Nếu điều này xảy ra liên tục, hãy thông báo cho chúng tôi trong máy chủ hỗ trợ của chúng tôi.",
-        "embedAuthor": "Author"
+        "embedAuthor": "Author",
+        "embedTitle": "Title",
+        "embedImage": "Image",
+        "embedThumbnail": "Thumbnail",
+        "embedVideo": "Video"
     },
     "messageUpdate": {
         "title": "Tin nhắn đã chỉnh sửa",
