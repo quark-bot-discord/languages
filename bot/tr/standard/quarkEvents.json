@@ -110,6 +110,7 @@
     },
     "ruleNotice": "Notice",
     "ruleAction": {
-        "title": "Rule Action"
+        "title": "Rule Action",
+        "description_alert": "The rule {rule} sent an alert to {channel}"
     }
 }
