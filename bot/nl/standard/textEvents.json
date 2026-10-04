@@ -48,7 +48,8 @@
         "errorText": "Er was een probleem met het maken van een tekstbestand. Sommige berichten kunnen verloren gaan. Als dit aanhoudt, laat het ons dan weten in Quark's supportserver.",
         "embedAuthor": "Author",
         "embedTitle": "Title",
-        "embedImage": "Image"
+        "embedImage": "Image",
+        "embedThumbnail": "Thumbnail"
     },
     "messageUpdate": {
         "title": "Bericht Gewijzigd",
