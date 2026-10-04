@@ -31,7 +31,8 @@
         "automationRuleDoes_skip": "holds the log back",
         "automationRuleDoes_kick": "kicks members",
         "automationRuleDoes_ban": "bans members",
-        "automationRuleDoes_delmsg": "deletes messages"
+        "automationRuleDoes_delmsg": "deletes messages",
+        "automationRuleDoes_notice": "adds a notice to the log"
     },
     "serverlogLogUpdate": {
         "title": "Log mis à jour",
