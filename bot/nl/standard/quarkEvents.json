@@ -136,7 +136,8 @@
         "capability_manageAccess": "Manage access",
         "capability_manageAutomations": "Manage automations",
         "capability_other": "{count} more",
-        "capability_none": "nothing"
+        "capability_none": "nothing",
+        "preset_logViewer": "Log viewer"
     },
     "ruleNotice": "Notice",
     "ruleAction": {
