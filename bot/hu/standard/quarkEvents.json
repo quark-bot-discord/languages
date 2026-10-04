@@ -21,7 +21,8 @@
         "automationRuleSwitchedOff": "Switched off",
         "automationRuleDoes": "{state} — it {actions}",
         "automationRuleDoes_alert": "tells a channel",
-        "automationRuleDoes_timeout": "times members out"
+        "automationRuleDoes_timeout": "times members out",
+        "automationRuleDoes_skip": "holds the log back"
     },
     "serverlogChannelUpdate": {
         "description_set": "{executor} beállította a(z) {type} logolási csatornát {channel} csatornára",
