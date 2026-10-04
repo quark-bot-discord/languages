@@ -158,6 +158,7 @@
         "description_flag_error": "The rule {rule} could not be checked, and was skipped",
         "member_unknown": "a member",
         "channel_unknown": "a channel",
-        "trigger": "Set off by: {log}"
+        "trigger": "Set off by: {log}",
+        "description_role_give": "The rule {rule} gave {role} to {member}"
     }
 }
