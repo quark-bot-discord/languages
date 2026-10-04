@@ -47,7 +47,8 @@
         "errorFile": "Hubo un problema con la recuperación de los archivos.",
         "errorText": "Hubo un problema con la creación de un archivo de texto.",
         "embedAuthor": "Author",
-        "embedTitle": "Title"
+        "embedTitle": "Title",
+        "embedImage": "Image"
     },
     "messageUpdate": {
         "title": "Mensaje editado",
