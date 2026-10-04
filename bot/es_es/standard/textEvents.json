@@ -48,7 +48,8 @@
         "errorText": "Hubo un problema con la creación de un archivo de texto.",
         "embedAuthor": "Author",
         "embedTitle": "Title",
-        "embedImage": "Image"
+        "embedImage": "Image",
+        "embedThumbnail": "Thumbnail"
     },
     "messageUpdate": {
         "title": "Mensaje editado",
