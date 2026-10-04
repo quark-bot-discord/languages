@@ -78,7 +78,8 @@
         "title": "Több Üzenet Törölve",
         "deletedBy": "Törlő",
         "errorText": "Probléma merült fel a szövegfájl létrehozásával. Előfordulhat, hogy egyes üzenetek elvesznek. Ha ez folyamatosan előfordul, kérjük, jelezze nekünk a Quark támogatási szerverén.",
-        "channel": "Csatorna"
+        "channel": "Csatorna",
+        "embedAuthor": "Author"
     },
     "threadCreate": {
         "description": "{member} létrehozott egy új gondolatmenetet {thread}",
