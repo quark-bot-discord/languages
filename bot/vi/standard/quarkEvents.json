@@ -160,6 +160,7 @@
         "channel_unknown": "a channel",
         "trigger": "Set off by: {log}",
         "description_role_give": "The rule {rule} gave {role} to {member}",
-        "description_role_take": "The rule {rule} took {role} from {member}"
+        "description_role_take": "The rule {rule} took {role} from {member}",
+        "description_dm": "The rule {rule} sent {member} a direct message"
     }
 }
