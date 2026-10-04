@@ -83,7 +83,9 @@
         "embedTitle": "Title",
         "embedImage": "Image",
         "embedThumbnail": "Thumbnail",
-        "embedVideo": "Video"
+        "embedVideo": "Video",
+        "embedFooter": "Footer",
+        "embedTimestamp": "Timestamp"
     },
     "threadCreate": {
         "description": "{member} létrehozott egy új gondolatmenetet {thread}",

@@ -50,7 +50,9 @@
         "embedTitle": "Title",
         "embedImage": "Image",
         "embedThumbnail": "Thumbnail",
-        "embedVideo": "Video"
+        "embedVideo": "Video",
+        "embedFooter": "Footer",
+        "embedTimestamp": "Timestamp"
     },
     "messageUpdate": {
         "title": "Nachricht editiert",
