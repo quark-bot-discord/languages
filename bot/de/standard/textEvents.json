@@ -47,7 +47,8 @@
         "errorFile": "Beim wiederherstellen der Dateien ist ein Fehler aufgetreten. Wenn das häufiger passiert, melde den Fehler bitte auf dem Quark's Support Server.",
         "errorText": "Beim erstellen der Textdatei ist ein Fehler aufgetreten. Einige Nachrichten vielleicht vielleicht. Wenn das häufiger passiert, melde den Fehler bitte auf dem Quark's Support Server.",
         "embedAuthor": "Author",
-        "embedTitle": "Title"
+        "embedTitle": "Title",
+        "embedImage": "Image"
     },
     "messageUpdate": {
         "title": "Nachricht editiert",
