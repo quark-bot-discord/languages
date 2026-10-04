@@ -15,7 +15,8 @@
         "modlogLockAfter": "Modlog reason editing",
         "modlogLockAfterAlways": "Always editable",
         "modlogLockAfterNever": "Never editable",
-        "modlogLockAfterTimed": "Locks after {duration}"
+        "modlogLockAfterTimed": "Locks after {duration}",
+        "automationRule": "Automation rule {name}"
     },
     "serverlogLogUpdate": {
         "title": "Log zaktualizowany",
