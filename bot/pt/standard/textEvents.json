@@ -46,7 +46,8 @@
         "uncachedChannel": "uncached channel",
         "uncachedUser": "uncached user",
         "title": "Multiple Messages Deleted",
-        "embedAuthor": "Author"
+        "embedAuthor": "Author",
+        "embedTitle": "Title"
     },
     "messageUpdate": {
         "diff": "Edits",
