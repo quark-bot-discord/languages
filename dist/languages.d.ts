@@ -973,6 +973,44 @@ export type LanguageStructure = {
   none: string;
 };
 }>;
+  modlog: Promise<{
+  moderator: string;
+  user: string;
+  reason: string;
+  case: string;
+  noReason: string;
+  noReasonBrief: string;
+  ban: string;
+  unban: string;
+  kick: string;
+  mute: string;
+  unmute: string;
+  timeoutEnds: string;
+  editReason: string;
+  reasonModal: {
+  label: string;
+  placeholder: string;
+  title: string;
+};
+  usingBot: string;
+  lock: string;
+  unlock: string;
+  history: string;
+  editedBy: string;
+  editedByMany: string;
+  lockedManual: string;
+  lockedDisabled: string;
+  lockedExpired: string;
+  historyTitle: string;
+  historyEdited: string;
+  historyLocked: string;
+  historyUnlocked: string;
+  historyEarlier: string;
+  historyEarlierOne: string;
+  historyUpsell: string;
+  historyEmpty: string;
+  historyUnavailable: string;
+}>;
   quarkEvents: Promise<{
   serverlogChannelUpdate: {
   title: string;
@@ -1008,6 +1046,8 @@ export type LanguageStructure = {
   automationRuleDoes_ban: string;
   automationRuleDoes_delmsg: string;
   automationRuleDoes_notice: string;
+  automationRuleDoes_role: string;
+  automationRuleDoes_dm: string;
 };
   serverlogLogUpdate: {
   title: string;
@@ -1141,44 +1181,6 @@ export type LanguageStructure = {
   role_unknown: string;
   dm_footer: string;
 };
-}>;
-  modlog: Promise<{
-  moderator: string;
-  user: string;
-  reason: string;
-  case: string;
-  noReason: string;
-  noReasonBrief: string;
-  ban: string;
-  unban: string;
-  kick: string;
-  mute: string;
-  unmute: string;
-  timeoutEnds: string;
-  editReason: string;
-  reasonModal: {
-  label: string;
-  placeholder: string;
-  title: string;
-};
-  usingBot: string;
-  lock: string;
-  unlock: string;
-  history: string;
-  editedBy: string;
-  editedByMany: string;
-  lockedManual: string;
-  lockedDisabled: string;
-  lockedExpired: string;
-  historyTitle: string;
-  historyEdited: string;
-  historyLocked: string;
-  historyUnlocked: string;
-  historyEarlier: string;
-  historyEarlierOne: string;
-  historyUpsell: string;
-  historyEmpty: string;
-  historyUnavailable: string;
 }>;
   roleEvents: Promise<{
   roleCreated: {
@@ -1810,6 +1812,7 @@ export type LanguageStructure = {
   "101_flag_error": string;
   "101_flag_budget": string;
   "101_flag": string;
+  "101_role_give": string;
 };
   ui: {
   allChannels: string;

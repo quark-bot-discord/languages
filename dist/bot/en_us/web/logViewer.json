@@ -151,7 +151,8 @@
         "101_flag_hierarchy": "The rule “{name}” could not act[ on {value}]: they own the server, or their highest role is not below Quark's",
         "101_flag_error": "The rule “{name}” could not be checked, and was skipped",
         "101_flag_budget": "The rule “{name}” reached its hourly limit, so some of what it does was skipped",
-        "101_flag": "The rule “{name}” could not do what it says"
+        "101_flag": "The rule “{name}” could not do what it says",
+        "101_role_give": "The rule “{name}” gave {role}[ to {value}]"
     },
     "ui": {
         "allChannels": "All channels",
