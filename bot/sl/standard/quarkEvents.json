@@ -137,7 +137,8 @@
         "capability_manageAutomations": "Manage automations",
         "capability_other": "{count} more",
         "capability_none": "nothing",
-        "preset_logViewer": "Log viewer"
+        "preset_logViewer": "Log viewer",
+        "preset_logAnalyst": "Log analyst"
     },
     "ruleNotice": "Notice",
     "ruleAction": {
