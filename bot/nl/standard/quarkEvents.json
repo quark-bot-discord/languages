@@ -19,7 +19,8 @@
         "automationRule": "Automation rule {name}",
         "automationRuleCreated": "Created",
         "automationRuleDeleted": "Deleted",
-        "automationRuleEdited": "Edited"
+        "automationRuleEdited": "Edited",
+        "automationRuleRenamed": "Renamed from {name}"
     },
     "serverlogLogUpdate": {
         "title": "Log Bijgewerkt",
