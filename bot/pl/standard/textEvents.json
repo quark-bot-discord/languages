@@ -33,7 +33,8 @@
         "noContent": "brak treści",
         "embed": "osadzone",
         "thread": "Wątek",
-        "initialReactor": "reagujący"
+        "initialReactor": "reagujący",
+        "filesWithheldCsam": "Files withheld ({count}): matched known child sexual abuse material. Reported to Quark."
     },
     "messagesBulkDeleted": {
         "title": "Usunięto Wiele Wiadomości",
