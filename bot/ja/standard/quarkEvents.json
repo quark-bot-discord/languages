@@ -53,7 +53,8 @@
         "description_unset": "{executor} が {type} を無効にしました",
         "description_added": "{executor} が {target} を {type} に追加しました",
         "description_removed": "{executor} が {type} から {target} を削除しました",
-        "description_request_by": "{executor} used {type} to ask Quark not to log {logs} by {subject}: up to {count} in the next {duration}"
+        "description_request_by": "{executor} used {type} to ask Quark not to log {logs} by {subject}: up to {count} in the next {duration}",
+        "description_request_about": "{executor} used {type} to ask Quark not to log {logs} about {subject}: up to {count} in the next {duration}"
     },
     "languageUpdate": {
         "title": "言語が変更されました",
