@@ -69,7 +69,8 @@
         "title": "تم تحديث إعدادات التجاهل",
         "description_removed": "قام {executor} بإزالة {target} من {type}",
         "description_added": "قام {executor} بإضافة {target} إلى {type}",
-        "description_request_by": "{executor} used {type} to ask Quark not to log {logs} by {subject}: up to {count} in the next {duration}"
+        "description_request_by": "{executor} used {type} to ask Quark not to log {logs} by {subject}: up to {count} in the next {duration}",
+        "description_request_about": "{executor} used {type} to ask Quark not to log {logs} about {subject}: up to {count} in the next {duration}"
     },
     "tokenAdded": {
         "unique_id": "معرف الـToken",
