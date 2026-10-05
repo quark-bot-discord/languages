@@ -20,7 +20,8 @@
         "fileExpired": "fájl túl nagy vagy lejárt",
         "initialReactor": "kezdeti reaktor",
         "filesWithheldCsam": "Files withheld ({count}): matched known child sexual abuse material. Reported to Quark.",
-        "filesWithheldHarmful": "Files withheld ({count}): matched known material that is harmful to children. Reported to Quark."
+        "filesWithheldHarmful": "Files withheld ({count}): matched known material that is harmful to children. Reported to Quark.",
+        "filesWithheldUnchecked": "Files withheld ({count}): they could not be safety-checked."
     },
     "threadDelete": {
         "description": "{executor} törölte a gondolatmenetet {thread}",
