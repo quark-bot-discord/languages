@@ -58,7 +58,8 @@
         "description_set": "{executor} 啟用了 {type}",
         "description_unset": "{executor} 停用了 {type}",
         "description_added": "{executor} 將 {target} 加入了 {type}",
-        "description_removed": "{executor} 將 {target} 從 {type} 移除"
+        "description_removed": "{executor} 將 {target} 從 {type} 移除",
+        "description_request_by": "{executor} used {type} to ask Quark not to log {logs} by {subject}: up to {count} in the next {duration}"
     },
     "languageUpdate": {
         "title": "語言已更改",
