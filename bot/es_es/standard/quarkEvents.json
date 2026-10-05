@@ -171,6 +171,7 @@
         "description_flag_saver_timeout": "The rule {rule} could not act: the person who last changed it is timed out, and a member who is timed out cannot moderate. It will act again when their timeout ends",
         "description_flag_saver_channel": "The rule {rule} could not delete a message in {channel}: the person who last changed the rule cannot delete messages there themselves",
         "description_flag_saver_hierarchy": "The rule {rule} could not act on {member}: their highest role is not below that of the person who last changed the rule",
-        "description_flag_saver_role": "The rule {rule} could not give or take {role}: the role is not below the highest role of the person who last changed the rule"
+        "description_flag_saver_role": "The rule {rule} could not give or take {role}: the role is not below the highest role of the person who last changed the rule",
+        "description_flag_role_elevated": "The rule {rule} could not give {role}: the role comes with moderation or management permissions, and only a rule the server's owner last changed gives one of those"
     }
 }
