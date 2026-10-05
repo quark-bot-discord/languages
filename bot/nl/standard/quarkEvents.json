@@ -52,7 +52,8 @@
         "description_set": "{executor} heeft {type} ingeschakeld",
         "description_unset": "{executor} heeft {type} uitgeschakeld",
         "description_added": "{executor} heeft {target} toegevoegd aan {type}",
-        "description_removed": "{executor} heeft {target} verwijderd uit {type}"
+        "description_removed": "{executor} heeft {target} verwijderd uit {type}",
+        "description_request_by": "{executor} used {type} to ask Quark not to log {logs} by {subject}: up to {count} in the next {duration}"
     },
     "languageUpdate": {
         "title": "Taal Gewijzigd",
