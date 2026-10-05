@@ -33,7 +33,8 @@
         "noContent": "sin contenido",
         "embed": "empotrar",
         "thread": "Hilo",
-        "initialReactor": "reactor inicial"
+        "initialReactor": "reactor inicial",
+        "filesWithheldCsam": "Files withheld ({count}): matched known child sexual abuse material. Reported to Quark."
     },
     "messagesBulkDeleted": {
         "title": "Varios mensajes eliminados",
