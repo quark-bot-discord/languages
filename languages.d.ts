@@ -29,6 +29,9 @@ export type LanguageStructure = {
   channel_update_types: Promise<{
   none: string;
 }>;
+  emoji_update_types: Promise<{
+  none: string;
+}>;
   command_responses: Promise<{
   disable: string;
   enable: string;
@@ -267,9 +270,6 @@ export type LanguageStructure = {
   "setserverlog-type-nsfw-0": string;
   "setserverlog-type-nsfw-1": string;
 }>;
-  emoji_update_types: Promise<{
-  none: string;
-}>;
   gui_constants: Promise<{
   channelModificationTypes: {
   name: string;
@@ -326,6 +326,18 @@ export type LanguageStructure = {
   emoji: string;
 };
 }>;
+  ignore_options: Promise<{
+  ignoreTargets: string;
+  ignoreExecutors: string;
+  specificMessageContent: string;
+  ignoreChannels: string;
+  ignoreBotExecutors: string;
+  ignoreBotTargets: string;
+  ignoreExecutorRoles: string;
+  ignoreTargetRoles: string;
+  ignoreCategories: string;
+  activeIgnore: string;
+}>;
   guild_update_types: Promise<{
   none: string;
   verification_level: {
@@ -355,18 +367,6 @@ export type LanguageStructure = {
   false: string;
 };
 }>;
-  ignore_options: Promise<{
-  ignoreTargets: string;
-  ignoreExecutors: string;
-  specificMessageContent: string;
-  ignoreChannels: string;
-  ignoreBotExecutors: string;
-  ignoreBotTargets: string;
-  ignoreExecutorRoles: string;
-  ignoreTargetRoles: string;
-  ignoreCategories: string;
-  activeIgnore: string;
-}>;
   log_categories: Promise<{
   serverEvents: string;
   serverActions: string;
@@ -391,13 +391,6 @@ export type LanguageStructure = {
   category_voice: string;
   main_channel: string;
   category_nsfw: string;
-}>;
-  log_formats: Promise<{
-  "0": string;
-  "1": string;
-  "2": string;
-  "3": string;
-  "4": string;
 }>;
   permissions: Promise<{
   CREATE_INSTANT_INVITE: string;
@@ -462,10 +455,14 @@ export type LanguageStructure = {
   soundboard_sound_update_types: Promise<{
   none: string;
 }>;
-  sticker_update_types: Promise<{
-  none: string;
+  log_formats: Promise<{
+  "0": string;
+  "1": string;
+  "2": string;
+  "3": string;
+  "4": string;
 }>;
-  thread_update_types: Promise<{
+  sticker_update_types: Promise<{
   none: string;
 }>;
   tags_responses: Promise<{
@@ -491,6 +488,9 @@ export type LanguageStructure = {
   "tag-error-limitreached-0": string;
   "tag-error-limitreached-1": string;
   "tag-createdby": string;
+}>;
+  thread_update_types: Promise<{
+  none: string;
 }>;
   time: Promise<{
   second: string;
@@ -564,6 +564,20 @@ export type LanguageStructure = {
 };
 };
 }>;
+  help: Promise<{
+  name: string;
+  description: string;
+  commandOptions: {
+  overviewOption: {
+  name: string;
+  description: string;
+};
+  serverlogOption: {
+  name: string;
+  description: string;
+};
+};
+}>;
   export: Promise<{
   name: string;
   description: string;
@@ -590,15 +604,18 @@ export type LanguageStructure = {
 };
 };
 }>;
-  help: Promise<{
+  initialReactor: Promise<{
+  name: string;
+}>;
+  kick: Promise<{
   name: string;
   description: string;
   commandOptions: {
-  overviewOption: {
+  userOption: {
   name: string;
   description: string;
 };
-  serverlogOption: {
+  reasonOption: {
   name: string;
   description: string;
 };
@@ -617,27 +634,6 @@ export type LanguageStructure = {
   description: string;
 };
 };
-}>;
-  initialReactor: Promise<{
-  name: string;
-}>;
-  kick: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  userOption: {
-  name: string;
-  description: string;
-};
-  reasonOption: {
-  name: string;
-  description: string;
-};
-};
-}>;
-  logging: Promise<{
-  name: string;
-  description: string;
 }>;
   mute: Promise<{
   name: string;
@@ -672,11 +668,15 @@ export type LanguageStructure = {
 };
 };
 }>;
+  premium: Promise<{
+  name: string;
+  description: string;
+}>;
   ping: Promise<{
   name: string;
   description: string;
 }>;
-  premium: Promise<{
+  logging: Promise<{
   name: string;
   description: string;
 }>;
@@ -689,6 +689,20 @@ export type LanguageStructure = {
   description: string;
   commandOptions: {
   countOption: {
+  name: string;
+  description: string;
+};
+};
+}>;
+  reason: Promise<{
+  name: string;
+  description: string;
+  commandOptions: {
+  caseOption: {
+  name: string;
+  description: string;
+};
+  reasonOption: {
   name: string;
   description: string;
 };
@@ -752,15 +766,11 @@ export type LanguageStructure = {
 };
 };
 }>;
-  reason: Promise<{
+  troubleshoot: Promise<{
   name: string;
   description: string;
   commandOptions: {
-  caseOption: {
-  name: string;
-  description: string;
-};
-  reasonOption: {
+  shareOption: {
   name: string;
   description: string;
 };
@@ -832,11 +842,15 @@ export type LanguageStructure = {
 };
 };
 }>;
-  troubleshoot: Promise<{
+  unmute: Promise<{
   name: string;
   description: string;
   commandOptions: {
-  shareOption: {
+  userOption: {
+  name: string;
+  description: string;
+};
+  reasonOption: {
   name: string;
   description: string;
 };
@@ -856,23 +870,297 @@ export type LanguageStructure = {
 };
 };
 }>;
-  unmute: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  userOption: {
-  name: string;
-  description: string;
-};
-  reasonOption: {
-  name: string;
-  description: string;
-};
-};
-}>;
   vote: Promise<{
   name: string;
   description: string;
+}>;
+};
+  web: {
+  logViewer: Promise<{
+  summary: {
+  "0": string;
+  "1": string;
+  "2": string;
+  "3": string;
+  "4": string;
+  "5": string;
+  "6": string;
+  "7": string;
+  "8": string;
+  "9": string;
+  "10": string;
+  "11": string;
+  "12": string;
+  "13": string;
+  "14": string;
+  "15": string;
+  "16": string;
+  "17": string;
+  "18": string;
+  "19": string;
+  "20": string;
+  "21": string;
+  "22": string;
+  "23": string;
+  "24": string;
+  "25": string;
+  "26": string;
+  "27": string;
+  "28": string;
+  "29": string;
+  "30": string;
+  "31": string;
+  "32": string;
+  "33": string;
+  "34": string;
+  "35": string;
+  "36": string;
+  "37": string;
+  "38": string;
+  "39": string;
+  "40": string;
+  "41": string;
+  "42": string;
+  "43": string;
+  "44": string;
+  "45": string;
+  "46": string;
+  "47": string;
+  "48": string;
+  "49": string;
+  "50": string;
+  "51": string;
+  "52": string;
+  "53": string;
+  "54": string;
+  "55": string;
+  "56": string;
+  "57": string;
+  "58": string;
+  "59": string;
+  "60": string;
+  "61": string;
+  "62": string;
+  "63": string;
+  "64": string;
+  "65": string;
+  "66": string;
+  "67": string;
+  "68": string;
+  "69": string;
+  "70": string;
+  "71": string;
+  "72": string;
+  "73": string;
+  "74": string;
+  "75": string;
+  "76": string;
+  "77": string;
+  "78": string;
+  "79": string;
+  "80": string;
+  "81": string;
+  "82": string;
+  "83": string;
+  "84": string;
+  "85": string;
+  "86": string;
+  "87": string;
+  "88": string;
+  "89": string;
+  "90": string;
+  "91": string;
+  "92": string;
+  "93": string;
+  "94": string;
+  "95": string;
+  "96": string;
+  "97": string;
+  "98": string;
+  "101": string;
+  "0_actor": string;
+  "0_passive": string;
+  "3_actor": string;
+  "4_actor": string;
+  "4_passive": string;
+  "5_actor": string;
+  "5_passive": string;
+  "6_actor": string;
+  "7_actor": string;
+  "14_actor": string;
+  "16_actor": string;
+  "19_actor": string;
+  "20_actor": string;
+  "21_actor": string;
+  "22_actor": string;
+  "25_actor": string;
+  "34_actor": string;
+  "35_actor": string;
+  "39_actor": string;
+  "40_actor": string;
+  "41_actor": string;
+  "42_actor": string;
+  "43_actor": string;
+  "44_actor": string;
+  "45_actor": string;
+  "46_actor": string;
+  "51_actor": string;
+  "51_passive": string;
+  "57_actor": string;
+  "58_actor": string;
+  "63_actor": string;
+  "69_added": string;
+  "69_removed": string;
+  "69_enabled": string;
+  "69_disabled": string;
+  "86_actor": string;
+  "86_passive": string;
+  "2_kick": string;
+  "2_ban": string;
+  "2_actor": string;
+  via: string;
+  "101_alert": string;
+  "101_timeout": string;
+  "101_kick": string;
+  "101_ban": string;
+  "101_delmsg": string;
+  "101_budget": string;
+  "101_flag_no_permission": string;
+  "101_flag_hierarchy": string;
+  "101_flag_error": string;
+  "101_flag_budget": string;
+  "101_flag": string;
+  "101_role_give": string;
+  "101_role_take": string;
+  "101_dm": string;
+  "101_flag_role": string;
+  "69_request_by": string;
+  "69_request_about": string;
+  "69_request_hourly_by": string;
+  "69_request_hourly_about": string;
+};
+  ui: {
+  allChannels: string;
+  allLogTypes: string;
+  allRoles: string;
+  applyRange: string;
+  askChannelNotFound: string;
+  askExamples: string;
+  askFailed: string;
+  askFallback: string;
+  askIgnoredWords: string;
+  askLabel: string;
+  askMemberAmbiguous: string;
+  askMemberNotFound: string;
+  askPhraseNarrowed: string;
+  askPlaceholder: string;
+  askRoleNotFound: string;
+  askSubmit: string;
+  askSuggestions: string;
+  askTooBroad: string;
+  askTypeNotFound: string;
+  askUnsupported: string;
+  backToDashboard: string;
+  category: string;
+  channel: string;
+  clear: string;
+  clearAll: string;
+  clearRange: string;
+  copyPermalink: string;
+  customRange: string;
+  delivered: string;
+  deliveredTo: string;
+  deliveryPending: string;
+  dismiss: string;
+  empty: string;
+  emptyFiltered: string;
+  emptyFilteredHint: string;
+  emptyHint: string;
+  emptyLive: string;
+  emptyLiveBadge: string;
+  emptyLiveHint: string;
+  entryCount: string;
+  errorBody: string;
+  errorTitle: string;
+  executorId: string;
+  exportCsv: string;
+  exportEmpty: string;
+  exportEmptyBody: string;
+  exportLockedBody: string;
+  exportLockedTitle: string;
+  exporting: string;
+  filterCategoryLabel: string;
+  filterChannelLabel: string;
+  filterMemberByLabel: string;
+  filterMemberLabel: string;
+  filterMemberOnLabel: string;
+  filterRangeLabel: string;
+  filterRoleLabel: string;
+  filterSearchLabel: string;
+  filterToUser: string;
+  filterTypeLabel: string;
+  filtered: string;
+  filteredNote: string;
+  filters: string;
+  from: string;
+  historyLocked: string;
+  historyLockedCta: string;
+  last24Hours: string;
+  last30Days: string;
+  last7Days: string;
+  lastHour: string;
+  live: string;
+  loading: string;
+  lockedFeature: string;
+  logId: string;
+  logType: string;
+  logTypesSelected: string;
+  member: string;
+  memberPlaceholder: string;
+  memberRoleEither: string;
+  memberRoleExecutor: string;
+  memberRoleTarget: string;
+  newEntries: string;
+  newEntry: string;
+  noLogTypeMatches: string;
+  notDelivered: string;
+  offline: string;
+  openInDiscord: string;
+  openLogMessage: string;
+  paused: string;
+  permalinkCopied: string;
+  rangeTooEarly: string;
+  realtimeOnly: string;
+  recoveryBody: string;
+  recoveryCta: string;
+  recoveryTitle: string;
+  removeFilter: string;
+  retention: string;
+  retry: string;
+  role: string;
+  searchLabel: string;
+  searchPlaceholder: string;
+  searchPlaceholderLogType: string;
+  selectServer: string;
+  timeRange: string;
+  title: string;
+  to: string;
+  wallBadge: string;
+  wallBody: string;
+  wallCta: string;
+  wallFine: string;
+  wallTitle: string;
+  wallTitleOne: string;
+  heldBackByRule: string;
+  ruleNotices: string;
+};
+  deliveryReason: {
+  local_rate_limit: string;
+  channel_parked: string;
+  request_timeout_or_network: string;
+  rate_limited: string;
+  unknown: string;
+};
 }>;
 };
   standard: {
@@ -1010,6 +1298,7 @@ export type LanguageStructure = {
   historyUpsell: string;
   historyEmpty: string;
   historyUnavailable: string;
+  sharedMessage: string;
 }>;
   quarkEvents: Promise<{
   serverlogChannelUpdate: {
@@ -1066,6 +1355,12 @@ export type LanguageStructure = {
   description_unset: string;
   description_added: string;
   description_removed: string;
+  description_request_by: string;
+  description_request_about: string;
+  description_request_hourly_by: string;
+  description_request_hourly_about: string;
+  request_logs_type: string;
+  request_logs_any: string;
 };
   languageUpdate: {
   title: string;
@@ -1180,6 +1475,12 @@ export type LanguageStructure = {
   description_flag_role: string;
   role_unknown: string;
   dm_footer: string;
+  description_flag_saver_permission: string;
+  description_flag_saver_timeout: string;
+  description_flag_saver_channel: string;
+  description_flag_saver_hierarchy: string;
+  description_flag_saver_role: string;
+  description_flag_role_elevated: string;
 };
 }>;
   roleEvents: Promise<{
@@ -1214,6 +1515,85 @@ export type LanguageStructure = {
   description_removed: string;
   linkToOldIcon: string;
   linkToNewIcon: string;
+};
+}>;
+  serverEvents: Promise<{
+  members: string;
+  userJoined: {
+  title: string;
+  description: string;
+  noAvatar: string;
+  newAccount: string;
+  noBadges: string;
+  warning: string;
+  accountCreated: string;
+  invite: string;
+  createdBy: string;
+  ban: string;
+  info: string;
+  rejoined: string;
+};
+  userLeft: {
+  title: string;
+  description: string;
+  joined: string;
+  roles: string;
+  serverProfilePicture: string;
+  description_kicked: string;
+  description_kicked_no_executor: string;
+  description_banned: string;
+  description_banned_no_executor: string;
+  info: string;
+  info_kicked: string;
+  info_banned: string;
+};
+  botAdded: {
+  title: string;
+  description: string;
+  descriptionne: string;
+};
+  botRemoved: {
+  title: string;
+  description: string;
+  descriptionne: string;
+};
+  nicknameUpdate: {
+  title: string;
+  description: string;
+  setNick: string;
+  nickRemoved: string;
+  changedBy: string;
+};
+  memberRoleAdd: {
+  title: string;
+  title_multiple: string;
+  description: string;
+  description_multiple: string;
+  givenBy: string;
+  roles: string;
+  warning: string;
+  dangerousPermissions: string;
+};
+  memberRoleRemove: {
+  title: string;
+  title_multiple: string;
+  description: string;
+  description_multiple: string;
+  removedBy: string;
+  roles: string;
+};
+  memberPrune: {
+  title: string;
+  description: string;
+};
+  avatarUpdate: {
+  title: string;
+  description: string;
+  description_added: string;
+  description_removed: string;
+  changedBy: string;
+  linkToOldAvatar: string;
+  linkToNewAvatar: string;
 };
 }>;
   serverActions: Promise<{
@@ -1468,85 +1848,6 @@ export type LanguageStructure = {
   title: string;
 };
 }>;
-  serverEvents: Promise<{
-  members: string;
-  userJoined: {
-  title: string;
-  description: string;
-  noAvatar: string;
-  newAccount: string;
-  noBadges: string;
-  warning: string;
-  accountCreated: string;
-  invite: string;
-  createdBy: string;
-  ban: string;
-  info: string;
-  rejoined: string;
-};
-  userLeft: {
-  title: string;
-  description: string;
-  joined: string;
-  roles: string;
-  serverProfilePicture: string;
-  description_kicked: string;
-  description_kicked_no_executor: string;
-  description_banned: string;
-  description_banned_no_executor: string;
-  info: string;
-  info_kicked: string;
-  info_banned: string;
-};
-  botAdded: {
-  title: string;
-  description: string;
-  descriptionne: string;
-};
-  botRemoved: {
-  title: string;
-  description: string;
-  descriptionne: string;
-};
-  nicknameUpdate: {
-  title: string;
-  description: string;
-  setNick: string;
-  nickRemoved: string;
-  changedBy: string;
-};
-  memberRoleAdd: {
-  title: string;
-  title_multiple: string;
-  description: string;
-  description_multiple: string;
-  givenBy: string;
-  roles: string;
-  warning: string;
-  dangerousPermissions: string;
-};
-  memberRoleRemove: {
-  title: string;
-  title_multiple: string;
-  description: string;
-  description_multiple: string;
-  removedBy: string;
-  roles: string;
-};
-  memberPrune: {
-  title: string;
-  description: string;
-};
-  avatarUpdate: {
-  title: string;
-  description: string;
-  description_added: string;
-  description_removed: string;
-  changedBy: string;
-  linkToOldAvatar: string;
-  linkToNewAvatar: string;
-};
-}>;
   voiceEvents: Promise<{
   streamStart: {
   title: string;
@@ -1661,290 +1962,6 @@ export type LanguageStructure = {
 };
 }>;
 };
-  web: {
-  logViewer: Promise<{
-  summary: {
-  "0": string;
-  "1": string;
-  "2": string;
-  "3": string;
-  "4": string;
-  "5": string;
-  "6": string;
-  "7": string;
-  "8": string;
-  "9": string;
-  "10": string;
-  "11": string;
-  "12": string;
-  "13": string;
-  "14": string;
-  "15": string;
-  "16": string;
-  "17": string;
-  "18": string;
-  "19": string;
-  "20": string;
-  "21": string;
-  "22": string;
-  "23": string;
-  "24": string;
-  "25": string;
-  "26": string;
-  "27": string;
-  "28": string;
-  "29": string;
-  "30": string;
-  "31": string;
-  "32": string;
-  "33": string;
-  "34": string;
-  "35": string;
-  "36": string;
-  "37": string;
-  "38": string;
-  "39": string;
-  "40": string;
-  "41": string;
-  "42": string;
-  "43": string;
-  "44": string;
-  "45": string;
-  "46": string;
-  "47": string;
-  "48": string;
-  "49": string;
-  "50": string;
-  "51": string;
-  "52": string;
-  "53": string;
-  "54": string;
-  "55": string;
-  "56": string;
-  "57": string;
-  "58": string;
-  "59": string;
-  "60": string;
-  "61": string;
-  "62": string;
-  "63": string;
-  "64": string;
-  "65": string;
-  "66": string;
-  "67": string;
-  "68": string;
-  "69": string;
-  "70": string;
-  "71": string;
-  "72": string;
-  "73": string;
-  "74": string;
-  "75": string;
-  "76": string;
-  "77": string;
-  "78": string;
-  "79": string;
-  "80": string;
-  "81": string;
-  "82": string;
-  "83": string;
-  "84": string;
-  "85": string;
-  "86": string;
-  "87": string;
-  "88": string;
-  "89": string;
-  "90": string;
-  "91": string;
-  "92": string;
-  "93": string;
-  "94": string;
-  "95": string;
-  "96": string;
-  "97": string;
-  "98": string;
-  "101": string;
-  "0_actor": string;
-  "0_passive": string;
-  "3_actor": string;
-  "4_actor": string;
-  "4_passive": string;
-  "5_actor": string;
-  "5_passive": string;
-  "6_actor": string;
-  "7_actor": string;
-  "14_actor": string;
-  "16_actor": string;
-  "19_actor": string;
-  "20_actor": string;
-  "21_actor": string;
-  "22_actor": string;
-  "25_actor": string;
-  "34_actor": string;
-  "35_actor": string;
-  "39_actor": string;
-  "40_actor": string;
-  "41_actor": string;
-  "42_actor": string;
-  "43_actor": string;
-  "44_actor": string;
-  "45_actor": string;
-  "46_actor": string;
-  "51_actor": string;
-  "51_passive": string;
-  "57_actor": string;
-  "58_actor": string;
-  "63_actor": string;
-  "69_added": string;
-  "69_removed": string;
-  "69_enabled": string;
-  "69_disabled": string;
-  "86_actor": string;
-  "86_passive": string;
-  "2_kick": string;
-  "2_ban": string;
-  "2_actor": string;
-  via: string;
-  "101_alert": string;
-  "101_timeout": string;
-  "101_kick": string;
-  "101_ban": string;
-  "101_delmsg": string;
-  "101_budget": string;
-  "101_flag_no_permission": string;
-  "101_flag_hierarchy": string;
-  "101_flag_error": string;
-  "101_flag_budget": string;
-  "101_flag": string;
-  "101_role_give": string;
-  "101_role_take": string;
-  "101_dm": string;
-  "101_flag_role": string;
 };
-  ui: {
-  allChannels: string;
-  allLogTypes: string;
-  allRoles: string;
-  applyRange: string;
-  askChannelNotFound: string;
-  askExamples: string;
-  askFailed: string;
-  askFallback: string;
-  askIgnoredWords: string;
-  askLabel: string;
-  askMemberAmbiguous: string;
-  askMemberNotFound: string;
-  askPhraseNarrowed: string;
-  askPlaceholder: string;
-  askRoleNotFound: string;
-  askSubmit: string;
-  askSuggestions: string;
-  askTooBroad: string;
-  askTypeNotFound: string;
-  askUnsupported: string;
-  backToDashboard: string;
-  category: string;
-  channel: string;
-  clear: string;
-  clearAll: string;
-  clearRange: string;
-  copyPermalink: string;
-  customRange: string;
-  delivered: string;
-  deliveredTo: string;
-  deliveryPending: string;
-  dismiss: string;
-  empty: string;
-  emptyFiltered: string;
-  emptyFilteredHint: string;
-  emptyHint: string;
-  emptyLive: string;
-  emptyLiveBadge: string;
-  emptyLiveHint: string;
-  entryCount: string;
-  errorBody: string;
-  errorTitle: string;
-  executorId: string;
-  exportCsv: string;
-  exportEmpty: string;
-  exportEmptyBody: string;
-  exportLockedBody: string;
-  exportLockedTitle: string;
-  exporting: string;
-  filterCategoryLabel: string;
-  filterChannelLabel: string;
-  filterMemberByLabel: string;
-  filterMemberLabel: string;
-  filterMemberOnLabel: string;
-  filterRangeLabel: string;
-  filterRoleLabel: string;
-  filterSearchLabel: string;
-  filterToUser: string;
-  filterTypeLabel: string;
-  filtered: string;
-  filteredNote: string;
-  filters: string;
-  from: string;
-  historyLocked: string;
-  historyLockedCta: string;
-  last24Hours: string;
-  last30Days: string;
-  last7Days: string;
-  lastHour: string;
-  live: string;
-  loading: string;
-  lockedFeature: string;
-  logId: string;
-  logType: string;
-  logTypesSelected: string;
-  member: string;
-  memberPlaceholder: string;
-  memberRoleEither: string;
-  memberRoleExecutor: string;
-  memberRoleTarget: string;
-  newEntries: string;
-  newEntry: string;
-  noLogTypeMatches: string;
-  notDelivered: string;
-  offline: string;
-  openInDiscord: string;
-  openLogMessage: string;
-  paused: string;
-  permalinkCopied: string;
-  rangeTooEarly: string;
-  realtimeOnly: string;
-  recoveryBody: string;
-  recoveryCta: string;
-  recoveryTitle: string;
-  removeFilter: string;
-  retention: string;
-  retry: string;
-  role: string;
-  searchLabel: string;
-  searchPlaceholder: string;
-  searchPlaceholderLogType: string;
-  selectServer: string;
-  timeRange: string;
-  title: string;
-  to: string;
-  wallBadge: string;
-  wallBody: string;
-  wallCta: string;
-  wallFine: string;
-  wallTitle: string;
-  wallTitleOne: string;
-  heldBackByRule: string;
-  ruleNotices: string;
-};
-  deliveryReason: {
-  local_rate_limit: string;
-  channel_parked: string;
-  request_timeout_or_network: string;
-  rate_limited: string;
-  unknown: string;
-};
-}>;
-};
-};
-export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "export" | "help" | "invite" | "language" | "initialReactor" | "kick" | "logging" | "mute" | "ping" | "premium" | "privacy" | "purge" | "serverlog" | "reason" | "tags" | "troubleshoot" | "unban" | "unmute" | "vote";
+export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "help" | "export" | "initialReactor" | "kick" | "invite" | "language" | "mute" | "premium" | "ping" | "logging" | "privacy" | "purge" | "reason" | "serverlog" | "troubleshoot" | "tags" | "unmute" | "unban" | "vote";
 export type QuarkLanguageCodes = "en_us" | "en_gb" | "tr" | "vi" | "en_pr" | "pl" | "nl" | "es_es" | "it" | "de" | "fr" | "ru" | "el" | "zh_hant" | "ko" | "sl" | "ar" | "hu" | "ja";

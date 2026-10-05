@@ -155,7 +155,11 @@
         "101_role_give": "The rule “{name}” gave {role}[ to {value}]",
         "101_role_take": "The rule “{name}” took {role}[ from {value}]",
         "101_dm": "The rule “{name}” sent a direct message[ to {value}]",
-        "101_flag_role": "The rule “{name}” could not give or take a role[ ({role})]: it is gone, is managed by an integration, or is not below Quark's highest role"
+        "101_flag_role": "The rule “{name}” could not give or take a role[ ({role})]: it is gone, is managed by an integration, or is not below Quark's highest role",
+        "69_request_by": "{subject} asked Quark not to log[ up to {count}][ {name}] logs by {value}",
+        "69_request_about": "{subject} asked Quark not to log[ up to {count}][ {name}] logs about {value}",
+        "69_request_hourly_by": "{subject} is using Active Ignore[: up to {count}][ {name}] logs by {value}",
+        "69_request_hourly_about": "{subject} is using Active Ignore[: up to {count}][ {name}] logs about {value}"
     },
     "ui": {
         "allChannels": "All channels",

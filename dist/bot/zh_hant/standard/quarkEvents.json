@@ -58,7 +58,13 @@
         "description_set": "{executor} 啟用了 {type}",
         "description_unset": "{executor} 停用了 {type}",
         "description_added": "{executor} 將 {target} 加入了 {type}",
-        "description_removed": "{executor} 將 {target} 從 {type} 移除"
+        "description_removed": "{executor} 將 {target} 從 {type} 移除",
+        "description_request_by": "{executor} used {type} to ask Quark not to log {logs} by {subject}: up to {count} in the next {duration}",
+        "description_request_about": "{executor} used {type} to ask Quark not to log {logs} about {subject}: up to {count} in the next {duration}",
+        "description_request_hourly_by": "{executor} is using {type}. This request asked Quark not to log {logs} by {subject}: up to {count} in the next {duration}. Further requests from them in the next hour are not listed.",
+        "description_request_hourly_about": "{executor} is using {type}. This request asked Quark not to log {logs} about {subject}: up to {count} in the next {duration}. Further requests from them in the next hour are not listed.",
+        "request_logs_type": "{name} logs",
+        "request_logs_any": "anything"
     },
     "languageUpdate": {
         "title": "語言已更改",
@@ -166,6 +172,12 @@
         "description_dm": "The rule {rule} sent {member} a direct message",
         "description_flag_role": "The rule {rule} could not give or take {role}: the role is gone, is managed by an integration, or is not below Quark's highest role",
         "role_unknown": "a role",
-        "dm_footer": "Sent automatically by a rule in {server}"
+        "dm_footer": "Sent automatically by a rule in {server}",
+        "description_flag_saver_permission": "The rule {rule} could not act: the person who last changed it no longer has the Discord permission it needs, or has left the server. It will act again once somebody who has that permission edits it, or switches it off and on",
+        "description_flag_saver_timeout": "The rule {rule} could not act: the person who last changed it is timed out, and a member who is timed out cannot moderate. It will act again when their timeout ends",
+        "description_flag_saver_channel": "The rule {rule} could not delete a message in {channel}: the person who last changed the rule cannot delete messages there themselves",
+        "description_flag_saver_hierarchy": "The rule {rule} could not act on {member}: their highest role is not below that of the person who last changed the rule",
+        "description_flag_saver_role": "The rule {rule} could not give or take {role}: the role is not below the highest role of the person who last changed the rule",
+        "description_flag_role_elevated": "The rule {rule} could not give {role}: the role comes with moderation or management permissions, and only a rule the server's owner last changed gives one of those"
     }
 }
