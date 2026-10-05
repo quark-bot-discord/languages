@@ -66,7 +66,8 @@
         "files": "files",
         "embed": "embed",
         "channel": "Channel",
-        "filesWithheldCsam": "Files withheld ({count}): matched known child sexual abuse material. Reported to Quark."
+        "filesWithheldCsam": "Files withheld ({count}): matched known child sexual abuse material. Reported to Quark.",
+        "filesWithheldHarmful": "Files withheld ({count}): matched known material that is harmful to children. Reported to Quark."
     },
     "threadCreate": {
         "channel": "Channel",
