@@ -79,7 +79,8 @@
         "description_set": "{executor} enabled {type}",
         "title": "Ignore Options Updated",
         "description_removed": "{executor} removed {target} from {type}",
-        "description_added": "{executor} added {target} to {type}"
+        "description_added": "{executor} added {target} to {type}",
+        "description_request_by": "{executor} used {type} to ask Quark not to log {logs} by {subject}: up to {count} in the next {duration}"
     },
     "tokenAdded": {
         "unique_id": "Token ID",
