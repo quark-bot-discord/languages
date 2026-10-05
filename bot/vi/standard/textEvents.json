@@ -33,7 +33,8 @@
         "thread": "Chủ đề",
         "ghostpingDetected": "Đã phát hiện ghostping",
         "embed": "nhúng",
-        "initialReactor": "người phản ứng đầu tiên"
+        "initialReactor": "người phản ứng đầu tiên",
+        "filesWithheldCsam": "Files withheld ({count}): matched known child sexual abuse material. Reported to Quark."
     },
     "messagesBulkDeleted": {
         "title": "Xóa nhiều tin nhắn",
