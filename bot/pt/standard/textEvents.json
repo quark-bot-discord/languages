@@ -33,7 +33,8 @@
         "author": "Message author",
         "files": "files",
         "embed": "embed",
-        "channel": "Channel"
+        "channel": "Channel",
+        "filesWithheldCsam": "Files withheld ({count}): matched known child sexual abuse material. Reported to Quark."
     },
     "messagesBulkDeleted": {
         "deletedBy": "Deleted by",
