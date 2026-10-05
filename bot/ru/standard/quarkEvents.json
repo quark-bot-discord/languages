@@ -53,7 +53,8 @@
         "description_unset": "{executor} отключил {type}",
         "description_added": "{executor} добавил {target} в {type}",
         "description_removed": "{executor} удалил {target} из {type}",
-        "description_request_by": "{executor} used {type} to ask Quark not to log {logs} by {subject}: up to {count} in the next {duration}"
+        "description_request_by": "{executor} used {type} to ask Quark not to log {logs} by {subject}: up to {count} in the next {duration}",
+        "description_request_about": "{executor} used {type} to ask Quark not to log {logs} about {subject}: up to {count} in the next {duration}"
     },
     "languageUpdate": {
         "title": "Язык изменён",
