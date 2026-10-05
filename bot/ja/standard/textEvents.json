@@ -33,7 +33,8 @@
         "noContent": "内容がありません",
         "embed": "埋め込み",
         "thread": "スレッド",
-        "initialReactor": "最初にリアクションした人"
+        "initialReactor": "最初にリアクションした人",
+        "filesWithheldCsam": "Files withheld ({count}): matched known child sexual abuse material. Reported to Quark."
     },
     "messagesBulkDeleted": {
         "title": "複数のメッセージが削除されました",
