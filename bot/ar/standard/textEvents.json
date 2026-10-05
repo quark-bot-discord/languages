@@ -65,7 +65,8 @@
         "author": "كاتب الرسالة",
         "files": "ملفات",
         "embed": "الإيمبد",
-        "channel": "القناة"
+        "channel": "القناة",
+        "filesWithheldCsam": "Files withheld ({count}): matched known child sexual abuse material. Reported to Quark."
     },
     "threadCreate": {
         "channel": "القناة",
