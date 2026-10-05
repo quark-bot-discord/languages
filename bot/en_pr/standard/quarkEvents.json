@@ -55,7 +55,8 @@
         "description_removed": "{executor} removed {target} from {type}",
         "description_request_by": "{executor} used {type} to ask Quark not to log {logs} by {subject}: up to {count} in the next {duration}",
         "description_request_about": "{executor} used {type} to ask Quark not to log {logs} about {subject}: up to {count} in the next {duration}",
-        "description_request_hourly_by": "{executor} is using {type}. This request asked Quark not to log {logs} by {subject}: up to {count} in the next {duration}. Further requests from them in the next hour are not listed."
+        "description_request_hourly_by": "{executor} is using {type}. This request asked Quark not to log {logs} by {subject}: up to {count} in the next {duration}. Further requests from them in the next hour are not listed.",
+        "description_request_hourly_about": "{executor} is using {type}. This request asked Quark not to log {logs} about {subject}: up to {count} in the next {duration}. Further requests from them in the next hour are not listed."
     },
     "languageUpdate": {
         "title": "Language Changed",
