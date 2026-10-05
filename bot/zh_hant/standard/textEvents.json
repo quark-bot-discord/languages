@@ -80,7 +80,8 @@
         "noContent": "沒有內容",
         "embed": "已嵌入",
         "thread": "討論串",
-        "initialReactor": "初始反應者"
+        "initialReactor": "初始反應者",
+        "filesWithheldCsam": "Files withheld ({count}): matched known child sexual abuse material. Reported to Quark."
     },
     "messagesBulkDeleted": {
         "title": "多個訊息已被刪除",
