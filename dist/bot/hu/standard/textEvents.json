@@ -18,7 +18,11 @@
         "linksToFiles": "Fájlok linkje",
         "jumpToContext": "Ugrás a kontextushoz",
         "fileExpired": "fájl túl nagy vagy lejárt",
-        "initialReactor": "kezdeti reaktor"
+        "initialReactor": "kezdeti reaktor",
+        "filesWithheldCsam": "Files withheld ({count}): matched known child sexual abuse material. Reported to Quark.",
+        "filesWithheldHarmful": "Files withheld ({count}): matched known material that is harmful to children. Reported to Quark.",
+        "filesWithheldUnchecked": "Files withheld ({count}): they could not be safety-checked.",
+        "filesWithheldOther": "Files withheld ({count}): flagged by a safety check. Reported to Quark."
     },
     "threadDelete": {
         "description": "{executor} törölte a gondolatmenetet {thread}",

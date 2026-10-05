@@ -33,7 +33,11 @@
         "thread": "Alt Konu",
         "embed": "gömülü mesaj",
         "initialReactor": "ilk tepki veren",
-        "ghostpingDetected": "Ghostping algılandı"
+        "ghostpingDetected": "Ghostping algılandı",
+        "filesWithheldCsam": "Files withheld ({count}): matched known child sexual abuse material. Reported to Quark.",
+        "filesWithheldHarmful": "Files withheld ({count}): matched known material that is harmful to children. Reported to Quark.",
+        "filesWithheldUnchecked": "Files withheld ({count}): they could not be safety-checked.",
+        "filesWithheldOther": "Files withheld ({count}): flagged by a safety check. Reported to Quark."
     },
     "messagesBulkDeleted": {
         "title": "Birden Fazla Mesaj Silindi",
