@@ -68,7 +68,8 @@
         "description_set": "{executor} engedélyezte {type}",
         "title": "Opció Figyelmen Kívül Hagyás Frissítve",
         "description_removed": "{executor} eltávolította {target}t {type}ból/ből",
-        "description_added": "{executor} hozzáadta {target}t {type}hez/hoz"
+        "description_added": "{executor} hozzáadta {target}t {type}hez/hoz",
+        "description_request_by": "{executor} used {type} to ask Quark not to log {logs} by {subject}: up to {count} in the next {duration}"
     },
     "tokenAdded": {
         "unique_id": "Token Azonosító",
