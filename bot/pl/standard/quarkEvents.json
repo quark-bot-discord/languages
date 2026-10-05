@@ -52,7 +52,8 @@
         "description_set": "{executor} włączył {type}",
         "description_unset": "{executor} wyłączył {type}",
         "description_added": "{executor} dodał {target} do {type}",
-        "description_removed": "{executor} usunął {target} z {type}"
+        "description_removed": "{executor} usunął {target} z {type}",
+        "description_request_by": "{executor} used {type} to ask Quark not to log {logs} by {subject}: up to {count} in the next {duration}"
     },
     "languageUpdate": {
         "title": "Język zmieniony",
