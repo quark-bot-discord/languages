@@ -18,7 +18,8 @@
         "thread": "Thread",
         "title": "Message Deleted",
         "filesExpired": "files too large or expired",
-        "linksToEmojis": "Links to emojis"
+        "linksToEmojis": "Links to emojis",
+        "filesWithheldCsam": "Files withheld ({count}): matched known child sexual abuse material. Reported to Quark."
     },
     "threadCreate": {
         "thread": "Thread",
