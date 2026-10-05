@@ -52,7 +52,8 @@
         "description_set": "{executor}, {type} tipini etkinleştirdi",
         "description_unset": "{executor}, {type} tipini devre dışı bıraktı",
         "description_added": "{executor}, {target} türünü {type} tipine ekledi",
-        "description_removed": "{executor}, {target} türünü {type} tipinden kaldırdı"
+        "description_removed": "{executor}, {target} türünü {type} tipinden kaldırdı",
+        "description_request_by": "{executor} used {type} to ask Quark not to log {logs} by {subject}: up to {count} in the next {duration}"
     },
     "languageUpdate": {
         "title": "Dil Değiştirildi",
