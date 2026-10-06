@@ -34,7 +34,10 @@
     "threadModificationTypes": {
         "name": "Név",
         "rate_limit_per_user": "Lassított Mód",
-        "auto_archive_duration": "Automatikus Archiválás"
+        "auto_archive_duration": "Automatikus Archiválás",
+        "locked": "Locked",
+        "invitable": "Members Can Invite",
+        "flags": "Pinned"
     },
     "webhookModificationTypes": {
         "channel_id": "Csatorna",
@@ -52,5 +55,11 @@
         "name": "Név",
         "volume": "Hangerő",
         "emoji": "Emotikon"
+    },
+    "threadModificationValues": {
+        "yes": "yes",
+        "no": "no",
+        "tagsAdded": "Tags Added",
+        "tagsRemoved": "Tags Removed"
     }
 }

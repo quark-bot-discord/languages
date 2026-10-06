@@ -41,7 +41,10 @@
     "threadModificationTypes": {
         "rate_limit_per_user": "Modo lento",
         "auto_archive_duration": "Archivo automático",
-        "name": "Nombre"
+        "name": "Nombre",
+        "locked": "Locked",
+        "invitable": "Members Can Invite",
+        "flags": "Pinned"
     },
     "stickerModificationTypes": {
         "name": "Nombre",
@@ -52,5 +55,11 @@
         "name": "Nombre",
         "volume": "Volumen",
         "emoji": "Emoji"
+    },
+    "threadModificationValues": {
+        "yes": "yes",
+        "no": "no",
+        "tagsAdded": "Tags Added",
+        "tagsRemoved": "Tags Removed"
     }
 }

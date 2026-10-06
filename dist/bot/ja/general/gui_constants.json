@@ -41,7 +41,10 @@
     "threadModificationTypes": {
         "rate_limit_per_user": "スローモード",
         "auto_archive_duration": "自動アーカイブ",
-        "name": "名前"
+        "name": "名前",
+        "locked": "Locked",
+        "invitable": "Members Can Invite",
+        "flags": "Pinned"
     },
     "stickerModificationTypes": {
         "name": "名前",
@@ -52,5 +55,11 @@
         "name": "名前",
         "volume": "音量",
         "emoji": "絵文字"
+    },
+    "threadModificationValues": {
+        "yes": "yes",
+        "no": "no",
+        "tagsAdded": "Tags Added",
+        "tagsRemoved": "Tags Removed"
     }
 }

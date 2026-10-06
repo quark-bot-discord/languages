@@ -41,7 +41,10 @@
     "threadModificationTypes": {
         "rate_limit_per_user": "Медленный режим",
         "auto_archive_duration": "Автоматическая архивация",
-        "name": "Название"
+        "name": "Название",
+        "locked": "Locked",
+        "invitable": "Members Can Invite",
+        "flags": "Pinned"
     },
     "stickerModificationTypes": {
         "name": "Name",
@@ -52,5 +55,11 @@
         "name": "Name",
         "volume": "Volume",
         "emoji": "Emoji"
+    },
+    "threadModificationValues": {
+        "yes": "yes",
+        "no": "no",
+        "tagsAdded": "Tags Added",
+        "tagsRemoved": "Tags Removed"
     }
 }

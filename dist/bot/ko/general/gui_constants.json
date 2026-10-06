@@ -29,7 +29,10 @@
     "threadModificationTypes": {
         "rate_limit_per_user": "Slowmode",
         "auto_archive_duration": "Automatic Archive",
-        "name": "Name"
+        "name": "Name",
+        "locked": "Locked",
+        "invitable": "Members Can Invite",
+        "flags": "Pinned"
     },
     "channelModificationTypes": {
         "name": "Name",
@@ -52,5 +55,11 @@
         "name": "Name",
         "volume": "Volume",
         "emoji": "Emoji"
+    },
+    "threadModificationValues": {
+        "yes": "yes",
+        "no": "no",
+        "tagsAdded": "Tags Added",
+        "tagsRemoved": "Tags Removed"
     }
 }

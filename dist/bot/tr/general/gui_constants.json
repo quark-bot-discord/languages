@@ -41,7 +41,10 @@
     "threadModificationTypes": {
         "rate_limit_per_user": "Yavaş Mod",
         "auto_archive_duration": "Otomatik Arşiv",
-        "name": "aİsim"
+        "name": "aİsim",
+        "locked": "Locked",
+        "invitable": "Members Can Invite",
+        "flags": "Pinned"
     },
     "stickerModificationTypes": {
         "name": "İsim",
@@ -52,5 +55,11 @@
         "name": "İsim",
         "volume": "Ses Şiddeti",
         "emoji": "Emoji"
+    },
+    "threadModificationValues": {
+        "yes": "yes",
+        "no": "no",
+        "tagsAdded": "Tags Added",
+        "tagsRemoved": "Tags Removed"
     }
 }

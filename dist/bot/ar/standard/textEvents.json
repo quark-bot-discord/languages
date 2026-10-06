@@ -23,7 +23,8 @@
         "embedThumbnail": "Thumbnail",
         "embedVideo": "Video",
         "embedFooter": "Footer",
-        "embedTimestamp": "Timestamp"
+        "embedTimestamp": "Timestamp",
+        "errorFilePermissions": "Quark could not post the deleted files here. Check that it can send messages and attach files in this channel."
     },
     "polls": {
         "noResponses": "لا توجد استجابات",

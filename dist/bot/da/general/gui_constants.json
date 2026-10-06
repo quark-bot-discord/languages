@@ -39,7 +39,10 @@
     "threadModificationTypes": {
         "name": "Name",
         "rate_limit_per_user": "Slowmode",
-        "auto_archive_duration": "Automatic Archive"
+        "auto_archive_duration": "Automatic Archive",
+        "locked": "Locked",
+        "invitable": "Members Can Invite",
+        "flags": "Pinned"
     },
     "soundboardSoundModificationTypes": {
         "emoji": "Emoji",
@@ -52,5 +55,11 @@
     },
     "emojiModificationTypes": {
         "name": "Name"
+    },
+    "threadModificationValues": {
+        "yes": "yes",
+        "no": "no",
+        "tagsAdded": "Tags Added",
+        "tagsRemoved": "Tags Removed"
     }
 }

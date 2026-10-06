@@ -4,6 +4,15 @@ export type LanguageStructure = {
   "1": string;
   "2": string;
 }>;
+  buttons: Promise<{
+  userID: string;
+  supportServer: string;
+  customise: string;
+  overview: string;
+  serverlog: string;
+  dashboard: string;
+  pro: string;
+}>;
   channel_types: Promise<{
   "0": string;
   "2": string;
@@ -17,14 +26,8 @@ export type LanguageStructure = {
   "15": string;
   "16": string;
 }>;
-  buttons: Promise<{
-  userID: string;
-  supportServer: string;
-  customise: string;
-  overview: string;
-  serverlog: string;
-  dashboard: string;
-  pro: string;
+  channel_update_types: Promise<{
+  none: string;
 }>;
   command_responses: Promise<{
   disable: string;
@@ -284,9 +287,6 @@ export type LanguageStructure = {
   "logreport-cooldown": string;
   "logreport-unavailable": string;
 }>;
-  channel_update_types: Promise<{
-  none: string;
-}>;
   emoji_update_types: Promise<{
   none: string;
 }>;
@@ -334,6 +334,9 @@ export type LanguageStructure = {
   rate_limit_per_user: string;
   auto_archive_duration: string;
   name: string;
+  locked: string;
+  invitable: string;
+  flags: string;
 };
   stickerModificationTypes: {
   name: string;
@@ -345,6 +348,24 @@ export type LanguageStructure = {
   volume: string;
   emoji: string;
 };
+  threadModificationValues: {
+  yes: string;
+  no: string;
+  tagsAdded: string;
+  tagsRemoved: string;
+};
+}>;
+  ignore_options: Promise<{
+  ignoreTargets: string;
+  ignoreExecutors: string;
+  specificMessageContent: string;
+  ignoreChannels: string;
+  ignoreBotExecutors: string;
+  ignoreBotTargets: string;
+  ignoreExecutorRoles: string;
+  ignoreTargetRoles: string;
+  ignoreCategories: string;
+  activeIgnore: string;
 }>;
   guild_update_types: Promise<{
   none: string;
@@ -374,18 +395,6 @@ export type LanguageStructure = {
   true: string;
   false: string;
 };
-}>;
-  ignore_options: Promise<{
-  ignoreTargets: string;
-  ignoreExecutors: string;
-  specificMessageContent: string;
-  ignoreChannels: string;
-  ignoreBotExecutors: string;
-  ignoreBotTargets: string;
-  ignoreExecutorRoles: string;
-  ignoreTargetRoles: string;
-  ignoreCategories: string;
-  activeIgnore: string;
 }>;
   log_categories: Promise<{
   serverEvents: string;
@@ -482,9 +491,6 @@ export type LanguageStructure = {
   soundboard_sound_update_types: Promise<{
   none: string;
 }>;
-  sticker_update_types: Promise<{
-  none: string;
-}>;
   tags_responses: Promise<{
   "tags-help-description": string;
   "create-success": string;
@@ -508,6 +514,9 @@ export type LanguageStructure = {
   "tag-error-limitreached-0": string;
   "tag-error-limitreached-1": string;
   "tag-createdby": string;
+}>;
+  sticker_update_types: Promise<{
+  none: string;
 }>;
   thread_update_types: Promise<{
   none: string;
@@ -610,6 +619,9 @@ export type LanguageStructure = {
 };
 };
 }>;
+  initialReactor: Promise<{
+  name: string;
+}>;
   help: Promise<{
   name: string;
   description: string;
@@ -624,22 +636,9 @@ export type LanguageStructure = {
 };
 };
 }>;
-  initialReactor: Promise<{
-  name: string;
-}>;
   invite: Promise<{
   name: string;
   description: string;
-}>;
-  language: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  languageOption: {
-  name: string;
-  description: string;
-};
-};
 }>;
   kick: Promise<{
   name: string;
@@ -658,6 +657,16 @@ export type LanguageStructure = {
   logging: Promise<{
   name: string;
   description: string;
+}>;
+  language: Promise<{
+  name: string;
+  description: string;
+  commandOptions: {
+  languageOption: {
+  name: string;
+  description: string;
+};
+};
 }>;
   mute: Promise<{
   name: string;
@@ -703,30 +712,6 @@ export type LanguageStructure = {
   privacy: Promise<{
   name: string;
   description: string;
-}>;
-  purge: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  countOption: {
-  name: string;
-  description: string;
-};
-};
-}>;
-  reason: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  caseOption: {
-  name: string;
-  description: string;
-};
-  reasonOption: {
-  name: string;
-  description: string;
-};
-};
 }>;
   serverlog: Promise<{
   name: string;
@@ -852,6 +837,30 @@ export type LanguageStructure = {
 };
 };
 }>;
+  purge: Promise<{
+  name: string;
+  description: string;
+  commandOptions: {
+  countOption: {
+  name: string;
+  description: string;
+};
+};
+}>;
+  reason: Promise<{
+  name: string;
+  description: string;
+  commandOptions: {
+  caseOption: {
+  name: string;
+  description: string;
+};
+  reasonOption: {
+  name: string;
+  description: string;
+};
+};
+}>;
   troubleshoot: Promise<{
   name: string;
   description: string;
@@ -963,34 +972,38 @@ export type LanguageStructure = {
   unknownChannel: string;
 };
 }>;
-  generalEvents: Promise<{
-  serverModified: {
+  roleEvents: Promise<{
+  roleCreated: {
   title: string;
   description: string;
 };
-  serverIconUpdated: {
+  roleDeleted: {
+  title: string;
+  description: string;
+  role: string;
+  linkToRoleIcon: string;
+};
+  roleUpdated: {
+  title: string;
+  description: string;
+};
+  rolePermissionsUpdate: {
+  title: string;
+  description: string;
+  newPermissions: string;
+  oldPermissions: string;
+  viewFullNewPermissions: string;
+  viewFullOldPermissions: string;
+  warning: string;
+  dangerousPermissions: string;
+};
+  roleIconUpdate: {
   title: string;
   description: string;
   description_added: string;
   description_removed: string;
   linkToOldIcon: string;
   linkToNewIcon: string;
-};
-  serverBoostAdd: {
-  title: string;
-  description: string;
-  description_noUser: string;
-  description_withTier: string;
-  description_withTier_noUser: string;
-  none: string;
-};
-  serverBoostRemove: {
-  title: string;
-  description: string;
-  description_noUser: string;
-  description_withTier: string;
-  description_withTier_noUser: string;
-  none: string;
 };
 }>;
   modlog: Promise<{
@@ -1043,6 +1056,36 @@ export type LanguageStructure = {
   imagesFailed: string;
   historyImagesAdded: string;
   historyImagesRemoved: string;
+}>;
+  generalEvents: Promise<{
+  serverModified: {
+  title: string;
+  description: string;
+};
+  serverIconUpdated: {
+  title: string;
+  description: string;
+  description_added: string;
+  description_removed: string;
+  linkToOldIcon: string;
+  linkToNewIcon: string;
+};
+  serverBoostAdd: {
+  title: string;
+  description: string;
+  description_noUser: string;
+  description_withTier: string;
+  description_withTier_noUser: string;
+  none: string;
+};
+  serverBoostRemove: {
+  title: string;
+  description: string;
+  description_noUser: string;
+  description_withTier: string;
+  description_withTier_noUser: string;
+  none: string;
+};
 }>;
   quarkEvents: Promise<{
   serverlogChannelUpdate: {
@@ -1227,40 +1270,6 @@ export type LanguageStructure = {
   description_flag_saver_hierarchy: string;
   description_flag_saver_role: string;
   description_flag_role_elevated: string;
-};
-}>;
-  roleEvents: Promise<{
-  roleCreated: {
-  title: string;
-  description: string;
-};
-  roleDeleted: {
-  title: string;
-  description: string;
-  role: string;
-  linkToRoleIcon: string;
-};
-  roleUpdated: {
-  title: string;
-  description: string;
-};
-  rolePermissionsUpdate: {
-  title: string;
-  description: string;
-  newPermissions: string;
-  oldPermissions: string;
-  viewFullNewPermissions: string;
-  viewFullOldPermissions: string;
-  warning: string;
-  dangerousPermissions: string;
-};
-  roleIconUpdate: {
-  title: string;
-  description: string;
-  description_added: string;
-  description_removed: string;
-  linkToOldIcon: string;
-  linkToNewIcon: string;
 };
 }>;
   serverActions: Promise<{
@@ -1542,6 +1551,7 @@ export type LanguageStructure = {
   embedVideo: string;
   embedFooter: string;
   embedTimestamp: string;
+  errorFilePermissions: string;
 };
   messageUpdate: {
   title: string;
@@ -2001,5 +2011,5 @@ export type LanguageStructure = {
 }>;
 };
 };
-export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "export" | "help" | "initialReactor" | "invite" | "language" | "kick" | "logging" | "mute" | "ping" | "premium" | "privacy" | "purge" | "reason" | "serverlog" | "tags" | "troubleshoot" | "unban" | "unmute" | "vote";
+export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "export" | "initialReactor" | "help" | "invite" | "kick" | "logging" | "language" | "mute" | "ping" | "premium" | "privacy" | "serverlog" | "tags" | "purge" | "reason" | "troubleshoot" | "unban" | "unmute" | "vote";
 export type QuarkLanguageCodes = "en_us" | "en_gb" | "tr" | "vi" | "en_pr" | "pl" | "nl" | "es_es" | "it" | "de" | "fr" | "ru" | "el" | "zh_hant" | "ko" | "sl" | "ar" | "hu" | "ja";

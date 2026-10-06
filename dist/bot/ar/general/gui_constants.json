@@ -34,7 +34,10 @@
     "threadModificationTypes": {
         "name": "الاسم",
         "rate_limit_per_user": "سلو مود",
-        "auto_archive_duration": "الأرشفة التلقائية"
+        "auto_archive_duration": "الأرشفة التلقائية",
+        "locked": "Locked",
+        "invitable": "Members Can Invite",
+        "flags": "Pinned"
     },
     "webhookModificationTypes": {
         "channel_id": "القناة",
@@ -52,5 +55,11 @@
         "name": "Name",
         "volume": "Volume",
         "emoji": "Emoji"
+    },
+    "threadModificationValues": {
+        "yes": "yes",
+        "no": "no",
+        "tagsAdded": "Tags Added",
+        "tagsRemoved": "Tags Removed"
     }
 }

@@ -37,7 +37,10 @@
     "threadModificationTypes": {
         "rate_limit_per_user": "Modalità lenta",
         "auto_archive_duration": "Archiviazione automatica",
-        "name": "Nome"
+        "name": "Nome",
+        "locked": "Locked",
+        "invitable": "Members Can Invite",
+        "flags": "Pinned"
     },
     "webhookModificationTypes": {
         "name": "Nome",
@@ -52,5 +55,11 @@
         "name": "Name",
         "volume": "Volume",
         "emoji": "Emoji"
+    },
+    "threadModificationValues": {
+        "yes": "yes",
+        "no": "no",
+        "tagsAdded": "Tags Added",
+        "tagsRemoved": "Tags Removed"
     }
 }
