@@ -39,5 +39,6 @@
     "editModalTitle": "Modify modlog",
     "imagesLabel": "Images",
     "imagesDescription": "Optional. Up to {count}, {size} MB each: PNG, JPEG, GIF or WebP.",
-    "imagesRemoveLabel": "Remove the images already attached"
+    "imagesRemoveLabel": "Remove the images already attached",
+    "imagesRemoveDescription": "{count} attached now. Any new images are added after they are removed."
 }
