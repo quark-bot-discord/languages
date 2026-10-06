@@ -39,7 +39,8 @@
         "auto_archive_duration": "Archiviazione automatica",
         "name": "Nome",
         "locked": "Locked",
-        "invitable": "Members Can Invite"
+        "invitable": "Members Can Invite",
+        "flags": "Pinned"
     },
     "webhookModificationTypes": {
         "name": "Nome",
