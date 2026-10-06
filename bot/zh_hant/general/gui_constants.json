@@ -43,7 +43,8 @@
         "auto_archive_duration": "自動歸檔",
         "name": "名稱",
         "locked": "Locked",
-        "invitable": "Members Can Invite"
+        "invitable": "Members Can Invite",
+        "flags": "Pinned"
     },
     "stickerModificationTypes": {
         "name": "名稱",
