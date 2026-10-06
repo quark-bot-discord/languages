@@ -103,7 +103,8 @@
     },
     "threadUpdated": {
         "description": "{thread} módosítva lett {executor} által",
-        "title": "Gondolatmenet Módosítva"
+        "title": "Gondolatmenet Módosítva",
+        "descriptionClosed": "{thread} was closed by {executor}"
     },
     "reactionBundle": {
         "title": "Több Reakció Törölve"
