@@ -59,6 +59,7 @@
     "threadModificationValues": {
         "yes": "yes",
         "no": "no",
-        "tagsAdded": "Tags Added"
+        "tagsAdded": "Tags Added",
+        "tagsRemoved": "Tags Removed"
     }
 }
