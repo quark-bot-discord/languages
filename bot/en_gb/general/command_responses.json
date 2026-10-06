@@ -238,5 +238,6 @@
     "setserverlog-live-support": "Support server",
     "setserverlog-live-status": "Get developer updates",
     "setserverlog-type-nsfw-0": "Age-Restricted Channel Events",
-    "setserverlog-type-nsfw-1": "age-restricted channel events"
+    "setserverlog-type-nsfw-1": "age-restricted channel events",
+    "logchannel-error-title": "Log channel not changed"
 }
