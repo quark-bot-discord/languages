@@ -38,5 +38,6 @@
     "sharedMessage": "This modlog shares its message with other logs, so its reason can't be edited.",
     "editModalTitle": "Modify modlog",
     "imagesLabel": "Images",
-    "imagesDescription": "Optional. Up to {count}, {size} MB each: PNG, JPEG, GIF or WebP."
+    "imagesDescription": "Optional. Up to {count}, {size} MB each: PNG, JPEG, GIF or WebP.",
+    "imagesRemoveLabel": "Remove the images already attached"
 }
