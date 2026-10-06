@@ -105,7 +105,8 @@
         "description": "{thread} was modified by {executor}",
         "title": "Thread Modified",
         "descriptionClosed": "{thread} was closed by {executor}",
-        "descriptionReopened": "{thread} was reopened by {executor}"
+        "descriptionReopened": "{thread} was reopened by {executor}",
+        "descriptionLocked": "{thread} was locked by {executor}"
     },
     "reactionBundle": {
         "title": "Multiple Reactions Removed"
