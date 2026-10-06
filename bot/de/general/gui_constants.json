@@ -41,7 +41,8 @@
     "threadModificationTypes": {
         "rate_limit_per_user": "Slow-Mode",
         "auto_archive_duration": "Automatisches Archiv",
-        "name": "Name"
+        "name": "Name",
+        "locked": "Locked"
     },
     "stickerModificationTypes": {
         "name": "Name",
