@@ -57,6 +57,7 @@
         "emoji": "絵文字"
     },
     "threadModificationValues": {
-        "yes": "yes"
+        "yes": "yes",
+        "no": "no"
     }
 }
