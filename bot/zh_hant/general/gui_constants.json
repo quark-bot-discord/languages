@@ -42,7 +42,8 @@
         "rate_limit_per_user": "緩慢模式",
         "auto_archive_duration": "自動歸檔",
         "name": "名稱",
-        "locked": "Locked"
+        "locked": "Locked",
+        "invitable": "Members Can Invite"
     },
     "stickerModificationTypes": {
         "name": "名稱",
