@@ -44,5 +44,6 @@
     "imagesNotImages": "Only PNG, JPEG, GIF and WebP images can be added to a modlog. Nothing was changed.",
     "imagesTooLarge": "An image can be up to {size} MB. Nothing was changed.",
     "imagesTooMany": "A modlog can hold {count} images. Nothing was changed.",
-    "imagesNoPermission": "Quark needs the **Attach Files** permission in this channel to add images. Nothing was changed."
+    "imagesNoPermission": "Quark needs the **Attach Files** permission in this channel to add images. Nothing was changed.",
+    "imagesFailed": "Something went wrong adding the images. Check the modlog, and try again in a moment if it hasn't changed."
 }
