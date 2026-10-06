@@ -55,5 +55,8 @@
         "name": "Nombre",
         "volume": "Volumen",
         "emoji": "Emoji"
+    },
+    "threadModificationValues": {
+        "yes": "yes"
     }
 }
