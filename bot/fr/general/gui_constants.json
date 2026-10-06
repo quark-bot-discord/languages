@@ -43,7 +43,8 @@
         "auto_archive_duration": "Archive automatique",
         "name": "Nom",
         "locked": "Locked",
-        "invitable": "Members Can Invite"
+        "invitable": "Members Can Invite",
+        "flags": "Pinned"
     },
     "stickerModificationTypes": {
         "name": "Name",
