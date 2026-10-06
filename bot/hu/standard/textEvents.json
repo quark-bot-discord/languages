@@ -19,10 +19,10 @@
         "jumpToContext": "Ugrás a kontextushoz",
         "fileExpired": "fájl túl nagy vagy lejárt",
         "initialReactor": "kezdeti reaktor",
-        "filesWithheldCsam": "Files withheld ({count}): matched known child sexual abuse material. Reported to Quark.",
-        "filesWithheldHarmful": "Files withheld ({count}): matched known material that is harmful to children. Reported to Quark.",
-        "filesWithheldUnchecked": "Files withheld ({count}): they could not be safety-checked.",
-        "filesWithheldOther": "Files withheld ({count}): flagged by a safety check. Reported to Quark."
+        "filesWithheldCsam": "Visszatartott fájlok ({count}): ismert gyermekek elleni szexuális visszaélésről készült anyaggal egyeztek. Bejelentés történt a Quarknak.",
+        "filesWithheldHarmful": "Visszatartott fájlok ({count}): olyan ismert tartalommal egyeztek meg, amely káros a gyermekekre. Bejelentés történt a Quarknak.",
+        "filesWithheldUnchecked": "Visszatartott fájlok ({count}): biztonsági ellenőrzésük nem volt lehetséges.",
+        "filesWithheldOther": "Visszatartott fájlok ({count}): biztonsági ellenőrzés során jelölve. Bejelentve a Quarknak."
     },
     "threadDelete": {
         "description": "{executor} törölte a gondolatmenetet {thread}",
@@ -83,13 +83,13 @@
         "deletedBy": "Törlő",
         "errorText": "Probléma merült fel a szövegfájl létrehozásával. Előfordulhat, hogy egyes üzenetek elvesznek. Ha ez folyamatosan előfordul, kérjük, jelezze nekünk a Quark támogatási szerverén.",
         "channel": "Csatorna",
-        "embedAuthor": "Author",
-        "embedTitle": "Title",
-        "embedImage": "Image",
-        "embedThumbnail": "Thumbnail",
-        "embedVideo": "Video",
-        "embedFooter": "Footer",
-        "embedTimestamp": "Timestamp"
+        "embedAuthor": "Szerző",
+        "embedTitle": "Cím",
+        "embedImage": "Kép",
+        "embedThumbnail": "Indexkép",
+        "embedVideo": "Videó",
+        "embedFooter": "Lábléc",
+        "embedTimestamp": "Időbélyeg"
     },
     "threadCreate": {
         "description": "{member} létrehozott egy új gondolatmenetet {thread}",
