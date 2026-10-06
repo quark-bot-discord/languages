@@ -29,7 +29,8 @@
     "threadModificationTypes": {
         "rate_limit_per_user": "Slowmode",
         "auto_archive_duration": "Automatic Archive",
-        "name": "Name"
+        "name": "Name",
+        "locked": "Locked"
     },
     "channelModificationTypes": {
         "name": "Name",
