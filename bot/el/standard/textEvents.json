@@ -103,7 +103,8 @@
     },
     "threadUpdated": {
         "description": "{thread} was modified by {executor}",
-        "title": "Thread Modified"
+        "title": "Thread Modified",
+        "descriptionClosed": "{thread} was closed by {executor}"
     },
     "reactionBundle": {
         "title": "Multiple Reactions Removed"
