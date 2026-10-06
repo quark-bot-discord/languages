@@ -34,7 +34,8 @@
     "threadModificationTypes": {
         "name": "Név",
         "rate_limit_per_user": "Lassított Mód",
-        "auto_archive_duration": "Automatikus Archiválás"
+        "auto_archive_duration": "Automatikus Archiválás",
+        "locked": "Locked"
     },
     "webhookModificationTypes": {
         "channel_id": "Csatorna",
