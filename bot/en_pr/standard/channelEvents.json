@@ -1,32 +1,32 @@
 {
     "channelCreated": {
-        "title": "{type} Channel Created",
+        "title": "{type} Deck Created",
         "description": "{channel} was created by {executor}",
-        "descriptionWithCategory": "{channel} was created by {executor} under the {category} category."
+        "descriptionWithCategory": "{channel} was created by {executor} under th' {category} quarter."
     },
     "channelDeleted": {
-        "title": "{type} Channel Deleted",
-        "description": "{channel_name} was deleted by {executor}",
-        "channel": "Channel"
+        "title": "{type} Deck Scrubbed",
+        "description": "{channel_name} was scrubbed by {executor}",
+        "channel": "Deck"
     },
     "channelUpdated": {
-        "title": "{type} Channel Modified",
+        "title": "{type} Deck Modified",
         "description": "{channel} was modified by {executor}"
     },
     "channelOverwriteCreate": {
-        "title": "{type} Channel Permissions Added",
-        "description": "{executor} added permissions to {channel} for {special}"
+        "title": "{type} Deck Permissions Added",
+        "description": "{executor} added permissions t' {channel} for {special}"
     },
     "channelOverwriteDelete": {
-        "title": "{type} Channel Permissions Removed",
+        "title": "{type} Deck Permissions Removed",
         "description": "{executor} removed permissions from {channel} for {special}"
     },
     "channelOverwriteUpdate": {
-        "title": "{type} Channel Permissions Updated",
+        "title": "{type} Deck Permissions Updated",
         "description": "{executor} updated permissions for {channel} for {special}",
         "newPermissions": "New Permissions",
         "viewFullNewPermissions": "View Full New Permissions",
-        "warning": "WARNING!",
+        "warning": "WARNIN'!",
         "dangerousPermissions": "Dangerous permissions granted"
     },
     "webhookCreate": {
@@ -34,34 +34,34 @@
         "description": "{executor} created a webhook {webhook} in {channel}"
     },
     "webhookDelete": {
-        "title": "Webhook Deleted",
-        "description": "{executor} deleted the webhook {webhook}"
+        "title": "Webhook Scrubbed",
+        "description": "{executor} scrubbed th' webhook {webhook}"
     },
     "webhookUpdate": {
         "title": "Webhook Modified",
-        "description": "{executor} modified the webhook {webhook}"
+        "description": "{executor} modified th' webhook {webhook}"
     },
     "webhookAvatarUpdate": {
         "title": "Webhook Avatar Updated",
-        "description": "{executor} updated the avatar for {webhook}",
+        "description": "{executor} updated th' avatar for {webhook}",
         "description_added": "{executor} added an avatar for {webhook}",
-        "description_removed": "{executor} removed the avatar for {webhook}",
-        "linkToOldAvatar": "Link to old avatar",
-        "linkToNewAvatar": "Link to new avatar"
+        "description_removed": "{executor} removed th' avatar for {webhook}",
+        "linkToOldAvatar": "Link t' old avatar",
+        "linkToNewAvatar": "Link t' new avatar"
     },
     "statusChannelFollowed": {
-        "title": "Channel Followed",
-        "description": "{executor} followed the channel {name} in {channel}"
+        "title": "Deck Followed",
+        "description": "{executor} followed th' deck {name} in {channel}"
     },
     "statusChannelUnfollowed": {
-        "title": "Channel Unfollowed",
-        "description": "{executor} unfollowed the channel {name}"
+        "title": "Deck Unfollowed",
+        "description": "{executor} unfollowed th' deck {name}"
     },
     "statusChannelUpdated": {
-        "title": "Followed Channel Updated",
-        "description": "{executor} updated the followed channel {name}"
+        "title": "Followed Deck Updated",
+        "description": "{executor} updated th' followed deck {name}"
     },
     "general": {
-        "unknownChannel": "Unknown Channel"
+        "unknownChannel": "Unknown Deck"
     }
 }
