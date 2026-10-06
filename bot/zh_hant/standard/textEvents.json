@@ -47,7 +47,8 @@
         "title": "討論串已被修改",
         "descriptionClosed": "{thread} was closed by {executor}",
         "descriptionReopened": "{thread} was reopened by {executor}",
-        "descriptionLocked": "{thread} was locked by {executor}"
+        "descriptionLocked": "{thread} was locked by {executor}",
+        "descriptionUnlocked": "{thread} was unlocked by {executor}"
     },
     "polls": {
         "poll": "民意調查",
