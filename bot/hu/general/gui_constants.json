@@ -35,7 +35,8 @@
         "name": "Név",
         "rate_limit_per_user": "Lassított Mód",
         "auto_archive_duration": "Automatikus Archiválás",
-        "locked": "Locked"
+        "locked": "Locked",
+        "invitable": "Members Can Invite"
     },
     "webhookModificationTypes": {
         "channel_id": "Csatorna",
