@@ -1,9 +1,5 @@
 export type LanguageStructure = {
   general: {
-  access_token: Promise<{
-  "1": string;
-  "2": string;
-}>;
   buttons: Promise<{
   userID: string;
   supportServer: string;
@@ -13,8 +9,9 @@ export type LanguageStructure = {
   dashboard: string;
   pro: string;
 }>;
-  channel_update_types: Promise<{
-  none: string;
+  access_token: Promise<{
+  "1": string;
+  "2": string;
 }>;
   channel_types: Promise<{
   "0": string;
@@ -28,6 +25,9 @@ export type LanguageStructure = {
   "14": string;
   "15": string;
   "16": string;
+}>;
+  channel_update_types: Promise<{
+  none: string;
 }>;
   command_responses: Promise<{
   disable: string;
@@ -283,6 +283,9 @@ export type LanguageStructure = {
   "logreport-modal-label": string;
   "logreport-modal-placeholder": string;
   "logreport-sent": string;
+  "logreport-expired": string;
+  "logreport-cooldown": string;
+  "logreport-unavailable": string;
 }>;
   emoji_update_types: Promise<{
   none: string;
@@ -482,9 +485,6 @@ export type LanguageStructure = {
   sticker_update_types: Promise<{
   none: string;
 }>;
-  thread_update_types: Promise<{
-  none: string;
-}>;
   tags_responses: Promise<{
   "tags-help-description": string;
   "create-success": string;
@@ -508,6 +508,9 @@ export type LanguageStructure = {
   "tag-error-limitreached-0": string;
   "tag-error-limitreached-1": string;
   "tag-createdby": string;
+}>;
+  thread_update_types: Promise<{
+  none: string;
 }>;
   time: Promise<{
   second: string;
@@ -621,12 +624,12 @@ export type LanguageStructure = {
 };
 };
 }>;
+  initialReactor: Promise<{
+  name: string;
+}>;
   invite: Promise<{
   name: string;
   description: string;
-}>;
-  initialReactor: Promise<{
-  name: string;
 }>;
   kick: Promise<{
   name: string;
@@ -653,6 +656,10 @@ export type LanguageStructure = {
 };
 }>;
   logging: Promise<{
+  name: string;
+  description: string;
+}>;
+  ping: Promise<{
   name: string;
   description: string;
 }>;
@@ -689,10 +696,6 @@ export type LanguageStructure = {
 };
 };
 }>;
-  ping: Promise<{
-  name: string;
-  description: string;
-}>;
   premium: Promise<{
   name: string;
   description: string;
@@ -700,16 +703,6 @@ export type LanguageStructure = {
   privacy: Promise<{
   name: string;
   description: string;
-}>;
-  purge: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  countOption: {
-  name: string;
-  description: string;
-};
-};
 }>;
   reason: Promise<{
   name: string;
@@ -720,6 +713,16 @@ export type LanguageStructure = {
   description: string;
 };
   reasonOption: {
+  name: string;
+  description: string;
+};
+};
+}>;
+  purge: Promise<{
+  name: string;
+  description: string;
+  commandOptions: {
+  countOption: {
   name: string;
   description: string;
 };
@@ -890,6 +893,809 @@ export type LanguageStructure = {
   vote: Promise<{
   name: string;
   description: string;
+}>;
+};
+  standard: {
+  channelEvents: Promise<{
+  channelCreated: {
+  title: string;
+  description: string;
+  descriptionWithCategory: string;
+};
+  channelDeleted: {
+  title: string;
+  description: string;
+  channel: string;
+};
+  channelUpdated: {
+  title: string;
+  description: string;
+};
+  channelOverwriteCreate: {
+  title: string;
+  description: string;
+};
+  channelOverwriteDelete: {
+  title: string;
+  description: string;
+};
+  channelOverwriteUpdate: {
+  title: string;
+  description: string;
+  newPermissions: string;
+  viewFullNewPermissions: string;
+  warning: string;
+  dangerousPermissions: string;
+};
+  webhookCreate: {
+  title: string;
+  description: string;
+};
+  webhookDelete: {
+  title: string;
+  description: string;
+};
+  webhookUpdate: {
+  title: string;
+  description: string;
+};
+  webhookAvatarUpdate: {
+  title: string;
+  description: string;
+  description_added: string;
+  description_removed: string;
+  linkToOldAvatar: string;
+  linkToNewAvatar: string;
+};
+  statusChannelFollowed: {
+  title: string;
+  description: string;
+};
+  statusChannelUnfollowed: {
+  title: string;
+  description: string;
+};
+  statusChannelUpdated: {
+  title: string;
+  description: string;
+};
+  general: {
+  unknownChannel: string;
+};
+}>;
+  generalEvents: Promise<{
+  serverModified: {
+  title: string;
+  description: string;
+};
+  serverIconUpdated: {
+  title: string;
+  description: string;
+  description_added: string;
+  description_removed: string;
+  linkToOldIcon: string;
+  linkToNewIcon: string;
+};
+  serverBoostAdd: {
+  title: string;
+  description: string;
+  description_noUser: string;
+  description_withTier: string;
+  description_withTier_noUser: string;
+  none: string;
+};
+  serverBoostRemove: {
+  title: string;
+  description: string;
+  description_noUser: string;
+  description_withTier: string;
+  description_withTier_noUser: string;
+  none: string;
+};
+}>;
+  quarkEvents: Promise<{
+  serverlogChannelUpdate: {
+  title: string;
+  description_set: string;
+  description_category_disable: string;
+  description_unset: string;
+};
+  serverlogOptionsUpdate: {
+  title: string;
+  description: string;
+  pluralkitSupport: string;
+  spoilers: string;
+  buttons: string;
+  formatType: string;
+  modlogLockAfter: string;
+  modlogLockAfterAlways: string;
+  modlogLockAfterNever: string;
+  modlogLockAfterTimed: string;
+  automationRule: string;
+  automationRuleCreated: string;
+  automationRuleDeleted: string;
+  automationRuleEdited: string;
+  automationRuleRenamed: string;
+  automationRuleDryOn: string;
+  automationRuleSwitchedOn: string;
+  automationRuleDryOff: string;
+  automationRuleSwitchedOff: string;
+  automationRuleDoes: string;
+  automationRuleDoes_alert: string;
+  automationRuleDoes_timeout: string;
+  automationRuleDoes_skip: string;
+  automationRuleDoes_kick: string;
+  automationRuleDoes_ban: string;
+  automationRuleDoes_delmsg: string;
+  automationRuleDoes_notice: string;
+  automationRuleDoes_role: string;
+  automationRuleDoes_dm: string;
+  automationRuleDoes_copy: string;
+  automationRuleDoes_colour: string;
+};
+  serverlogLogUpdate: {
+  title: string;
+  description: string;
+  enabled: string;
+  logFormat: string;
+  logChannel: string;
+  colour: string;
+  ignoreBotExecutors: string;
+  ignoreBotTargets: string;
+  activeIgnore: string;
+};
+  serverlogIgnoreUpdate: {
+  title: string;
+  description_set: string;
+  description_unset: string;
+  description_added: string;
+  description_removed: string;
+  description_request_by: string;
+  description_request_about: string;
+  description_request_hourly_by: string;
+  description_request_hourly_about: string;
+  request_logs_type: string;
+  request_logs_any: string;
+};
+  languageUpdate: {
+  title: string;
+  description: string;
+};
+  reset: {
+  title: string;
+  description: string;
+};
+  tagAdded: {
+  title: string;
+  description: string;
+};
+  tagUpdated: {
+  title: string;
+  description: string;
+};
+  tagDeleted: {
+  title: string;
+  description: string;
+};
+  tokenAdded: {
+  title: string;
+  description: string;
+  unique_id: string;
+  revoke: string;
+};
+  tokenRevoked: {
+  title: string;
+  description: string;
+};
+  guildSubscriptionUpdate: {
+  title_applied: string;
+  title_removed: string;
+  description_applied: string;
+  description_removed: string;
+  quark_pro: string;
+  quark_prolite: string;
+  none: string;
+  executor: string;
+  teaser_pro: string;
+};
+  proPromotion: {
+  title: string;
+  unknownAuthor: string;
+  contentUnavailable: string;
+  hiddenExecutor: string;
+  messageRetention: string;
+  voiceModeration: string;
+  cta: string;
+  alsoSuppressed: string;
+  digestTitle: string;
+  digestMessageRetention: string;
+  digestVoiceModeration: string;
+  digestFooter: string;
+  upgradeToView: string;
+  messageRetentionEdit: string;
+  messageRetentionDelete: string;
+  sentAgo: string;
+  messageAgeDelete: string;
+  messageAgeEdit: string;
+  optOutLink: string;
+  optOut: string;
+  retainedMessage: string;
+  retainedFiles: string;
+  retainedOriginal: string;
+  executorShown: string;
+};
+  dashboardAccessUpdate: {
+  title: string;
+  description_created: string;
+  description_updated: string;
+  description_revoked: string;
+  capability_viewLogs: string;
+  capability_viewLogHistory: string;
+  capability_exportLogs: string;
+  capability_viewConfig: string;
+  capability_manageLogChannels: string;
+  capability_manageLogSettings: string;
+  capability_manageTags: string;
+  capability_manageSettings: string;
+  capability_viewAnalytics: string;
+  capability_manageAccess: string;
+  capability_manageAutomations: string;
+  capability_other: string;
+  capability_none: string;
+  preset_logViewer: string;
+  preset_logAnalyst: string;
+  preset_moderator: string;
+  preset_logConfigurator: string;
+  preset_full: string;
+};
+  ruleNotice: string;
+  ruleAction: {
+  title: string;
+  description_alert: string;
+  description_timeout: string;
+  description_kick: string;
+  description_ban: string;
+  description_delmsg: string;
+  description_budget: string;
+  description_flag_no_permission: string;
+  description_flag_hierarchy: string;
+  description_flag: string;
+  description_flag_error: string;
+  member_unknown: string;
+  channel_unknown: string;
+  trigger: string;
+  description_role_give: string;
+  description_role_take: string;
+  description_dm: string;
+  description_flag_role: string;
+  role_unknown: string;
+  dm_footer: string;
+  description_flag_saver_permission: string;
+  description_flag_saver_timeout: string;
+  description_flag_saver_channel: string;
+  description_flag_saver_hierarchy: string;
+  description_flag_saver_role: string;
+  description_flag_role_elevated: string;
+};
+}>;
+  modlog: Promise<{
+  moderator: string;
+  user: string;
+  reason: string;
+  case: string;
+  noReason: string;
+  noReasonBrief: string;
+  ban: string;
+  unban: string;
+  kick: string;
+  mute: string;
+  unmute: string;
+  timeoutEnds: string;
+  editReason: string;
+  reasonModal: {
+  label: string;
+  placeholder: string;
+  title: string;
+};
+  usingBot: string;
+  lock: string;
+  unlock: string;
+  history: string;
+  editedBy: string;
+  editedByMany: string;
+  lockedManual: string;
+  lockedDisabled: string;
+  lockedExpired: string;
+  historyTitle: string;
+  historyEdited: string;
+  historyLocked: string;
+  historyUnlocked: string;
+  historyEarlier: string;
+  historyEarlierOne: string;
+  historyUpsell: string;
+  historyEmpty: string;
+  historyUnavailable: string;
+  sharedMessage: string;
+  editModalTitle: string;
+  imagesLabel: string;
+}>;
+  roleEvents: Promise<{
+  roleCreated: {
+  title: string;
+  description: string;
+};
+  roleDeleted: {
+  title: string;
+  description: string;
+  role: string;
+  linkToRoleIcon: string;
+};
+  roleUpdated: {
+  title: string;
+  description: string;
+};
+  rolePermissionsUpdate: {
+  title: string;
+  description: string;
+  newPermissions: string;
+  oldPermissions: string;
+  viewFullNewPermissions: string;
+  viewFullOldPermissions: string;
+  warning: string;
+  dangerousPermissions: string;
+};
+  roleIconUpdate: {
+  title: string;
+  description: string;
+  description_added: string;
+  description_removed: string;
+  linkToOldIcon: string;
+  linkToNewIcon: string;
+};
+}>;
+  serverActions: Promise<{
+  inviteCreate: {
+  title: string;
+  description_withInviter: string;
+  description_withoutInviter: string;
+  expires: string;
+  never: string;
+  maxUses: string;
+  none: string;
+};
+  inviteDelete: {
+  title: string;
+  description_withExecutor: string;
+  description_withoutExecutor: string;
+  used: string;
+  created: string;
+  none: string;
+};
+  emojiCreated: {
+  title: string;
+  description: string;
+};
+  emojiDeleted: {
+  title: string;
+  description: string;
+  emoji: string;
+};
+  emojiUpdated: {
+  title: string;
+  description: string;
+};
+  serverEventCreate: {
+  title: string;
+  description_withChannel: string;
+  description_withoutChannel: string;
+  eventDescription: string;
+  location: string;
+  starts: string;
+  image: string;
+};
+  serverEventDelete: {
+  title: string;
+  description: string;
+  linkToEventImage: string;
+};
+  serverEventUpdate: {
+  title: string;
+  description: string;
+  newEventDescription: string;
+  newLocation: string;
+  newChannel: string;
+  linkToEventImage: string;
+  newImage: string;
+};
+  stickerCreated: {
+  title: string;
+  description: string;
+  stickerDescription: string;
+  stickerEmoji: string;
+};
+  stickerDeleted: {
+  title: string;
+  description: string;
+};
+  stickerUpdated: {
+  title: string;
+  description: string;
+};
+  soundboardSoundCreated: {
+  title: string;
+  description: string;
+  soundEmoji: string;
+  description_noexecutor: string;
+};
+  soundboardSoundDeleted: {
+  title: string;
+  description: string;
+  description_noexecutor: string;
+};
+  soundboardSoundUpdated: {
+  title: string;
+  description: string;
+  description_noexecutor: string;
+};
+  autoModerationRuleCreated: {
+  title: string;
+  exemptRoles: string;
+  exemptChannels: string;
+  conditions: string;
+  actions: string;
+  description_type: {
+  message_send: string;
+  member_update: string;
+};
+  description: string;
+  description_noexecutor: string;
+};
+  autoModerationRule: {
+  trigger: {
+  key: {
+  keyword_filter: string;
+  regex_patterns: string;
+  presets: string;
+  allow_list: string;
+  mention_total_limit: string;
+  mention_raid_protection_enabled: string;
+  spam: string;
+  keyword_preset: string;
+};
+  value: {
+  presets: {
+  "1": string;
+  "2": string;
+  "3": string;
+};
+};
+};
+  action: {
+  type: {
+  block_message: string;
+  send_alert_message: string;
+  timeout: string;
+  block_member_interaction: string;
+};
+};
+};
+  autoModerationRuleDeleted: {
+  title: string;
+  description: string;
+  conditions: string;
+  exemptRoles: string;
+  exemptChannels: string;
+  actions: string;
+  description_noexecutor: string;
+};
+  autoModerationRuleUpdated: {
+  title: string;
+  description: string;
+  description_noexecutor: string;
+};
+}>;
+  serverEvents: Promise<{
+  members: string;
+  userJoined: {
+  title: string;
+  description: string;
+  noAvatar: string;
+  newAccount: string;
+  noBadges: string;
+  warning: string;
+  accountCreated: string;
+  invite: string;
+  createdBy: string;
+  ban: string;
+  info: string;
+  rejoined: string;
+};
+  userLeft: {
+  title: string;
+  description: string;
+  joined: string;
+  roles: string;
+  serverProfilePicture: string;
+  description_kicked: string;
+  description_kicked_no_executor: string;
+  description_banned: string;
+  description_banned_no_executor: string;
+  info: string;
+  info_kicked: string;
+  info_banned: string;
+};
+  botAdded: {
+  title: string;
+  description: string;
+  descriptionne: string;
+};
+  botRemoved: {
+  title: string;
+  description: string;
+  descriptionne: string;
+};
+  nicknameUpdate: {
+  title: string;
+  description: string;
+  setNick: string;
+  nickRemoved: string;
+  changedBy: string;
+};
+  memberRoleAdd: {
+  title: string;
+  title_multiple: string;
+  description: string;
+  description_multiple: string;
+  givenBy: string;
+  roles: string;
+  warning: string;
+  dangerousPermissions: string;
+};
+  memberRoleRemove: {
+  title: string;
+  title_multiple: string;
+  description: string;
+  description_multiple: string;
+  removedBy: string;
+  roles: string;
+};
+  memberPrune: {
+  title: string;
+  description: string;
+};
+  avatarUpdate: {
+  title: string;
+  description: string;
+  description_added: string;
+  description_removed: string;
+  changedBy: string;
+  linkToOldAvatar: string;
+  linkToNewAvatar: string;
+};
+}>;
+  textEvents: Promise<{
+  polls: {
+  poll: string;
+  pollDescriptor: string;
+  status: string;
+  ended: string;
+  notEnded: string;
+  multiselect: string;
+  enabled: string;
+  disabled: string;
+  ends: string;
+  vote: string;
+  votes: string;
+  noResponses: string;
+  pollDeleted: string;
+};
+  messageDeleted: {
+  title: string;
+  author: string;
+  channel: string;
+  deletedBy: string;
+  jumpToContext: string;
+  warning: string;
+  linksToEmojis: string;
+  linksToFiles: string;
+  inviteDetected: string;
+  ghostpingDetected: string;
+  file: string;
+  files: string;
+  fileExpired: string;
+  filesExpired: string;
+  sticker: string;
+  noContent: string;
+  embed: string;
+  thread: string;
+  initialReactor: string;
+  filesWithheldCsam: string;
+  filesWithheldHarmful: string;
+  filesWithheldUnchecked: string;
+  filesWithheldOther: string;
+};
+  messagesBulkDeleted: {
+  title: string;
+  deletedBy: string;
+  channel: string;
+  more: string;
+  uncachedUser: string;
+  uncachedChannel: string;
+  uncachedMessage: string;
+  embed: string;
+  errorFile: string;
+  errorText: string;
+  embedAuthor: string;
+  embedTitle: string;
+  embedImage: string;
+  embedThumbnail: string;
+  embedVideo: string;
+  embedFooter: string;
+  embedTimestamp: string;
+};
+  messageUpdate: {
+  title: string;
+  author: string;
+  channel: string;
+  jumpToMessage: string;
+  afterEdit: string;
+  diff: string;
+  diffError: string;
+  cannotRetrieveOriginal: string;
+  noContent: string;
+  thread: string;
+};
+  attachmentDeleted: {
+  title: string;
+};
+  messagePin: {
+  title: string;
+  description: string;
+};
+  messageUnpin: {
+  title: string;
+  description: string;
+};
+  threadCreate: {
+  thread: string;
+  channel: string;
+  jumpToContext: string;
+  title: string;
+  description: string;
+};
+  threadDelete: {
+  thread: string;
+  channel: string;
+  title: string;
+  description: string;
+};
+  messageReactionRemove: {
+  title: string;
+  description: string;
+  emoji: string;
+  linkToEmoji: string;
+  jumpToMessage: string;
+};
+  threadUpdated: {
+  description: string;
+  title: string;
+};
+  reactionBundle: {
+  title: string;
+};
+}>;
+  voiceEvents: Promise<{
+  streamStart: {
+  title: string;
+  description: string;
+};
+  streamStop: {
+  title: string;
+  description: string;
+  streamedFor: string;
+};
+  videoStart: {
+  title: string;
+  description: string;
+};
+  videoStop: {
+  title: string;
+  description: string;
+};
+  voiceSwitch: {
+  title: string;
+  description: string;
+  timeInPrevious: string;
+};
+  voiceMove: {
+  title: string;
+  description: string;
+  movedBy: string;
+  timeInPrevious: string;
+};
+  voiceJoin: {
+  title: string;
+  description: string;
+};
+  voiceLeave: {
+  title: string;
+  description: string;
+  joined: string;
+  joinedValue: string;
+  channels: string;
+  channelDuration: string;
+};
+  voiceDisconnect: {
+  title: string;
+  description: string;
+  disconnectedBy: string;
+  voiceChannel: string;
+};
+  serverDeafen: {
+  title: string;
+  description: string;
+  deafenedBy: string;
+  voiceChannel: string;
+};
+  serverMute: {
+  title: string;
+  description: string;
+  mutedBy: string;
+  voiceChannel: string;
+};
+  serverUndeafen: {
+  title: string;
+  description: string;
+  undeafenedBy: string;
+  voiceChannel: string;
+};
+  serverUnmute: {
+  title: string;
+  description: string;
+  unmutedBy: string;
+  voiceChannel: string;
+};
+  channelStatusUpdate: {
+  title: string;
+  description: string;
+  status: string;
+  linksToEmojis: string;
+  descriptionRemoved: string;
+};
+  stageStarted: {
+  title: string;
+  description: string;
+  topic: string;
+};
+  stageEnded: {
+  title: string;
+  description: string;
+  description_noExecutor: string;
+  topic: string;
+  none: string;
+};
+  stageUpdated: {
+  title: string;
+  description: string;
+  oldTopic: string;
+  newTopic: string;
+};
+  stageSpeakerAdd: {
+  title: string;
+  description: string;
+  description_inviteAccepted: string;
+};
+  stageSpeakerRemove: {
+  title: string;
+  description: string;
+};
+  stageSpeakerInvited: {
+  title: string;
+  description: string;
+};
+  voiceBundle: {
+  title: string;
+};
 }>;
 };
   web: {
@@ -1180,807 +1986,6 @@ export type LanguageStructure = {
 };
 }>;
 };
-  standard: {
-  channelEvents: Promise<{
-  channelCreated: {
-  title: string;
-  description: string;
-  descriptionWithCategory: string;
 };
-  channelDeleted: {
-  title: string;
-  description: string;
-  channel: string;
-};
-  channelUpdated: {
-  title: string;
-  description: string;
-};
-  channelOverwriteCreate: {
-  title: string;
-  description: string;
-};
-  channelOverwriteDelete: {
-  title: string;
-  description: string;
-};
-  channelOverwriteUpdate: {
-  title: string;
-  description: string;
-  newPermissions: string;
-  viewFullNewPermissions: string;
-  warning: string;
-  dangerousPermissions: string;
-};
-  webhookCreate: {
-  title: string;
-  description: string;
-};
-  webhookDelete: {
-  title: string;
-  description: string;
-};
-  webhookUpdate: {
-  title: string;
-  description: string;
-};
-  webhookAvatarUpdate: {
-  title: string;
-  description: string;
-  description_added: string;
-  description_removed: string;
-  linkToOldAvatar: string;
-  linkToNewAvatar: string;
-};
-  statusChannelFollowed: {
-  title: string;
-  description: string;
-};
-  statusChannelUnfollowed: {
-  title: string;
-  description: string;
-};
-  statusChannelUpdated: {
-  title: string;
-  description: string;
-};
-  general: {
-  unknownChannel: string;
-};
-}>;
-  generalEvents: Promise<{
-  serverModified: {
-  title: string;
-  description: string;
-};
-  serverIconUpdated: {
-  title: string;
-  description: string;
-  description_added: string;
-  description_removed: string;
-  linkToOldIcon: string;
-  linkToNewIcon: string;
-};
-  serverBoostAdd: {
-  title: string;
-  description: string;
-  description_noUser: string;
-  description_withTier: string;
-  description_withTier_noUser: string;
-  none: string;
-};
-  serverBoostRemove: {
-  title: string;
-  description: string;
-  description_noUser: string;
-  description_withTier: string;
-  description_withTier_noUser: string;
-  none: string;
-};
-}>;
-  modlog: Promise<{
-  moderator: string;
-  user: string;
-  reason: string;
-  case: string;
-  noReason: string;
-  noReasonBrief: string;
-  ban: string;
-  unban: string;
-  kick: string;
-  mute: string;
-  unmute: string;
-  timeoutEnds: string;
-  editReason: string;
-  reasonModal: {
-  label: string;
-  placeholder: string;
-  title: string;
-};
-  usingBot: string;
-  lock: string;
-  unlock: string;
-  history: string;
-  editedBy: string;
-  editedByMany: string;
-  lockedManual: string;
-  lockedDisabled: string;
-  lockedExpired: string;
-  historyTitle: string;
-  historyEdited: string;
-  historyLocked: string;
-  historyUnlocked: string;
-  historyEarlier: string;
-  historyEarlierOne: string;
-  historyUpsell: string;
-  historyEmpty: string;
-  historyUnavailable: string;
-  sharedMessage: string;
-}>;
-  quarkEvents: Promise<{
-  serverlogChannelUpdate: {
-  title: string;
-  description_set: string;
-  description_category_disable: string;
-  description_unset: string;
-};
-  serverlogOptionsUpdate: {
-  title: string;
-  description: string;
-  pluralkitSupport: string;
-  spoilers: string;
-  buttons: string;
-  formatType: string;
-  modlogLockAfter: string;
-  modlogLockAfterAlways: string;
-  modlogLockAfterNever: string;
-  modlogLockAfterTimed: string;
-  automationRule: string;
-  automationRuleCreated: string;
-  automationRuleDeleted: string;
-  automationRuleEdited: string;
-  automationRuleRenamed: string;
-  automationRuleDryOn: string;
-  automationRuleSwitchedOn: string;
-  automationRuleDryOff: string;
-  automationRuleSwitchedOff: string;
-  automationRuleDoes: string;
-  automationRuleDoes_alert: string;
-  automationRuleDoes_timeout: string;
-  automationRuleDoes_skip: string;
-  automationRuleDoes_kick: string;
-  automationRuleDoes_ban: string;
-  automationRuleDoes_delmsg: string;
-  automationRuleDoes_notice: string;
-  automationRuleDoes_role: string;
-  automationRuleDoes_dm: string;
-  automationRuleDoes_copy: string;
-  automationRuleDoes_colour: string;
-};
-  serverlogLogUpdate: {
-  title: string;
-  description: string;
-  enabled: string;
-  logFormat: string;
-  logChannel: string;
-  colour: string;
-  ignoreBotExecutors: string;
-  ignoreBotTargets: string;
-  activeIgnore: string;
-};
-  serverlogIgnoreUpdate: {
-  title: string;
-  description_set: string;
-  description_unset: string;
-  description_added: string;
-  description_removed: string;
-  description_request_by: string;
-  description_request_about: string;
-  description_request_hourly_by: string;
-  description_request_hourly_about: string;
-  request_logs_type: string;
-  request_logs_any: string;
-};
-  languageUpdate: {
-  title: string;
-  description: string;
-};
-  reset: {
-  title: string;
-  description: string;
-};
-  tagAdded: {
-  title: string;
-  description: string;
-};
-  tagUpdated: {
-  title: string;
-  description: string;
-};
-  tagDeleted: {
-  title: string;
-  description: string;
-};
-  tokenAdded: {
-  title: string;
-  description: string;
-  unique_id: string;
-  revoke: string;
-};
-  tokenRevoked: {
-  title: string;
-  description: string;
-};
-  guildSubscriptionUpdate: {
-  title_applied: string;
-  title_removed: string;
-  description_applied: string;
-  description_removed: string;
-  quark_pro: string;
-  quark_prolite: string;
-  none: string;
-  executor: string;
-  teaser_pro: string;
-};
-  proPromotion: {
-  title: string;
-  unknownAuthor: string;
-  contentUnavailable: string;
-  hiddenExecutor: string;
-  messageRetention: string;
-  voiceModeration: string;
-  cta: string;
-  alsoSuppressed: string;
-  digestTitle: string;
-  digestMessageRetention: string;
-  digestVoiceModeration: string;
-  digestFooter: string;
-  upgradeToView: string;
-  messageRetentionEdit: string;
-  messageRetentionDelete: string;
-  sentAgo: string;
-  messageAgeDelete: string;
-  messageAgeEdit: string;
-  optOutLink: string;
-  optOut: string;
-  retainedMessage: string;
-  retainedFiles: string;
-  retainedOriginal: string;
-  executorShown: string;
-};
-  dashboardAccessUpdate: {
-  title: string;
-  description_created: string;
-  description_updated: string;
-  description_revoked: string;
-  capability_viewLogs: string;
-  capability_viewLogHistory: string;
-  capability_exportLogs: string;
-  capability_viewConfig: string;
-  capability_manageLogChannels: string;
-  capability_manageLogSettings: string;
-  capability_manageTags: string;
-  capability_manageSettings: string;
-  capability_viewAnalytics: string;
-  capability_manageAccess: string;
-  capability_manageAutomations: string;
-  capability_other: string;
-  capability_none: string;
-  preset_logViewer: string;
-  preset_logAnalyst: string;
-  preset_moderator: string;
-  preset_logConfigurator: string;
-  preset_full: string;
-};
-  ruleNotice: string;
-  ruleAction: {
-  title: string;
-  description_alert: string;
-  description_timeout: string;
-  description_kick: string;
-  description_ban: string;
-  description_delmsg: string;
-  description_budget: string;
-  description_flag_no_permission: string;
-  description_flag_hierarchy: string;
-  description_flag: string;
-  description_flag_error: string;
-  member_unknown: string;
-  channel_unknown: string;
-  trigger: string;
-  description_role_give: string;
-  description_role_take: string;
-  description_dm: string;
-  description_flag_role: string;
-  role_unknown: string;
-  dm_footer: string;
-  description_flag_saver_permission: string;
-  description_flag_saver_timeout: string;
-  description_flag_saver_channel: string;
-  description_flag_saver_hierarchy: string;
-  description_flag_saver_role: string;
-  description_flag_role_elevated: string;
-};
-}>;
-  roleEvents: Promise<{
-  roleCreated: {
-  title: string;
-  description: string;
-};
-  roleDeleted: {
-  title: string;
-  description: string;
-  role: string;
-  linkToRoleIcon: string;
-};
-  roleUpdated: {
-  title: string;
-  description: string;
-};
-  rolePermissionsUpdate: {
-  title: string;
-  description: string;
-  newPermissions: string;
-  oldPermissions: string;
-  viewFullNewPermissions: string;
-  viewFullOldPermissions: string;
-  warning: string;
-  dangerousPermissions: string;
-};
-  roleIconUpdate: {
-  title: string;
-  description: string;
-  description_added: string;
-  description_removed: string;
-  linkToOldIcon: string;
-  linkToNewIcon: string;
-};
-}>;
-  serverActions: Promise<{
-  inviteCreate: {
-  title: string;
-  description_withInviter: string;
-  description_withoutInviter: string;
-  expires: string;
-  never: string;
-  maxUses: string;
-  none: string;
-};
-  inviteDelete: {
-  title: string;
-  description_withExecutor: string;
-  description_withoutExecutor: string;
-  used: string;
-  created: string;
-  none: string;
-};
-  emojiCreated: {
-  title: string;
-  description: string;
-};
-  emojiDeleted: {
-  title: string;
-  description: string;
-  emoji: string;
-};
-  emojiUpdated: {
-  title: string;
-  description: string;
-};
-  serverEventCreate: {
-  title: string;
-  description_withChannel: string;
-  description_withoutChannel: string;
-  eventDescription: string;
-  location: string;
-  starts: string;
-  image: string;
-};
-  serverEventDelete: {
-  title: string;
-  description: string;
-  linkToEventImage: string;
-};
-  serverEventUpdate: {
-  title: string;
-  description: string;
-  newEventDescription: string;
-  newLocation: string;
-  newChannel: string;
-  linkToEventImage: string;
-  newImage: string;
-};
-  stickerCreated: {
-  title: string;
-  description: string;
-  stickerDescription: string;
-  stickerEmoji: string;
-};
-  stickerDeleted: {
-  title: string;
-  description: string;
-};
-  stickerUpdated: {
-  title: string;
-  description: string;
-};
-  soundboardSoundCreated: {
-  title: string;
-  description: string;
-  soundEmoji: string;
-  description_noexecutor: string;
-};
-  soundboardSoundDeleted: {
-  title: string;
-  description: string;
-  description_noexecutor: string;
-};
-  soundboardSoundUpdated: {
-  title: string;
-  description: string;
-  description_noexecutor: string;
-};
-  autoModerationRuleCreated: {
-  title: string;
-  exemptRoles: string;
-  exemptChannels: string;
-  conditions: string;
-  actions: string;
-  description_type: {
-  message_send: string;
-  member_update: string;
-};
-  description: string;
-  description_noexecutor: string;
-};
-  autoModerationRule: {
-  trigger: {
-  key: {
-  keyword_filter: string;
-  regex_patterns: string;
-  presets: string;
-  allow_list: string;
-  mention_total_limit: string;
-  mention_raid_protection_enabled: string;
-  spam: string;
-  keyword_preset: string;
-};
-  value: {
-  presets: {
-  "1": string;
-  "2": string;
-  "3": string;
-};
-};
-};
-  action: {
-  type: {
-  block_message: string;
-  send_alert_message: string;
-  timeout: string;
-  block_member_interaction: string;
-};
-};
-};
-  autoModerationRuleDeleted: {
-  title: string;
-  description: string;
-  conditions: string;
-  exemptRoles: string;
-  exemptChannels: string;
-  actions: string;
-  description_noexecutor: string;
-};
-  autoModerationRuleUpdated: {
-  title: string;
-  description: string;
-  description_noexecutor: string;
-};
-}>;
-  serverEvents: Promise<{
-  members: string;
-  userJoined: {
-  title: string;
-  description: string;
-  noAvatar: string;
-  newAccount: string;
-  noBadges: string;
-  warning: string;
-  accountCreated: string;
-  invite: string;
-  createdBy: string;
-  ban: string;
-  info: string;
-  rejoined: string;
-};
-  userLeft: {
-  title: string;
-  description: string;
-  joined: string;
-  roles: string;
-  serverProfilePicture: string;
-  description_kicked: string;
-  description_kicked_no_executor: string;
-  description_banned: string;
-  description_banned_no_executor: string;
-  info: string;
-  info_kicked: string;
-  info_banned: string;
-};
-  botAdded: {
-  title: string;
-  description: string;
-  descriptionne: string;
-};
-  botRemoved: {
-  title: string;
-  description: string;
-  descriptionne: string;
-};
-  nicknameUpdate: {
-  title: string;
-  description: string;
-  setNick: string;
-  nickRemoved: string;
-  changedBy: string;
-};
-  memberRoleAdd: {
-  title: string;
-  title_multiple: string;
-  description: string;
-  description_multiple: string;
-  givenBy: string;
-  roles: string;
-  warning: string;
-  dangerousPermissions: string;
-};
-  memberRoleRemove: {
-  title: string;
-  title_multiple: string;
-  description: string;
-  description_multiple: string;
-  removedBy: string;
-  roles: string;
-};
-  memberPrune: {
-  title: string;
-  description: string;
-};
-  avatarUpdate: {
-  title: string;
-  description: string;
-  description_added: string;
-  description_removed: string;
-  changedBy: string;
-  linkToOldAvatar: string;
-  linkToNewAvatar: string;
-};
-}>;
-  voiceEvents: Promise<{
-  streamStart: {
-  title: string;
-  description: string;
-};
-  streamStop: {
-  title: string;
-  description: string;
-  streamedFor: string;
-};
-  videoStart: {
-  title: string;
-  description: string;
-};
-  videoStop: {
-  title: string;
-  description: string;
-};
-  voiceSwitch: {
-  title: string;
-  description: string;
-  timeInPrevious: string;
-};
-  voiceMove: {
-  title: string;
-  description: string;
-  movedBy: string;
-  timeInPrevious: string;
-};
-  voiceJoin: {
-  title: string;
-  description: string;
-};
-  voiceLeave: {
-  title: string;
-  description: string;
-  joined: string;
-  joinedValue: string;
-  channels: string;
-  channelDuration: string;
-};
-  voiceDisconnect: {
-  title: string;
-  description: string;
-  disconnectedBy: string;
-  voiceChannel: string;
-};
-  serverDeafen: {
-  title: string;
-  description: string;
-  deafenedBy: string;
-  voiceChannel: string;
-};
-  serverMute: {
-  title: string;
-  description: string;
-  mutedBy: string;
-  voiceChannel: string;
-};
-  serverUndeafen: {
-  title: string;
-  description: string;
-  undeafenedBy: string;
-  voiceChannel: string;
-};
-  serverUnmute: {
-  title: string;
-  description: string;
-  unmutedBy: string;
-  voiceChannel: string;
-};
-  channelStatusUpdate: {
-  title: string;
-  description: string;
-  status: string;
-  linksToEmojis: string;
-  descriptionRemoved: string;
-};
-  stageStarted: {
-  title: string;
-  description: string;
-  topic: string;
-};
-  stageEnded: {
-  title: string;
-  description: string;
-  description_noExecutor: string;
-  topic: string;
-  none: string;
-};
-  stageUpdated: {
-  title: string;
-  description: string;
-  oldTopic: string;
-  newTopic: string;
-};
-  stageSpeakerAdd: {
-  title: string;
-  description: string;
-  description_inviteAccepted: string;
-};
-  stageSpeakerRemove: {
-  title: string;
-  description: string;
-};
-  stageSpeakerInvited: {
-  title: string;
-  description: string;
-};
-  voiceBundle: {
-  title: string;
-};
-}>;
-  textEvents: Promise<{
-  polls: {
-  poll: string;
-  pollDescriptor: string;
-  status: string;
-  ended: string;
-  notEnded: string;
-  multiselect: string;
-  enabled: string;
-  disabled: string;
-  ends: string;
-  vote: string;
-  votes: string;
-  noResponses: string;
-  pollDeleted: string;
-};
-  messageDeleted: {
-  title: string;
-  author: string;
-  channel: string;
-  deletedBy: string;
-  jumpToContext: string;
-  warning: string;
-  linksToEmojis: string;
-  linksToFiles: string;
-  inviteDetected: string;
-  ghostpingDetected: string;
-  file: string;
-  files: string;
-  fileExpired: string;
-  filesExpired: string;
-  sticker: string;
-  noContent: string;
-  embed: string;
-  thread: string;
-  initialReactor: string;
-  filesWithheldCsam: string;
-  filesWithheldHarmful: string;
-  filesWithheldUnchecked: string;
-  filesWithheldOther: string;
-};
-  messagesBulkDeleted: {
-  title: string;
-  deletedBy: string;
-  channel: string;
-  more: string;
-  uncachedUser: string;
-  uncachedChannel: string;
-  uncachedMessage: string;
-  embed: string;
-  errorFile: string;
-  errorText: string;
-  embedAuthor: string;
-  embedTitle: string;
-  embedImage: string;
-  embedThumbnail: string;
-  embedVideo: string;
-  embedFooter: string;
-  embedTimestamp: string;
-};
-  messageUpdate: {
-  title: string;
-  author: string;
-  channel: string;
-  jumpToMessage: string;
-  afterEdit: string;
-  diff: string;
-  diffError: string;
-  cannotRetrieveOriginal: string;
-  noContent: string;
-  thread: string;
-};
-  attachmentDeleted: {
-  title: string;
-};
-  messagePin: {
-  title: string;
-  description: string;
-};
-  messageUnpin: {
-  title: string;
-  description: string;
-};
-  threadCreate: {
-  thread: string;
-  channel: string;
-  jumpToContext: string;
-  title: string;
-  description: string;
-};
-  threadDelete: {
-  thread: string;
-  channel: string;
-  title: string;
-  description: string;
-};
-  messageReactionRemove: {
-  title: string;
-  description: string;
-  emoji: string;
-  linkToEmoji: string;
-  jumpToMessage: string;
-};
-  threadUpdated: {
-  description: string;
-  title: string;
-};
-  reactionBundle: {
-  title: string;
-};
-}>;
-};
-};
-export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "export" | "help" | "invite" | "initialReactor" | "kick" | "language" | "logging" | "mute" | "ping" | "premium" | "privacy" | "purge" | "reason" | "serverlog" | "tags" | "troubleshoot" | "unban" | "unmute" | "vote";
+export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "export" | "help" | "initialReactor" | "invite" | "kick" | "language" | "logging" | "ping" | "mute" | "premium" | "privacy" | "reason" | "purge" | "serverlog" | "tags" | "troubleshoot" | "unban" | "unmute" | "vote";
 export type QuarkLanguageCodes = "en_us" | "en_gb" | "tr" | "vi" | "en_pr" | "pl" | "nl" | "es_es" | "it" | "de" | "fr" | "ru" | "el" | "zh_hant" | "ko" | "sl" | "ar" | "hu" | "ja";

@@ -35,5 +35,7 @@
     "historyUpsell": "{proLink} shows the full history, with what each reason said before.",
     "historyEmpty": "No changes have been recorded for this modlog.",
     "historyUnavailable": "History is unavailable right now.",
-    "sharedMessage": "This modlog shares its message with other logs, so its reason can't be edited."
+    "sharedMessage": "This modlog shares its message with other logs, so its reason can't be edited.",
+    "editModalTitle": "Modify modlog",
+    "imagesLabel": "Images"
 }
