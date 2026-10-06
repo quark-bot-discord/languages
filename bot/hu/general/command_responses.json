@@ -234,5 +234,6 @@
     "setserverlog-live-support": "Támogatói szerver",
     "setserverlog-live-status": "Fejlesztői frissítések beállítása",
     "setserverlog-type-nsfw-0": "Korhatáros Csatorna Események",
-    "setserverlog-type-nsfw-1": "korhatáros csatorna események"
+    "setserverlog-type-nsfw-1": "korhatáros csatorna események",
+    "logchannel-error-title": "Log channel not changed"
 }
