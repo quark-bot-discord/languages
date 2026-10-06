@@ -11,8 +11,8 @@
         "ends": "Ends",
         "vote": "vote",
         "votes": "votes",
-        "noResponses": "No responses",
-        "pollDeleted": "Poll Deleted"
+        "noResponses": "Nary a response",
+        "pollDeleted": "Poll Scrubbed"
     },
     "messageDeleted": {
         "title": "Message Scrubbed",
@@ -21,19 +21,19 @@
         "deletedBy": "Scrubbed by",
         "jumpToContext": "Jump t' where it 'appened",
         "warning": "WARNIN'!",
-        "linksToEmojis": "Links to emojis",
-        "linksToFiles": "Links to files",
-        "inviteDetected": "Server invite detected",
-        "ghostpingDetected": "Ghostping detected",
+        "linksToEmojis": "Links t' emojis",
+        "linksToFiles": "Links t' files",
+        "inviteDetected": "Ship invitation spotted",
+        "ghostpingDetected": "Ghostping spotted",
         "file": "file",
         "files": "files",
-        "fileExpired": "file too large or expired",
-        "filesExpired": "files too large or expired",
+        "fileExpired": "file too hefty or expired",
+        "filesExpired": "files too hefty or expired",
         "sticker": "sticker",
         "noContent": "nothin' t' see",
         "embed": "embed",
-        "thread": "Thread",
-        "initialReactor": "initial reactor",
+        "thread": "Yarn",
+        "initialReactor": "first t' react",
         "filesWithheldCsam": "Files withheld ({count}): matched known child sexual abuse material. Reported to Quark.",
         "filesWithheldHarmful": "Files withheld ({count}): matched known material that is harmful to children. Reported to Quark.",
         "filesWithheldUnchecked": "Files withheld ({count}): they could not be safety-checked.",
@@ -44,12 +44,12 @@
         "deletedBy": "Scrubbed by",
         "channel": "Deck",
         "more": "more",
-        "uncachedUser": "uncached user",
-        "uncachedChannel": "uncached channel",
+        "uncachedUser": "uncached sailor",
+        "uncachedChannel": "uncached deck",
         "uncachedMessage": "uncached message",
         "embed": "embed",
-        "errorFile": "There was an issue with recovering the files. If this happens persistently, please make us aware in Quark's support server.",
-        "errorText": "There was an issue with creating a text file. Some messages may be lost. If this happens persistently, please make us aware in Quark's support server.",
+        "errorFile": "Blimey, there was trouble recoverin' th' files. If it keeps happenin', kindly let us know in Quark's support ship.",
+        "errorText": "There was trouble creatin' a text file. Some messages may be lost. If it keeps happenin', kindly let us know in Quark's support ship.",
         "embedAuthor": "Author",
         "embedTitle": "Title",
         "embedImage": "Image",
@@ -57,7 +57,7 @@
         "embedVideo": "Video",
         "embedFooter": "Footer",
         "embedTimestamp": "Timestamp",
-        "errorFilePermissions": "Quark could not post the deleted files here. Check that it can send messages and attach files in this channel."
+        "errorFilePermissions": "Quark could not post th' scrubbed files here. Check that it can send messages an' attach files on this deck."
     },
     "messageUpdate": {
         "title": "Message Rewritten",
@@ -65,50 +65,50 @@
         "channel": "Deck",
         "jumpToMessage": "Jump t' th' message",
         "afterEdit": "After rewrite",
-        "diff": "Edits",
-        "diffError": "Unable to calculate edits.",
-        "cannotRetrieveOriginal": "Cannot retrieve original message",
+        "diff": "Rewrites",
+        "diffError": "Unable t' reckon th' rewrites.",
+        "cannotRetrieveOriginal": "Cannot retrieve th' original message",
         "noContent": "nothin' t' see",
-        "thread": "Thread"
+        "thread": "Yarn"
     },
     "attachmentDeleted": {
         "title": "Attachment Be Gone"
     },
     "messagePin": {
-        "title": "Message Pinned",
-        "description": "A message was pinned by {executor}"
+        "title": "Message Pinned T' Th' Mast",
+        "description": "A message was pinned t' th' mast by {executor}"
     },
     "messageUnpin": {
-        "title": "Message Unpinned",
-        "description": "A message was unpinned by {executor}"
+        "title": "Message Unpinned From Th' Mast",
+        "description": "A message was unpinned from th' mast by {executor}"
     },
     "threadCreate": {
-        "thread": "Thread",
-        "channel": "Channel",
+        "thread": "Yarn",
+        "channel": "Deck",
         "jumpToContext": "Jump t' where it 'appened",
-        "title": "Thread Created",
-        "description": "{member} created a new thread {thread}"
+        "title": "Yarn Spun",
+        "description": "{member} spun a new yarn {thread}"
     },
     "threadDelete": {
-        "thread": "Thread",
-        "channel": "Channel",
-        "title": "Thread Deleted",
-        "description": "{executor} deleted a thread {thread}"
+        "thread": "Yarn",
+        "channel": "Deck",
+        "title": "Yarn Scrubbed",
+        "description": "{executor} scrubbed a yarn {thread}"
     },
     "messageReactionRemove": {
         "title": "Reaction Removed",
-        "description": "{executor} removed a reaction from a message",
+        "description": "{executor} hauled a reaction off a message",
         "emoji": "Emoji",
-        "linkToEmoji": "Link to emoji",
-        "jumpToMessage": "Jump to message"
+        "linkToEmoji": "Link t' emoji",
+        "jumpToMessage": "Jump t' th' message"
     },
     "threadUpdated": {
-        "description": "{thread} was modified by {executor}",
-        "title": "Thread Modified",
-        "descriptionClosed": "{thread} was closed by {executor}",
-        "descriptionReopened": "{thread} was reopened by {executor}",
-        "descriptionLocked": "{thread} was locked by {executor}",
-        "descriptionUnlocked": "{thread} was unlocked by {executor}"
+        "description": "Th' yarn {thread} was modified by {executor}",
+        "title": "Yarn Modified",
+        "descriptionClosed": "Th' yarn {thread} was closed by {executor}",
+        "descriptionReopened": "Th' yarn {thread} was reopened by {executor}",
+        "descriptionLocked": "Th' yarn {thread} was locked by {executor}",
+        "descriptionUnlocked": "Th' yarn {thread} was unlocked by {executor}"
     },
     "reactionBundle": {
         "title": "Multiple Reactions Removed"
