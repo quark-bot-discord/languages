@@ -1,9 +1,9 @@
 {
-    "userID": "User ID",
-    "supportServer": "Support Server",
+    "userID": "Sailor ID",
+    "supportServer": "Support Ship",
     "customise": "Customise",
     "overview": "Overview",
-    "serverlog": "Serverlog",
+    "serverlog": "Loggin'",
     "dashboard": "Dashboard",
     "pro": "Quark Pro"
 }

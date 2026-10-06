@@ -1,37 +1,37 @@
 {
     "inviteCreate": {
-        "title": "Invite Created",
-        "description_withInviter": "{inviter} created an invite {invite} for {channel}",
-        "description_withoutInviter": "An invite {invite} was created for {channel}",
+        "title": "Invitation Created",
+        "description_withInviter": "{inviter} drew up an invitation {invite} for {channel}",
+        "description_withoutInviter": "An invitation {invite} was drawn up for {channel}",
         "expires": "Expires",
         "never": "Never",
         "maxUses": "Max Uses",
         "none": "none"
     },
     "inviteDelete": {
-        "title": "Invite Deleted",
-        "description_withExecutor": "{executor} deleted an invite {invite} for {channel}",
-        "description_withoutExecutor": "An invite {invite} was deleted for {channel}",
+        "title": "Invitation Scrubbed",
+        "description_withExecutor": "{executor} scrubbed an invitation {invite} for {channel}",
+        "description_withoutExecutor": "An invitation {invite} was scrubbed for {channel}",
         "used": "Used",
-        "created": "Created by",
+        "created": "Drawn up by",
         "none": "none"
     },
     "emojiCreated": {
         "title": "Emoji Created",
-        "description": "{emoji} was added by {executor}"
+        "description": "{emoji} was brought aboard by {executor}"
     },
     "emojiDeleted": {
-        "title": "Emoji Deleted",
-        "description": "{emoji} was deleted by {executor}",
+        "title": "Emoji Scrubbed",
+        "description": "{emoji} was scrubbed by {executor}",
         "emoji": "Emoji"
     },
     "emojiUpdated": {
-        "title": "Emoji Edited",
-        "description": "{emoji} was edited by {executor}"
+        "title": "Emoji Altered",
+        "description": "{emoji} was altered by {executor}"
     },
     "serverEventCreate": {
         "title": "Event Created",
-        "description_withChannel": "{executor} created an event {name} in {channel}",
+        "description_withChannel": "{executor} created an event {name} aboard {channel}",
         "description_withoutChannel": "{executor} created an event {name}",
         "eventDescription": "Description",
         "location": "Location",
@@ -39,43 +39,43 @@
         "image": "Image"
     },
     "serverEventDelete": {
-        "title": "Event Deleted",
-        "description": "{executor} deleted the event {name}",
-        "linkToEventImage": "Link to event image"
+        "title": "Event Scrubbed",
+        "description": "{executor} scrubbed th' event {name}",
+        "linkToEventImage": "Link t' event image"
     },
     "serverEventUpdate": {
         "title": "Event Updated",
-        "description": "{executor} updated the event {name}",
+        "description": "{executor} updated th' event {name}",
         "newEventDescription": "New Description",
         "newLocation": "New Location",
-        "newChannel": "New Channel",
-        "linkToEventImage": "Link to old event image",
+        "newChannel": "New Deck",
+        "linkToEventImage": "Link t' old event image",
         "newImage": "New Image"
     },
     "stickerCreated": {
         "title": "Sticker Created",
-        "description": "{sticker} was added by {executor}",
+        "description": "{sticker} was brought aboard by {executor}",
         "stickerDescription": "Description",
         "stickerEmoji": "Related Emoji"
     },
     "stickerDeleted": {
-        "title": "Sticker Deleted",
-        "description": "{sticker} was deleted by {executor}"
+        "title": "Sticker Scrubbed",
+        "description": "{sticker} was scrubbed by {executor}"
     },
     "stickerUpdated": {
-        "title": "Sticker Edited",
-        "description": "{sticker} was edited by {executor}"
+        "title": "Sticker Altered",
+        "description": "{sticker} was altered by {executor}"
     },
     "soundboardSoundCreated": {
         "title": "Soundboard Sound Added",
-        "description": "{sound} was added by {executor}",
+        "description": "{sound} was brought aboard by {executor}",
         "soundEmoji": "Emoji",
-        "description_noexecutor": "{sound} was added"
+        "description_noexecutor": "{sound} was brought aboard"
     },
     "soundboardSoundDeleted": {
-        "title": "Soundboard Sound Deleted",
-        "description": "{sound} was deleted by {executor}",
-        "description_noexecutor": "{sound} was deleted"
+        "title": "Soundboard Sound Scrubbed",
+        "description": "{sound} was scrubbed by {executor}",
+        "description_noexecutor": "{sound} was scrubbed"
     },
     "soundboardSoundUpdated": {
         "title": "Soundboard Sound Updated",
@@ -84,23 +84,23 @@
     },
     "autoModerationRuleCreated": {
         "title": "Auto Moderation Rule Created",
-        "exemptRoles": "Excluded Roles",
-        "exemptChannels": "Excluded Channels",
+        "exemptRoles": "Excluded Ranks",
+        "exemptChannels": "Excluded Decks",
         "conditions": "Conditions",
         "actions": "Actions",
         "description_type": {
             "message_send": "messages",
-            "member_update": "member profiles"
+            "member_update": "crewmate profiles"
         },
-        "description": "{executor} created rule {name} for {type}",
-        "description_noexecutor": "Rule {name} was created for {type}"
+        "description": "{executor} laid down rule {name} for {type}",
+        "description_noexecutor": "Rule {name} was laid down for {type}"
     },
     "autoModerationRule": {
         "trigger": {
             "key": {
-                "keyword_filter": "Disallowed Keywords",
-                "regex_patterns": "Disallowed Regex",
-                "presets": "Disallowed Keyword Categories",
+                "keyword_filter": "Forbidden Keywords",
+                "regex_patterns": "Forbidden Regex",
+                "presets": "Forbidden Keyword Categories",
                 "allow_list": "Allowed",
                 "mention_total_limit": "Maximum Mentions",
                 "mention_raid_protection_enabled": "Auto Detect Mention Raids",
@@ -119,23 +119,23 @@
             "type": {
                 "block_message": "Block Message",
                 "send_alert_message": "Send Alert Message",
-                "timeout": "Timeout",
-                "block_member_interaction": "Block Member Interaction"
+                "timeout": "Throw in th' Brig",
+                "block_member_interaction": "Block Crewmate Interaction"
             }
         }
     },
     "autoModerationRuleDeleted": {
-        "title": "Auto Moderation Rule Deleted",
-        "description": "{executor} deleted the rule {name}",
+        "title": "Auto Moderation Rule Scrubbed",
+        "description": "{executor} scrubbed th' rule {name}",
         "conditions": "Conditions",
-        "exemptRoles": "Excluded Roles",
-        "exemptChannels": "Excluded Channels",
+        "exemptRoles": "Excluded Ranks",
+        "exemptChannels": "Excluded Decks",
         "actions": "Actions",
-        "description_noexecutor": "Rule {name} was deleted"
+        "description_noexecutor": "Rule {name} was scrubbed"
     },
     "autoModerationRuleUpdated": {
         "title": "Auto Moderation Rule Updated",
-        "description": "{executor} updated the rule {name}",
+        "description": "{executor} updated th' rule {name}",
         "description_noexecutor": "Rule {name} was updated"
     }
 }

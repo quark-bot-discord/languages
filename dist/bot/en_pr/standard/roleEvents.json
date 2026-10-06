@@ -1,34 +1,34 @@
 {
     "roleCreated": {
-        "title": "Role Created",
-        "description": "{role} was created by {executor}"
+        "title": "Rank Created",
+        "description": "Th' {role} rank was created by {executor}"
     },
     "roleDeleted": {
-        "title": "Role Deleted",
-        "description": "{role_name} was deleted by {executor}",
-        "role": "Role",
-        "linkToRoleIcon": "Link to role icon"
+        "title": "Rank Scrubbed",
+        "description": "Th' {role_name} rank was scrubbed by {executor}",
+        "role": "Rank",
+        "linkToRoleIcon": "Link t' rank icon"
     },
     "roleUpdated": {
-        "title": "Role Modified",
-        "description": "{role} was modified by {executor}"
+        "title": "Rank Modified",
+        "description": "Th' {role} rank was modified by {executor}"
     },
     "rolePermissionsUpdate": {
-        "title": "Role Permissions Updated",
-        "description": "Permissions for {role} were updated by {executor}",
+        "title": "Rank Permissions Updated",
+        "description": "Permissions for th' {role} rank were updated by {executor}",
         "newPermissions": "New Permissions",
         "oldPermissions": "Old Permissions",
         "viewFullNewPermissions": "View Full New Permissions",
         "viewFullOldPermissions": "View Full Old Permissions",
-        "warning": "WARNING!",
+        "warning": "WARNIN'!",
         "dangerousPermissions": "Dangerous permissions granted"
     },
     "roleIconUpdate": {
-        "title": "Role Icon Updated",
-        "description": "{executor} updated the icon for {role}",
-        "description_added": "{executor} added an icon for {role}",
-        "description_removed": "{executor} removed the icon for {role}",
-        "linkToOldIcon": "Link to old icon",
-        "linkToNewIcon": "Link to new icon"
+        "title": "Rank Icon Updated",
+        "description": "{executor} updated th' icon for th' {role} rank",
+        "description_added": "{executor} added an icon for th' {role} rank",
+        "description_removed": "{executor} removed th' icon for th' {role} rank",
+        "linkToOldIcon": "Link t' old icon",
+        "linkToNewIcon": "Link t' new icon"
     }
 }

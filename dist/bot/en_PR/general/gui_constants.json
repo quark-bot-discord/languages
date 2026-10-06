@@ -3,23 +3,23 @@
         "premium_progress_bar_enabled": "Progress Bar",
         "description": "Description",
         "name": "Name",
-        "system_channel_id": "System Channel",
+        "system_channel_id": "System Deck",
         "nsfw_level": "NSFW Level",
         "mfa_level": "MFA Required",
         "default_message_notifications": "Default Notifications",
         "explicit_content_filter": "Explicit Content Filter",
         "verification_level": "Verification Level",
-        "rules_channel_id": "Rule Channel"
+        "rules_channel_id": "Rule Deck"
     },
     "channelModificationTypes": {
         "name": "Name",
-        "user_limit": "User Limit",
+        "user_limit": "Sailor Limit",
         "rate_limit_per_user": "Slowmode",
         "topic": "Topic",
         "bitrate": "Bitrate",
         "type": "Type",
         "position": "Position",
-        "parent_id": "Category",
+        "parent_id": "Quarter",
         "nsfw": "NSFW",
         "rtc_region": "Region"
     },
@@ -29,10 +29,10 @@
         "unicode_emoji": "Emoji",
         "managed": "Managed",
         "mentionable": "Mentionable",
-        "color": "Color"
+        "color": "Colour"
     },
     "webhookModificationTypes": {
-        "channel_id": "Channel",
+        "channel_id": "Deck",
         "name": "Name"
     },
     "emojiModificationTypes": {
@@ -43,7 +43,7 @@
         "auto_archive_duration": "Automatic Archive",
         "name": "Name",
         "locked": "Locked",
-        "invitable": "Members Can Invite",
+        "invitable": "Crewmates Can Invite",
         "flags": "Pinned"
     },
     "stickerModificationTypes": {
@@ -57,8 +57,8 @@
         "emoji": "Emoji"
     },
     "threadModificationValues": {
-        "yes": "yes",
-        "no": "no",
+        "yes": "aye",
+        "no": "nay",
         "tagsAdded": "Tags Added",
         "tagsRemoved": "Tags Removed",
         "unknownTag": "Unknown tag"
