@@ -42,7 +42,8 @@
         "rate_limit_per_user": "Slow-Mode",
         "auto_archive_duration": "Automatisches Archiv",
         "name": "Name",
-        "locked": "Locked"
+        "locked": "Locked",
+        "invitable": "Members Can Invite"
     },
     "stickerModificationTypes": {
         "name": "Name",
