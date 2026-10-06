@@ -55,5 +55,8 @@
         "name": "Nazwa",
         "volume": "Głośność",
         "emoji": "Emotka"
+    },
+    "threadModificationValues": {
+        "yes": "yes"
     }
 }
