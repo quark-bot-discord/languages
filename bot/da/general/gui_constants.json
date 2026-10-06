@@ -40,7 +40,8 @@
         "name": "Name",
         "rate_limit_per_user": "Slowmode",
         "auto_archive_duration": "Automatic Archive",
-        "locked": "Locked"
+        "locked": "Locked",
+        "invitable": "Members Can Invite"
     },
     "soundboardSoundModificationTypes": {
         "emoji": "Emoji",
