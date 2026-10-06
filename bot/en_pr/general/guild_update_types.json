@@ -13,8 +13,8 @@
     },
     "explicit_content_filter": {
         "0": "disabled",
-        "1": "members without roles",
-        "2": "all members"
+        "1": "crewmates without ranks",
+        "2": "all crewmates"
     },
     "nsfw_level": {
         "0": "default",
