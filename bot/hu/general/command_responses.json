@@ -236,5 +236,6 @@
     "setserverlog-type-nsfw-0": "Korhatáros Csatorna Események",
     "setserverlog-type-nsfw-1": "korhatáros csatorna események",
     "logchannel-error-title": "Log channel not changed",
-    "logchannel-error-missing-permissions": "Quark needs the **Manage Webhooks** permission in {channel}. Give Quark that permission and try again."
+    "logchannel-error-missing-permissions": "Quark needs the **Manage Webhooks** permission in {channel}. Give Quark that permission and try again.",
+    "logchannel-error-channel-unreachable": "Quark couldn't open {channel}. Check that Quark has the **View Channel** permission there, then try again."
 }
