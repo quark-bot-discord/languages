@@ -103,7 +103,8 @@
     },
     "threadUpdated": {
         "description": "تم تعديل الثريد {thread} بواسطة {executor}",
-        "title": "تم تعديل الثريد"
+        "title": "تم تعديل الثريد",
+        "descriptionClosed": "{thread} was closed by {executor}"
     },
     "reactionBundle": {
         "title": "Multiple Reactions Removed"
