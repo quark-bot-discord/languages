@@ -55,5 +55,8 @@
         "name": "İsim",
         "volume": "Ses Şiddeti",
         "emoji": "Emoji"
+    },
+    "threadModificationValues": {
+        "yes": "yes"
     }
 }
