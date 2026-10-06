@@ -42,7 +42,8 @@
         "rate_limit_per_user": "スローモード",
         "auto_archive_duration": "自動アーカイブ",
         "name": "名前",
-        "locked": "Locked"
+        "locked": "Locked",
+        "invitable": "Members Can Invite"
     },
     "stickerModificationTypes": {
         "name": "名前",
