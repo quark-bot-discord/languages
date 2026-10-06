@@ -103,7 +103,11 @@
     },
     "threadUpdated": {
         "description": "{thread}, {executor} tarafından güncellendi",
-        "title": "Alt Başlık Güncellendi"
+        "title": "Alt Başlık Güncellendi",
+        "descriptionClosed": "{thread} was closed by {executor}",
+        "descriptionReopened": "{thread} was reopened by {executor}",
+        "descriptionLocked": "{thread} was locked by {executor}",
+        "descriptionUnlocked": "{thread} was unlocked by {executor}"
     },
     "reactionBundle": {
         "title": "Multiple Reactions Removed"

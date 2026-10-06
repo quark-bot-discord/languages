@@ -73,7 +73,11 @@
     },
     "threadUpdated": {
         "description": "{thread} was modified by {executor}",
-        "title": "Thread Modified"
+        "title": "Thread Modified",
+        "descriptionClosed": "{thread} was closed by {executor}",
+        "descriptionReopened": "{thread} was reopened by {executor}",
+        "descriptionLocked": "{thread} was locked by {executor}",
+        "descriptionUnlocked": "{thread} was unlocked by {executor}"
     },
     "messageUnpin": {
         "description": "A message was unpinned by {executor}",
