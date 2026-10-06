@@ -135,7 +135,11 @@
         "95": "{subject} frissített egy hangot {name}",
         "96": "{subject} létrehozott egy automoderációs szabályt {name}",
         "97": "{subject} törölt egy automoderációs szabályt {name}",
-        "98": "{subject} frissített egy automoderációs szabályt {name}"
+        "98": "{subject} frissített egy automoderációs szabályt {name}",
+        "2_kick": "{target} ki lett rúgva[ {executor} által]",
+        "2_ban": "{target} ki lett tiltva[ {executor} által]",
+        "2_actor": "{target} ki lett tilva vagy rúgva {executor} által",
+        "via": "{via} használatával"
     },
     "ui": {
         "clear": "törlés",
