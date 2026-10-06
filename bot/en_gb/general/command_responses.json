@@ -246,5 +246,6 @@
     "logchannel-error-too-many-webhooks": "There are too many webhooks in {channel} for Quark to add its own. Remove some under **Edit Channel > Integrations** and try again.",
     "logchannel-error-unavailable": "Something went wrong, so that change wasn't saved. Try again in a moment. If it keeps happening, let us know in the [support server]({support}) and mention error `{code}`.",
     "logchannel-error-that-channel": "that channel",
-    "logids-none": "No IDs were found in this log."
+    "logids-none": "No IDs were found in this log.",
+    "logids-more": "+{count} more"
 }
