@@ -251,5 +251,6 @@
     "logids-kind-user": "User",
     "logids-kind-role": "Role",
     "logids-kind-channel": "Channel",
-    "logids-kind-id": "ID"
+    "logids-kind-id": "ID",
+    "logreport-modal-title": "Report this log to Quark's developers"
 }
