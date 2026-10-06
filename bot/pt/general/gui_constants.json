@@ -41,7 +41,8 @@
         "rate_limit_per_user": "Slowmode",
         "auto_archive_duration": "Automatic Archive",
         "locked": "Locked",
-        "invitable": "Members Can Invite"
+        "invitable": "Members Can Invite",
+        "flags": "Pinned"
     },
     "soundboardSoundModificationTypes": {
         "emoji": "Emoji",
