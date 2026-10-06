@@ -253,5 +253,6 @@
     "logids-kind-channel": "Channel",
     "logids-kind-id": "ID",
     "logreport-modal-title": "Report this log to Quark's developers",
-    "logreport-modal-label": "What's wrong with this log?"
+    "logreport-modal-label": "What's wrong with this log?",
+    "logreport-modal-placeholder": "For example: the wrong moderator is shown"
 }
