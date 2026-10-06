@@ -35,7 +35,8 @@
         "name": "الاسم",
         "rate_limit_per_user": "سلو مود",
         "auto_archive_duration": "الأرشفة التلقائية",
-        "locked": "Locked"
+        "locked": "Locked",
+        "invitable": "Members Can Invite"
     },
     "webhookModificationTypes": {
         "channel_id": "القناة",
