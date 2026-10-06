@@ -104,7 +104,8 @@
     "threadUpdated": {
         "description": "تم تعديل الثريد {thread} بواسطة {executor}",
         "title": "تم تعديل الثريد",
-        "descriptionClosed": "{thread} was closed by {executor}"
+        "descriptionClosed": "{thread} was closed by {executor}",
+        "descriptionReopened": "{thread} was reopened by {executor}"
     },
     "reactionBundle": {
         "title": "Multiple Reactions Removed"
