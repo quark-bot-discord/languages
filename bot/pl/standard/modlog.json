@@ -40,5 +40,6 @@
     "imagesLabel": "Images",
     "imagesDescription": "Optional. Up to {count}, {size} MB each: PNG, JPEG, GIF or WebP.",
     "imagesRemoveLabel": "Remove the images already attached",
-    "imagesRemoveDescription": "{count} attached now. Any new images are added after they are removed."
+    "imagesRemoveDescription": "{count} attached now. Any new images are added after they are removed.",
+    "imagesNotImages": "Only PNG, JPEG, GIF and WebP images can be added to a modlog. Nothing was changed."
 }
