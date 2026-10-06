@@ -252,5 +252,6 @@
     "logreport-modal-label": "What's wrong with this log?",
     "logreport-modal-placeholder": "For example: the wrong moderator is shown",
     "logreport-sent": "Thanks, your report was sent to Quark's developers along with a copy of the log. To follow it up, mention `{reference}` in the [support server]({support}).",
-    "logreport-expired": "That report timed out. Open the log's menu and choose **Apps > Report log issue** to start again."
+    "logreport-expired": "That report timed out. Open the log's menu and choose **Apps > Report log issue** to start again.",
+    "logreport-cooldown": "You sent a report a moment ago. Try again in a minute."
 }
