@@ -238,5 +238,9 @@
     "setserverlog-live-support": "Support server",
     "setserverlog-live-status": "Get developer updates",
     "setserverlog-type-nsfw-0": "Age-Restricted Channel Events",
-    "setserverlog-type-nsfw-1": "age-restricted channel events"
+    "setserverlog-type-nsfw-1": "age-restricted channel events",
+    "logchannel-error-title": "Log channel not changed",
+    "logchannel-error-missing-permissions": "Quark needs the **Manage Webhooks** permission in {channel}. Give Quark that permission and try again.",
+    "logchannel-error-channel-unreachable": "Quark couldn't open {channel}. Check that Quark has the **View Channel** permission there, then try again.",
+    "logchannel-error-invalid-channel": "Logs can't be sent to {channel}. Pick a text channel and try again."
 }
