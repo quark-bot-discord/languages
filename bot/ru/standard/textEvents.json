@@ -106,7 +106,8 @@
         "title": "Ветка изменена",
         "descriptionClosed": "{thread} was closed by {executor}",
         "descriptionReopened": "{thread} was reopened by {executor}",
-        "descriptionLocked": "{thread} was locked by {executor}"
+        "descriptionLocked": "{thread} was locked by {executor}",
+        "descriptionUnlocked": "{thread} was unlocked by {executor}"
     },
     "reactionBundle": {
         "title": "Multiple Reactions Removed"
