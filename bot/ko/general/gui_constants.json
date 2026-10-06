@@ -30,7 +30,8 @@
         "rate_limit_per_user": "Slowmode",
         "auto_archive_duration": "Automatic Archive",
         "name": "Name",
-        "locked": "Locked"
+        "locked": "Locked",
+        "invitable": "Members Can Invite"
     },
     "channelModificationTypes": {
         "name": "Name",
