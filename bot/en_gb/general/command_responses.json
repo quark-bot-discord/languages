@@ -248,5 +248,6 @@
     "logchannel-error-that-channel": "that channel",
     "logids-none": "No IDs were found in this log.",
     "logids-more": "+{count} more",
-    "logids-kind-user": "User"
+    "logids-kind-user": "User",
+    "logids-kind-role": "Role"
 }
