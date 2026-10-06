@@ -12,26 +12,26 @@
         "createdBy": "recruited by {user}",
         "ban": "Banish",
         "info": "Info",
-        "rejoined": "Account rejoined"
+        "rejoined": "Account rejoined th' crew"
     },
     "userLeft": {
         "title": "Crew Member Overboard",
         "description": "{user} deserted the crew",
         "joined": "Joined the crew",
         "roles": "Ranks",
-        "serverProfilePicture": "Link to server avatar",
-        "description_kicked": "{user} was kicked by {executor}",
-        "description_kicked_no_executor": "{user} was kicked",
-        "description_banned": "{user} was banned by {executor}",
-        "description_banned_no_executor": "{user} was banned",
+        "serverProfilePicture": "Link t' ship avatar",
+        "description_kicked": "{user} was made t' walk th' plank by {executor}",
+        "description_kicked_no_executor": "{user} was made t' walk th' plank",
+        "description_banned": "{user} was banished by {executor}",
+        "description_banned_no_executor": "{user} was banished",
         "info": "Info",
-        "info_kicked": "User kicked",
-        "info_banned": "User banned"
+        "info_kicked": "Sailor walked th' plank",
+        "info_banned": "Sailor banished"
     },
     "botAdded": {
         "title": "Robot Added",
         "description": "{bot} was added to the ship by {executor}",
-        "descriptionne": "{user} was added to the ship"
+        "descriptionne": "{bot} was added to the ship"
     },
     "botRemoved": {
         "title": "Robot Removed",
@@ -39,10 +39,10 @@
         "descriptionne": "{bot} was thrown overboard"
     },
     "nicknameUpdate": {
-        "title": "Nickname Updated",
-        "description": "{user}'s nickname was changed from {oldNickname} to {newNickname}",
-        "setNick": "{user}'s nickname was set to {newNickname}",
-        "nickRemoved": "{user}'s nickname of {oldNickname} was removed",
+        "title": "Moniker Updated",
+        "description": "{user}'s moniker was changed from {oldNickname} t' {newNickname}",
+        "setNick": "{user}'s moniker was set t' {newNickname}",
+        "nickRemoved": "{user}'s moniker o' {oldNickname} was removed",
         "changedBy": "Changed by"
     },
     "memberRoleAdd": {
@@ -52,7 +52,7 @@
         "description_multiple": "{user} was given multiple promotions",
         "givenBy": "Promoted by",
         "roles": "Ranks",
-        "warning": "WARNING!",
+        "warning": "WARNIN'!",
         "dangerousPermissions": "Dangerous permissions granted"
     },
     "memberRoleRemove": {
@@ -65,15 +65,15 @@
     },
     "memberPrune": {
         "title": "Members Overboard",
-        "description": "{count} members with at least {time} days of inactivity were pruned by {executor}"
+        "description": "{count} crewmates with at least {time} days o' inactivity were thrown overboard by {executor}"
     },
     "avatarUpdate": {
-        "title": "Server Avatar Changed",
-        "description": "{user} changed their server avatar",
-        "description_added": "{user} added a server avatar",
-        "description_removed": "{user} removed their server avatar",
+        "title": "Ship Avatar Changed",
+        "description": "{user} changed thar ship avatar",
+        "description_added": "{user} added a ship avatar",
+        "description_removed": "{user} removed thar ship avatar",
         "changedBy": "Changed by",
-        "linkToOldAvatar": "Link to old avatar",
-        "linkToNewAvatar": "Link to new avatar"
+        "linkToOldAvatar": "Link t' old avatar",
+        "linkToNewAvatar": "Link t' new avatar"
     }
 }
