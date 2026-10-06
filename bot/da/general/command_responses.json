@@ -246,5 +246,6 @@
     "logids-more": "+{count} more",
     "logids-kind-user": "User",
     "logids-kind-role": "Role",
-    "logids-kind-channel": "Channel"
+    "logids-kind-channel": "Channel",
+    "logids-kind-id": "ID"
 }
