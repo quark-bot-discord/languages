@@ -60,6 +60,7 @@
         "yes": "yes",
         "no": "no",
         "tagsAdded": "Tags Added",
-        "tagsRemoved": "Tags Removed"
+        "tagsRemoved": "Tags Removed",
+        "unknownTag": "Unknown tag"
     }
 }
