@@ -139,7 +139,27 @@
         "2_kick": "{target} ki lett rúgva[ {executor} által]",
         "2_ban": "{target} ki lett tiltva[ {executor} által]",
         "2_actor": "{target} ki lett tilva vagy rúgva {executor} által",
-        "via": "{via} használatával"
+        "via": "{via} használatával",
+        "101": "”{name}” szabály futtatva lett",
+        "101_alert": "A szabály ”{name}” értesítést küldött[ a(z) #{channel} csatornára]",
+        "101_timeout": "A szabály ”{name}” felfüggesztette {value} felhasználót",
+        "101_kick": "A szabály ”{name}” kirúgta {value} felhasználót",
+        "101_ban": "A szabály ”{name}” kitiltotta {value} felhasználót",
+        "101_delmsg": "A szabály ”{name}” törölte az üzenetet[ a(z) {value} felhasználótól][ a(z) #{channel} csatornában]",
+        "101_budget": "A szabály ”{name}” elérte az órási limitet, szóval ha valami történik akkor az ki lesz hagyva",
+        "101_flag_no_permission": "A szabály ”{name}” nem adott ki akciót: Quark-nak hiányoznak jogosultságai",
+        "101_flag_hierarchy": "A szabály ”{name}” nem reagált[ a(z) {value} értéken]: Lehet a tulajdonosa a szervernek, vagy magasabb rangjuk van mint a Quark-nak",
+        "101_flag_error": "A szabály ”{name}” olyan akciót hajtott végre ami nem lekérhető, és ki lett hagyva",
+        "101_flag_budget": "A szabály ”{name}” elérte az órási limitált, szóval ha valami történik az ki lesz hagyva",
+        "101_flag": "A szabály ”{name}” nem lehet tudni mit mond",
+        "101_role_give": "A szabály ”{name}” hozzáadta a(z){role} rangot[ a(z){value} felhasználóhoz]",
+        "101_role_take": "A szabály ”{name}” elvette a(z) {role} rangot[ a(z) {value} felhasználótól]",
+        "101_dm": "A szabály ”{name}” közvetlen üzenetet küldött[ a(z) {value} felhasználónak]",
+        "101_flag_role": "A szabály ”{name}” nem tud hozzáadni vagy el venni a rangot[ ({role})]: Eltűnt, kezelve van egy integráció által, vagy nem a Quark alatt van ami a legfelső rangnak számít",
+        "69_request_by": "{subject} megkérte a Quarkot, hogy ne logoljon[ legfeljebb {count}][ {name}] logot {value} értékkel",
+        "69_request_about": "{subject} megkérte a Quarkot, hogy ne logoljon[ legfeljebb {count}][ {name}] logot a következőről: {value}",
+        "69_request_hourly_by": "{subject} az Active Ignore-t alkalmazza[: legfeljebb {count}][ {name}] logra, {value} szerint",
+        "69_request_hourly_about": "{subject} az Active Ignore funkciót használja[: legfeljebb {count}][ {name}] logra, amelyek a következőről szólnak: {value}"
     },
     "ui": {
         "clear": "törlés",
@@ -252,7 +272,9 @@
         "wallCta": "Log előzmény szerzése Pro-val",
         "wallFine": "A bejegyzések így is, úgy is továbbra is megjelennek a csatornáidon — a Discordon semmi sem változik.",
         "wallTitle": "Ennyi volt mára",
-        "wallTitleOne": "Ez az egyetlen bejegyzés ebből a munkamenetből"
+        "wallTitleOne": "Ez az egyetlen bejegyzés ebből a munkamenetből",
+        "heldBackByRule": "Visszatortta a szabály {name} névvel",
+        "ruleNotices": "Szabályok alapján hozzáadva"
     },
     "deliveryReason": {
         "local_rate_limit": "Ez a csatorna túllépte a Discord forgalmi korlátját",
