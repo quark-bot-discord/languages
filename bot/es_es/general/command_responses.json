@@ -245,5 +245,6 @@
     "logids-none": "No IDs were found in this log.",
     "logids-more": "+{count} more",
     "logids-kind-user": "User",
-    "logids-kind-role": "Role"
+    "logids-kind-role": "Role",
+    "logids-kind-channel": "Channel"
 }
