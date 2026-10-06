@@ -36,5 +36,6 @@
     "historyEmpty": "Ehhez a modloghoz nem rögzítettek változásokat.",
     "historyUnavailable": "Az előzmény nem elérhető jelenleg.",
     "sharedMessage": "Ez a modlog megosztja az üzenetét más logokkal, ezért az indoklása nem szerkeszthető.",
-    "editModalTitle": "Modify modlog"
+    "editModalTitle": "Modify modlog",
+    "imagesLabel": "Images"
 }
