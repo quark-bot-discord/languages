@@ -58,6 +58,7 @@
     },
     "threadModificationValues": {
         "yes": "yes",
-        "no": "no"
+        "no": "no",
+        "tagsAdded": "Tags Added"
     }
 }
