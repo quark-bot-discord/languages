@@ -6,7 +6,7 @@
     "streamStop": {
         "title": "Entertainment Ended",
         "description": "Th' crew had enough, so {user} stopped entertaining th' crew in the {channel} cabin",
-        "streamedFor": "Streamed for"
+        "streamedFor": "Entertained for"
     },
     "videoStart": {
         "title": "Video Entertainment Started",
@@ -36,7 +36,7 @@
         "description": "{user} departed from the {channel} cabin",
         "joined": "Present",
         "joinedValue": "{relative} for {relative_fixed}",
-        "channels": "Channels",
+        "channels": "Cabins",
         "channelDuration": "{channel} for {duration}"
     },
     "voiceDisconnect": {
@@ -70,11 +70,11 @@
         "voiceChannel": "Cabin"
     },
     "channelStatusUpdate": {
-        "title": "Voice Channel Status Updated",
-        "description": "{executor} set the status for {channel}",
+        "title": "Cabin Status Updated",
+        "description": "{executor} set th' status for {channel}",
         "status": "Status",
-        "linksToEmojis": "Links to emojis",
-        "descriptionRemoved": "{executor} removed the status for {channel}"
+        "linksToEmojis": "Links t' emojis",
+        "descriptionRemoved": "{executor} removed th' status for {channel}"
     },
     "stageStarted": {
         "title": "Stage Started",
@@ -83,31 +83,31 @@
     },
     "stageEnded": {
         "title": "Stage Ended",
-        "description": "The stage in {channel} was ended by {executor}",
-        "description_noExecutor": "The stage in {channel} was ended",
+        "description": "Th' stage in {channel} was ended by {executor}",
+        "description_noExecutor": "Th' stage in {channel} was ended",
         "topic": "Topic",
         "none": "none"
     },
     "stageUpdated": {
         "title": "Stage Updated",
-        "description": "The stage in {channel} was updated by {executor}",
+        "description": "Th' stage in {channel} was updated by {executor}",
         "oldTopic": "Old Topic",
         "newTopic": "New Topic"
     },
     "stageSpeakerAdd": {
         "title": "New Stage Speaker",
-        "description": "{user} became a speaker in the {channel} stage channel",
-        "description_inviteAccepted": "{user} accepted the invite to become a speaker in the {channel} stage channel"
+        "description": "{user} became a speaker in th' {channel} stage cabin",
+        "description_inviteAccepted": "{user} accepted th' invitation t' become a speaker in th' {channel} stage cabin"
     },
     "stageSpeakerRemove": {
-        "title": "Stopped Speaking",
-        "description": "{user} is no longer a speaker in the {channel} stage channel"
+        "title": "Stopped Speakin'",
+        "description": "{user} be no longer a speaker in th' {channel} stage cabin"
     },
     "stageSpeakerInvited": {
         "title": "Speaker Invited",
-        "description": "{user} was invited to speak in the {channel} stage channel"
+        "description": "{user} was invited t' speak in th' {channel} stage cabin"
     },
     "voiceBundle": {
-        "title": "Multiple Voice Channel Events"
+        "title": "Multiple Cabin Events"
     }
 }
