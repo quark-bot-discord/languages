@@ -55,5 +55,8 @@
         "name": "名前",
         "volume": "音量",
         "emoji": "絵文字"
+    },
+    "threadModificationValues": {
+        "yes": "yes"
     }
 }
