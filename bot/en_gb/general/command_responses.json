@@ -243,5 +243,6 @@
     "logchannel-error-missing-permissions": "Quark needs the **Manage Webhooks** permission in {channel}. Give Quark that permission and try again.",
     "logchannel-error-channel-unreachable": "Quark couldn't open {channel}. Check that Quark has the **View Channel** permission there, then try again.",
     "logchannel-error-invalid-channel": "Logs can't be sent to {channel}. Pick a text channel and try again.",
-    "logchannel-error-too-many-webhooks": "There are too many webhooks in {channel} for Quark to add its own. Remove some under **Edit Channel > Integrations** and try again."
+    "logchannel-error-too-many-webhooks": "There are too many webhooks in {channel} for Quark to add its own. Remove some under **Edit Channel > Integrations** and try again.",
+    "logchannel-error-unavailable": "Something went wrong, so that change wasn't saved. Try again in a moment. If it keeps happening, let us know in the [support server]({support}) and mention error `{code}`."
 }
