@@ -55,5 +55,8 @@
         "name": "Név",
         "volume": "Hangerő",
         "emoji": "Emotikon"
+    },
+    "threadModificationValues": {
+        "yes": "yes"
     }
 }
