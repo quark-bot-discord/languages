@@ -43,7 +43,8 @@
         "auto_archive_duration": "Otomatik Arşiv",
         "name": "aİsim",
         "locked": "Locked",
-        "invitable": "Members Can Invite"
+        "invitable": "Members Can Invite",
+        "flags": "Pinned"
     },
     "stickerModificationTypes": {
         "name": "İsim",
