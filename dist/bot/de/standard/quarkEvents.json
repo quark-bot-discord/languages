@@ -34,7 +34,9 @@
         "automationRuleDoes_delmsg": "deletes messages",
         "automationRuleDoes_notice": "adds a notice to the log",
         "automationRuleDoes_role": "gives or takes roles",
-        "automationRuleDoes_dm": "messages members directly"
+        "automationRuleDoes_dm": "messages members directly",
+        "automationRuleDoes_copy": "copies the log to another channel",
+        "automationRuleDoes_colour": "changes the log's colour"
     },
     "serverlogLogUpdate": {
         "title": "Protokoll aktualisiert",
