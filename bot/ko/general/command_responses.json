@@ -250,5 +250,6 @@
     "logids-kind-id": "ID",
     "logreport-modal-title": "Report this log to Quark's developers",
     "logreport-modal-label": "What's wrong with this log?",
-    "logreport-modal-placeholder": "For example: the wrong moderator is shown"
+    "logreport-modal-placeholder": "For example: the wrong moderator is shown",
+    "logreport-sent": "Thanks, your report was sent to Quark's developers along with a copy of the log. To follow it up, mention `{reference}` in the [support server]({support})."
 }
