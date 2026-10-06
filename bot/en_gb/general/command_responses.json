@@ -239,5 +239,6 @@
     "setserverlog-live-status": "Get developer updates",
     "setserverlog-type-nsfw-0": "Age-Restricted Channel Events",
     "setserverlog-type-nsfw-1": "age-restricted channel events",
-    "logchannel-error-title": "Log channel not changed"
+    "logchannel-error-title": "Log channel not changed",
+    "logchannel-error-missing-permissions": "Quark needs the **Manage Webhooks** permission in {channel}. Give Quark that permission and try again."
 }
