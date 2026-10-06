@@ -1,12 +1,12 @@
 {
-    "ignoreTargets": "Ignore Target Users",
+    "ignoreTargets": "Ignore Target Sailors",
     "ignoreExecutors": "Ignore Target Executors",
     "specificMessageContent": "Ignore Specific Message Content",
-    "ignoreChannels": "Ignore Channels",
-    "ignoreBotExecutors": "Ignore Bot Executors",
-    "ignoreBotTargets": "Ignore Bot Targets",
-    "ignoreExecutorRoles": "Ignore Executor Roles",
-    "ignoreTargetRoles": "Ignore Target Roles",
-    "ignoreCategories": "Ignore Categories",
+    "ignoreChannels": "Ignore Decks",
+    "ignoreBotExecutors": "Ignore Robot Executors",
+    "ignoreBotTargets": "Ignore Robot Targets",
+    "ignoreExecutorRoles": "Ignore Executor Ranks",
+    "ignoreTargetRoles": "Ignore Target Ranks",
+    "ignoreCategories": "Ignore Quarters",
     "activeIgnore": "Active Ignore"
 }
