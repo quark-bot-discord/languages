@@ -55,5 +55,8 @@
     },
     "emojiModificationTypes": {
         "name": "Name"
+    },
+    "threadModificationValues": {
+        "yes": "yes"
     }
 }
