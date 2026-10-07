@@ -59,7 +59,8 @@
         "logFormatAdded": "Added from a link",
         "logFormatDeleted": "Deleted",
         "logFormatEdited": "Edited",
-        "logFormatRenamed": "Renamed from {name}"
+        "logFormatRenamed": "Renamed from {name}",
+        "logFormatInUse": "Now in use"
     },
     "serverlogIgnoreUpdate": {
         "title": "Ignore Options Updated",
