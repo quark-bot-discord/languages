@@ -220,3 +220,24 @@ export function displayLanguage(language: QuarkLanguageCodes) {
   if (!locale) throw new Error(`Language ${language} not found`);
   return `${locale.emoji} ${locale.name}`;
 }
+
+/**
+ * The website's strings for one language folder (`bot/<folder>/web/site.json`),
+ * or null if that folder has none.
+ *
+ * Unlike `languageProxy`, this does not ask whether the bot offers the
+ * language. The website can publish a page in a language the bot is not
+ * translated into (Portuguese: `pt` has a folder but is not in
+ * `languages.json`, and listing it there would offer it in the bot too).
+ * Nothing here falls back to English.
+ */
+export async function siteStrings(
+  folder: string
+): Promise<Record<string, Record<string, string>> | null> {
+  // A folder name and nothing else: this becomes part of a file path.
+  if (!/^[a-z]{2}(_[a-z]{2,4})?$/.test(folder)) return null;
+  const file = await import(`./bot/${folder}/web/site.json`, {
+    with: { type: "json" },
+  }).catch(() => null);
+  return file?.default ?? null;
+}
