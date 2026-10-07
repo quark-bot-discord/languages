@@ -37,7 +37,8 @@
         "automationRuleDoes_dm": "messages crewmates directly",
         "automationRuleDoes_copy": "copies th' log t' another deck",
         "automationRuleDoes_colour": "changes th' log's colour",
-        "logFormat": "Log format {name}"
+        "logFormat": "Log format {name}",
+        "logFormatCreated": "Created"
     },
     "serverlogLogUpdate": {
         "title": "Log Updated",
