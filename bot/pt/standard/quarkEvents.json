@@ -36,7 +36,8 @@
         "logFormatAdded": "Added from a link",
         "logFormatDeleted": "Deleted",
         "logFormatEdited": "Edited",
-        "logFormatRenamed": "Renamed from {name}"
+        "logFormatRenamed": "Renamed from {name}",
+        "logFormatInUse": "Now in use"
     },
     "serverlogChannelUpdate": {
         "description_set": "{executor} set the {type} logging channel to {channel}",
