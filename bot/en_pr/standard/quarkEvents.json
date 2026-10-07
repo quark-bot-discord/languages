@@ -38,7 +38,8 @@
         "automationRuleDoes_copy": "copies th' log t' another deck",
         "automationRuleDoes_colour": "changes th' log's colour",
         "logFormat": "Log format {name}",
-        "logFormatCreated": "Created"
+        "logFormatCreated": "Created",
+        "logFormatAdded": "Added from a link"
     },
     "serverlogLogUpdate": {
         "title": "Log Updated",
