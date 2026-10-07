@@ -484,14 +484,14 @@ export type LanguageStructure = {
   MANAGE_EVENTS: string;
   MANAGE_GUILD_EXPRESSIONS: string;
 }>;
+  soundboard_sound_update_types: Promise<{
+  none: string;
+}>;
   role_update_types: Promise<{
   enabled: string;
   disabled: string;
   none: string;
   holographic: string;
-}>;
-  soundboard_sound_update_types: Promise<{
-  none: string;
 }>;
   sticker_update_types: Promise<{
   none: string;
@@ -541,6 +541,10 @@ export type LanguageStructure = {
 }>;
 };
   slash_commands: {
+  commands: Promise<{
+  name: string;
+  description: string;
+}>;
   ban: Promise<{
   name: string;
   description: string;
@@ -558,10 +562,6 @@ export type LanguageStructure = {
   description: string;
 };
 };
-}>;
-  commands: Promise<{
-  name: string;
-  description: string;
 }>;
   config: Promise<{
   name: string;
@@ -635,12 +635,12 @@ export type LanguageStructure = {
 };
 };
 }>;
+  initialReactor: Promise<{
+  name: string;
+}>;
   invite: Promise<{
   name: string;
   description: string;
-}>;
-  initialReactor: Promise<{
-  name: string;
 }>;
   kick: Promise<{
   name: string;
@@ -665,6 +665,10 @@ export type LanguageStructure = {
   description: string;
 };
 };
+}>;
+  logging: Promise<{
+  name: string;
+  description: string;
 }>;
   mute: Promise<{
   name: string;
@@ -699,15 +703,15 @@ export type LanguageStructure = {
 };
 };
 }>;
-  logging: Promise<{
-  name: string;
-  description: string;
-}>;
   ping: Promise<{
   name: string;
   description: string;
 }>;
   premium: Promise<{
+  name: string;
+  description: string;
+}>;
+  privacy: Promise<{
   name: string;
   description: string;
 }>;
@@ -720,10 +724,6 @@ export type LanguageStructure = {
   description: string;
 };
 };
-}>;
-  privacy: Promise<{
-  name: string;
-  description: string;
 }>;
   reason: Promise<{
   name: string;
@@ -863,6 +863,16 @@ export type LanguageStructure = {
 };
 };
 }>;
+  troubleshoot: Promise<{
+  name: string;
+  description: string;
+  commandOptions: {
+  shareOption: {
+  name: string;
+  description: string;
+};
+};
+}>;
   unban: Promise<{
   name: string;
   description: string;
@@ -872,16 +882,6 @@ export type LanguageStructure = {
   description: string;
 };
   reasonOption: {
-  name: string;
-  description: string;
-};
-};
-}>;
-  troubleshoot: Promise<{
-  name: string;
-  description: string;
-  commandOptions: {
-  shareOption: {
   name: string;
   description: string;
 };
@@ -1104,6 +1104,7 @@ export type LanguageStructure = {
   logFormatNotInUse: string;
   logFormatOwnAgain: string;
   logFormatShared: string;
+  logFormatUnshared: string;
 };
   serverlogLogUpdate: {
   title: string;
@@ -1504,6 +1505,119 @@ export type LanguageStructure = {
   linkToNewAvatar: string;
 };
 }>;
+  voiceEvents: Promise<{
+  streamStart: {
+  title: string;
+  description: string;
+};
+  streamStop: {
+  title: string;
+  description: string;
+  streamedFor: string;
+};
+  videoStart: {
+  title: string;
+  description: string;
+};
+  videoStop: {
+  title: string;
+  description: string;
+};
+  voiceSwitch: {
+  title: string;
+  description: string;
+  timeInPrevious: string;
+};
+  voiceMove: {
+  title: string;
+  description: string;
+  movedBy: string;
+  timeInPrevious: string;
+};
+  voiceJoin: {
+  title: string;
+  description: string;
+};
+  voiceLeave: {
+  title: string;
+  description: string;
+  joined: string;
+  joinedValue: string;
+  channels: string;
+  channelDuration: string;
+};
+  voiceDisconnect: {
+  title: string;
+  description: string;
+  disconnectedBy: string;
+  voiceChannel: string;
+};
+  serverDeafen: {
+  title: string;
+  description: string;
+  deafenedBy: string;
+  voiceChannel: string;
+};
+  serverMute: {
+  title: string;
+  description: string;
+  mutedBy: string;
+  voiceChannel: string;
+};
+  serverUndeafen: {
+  title: string;
+  description: string;
+  undeafenedBy: string;
+  voiceChannel: string;
+};
+  serverUnmute: {
+  title: string;
+  description: string;
+  unmutedBy: string;
+  voiceChannel: string;
+};
+  channelStatusUpdate: {
+  title: string;
+  description: string;
+  status: string;
+  linksToEmojis: string;
+  descriptionRemoved: string;
+};
+  stageStarted: {
+  title: string;
+  description: string;
+  topic: string;
+};
+  stageEnded: {
+  title: string;
+  description: string;
+  description_noExecutor: string;
+  topic: string;
+  none: string;
+};
+  stageUpdated: {
+  title: string;
+  description: string;
+  oldTopic: string;
+  newTopic: string;
+};
+  stageSpeakerAdd: {
+  title: string;
+  description: string;
+  description_inviteAccepted: string;
+};
+  stageSpeakerRemove: {
+  title: string;
+  description: string;
+};
+  stageSpeakerInvited: {
+  title: string;
+  description: string;
+};
+  voiceBundle: {
+  title: string;
+};
+}>;
   textEvents: Promise<{
   polls: {
   poll: string;
@@ -1620,407 +1734,8 @@ export type LanguageStructure = {
   title: string;
 };
 }>;
-  voiceEvents: Promise<{
-  streamStart: {
-  title: string;
-  description: string;
-};
-  streamStop: {
-  title: string;
-  description: string;
-  streamedFor: string;
-};
-  videoStart: {
-  title: string;
-  description: string;
-};
-  videoStop: {
-  title: string;
-  description: string;
-};
-  voiceSwitch: {
-  title: string;
-  description: string;
-  timeInPrevious: string;
-};
-  voiceMove: {
-  title: string;
-  description: string;
-  movedBy: string;
-  timeInPrevious: string;
-};
-  voiceJoin: {
-  title: string;
-  description: string;
-};
-  voiceLeave: {
-  title: string;
-  description: string;
-  joined: string;
-  joinedValue: string;
-  channels: string;
-  channelDuration: string;
-};
-  voiceDisconnect: {
-  title: string;
-  description: string;
-  disconnectedBy: string;
-  voiceChannel: string;
-};
-  serverDeafen: {
-  title: string;
-  description: string;
-  deafenedBy: string;
-  voiceChannel: string;
-};
-  serverMute: {
-  title: string;
-  description: string;
-  mutedBy: string;
-  voiceChannel: string;
-};
-  serverUndeafen: {
-  title: string;
-  description: string;
-  undeafenedBy: string;
-  voiceChannel: string;
-};
-  serverUnmute: {
-  title: string;
-  description: string;
-  unmutedBy: string;
-  voiceChannel: string;
-};
-  channelStatusUpdate: {
-  title: string;
-  description: string;
-  status: string;
-  linksToEmojis: string;
-  descriptionRemoved: string;
-};
-  stageStarted: {
-  title: string;
-  description: string;
-  topic: string;
-};
-  stageEnded: {
-  title: string;
-  description: string;
-  description_noExecutor: string;
-  topic: string;
-  none: string;
-};
-  stageUpdated: {
-  title: string;
-  description: string;
-  oldTopic: string;
-  newTopic: string;
-};
-  stageSpeakerAdd: {
-  title: string;
-  description: string;
-  description_inviteAccepted: string;
-};
-  stageSpeakerRemove: {
-  title: string;
-  description: string;
-};
-  stageSpeakerInvited: {
-  title: string;
-  description: string;
-};
-  voiceBundle: {
-  title: string;
-};
-}>;
 };
   web: {
-  logViewer: Promise<{
-  summary: {
-  "0": string;
-  "1": string;
-  "2": string;
-  "3": string;
-  "4": string;
-  "5": string;
-  "6": string;
-  "7": string;
-  "8": string;
-  "9": string;
-  "10": string;
-  "11": string;
-  "12": string;
-  "13": string;
-  "14": string;
-  "15": string;
-  "16": string;
-  "17": string;
-  "18": string;
-  "19": string;
-  "20": string;
-  "21": string;
-  "22": string;
-  "23": string;
-  "24": string;
-  "25": string;
-  "26": string;
-  "27": string;
-  "28": string;
-  "29": string;
-  "30": string;
-  "31": string;
-  "32": string;
-  "33": string;
-  "34": string;
-  "35": string;
-  "36": string;
-  "37": string;
-  "38": string;
-  "39": string;
-  "40": string;
-  "41": string;
-  "42": string;
-  "43": string;
-  "44": string;
-  "45": string;
-  "46": string;
-  "47": string;
-  "48": string;
-  "49": string;
-  "50": string;
-  "51": string;
-  "52": string;
-  "53": string;
-  "54": string;
-  "55": string;
-  "56": string;
-  "57": string;
-  "58": string;
-  "59": string;
-  "60": string;
-  "61": string;
-  "62": string;
-  "63": string;
-  "64": string;
-  "65": string;
-  "66": string;
-  "67": string;
-  "68": string;
-  "69": string;
-  "70": string;
-  "71": string;
-  "72": string;
-  "73": string;
-  "74": string;
-  "75": string;
-  "76": string;
-  "77": string;
-  "78": string;
-  "79": string;
-  "80": string;
-  "81": string;
-  "82": string;
-  "83": string;
-  "84": string;
-  "85": string;
-  "86": string;
-  "87": string;
-  "88": string;
-  "89": string;
-  "90": string;
-  "91": string;
-  "92": string;
-  "93": string;
-  "94": string;
-  "95": string;
-  "96": string;
-  "97": string;
-  "98": string;
-  "101": string;
-  "0_actor": string;
-  "0_passive": string;
-  "3_actor": string;
-  "4_actor": string;
-  "4_passive": string;
-  "5_actor": string;
-  "5_passive": string;
-  "6_actor": string;
-  "7_actor": string;
-  "14_actor": string;
-  "16_actor": string;
-  "19_actor": string;
-  "20_actor": string;
-  "21_actor": string;
-  "22_actor": string;
-  "25_actor": string;
-  "34_actor": string;
-  "35_actor": string;
-  "39_actor": string;
-  "40_actor": string;
-  "41_actor": string;
-  "42_actor": string;
-  "43_actor": string;
-  "44_actor": string;
-  "45_actor": string;
-  "46_actor": string;
-  "51_actor": string;
-  "51_passive": string;
-  "57_actor": string;
-  "58_actor": string;
-  "63_actor": string;
-  "69_added": string;
-  "69_removed": string;
-  "69_enabled": string;
-  "69_disabled": string;
-  "86_actor": string;
-  "86_passive": string;
-  "2_kick": string;
-  "2_ban": string;
-  "2_actor": string;
-  via: string;
-  "101_alert": string;
-  "101_timeout": string;
-  "101_kick": string;
-  "101_ban": string;
-  "101_delmsg": string;
-  "101_budget": string;
-  "101_flag_no_permission": string;
-  "101_flag_hierarchy": string;
-  "101_flag_error": string;
-  "101_flag_budget": string;
-  "101_flag": string;
-  "101_role_give": string;
-  "101_role_take": string;
-  "101_dm": string;
-  "101_flag_role": string;
-  "69_request_by": string;
-  "69_request_about": string;
-  "69_request_hourly_by": string;
-  "69_request_hourly_about": string;
-};
-  ui: {
-  allChannels: string;
-  allLogTypes: string;
-  allRoles: string;
-  applyRange: string;
-  askChannelNotFound: string;
-  askExamples: string;
-  askFailed: string;
-  askFallback: string;
-  askIgnoredWords: string;
-  askLabel: string;
-  askMemberAmbiguous: string;
-  askMemberNotFound: string;
-  askPhraseNarrowed: string;
-  askPlaceholder: string;
-  askRoleNotFound: string;
-  askSubmit: string;
-  askSuggestions: string;
-  askTooBroad: string;
-  askTypeNotFound: string;
-  askUnsupported: string;
-  backToDashboard: string;
-  category: string;
-  channel: string;
-  clear: string;
-  clearAll: string;
-  clearRange: string;
-  copyPermalink: string;
-  customRange: string;
-  delivered: string;
-  deliveredTo: string;
-  deliveryPending: string;
-  dismiss: string;
-  empty: string;
-  emptyFiltered: string;
-  emptyFilteredHint: string;
-  emptyHint: string;
-  emptyLive: string;
-  emptyLiveBadge: string;
-  emptyLiveHint: string;
-  entryCount: string;
-  errorBody: string;
-  errorTitle: string;
-  executorId: string;
-  exportCsv: string;
-  exportEmpty: string;
-  exportEmptyBody: string;
-  exportLockedBody: string;
-  exportLockedTitle: string;
-  exporting: string;
-  filterCategoryLabel: string;
-  filterChannelLabel: string;
-  filterMemberByLabel: string;
-  filterMemberLabel: string;
-  filterMemberOnLabel: string;
-  filterRangeLabel: string;
-  filterRoleLabel: string;
-  filterSearchLabel: string;
-  filterToUser: string;
-  filterTypeLabel: string;
-  filtered: string;
-  filteredNote: string;
-  filters: string;
-  from: string;
-  historyLocked: string;
-  historyLockedCta: string;
-  last24Hours: string;
-  last30Days: string;
-  last7Days: string;
-  lastHour: string;
-  live: string;
-  loading: string;
-  lockedFeature: string;
-  logId: string;
-  logType: string;
-  logTypesSelected: string;
-  member: string;
-  memberPlaceholder: string;
-  memberRoleEither: string;
-  memberRoleExecutor: string;
-  memberRoleTarget: string;
-  newEntries: string;
-  newEntry: string;
-  noLogTypeMatches: string;
-  notDelivered: string;
-  offline: string;
-  openInDiscord: string;
-  openLogMessage: string;
-  paused: string;
-  permalinkCopied: string;
-  rangeTooEarly: string;
-  realtimeOnly: string;
-  recoveryBody: string;
-  recoveryCta: string;
-  recoveryTitle: string;
-  removeFilter: string;
-  retention: string;
-  retry: string;
-  role: string;
-  searchLabel: string;
-  searchPlaceholder: string;
-  searchPlaceholderLogType: string;
-  selectServer: string;
-  timeRange: string;
-  title: string;
-  to: string;
-  wallBadge: string;
-  wallBody: string;
-  wallCta: string;
-  wallFine: string;
-  wallTitle: string;
-  wallTitleOne: string;
-  heldBackByRule: string;
-  ruleNotices: string;
-};
-  deliveryReason: {
-  local_rate_limit: string;
-  channel_parked: string;
-  request_timeout_or_network: string;
-  rate_limited: string;
-  unknown: string;
-};
-}>;
   site: Promise<{
   ui: {
   s005ef20f: string;
@@ -2495,7 +2210,293 @@ export type LanguageStructure = {
   se75dbb02: string;
 };
 }>;
+  logViewer: Promise<{
+  summary: {
+  "0": string;
+  "1": string;
+  "2": string;
+  "3": string;
+  "4": string;
+  "5": string;
+  "6": string;
+  "7": string;
+  "8": string;
+  "9": string;
+  "10": string;
+  "11": string;
+  "12": string;
+  "13": string;
+  "14": string;
+  "15": string;
+  "16": string;
+  "17": string;
+  "18": string;
+  "19": string;
+  "20": string;
+  "21": string;
+  "22": string;
+  "23": string;
+  "24": string;
+  "25": string;
+  "26": string;
+  "27": string;
+  "28": string;
+  "29": string;
+  "30": string;
+  "31": string;
+  "32": string;
+  "33": string;
+  "34": string;
+  "35": string;
+  "36": string;
+  "37": string;
+  "38": string;
+  "39": string;
+  "40": string;
+  "41": string;
+  "42": string;
+  "43": string;
+  "44": string;
+  "45": string;
+  "46": string;
+  "47": string;
+  "48": string;
+  "49": string;
+  "50": string;
+  "51": string;
+  "52": string;
+  "53": string;
+  "54": string;
+  "55": string;
+  "56": string;
+  "57": string;
+  "58": string;
+  "59": string;
+  "60": string;
+  "61": string;
+  "62": string;
+  "63": string;
+  "64": string;
+  "65": string;
+  "66": string;
+  "67": string;
+  "68": string;
+  "69": string;
+  "70": string;
+  "71": string;
+  "72": string;
+  "73": string;
+  "74": string;
+  "75": string;
+  "76": string;
+  "77": string;
+  "78": string;
+  "79": string;
+  "80": string;
+  "81": string;
+  "82": string;
+  "83": string;
+  "84": string;
+  "85": string;
+  "86": string;
+  "87": string;
+  "88": string;
+  "89": string;
+  "90": string;
+  "91": string;
+  "92": string;
+  "93": string;
+  "94": string;
+  "95": string;
+  "96": string;
+  "97": string;
+  "98": string;
+  "101": string;
+  "0_actor": string;
+  "0_passive": string;
+  "3_actor": string;
+  "4_actor": string;
+  "4_passive": string;
+  "5_actor": string;
+  "5_passive": string;
+  "6_actor": string;
+  "7_actor": string;
+  "14_actor": string;
+  "16_actor": string;
+  "19_actor": string;
+  "20_actor": string;
+  "21_actor": string;
+  "22_actor": string;
+  "25_actor": string;
+  "34_actor": string;
+  "35_actor": string;
+  "39_actor": string;
+  "40_actor": string;
+  "41_actor": string;
+  "42_actor": string;
+  "43_actor": string;
+  "44_actor": string;
+  "45_actor": string;
+  "46_actor": string;
+  "51_actor": string;
+  "51_passive": string;
+  "57_actor": string;
+  "58_actor": string;
+  "63_actor": string;
+  "69_added": string;
+  "69_removed": string;
+  "69_enabled": string;
+  "69_disabled": string;
+  "86_actor": string;
+  "86_passive": string;
+  "2_kick": string;
+  "2_ban": string;
+  "2_actor": string;
+  via: string;
+  "101_alert": string;
+  "101_timeout": string;
+  "101_kick": string;
+  "101_ban": string;
+  "101_delmsg": string;
+  "101_budget": string;
+  "101_flag_no_permission": string;
+  "101_flag_hierarchy": string;
+  "101_flag_error": string;
+  "101_flag_budget": string;
+  "101_flag": string;
+  "101_role_give": string;
+  "101_role_take": string;
+  "101_dm": string;
+  "101_flag_role": string;
+  "69_request_by": string;
+  "69_request_about": string;
+  "69_request_hourly_by": string;
+  "69_request_hourly_about": string;
+};
+  ui: {
+  allChannels: string;
+  allLogTypes: string;
+  allRoles: string;
+  applyRange: string;
+  askChannelNotFound: string;
+  askExamples: string;
+  askFailed: string;
+  askFallback: string;
+  askIgnoredWords: string;
+  askLabel: string;
+  askMemberAmbiguous: string;
+  askMemberNotFound: string;
+  askPhraseNarrowed: string;
+  askPlaceholder: string;
+  askRoleNotFound: string;
+  askSubmit: string;
+  askSuggestions: string;
+  askTooBroad: string;
+  askTypeNotFound: string;
+  askUnsupported: string;
+  backToDashboard: string;
+  category: string;
+  channel: string;
+  clear: string;
+  clearAll: string;
+  clearRange: string;
+  copyPermalink: string;
+  customRange: string;
+  delivered: string;
+  deliveredTo: string;
+  deliveryPending: string;
+  dismiss: string;
+  empty: string;
+  emptyFiltered: string;
+  emptyFilteredHint: string;
+  emptyHint: string;
+  emptyLive: string;
+  emptyLiveBadge: string;
+  emptyLiveHint: string;
+  entryCount: string;
+  errorBody: string;
+  errorTitle: string;
+  executorId: string;
+  exportCsv: string;
+  exportEmpty: string;
+  exportEmptyBody: string;
+  exportLockedBody: string;
+  exportLockedTitle: string;
+  exporting: string;
+  filterCategoryLabel: string;
+  filterChannelLabel: string;
+  filterMemberByLabel: string;
+  filterMemberLabel: string;
+  filterMemberOnLabel: string;
+  filterRangeLabel: string;
+  filterRoleLabel: string;
+  filterSearchLabel: string;
+  filterToUser: string;
+  filterTypeLabel: string;
+  filtered: string;
+  filteredNote: string;
+  filters: string;
+  from: string;
+  historyLocked: string;
+  historyLockedCta: string;
+  last24Hours: string;
+  last30Days: string;
+  last7Days: string;
+  lastHour: string;
+  live: string;
+  loading: string;
+  lockedFeature: string;
+  logId: string;
+  logType: string;
+  logTypesSelected: string;
+  member: string;
+  memberPlaceholder: string;
+  memberRoleEither: string;
+  memberRoleExecutor: string;
+  memberRoleTarget: string;
+  newEntries: string;
+  newEntry: string;
+  noLogTypeMatches: string;
+  notDelivered: string;
+  offline: string;
+  openInDiscord: string;
+  openLogMessage: string;
+  paused: string;
+  permalinkCopied: string;
+  rangeTooEarly: string;
+  realtimeOnly: string;
+  recoveryBody: string;
+  recoveryCta: string;
+  recoveryTitle: string;
+  removeFilter: string;
+  retention: string;
+  retry: string;
+  role: string;
+  searchLabel: string;
+  searchPlaceholder: string;
+  searchPlaceholderLogType: string;
+  selectServer: string;
+  timeRange: string;
+  title: string;
+  to: string;
+  wallBadge: string;
+  wallBody: string;
+  wallCta: string;
+  wallFine: string;
+  wallTitle: string;
+  wallTitleOne: string;
+  heldBackByRule: string;
+  ruleNotices: string;
+};
+  deliveryReason: {
+  local_rate_limit: string;
+  channel_parked: string;
+  request_timeout_or_network: string;
+  rate_limited: string;
+  unknown: string;
+};
+}>;
 };
 };
-export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "export" | "help" | "invite" | "initialReactor" | "kick" | "language" | "mute" | "logging" | "ping" | "premium" | "purge" | "privacy" | "reason" | "serverlog" | "tags" | "unban" | "troubleshoot" | "unmute" | "vote";
+export type SlashCommandNames = "commands" | "ban" | "config" | "dashboard" | "debug" | "export" | "help" | "initialReactor" | "invite" | "kick" | "language" | "logging" | "mute" | "ping" | "premium" | "privacy" | "purge" | "reason" | "serverlog" | "tags" | "troubleshoot" | "unban" | "unmute" | "vote";
 export type QuarkLanguageCodes = "en_us" | "en_gb" | "tr" | "vi" | "en_pr" | "pl" | "nl" | "es_es" | "it" | "de" | "fr" | "ru" | "el" | "zh_hant" | "ko" | "sl" | "ar" | "hu" | "ja";
