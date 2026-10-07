@@ -38,7 +38,8 @@
         "logFormatEdited": "Edited",
         "logFormatRenamed": "Renamed from {name}",
         "logFormatInUse": "Now in use",
-        "logFormatNotInUse": "No longer in use"
+        "logFormatNotInUse": "No longer in use",
+        "logFormatOwnAgain": "logs are back on one of Quark's own formats"
     },
     "serverlogChannelUpdate": {
         "description_set": "{executor} beállította a(z) {type} logolási csatornát {channel} csatornára",
