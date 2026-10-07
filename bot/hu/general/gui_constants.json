@@ -35,9 +35,9 @@
         "name": "Név",
         "rate_limit_per_user": "Lassított Mód",
         "auto_archive_duration": "Automatikus Archiválás",
-        "locked": "Locked",
-        "invitable": "Members Can Invite",
-        "flags": "Pinned"
+        "locked": "Zárva",
+        "invitable": "Tagok Meghívhatnak Másokat",
+        "flags": "Kitűzve"
     },
     "webhookModificationTypes": {
         "channel_id": "Csatorna",
@@ -57,10 +57,10 @@
         "emoji": "Emotikon"
     },
     "threadModificationValues": {
-        "yes": "yes",
-        "no": "no",
-        "tagsAdded": "Tags Added",
-        "tagsRemoved": "Tags Removed",
-        "unknownTag": "Unknown tag"
+        "yes": "igen",
+        "no": "nem",
+        "tagsAdded": "Címkék Hozzáadva",
+        "tagsRemoved": "Címkék Eltávolítva",
+        "unknownTag": "Ismeretlen címke"
     }
 }
