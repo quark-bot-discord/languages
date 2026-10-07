@@ -22,3 +22,14 @@ export declare const getDatabaseLocaleCode: (language: DiscordLocaleKeys) => num
 export declare const getLocaleFromDatabaseCode: (databaseCode: number) => DiscordLocaleKeys;
 export default function languageProxy(language: string, noFallback?: boolean): LanguageStructure;
 export declare function displayLanguage(language: QuarkLanguageCodes): string;
+/**
+ * The website's strings for one language folder (`bot/<folder>/web/site.json`),
+ * or null if that folder has none.
+ *
+ * Unlike `languageProxy`, this does not ask whether the bot offers the
+ * language. The website can publish a page in a language the bot is not
+ * translated into (Portuguese: `pt` has a folder but is not in
+ * `languages.json`, and listing it there would offer it in the bot too).
+ * Nothing here falls back to English.
+ */
+export declare function siteStrings(folder: string): Promise<Record<string, Record<string, string>> | null>;
