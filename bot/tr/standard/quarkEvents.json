@@ -42,7 +42,8 @@
         "logFormatAdded": "Added from a link",
         "logFormatDeleted": "Deleted",
         "logFormatEdited": "Edited",
-        "logFormatRenamed": "Renamed from {name}"
+        "logFormatRenamed": "Renamed from {name}",
+        "logFormatInUse": "Now in use"
     },
     "serverlogLogUpdate": {
         "title": "Günlük Güncellendi",
