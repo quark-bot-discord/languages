@@ -59,7 +59,8 @@
         "logFormatDeleted": "Deleted",
         "logFormatEdited": "Edited",
         "logFormatRenamed": "Renamed from {name}",
-        "logFormatInUse": "Now in use"
+        "logFormatInUse": "Now in use",
+        "logFormatNotInUse": "No longer in use"
     },
     "serverlogLogUpdate": {
         "title": "Log Updated",
