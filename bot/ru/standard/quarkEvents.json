@@ -40,7 +40,8 @@
         "logFormat": "Log format {name}",
         "logFormatCreated": "Created",
         "logFormatAdded": "Added from a link",
-        "logFormatDeleted": "Deleted"
+        "logFormatDeleted": "Deleted",
+        "logFormatEdited": "Edited"
     },
     "serverlogLogUpdate": {
         "title": "Лог обновлён",
