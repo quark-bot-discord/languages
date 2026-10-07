@@ -1,1 +1,31 @@
-{}
+{
+    "ui": {
+        "s005ef20f": "Státusz",
+        "s046dc757": "{count} tagok",
+        "s095d40d1": "Lásd hogyan müködik",
+        "s0c632e38": "Nyelvek",
+        "s0f37fc2f": "Kapcsolódó funkciók",
+        "s11f6d87b": "Kezelőfelület",
+        "s12f8f721": "Dokumentáció",
+        "s184efde6": "Tartsd meg a nyugtákat.",
+        "s19f46d3f": "Kezdj neki ma.",
+        "s1d9137de": "Több Quark-tól",
+        "s1fc12001": "Bíznak bennünk",
+        "s22334dc2": "Jogi információk",
+        "s24eb62b6": "Minden rendszer üzemképes",
+        "s2ab00472": "Egy bot, a többi pedig a logjaid.",
+        "s321cd61f": "Válaszd Ki a Log Csatornáidat",
+        "s36a9ba77": "Quark minden nap automatikusan logolja az szerkesztések, törléseket és hang aktivítást 24/7.",
+        "s3886a127": "Használd a /logging parancsot, és válaszd ki, hová kerüljenek a logok. Igen, ennyire egyszerű.",
+        "s3ab96fb8": "{who} törölte az üzenetet a(z) {where} csatornában",
+        "s41518281": "Aktív 24/7",
+        "s48047eb8": "Logok keresése",
+        "s50fe3796": "Biztosítsd a Szervered",
+        "s512b4e16": "Tartalom Jelentése",
+        "s526546ee": "[Quark hozzáadása a szerverhez] egyetlen kattintással. A használat megkezdéséhez nincs szükség bonyolult jogosultságokra.",
+        "s5293d033": "Tartsd [tisztán] a szerveredet.",
+        "s529c60cc": "Termék",
+        "s59ed1fe8": "30 másodperc alatt megvan. Nagylelkű ingyenes csomag.",
+        "s5cf3a617": "Nincs szükség használati útmutatóra. Nincs szükség beállításra. A Quark azonnal működik."
+    }
+}
