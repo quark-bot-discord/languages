@@ -159,7 +159,7 @@
         "capability_other": "{count} több",
         "capability_none": "semmi",
         "preset_logViewer": "Log megtekintő",
-        "preset_logAnalyst": "Log analyst",
+        "preset_logAnalyst": "Log elemző",
         "preset_moderator": "Moderator",
         "preset_logConfigurator": "Log configurator",
         "preset_full": "Full access"
