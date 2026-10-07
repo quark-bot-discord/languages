@@ -33,7 +33,8 @@
         "automationRuleDoes_colour": "changes the log's colour",
         "logFormat": "Log format {name}",
         "logFormatCreated": "Created",
-        "logFormatAdded": "Added from a link"
+        "logFormatAdded": "Added from a link",
+        "logFormatDeleted": "Deleted"
     },
     "serverlogChannelUpdate": {
         "description_set": "{executor} set the {type} logging channel to {channel}",
