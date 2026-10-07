@@ -40,7 +40,8 @@
         "logFormatInUse": "Now in use",
         "logFormatNotInUse": "No longer in use",
         "logFormatOwnAgain": "logs are back on one of Quark's own formats",
-        "logFormatShared": "Shared with a link"
+        "logFormatShared": "Shared with a link",
+        "logFormatUnshared": "No longer shared with a link"
     },
     "serverlogLogUpdate": {
         "activeIgnore": "啟用忽略",
