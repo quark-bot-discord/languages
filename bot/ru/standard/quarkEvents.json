@@ -39,7 +39,8 @@
         "automationRuleDoes_colour": "changes the log's colour",
         "logFormat": "Log format {name}",
         "logFormatCreated": "Created",
-        "logFormatAdded": "Added from a link"
+        "logFormatAdded": "Added from a link",
+        "logFormatDeleted": "Deleted"
     },
     "serverlogLogUpdate": {
         "title": "Лог обновлён",
