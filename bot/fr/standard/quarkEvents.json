@@ -36,7 +36,8 @@
         "automationRuleDoes_role": "gives or takes roles",
         "automationRuleDoes_dm": "messages members directly",
         "automationRuleDoes_copy": "copies the log to another channel",
-        "automationRuleDoes_colour": "changes the log's colour"
+        "automationRuleDoes_colour": "changes the log's colour",
+        "logFormat": "Log format {name}"
     },
     "serverlogLogUpdate": {
         "title": "Log mis à jour",
