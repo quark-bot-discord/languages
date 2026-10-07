@@ -36,7 +36,8 @@
         "automationRuleDoes_role": "gives or takes ranks",
         "automationRuleDoes_dm": "messages crewmates directly",
         "automationRuleDoes_copy": "copies th' log t' another deck",
-        "automationRuleDoes_colour": "changes th' log's colour"
+        "automationRuleDoes_colour": "changes th' log's colour",
+        "logFormat": "Log format {name}"
     },
     "serverlogLogUpdate": {
         "title": "Log Updated",
