@@ -35,7 +35,8 @@
         "logFormatCreated": "Created",
         "logFormatAdded": "Added from a link",
         "logFormatDeleted": "Deleted",
-        "logFormatEdited": "Edited"
+        "logFormatEdited": "Edited",
+        "logFormatRenamed": "Renamed from {name}"
     },
     "serverlogLogUpdate": {
         "activeIgnore": "啟用忽略",
