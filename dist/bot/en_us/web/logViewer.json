@@ -159,7 +159,11 @@
         "69_request_by": "{subject} asked Quark not to log[ up to {count}][ {name}] logs by {value}",
         "69_request_about": "{subject} asked Quark not to log[ up to {count}][ {name}] logs about {value}",
         "69_request_hourly_by": "{subject} is using Active Ignore[: up to {count}][ {name}] logs by {value}",
-        "69_request_hourly_about": "{subject} is using Active Ignore[: up to {count}][ {name}] logs about {value}"
+        "69_request_hourly_about": "{subject} is using Active Ignore[: up to {count}][ {name}] logs about {value}",
+        "109": "{subject} closed the thread #{name}",
+        "110": "{subject} reopened the thread #{name}",
+        "111": "{subject} locked the thread #{name}",
+        "112": "{subject} unlocked the thread #{name}"
     },
     "ui": {
         "allChannels": "All channels",
