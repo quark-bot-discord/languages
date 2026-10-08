@@ -138,7 +138,8 @@
         "retainedMessage": "Message stowed for {age} by {plan}",
         "retainedFiles": "Files stowed for {age} by {plan}",
         "retainedOriginal": "Original stowed for {age} by {plan}",
-        "executorShown": "Officer shown by {plan}"
+        "executorShown": "Officer shown by {plan}",
+        "firstDelete": "Quark keeps message content for 12 hours, so this deletion was logged in full. Quark Pro keeps it for 30 days."
     },
     "dashboardAccessUpdate": {
         "title": "Dashboard Access Changed",
