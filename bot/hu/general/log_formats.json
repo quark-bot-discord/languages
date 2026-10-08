@@ -1,7 +1,10 @@
 {
-    "2": "Alapértelmezett (nem beágyazással)",
-    "4": "Json",
-    "3": "Kompakt (nem beágyazással)",
+    "0": "Alapértelmezett",
     "1": "Kompakt",
-    "0": "Alapértelmezett"
+    "2": "Alapértelmezett (nem beágyazással)",
+    "3": "Kompakt (nem beágyazással)",
+    "4": "JSON",
+    "5": "Egyszerű",
+    "6": "Egyszerű (nem beágyazással)",
+    "7": "Részletes"
 }

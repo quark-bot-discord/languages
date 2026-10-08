@@ -3,5 +3,8 @@
     "1": "Compact",
     "2": "Standaard (geen embed)",
     "3": "Compact (geen embed)",
-    "4": "json"
+    "4": "JSON",
+    "5": "Basis",
+    "6": "Basis (geen embed)",
+    "7": "Gedetailleerd"
 }

@@ -3,5 +3,8 @@
     "1": "Kompakt",
     "2": "Standard (ohne Einbettung)",
     "3": "Kompakt (ohne Einbettung)",
-    "4": "json"
+    "4": "JSON",
+    "5": "Einfach",
+    "6": "Einfach (ohne Einbettung)",
+    "7": "Detailliert"
 }
