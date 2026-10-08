@@ -49,7 +49,8 @@
         "descriptionReopened": "{thread} was reopened by {executor}",
         "descriptionLocked": "{thread} was locked by {executor}",
         "descriptionUnlocked": "{thread} was unlocked by {executor}",
-        "titleClosed": "Thread Closed"
+        "titleClosed": "Thread Closed",
+        "titleReopened": "Thread Reopened"
     },
     "polls": {
         "poll": "民意調查",
