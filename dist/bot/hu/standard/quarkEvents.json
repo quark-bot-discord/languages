@@ -138,7 +138,8 @@
         "retainedMessage": "Az üzenetet a(z) {age} ideig a {plan} tárolja",
         "retainedFiles": "A fájlokat a(z) {age} ideig a {plan} tárolja",
         "retainedOriginal": "Az eredetit {age} ideig a {plan} tárolja",
-        "executorShown": "A moderátort megmutatja a {plan} előfizetés"
+        "executorShown": "A moderátort megmutatja a {plan} előfizetés",
+        "firstDelete": "Quark keeps message content for 12 hours, so this deletion was logged in full. Quark Pro keeps it for 30 days."
     },
     "dashboardAccessUpdate": {
         "title": "Kezelőfelület Hozzáférés Megváltozott",
