@@ -138,7 +138,8 @@
         "retainedMessage": "Message kept for {age} by {plan}",
         "retainedFiles": "Files kept for {age} by {plan}",
         "retainedOriginal": "Original kept for {age} by {plan}",
-        "executorShown": "Moderator shown by {plan}"
+        "executorShown": "Moderator shown by {plan}",
+        "firstDelete": "Quark keeps message content for 12 hours, so this deletion was logged in full. Quark Pro keeps it for 30 days."
     },
     "dashboardAccessUpdate": {
         "title": "控制面板存取權限已更改",
