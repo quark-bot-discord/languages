@@ -108,7 +108,8 @@
         "descriptionClosed": "{thread} be lett zárva {executor} által",
         "descriptionReopened": "{thread} újra lett nyitva {executor} által",
         "descriptionLocked": "{thread} be lett zárva {executor} által",
-        "descriptionUnlocked": "{thread} fel lett oldva {executor} által"
+        "descriptionUnlocked": "{thread} fel lett oldva {executor} által",
+        "titleClosed": "Thread Closed"
     },
     "reactionBundle": {
         "title": "Több Reakció Törölve"
