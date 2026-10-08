@@ -108,7 +108,8 @@
         "descriptionClosed": "Th' yarn {thread} was closed by {executor}",
         "descriptionReopened": "Th' yarn {thread} was reopened by {executor}",
         "descriptionLocked": "Th' yarn {thread} was locked by {executor}",
-        "descriptionUnlocked": "Th' yarn {thread} was unlocked by {executor}"
+        "descriptionUnlocked": "Th' yarn {thread} was unlocked by {executor}",
+        "titleClosed": "Thread Closed"
     },
     "reactionBundle": {
         "title": "Multiple Reactions Removed"
