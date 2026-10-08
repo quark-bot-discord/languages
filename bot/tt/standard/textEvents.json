@@ -80,7 +80,8 @@
         "descriptionUnlocked": "{thread} was unlocked by {executor}",
         "titleClosed": "Thread Closed",
         "titleReopened": "Thread Reopened",
-        "titleLocked": "Thread Locked"
+        "titleLocked": "Thread Locked",
+        "titleUnlocked": "Thread Unlocked"
     },
     "messageUnpin": {
         "description": "A message was unpinned by {executor}",
