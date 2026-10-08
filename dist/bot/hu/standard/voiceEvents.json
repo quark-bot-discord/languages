@@ -57,20 +57,20 @@
     "voiceSwitch": {
         "description": "{user} váltott {channel_old}ról/ről a(z) {channel_new} hang csatornába",
         "title": "Hangcsatornát Váltott",
-        "timeInPrevious": "Time in {channel}"
+        "timeInPrevious": "A(z) {channel} időtartama"
     },
     "streamStop": {
         "description": "{user} abba hagyta az élőt a(z) {channel} hangcsatornában",
         "title": "Élő Lezárva",
-        "streamedFor": "Streamed for"
+        "streamedFor": "Élőzte Eddig"
     },
     "voiceLeave": {
         "joined": "Csatlakozott",
         "description": "{user} kilépett a(z) {channel} hangcsatornából",
         "title": "Kilépett Hang Csatornából",
         "joinedValue": "{relative} ({relative_fixed})",
-        "channels": "Channels",
-        "channelDuration": "{channel} for {duration}"
+        "channels": "Csatornák",
+        "channelDuration": "{channel} {duration} ideig"
     },
     "stageStarted": {
         "description": "{executor} elindította a szakaszt a(z) {channel} csatornán",
@@ -104,7 +104,7 @@
         "title": "Áthelyezve",
         "movedBy": "Áthelyeztte",
         "description": "{user} át helyezték a(z) {channel_old} hangcsatornából a(z) {channel_new} hangcsatornába",
-        "timeInPrevious": "Time in {channel}"
+        "timeInPrevious": "A(z) {channel} időtartama"
     },
     "stageSpeakerRemove": {
         "description": "{user} többé nem beszél a(z) {channel} csatornában",

@@ -152,7 +152,7 @@
     "response-status-disabled": "Stáusz csatorna frissítések letiltva!",
     "error-409-0-type-2": "A felhasználónak a kitiltása már nem létezik",
     "setserverlog-type-channels-1": "csatorna események",
-    "setserverlog-confirm1-set": "Minden log esemény mostantól ebben a csatornában lesz rögzítve ({channel}).\n\n[**További konfigurációs lehetőségekért látogasson el a Quark webes irányítópultjára!**]({quark_website_url}/dashboard/{guild_id})",
+    "setserverlog-confirm1-set": "Minden log esemény mostantól ebben a csatornában lesz rögzítve ({channel}).\n\n[**További konfigurációs lehetőségekért látogasson el a Quark webes kezelőfelületén!**]({quark_website_url}/dashboard/{guild_id})",
     "error-434-0": "Más csatornák",
     "need-to-vote-title": "Szavaznód kell hogy használd ezt a parancsot!",
     "error-429-1": "Írj be egy számot (1-100) között",
