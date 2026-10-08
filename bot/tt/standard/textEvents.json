@@ -79,7 +79,8 @@
         "descriptionLocked": "{thread} was locked by {executor}",
         "descriptionUnlocked": "{thread} was unlocked by {executor}",
         "titleClosed": "Thread Closed",
-        "titleReopened": "Thread Reopened"
+        "titleReopened": "Thread Reopened",
+        "titleLocked": "Thread Locked"
     },
     "messageUnpin": {
         "description": "A message was unpinned by {executor}",
