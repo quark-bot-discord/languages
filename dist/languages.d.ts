@@ -357,18 +357,6 @@ export type LanguageStructure = {
   unknownTag: string;
 };
 }>;
-  ignore_options: Promise<{
-  ignoreTargets: string;
-  ignoreExecutors: string;
-  specificMessageContent: string;
-  ignoreChannels: string;
-  ignoreBotExecutors: string;
-  ignoreBotTargets: string;
-  ignoreExecutorRoles: string;
-  ignoreTargetRoles: string;
-  ignoreCategories: string;
-  activeIgnore: string;
-}>;
   guild_update_types: Promise<{
   none: string;
   verification_level: {
@@ -397,6 +385,18 @@ export type LanguageStructure = {
   true: string;
   false: string;
 };
+}>;
+  ignore_options: Promise<{
+  ignoreTargets: string;
+  ignoreExecutors: string;
+  specificMessageContent: string;
+  ignoreChannels: string;
+  ignoreBotExecutors: string;
+  ignoreBotTargets: string;
+  ignoreExecutorRoles: string;
+  ignoreTargetRoles: string;
+  ignoreCategories: string;
+  activeIgnore: string;
 }>;
   log_categories: Promise<{
   serverEvents: string;
@@ -490,10 +490,10 @@ export type LanguageStructure = {
   none: string;
   holographic: string;
 }>;
-  sticker_update_types: Promise<{
+  soundboard_sound_update_types: Promise<{
   none: string;
 }>;
-  soundboard_sound_update_types: Promise<{
+  sticker_update_types: Promise<{
   none: string;
 }>;
   tags_responses: Promise<{
@@ -707,6 +707,10 @@ export type LanguageStructure = {
   name: string;
   description: string;
 }>;
+  premium: Promise<{
+  name: string;
+  description: string;
+}>;
   privacy: Promise<{
   name: string;
   description: string;
@@ -734,10 +738,6 @@ export type LanguageStructure = {
   description: string;
 };
 };
-}>;
-  premium: Promise<{
-  name: string;
-  description: string;
 }>;
   serverlog: Promise<{
   name: string;
@@ -2317,6 +2317,7 @@ export type LanguageStructure = {
   sfeb7132f: string;
 };
   answer: {
+  s0d3d5434: string;
   s0d7afe4c: string;
   s0edb7ca5: string;
   s0f2f4481: string;
@@ -2331,7 +2332,6 @@ export type LanguageStructure = {
   s3868cad3: string;
   s39c35b54: string;
   s4204c3af: string;
-  s427a189f: string;
   s45f4eb9f: string;
   s4881bbbb: string;
   s52ff9d70: string;
@@ -2341,6 +2341,7 @@ export type LanguageStructure = {
   s5d141207: string;
   s604a525e: string;
   s61c83781: string;
+  s62c5f53d: string;
   s657d4732: string;
   s668770f2: string;
   s68ac029b: string;
@@ -2367,7 +2368,6 @@ export type LanguageStructure = {
   sa0897e69: string;
   sa4bfb74a: string;
   sa96317a3: string;
-  saa3f247e: string;
   saa52a027: string;
   sae6e9391: string;
   sae869f9b: string;
@@ -2416,7 +2416,6 @@ export type LanguageStructure = {
   s16fc9bad: string;
   s18448ca2: string;
   s196b5d8c: string;
-  s20f199df: string;
   s261647b8: string;
   s261adf1c: string;
   s279d1f22: string;
@@ -2430,6 +2429,7 @@ export type LanguageStructure = {
   s4ab3cc78: string;
   s4b5ea577: string;
   s52a67f43: string;
+  s53681fe9: string;
   s561a6934: string;
   s592e3b97: string;
   s59a63359: string;
@@ -2507,5 +2507,5 @@ export type LanguageStructure = {
 }>;
 };
 };
-export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "export" | "help" | "initialReactor" | "invite" | "kick" | "language" | "logging" | "mute" | "ping" | "privacy" | "purge" | "reason" | "premium" | "serverlog" | "tags" | "troubleshoot" | "unban" | "unmute" | "vote";
+export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "export" | "help" | "initialReactor" | "invite" | "kick" | "language" | "logging" | "mute" | "ping" | "premium" | "privacy" | "purge" | "reason" | "serverlog" | "tags" | "troubleshoot" | "unban" | "unmute" | "vote";
 export type QuarkLanguageCodes = "en_us" | "en_gb" | "tr" | "vi" | "en_pr" | "pl" | "nl" | "es_es" | "it" | "de" | "fr" | "ru" | "el" | "zh_hant" | "ko" | "sl" | "ar" | "hu" | "ja";
