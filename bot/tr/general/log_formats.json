@@ -1,7 +1,10 @@
 {
-    "2": "Standart (gömülü içermeyen)",
-    "4": "json",
-    "3": "Kompakt (gömülü içermeyen)",
+    "0": "Standart",
     "1": "Kompakt",
-    "0": "Standart"
+    "2": "Standart (gömülü içermeyen)",
+    "3": "Kompakt (gömülü içermeyen)",
+    "4": "JSON",
+    "5": "Basit",
+    "6": "Basit (gömülü içermeyen)",
+    "7": "Ayrıntılı"
 }
