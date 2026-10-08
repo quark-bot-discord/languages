@@ -1,7 +1,10 @@
 {
-    "3": "Compact (no embed)",
-    "4": "json",
     "0": "Standard",
     "1": "Compact",
-    "2": "Standard (no embed)"
+    "2": "Standard (no embed)",
+    "3": "Compact (no embed)",
+    "4": "JSON",
+    "5": "Basic",
+    "6": "Basic (no embed)",
+    "7": "Detailed"
 }
