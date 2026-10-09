@@ -2043,6 +2043,7 @@ export type LanguageStructure = {
   s184efde6: string;
   s19f46d3f: string;
   s1d9137de: string;
+  s1edc8a99: string;
   s1fc12001: string;
   s22334dc2: string;
   s24eb62b6: string;
@@ -2050,6 +2051,7 @@ export type LanguageStructure = {
   s321cd61f: string;
   s36a9ba77: string;
   s3886a127: string;
+  s38ace494: string;
   s3ab96fb8: string;
   s41518281: string;
   s48047eb8: string;
@@ -2059,6 +2061,7 @@ export type LanguageStructure = {
   s5293d033: string;
   s529c60cc: string;
   s59ed1fe8: string;
+  s5b7d9769: string;
   s5cf3a617: string;
   s5fad94e2: string;
   s5fae0d89: string;
