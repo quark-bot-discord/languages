@@ -4,5 +4,6 @@
     "2": "Standard (pas d'embed)",
     "3": "Compact (pas d'embed)",
     "4": "json",
-    "5": "Basic"
+    "5": "Basic",
+    "6": "Basic (no embed)"
 }
