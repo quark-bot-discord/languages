@@ -3,5 +3,8 @@
     "4": "json",
     "3": "مختصر (بدون رسائل الإيمبد)",
     "1": "مختصر (Compact)",
-    "0": "العادي (Standard)"
+    "0": "العادي (Standard)",
+    "5": "Basic",
+    "6": "Basic (no embed)",
+    "7": "Detailed"
 }

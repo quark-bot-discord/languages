@@ -357,18 +357,6 @@ export type LanguageStructure = {
   unknownTag: string;
 };
 }>;
-  ignore_options: Promise<{
-  ignoreTargets: string;
-  ignoreExecutors: string;
-  specificMessageContent: string;
-  ignoreChannels: string;
-  ignoreBotExecutors: string;
-  ignoreBotTargets: string;
-  ignoreExecutorRoles: string;
-  ignoreTargetRoles: string;
-  ignoreCategories: string;
-  activeIgnore: string;
-}>;
   guild_update_types: Promise<{
   none: string;
   verification_level: {
@@ -397,6 +385,18 @@ export type LanguageStructure = {
   true: string;
   false: string;
 };
+}>;
+  ignore_options: Promise<{
+  ignoreTargets: string;
+  ignoreExecutors: string;
+  specificMessageContent: string;
+  ignoreChannels: string;
+  ignoreBotExecutors: string;
+  ignoreBotTargets: string;
+  ignoreExecutorRoles: string;
+  ignoreTargetRoles: string;
+  ignoreCategories: string;
+  activeIgnore: string;
 }>;
   log_categories: Promise<{
   serverEvents: string;
@@ -429,6 +429,9 @@ export type LanguageStructure = {
   "2": string;
   "3": string;
   "4": string;
+  "5": string;
+  "6": string;
+  "7": string;
 }>;
   permissions: Promise<{
   CREATE_INSTANT_INVITE: string;
@@ -490,10 +493,10 @@ export type LanguageStructure = {
   none: string;
   holographic: string;
 }>;
-  sticker_update_types: Promise<{
+  soundboard_sound_update_types: Promise<{
   none: string;
 }>;
-  soundboard_sound_update_types: Promise<{
+  sticker_update_types: Promise<{
   none: string;
 }>;
   tags_responses: Promise<{
@@ -621,6 +624,9 @@ export type LanguageStructure = {
 };
 };
 }>;
+  initialReactor: Promise<{
+  name: string;
+}>;
   help: Promise<{
   name: string;
   description: string;
@@ -634,9 +640,6 @@ export type LanguageStructure = {
   description: string;
 };
 };
-}>;
-  initialReactor: Promise<{
-  name: string;
 }>;
   invite: Promise<{
   name: string;
@@ -707,6 +710,10 @@ export type LanguageStructure = {
   name: string;
   description: string;
 }>;
+  premium: Promise<{
+  name: string;
+  description: string;
+}>;
   privacy: Promise<{
   name: string;
   description: string;
@@ -734,10 +741,6 @@ export type LanguageStructure = {
   description: string;
 };
 };
-}>;
-  premium: Promise<{
-  name: string;
-  description: string;
 }>;
   serverlog: Promise<{
   name: string;
@@ -1506,6 +1509,119 @@ export type LanguageStructure = {
   linkToNewAvatar: string;
 };
 }>;
+  voiceEvents: Promise<{
+  streamStart: {
+  title: string;
+  description: string;
+};
+  streamStop: {
+  title: string;
+  description: string;
+  streamedFor: string;
+};
+  videoStart: {
+  title: string;
+  description: string;
+};
+  videoStop: {
+  title: string;
+  description: string;
+};
+  voiceSwitch: {
+  title: string;
+  description: string;
+  timeInPrevious: string;
+};
+  voiceMove: {
+  title: string;
+  description: string;
+  movedBy: string;
+  timeInPrevious: string;
+};
+  voiceJoin: {
+  title: string;
+  description: string;
+};
+  voiceLeave: {
+  title: string;
+  description: string;
+  joined: string;
+  joinedValue: string;
+  channels: string;
+  channelDuration: string;
+};
+  voiceDisconnect: {
+  title: string;
+  description: string;
+  disconnectedBy: string;
+  voiceChannel: string;
+};
+  serverDeafen: {
+  title: string;
+  description: string;
+  deafenedBy: string;
+  voiceChannel: string;
+};
+  serverMute: {
+  title: string;
+  description: string;
+  mutedBy: string;
+  voiceChannel: string;
+};
+  serverUndeafen: {
+  title: string;
+  description: string;
+  undeafenedBy: string;
+  voiceChannel: string;
+};
+  serverUnmute: {
+  title: string;
+  description: string;
+  unmutedBy: string;
+  voiceChannel: string;
+};
+  channelStatusUpdate: {
+  title: string;
+  description: string;
+  status: string;
+  linksToEmojis: string;
+  descriptionRemoved: string;
+};
+  stageStarted: {
+  title: string;
+  description: string;
+  topic: string;
+};
+  stageEnded: {
+  title: string;
+  description: string;
+  description_noExecutor: string;
+  topic: string;
+  none: string;
+};
+  stageUpdated: {
+  title: string;
+  description: string;
+  oldTopic: string;
+  newTopic: string;
+};
+  stageSpeakerAdd: {
+  title: string;
+  description: string;
+  description_inviteAccepted: string;
+};
+  stageSpeakerRemove: {
+  title: string;
+  description: string;
+};
+  stageSpeakerInvited: {
+  title: string;
+  description: string;
+};
+  voiceBundle: {
+  title: string;
+};
+}>;
   textEvents: Promise<{
   polls: {
   poll: string;
@@ -1623,119 +1739,6 @@ export type LanguageStructure = {
   titleUnlocked: string;
 };
   reactionBundle: {
-  title: string;
-};
-}>;
-  voiceEvents: Promise<{
-  streamStart: {
-  title: string;
-  description: string;
-};
-  streamStop: {
-  title: string;
-  description: string;
-  streamedFor: string;
-};
-  videoStart: {
-  title: string;
-  description: string;
-};
-  videoStop: {
-  title: string;
-  description: string;
-};
-  voiceSwitch: {
-  title: string;
-  description: string;
-  timeInPrevious: string;
-};
-  voiceMove: {
-  title: string;
-  description: string;
-  movedBy: string;
-  timeInPrevious: string;
-};
-  voiceJoin: {
-  title: string;
-  description: string;
-};
-  voiceLeave: {
-  title: string;
-  description: string;
-  joined: string;
-  joinedValue: string;
-  channels: string;
-  channelDuration: string;
-};
-  voiceDisconnect: {
-  title: string;
-  description: string;
-  disconnectedBy: string;
-  voiceChannel: string;
-};
-  serverDeafen: {
-  title: string;
-  description: string;
-  deafenedBy: string;
-  voiceChannel: string;
-};
-  serverMute: {
-  title: string;
-  description: string;
-  mutedBy: string;
-  voiceChannel: string;
-};
-  serverUndeafen: {
-  title: string;
-  description: string;
-  undeafenedBy: string;
-  voiceChannel: string;
-};
-  serverUnmute: {
-  title: string;
-  description: string;
-  unmutedBy: string;
-  voiceChannel: string;
-};
-  channelStatusUpdate: {
-  title: string;
-  description: string;
-  status: string;
-  linksToEmojis: string;
-  descriptionRemoved: string;
-};
-  stageStarted: {
-  title: string;
-  description: string;
-  topic: string;
-};
-  stageEnded: {
-  title: string;
-  description: string;
-  description_noExecutor: string;
-  topic: string;
-  none: string;
-};
-  stageUpdated: {
-  title: string;
-  description: string;
-  oldTopic: string;
-  newTopic: string;
-};
-  stageSpeakerAdd: {
-  title: string;
-  description: string;
-  description_inviteAccepted: string;
-};
-  stageSpeakerRemove: {
-  title: string;
-  description: string;
-};
-  stageSpeakerInvited: {
-  title: string;
-  description: string;
-};
-  voiceBundle: {
   title: string;
 };
 }>;
@@ -2507,5 +2510,5 @@ export type LanguageStructure = {
 }>;
 };
 };
-export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "export" | "help" | "initialReactor" | "invite" | "kick" | "language" | "logging" | "mute" | "ping" | "privacy" | "purge" | "reason" | "premium" | "serverlog" | "tags" | "troubleshoot" | "unban" | "unmute" | "vote";
+export type SlashCommandNames = "ban" | "commands" | "config" | "dashboard" | "debug" | "export" | "initialReactor" | "help" | "invite" | "kick" | "language" | "logging" | "mute" | "ping" | "premium" | "privacy" | "purge" | "reason" | "serverlog" | "tags" | "troubleshoot" | "unban" | "unmute" | "vote";
 export type QuarkLanguageCodes = "en_us" | "en_gb" | "tr" | "vi" | "en_pr" | "pl" | "nl" | "es_es" | "it" | "de" | "fr" | "ru" | "el" | "zh_hant" | "ko" | "sl" | "ar" | "hu" | "ja";

@@ -3,5 +3,8 @@
     "4": "json",
     "3": "Kompakt (gömülü içermeyen)",
     "1": "Kompakt",
-    "0": "Standart"
+    "0": "Standart",
+    "5": "Basic",
+    "6": "Basic (no embed)",
+    "7": "Detailed"
 }

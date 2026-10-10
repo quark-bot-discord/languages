@@ -3,5 +3,8 @@
     "1": "Kompaktowe",
     "2": "Standardowe (brak osadzenia)",
     "3": "Kompaktowe (brak osadzenia)",
-    "4": "pliki json"
+    "4": "pliki json",
+    "5": "Basic",
+    "6": "Basic (no embed)",
+    "7": "Detailed"
 }
